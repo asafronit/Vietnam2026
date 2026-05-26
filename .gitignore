@@ -1,7 +1,8 @@
 ﻿# Ignore everything
 *
-# Except itinerary.html
+# Except HTML files
 !itinerary.html
+!index.html
 !.gitignore
 # Except GitHub Actions workflow
 !.github/
