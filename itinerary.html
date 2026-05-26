@@ -163,6 +163,15 @@ details.ep-details[open] .eb-chev{transform:rotate(180deg)}
 /* v3.9: clipboard toast */
 #grab-toast{position:fixed;bottom:80px;left:50%;transform:translateX(-50%) translateY(16px);background:rgba(15,124,92,.96);color:#fff;padding:10px 18px 10px 14px;border-radius:24px;font-size:.82rem;font-weight:600;opacity:0;transition:opacity .22s,transform .22s;pointer-events:none;z-index:9999;white-space:nowrap;max-width:88vw;overflow:hidden;text-overflow:ellipsis;box-shadow:0 4px 16px rgba(0,0,0,.22)}
 #grab-toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+/* v5.0: local contact cards */
+.contacts-block{display:flex;flex-direction:column;gap:6px}
+.contact-card{background:#faf5ff;border-left:3px solid #7c3aed;border-radius:0 8px 8px 0;padding:8px 12px}
+.contact-name{font-weight:700;color:var(--text);display:block;font-size:.84rem}
+.contact-desc{color:var(--muted);margin:1px 0 5px;display:block;font-size:.77rem;line-height:1.4}
+.wa-link{display:inline-flex;align-items:center;gap:5px;color:#6d28d9;text-decoration:none;font-weight:600;font-size:.81rem}
+.wa-link:hover{text-decoration:underline}
+.wa-link:focus-visible{outline:2px solid #6d28d9;outline-offset:2px;border-radius:2px;text-decoration:underline}
+.wa-phone{font-size:.79rem;font-variant-numeric:tabular-nums}
 </style>
 <script>document.documentElement.className+=' js-ready'</script>
 </head>
