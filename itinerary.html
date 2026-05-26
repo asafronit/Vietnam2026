@@ -159,8 +159,10 @@ details.ep-details[open] .eb-chev{transform:rotate(180deg)}
 /* --- v3.0: YouTube extreme-activity links (red) --- */
 .yt-link{color:#cc0000;font-weight:700;font-size:.72rem;text-decoration:none;vertical-align:middle;white-space:nowrap;padding:1px 6px;background:#fff0f0;border:1px solid #fca5a5;border-radius:12px;margin-left:3px}
 .yt-link:hover{background:#fee2e2;color:#991b1b}
-.yt-link:focus-visible{outline:2px solid #cc0000;outline-offset:2px;border-radius:12px}
-</style>
+
+/* v3.9: clipboard toast */
+#grab-toast{position:fixed;bottom:80px;left:50%;transform:translateX(-50%) translateY(16px);background:rgba(15,124,92,.96);color:#fff;padding:10px 18px 10px 14px;border-radius:24px;font-size:.82rem;font-weight:600;opacity:0;transition:opacity .22s,transform .22s;pointer-events:none;z-index:9999;white-space:nowrap;max-width:88vw;overflow:hidden;text-overflow:ellipsis;box-shadow:0 4px 16px rgba(0,0,0,.22)}
+#grab-toast.show{opacity:1;transform:translateX(-50%) translateY(0)}</style>
 <script>document.documentElement.className+=' js-ready'</script>
 </head>
 <body>
@@ -1021,7 +1023,7 @@ details.ep-details[open] .eb-chev{transform:rotate(180deg)}
 </div>
 </details>
 </main>
-<footer class="footer">Vietnam 2026 &nbsp;&middot;&nbsp; HTML v3.8 &nbsp;&middot;&nbsp; May 2026 &nbsp;&middot;&nbsp; &#128205; Locations linked to Google Maps &amp; Grab</footer>
+<footer class="footer">Vietnam 2026 &nbsp;&middot;&nbsp; HTML v3.9 &nbsp;&middot;&nbsp; May 2026 &nbsp;&middot;&nbsp; &#128205; Locations linked to Google Maps &amp; Grab</footer>
 <script>
 window.addEventListener('load',function(){
   var d=document.getElementsByTagName('details');
