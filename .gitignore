@@ -1,0 +1,5 @@
+﻿# Ignore everything
+*
+# Except itinerary.html
+!itinerary.html
+!.gitignore
