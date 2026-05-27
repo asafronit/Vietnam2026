@@ -1,0 +1,239 @@
+﻿<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Vietnam 2026 — Design 1: Map Explorer</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#0f1923;--panel:#1a2535;--card:#1e2d40;--border:rgba(255,255,255,0.08);--primary:#22d3ee;--accent:#f59e0b;--green:#10b981;--text:#f1f5f9;--muted:#94a3b8;--r:12px}
+html{height:-webkit-fill-available;height:100%}body{min-height:100vh;min-height:-webkit-fill-available;font-family:"Inter",sans-serif;background:var(--bg);color:var(--text);overflow:hidden}
+.hdr{position:fixed;top:0;left:0;right:0;height:56px;z-index:1000;background:rgba(15,25,35,.95);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);display:flex;align-items:center;gap:20px;padding:0 max(20px,env(safe-area-inset-right)) 0 max(20px,env(safe-area-inset-left));overflow-x:auto}
+.hdr-logo{font-size:1.1rem;font-weight:800}.hdr-logo span{color:var(--primary)}
+.hdr-divider{width:1px;height:20px;background:var(--border)}
+.hdr-stats{display:flex;gap:16px}
+.hdr-stat{display:flex;align-items:center;gap:6px;font-size:.78rem;color:var(--muted)}
+.hdr-stat b{color:var(--text);font-weight:600}
+.layout{display:flex;position:fixed;top:56px;left:0;right:0;bottom:0;overflow:hidden}
+.map-pane{flex:1 1 55%;position:relative}
+#map{width:100%;height:100%;min-height:200px}
+.detail-pane{flex:0 0 420px;height:100%;overflow-y:auto;-webkit-overflow-scrolling:touch;background:var(--panel);border-left:1px solid var(--border);display:flex;flex-direction:column}
+.stop-list{padding:12px;display:flex;flex-direction:column;gap:4px}
+.stop-chip{display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:10px;cursor:pointer;transition:background .15s;border:1px solid transparent;background:none;width:100%;text-align:right;color:var(--text);font-family:inherit}
+.stop-chip:hover{background:var(--card)}
+.stop-chip.active{background:var(--card);border-color:var(--primary)}
+.stop-num{width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.72rem;font-weight:800;color:#fff;flex-shrink:0}
+.stop-info{flex:1;min-width:0;text-align:right}
+.stop-name{font-size:.88rem;font-weight:600}
+.stop-meta{font-size:.72rem;color:var(--muted);margin-top:1px}
+.stop-badge{font-size:.65rem;font-weight:700;padding:2px 7px;border-radius:20px;background:rgba(255,255,255,.08);color:var(--muted);white-space:nowrap}
+.detail-panel{display:none;flex-direction:column;height:100%;overflow-y:auto;-webkit-overflow-scrolling:touch}
+.detail-panel.visible{display:flex}
+.detail-header{padding:20px;border-bottom:1px solid var(--border);position:sticky;top:0;background:var(--panel);z-index:10}
+.detail-back{display:inline-flex;align-items:center;gap:6px;font-size:.75rem;cursor:pointer;background:none;border:none;color:var(--muted);font-family:inherit;margin-bottom:10px;padding:0}
+.detail-back:hover{color:var(--text)}
+.detail-num{width:42px;height:42px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1rem;color:#fff;margin-bottom:10px}
+.detail-city{font-size:1.4rem;font-weight:800}
+.detail-sub{font-size:.8rem;color:var(--muted);margin-top:3px}
+.detail-pills{display:flex;gap:6px;margin-top:10px;flex-wrap:wrap}
+.pill{display:inline-flex;align-items:center;gap:5px;padding:4px 10px;border-radius:20px;font-size:.72rem;font-weight:600;background:rgba(255,255,255,.07);color:var(--muted)}
+.pill.green{background:rgba(16,185,129,.15);color:var(--green)}
+.pill.amber{background:rgba(245,158,11,.15);color:var(--accent)}
+.pill.cyan{background:rgba(34,211,238,.15);color:var(--primary)}
+.detail-body{padding:16px 20px;display:flex;flex-direction:column;gap:16px}
+.section-title{font-size:.65rem;font-weight:700;text-transform:uppercase;letter-spacing:1.2px;color:var(--muted);margin-bottom:8px}
+.hotel-card{background:var(--card);border-radius:var(--r);padding:12px 14px;border:1px solid var(--border);margin-bottom:6px}
+.hotel-name{font-weight:700;font-size:.88rem}
+.hotel-price{font-size:.75rem;color:var(--accent);font-weight:600;margin-top:2px}
+.hotel-note{font-size:.76rem;color:var(--muted);margin-top:4px;line-height:1.4}
+.hotel-link{display:inline-flex;align-items:center;gap:4px;margin-top:6px;font-size:.72rem;color:var(--primary);text-decoration:none;font-weight:600}
+.hotel-link:hover{text-decoration:underline}
+.hotel-link:focus-visible{outline:2px solid var(--primary);outline-offset:2px;border-radius:2px}
+.act-item{display:flex;align-items:flex-start;gap:10px;padding:9px 12px;background:var(--card);border-radius:9px;border:1px solid var(--border);margin-bottom:5px}
+.act-icon{font-size:.95rem;flex-shrink:0;width:24px}
+.act-info{flex:1}
+.act-name{font-size:.83rem;font-weight:500}
+.act-links{display:flex;gap:5px;margin-top:4px}
+.act-link{font-size:.67rem;font-weight:700;padding:2px 8px;border-radius:12px;text-decoration:none;transition:opacity .15s}
+.act-link:hover{opacity:.8}
+.act-link:focus-visible{outline:2px solid currentColor;outline-offset:2px;border-radius:12px}
+.act-link.map{background:rgba(59,130,246,.2);color:#60a5fa}
+.act-link.grab{background:rgba(16,185,129,.2);color:var(--green)}
+.act-cost{font-size:.76rem;color:var(--accent);font-weight:700;flex-shrink:0}
+.tips-box{background:rgba(245,158,11,.1);border-right:3px solid var(--accent);border-radius:var(--r) 0 0 var(--r);padding:12px 14px}
+.tips-box li{font-size:.8rem;color:#fcd34d;margin-right:14px;margin-bottom:4px;line-height:1.5}
+.contact-card{background:rgba(124,58,237,.1);border-right:3px solid #7c3aed;border-radius:var(--r) 0 0 var(--r);padding:10px 14px;margin-bottom:5px}
+.contact-name{font-weight:700;font-size:.85rem}
+.contact-desc{font-size:.76rem;color:var(--muted);margin:2px 0 6px;line-height:1.4}
+.wa-btn{display:inline-flex;align-items:center;gap:5px;font-size:.75rem;color:#a78bfa;font-weight:600;text-decoration:none}
+.wa-btn:hover{text-decoration:underline}
+.wa-btn:focus-visible{outline:2px solid #a78bfa;outline-offset:2px;border-radius:2px}
+.detail-nav{display:flex;gap:8px;padding:12px 20px;border-top:1px solid var(--border);background:var(--panel);position:sticky;bottom:0}
+.nav-btn{flex:1;padding:10px;border-radius:10px;border:1px solid var(--border);background:var(--card);color:var(--text);font-size:.82rem;font-weight:600;cursor:pointer;font-family:inherit;transition:all .15s}
+.nav-btn:hover{border-color:var(--primary);color:var(--primary)}
+.nav-btn:disabled{opacity:.3;cursor:not-allowed}
+.nav-btn:focus-visible{outline:2px solid var(--primary);outline-offset:2px}
+.nav-btn.primary{background:var(--primary);color:var(--bg);border-color:var(--primary)}
+.nav-btn.primary:hover{opacity:.9}
+.custom-pin{width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:800;color:#fff;border:2px solid rgba(255,255,255,.4);box-shadow:0 2px 12px rgba(0,0,0,.4);cursor:pointer;transition:transform .15s;font-family:"Inter",sans-serif}
+.custom-pin.active-pin{border:3px solid #fff;transform:scale(1.25);box-shadow:0 0 0 3px rgba(34,211,238,.5)}
+::-webkit-scrollbar{width:5px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:rgba(255,255,255,.15);border-radius:3px}
+.reg-sep{font-size:.6rem;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:var(--muted);padding:10px 2px 4px}
+.next-transport{background:var(--card);border-radius:var(--r);padding:12px 14px;border:1px solid var(--border);font-size:.82rem;color:var(--muted)}
+@media(max-width:768px){html,body{overflow-y:auto;overflow-x:hidden}.layout{position:static;flex-direction:column;height:auto;overflow:visible;margin-top:56px;top:auto;left:auto;right:auto;bottom:auto}.map-pane{height:40svh;height:40vh;min-height:240px;flex:none}.detail-pane{flex:none;width:100%;height:auto;max-height:none;overflow:visible;border-left:none;border-top:1px solid var(--border)}.detail-panel{height:auto;overflow:visible}.detail-panel.visible{display:block}}
+.hdr-back{display:inline-flex;align-items:center;gap:4px;font-size:.78rem;font-weight:600;color:var(--muted);text-decoration:none;padding:4px 10px;border-radius:20px;border:1px solid var(--border);transition:all .15s;white-space:nowrap}
+.hdr-back:hover{color:var(--text);border-color:rgba(255,255,255,.2);background:rgba(255,255,255,.06)}
+.hdr-back:focus-visible{outline:2px solid var(--primary);outline-offset:3px;border-radius:20px}
+/* iOS touch targets: Leaflet zoom controls must be ≥44x44px (WCAG 2.5.5) */
+.leaflet-control-zoom a{width:44px!important;height:44px!important;line-height:44px!important;font-size:1.2rem!important}
+/* overscroll-behavior: prevent panel scroll chaining to map (WCAG 2.5.5 motor a11y) */
+.detail-pane,.detail-panel{overscroll-behavior-y:contain}
+</style>
+</head>
+<body>
+<header class="hdr" role="banner">
+  <div class="hdr-logo">🇻🇳 Vietnam <span>2026</span></div>
+  <div class="hdr-divider"></div>
+  <a href="itinerary.html" class="hdr-back" aria-label="Back to itinerary">&#8592; Itinerary</a>
+  <div class="hdr-divider"></div>
+  <nav class="hdr-stats" aria-label="נתוני הטיול">
+    <div class="hdr-stat"><b>29</b> ימים</div>
+    <div class="hdr-stat"><b>12</b> עצירות</div>
+    <div class="hdr-stat"><b>4</b> טיסות</div>
+    <div class="hdr-stat"><b>26 אוק – 24 נוב</b></div>
+  </nav>
+</header>
+<div class="layout">
+  <aside class="detail-pane" id="detailPane" role="complementary" aria-label="פרטי עצירה">
+    <nav id="stopListView" class="stop-list" aria-label="רשימת עצירות">
+      <p class="reg-sep">לחץ על עצירה או סמן במפה</p>
+    </nav>
+    <div id="stopDetailView" class="detail-panel" role="region" aria-live="polite"></div>
+  </aside>
+  <main class="map-pane" role="main" aria-label="מפת הטיול">
+    <div id="map" role="application" aria-label="Interactive map of Vietnam 2026 — 12 stops from Hanoi to Phu Quoc. Use the stop list on the left to navigate."></div>
+  </main>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
+// iOS: recalculate Leaflet size on resize / orientation change / address bar show-hide
+(function(){
+  var _t;
+  function triggerResize(){
+    clearTimeout(_t);
+    _t=setTimeout(function(){if(typeof map!=="undefined"&&map)map.invalidateSize(false);},200);
+  }
+  // orientationchange fires when phone rotates
+  window.addEventListener("orientationchange",function(){setTimeout(triggerResize,350);});
+  // visualViewport fires when iOS address bar slides in/out
+  if(window.visualViewport){
+    window.visualViewport.addEventListener("resize",triggerResize);
+  } else {
+    window.addEventListener("resize",triggerResize);
+  }
+  // Settle after initial render (Leaflet needs container to have painted dimensions)
+  setTimeout(triggerResize,600);
+})();
+</script>
+<script>
+const stops=[{id:1,name:"Hanoi",region:"north",lat:21.0285,lng:105.8522,color:"#ef4444",dates:"26 אוק – 29 אוק",nights:3,arrival:"✈️ נחיתה Etihad EY430 18:10",hotels:[{name:"Peridot Grand Luxury Boutique",price:"$80–137/לילה",note:"בוטיק 5 כוכבים, בריכת גג, מיקום מעולה",url:"https://www.booking.com/hotel/vn/peridot-grand-amp-spa-by-aira-hoan-kiem1.html"},{name:"Solaria Hanoi",price:"$60–90/לילה",note:"מרכז Old Quarter",url:"https://www.booking.com/hotel/vn/solaria-hanoi.en.html"},{name:"Lucky Hostel",price:"$20–35/לילה",note:"פופולרי ישראלים, ליד Chabad",url:"https://eastcardil.co.il/vietnam-hostels/"}],activities:[{icon:"🍜",name:"Old Quarter Walk + Hoan Kiem Lake",cost:"חינם",mapUrl:"https://maps.google.com/?q=Hoan+Kiem+Lake,+Hanoi"},{icon:"🏛️",name:"Temple of Literature",cost:"~$1",mapUrl:"https://maps.google.com/?q=Temple+of+Literature,+Hanoi"},{icon:"⚓",name:"Hoa Lo Prison Museum",cost:"~$1.50",mapUrl:"https://maps.google.com/?q=Hoa+Lo+Prison,+Hanoi"},{icon:"🍺",name:"Bia Hoi Corner – הבירה הזולה בעולם",cost:"< $1",mapUrl:"https://maps.google.com/?q=Ta+Hien+Street,+Hanoi"},{icon:"🎨",name:"Mia – סדנת ציור בצבעי מים",cost:"$25–40",mapUrl:"https://maps.google.com/?q=Hanoi+Old+Quarter"}],tips:["SIM: Viettel בשדה התעופה, 30 יום ~$5","מטבע: VND – כספומטים בכל מקום","Grab תמיד זול יותר ממוניות רגילות","מנמל התעופה: Grab ~$8 | אוטובוס 86: $1.50 | 45 דק"],contacts:[{name:"Rocky – מדריך אוכל + נהג צפון",desc:"סיורי אוכל בהאנוי. נהג אמין לצפון – Tam Coc, שדה תעופה",wa:"https://wa.me/84972941904",phone:"+84 97 294 19 04"},{name:"Mia – סדנת ציור",desc:"מדריכה נהדרת, סבלנית. יוצאים עם ציורים יפים גם ללא ניסיון",wa:"https://wa.me/84383166924",phone:"+84 383 166 924"}],budget:"$240–411",nextTransport:"🚌 אוטובוס לילה לסאפה ~22:00"},{id:2,name:"Sapa",region:"north",lat:22.3364,lng:103.8440,color:"#f97316",dates:"30 אוק – 31 אוק",nights:2,arrival:"🚌 אוטובוס לילה מהאנוי",hotels:[{name:"Topas Ecolodge",price:"$90–160/לילה",note:"נוף עמק מדהים, בקתות עץ",url:"https://www.booking.com/hotel/vn/topas-ecolodge.html"},{name:"Sapa O Chau Lodge",price:"$40–70/לילה",note:"חוויה מקומית, צוות H'mong",url:"https://www.booking.com/hotel/vn/sapa-ochau.html"}],activities:[{icon:"⛰️",name:"Fansipan – פסגת הר הגבוה בווייטנאם 3143מ",cost:"$40–105",mapUrl:"https://maps.google.com/?q=Fansipan+Mountain,+Sapa"},{icon:"🌾",name:"טיול בין כפרי H'mong + שדות אורז בטרסות",cost:"$20–40",mapUrl:"https://maps.google.com/?q=Sapa+Rice+Terraces"},{icon:"🛒",name:"שוק סאפה – מוצרי מלאכת יד",cost:"חינם",mapUrl:"https://maps.google.com/?q=Sapa+Market"}],tips:["לחפש מדריך מקומי H'mong","טמפרטורה 10-20 בלילה – להביא שכבות","Fansipan: כבלית $40 | מדריך מקומי $105"],contacts:[],budget:"$80–320",nextTransport:"🚌 אוטובוס להא ג'יאנג"},{id:3,name:"Ha Giang Loop",region:"north",lat:22.8278,lng:104.9839,color:"#eab308",dates:"1 נוב – 3 נוב",nights:2,arrival:"🚌 אוטובוס מסאפה",hotels:[{name:"Ha Giang Lodge (כלול ב-Loop)",price:"כלול",note:"מגיע עם חבילת Easy Rider 2 ימים",url:""},{name:"A Little Piece Of Heaven",price:"$15–30/לילה",note:"מומלץ מאוד בקהילה הישראלית",url:"https://www.booking.com/hotel/vn.html"}],activities:[{icon:"🏍️",name:"Ha Giang Easy Rider Loop – 2 ימים",cost:"$149–189",mapUrl:"https://maps.google.com/?q=Ha+Giang,+Vietnam"},{icon:"🌄",name:"Ma Pi Leng Pass – מעבר ההרים המרהיב",cost:"כלול ב-Loop",mapUrl:"https://maps.google.com/?q=Ma+Pi+Leng+Pass,+Ha+Giang"},{icon:"🛶",name:"שייט בנהר Nho Que הכחול-טורקיז",cost:"$5–10",mapUrl:"https://maps.google.com/?q=Nho+Que+River,+Ha+Giang"}],tips:["הזמן Easy Rider מראש – ביקוש גבוה!","חבר מצלמה טובה – הנוף הכי מרהיב בווייטנאם","ה-Loop ב-2 ימים עדיף על 1 יום"],contacts:[],budget:"$149–189 (כולל לינה ואוכל)",nextTransport:"🚌 חזרה להאנוי"},{id:4,name:"Hanoi (מעבר)",region:"north",lat:21.0300,lng:105.8700,color:"#64748b",dates:"4 נוב – 5 נוב",nights:2,arrival:"🚌 חזרה מהא ג'יאנג",hotels:[{name:"אותו מלון מתחילת הטיול",price:"$30–80",note:"לחכות עם מזוודות בבית קפה אם לא זמין",url:""}],activities:[{icon:"🌆",name:"Hanoi Old Quarter – ביקור קצר נוסף",cost:"חינם",mapUrl:"https://maps.google.com/?q=Hanoi+Old+Quarter"}],tips:["ניתן להפקיד מזוודות בבית קפה ~$2","אוטובוס לHa Long Bay עוזב ~07:30–08:00"],contacts:[],budget:"$30–80",nextTransport:"🚌 אוטובוס לHa Long Bay בוקר"},{id:5,name:"Ha Long Bay",region:"north",lat:20.9099,lng:107.1839,color:"#22c55e",dates:"6 נוב – 7 נוב",nights:1,arrival:"🚌 אוטובוס מהאנוי",hotels:[{name:"קרוז לילה ב-Ha Long Bay",price:"$100–160 לזוג",note:"כל הארוחות ופעילויות כלולות",url:"https://www.booking.com/hotel/vn/halong-bay-cruise.html"},{name:"Cat Ba Island Hostel",price:"$20–40/לילה",note:"לאחר הקרוז – טיול בקאט בה",url:""}],activities:[{icon:"⛵",name:"Ha Long Bay 1-Night Cruise",cost:"$100–160",mapUrl:"https://maps.google.com/?q=Ha+Long+Bay,+Vietnam"},{icon:"🏊",name:"שחייה וקיאקים בין הסלעים",cost:"כלול",mapUrl:"https://maps.google.com/?q=Ha+Long+Bay+Kayaking"},{icon:"🌙",name:"דיג ביולוגי זוהר בלילה",cost:"כלול",mapUrl:"https://maps.google.com/?q=Ha+Long+Bay"}],tips:["הזמן קרוז עם rating גבוה","אל תיקח יום בלבד – לילה על הסיפון שווה!","Cat Ba Island מוסיף 2 ימים נהדרים"],contacts:[],budget:"$125–200",nextTransport:"🚌 אוטובוס לNinh Binh"},{id:6,name:"Ninh Binh",region:"north",lat:20.2505,lng:105.9745,color:"#14b8a6",dates:"8 נוב – 9 נוב",nights:2,arrival:"🚌 מHa Long",hotels:[{name:"Trang An Eco Lodge",price:"$40–80/לילה",note:"נוף מדהים, שקט, אווירה כפרית",url:"https://www.booking.com/hotel/vn/trang-an-eco-lodge.html"}],activities:[{icon:"🚣",name:"Trang An Boat Tour – 3 שעות בין סלעים ומערות",cost:"$3–8",mapUrl:"https://maps.google.com/?q=Trang+An,+Ninh+Binh"},{icon:"🚴",name:"אופניים לTam Coc – Ha Long ביבשה",cost:"$5–10",mapUrl:"https://maps.google.com/?q=Tam+Coc,+Ninh+Binh"},{icon:"🕌",name:"Bai Dinh Temple – הפגודה הגדולה בווייטנאם",cost:"$2",mapUrl:"https://maps.google.com/?q=Bai+Dinh+Temple,+Ninh+Binh"}],tips:["Trang An עדיף על Tam Coc – פחות תיירותי","אופניים להשכרה ~$2/יום","לבש שכבת גשם – קיאק רטוב!"],contacts:[],budget:"$80–160",nextTransport:"🚌 אוטובוס לילה לPhong Nha"},{id:7,name:"Phong Nha",region:"central",lat:17.5934,lng:106.2865,color:"#06b6d4",dates:"10 נוב – 11 נוב",nights:2,arrival:"🚌 אוטובוס לילה",hotels:[{name:"Phong Nha Farmstay",price:"$30–60/לילה",note:"הטוב ביותר – בריכה, נוף, מומלץ מאוד",url:"https://www.booking.com/hotel/vn/phong-nha-farmstay.html"}],activities:[{icon:"🦇",name:"Dark Cave – זיפליין + שחייה במי בוץ",cost:"$34",mapUrl:"https://maps.google.com/?q=Dark+Cave,+Phong+Nha"},{icon:"🏞️",name:"Paradise Cave – המערה הגדולה 300מ גובה",cost:"$18",mapUrl:"https://maps.google.com/?q=Paradise+Cave,+Phong+Nha"},{icon:"🚣",name:"Phong Nha Cave – שייט בתוך המערה",cost:"$18",mapUrl:"https://maps.google.com/?q=Phong+Nha+Cave"}],tips:["הזמן Dark Cave ישירות בכניסה","Son Doong $3,000 ואזלו שנתיים קדימה","Farmstay כוללת הסעות לכל המערות"],contacts:[],budget:"$60–120",nextTransport:"🚌 אוטובוס להUE"},{id:8,name:"Hue",region:"central",lat:16.4637,lng:107.5909,color:"#3b82f6",dates:"12 נוב – 14 נוב",nights:3,arrival:"🚌 מPhong Nha",hotels:[{name:"Pilgrimage Village",price:"$70–120/לילה",note:"בוטיק, גינות, בריכה",url:"https://www.booking.com/hotel/vn/pilgrimage-village-hue.html"}],activities:[{icon:"🏯",name:"Imperial Citadel – מבצר שושלת Nguyen",cost:"$5",mapUrl:"https://maps.google.com/?q=Hue+Citadel"},{icon:"⛩️",name:"קברות הקיסרים – Minh Mang, Tu Duc",cost:"$3–5",mapUrl:"https://maps.google.com/?q=Minh+Mang+Tomb,+Hue"},{icon:"🛶",name:"Perfume River Boat – שייט שקיעה",cost:"$15–25",mapUrl:"https://maps.google.com/?q=Perfume+River,+Hue"}],tips:["Easy Rider מHue לHoi An – נוף Hai Van Pass","לאכול Bun Bo Hue – מרק מקומי","כרטיס כולל לכל הקברים: $12"],contacts:[],budget:"$140–240",nextTransport:"🏍️ Easy Rider דרך Hai Van Pass לHoi An"},{id:9,name:"Hoi An",region:"central",lat:15.8801,lng:108.3380,color:"#8b5cf6",dates:"15 נוב – 18 נוב",nights:4,arrival:"🏍️ Easy Rider מHue",hotels:[{name:"Anantara Hoi An Resort",price:"$120–200/לילה",note:"על גדות הנהר, בריכה, ספא",url:"https://www.booking.com/hotel/vn/anantara-hoi-an-resort.html"},{name:"Hoi An Historic Hostel",price:"$20–40/לילה",note:"מרכז העיר העתיקה, אווירה חברתית",url:"https://www.booking.com/hotel/vn.html"}],activities:[{icon:"🌊",name:"גלישה / Kitesurfing – An Bang Beach",cost:"$50–80",mapUrl:"https://maps.google.com/?q=An+Bang+Beach,+Hoi+An"},{icon:"🏮",name:"Hoi An Old Town – עיר עתיקה UNESCO",cost:"$5",mapUrl:"https://maps.google.com/?q=Hoi+An+Ancient+Town"},{icon:"🚴",name:"אופניים לכפרים – עמק הנהר האחורי",cost:"$5",mapUrl:"https://maps.google.com/?q=Hoi+An+Countryside"},{icon:"👗",name:"תפירת בגדים מנהג – 24–48 שעות!",cost:"$20–60",mapUrl:"https://maps.google.com/?q=Hoi+An+Tailors"}],tips:["הזמן חייטים מומלץ מראש","An Bang עדיף על My Khe","לאכול Cao Lau – רק בHoi An!","My Son Sanctuary – חצי יום מהיר"],contacts:[],budget:"$80–800",nextTransport:"✈️ טיסה לHo Chi Minh City"},{id:10,name:"Ho Chi Minh City",region:"south",lat:10.7769,lng:106.7009,color:"#ec4899",dates:"19 נוב – 20 נוב",nights:2,arrival:"✈️ מDa Nang",hotels:[{name:"The Reverie Saigon",price:"$200–400/לילה",note:"פאר מוחלט – לספלאג אחד",url:"https://www.booking.com/hotel/vn/the-reverie-saigon.html"},{name:"Lotte Legend Hotel Saigon",price:"$80–150/לילה",note:"נוף מגדל, עיצוב ייחודי",url:"https://www.booking.com/hotel/vn/lotte-legend-saigon.html"}],activities:[{icon:"⛏️",name:"Cu Chi Tunnels – מנהרות המלחמה",cost:"$10–20",mapUrl:"https://maps.google.com/?q=Cu+Chi+Tunnels,+Vietnam"},{icon:"🏢",name:"Ben Thanh Market + District 1",cost:"חינם",mapUrl:"https://maps.google.com/?q=Ben+Thanh+Market,+Ho+Chi+Minh"},{icon:"🚤",name:"סיור Mekong Delta – 1 יום",cost:"$20–30",mapUrl:"https://maps.google.com/?q=Mekong+Delta,+Vietnam"},{icon:"🌆",name:"Saigon Skydeck – נוף מ-52 קומות",cost:"$10",mapUrl:"https://maps.google.com/?q=Bitexco+Tower,+Ho+Chi+Minh"}],tips:["District 1 לרגל, Grab לכל מקום אחר","War Remnants Museum – מרגש","Bui Vien Street = Beer Street"],contacts:[],budget:"$320–1600",nextTransport:"✈️ טיסה לPhu Quoc"},{id:11,name:"Phu Quoc",region:"south",lat:10.2899,lng:103.9840,color:"#f43f5e",dates:"21 נוב – 23 נוב",nights:3,arrival:"✈️ מHo Chi Minh",hotels:[{name:"Premier Residences Phu Quoc",price:"$150–300/לילה",note:"ספא + בריכה + חוף פרטי",url:"https://www.booking.com/hotel/vn/premier-village-phu-quoc.html"},{name:"Mango Bay Resort",price:"$70–120/לילה",note:"אקולוגי, שקט, נוף מהמם",url:"https://www.booking.com/hotel/vn/mango-bay-resort.html"}],activities:[{icon:"🤿",name:"צלילה – 2 Fun Dives (PADI)",cost:"$130–170",mapUrl:"https://maps.google.com/?q=Phu+Quoc+Diving"},{icon:"⛵",name:"Island Hopping – 3 איים + snorkeling",cost:"$20–30",mapUrl:"https://maps.google.com/?q=Phu+Quoc+Island+Hopping"},{icon:"🛵",name:"סקר את האי על קטנוע",cost:"$10/יום",mapUrl:"https://maps.google.com/?q=Phu+Quoc+Island"},{icon:"🌅",name:"Sao Beach – חוף הסאנדבאר הלבן",cost:"חינם",mapUrl:"https://maps.google.com/?q=Sao+Beach,+Phu+Quoc"}],tips:["Rainbow Divers – מומלץ לצלילה","הזמן Island Hopping בשוק Phu Quoc","מים שקופים ביותר בנובמבר – עונה מושלמת"],contacts:[],budget:"$210–900",nextTransport:"✈️ טיסה לHanoi"},{id:12,name:"Hanoi (יציאה)",region:"north",lat:21.0200,lng:105.8400,color:"#6b7280",dates:"23 נוב – 24 נוב",nights:1,arrival:"✈️ מPhu Quoc",hotels:[{name:"Marriott Hanoi",price:"$80–130/לילה",note:"קרוב לשדה התעופה – נוח ליציאה",url:"https://www.booking.com/hotel/vn/marriott-hanoi.html"}],activities:[{icon:"🛍️",name:"קניות אחרונות – Old Quarter + Dong Xuan",cost:"תלוי",mapUrl:"https://maps.google.com/?q=Hanoi+Old+Quarter"}],tips:["טיסה EY431 יוצאת 20:00 – שדה תעופה ב-17:00","Grab מהעיר לשדה: ~$8, 45 דק","לוודא שהמזוודות לא עברו את מגבלת המשקל!"],contacts:[],budget:"$80–130",nextTransport:"🏠 חזרה לישראל!"}];
+let currentStop=null,markers=[],map;
+map=L.map("map",{zoomControl:false,attributionControl:true,tap:true,tapTolerance:15}).setView([17.5,106.5],6);
+L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",{attribution:"© CARTO",subdomains:"abcd",maxZoom:19}).addTo(map);
+L.control.zoom({position:"topright"}).addTo(map);
+const routeCoords=stops.map(s=>[s.lat,s.lng]);
+L.polyline(routeCoords,{color:"rgba(34,211,238,0.6)",weight:2.5,dashArray:"6, 8",lineCap:"round"}).addTo(map);
+stops.forEach(stop=>{
+  const icon=L.divIcon({className:"",html:`<div class="custom-pin" style="background:${stop.color}" title="${stop.name}">${stop.id}</div>`,iconSize:[32,32],iconAnchor:[16,16]});
+  const marker=L.marker([stop.lat,stop.lng],{icon,alt:`עצירה ${stop.id}: ${stop.name}`}).addTo(map);
+  marker.on("click",()=>openStop(stop.id));
+  markers.push({stop,marker});
+});
+const listEl=document.getElementById("stopListView");
+const regionLabels={north:"🔵 צפון",central:"🟡 מרכז",south:"🟢 דרום"};
+let lastRegion=null;
+stops.forEach(stop=>{
+  if(stop.region!==lastRegion){lastRegion=stop.region;const sep=document.createElement("p");sep.className="reg-sep";sep.textContent=regionLabels[stop.region]||"";listEl.appendChild(sep);}
+  const el=document.createElement("button");el.className="stop-chip";el.dataset.id=stop.id;
+  el.setAttribute("aria-label",`עצירה ${stop.id}: ${stop.name}, ${stop.dates}`);
+  el.innerHTML=`<div class="stop-num" style="background:${stop.color}">${stop.id}</div><div class="stop-info"><div class="stop-name">${stop.name}</div><div class="stop-meta">${stop.dates} · ${stop.nights} לילות</div></div><span class="stop-badge">${stop.budget}</span>`;
+  el.addEventListener("click",()=>openStop(stop.id));listEl.appendChild(el);
+});
+function openStop(id){
+  const stop=stops.find(s=>s.id===id);if(!stop)return;currentStop=stop;
+  markers.forEach(m=>{const el=m.marker.getElement()?.querySelector(".custom-pin");if(el)el.classList.toggle("active-pin",m.stop.id===id);});
+  map.flyTo([stop.lat,stop.lng],10,{duration:.8});
+  document.querySelectorAll(".stop-chip").forEach(el=>el.classList.toggle("active",parseInt(el.dataset.id)===id));
+  renderDetail(stop);
+  document.getElementById("stopListView").style.display="none";
+  const detail=document.getElementById("stopDetailView");detail.classList.add("visible");detail.scrollTop=0;
+  // iOS/mobile: scroll page down to show the detail panel
+  if(window.innerWidth<=768){setTimeout(function(){document.getElementById("detailPane").scrollIntoView({behavior:"smooth",block:"start"});},120);}
+}
+function closeDetail(){
+  document.getElementById("stopListView").style.display="flex";
+  document.getElementById("stopListView").style.flexDirection="column";
+  document.getElementById("stopDetailView").classList.remove("visible");
+  markers.forEach(m=>{const el=m.marker.getElement()?.querySelector(".custom-pin");if(el)el.classList.remove("active-pin");});
+  currentStop=null;map.flyTo([17.5,106.5],6,{duration:.8});
+}
+function renderDetail(stop){
+  const prev=stops[stop.id-2],next=stops[stop.id];
+  const rc={north:"cyan",central:"amber",south:"green"};
+  const rl={north:"צפון",central:"מרכז",south:"דרום"};
+  const hotelsHtml=stop.hotels.map(h=>`<div class="hotel-card"><div class="hotel-name">${h.name}</div>${h.price?`<div class="hotel-price">${h.price}</div>`:""}<div class="hotel-note">${h.note}</div>${h.url?`<a class="hotel-link" href="${h.url}" target="_blank" rel="noopener noreferrer">📖 Booking.com ↗</a>`:""}</div>`).join("");
+  const actsHtml=stop.activities.map(a=>`<div class="act-item"><span class="act-icon" aria-hidden="true">${a.icon}</span><div class="act-info"><div class="act-name">${a.name}</div><div class="act-links"><a class="act-link map" href="${a.mapUrl}" target="_blank" rel="noopener noreferrer">📍 מפה</a></div></div><span class="act-cost">${a.cost}</span></div>`).join("");
+  const tipsHtml=stop.tips.length?`<ul class="tips-box">${stop.tips.map(t=>`<li>${t}</li>`).join("")}</ul>`:"";
+  const contactsHtml=stop.contacts.length?stop.contacts.map(c=>`<div class="contact-card"><div class="contact-name">${c.name}</div><div class="contact-desc">${c.desc}</div><a class="wa-btn" href="${c.wa}" target="_blank" rel="noopener noreferrer">💬 WhatsApp <span dir="ltr">${c.phone}</span></a></div>`).join(""):"";
+  document.getElementById("stopDetailView").innerHTML=`
+    <div class="detail-header">
+      <button class="detail-back" onclick="closeDetail()" aria-label="חזור לרשימת העצירות">← כל העצירות</button>
+      <div class="detail-num" style="background:${stop.color}">${stop.id}</div>
+      <div class="detail-city">${stop.name}</div>
+      <div class="detail-sub">${stop.dates} · ${stop.nights} לילות · ${stop.arrival}</div>
+      <div class="detail-pills">
+        <span class="pill cyan">🌏 ${stop.nights} לילות</span>
+        <span class="pill amber">💰 ${stop.budget}</span>
+        <span class="pill ${rc[stop.region]}">📍 ${rl[stop.region]}</span>
+      </div>
+    </div>
+    <div class="detail-body">
+      ${hotelsHtml?`<section aria-label="מלונות"><div class="section-title">🏨 אפשרויות מלון</div>${hotelsHtml}</section>`:""}
+      ${actsHtml?`<section aria-label="פעילויות"><div class="section-title">🎯 פעילויות</div>${actsHtml}</section>`:""}
+      ${tipsHtml?`<section aria-label="טיפים"><div class="section-title">💡 טיפים</div>${tipsHtml}</section>`:""}
+      ${contactsHtml?`<section aria-label="אנשי קשר"><div class="section-title">📞 אנשי קשר</div>${contactsHtml}</section>`:""}
+      ${stop.nextTransport?`<div class="next-transport"><b style="color:var(--text)">המשך הטיול:</b> ${stop.nextTransport}</div>`:""}
+    </div>
+    <div class="detail-nav">
+      <button class="nav-btn" onclick="${prev?`openStop(${prev.id})`:"closeDetail()"}" aria-label="${prev?`עצירה קודמת: ${prev.name}`:"חזור לרשימה"}">← ${prev?prev.name:"רשימה"}</button>
+      <button class="nav-btn primary" onclick="${next?`openStop(${next.id})`:""}" ${next?"":"disabled"} aria-label="${next?`עצירה הבאה: ${next.name}`:"סוף הטיול"}">${next?`${next.name} →`:"🏠 סיום"}</button>
+    </div>`;
+}
+
+// iOS: recalculate Leaflet size on resize / orientation change / address bar show-hide
+(function(){
+  var _t;
+  function triggerResize(){
+    clearTimeout(_t);
+    _t=setTimeout(function(){if(typeof map!=="undefined"&&map)map.invalidateSize(false);},200);
+  }
+  // orientationchange fires when phone rotates
+  window.addEventListener("orientationchange",function(){setTimeout(triggerResize,350);});
+  // visualViewport fires when iOS address bar slides in/out
+  if(window.visualViewport){
+    window.visualViewport.addEventListener("resize",triggerResize);
+  } else {
+    window.addEventListener("resize",triggerResize);
+  }
+  // Settle after initial render (Leaflet needs container to have painted dimensions)
+  setTimeout(triggerResize,600);
+})();
+</script>
+</body>
+</html>
+
+
+

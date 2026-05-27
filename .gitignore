@@ -3,8 +3,10 @@
 # Except HTML files
 !itinerary.html
 !index.html
+!design_1_map.html
 !.gitignore
 # Except GitHub Actions workflow
 !.github/
 !.github/workflows/
 !.github/workflows/deploy-pages.yml
+
