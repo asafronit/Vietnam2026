@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -172,6 +172,14 @@ details.ep-details[open] .eb-chev{transform:rotate(180deg)}
 .wa-link:hover{text-decoration:underline}
 .wa-link:focus-visible{outline:2px solid #6d28d9;outline-offset:2px;border-radius:2px;text-decoration:underline}
 .wa-phone{font-size:.79rem;font-variant-numeric:tabular-nums}
+/* Floating Map Button */
+.fab-map{position:fixed;bottom:24px;right:24px;z-index:300;display:inline-flex;align-items:center;gap:7px;padding:13px 20px;border-radius:50px;background:linear-gradient(135deg,#1d52a8,#1e3a5f);color:#fff;text-decoration:none;font-family:inherit;font-size:.88rem;font-weight:700;letter-spacing:.3px;line-height:1;box-shadow:0 4px 20px rgba(30,58,95,.45);transition:background .15s,box-shadow .15s,transform .2s;cursor:pointer}
+.fab-map:hover{background:linear-gradient(135deg,#2563c4,#2d5a8e);box-shadow:0 8px 28px rgba(30,58,95,.55);transform:translateY(-3px);text-decoration:none}
+.fab-map:focus-visible{outline:3px solid #f0f4f8;outline-offset:3px;box-shadow:0 0 0 2px #1e3a5f,0 0 0 5px #f0f4f8,0 4px 20px rgba(30,58,95,.45)}
+.fab-map-pulse{position:absolute;inset:-5px;border-radius:55px;background:rgba(30,82,168,.35);animation:fabPulse 2.2s ease-out infinite;z-index:-1}
+@keyframes fabPulse{0%{transform:scale(1);opacity:.7}70%{transform:scale(1.22);opacity:0}100%{transform:scale(1.22);opacity:0}}
+@media(prefers-reduced-motion:reduce){.fab-map-pulse{animation:none}.fab-map{transition:none}.fab-map:hover{transform:none}}
+@media(max-width:480px){.fab-map{bottom:16px;right:16px;padding:11px 16px;font-size:.82rem}}
 </style>
 <script>document.documentElement.className+=' js-ready'</script>
 </head>
@@ -1222,6 +1230,18 @@ document.addEventListener('click',function(e){
   if(!open){var first=panel.querySelector('a,button');if(first)setTimeout(function(){first.focus();},50);}
 });
 </script>
+<a
+  href="design_1_map.html"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="fab-map"
+  aria-label="View interactive map of all 12 stops (opens in new tab)"
+>
+  <span class="fab-map-pulse" aria-hidden="true"></span>
+  <span aria-hidden="true">📍</span>
+  <span>Map</span>
+  <svg aria-hidden="true" focusable="false" width="11" height="11" viewBox="0 0 12 12" fill="currentColor" style="margin-left:1px;opacity:.85"><path d="M10 1H7V2.5h1.79L4.64 6.64l1.06 1.06L10 3.54V5.5h1.5V2A1 1 0 0 0 10 1zM1 3.5A1.5 1.5 0 0 0 2.5 5V9h4a1.5 1.5 0 0 0 1.5-1.5V6H6.5v1.5h-3V5A1.5 1.5 0 0 0 2 3.5H1z"/></svg>
+</a>
 </body>
 </html>
 
