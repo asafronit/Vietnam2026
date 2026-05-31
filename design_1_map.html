@@ -730,12 +730,20 @@ function openInfoModal(stopId){
 function copyAddressForGrab(addr){
   var t=document.getElementById("copyToast");
   function showToast(){if(t){t.classList.add("show");setTimeout(function(){t.classList.remove("show");},2800);}}
+  function fallbackCopy(){var ta=document.createElement("textarea");ta.value=addr;ta.style.cssText="position:fixed;opacity:0;top:0;left:0";document.body.appendChild(ta);ta.select();try{document.execCommand("copy");}finally{document.body.removeChild(ta);}}
+  function openGrab(){
+    var appUrl="grab://open?screenType=BOOKING";
+    var webUrl="https://www.grab.com/vn/";
+    var gone=false;
+    var timer=setTimeout(function(){if(!gone){gone=true;window.open(webUrl,"_blank","noopener");}},1600);
+    window.addEventListener("blur",function onBlur(){gone=true;clearTimeout(timer);window.removeEventListener("blur",onBlur);});
+    window.location.href=appUrl;
+  }
+  function done(){showToast();openGrab();}
   if(navigator.clipboard&&window.isSecureContext){
-    navigator.clipboard.writeText(addr).then(showToast,function(){
-      var ta=document.createElement("textarea");ta.value=addr;ta.style.cssText="position:fixed;opacity:0;top:0;left:0";document.body.appendChild(ta);ta.select();try{document.execCommand("copy");}finally{document.body.removeChild(ta);}showToast();
-    });
+    navigator.clipboard.writeText(addr).then(done,function(){fallbackCopy();done();});
   } else {
-    var ta=document.createElement("textarea");ta.value=addr;ta.style.cssText="position:fixed;opacity:0;top:0;left:0";document.body.appendChild(ta);ta.select();try{document.execCommand("copy");}finally{document.body.removeChild(ta);}showToast();
+    fallbackCopy();done();
   }
 }function closeInfoModal(){
   var modal=document.getElementById("infoModal");
@@ -802,7 +810,7 @@ document.addEventListener("DOMContentLoaded",function(){
     <div id="infoTipsSection"></div>
   </div>
 </div>
-<div id="copyToast" class="copy-toast" aria-live="polite" aria-atomic="true">&#10003; Address copied — open Grab and paste</div><div id="infoBackdrop" class="info-backdrop"></div></body>
+<div id="copyToast" class="copy-toast" aria-live="polite" aria-atomic="true">&#10003; Address copied — paste it as your destination in Grab</div><div id="infoBackdrop" class="info-backdrop"></div></body>
 </html>
 
 
