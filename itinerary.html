@@ -1274,11 +1274,11 @@ document.addEventListener('click',function(e){
     });
 
     var tabDefs=[
-      {key:'hotel', label:'🏨 Hotel', blocks:travelBlocks},
-      {key:'acts',  label:'🎯 Activities', blocks:actBlocks},
-      {key:'tips',  label:'💡 Tips', blocks:tipsBlocks},
-      {key:'contacts', label:'📞 Contacts', blocks:contactsBlocks},
-      {key:'budget', label:'💰 Budget', blocks:budgetBlocks},
+      {key:'hotel', label:'Hotel', blocks:travelBlocks},
+      {key:'acts',  label:'Activities', blocks:actBlocks},
+      {key:'tips',  label:'Tips', blocks:tipsBlocks},
+      {key:'contacts', label:'Contacts', blocks:contactsBlocks},
+      {key:'budget', label:'Budget', blocks:budgetBlocks},
     ].filter(function(d){return d.blocks.length>0;});
 
     if(tabDefs.length<2) return;
