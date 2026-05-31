@@ -197,7 +197,16 @@ html{height:-webkit-fill-available;height:100%}body{min-height:100vh;min-height:
 .info-contact-btn.wa{background:rgba(37,211,102,.14);border:1px solid rgba(37,211,102,.28);color:#25d366}
 .info-contact-btn.ph{background:rgba(34,211,238,.12);border:1px solid rgba(34,211,238,.25);color:#22d3ee}
 .copy-toast{position:fixed;bottom:28px;left:50%;transform:translateX(-50%) translateY(14px);background:#22c55e;color:#fff;font-size:.85rem;font-weight:700;padding:10px 20px;border-radius:20px;z-index:9999;opacity:0;pointer-events:none;transition:opacity .25s,transform .25s;box-shadow:0 4px 20px rgba(0,0,0,.4)}
-.copy-toast.show{opacity:1;transform:translateX(-50%) translateY(0)}</style>
+.copy-toast.show{opacity:1;transform:translateX(-50%) translateY(0)}.info-items-list{display:flex;flex-direction:column;border-radius:12px;overflow:hidden;border:1px solid rgba(255,255,255,.08)}
+.info-item-row{padding:13px 16px;display:flex;flex-direction:column;gap:3px;border-bottom:1px solid rgba(255,255,255,.06)}
+.info-item-row:last-child{border-bottom:none}
+.info-item-row-name{font-size:.93rem;font-weight:700;color:#fff}
+.info-item-row-spec{font-size:.76rem;color:rgba(255,255,255,.45);line-height:1.45}
+.info-item-row-addr{display:flex;gap:12px;flex-wrap:wrap;margin-top:4px;align-items:center}
+.info-addr-street{background:none;border:none;cursor:pointer;padding:0;font-size:.76rem;font-weight:600;color:#22c55e;text-decoration:underline dotted;text-underline-offset:3px;font-family:inherit;text-align:left}
+.info-addr-street:hover{color:#4ade80}
+.info-addr-city{font-size:.76rem;font-weight:500;color:#60a5fa;text-decoration:none}
+.info-addr-city:hover{text-decoration:underline}</style>
 </head>
 <body>
 <header class="hdr" role="banner">
@@ -541,21 +550,28 @@ function openActivityTagModal(stopId,tagKey){
     ah+="</div></div>";
   }
   if(tDet.items&&tDet.items.length){
-    ah+="<span class=\"info-section-title\">"+(tDet.itemsTitle||"Places")+"</span><div class=\"info-items-grid\">";
+    ah+="<span class=\"info-section-title\">"+(tDet.itemsTitle||"Places")+"</span><div class=\"info-items-list\">";
     tDet.items.forEach(function(item){
-      ah+="<div class=\"info-item-card\"><div class=\"info-item-header\"><span class=\"info-item-icon\">"+(item.icon||"📍")+"</span><div class=\"info-item-main\"><div class=\"info-item-name\">"+item.name+"</div><div class=\"info-item-spec\">"+(item.spec||"")+"</div></div></div><div class=\"info-item-btns\">";
-      if(item.mapsUrl)ah+="<a href=\""+item.mapsUrl+"\" target=\"_blank\" rel=\"noopener\" class=\"info-item-btn maps\">🗺️ Maps</a>";
-      if(item.grabAddr)ah+="<button class=\"info-item-btn grab\" data-grab-addr=\""+item.grabAddr.replace(/"/g,"&quot;")+"\">🚗 Grab</button>";
+      var ap=item.grabAddr?(item.grabAddr.split(",")):[],st=ap[0]?ap[0].trim():"",ci=ap.length>1?ap.slice(1).join(",").trim():"";
+      ah+="<div class=\"info-item-row\"><div class=\"info-item-row-name\">"+item.name+"</div>";
+      if(item.spec)ah+="<div class=\"info-item-row-spec\">"+item.spec+"</div>";
+      ah+="<div class=\"info-item-row-addr\">";
+      if(st)ah+="<button class=\"info-addr-street\" data-grab-addr=\""+item.grabAddr.replace(/"/g,"&quot;")+"\">"+st+"</button>";
+      if(ci&&item.mapsUrl)ah+="<a class=\"info-addr-city\" href=\""+item.mapsUrl+"\" target=\"_blank\" rel=\"noopener\">"+ci+" ↗</a>";
+      else if(item.mapsUrl&&!st)ah+="<a class=\"info-addr-city\" href=\""+item.mapsUrl+"\" target=\"_blank\" rel=\"noopener\">View on Maps ↗</a>";
       ah+="</div></div>";
     });
     ah+="</div>";
   }
   if(tDet.nearby&&tDet.nearby.length){
-    ah+="<span class=\"info-section-title\">Nearby Attractions</span><div class=\"info-items-grid\">";
+    ah+="<span class=\"info-section-title\">Nearby Attractions</span><div class=\"info-items-list\">";
     tDet.nearby.forEach(function(n){
-      ah+="<div class=\"info-item-card\"><div class=\"info-item-header\"><span class=\"info-item-icon\">"+(n.icon||"📍")+"</span><div class=\"info-item-main\"><div class=\"info-item-name\">"+n.name+"</div><div class=\"info-item-spec\">"+(n.desc||"")+"</div></div></div><div class=\"info-item-btns\">";
-      if(n.mapsUrl)ah+="<a href=\""+n.mapsUrl+"\" target=\"_blank\" rel=\"noopener\" class=\"info-item-btn maps\">🗺️ Maps</a>";
-      if(n.grabAddr)ah+="<button class=\"info-item-btn grab\" data-grab-addr=\""+n.grabAddr.replace(/"/g,"&quot;")+"\">🚗 Grab</button>";
+      var ap=n.grabAddr?(n.grabAddr.split(",")):[],st=ap[0]?ap[0].trim():"",ci=ap.length>1?ap.slice(1).join(",").trim():"";
+      ah+="<div class=\"info-item-row\"><div class=\"info-item-row-name\">"+n.name+"</div>";
+      if(n.desc)ah+="<div class=\"info-item-row-spec\">"+n.desc+"</div>";
+      ah+="<div class=\"info-item-row-addr\">";
+      if(st)ah+="<button class=\"info-addr-street\" data-grab-addr=\""+n.grabAddr.replace(/"/g,"&quot;")+"\">"+st+"</button>";
+      if(ci&&n.mapsUrl)ah+="<a class=\"info-addr-city\" href=\""+n.mapsUrl+"\" target=\"_blank\" rel=\"noopener\">"+ci+" ↗</a>";
       ah+="</div></div>";
     });
     ah+="</div>";
