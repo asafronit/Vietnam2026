@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="he" dir="rtl">
+<html lang="en" dir="ltr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
@@ -21,11 +21,11 @@ html{height:-webkit-fill-available;height:100%}body{min-height:100vh;min-height:
 #map{width:100%;height:100%;min-height:200px}
 .detail-pane{flex:0 0 420px;height:100%;overflow-y:auto;-webkit-overflow-scrolling:touch;background:var(--panel);border-left:1px solid var(--border);display:flex;flex-direction:column}
 .stop-list{padding:12px;display:flex;flex-direction:column;gap:4px}
-.stop-chip{display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:10px;cursor:pointer;transition:background .15s;border:1px solid transparent;background:none;width:100%;text-align:right;color:var(--text);font-family:inherit}
+.stop-chip{display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:10px;cursor:pointer;transition:background .15s;border:1px solid transparent;background:none;width:100%;text-align:left;color:var(--text);font-family:inherit}
 .stop-chip:hover{background:var(--card)}
 .stop-chip.active{background:var(--card);border-color:var(--primary)}
 .stop-num{width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.72rem;font-weight:800;color:#fff;flex-shrink:0}
-.stop-info{flex:1;min-width:0;text-align:right}
+.stop-info{flex:1;min-width:0;text-align:left}
 .stop-name{font-size:.88rem;font-weight:600}
 .stop-meta{font-size:.72rem;color:var(--muted);margin-top:1px}
 .stop-badge{font-size:.65rem;font-weight:700;padding:2px 7px;border-radius:20px;background:rgba(255,255,255,.08);color:var(--muted);white-space:nowrap}
@@ -544,10 +544,12 @@ function openActivityTagModal(stopId,tagKey){
     ah+="</ul>";
   }
   if(tDet.address){
-    ah+="<div class=\"info-address-card\"><div class=\"info-address-text\">📍 "+tDet.address+"</div><div class=\"info-address-btns\">";
-    if(tDet.googleMapsUrl)ah+="<a href=\""+tDet.googleMapsUrl+"\" target=\"_blank\" rel=\"noopener\" class=\"info-addr-btn maps\">🗺️ Google Maps</a>";
-    if(tDet.address)ah+="<button class=\"info-addr-btn grab\" data-grab-addr=\""+tDet.address.replace(/"/g,"&quot;")+"\">🚗 Copy for Grab</button>";
-    ah+="</div></div>";
+    var addrParts=tDet.address.split(","),addrSt=addrParts[0]?addrParts[0].trim():"",addrCi=addrParts.length>1?addrParts.slice(1).join(",").trim():"";
+    ah+="<div class=\"info-item-row-addr\" style=\"margin:2px 0 6px\">";
+    if(addrSt)ah+="<button class=\"info-addr-street\" data-grab-addr=\""+tDet.address.replace(/"/g,"&quot;")+"\">"+addrSt+"</button>";
+    if(addrCi&&tDet.googleMapsUrl)ah+="<a class=\"info-addr-city\" href=\""+tDet.googleMapsUrl+"\" target=\"_blank\" rel=\"noopener\">"+addrCi+" ↗</a>";
+    else if(tDet.googleMapsUrl)ah+="<a class=\"info-addr-city\" href=\""+tDet.googleMapsUrl+"\" target=\"_blank\" rel=\"noopener\">View on Maps ↗</a>";
+    ah+="</div>";
   }
   if(tDet.items&&tDet.items.length){
     ah+="<span class=\"info-section-title\">"+(tDet.itemsTitle||"Places")+"</span><div class=\"info-items-list\">";
