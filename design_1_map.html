@@ -311,7 +311,7 @@ function renderDetail(stop){
       <button class="detail-back" onclick="closeDetail()" aria-label="Back to stops list">← All Stops</button>
       <div class="detail-num" style="background:${stop.color}">${stop.id}</div>
       <div class="detail-city">${stop.name}</div>
-      <div class="detail-sub">${stop.dates} · ` nights · `</div>
+      <div class="detail-sub">${stop.dates} · ${stop.nights} nights · ${stop.arrival}</div>
       <div class="detail-pills">
         <span class="pill cyan">🌏 ${stop.nights} nights</span>
         <span class="pill amber">💰 ${stop.budget}</span>
