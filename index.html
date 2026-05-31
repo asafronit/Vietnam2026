@@ -17,7 +17,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;ba
 .stat{text-align:center}
 .stat b{display:block;font-size:1.3rem;font-weight:800}
 .stat span{font-size:.7rem;opacity:.75;text-transform:uppercase;letter-spacing:.5px}
-main{max-width:900px;margin:0 auto;padding:18px 14px 60px}
+main{max-width:900px;margin:0 auto;padding:18px 14px 90px}
 .sec-label{font-size:.68rem;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);margin:24px 0 10px}
 .sgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin-bottom:4px}
 .sc{background:var(--card);border-radius:var(--r);padding:14px 16px;box-shadow:var(--sh)}
@@ -146,6 +146,19 @@ details:target{border-color:#c7d8ec;box-shadow:0 6px 24px rgba(0,0,0,.12)}
 .loc-dot-sky{width:8px;height:8px;border-radius:50%;background:#0284c7;display:inline-block}
 .loc-dot-navy{width:8px;height:8px;border-radius:50%;background:#1e3a5f;display:inline-block}
 
+
+/* v6.0: Tab system per stop */
+.stop-tabs{display:flex;gap:2px;background:#dce5ef;border-radius:10px;padding:3px;margin:14px 0 10px;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+.stop-tabs::-webkit-scrollbar{display:none}
+.stop-tab-btn{flex:1;padding:7px 5px;border-radius:8px;border:none;background:none;font-family:inherit;font-size:.72rem;font-weight:600;color:var(--muted);cursor:pointer;transition:all .15s;white-space:nowrap;min-width:0}
+.stop-tab-btn.active{background:var(--primary);color:#fff;box-shadow:0 2px 8px rgba(30,58,95,.3)}
+.stop-tab-btn:hover:not(.active){background:#c8d5e5;color:var(--text)}
+.stop-tab-panel[hidden]{display:none!important}
+.stop-tab-panel>div,.stop-tab-panel>details{margin-bottom:10px}
+.stop-tab-panel>div:last-child,.stop-tab-panel>details:last-child{margin-bottom:0}
+.grid2.tabbed{display:block}
+@keyframes stTabIn{from{opacity:0;transform:translateY(3px)}to{opacity:1;transform:translateY(0)}}
+.stop-tab-panel:not([hidden]){animation:stTabIn .18s ease}
 /* --- v2.1: iOS-compat expand: native details --- */
 details.ep-details{background:transparent;border:none;box-shadow:none;border-radius:7px;margin-bottom:6px;scroll-margin-top:0}
 details.ep-details[open]{border-color:transparent;box-shadow:none}
@@ -172,7 +185,7 @@ details.ep-details[open] .eb-chev{transform:rotate(180deg)}
 .wa-link:hover{text-decoration:underline}
 .wa-link:focus-visible{outline:2px solid #6d28d9;outline-offset:2px;border-radius:2px;text-decoration:underline}
 .wa-phone{font-size:.79rem;font-variant-numeric:tabular-nums}
-/* Floating Map Button */
+/* v7.0: Floating Map Button */
 .fab-map{position:fixed;bottom:24px;right:24px;z-index:300;display:inline-flex;align-items:center;gap:7px;padding:13px 20px;border-radius:50px;background:linear-gradient(135deg,#1d52a8,#1e3a5f);color:#fff;text-decoration:none;font-family:inherit;font-size:.88rem;font-weight:700;letter-spacing:.3px;line-height:1;box-shadow:0 4px 20px rgba(30,58,95,.45);transition:background .15s,box-shadow .15s,transform .2s;cursor:pointer}
 .fab-map:hover{background:linear-gradient(135deg,#2563c4,#2d5a8e);box-shadow:0 8px 28px rgba(30,58,95,.55);transform:translateY(-3px);text-decoration:none}
 .fab-map:focus-visible{outline:3px solid #f0f4f8;outline-offset:3px;box-shadow:0 0 0 2px #1e3a5f,0 0 0 5px #f0f4f8,0 4px 20px rgba(30,58,95,.45)}
@@ -180,6 +193,7 @@ details.ep-details[open] .eb-chev{transform:rotate(180deg)}
 @keyframes fabPulse{0%{transform:scale(1);opacity:.7}70%{transform:scale(1.22);opacity:0}100%{transform:scale(1.22);opacity:0}}
 @media(prefers-reduced-motion:reduce){.fab-map-pulse{animation:none}.fab-map{transition:none}.fab-map:hover{transform:none}}
 @media(max-width:480px){.fab-map{bottom:16px;right:16px;padding:11px 16px;font-size:.82rem}}
+.hdr-links{display:flex;gap:8px;margin-top:7px;flex-wrap:wrap}.hdr-link{display:inline-flex;align-items:center;gap:5px;padding:4px 11px;border-radius:20px;font-size:.72rem;font-weight:700;text-decoration:none;background:rgba(255,255,255,.13);color:rgba(255,255,255,.92);border:1px solid rgba(255,255,255,.22);transition:background .15s,color .15s;white-space:nowrap}.hdr-link:hover{background:rgba(255,255,255,.25);color:#fff}.hdr-link:focus-visible{outline:2px solid #fff;outline-offset:2px;border-radius:20px}
 </style>
 <script>document.documentElement.className+=' js-ready'</script>
 </head>
@@ -189,6 +203,10 @@ details.ep-details[open] .eb-chev{transform:rotate(180deg)}
     <div>
       <div class="hdr-title">&#127483;&#127475; Vietnam 2026</div>
       <div class="hdr-sub">Oct 26 &ndash; Nov 24 &nbsp;&middot;&nbsp; Asaf Bohadana </div>
+      <div class="hdr-links">
+        <a href="https://evisa.gov.vn" target="_blank" rel="noopener" class="hdr-link">🛂 Apply for E-Visa</a>
+        <a href="https://prearrival.immigration.gov.vn" target="_blank" rel="noopener" class="hdr-link">📋 Pre-Arrival Card</a>
+      </div>
     </div>
     <nav class="hdr-stats" aria-label="Trip statistics">
       <div class="stat"><b>29</b><span>Days</span></div>
@@ -1229,7 +1247,111 @@ document.addEventListener('click',function(e){
   panel.hidden=open;
   if(!open){var first=panel.querySelector('a,button');if(first)setTimeout(function(){first.focus();},50);}
 });
+
+
+// v6.0: Tab system — reorganise each stop's grid2 into category tabs
+(function initStopTabs(){
+  document.querySelectorAll('.stop-body .grid2').forEach(function(grid, idx){
+    var stopEl = grid.closest('details[id]');
+    var stopId = stopEl ? stopEl.id.replace('stop-','') : String(idx+1);
+
+    var travelBlocks=[], actBlocks=[], tipsBlocks=[], contactsBlocks=[], budgetBlocks=[], issueBlocks=[];
+
+    Array.from(grid.children).forEach(function(child){
+      if(child.classList.contains('issue')){
+        issueBlocks.push(child);
+      } else if(child.tagName==='DETAILS' && child.classList.contains('bgt-wrap')){
+        contactsBlocks.push(child);
+      } else if(child.querySelector('.bm')){
+        budgetBlocks.push(child);
+      } else if(child.querySelector('.acts')){
+        actBlocks.push(child);
+      } else if(child.querySelector('.tips')){
+        tipsBlocks.push(child);
+      } else {
+        travelBlocks.push(child);
+      }
+    });
+
+    var tabDefs=[
+      {key:'hotel', label:'Hotel', blocks:travelBlocks},
+      {key:'acts',  label:'Activities', blocks:actBlocks},
+      {key:'tips',  label:'Tips', blocks:tipsBlocks},
+      {key:'contacts', label:'Contacts', blocks:contactsBlocks},
+      {key:'budget', label:'Budget', blocks:budgetBlocks},
+    ].filter(function(d){return d.blocks.length>0;});
+
+    if(tabDefs.length<2) return;
+
+    var tabBar=document.createElement('div');
+    tabBar.className='stop-tabs';
+    tabBar.setAttribute('role','tablist');
+    
+
+    var allPanels=[];
+
+    tabDefs.forEach(function(def,i){
+      var panelId='stab-'+stopId+'-'+def.key;
+
+      var btn=document.createElement('button');
+      btn.className='stop-tab-btn'+(i===0?' active':'');
+      btn.setAttribute('role','tab');
+      btn.setAttribute('aria-selected',i===0?'true':'false');
+      btn.setAttribute('aria-controls',panelId);
+      btn.textContent=def.label;
+      tabBar.appendChild(btn);
+
+      var panel=document.createElement('div');
+      panel.id=panelId;
+      panel.className='stop-tab-panel';
+      panel.setAttribute('role','tabpanel');
+      if(i>0) panel.hidden=true;
+
+      def.blocks.forEach(function(block){
+        block.classList.remove('full');
+        panel.appendChild(block);
+      });
+
+      allPanels.push(panel);
+    });
+
+    grid.innerHTML='';
+    grid.classList.add('tabbed');
+    grid.appendChild(tabBar);
+    allPanels.forEach(function(p){grid.appendChild(p);});
+
+    issueBlocks.forEach(function(b){
+      b.classList.remove('full');
+      b.style.marginTop='10px';
+      grid.appendChild(b);
+    });
+  });
+
+  document.addEventListener('click',function(e){
+    var btn=e.target.closest('.stop-tab-btn');
+    if(!btn) return;
+    var grid=btn.closest('.grid2.tabbed');
+    if(!grid) return;
+
+    grid.querySelectorAll('.stop-tab-btn').forEach(function(b){
+      b.classList.remove('active');
+      b.setAttribute('aria-selected','false');
+    });
+    grid.querySelectorAll('.stop-tab-panel').forEach(function(p){p.hidden=true;});
+
+    btn.classList.add('active');
+    btn.setAttribute('aria-selected','true');
+    var panel=document.getElementById(btn.getAttribute('aria-controls'));
+    if(panel){
+      panel.hidden=false;
+      // Auto-expand nested accordion when contacts tab is clicked
+      panel.querySelectorAll('details.bgt-wrap').forEach(function(d){d.open=true;});
+    }
+  });
+})();
 </script>
+
+<!-- v7.0: Floating Map Button — links to interactive map -->
 <a
   href="design_1_map.html"
   target="_blank"
@@ -1244,6 +1366,12 @@ document.addEventListener('click',function(e){
 </a>
 </body>
 </html>
+
+
+
+
+
+
 
 
 
