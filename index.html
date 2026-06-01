@@ -194,8 +194,10 @@ details.ep-details[open] .eb-chev{transform:rotate(180deg)}
 @media(prefers-reduced-motion:reduce){.fab-map-pulse{animation:none}.fab-map{transition:none}.fab-map:hover{transform:none}}
 @media(max-width:480px){.fab-map{bottom:16px;right:16px;padding:11px 16px;font-size:.82rem}}
 .hdr-links{display:flex;gap:8px;margin-top:7px;flex-wrap:wrap}.hdr-link{display:inline-flex;align-items:center;gap:5px;padding:4px 11px;border-radius:20px;font-size:.72rem;font-weight:700;text-decoration:none;background:rgba(255,255,255,.13);color:rgba(255,255,255,.92);border:1px solid rgba(255,255,255,.22);transition:background .15s,color .15s;white-space:nowrap}.hdr-link:hover{background:rgba(255,255,255,.25);color:#fff}.hdr-link:focus-visible{outline:2px solid #fff;outline-offset:2px;border-radius:20px}
-.hdr-right{display:flex;flex-direction:column;align-items:flex-end;gap:10px}
-.hdr-cur{display:inline-flex;gap:3px;background:rgba(255,255,255,.10);padding:3px;border-radius:22px;border:1px solid rgba(255,255,255,.22)}
+.hdr-left{flex:1 1 auto;min-width:0}
+.hdr-titlerow{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:nowrap}
+.hdr-cur{display:inline-flex;flex-shrink:0;gap:3px;background:rgba(255,255,255,.10);padding:3px;border-radius:22px;border:1px solid rgba(255,255,255,.22)}
+@media(max-width:520px){.hdr-title{font-size:1.12rem}.hdr-cur{gap:2px;padding:2px}.cur-btn{font-size:.64rem;padding:4px 8px}}
 .cur-btn{appearance:none;-webkit-appearance:none;border:none;cursor:pointer;font:inherit;font-size:.72rem;font-weight:700;padding:4px 12px;border-radius:18px;background:transparent;color:rgba(255,255,255,.85);transition:background .15s,color .15s}
 .cur-btn:hover{background:rgba(255,255,255,.20);color:#fff}
 .cur-btn.is-active{background:#fff;color:var(--primary)}
@@ -207,28 +209,28 @@ details.ep-details[open] .eb-chev{transform:rotate(180deg)}
 <body>
 <header class="hdr" role="banner">
   <div class="hdr-in">
-    <div>
-      <div class="hdr-title">&#127483;&#127475; Vietnam 2026</div>
+    <div class="hdr-left">
+      <div class="hdr-titlerow">
+        <div class="hdr-title">&#127483;&#127475; Vietnam 2026</div>
+        <div class="hdr-cur" role="group" aria-label="Show prices in currency">
+          <button type="button" class="cur-btn is-active" data-cur="USD" aria-pressed="true">USD&nbsp;$</button>
+          <button type="button" class="cur-btn" data-cur="ILS" aria-pressed="false">ILS&nbsp;&#8362;</button>
+          <button type="button" class="cur-btn" data-cur="VND" aria-pressed="false">VND&nbsp;&#8363;</button>
+        </div>
+      </div>
       <div class="hdr-sub">Oct 26 &ndash; Nov 24 &nbsp;&middot;&nbsp; Asaf Bohadana </div>
       <div class="hdr-links">
         <a href="https://evisa.gov.vn" target="_blank" rel="noopener" class="hdr-link">🛂 Apply for E-Visa</a>
         <a href="https://prearrival.immigration.gov.vn" target="_blank" rel="noopener" class="hdr-link">📋 Pre-Arrival Card</a>
       </div>
-    </div>
-    <div class="hdr-right">
-      <div class="hdr-cur" role="group" aria-label="Show prices in currency">
-        <button type="button" class="cur-btn is-active" data-cur="USD" aria-pressed="true">USD&nbsp;$</button>
-        <button type="button" class="cur-btn" data-cur="ILS" aria-pressed="false">ILS&nbsp;&#8362;</button>
-        <button type="button" class="cur-btn" data-cur="VND" aria-pressed="false">VND&nbsp;&#8363;</button>
-      </div>
-      <nav class="hdr-stats" aria-label="Trip statistics">
-        <div class="stat"><b>29</b><span>Days</span></div>
-        <div class="stat"><b>12</b><span>Stops</span></div>
-        <div class="stat"><b>4</b><span>Flights</span></div>
-        <div class="stat"><b>HTML 5.0</b><span>Version</span></div>
-      </nav>
       <p class="cur-status" id="cur-status" role="status">Prices shown in US Dollars.</p>
     </div>
+    <nav class="hdr-stats" aria-label="Trip statistics">
+      <div class="stat"><b>29</b><span>Days</span></div>
+      <div class="stat"><b>12</b><span>Stops</span></div>
+      <div class="stat"><b>4</b><span>Flights</span></div>
+      <div class="stat"><b>HTML 5.0</b><span>Version</span></div>
+    </nav>
   </div>
 </header>
 <main>
