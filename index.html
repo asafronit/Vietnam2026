@@ -194,6 +194,13 @@ details.ep-details[open] .eb-chev{transform:rotate(180deg)}
 @media(prefers-reduced-motion:reduce){.fab-map-pulse{animation:none}.fab-map{transition:none}.fab-map:hover{transform:none}}
 @media(max-width:480px){.fab-map{bottom:16px;right:16px;padding:11px 16px;font-size:.82rem}}
 .hdr-links{display:flex;gap:8px;margin-top:7px;flex-wrap:wrap}.hdr-link{display:inline-flex;align-items:center;gap:5px;padding:4px 11px;border-radius:20px;font-size:.72rem;font-weight:700;text-decoration:none;background:rgba(255,255,255,.13);color:rgba(255,255,255,.92);border:1px solid rgba(255,255,255,.22);transition:background .15s,color .15s;white-space:nowrap}.hdr-link:hover{background:rgba(255,255,255,.25);color:#fff}.hdr-link:focus-visible{outline:2px solid #fff;outline-offset:2px;border-radius:20px}
+.hdr-right{display:flex;flex-direction:column;align-items:flex-end;gap:10px}
+.hdr-cur{display:inline-flex;gap:3px;background:rgba(255,255,255,.10);padding:3px;border-radius:22px;border:1px solid rgba(255,255,255,.22)}
+.cur-btn{appearance:none;-webkit-appearance:none;border:none;cursor:pointer;font:inherit;font-size:.72rem;font-weight:700;padding:4px 12px;border-radius:18px;background:transparent;color:rgba(255,255,255,.85);transition:background .15s,color .15s}
+.cur-btn:hover{background:rgba(255,255,255,.20);color:#fff}
+.cur-btn.is-active{background:#fff;color:var(--primary)}
+.cur-btn:focus-visible{outline:2px solid #fff;outline-offset:2px}
+.cur-status{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 </style>
 <script>document.documentElement.className+=' js-ready'</script>
 </head>
@@ -208,12 +215,20 @@ details.ep-details[open] .eb-chev{transform:rotate(180deg)}
         <a href="https://prearrival.immigration.gov.vn" target="_blank" rel="noopener" class="hdr-link">📋 Pre-Arrival Card</a>
       </div>
     </div>
-    <nav class="hdr-stats" aria-label="Trip statistics">
-      <div class="stat"><b>29</b><span>Days</span></div>
-      <div class="stat"><b>12</b><span>Stops</span></div>
-      <div class="stat"><b>4</b><span>Flights</span></div>
-      <div class="stat"><b>HTML 5.0</b><span>Version</span></div>
-    </nav>
+    <div class="hdr-right">
+      <div class="hdr-cur" role="group" aria-label="Show prices in currency">
+        <button type="button" class="cur-btn is-active" data-cur="USD" aria-pressed="true">USD&nbsp;$</button>
+        <button type="button" class="cur-btn" data-cur="ILS" aria-pressed="false">ILS&nbsp;&#8362;</button>
+        <button type="button" class="cur-btn" data-cur="VND" aria-pressed="false">VND&nbsp;&#8363;</button>
+      </div>
+      <nav class="hdr-stats" aria-label="Trip statistics">
+        <div class="stat"><b>29</b><span>Days</span></div>
+        <div class="stat"><b>12</b><span>Stops</span></div>
+        <div class="stat"><b>4</b><span>Flights</span></div>
+        <div class="stat"><b>HTML 5.0</b><span>Version</span></div>
+      </nav>
+      <p class="cur-status" id="cur-status" role="status">Prices shown in US Dollars.</p>
+    </div>
   </div>
 </header>
 <main>
@@ -1183,6 +1198,59 @@ window.addEventListener('load',function(){
 function expandAll(){var d=document.getElementsByTagName('details');for(var i=0;i<d.length;i++)d[i].open=true;}
 function collapseAll(){var d=document.getElementsByTagName('details');for(var i=0;i<d.length;i++)d[i].open=false;}
 function goToStop(e,a){var href=a.getAttribute('href')||'';var id=href.split('#').pop();if(!id)return;var el=document.getElementById(id);if(el){el.setAttribute('open','');setTimeout(function(){if(el)el.setAttribute('open','');},80);}}
+
+/* ---- Currency switcher (USD / ILS / VND) ---- */
+(function(){
+  var RATES={USD:1, ILS:2.92, VND:25400};            /* 1 USD = this many units (edit to update) */
+  var SYM={USD:'$', ILS:'₪', VND:'₫'};
+  var NAME={USD:'US Dollars', ILS:'Israeli Shekel', VND:'Vietnamese Dong'};
+  var SEL='.sc-val,.sc-sub,.cost,.note,.bgt-sub,.badge.b-dim,.h-price,.act-cost,.bm-v,.bm-tot,.tips li';
+  var PRICE=/\$\s*([\d,]+(?:\.\d+)?)((?:\s*(?:&ndash;|&mdash;|–|—|-)\s*)([\d,]+(?:\.\d+)?))?/g;
+  var els=null;
+  function fmt(v,c){
+    if(c==='VND'){ v=Math.round(v/1000)*1000; }
+    else if(c==='ILS'){ v=Math.round(v); }
+    else { v=Math.round(v*100)/100; }
+    return v.toLocaleString('en-US');
+  }
+  function convert(html,c){
+    var r=RATES[c], sym=SYM[c];
+    return html.replace(PRICE,function(m,a,rng,b){
+      var fa=fmt(parseFloat(a.replace(/,/g,''))*r,c);
+      if(b!==undefined && b!==null){
+        return sym+fa+'–'+fmt(parseFloat(b.replace(/,/g,''))*r,c);
+      }
+      return sym+fa;
+    });
+  }
+  function apply(c){
+    if(!RATES[c]) return;
+    if(!els) els=document.querySelectorAll(SEL);
+    for(var i=0;i<els.length;i++){
+      var el=els[i];
+      if(el.getAttribute('data-usd')===null){
+        if(el.innerHTML.indexOf('$')===-1) continue;   /* not a price holder */
+        el.setAttribute('data-usd', el.innerHTML);
+      }
+      var orig=el.getAttribute('data-usd');
+      el.innerHTML=(c==='USD')?orig:convert(orig,c);
+    }
+    var btns=document.querySelectorAll('.cur-btn');
+    for(var j=0;j<btns.length;j++){
+      var on=btns[j].getAttribute('data-cur')===c;
+      btns[j].classList.toggle('is-active',on);
+      btns[j].setAttribute('aria-pressed',on?'true':'false');
+    }
+    var st=document.getElementById('cur-status');
+    if(st){ st.textContent=(c==='USD')
+      ? 'Prices shown in US Dollars.'
+      : 'Prices shown in '+NAME[c]+' (approx. rate: '+RATES[c].toLocaleString('en-US')+' '+c+' per USD). Estimates only.'; }
+  }
+  document.addEventListener('click',function(e){
+    var b=e.target.closest?e.target.closest('.cur-btn'):null;
+    if(b){ apply(b.getAttribute('data-cur')); }
+  });
+})();
 
 (function(){
   // Prevent summary toggle when clicking a map/grab link inside it
