@@ -5,6 +5,8 @@
 !index.html
 !design_1_map.html
 !.gitignore
+# Except Cloudflare Pages headers config
+!_headers
 # Except GitHub Actions workflow
 !.github/
 !.github/workflows/

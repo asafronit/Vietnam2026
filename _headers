@@ -1,0 +1,5 @@
+# Cloudflare Pages — always revalidate HTML so visitors get the latest deploy.
+# (All served files here are HTML; assets are inline or from external CDNs.)
+# GitHub Pages ignores this file, which is harmless.
+/*
+  Cache-Control: public, max-age=0, must-revalidate
