@@ -12,3 +12,4 @@
 !.github/workflows/
 !.github/workflows/deploy-pages.yml
 
+.preview/
