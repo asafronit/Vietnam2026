@@ -4,6 +4,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>Vietnam 2026 — Design 1: Map Explorer</title>
+<meta name="theme-color" content="#0f1923">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Vietnam 2026">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
@@ -911,7 +918,15 @@ document.addEventListener("DOMContentLoaded",function(){
     <div id="infoTipsSection"></div>
   </div>
 </div>
-<div id="copyToast" class="copy-toast" role="status" aria-live="polite" aria-atomic="true"></div><div id="infoBackdrop" class="info-backdrop"></div></body>
+<div id="copyToast" class="copy-toast" role="status" aria-live="polite" aria-atomic="true"></div><div id="infoBackdrop" class="info-backdrop"></div>
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function () {
+    navigator.serviceWorker.register("/sw.js").catch(function () {});
+  });
+}
+</script>
+</body>
 </html>
 
 

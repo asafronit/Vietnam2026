@@ -2,8 +2,16 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title> Vietnam 2026 &mdash; Interactive Itinerary</title>
+<meta name="description" content="Interactive Vietnam 2026 trip itinerary. Works offline.">
+<meta name="theme-color" content="#1e3a5f">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Vietnam 2026">
 <style>
 
 :root{--bg:#f0f4f8;--card:#fff;--primary:#1e3a5f;--green:#0f7c5c;--blue:#1d52a8;--amber:#b45309;--gray:#4b5563;--light:#e5e7eb;--text:#111827;--muted:#6b7280;--r:12px;--sh:0 2px 10px rgba(0,0,0,.09)}
@@ -1432,6 +1440,51 @@ document.addEventListener('click',function(e){
   <span>Map</span>
   <svg aria-hidden="true" focusable="false" width="11" height="11" viewBox="0 0 12 12" fill="currentColor" style="margin-left:1px;opacity:.85"><path d="M10 1H7V2.5h1.79L4.64 6.64l1.06 1.06L10 3.54V5.5h1.5V2A1 1 0 0 0 10 1zM1 3.5A1.5 1.5 0 0 0 2.5 5V9h4a1.5 1.5 0 0 0 1.5-1.5V6H6.5v1.5h-3V5A1.5 1.5 0 0 0 2 3.5H1z"/></svg>
 </a>
+
+<!-- PWA: iOS "Add to Home Screen" hint (markup reviewed by accessibility-lead) -->
+<div id="iosInstallHint" lang="he" dir="rtl" role="note" aria-live="polite" aria-label="התקנת האפליקציה" hidden>
+  <p>התקן את המסלול: הקש <strong>שתף</strong> ואז <strong>הוסף למסך הבית</strong>.</p>
+  <button type="button" id="iosInstallDismiss" aria-label="סגור הודעת התקנה"><span aria-hidden="true">×</span></button>
+</div>
+<style>
+#iosInstallHint{position:fixed;inset-inline:0;bottom:0;z-index:1000;background:#1e3a5f;color:#fff;display:flex;align-items:center;gap:12px;padding:12px 16px;padding-bottom:calc(12px + env(safe-area-inset-bottom));box-shadow:0 -4px 20px rgba(0,0,0,.25);font-size:.95rem;line-height:1.4}
+#iosInstallHint[hidden]{display:none}
+#iosInstallHint p{margin:0;flex:1 1 auto}
+#iosInstallDismiss{flex:0 0 auto;min-width:44px;min-height:44px;display:inline-flex;align-items:center;justify-content:center;background:transparent;border:none;color:#fff;font-size:24px;line-height:1;cursor:pointer;border-radius:4px}
+#iosInstallDismiss:focus-visible{outline:3px solid #fff;outline-offset:2px}
+</style>
+<script>
+(function(){
+  "use strict";
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", function(){
+      navigator.serviceWorker.register("/sw.js").catch(function(){});
+    });
+  }
+  var hint = document.getElementById("iosInstallHint");
+  if (!hint) return;
+  var ua = window.navigator.userAgent;
+  var isIOS = /iPad|iPhone|iPod/.test(ua) ||
+    (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+  var isSafari = /^((?!chrome|crios|fxios|android).)*safari/i.test(ua);
+  var isStandalone = window.matchMedia("(display-mode: standalone)").matches ||
+    window.navigator.standalone === true;
+  var dismissed = false;
+  try { dismissed = localStorage.getItem("iosInstallHintDismissed") === "1"; } catch (e) {}
+  if (isIOS && isSafari && !isStandalone && !dismissed) {
+    hint.hidden = false; // reveal only — never steal focus
+  }
+  var dismiss = document.getElementById("iosInstallDismiss");
+  if (dismiss) {
+    dismiss.addEventListener("click", function(){
+      hint.hidden = true;
+      try { localStorage.setItem("iosInstallHintDismissed", "1"); } catch (e) {}
+      var main = document.querySelector("main");
+      if (main) { main.setAttribute("tabindex", "-1"); main.focus(); }
+    });
+  }
+})();
+</script>
 </body>
 </html>
 

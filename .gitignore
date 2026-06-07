@@ -7,6 +7,11 @@
 !.gitignore
 # Except Cloudflare Pages headers config
 !_headers
+# Except PWA runtime assets (manifest, service worker, app icons)
+!manifest.webmanifest
+!sw.js
+!icons/
+!icons/*.png
 # Except GitHub Actions workflow
 !.github/
 !.github/workflows/
