@@ -6,7 +6,7 @@
  *   - Google Fonts (gstatic): cache-first, so the Inter font works offline once seen.
  * Bump VERSION to force clients to refetch precached assets.
  */
-const VERSION = "v1";
+const VERSION = "v2";
 const PRECACHE = `vietnam2026-precache-${VERSION}`;
 const RUNTIME = `vietnam2026-runtime-${VERSION}`;
 const TILES = `vietnam2026-tiles-${VERSION}`;
