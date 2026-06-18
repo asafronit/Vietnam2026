@@ -218,7 +218,15 @@ details.ep-details[open] .eb-chev{transform:rotate(180deg)}
 .cur-btn:hover{background:rgba(255,255,255,.20);color:#fff}
 .cur-btn.is-active{background:#fff;color:var(--primary)}
 .cur-btn:focus-visible{outline:2px solid #fff;outline-offset:2px}
-.cur-status{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.hdr-titlerow{flex-wrap:wrap}
+.hdr-lang{display:inline-flex;flex-shrink:0;gap:3px;background:rgba(255,255,255,.10);padding:3px;border-radius:22px;border:1px solid rgba(255,255,255,.22);margin-top:6px}
+.lang-btn{appearance:none;-webkit-appearance:none;border:none;cursor:pointer;font:inherit;font-size:.72rem;font-weight:700;padding:4px 12px;border-radius:18px;background:transparent;color:rgba(255,255,255,.85);transition:background .15s,color .15s}
+.lang-btn:hover{background:rgba(255,255,255,.20);color:#fff}
+.lang-btn.is-active{background:#fff;color:var(--primary)}
+.lang-btn:focus-visible{outline:2px solid #fff;outline-offset:2px}
+.lang-btn[data-lang="he"]{font-size:.78rem}
+@media(max-width:520px){.hdr-lang{gap:2px;padding:2px}.lang-btn{font-size:.66rem;padding:4px 8px}.lang-btn[data-lang="he"]{font-size:.7rem}}
+.cur-status,.lang-status{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 </style>
 <script>document.documentElement.className+=' js-ready'</script>
 </head>
@@ -233,8 +241,12 @@ details.ep-details[open] .eb-chev{transform:rotate(180deg)}
           <button type="button" class="cur-btn" data-cur="ILS" aria-pressed="false">ILS&nbsp;&#8362;</button>
           <button type="button" class="cur-btn" data-cur="VND" aria-pressed="false">VND&nbsp;&#8363;</button>
         </div>
+        <div class="hdr-lang" role="group" aria-label="Choose language" data-he-aria="בחירת שפה">
+          <button type="button" class="lang-btn is-active" data-lang="en" aria-pressed="true" aria-label="English" data-he-aria="אנגלית" lang="en">EN</button>
+          <button type="button" class="lang-btn" data-lang="he" aria-pressed="false" aria-label="Hebrew" data-he-aria="עברית" lang="he">עברית</button>
+        </div>
       </div>
-      <div class="hdr-sub">Oct 26 &ndash; Nov 24 &nbsp;&middot;&nbsp; Asaf Bohadana </div>
+      <div class="hdr-sub" data-he="26 אוק׳ – 24 נוב׳ · אסף בוהדנא">Oct 26 &ndash; Nov 24 &nbsp;&middot;&nbsp; Asaf Bohadana </div>
       <div class="hdr-links">
         <a href="https://evisa.gov.vn" target="_blank" rel="noopener" class="hdr-link">🛂 Apply for E-Visa</a>
         <a href="https://prearrival.immigration.gov.vn" target="_blank" rel="noopener" class="hdr-link">📋 Pre-Arrival Card</a>
