@@ -6,8 +6,10 @@
 <title> Vietnam 2026 &mdash; Interactive Itinerary</title>
 <meta name="description" content="Interactive Vietnam 2026 trip itinerary. Works offline.">
 <meta name="theme-color" content="#1e3a5f">
-<link rel="manifest" href="/manifest.webmanifest">
-<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="512x512" href="icons/icon-512.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -1594,9 +1596,9 @@ document.addEventListener('click',function(e){
 <script>
 (function(){
   "use strict";
-  if ("serviceWorker" in navigator) {
+  if ("serviceWorker" in navigator && location.protocol !== "file:") {
     window.addEventListener("load", function(){
-      navigator.serviceWorker.register("/sw.js").catch(function(){});
+      navigator.serviceWorker.register("sw.js").catch(function(){});
     });
   }
   var hint = document.getElementById("iosInstallHint");
