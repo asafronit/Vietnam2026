@@ -231,8 +231,8 @@ details.ep-details[open] .eb-chev{transform:rotate(180deg)}
 /* ---- RTL shell (Hebrew). Chrome flips; English prose islands (.stop-body/.bgt-wrap carry lang=en dir=ltr) stay LTR. ---- */
 html[dir="rtl"] body{direction:rtl}
 .stop-body,.bgt-wrap{text-align:start}
-html[dir="rtl"] .sc-val,html[dir="rtl"] .sc-sub,html[dir="rtl"] .stat b{direction:ltr;unicode-bidi:isolate;text-align:start}
-html[dir="rtl"] .tl-wrap,html[dir="rtl"] .tl{direction:ltr}
+html[dir="rtl"] :is(.sc-val,.sc-sub,.stat b,.badge.b-dim){direction:ltr;unicode-bidi:isolate;text-align:start}
+html[dir="rtl"] :is(.tl-wrap,.tl){direction:ltr}
 .s-arrow{margin-inline-start:4px;margin-left:0}
 html[dir="rtl"] details:not([open]) .s-arrow{transform:scaleX(-1)}
 html[dir="rtl"] .fab-map{right:auto;left:24px}
