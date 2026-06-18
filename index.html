@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<script>/* i18n early-paint: apply saved Hebrew before first paint to avoid LTR->RTL flash */(function(){try{if(localStorage.getItem('lang')==='he'){var h=document.documentElement;h.setAttribute('lang','he');h.setAttribute('dir','rtl');}}catch(e){}})();</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title> Vietnam 2026 &mdash; Interactive Itinerary</title>
 <meta name="description" content="Interactive Vietnam 2026 trip itinerary. Works offline.">
@@ -252,6 +253,7 @@ details.ep-details[open] .eb-chev{transform:rotate(180deg)}
         <a href="https://prearrival.immigration.gov.vn" target="_blank" rel="noopener" class="hdr-link">📋 Pre-Arrival Card</a>
       </div>
       <p class="cur-status" id="cur-status" role="status">Prices shown in US Dollars.</p>
+      <p class="lang-status" id="lang-status" role="status" lang="en" dir="ltr"></p>
     </div>
     <nav class="hdr-stats" aria-label="Trip statistics">
       <div class="stat"><b>30</b><span>Days</span></div>
@@ -1386,6 +1388,54 @@ function goToStop(e,a){var href=a.getAttribute('href')||'';var id=href.split('#'
     var b=e.target.closest?e.target.closest('.cur-btn'):null;
     if(b){ apply(b.getAttribute('data-cur')); }
   });
+})();
+</script>
+<script>
+/* ---- Language switcher (EN / HE) — mirrors the currency switcher; accessibility-gated ---- */
+(function(){
+  var DIR={en:'ltr', he:'rtl'};
+  var STATUS={en:'Display in English', he:'התצוגה בעברית'};
+  function swapText(lang){
+    var els=document.querySelectorAll('[data-he]');
+    for(var i=0;i<els.length;i++){
+      var el=els[i];
+      if(el.getAttribute('data-en')===null){ el.setAttribute('data-en', el.innerHTML); }
+      el.innerHTML=(lang==='he') ? el.getAttribute('data-he') : el.getAttribute('data-en');
+    }
+  }
+  function swapAria(lang){
+    var els=document.querySelectorAll('[data-he-aria]');
+    for(var i=0;i<els.length;i++){
+      var el=els[i];
+      if(el.getAttribute('data-en-aria')===null){ el.setAttribute('data-en-aria', el.getAttribute('aria-label')||''); }
+      el.setAttribute('aria-label', (lang==='he') ? el.getAttribute('data-he-aria') : el.getAttribute('data-en-aria'));
+    }
+  }
+  function setLang(lang, announce){
+    if(!DIR[lang]) lang='en';
+    /* 1: html lang+dir atomically */
+    var h=document.documentElement; h.setAttribute('lang', lang); h.setAttribute('dir', DIR[lang]);
+    /* 2: swap chrome text + aria-labels (leaf nodes; never the focused button) */
+    swapText(lang); swapAria(lang);
+    /* 3: aria-pressed on every button (exactly one true) */
+    var btns=document.querySelectorAll('.lang-btn');
+    for(var j=0;j<btns.length;j++){
+      var on=btns[j].getAttribute('data-lang')===lang;
+      btns[j].classList.toggle('is-active', on);
+      btns[j].setAttribute('aria-pressed', on?'true':'false');
+    }
+    /* 4+5: status region dir/lang, then text LAST (only on user action) */
+    var st=document.getElementById('lang-status');
+    if(st){ st.setAttribute('lang', lang); st.setAttribute('dir', DIR[lang]); st.textContent = announce ? STATUS[lang] : ''; }
+    try{ localStorage.setItem('lang', lang); }catch(e){}
+  }
+  document.addEventListener('click',function(e){
+    var b=e.target.closest?e.target.closest('.lang-btn'):null;
+    if(b){ setLang(b.getAttribute('data-lang'), true); }
+  });
+  var saved='en';
+  try{ saved=localStorage.getItem('lang')||'en'; }catch(e){}
+  setLang(saved, false);
 })();
 
 (function(){
