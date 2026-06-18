@@ -228,6 +228,14 @@ details.ep-details[open] .eb-chev{transform:rotate(180deg)}
 .lang-btn[data-lang="he"]{font-size:.78rem}
 @media(max-width:520px){.hdr-lang{gap:2px;padding:2px}.lang-btn{font-size:.66rem;padding:4px 8px}.lang-btn[data-lang="he"]{font-size:.7rem}}
 .cur-status,.lang-status{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+/* ---- RTL shell (Hebrew). Chrome flips; English prose islands (.stop-body/.bgt-wrap carry lang=en dir=ltr) stay LTR. ---- */
+html[dir="rtl"] body{direction:rtl}
+.stop-body,.bgt-wrap{text-align:start}
+html[dir="rtl"] .sc-val,html[dir="rtl"] .sc-sub,html[dir="rtl"] .stat b{direction:ltr;unicode-bidi:isolate;text-align:start}
+html[dir="rtl"] .tl-wrap,html[dir="rtl"] .tl{direction:ltr}
+.s-arrow{margin-inline-start:4px;margin-left:0}
+html[dir="rtl"] details:not([open]) .s-arrow{transform:scaleX(-1)}
+html[dir="rtl"] .fab-map{right:auto;left:24px}
 </style>
 <script>document.documentElement.className+=' js-ready'</script>
 </head>
@@ -309,7 +317,7 @@ details.ep-details[open] .eb-chev{transform:rotate(180deg)}
     <button class="btn" onclick="expandAll()">Expand All</button>
     <button class="btn" onclick="collapseAll()">Collapse All</button>
   </div>
-  <details class="bgt-wrap" open>
+  <details class="bgt-wrap" open lang="en" dir="ltr">
     <summary>
       <div class="bgt-icon">$</div>
       <div>
@@ -346,7 +354,7 @@ details.ep-details[open] .eb-chev{transform:rotate(180deg)}
   </div>
   <span class="s-arrow">&#8250;</span>
 </summary>
-<div class="stop-body">
+<div class="stop-body" lang="en" dir="ltr">
   <div class="grid2">
     <div>
       <div class="blk-lbl">Getting There</div>
@@ -458,7 +466,7 @@ details.ep-details[open] .eb-chev{transform:rotate(180deg)}
   </div>
   <span class="s-arrow">&#8250;</span>
 </summary>
-<div class="stop-body">
+<div class="stop-body" lang="en" dir="ltr">
   <div class="grid2">
     <div>
       <div class="blk-lbl">Getting There</div>
@@ -525,7 +533,7 @@ details.ep-details[open] .eb-chev{transform:rotate(180deg)}
   </div>
   <span class="s-arrow">&#8250;</span>
 </summary>
-<div class="stop-body">
+<div class="stop-body" lang="en" dir="ltr">
   <div class="grid2">
     <div>
       <div class="blk-lbl">Getting There</div>
@@ -611,7 +619,7 @@ details.ep-details[open] .eb-chev{transform:rotate(180deg)}
   </div>
   <span class="s-arrow">&#8250;</span>
 </summary>
-<div class="stop-body">
+<div class="stop-body" lang="en" dir="ltr">
   <div class="grid2">
     <div>
       <div class="blk-lbl">Getting There</div>
@@ -667,7 +675,7 @@ details.ep-details[open] .eb-chev{transform:rotate(180deg)}
   </div>
   <span class="s-arrow">&#8250;</span>
 </summary>
-<div class="stop-body">
+<div class="stop-body" lang="en" dir="ltr">
   <div class="grid2">
     <div>
       <div class="blk-lbl">Getting There</div>
@@ -762,7 +770,7 @@ details.ep-details[open] .eb-chev{transform:rotate(180deg)}
   </div>
   <span class="s-arrow">&#8250;</span>
 </summary>
-<div class="stop-body">
+<div class="stop-body" lang="en" dir="ltr">
   <div class="grid2">
     <div>
       <div class="blk-lbl">Getting There</div>
@@ -830,7 +838,7 @@ details.ep-details[open] .eb-chev{transform:rotate(180deg)}
   </div>
   <span class="s-arrow">&#8250;</span>
 </summary>
-<div class="stop-body">
+<div class="stop-body" lang="en" dir="ltr">
   <div class="grid2">
     <div>
       <div class="blk-lbl">Getting There</div>
@@ -895,7 +903,7 @@ details.ep-details[open] .eb-chev{transform:rotate(180deg)}
   </div>
   <span class="s-arrow">&#8250;</span>
 </summary>
-<div class="stop-body">
+<div class="stop-body" lang="en" dir="ltr">
   <div class="grid2">
     <div>
       <div class="blk-lbl">Getting There</div>
@@ -977,7 +985,7 @@ details.ep-details[open] .eb-chev{transform:rotate(180deg)}
   </div>
   <span class="s-arrow">&#8250;</span>
 </summary>
-<div class="stop-body">
+<div class="stop-body" lang="en" dir="ltr">
   <div class="grid2">
     <div>
       <div class="blk-lbl">Getting There</div>
@@ -1048,7 +1056,7 @@ details.ep-details[open] .eb-chev{transform:rotate(180deg)}
   </div>
   <span class="s-arrow">&#8250;</span>
 </summary>
-<div class="stop-body">
+<div class="stop-body" lang="en" dir="ltr">
   <div class="grid2">
     <div>
       <div class="blk-lbl">Getting There</div>
@@ -1134,7 +1142,7 @@ details.ep-details[open] .eb-chev{transform:rotate(180deg)}
   </div>
   <span class="s-arrow">&#8250;</span>
 </summary>
-<div class="stop-body">
+<div class="stop-body" lang="en" dir="ltr">
   <div class="grid2">
     <div>
       <div class="blk-lbl">Getting There</div>
@@ -1200,7 +1208,7 @@ details.ep-details[open] .eb-chev{transform:rotate(180deg)}
   </div>
   <span class="s-arrow">&#8250;</span>
 </summary>
-<div class="stop-body">
+<div class="stop-body" lang="en" dir="ltr">
   <div class="grid2">
     <div>
       <div class="blk-lbl">Getting There</div>
@@ -1276,7 +1284,7 @@ details.ep-details[open] .eb-chev{transform:rotate(180deg)}
   </div>
   <span class="s-arrow">&#8250;</span>
 </summary>
-<div class="stop-body">
+<div class="stop-body" lang="en" dir="ltr">
   <div class="grid2">
     <div>
       <div class="blk-lbl">Getting There</div>
