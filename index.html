@@ -20,6 +20,11 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;ba
 .hdr{background:linear-gradient(135deg,#1e3a5f,#2d5a8e);color:#fff;padding:18px 20px;position:sticky;top:0;z-index:200;box-shadow:0 4px 20px rgba(0,0,0,.25)}
 .hdr-in{max-width:900px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
 .hdr-title{font-size:1.35rem;font-weight:800;letter-spacing:-.3px}
+/* === BANNER-ENTRANCE START (one-time glare sweep on load + static gold title; rollback: delete this block + unwrap .shiny span) === */
+.hdr-title .shiny{background:linear-gradient(180deg,#f7d488 0%,#e8a93a 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent}
+.hdr::after{content:"";position:absolute;inset:0;pointer-events:none;z-index:3;background:linear-gradient(105deg,transparent 38%,rgba(255,255,255,.42) 50%,transparent 62%);background-size:250% 100%;background-position:160% 0;animation:hdr-glare 1.3s ease-out .2s 1 both}
+@keyframes hdr-glare{from{background-position:160% 0}to{background-position:-160% 0}}
+/* === BANNER-ENTRANCE END === */
 .hdr-sub{font-size:.78rem;opacity:.7;margin-top:1px}
 .hdr-stats{display:flex;gap:18px}
 .stat{text-align:center}
@@ -220,7 +225,7 @@ details.ep-details[open] .eb-chev{transform:rotate(180deg)}
   <div class="hdr-in">
     <div class="hdr-left">
       <div class="hdr-titlerow">
-        <div class="hdr-title">&#127483;&#127475; Vietnam 2026</div>
+        <div class="hdr-title">&#127483;&#127475; <span class="shiny">Vietnam 2026</span></div>
         <div class="hdr-cur" role="group" aria-label="Show prices in currency">
           <button type="button" class="cur-btn is-active" data-cur="USD" aria-pressed="true">USD&nbsp;$</button>
           <button type="button" class="cur-btn" data-cur="ILS" aria-pressed="false">ILS&nbsp;&#8362;</button>
