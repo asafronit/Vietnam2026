@@ -231,7 +231,12 @@ details.ep-details[open] .eb-chev{transform:rotate(180deg)}
 /* ---- RTL shell (Hebrew). Chrome flips; English prose islands (.stop-body/.bgt-wrap carry lang=en dir=ltr) stay LTR. ---- */
 html[dir="rtl"] body{direction:rtl}
 .stop-body,.bgt-wrap{text-align:start}
+/* R4: remaining SEL price holders rely on dir=ltr island ancestry (.stop-body/.bgt-wrap); if one moves out, add it to the isolate list below. */
 html[dir="rtl"] :is(.sc-val,.sc-sub,.stat b,.badge.b-dim){direction:ltr;unicode-bidi:isolate;text-align:start}
+html[dir="rtl"] #fx-date{direction:rtl;unicode-bidi:isolate;text-align:start}
+.fx-rate-line{font-size:1.1rem;font-weight:800;color:var(--primary);line-height:1.3;margin-top:1px}
+html[dir="rtl"] .fx-rate-line{text-align:right}   /* keep equations LTR but flush them right to match the RTL card */
+#fx-date{margin-top:3px}
 html[dir="rtl"] :is(.tl-wrap,.tl){direction:ltr}
 .s-arrow{margin-inline-start:4px;margin-left:0}
 html[dir="rtl"] details:not([open]) .s-arrow{transform:scaleX(-1)}
@@ -278,7 +283,7 @@ html[dir="rtl"] .fab-map{right:auto;left:24px}
     <div class="sc"><div class="sc-lbl" data-he="חזרה ל-TLV">Return TLV</div><div class="sc-val">24 Nov</div><div class="sc-sub">EY431 HAN 20:00 &rarr; AUH &rarr; TLV</div></div>
     <div class="sc"><div class="sc-lbl" data-he="לילות מלון">Hotel Nights</div><div class="sc-val">25</div><div class="sc-sub">+ 3 night-transports + Ha Long cruise</div></div>
     <div class="sc"><div class="sc-lbl" data-he="אומדן הוצאה עצמית">Own Spend Est.</div><div class="sc-val">~$1,550</div><div class="sc-sub">per couple &middot; on top of agent package + flights</div></div>
-    <div class="sc"><div class="sc-lbl" data-he="שער חליפין">Exchange Rate</div><div class="sc-val">2.92</div><div class="sc-sub">NIS per USD (May 2026)</div></div>
+    <div class="sc"><div class="sc-lbl" data-he="שער חליפין">Exchange Rate</div><div class="sc-val fx-rate-line" id="fx-rate">$1 = ₪2.92</div><div class="sc-val fx-rate-line" id="fx-rate2">₪1 = ₫9,000</div><div class="sc-sub" id="fx-date" data-en="est. Jun 2026" data-he="יוני 2026">est. Jun 2026</div></div>
   </div>
   <p class="sec-label" data-he="ציר המסלול">Route Timeline</p>
   <div class="tl-wrap"><div class="tl">
@@ -1347,14 +1352,17 @@ function goToStop(e,a){var href=a.getAttribute('href')||'';var id=href.split('#'
 
 /* ---- Currency switcher (USD / ILS / VND) ---- */
 (function(){
-  var RATES={USD:1, ILS:2.92, VND:25400};            /* 1 USD = this many units (edit to update) */
+  var RATES={USD:1, ILS:2.92, VND:26300};            /* fallback only — live-updated below */
+  var current='USD';                                  /* active currency, for re-apply after rate refresh */
   var SYM={USD:'$', ILS:'₪', VND:'₫'};
   var NAME={USD:'US Dollars', ILS:'Israeli Shekel', VND:'Vietnamese Dong'};
   var SEL='.sc-val,.sc-sub,.cost,.note,.bgt-sub,.badge.b-dim,.h-price,.act-cost,.bm-v,.bm-tot,.tips li';
   var PRICE=/\$\s*([\d,]+(?:\.\d+)?)((?:\s*(?:&ndash;|&mdash;|–|—|-)\s*)([\d,]+(?:\.\d+)?))?/g;
   var els=null;
   function fmt(v,c){
-    if(c==='VND'){ v=Math.round(v/1000)*1000; }
+    if(c==='VND'){ /* weak currency → compact K/M to avoid digit walls */
+      return new Intl.NumberFormat('en-US',{notation:'compact',maximumFractionDigits:1}).format(Math.round(v));
+    }
     else if(c==='ILS'){ v=Math.round(v); }
     else { v=Math.round(v*100)/100; }
     return v.toLocaleString('en-US');
@@ -1363,17 +1371,19 @@ function goToStop(e,a){var href=a.getAttribute('href')||'';var id=href.split('#'
     var r=RATES[c], sym=SYM[c];
     return html.replace(PRICE,function(m,a,rng,b){
       var fa=fmt(parseFloat(a.replace(/,/g,''))*r,c);
-      if(b!==undefined && b!==null){
-        return sym+fa+'–'+fmt(parseFloat(b.replace(/,/g,''))*r,c);
-      }
-      return sym+fa;
+      var out=(b!==undefined && b!==null)
+        ? sym+fa+'–'+fmt(parseFloat(b.replace(/,/g,''))*r,c)
+        : sym+fa;
+      return '<bdi>'+out+'</bdi>';   /* R1: isolate whole token/range so K/M + dash never reverse in RTL */
     });
   }
   function apply(c){
     if(!RATES[c]) return;
+    current=c;
     if(!els) els=document.querySelectorAll(SEL);
     for(var i=0;i<els.length;i++){
       var el=els[i];
+      if(el.id==='fx-rate'||el.id==='fx-rate2'||el.id==='fx-date'){ continue; }   /* FX card is rendered by renderRateCard, not currency-converted */
       if(el.getAttribute('data-usd')===null){
         if(el.innerHTML.indexOf('$')===-1) continue;   /* not a price holder */
         el.setAttribute('data-usd', el.innerHTML);
@@ -1388,14 +1398,59 @@ function goToStop(e,a){var href=a.getAttribute('href')||'';var id=href.split('#'
       btns[j].setAttribute('aria-pressed',on?'true':'false');
     }
     var st=document.getElementById('cur-status');
-    if(st){ st.textContent=(c==='USD')
-      ? 'Prices shown in US Dollars.'
-      : 'Prices shown in '+NAME[c]+' (approx. rate: '+RATES[c].toLocaleString('en-US')+' '+c+' per USD). Estimates only.'; }
+    if(st){
+      if(c==='USD'){ st.textContent='Prices shown in US Dollars.'; }
+      else if(c==='VND'){ st.textContent='Prices shown in Vietnamese Dong, abbreviated with K for thousand and M for million (approx. rate: '+RATES.VND.toLocaleString('en-US')+' VND per USD). Estimates only.'; }  /* R2 */
+      else { st.textContent='Prices shown in '+NAME[c]+' (approx. rate: '+RATES[c].toLocaleString('en-US')+' '+c+' per USD). Estimates only.'; }
+    }
   }
   document.addEventListener('click',function(e){
     var b=e.target.closest?e.target.closest('.cur-btn'):null;
     if(b){ apply(b.getAttribute('data-cur')); }
   });
+
+  /* ---- live exchange rates (cache-first seed, then network refresh; offline-safe) ---- */
+  var FX_API='https://open.er-api.com/v6/latest/USD';
+  var FX_LS='fxRates';
+  function fmtDate(iso, locale){           /* R7: locale-correct date, not hand-built */
+    try{
+      var dt=new Date(iso+'T00:00:00Z');
+      return new Intl.DateTimeFormat(locale,{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'}).format(dt);
+    }catch(e){ return iso; }
+  }
+  function renderRateCard(ils, vnd, iso){
+    var r1=document.getElementById('fx-rate');
+    if(r1){ r1.textContent='$1 = ₪'+(Math.round(ils*100)/100).toLocaleString('en-US'); }
+    var r2=document.getElementById('fx-rate2');
+    if(r2){ var vp=(vnd && ils) ? Math.round(vnd/ils).toLocaleString('en-US') : null; r2.textContent = vp ? ('₪1 = ₫'+vp) : ''; }
+    var d=document.getElementById('fx-date');           /* only the date is bilingual (rates are symbol/number, language-neutral) */
+    if(d && iso){
+      var en='<bdi>'+fmtDate(iso,'en-US')+'</bdi>';
+      var he='<bdi>'+fmtDate(iso,'he-IL')+'</bdi>';
+      d.setAttribute('data-en', en);
+      d.setAttribute('data-he', he);
+      var lang=document.documentElement.getAttribute('lang')||'en';
+      d.innerHTML=(lang==='he') ? he : en;
+    }
+  }
+  function applyRates(o){
+    if(o.ILS) RATES.ILS=o.ILS;
+    if(o.VND) RATES.VND=o.VND;
+    renderRateCard(RATES.ILS, RATES.VND, o.date||null);
+    apply(current);   /* refresh any already-converted prices with the new rates */
+  }
+  try{ var cj=JSON.parse(localStorage.getItem(FX_LS)||'null'); if(cj && cj.ILS && cj.VND){ applyRates(cj); } }catch(e){}
+  if(window.fetch){
+    fetch(FX_API,{cache:'no-store'}).then(function(r){ return r.ok ? r.json() : null; }).then(function(d){
+      if(d && d.result==='success' && d.rates && d.rates.ILS && d.rates.VND){
+        var iso=null;
+        if(d.time_last_update_unix){ iso=new Date(d.time_last_update_unix*1000).toISOString().slice(0,10); }
+        var o={ILS:d.rates.ILS, VND:d.rates.VND, date:iso};
+        try{ localStorage.setItem(FX_LS, JSON.stringify(o)); }catch(e){}
+        applyRates(o);
+      }
+    }).catch(function(){});
+  }
 })();
 </script>
 <script>
