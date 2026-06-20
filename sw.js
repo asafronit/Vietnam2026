@@ -6,7 +6,7 @@
  *   - Google Fonts (gstatic): cache-first, so the Inter font works offline once seen.
  * Bump VERSION to force clients to refetch precached assets.
  */
-const VERSION = "v4";
+const VERSION = "v5";
 const PRECACHE = `vietnam2026-precache-${VERSION}`;
 const RUNTIME = `vietnam2026-runtime-${VERSION}`;
 const TILES = `vietnam2026-tiles-${VERSION}`;
@@ -22,6 +22,12 @@ const PRECACHE_URLS = [
   "/icons/icon-512.png",
   "/icons/icon-512-maskable.png",
   "/icons/apple-touch-icon.png",
+  "/splash/sat.webp",
+  "/splash/hat.webp",
+  "/splash/lantern.webp",
+  "/splash/boat.webp",
+  "/splash/pho.webp",
+  "/splash/lotus.webp",
   "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css",
   "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js",
   "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap",
