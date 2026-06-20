@@ -12,6 +12,9 @@
 !sw.js
 !icons/
 !icons/*.png
+# Except splash intro assets (satellite texture + items)
+!splash/
+!splash/*.webp
 # Except GitHub Actions workflow
 !.github/
 !.github/workflows/
