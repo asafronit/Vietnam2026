@@ -15,7 +15,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title> Vietnam 2026 &mdash; Interactive Itinerary</title>
 <meta name="description" content="Interactive Vietnam 2026 trip itinerary. Works offline.">
-<meta name="theme-color" content="#1e3a5f">
+<meta name="theme-color" content="#42276f">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" type="image/png" sizes="512x512" href="icons/icon-512.png">
 <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
@@ -26,10 +26,10 @@
 <meta name="apple-mobile-web-app-title" content="Vietnam 2026">
 <style>
 
-:root{--bg:#f0f4f8;--card:#fff;--primary:#1e3a5f;--green:#0f7c5c;--blue:#1d52a8;--amber:#b45309;--gray:#4b5563;--light:#e5e7eb;--text:#111827;--muted:#6b7280;--r:12px;--sh:0 2px 10px rgba(0,0,0,.09)}
+:root{--bg:#f3f0f8;--card:#fff;--primary:#42276f;--green:#0f7c5c;--blue:#5d378b;--amber:#b45309;--gray:#4b5563;--light:#e8e3f0;--text:#111827;--muted:#6b7280;--r:12px;--sh:0 2px 10px rgba(0,0,0,.09)}
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;background:var(--bg);color:var(--text);font-size:15px;line-height:1.6}
-.hdr{background:linear-gradient(135deg,#1e3a5f,#2d5a8e);color:#fff;padding:18px 20px;position:sticky;top:0;z-index:200;box-shadow:0 4px 20px rgba(0,0,0,.25)}
+.hdr{background:linear-gradient(135deg,#42276f,#6c479c);color:#fff;padding:18px 20px;position:sticky;top:0;z-index:200;box-shadow:0 4px 20px rgba(0,0,0,.25)}
 .hdr-in{max-width:900px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
 .hdr-title{font-size:1.35rem;font-weight:800;letter-spacing:-.3px}
 /* === BANNER-ENTRANCE START (one-time glare sweep on load + static gold title; rollback: delete this block + unwrap .shiny span) === */
@@ -57,11 +57,11 @@ main{max-width:900px;margin:0 auto;padding:18px 14px 90px}
 .tl-conn{width:24px;height:3px;margin-bottom:18px;flex-shrink:0;opacity:.5}
 /* STATION-THUMBS CSS */
 .tl-dot.has-img{width:44px;height:44px;padding:2px;overflow:hidden}
-.tl-dot .tl-img{width:100%;height:100%;border-radius:50%;object-fit:cover;display:block}
+.tl-dot .tl-img{width:100%;height:100%;border-radius:50%;object-fit:cover;display:block;border:2px solid #000;box-sizing:border-box}
 .tl-conn{margin-bottom:22px}
 .tl-label .tl-n{color:var(--muted);font-weight:800}
 .s-num.has-img{width:44px;height:44px;padding:2px;overflow:visible;position:relative}
-.s-num .s-img{width:100%;height:100%;border-radius:50%;object-fit:cover;display:block}
+.s-num .s-img{width:100%;height:100%;border-radius:50%;object-fit:cover;display:block;border:2px solid #000;box-sizing:border-box}
 .s-num .s-badge{position:absolute;right:-3px;bottom:-3px;min-width:16px;height:16px;padding:0 3px;border-radius:8px;background:#fff;color:#111827;font-size:.6rem;font-weight:800;display:flex;align-items:center;justify-content:center;box-shadow:0 1px 3px rgba(0,0,0,.3)}
 @media (prefers-reduced-motion: reduce){.tl-item:hover{transform:none}}
 /* /STATION-THUMBS CSS */
@@ -139,7 +139,7 @@ details:target{border-color:#c7d8ec;box-shadow:0 6px 24px rgba(0,0,0,.12)}
 .bgt-wrap>summary::-webkit-details-marker{display:none}
 .bgt-wrap>summary:hover{background:#f7fafd;border-radius:var(--r)}
 .bgt-wrap[open]>summary{border-radius:var(--r) var(--r) 0 0}
-.bgt-wrap>summary .bgt-icon{font-size:1.25rem;width:38px;height:38px;border-radius:50%;background:#1e3a5f;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;flex-shrink:0}
+.bgt-wrap>summary .bgt-icon{font-size:1.25rem;width:38px;height:38px;border-radius:50%;background:#42276f;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;flex-shrink:0}
 .bgt-wrap>summary .bgt-title{font-size:1rem;font-weight:700;flex:1}
 .bgt-wrap>summary .bgt-sub{font-size:.78rem;color:var(--muted)}
 .bgt-wrap>summary .s-arrow{color:var(--muted);font-size:1.1rem;transition:transform .2s}
@@ -158,9 +158,9 @@ details:target{border-color:#c7d8ec;box-shadow:0 6px 24px rgba(0,0,0,.12)}
 
 
 /* ——— v2.0: booking links (dark navy) ——— */
-.book-link{color:#1e3a5f;text-decoration:underline;text-decoration-style:dotted;text-underline-offset:2px;font-weight:inherit}
-.book-link:hover{color:#2d5a8e;text-decoration-style:solid}
-.book-link:focus-visible{outline:2px solid #1e3a5f;outline-offset:2px;border-radius:2px}
+.book-link{color:#42276f;text-decoration:underline;text-decoration-style:dotted;text-underline-offset:2px;font-weight:inherit}
+.book-link:hover{color:#6c479c;text-decoration-style:solid}
+.book-link:focus-visible{outline:2px solid #42276f;outline-offset:2px;border-radius:2px}
 /* ——— v2.0: expand button (orange) ——— */
 .expand-btn{display:inline-flex;align-items:center;gap:3px;background:#fff7ed;color:#c2410c;border:1px solid #fed7aa;border-radius:20px;padding:1px 8px;font-size:.75rem;font-weight:600;cursor:pointer;vertical-align:middle;transition:background .15s;font-family:inherit;line-height:1.6}
 .expand-btn:hover{background:#ffedd5}
@@ -184,14 +184,14 @@ details:target{border-color:#c7d8ec;box-shadow:0 6px 24px rgba(0,0,0,.12)}
 .act-wrap{display:flex;flex-direction:column;gap:0;margin-bottom:6px}
 .act-wrap .act{margin-bottom:0}
 .loc-dot-sky{width:8px;height:8px;border-radius:50%;background:#0284c7;display:inline-block}
-.loc-dot-navy{width:8px;height:8px;border-radius:50%;background:#1e3a5f;display:inline-block}
+.loc-dot-navy{width:8px;height:8px;border-radius:50%;background:#42276f;display:inline-block}
 
 
 /* v6.0: Tab system per stop */
 .stop-tabs{display:flex;gap:2px;background:#dce5ef;border-radius:10px;padding:3px;margin:14px 0 10px;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none}
 .stop-tabs::-webkit-scrollbar{display:none}
 .stop-tab-btn{flex:1;padding:7px 5px;border-radius:8px;border:none;background:none;font-family:inherit;font-size:.72rem;font-weight:600;color:var(--muted);cursor:pointer;transition:all .15s;white-space:nowrap;min-width:0}
-.stop-tab-btn.active{background:var(--primary);color:#fff;box-shadow:0 2px 8px rgba(30,58,95,.3)}
+.stop-tab-btn.active{background:var(--primary);color:#fff;box-shadow:0 2px 8px rgba(66,39,111,.3)}
 .stop-tab-btn:hover:not(.active){background:#c8d5e5;color:var(--text)}
 .stop-tab-panel[hidden]{display:none!important}
 .stop-tab-panel>div,.stop-tab-panel>details{margin-bottom:10px}
@@ -226,10 +226,10 @@ details.ep-details[open] .eb-chev{transform:rotate(180deg)}
 .wa-link:focus-visible{outline:2px solid #6d28d9;outline-offset:2px;border-radius:2px;text-decoration:underline}
 .wa-phone{font-size:.79rem;font-variant-numeric:tabular-nums}
 /* v7.0: Floating Map Button */
-.fab-map{position:fixed;bottom:24px;right:24px;z-index:300;display:inline-flex;align-items:center;gap:7px;padding:13px 20px;border-radius:50px;background:linear-gradient(135deg,#1d52a8,#1e3a5f);color:#fff;text-decoration:none;font-family:inherit;font-size:.88rem;font-weight:700;letter-spacing:.3px;line-height:1;box-shadow:0 4px 20px rgba(30,58,95,.45);transition:background .15s,box-shadow .15s,transform .2s;cursor:pointer}
-.fab-map:hover{background:linear-gradient(135deg,#2563c4,#2d5a8e);box-shadow:0 8px 28px rgba(30,58,95,.55);transform:translateY(-3px);text-decoration:none}
-.fab-map:focus-visible{outline:3px solid #f0f4f8;outline-offset:3px;box-shadow:0 0 0 2px #1e3a5f,0 0 0 5px #f0f4f8,0 4px 20px rgba(30,58,95,.45)}
-.fab-map-pulse{position:absolute;inset:-5px;border-radius:55px;background:rgba(30,82,168,.35);animation:fabPulse 2.2s ease-out infinite;z-index:-1}
+.fab-map{position:fixed;bottom:24px;right:24px;z-index:300;display:inline-flex;align-items:center;gap:7px;padding:13px 20px;border-radius:50px;background:linear-gradient(135deg,#5d378b,#42276f);color:#fff;text-decoration:none;font-family:inherit;font-size:.88rem;font-weight:700;letter-spacing:.3px;line-height:1;box-shadow:0 4px 20px rgba(66,39,111,.45);transition:background .15s,box-shadow .15s,transform .2s;cursor:pointer}
+.fab-map:hover{background:linear-gradient(135deg,#7953ad,#6c479c);box-shadow:0 8px 28px rgba(66,39,111,.55);transform:translateY(-3px);text-decoration:none}
+.fab-map:focus-visible{outline:3px solid #f3f0f8;outline-offset:3px;box-shadow:0 0 0 2px #42276f,0 0 0 5px #f3f0f8,0 4px 20px rgba(66,39,111,.45)}
+.fab-map-pulse{position:absolute;inset:-5px;border-radius:55px;background:rgba(66,39,111,.35);animation:fabPulse 2.2s ease-out infinite;z-index:-1}
 @keyframes fabPulse{0%{transform:scale(1);opacity:.7}70%{transform:scale(1.22);opacity:0}100%{transform:scale(1.22);opacity:0}}
 @media(prefers-reduced-motion:reduce){.fab-map-pulse{animation:none}.fab-map{transition:none}.fab-map:hover{transform:none}}
 @media(max-width:480px){.fab-map{bottom:16px;right:16px;padding:11px 16px;font-size:.82rem}}
@@ -299,7 +299,7 @@ html.splash-on #splash{display:flex}
   <button type="button" class="sp-skip" id="sp-skip" tabindex="-1" aria-hidden="true">Skip</button>
 </div>
 <!-- === SPLASH-INTRO END === -->
-<header class="hdr" role="banner">
+<header class="hdr" role="banner" data-area="header">
   <div class="hdr-in">
     <div class="hdr-left">
       <div class="hdr-titlerow">
@@ -330,32 +330,32 @@ html.splash-on #splash{display:flex}
     </nav>
   </div>
 </header>
-<main>
+<main data-src="index.html">
   <p class="sec-label" data-he="המסע במבט-על">Trip at a Glance</p>
   <div class="sgrid">
     <div class="sc"><div class="sc-lbl" data-he="יציאה מ-TLV">Depart TLV</div><div class="sc-val">26 Oct</div><div class="sc-sub">Etihad EY600 &rarr; AUH &rarr; HAN</div></div>
     <div class="sc"><div class="sc-lbl" data-he="חזרה ל-TLV">Return TLV</div><div class="sc-val">24 Nov</div><div class="sc-sub">EY431 HAN 20:00 &rarr; AUH &rarr; TLV</div></div>
-    <div class="sc"><div class="sc-lbl" data-he="לילות מלון">Hotel Nights</div><div class="sc-val">25</div><div class="sc-sub">+ 3 night-transports + Ha Long cruise</div></div>
+    <div class="sc"><div class="sc-lbl" data-he="לילות מלון">Hotel Nights</div><div class="sc-val">26</div><div class="sc-sub">+ 2 night trains + Ha Long cruise</div></div>
     <div class="sc"><div class="sc-lbl" data-he="אומדן הוצאה עצמית">Own Spend Est.</div><div class="sc-val">~$1,550</div><div class="sc-sub">per couple &middot; on top of agent package + flights</div></div>
     <div class="sc"><div class="sc-lbl" data-he="שער חליפין">Exchange Rate</div><div class="sc-val fx-rate-line" id="fx-rate">$1 = ₪2.92</div><div class="sc-val fx-rate-line" id="fx-rate2">₪1 = ₫9,000</div><div class="sc-sub" id="fx-date" data-en="est. Jun 2026" data-he="יוני 2026">est. Jun 2026</div></div>
   </div>
   <p class="sec-label" data-he="ציר המסלול">Route Timeline</p>
-  <div class="tl-wrap"><div class="tl">
+  <div class="tl-wrap" data-area="timeline"><div class="tl">
 <a class="tl-item" href="#stop-1" onclick="goToStop(event,this)" aria-label="Stop 1: Hanoi — go to stop"><div class="tl-dot" style="background:#ef4444" aria-hidden="true">1</div><div class="tl-label">Hanoi</div></a>
 <div class="tl-conn" style="background:#9ca3af"></div>
-<a class="tl-item" href="#stop-2" onclick="goToStop(event,this)" aria-label="Stop 2: Ha Giang — go to stop"><div class="tl-dot" style="background:#eab308" aria-hidden="true">2</div><div class="tl-label">Ha Giang</div></a>
+<a class="tl-item" href="#stop-2" onclick="goToStop(event,this)" aria-label="Stop 2: Sapa — go to stop"><div class="tl-dot" style="background:#f97316" aria-hidden="true">2</div><div class="tl-label">Sapa</div></a>
 <div class="tl-conn" style="background:#9ca3af"></div>
-<a class="tl-item" href="#stop-3" onclick="goToStop(event,this)" aria-label="Stop 3: Sapa — go to stop"><div class="tl-dot" style="background:#f97316" aria-hidden="true">3</div><div class="tl-label">Sapa</div></a>
+<a class="tl-item" href="#stop-3" onclick="goToStop(event,this)" aria-label="Stop 3: Ha Long — go to stop"><div class="tl-dot" style="background:#22c55e" aria-hidden="true">3</div><div class="tl-label">Ha Long</div></a>
 <div class="tl-conn" style="background:#9ca3af"></div>
-<a class="tl-item" href="#stop-4" onclick="goToStop(event,this)" aria-label="Stop 4: Hanoi — go to stop"><div class="tl-dot" style="background:#64748b" aria-hidden="true">4</div><div class="tl-label">Hanoi</div></a>
+<a class="tl-item" href="#stop-4" onclick="goToStop(event,this)" aria-label="Stop 4: Ninh Binh — go to stop"><div class="tl-dot" style="background:#14b8a6" aria-hidden="true">4</div><div class="tl-label">Ninh Binh</div></a>
 <div class="tl-conn" style="background:#9ca3af"></div>
-<a class="tl-item" href="#stop-5" onclick="goToStop(event,this)" aria-label="Stop 5: Ha Long — go to stop"><div class="tl-dot" style="background:#22c55e" aria-hidden="true">5</div><div class="tl-label">Ha Long</div></a>
+<a class="tl-item" href="#stop-5" onclick="goToStop(event,this)" aria-label="Stop 5: Phong Nha — go to stop"><div class="tl-dot" style="background:#06b6d4" aria-hidden="true">5</div><div class="tl-label">Phong Nha</div></a>
 <div class="tl-conn" style="background:#9ca3af"></div>
-<a class="tl-item" href="#stop-6" onclick="goToStop(event,this)" aria-label="Stop 6: Ninh Binh — go to stop"><div class="tl-dot" style="background:#14b8a6" aria-hidden="true">6</div><div class="tl-label">Ninh Binh</div></a>
+<a class="tl-item" href="#stop-6" onclick="goToStop(event,this)" aria-label="Stop 6: Hoi An — go to stop"><div class="tl-dot" style="background:#8b5cf6" aria-hidden="true">6</div><div class="tl-label">Hoi An</div></a>
 <div class="tl-conn" style="background:#9ca3af"></div>
-<a class="tl-item" href="#stop-7" onclick="goToStop(event,this)" aria-label="Stop 7: Phong Nha — go to stop"><div class="tl-dot" style="background:#06b6d4" aria-hidden="true">7</div><div class="tl-label">Phong Nha</div></a>
+<a class="tl-item" href="#stop-7" onclick="goToStop(event,this)" aria-label="Stop 7: Buon Ma Thuot — go to stop"><div class="tl-dot" style="background:#a16207" aria-hidden="true">7</div><div class="tl-label">Buon Ma Thuot</div></a>
 <div class="tl-conn" style="background:#9ca3af"></div>
-<a class="tl-item" href="#stop-8" onclick="goToStop(event,this)" aria-label="Stop 8: Hoi An — go to stop"><div class="tl-dot" style="background:#8b5cf6" aria-hidden="true">8</div><div class="tl-label">Hoi An</div></a>
+<a class="tl-item" href="#stop-8" onclick="goToStop(event,this)" aria-label="Stop 8: Lak Lake — go to stop"><div class="tl-dot" style="background:#64748b" aria-hidden="true">8</div><div class="tl-label">Lak Lake</div></a>
 <div class="tl-conn" style="background:#9ca3af"></div>
 <a class="tl-item" href="#stop-9" onclick="goToStop(event,this)" aria-label="Stop 9: Da Lat — go to stop"><div class="tl-dot" style="background:#3b82f6" aria-hidden="true">9</div><div class="tl-label">Da Lat</div></a>
 <div class="tl-conn" style="background:#9ca3af"></div>
@@ -376,7 +376,7 @@ html.splash-on #splash{display:flex}
     <button class="btn" onclick="expandAll()">Expand All</button>
     <button class="btn" onclick="collapseAll()">Collapse All</button>
   </div>
-  <details class="bgt-wrap" open lang="en" dir="ltr">
+  <details class="bgt-wrap" open lang="en" dir="ltr" data-area="budget">
     <summary>
       <div class="bgt-icon">$</div>
       <div>
@@ -391,20 +391,20 @@ html.splash-on #splash{display:flex}
         <thead><tr><th scope="col">Item</th><th scope="col">Cost (USD)</th><th scope="col">Notes</th></tr></thead>
         <tbody><tr><td>International flights (Etihad)</td><td class="cost">$1,283.87</td><td class="note">Already paid &mdash; EY600 out / EY431 home</td></tr>
 <tr><td><strong>Agent package</strong> (hotels, listed tours, transfers &amp; internal flights, Days 1&ndash;30)</td><td class="cost">confirm quote</td><td class="note">Everything marked &ldquo;INCLUDED (agent)&rdquo; across the 13 stops &mdash; ask the agent for the total</td></tr>
-<tr><td>Own spend &mdash; North (Hanoi&rarr;Ninh Binh, stops 1&ndash;6)</td><td class="cost">~$478</td><td class="note">Optional activities, meals, local transport</td></tr>
-<tr><td>Own spend &mdash; Central (Phong Nha&rarr;Da Lat, stops 7&ndash;9)</td><td class="cost">~$550</td><td class="note">Incl. Da Nang &amp; Da Lat internal flights if not in package</td></tr>
+<tr><td>Own spend &mdash; North (Hanoi&rarr;Ninh Binh, stops 1&ndash;4)</td><td class="cost">~$478</td><td class="note">Optional activities, meals, local transport</td></tr>
+<tr><td>Own spend &mdash; Central (Phong Nha&rarr;Da Lat, stops 5&ndash;9)</td><td class="cost">~$550</td><td class="note">Incl. internal flights if not in package</td></tr>
 <tr><td>Own spend &mdash; South (Saigon&rarr;Hanoi, stops 10&ndash;13)</td><td class="cost">~$521</td><td class="note">Incl. speedboat + Phu Quoc&rarr;Hanoi flight if not in package</td></tr>
 <tr class="tot"><td>Own spend total (on top of package + flights)</td><td class="cost">~$1,550</td><td class="note">Per couple &middot; see each stop&rsquo;s Budget tab</td></tr></tbody>
       </table></div>
     </div>
   </details>
   <p class="sec-label" data-he="תחנות — הקש להרחבה">Stops &mdash; Tap to Expand</p>
-<details id="stop-1" open>
+<details id="stop-1" open data-area="stop-1-hanoi">
 <summary>
   <div class="s-num" style="background:#ef4444">1</div>
   <div class="s-info">
     <div class="s-city"><a class="map-link" href="https://maps.google.com/?q=Hanoi%2C+Vietnam" target="_blank" rel="noopener noreferrer">Hanoi</a></div>
-    <div class="s-meta">Oct 26 &ndash; Oct 28 &middot; 2 nights &middot; &#9992; Arrival</div>
+    <div class="s-meta">Oct 26 &ndash; Oct 29 &middot; 3 nights &middot; &#9992; Arrival</div>
   </div>
   <div class="s-badges">
 
@@ -419,7 +419,7 @@ html.splash-on #splash{display:flex}
       <div class="blk-lbl">Getting There</div>
       <div class="blk">
         <div class="tc-row"><span class="tc-icon">&#9992;</span><div><div class="tc-lbl">Arrival</div><div class="tc-det">Etihad EY430 lands 18:10 &middot; <a class="map-link" href="https://maps.google.com/?q=Noi+Bai+International+Airport%2C+Hanoi%2C+Vietnam" target="_blank" rel="noopener noreferrer">Noi Bai Airport</a> &mdash; Terminal 2 <a class="grab-link addr-line" href="grab://open?screenType=BOOKING&drop_off_lat=21.2180&drop_off_lng=105.8031" data-grab-web="https://www.grab.com/vn/" data-grab-addr="Sân Bay Nội Bài (Nhà Ga T2) - Phú Cường" aria-label="Sân Bay Nội Bài (Nhà Ga T2) - Phú Cường — open in Grab and copy address">Sân Bay Nội Bài (Nhà Ga T2) - Phú Cường</a></div></div></div>
-        <div class="tc-row"><span class="tc-icon">&#128652;</span><div><div class="tc-lbl">Departure</div><div class="tc-det">Day 3 (Oct 28) &middot; night sleeper bus to <a class="map-link" href="https://maps.google.com/?q=Ha+Giang%2C+Vietnam" target="_blank" rel="noopener noreferrer">Ha Giang</a> &middot; departs evening &middot; check in ~01:00</div></div></div>
+        <div class="tc-row"><span class="tc-icon">&#128656;</span><div><div class="tc-lbl">Departure</div><div class="tc-det">Day 4 (Oct 29) &middot; limousine van to <a class="map-link" href="https://maps.google.com/?q=Sapa%2C+Lao+Cai%2C+Vietnam" target="_blank" rel="noopener noreferrer">Sapa</a> &middot; hotel pickup &middot; ~6 hrs</div></div></div>
       </div>
     </div>
     <div>
@@ -459,7 +459,7 @@ html.splash-on #splash{display:flex}
 <div class="act"><span class="act-icon">&#128642;</span><span class="act-name"><a class="map-link" href="https://maps.google.com/?q=Hanoi+Train+Street%2C+Hoan+Kiem%2C+Hanoi%2C+Vietnam" target="_blank" rel="noopener noreferrer">Hanoi Train Street</a> <a class="grab-link addr-line" href="grab://open?screenType=BOOKING&drop_off_lat=21.0245&drop_off_lng=105.8412" data-grab-web="https://www.grab.com/vn/" data-grab-addr="Phố đường tàu Hà Nội, Trần Phú, Hoàn Kiếm, Hà Nội" aria-label="Phố đường tàu Hà Nội, Trần Phú, Hoàn Kiếm, Hà Nội — open in Grab and copy address">Phố đường tàu Hà Nội, Trần Phú, Hoàn Kiếm, Hà Nội</a> &mdash; watch the train pass inches away over Vietnamese coffee</span><span class="act-cost">EST $2 &middot; extra</span></div>
 <div class="act"><span class="act-icon">&#127857;</span><span class="act-name"><strong>Part 3 &middot; Hanoi Food Experience</strong> &mdash; fried &amp; fresh spring rolls (ph&#7903; cu&#7889;n), banh mi, egg coffee, bia hoi at a hidden-gem caf&eacute;</span><span class="act-cost">EST $15 &middot; &#10003; agent</span></div>
 <div class="act"><span class="act-icon">&#127913;</span><span class="act-name"><a class="map-link" href="https://maps.google.com/?q=Thang+Long+Water+Puppet+Theatre%2C+Hanoi%2C+Vietnam" target="_blank" rel="noopener noreferrer">Thang Long Water Puppet Show</a> <a class="grab-link addr-line" href="grab://open?screenType=BOOKING&drop_off_lat=21.0312&drop_off_lng=105.8526" data-grab-web="https://www.grab.com/vn/" data-grab-addr="Nhà hát Múa rối Thăng Long, 57B Đinh Tiên Hoàng, Hoàn Kiếm, Hà Nội" aria-label="Nhà hát Múa rối Thăng Long, 57B Đinh Tiên Hoàng, Hoàn Kiếm, Hà Nội — open in Grab and copy address">Nhà hát Múa rối Thăng Long, 57B Đinh Tiên Hoàng, Hoàn Kiếm, Hà Nội</a> &mdash; Day 3, optional before the night bus</span><span class="act-cost">EST $6 &middot; extra</span></div>
-<div class="act dep-act"><span class="act-icon">&#128652;</span><span class="act-name"><strong>End of Day 3 &middot; Departure</strong> &mdash; <a class="map-link" href="https://maps.google.com/?q=My+Dinh+Bus+Station%2C+Hanoi%2C+Vietnam" target="_blank" rel="noopener noreferrer" aria-label="My Dinh Bus Station — Google Maps (opens in new tab)">My Dinh Bus Station</a> <a class="grab-link addr-line" href="grab://open?screenType=BOOKING&drop_off_lat=21.0283&drop_off_lng=105.7787" data-grab-web="https://www.grab.com/vn/" data-grab-addr="Bến xe Mỹ Đình, 20 Phạm Hùng, Mỹ Đình, Nam Từ Liêm, Hà Nội" aria-label="Bến xe Mỹ Đình, 20 Phạm Hùng, Mỹ Đình, Nam Từ Liêm, Hà Nội — open in Grab and copy address">Bến xe Mỹ Đình, 20 Phạm Hùng, Mỹ Đình, Nam Từ Liêm, Hà Nội</a> &mdash; night sleeper bus to Ha Giang</span><span class="act-cost">EST $12pp &middot; extra</span></div>
+<div class="act dep-act"><span class="act-icon">&#128656;</span><span class="act-name"><strong>Day 4 (Oct 29) &middot; Departure</strong> &mdash; limousine van to <a class="map-link" href="https://maps.google.com/?q=Sapa%2C+Lao+Cai%2C+Vietnam" target="_blank" rel="noopener noreferrer" aria-label="Sapa — Google Maps (opens in new tab)">Sapa</a> (~6 hrs) &mdash; hotel pickup, no station needed</span><span class="act-cost">EST $20pp &middot; extra</span></div>
       </div>
 
     </div>
@@ -503,7 +503,7 @@ html.splash-on #splash{display:flex}
         <div class="bm-item"><span class="bm-lbl">Water Puppet Show (Day 3, opt):</span><span class="bm-v">EST $6pp</span></div>
         <div class="bm-item"><span class="bm-lbl">Meals (own, outside tour):</span><span class="bm-v">EST $90</span></div>
         <div class="bm-item"><span class="bm-lbl">Local transport / Grab:</span><span class="bm-v">EST $20</span></div>
-        <div class="bm-item"><span class="bm-lbl">Night bus &rarr; Ha Giang:</span><span class="bm-v">EST $12pp</span></div>
+        <div class="bm-item"><span class="bm-lbl">Limousine van &rarr; Sapa:</span><span class="bm-v">EST $20pp</span></div>
         <div class="bm-tot">Est. own spend (per couple): EST $150</div>
       </div>
     </div>
@@ -511,80 +511,12 @@ html.splash-on #splash{display:flex}
   </div>
 </div>
 </details>
-<details id="stop-2" open>
+<details id="stop-2" open data-area="stop-2-sapa">
 <summary>
-  <div class="s-num" style="background:#eab308">2</div>
-  <div class="s-info">
-    <div class="s-city"><a class="map-link" href="https://maps.google.com/?q=Ha+Giang%2C+Vietnam" target="_blank" rel="noopener noreferrer">Ha Giang Loop</a></div>
-    <div class="s-meta">Oct 29 &ndash; Oct 31 &middot; 2 nights &middot; &#128652; Arrival</div>
-  </div>
-  <div class="s-badges">
-
-    <span class="badge b-tbd">Homestays</span>
-    <span class="badge b-dim">EST $54</span>
-  </div>
-  <span class="s-arrow">&#8250;</span>
-</summary>
-<div class="stop-body" lang="en" dir="ltr">
-  <div class="grid2">
-    <div>
-      <div class="blk-lbl">Getting There</div>
-      <div class="blk">
-        <div class="tc-row"><span class="tc-icon">&#128652;</span><div><div class="tc-lbl">Arrival</div><div class="tc-det">Night sleeper bus from <a class="map-link" href="https://maps.google.com/?q=Hanoi%2C+Vietnam" target="_blank" rel="noopener noreferrer">Hanoi</a> &middot; check in Ha Giang ~01:00 &middot; loop starts 09:00</div></div></div>
-        <div class="tc-row"><span class="tc-icon">&#128652;</span><div><div class="tc-lbl">Departure</div><div class="tc-det">Day 6 (Oct 31) &middot; bus <a class="map-link" href="https://maps.google.com/?q=Ha+Giang%2C+Vietnam" target="_blank" rel="noopener noreferrer">Ha Giang</a> &rarr; <a class="map-link" href="https://maps.google.com/?q=Sapa%2C+Lao+Cai%2C+Vietnam" target="_blank" rel="noopener noreferrer">Sapa</a> &middot; arrive ~11:00</div></div></div>
-      </div>
-    </div>
-    <div>
-      <div class="blk-lbl">Hotel</div>
-      <div class="blk">
-        <div class="h-name">Loop homestays &mdash; Yen Minh &amp; Dong Van (agent)</div>
-        <div class="h-price">Included in the loop tour &middot; meals + stay</div>
-        <div class="h-notes">
-          Night 1 (Oct 29): <strong><a class="map-link" href="https://maps.google.com/?q=Yen+Minh%2C+Ha+Giang%2C+Vietnam" target="_blank" rel="noopener noreferrer">Yen Minh</a> homestay</strong> &mdash; dinner + cultural evening with the hosts. <a class="grab-link addr-line" href="grab://open?screenType=BOOKING&drop_off_lat=23.1167&drop_off_lng=105.1500" data-grab-web="https://www.grab.com/vn/" data-grab-addr="Thị trấn Yên Minh, Yên Minh, Hà Giang" aria-label="Thị trấn Yên Minh, Yên Minh, Hà Giang — open in Grab and copy address">Thị trấn Yên Minh, Yên Minh, Hà Giang</a><br>
-          Night 2 (Oct 30): <strong><a class="map-link" href="https://maps.google.com/?q=Dong+Van+Old+Quarter%2C+Ha+Giang%2C+Vietnam" target="_blank" rel="noopener noreferrer">Dong Van</a> old-quarter homestay</strong> &mdash; lantern-lit streets, night market. <a class="grab-link addr-line" href="grab://open?screenType=BOOKING&drop_off_lat=23.2783&drop_off_lng=105.3625" data-grab-web="https://www.grab.com/vn/" data-grab-addr="Phố cổ Đồng Văn, Thị trấn Đồng Văn, Hà Giang" aria-label="Phố cổ Đồng Văn, Thị trấn Đồng Văn, Hà Giang — open in Grab and copy address">Phố cổ Đồng Văn, Thị trấn Đồng Văn, Hà Giang</a><br>
-          <span style="font-size:.73rem;color:var(--muted)">Guided loop includes driver-guide, homestays, all meals &amp; rain gear &mdash; transport is the tour's private vehicle (Grab/taxi don't run the mountain loop).</span>
-        </div>
-      </div>
-    </div>
-    <div class="full">
-      <div class="blk-lbl">Activities &amp; Adventure</div>
-      <div class="acts">
-<div class="act"><span class="act-icon">&#127956;</span><span class="act-name"><strong>Day 4 (Oct 29) &middot; Ha Giang &rarr; Yen Minh</strong> &mdash; <a class="map-link" href="https://maps.google.com/?q=Bac+Sum+Pass%2C+Ha+Giang%2C+Vietnam" target="_blank" rel="noopener noreferrer">Bac Sum Pass</a> (the &ldquo;snake road&rdquo;), <a class="map-link" href="https://maps.google.com/?q=Heaven+Gate+Quan+Ba%2C+Tam+Son%2C+Ha+Giang%2C+Vietnam" target="_blank" rel="noopener noreferrer">Heaven Gate (Tam Son)</a>, Twin Hills, Nam Dam Dao village + hemp weaving</span><span class="act-cost">EST $158pp &middot; &#10003; agent</span></div>
-<div class="act"><span class="act-icon">&#127981;</span><span class="act-name"><strong>Day 5 (Oct 30) &middot; Yen Minh &rarr; Dong Van</strong> &mdash; Tham Ma Pass, <a class="map-link" href="https://maps.google.com/?q=Vuong+Family+Palace%2C+Sa+Phin%2C+Ha+Giang%2C+Vietnam" target="_blank" rel="noopener noreferrer">Vuong (Hmong King) Palace</a>, <a class="map-link" href="https://maps.google.com/?q=Lung+Cu+Flag+Tower%2C+Ha+Giang%2C+Vietnam" target="_blank" rel="noopener noreferrer">Lung Cu Flag Tower</a> (northernmost point), Lo Lo Chai village</span><span class="act-cost">&#10003; agent (loop)</span></div>
-<div class="act"><span class="act-icon">&#127956;</span><span class="act-name"><strong>Day 6 (Oct 31) &middot; Dong Van &rarr; Ha Giang</strong> &mdash; Happiness Road to <a class="map-link" href="https://maps.google.com/?q=Ma+Pi+Leng+Pass%2C+Ha+Giang%2C+Vietnam" target="_blank" rel="noopener noreferrer">Ma Pi Leng Pass</a> (&ldquo;King of Passes&rdquo;), Du Gia lunch, then bus to Sapa</span><span class="act-cost">&#10003; agent (loop)</span></div>
-<div class="act"><span class="act-icon">&#128694;</span><span class="act-name"><a class="map-link" href="https://maps.google.com/?q=Nho+Que+River%2C+Ha+Giang%2C+Vietnam" target="_blank" rel="noopener noreferrer">Nho Que River Viewpoint</a> &mdash; turquoise river ~1000m below Ma Pi Leng (optional boat)</span><span class="act-cost">EST $12 &middot; extra</span></div>
-<div class="act dep-act"><span class="act-icon">&#128652;</span><span class="act-name"><strong>End of Day 6 &middot; Departure</strong> &mdash; <a class="map-link" href="https://maps.google.com/?q=Ha+Giang+Bus+Station%2C+Ha+Giang%2C+Vietnam" target="_blank" rel="noopener noreferrer" aria-label="Ha Giang Bus Station — Google Maps (opens in new tab)">Ha Giang Bus Station</a> <a class="grab-link addr-line" href="grab://open?screenType=BOOKING&drop_off_lat=22.8233&drop_off_lng=104.9836" data-grab-web="https://www.grab.com/vn/" data-grab-addr="Bến xe khách Hà Giang, Lý Tự Trọng, TP. Hà Giang" aria-label="Bến xe khách Hà Giang, Lý Tự Trọng, TP. Hà Giang — open in Grab and copy address">Bến xe khách Hà Giang, Lý Tự Trọng, TP. Hà Giang</a> &mdash; bus to Sapa (~6 hrs)</span><span class="act-cost">EST $15pp &middot; extra</span></div>
-      </div>
-      <a class="vid-link" href="https://youtube.com/watch?v=kvrY2Fq5QeM" target="_blank" rel="noopener">&#9654; Ha Giang Loop &mdash; Vietnam Most Insane Road Trip</a>
-    </div>
-    <div class="full">
-      <div class="blk-lbl">Practical Tips</div>
-      <div class="tips"><ul><li><strong>Ha Giang permit:</strong> foreigners need a border-area travel permit (~$10) &mdash; confirm the agent/tour arranges it and carry a copy</li><li><strong>Nho Que boat:</strong> optional &amp; extra (~$5&ndash;7pp), buy at the pier; the descent to the jetty is steep &mdash; agree any xe-om price first</li><li><strong>Ma Pi Leng:</strong> the viewpoints are free &mdash; don&rsquo;t pay touts for &ldquo;entry&rdquo;; only the clifftop Panorama caf&eacute; charges</li><li><strong>Lung Cu Flag Tower:</strong> ~389 steps (electric buggy for a small fee); coldest, most exposed point &mdash; layer up</li><li><strong>Homestay dinners:</strong> hosts offer &ldquo;happy water&rdquo; (corn rice wine) &mdash; pace yourself; bring cash, facilities are basic</li><li><strong>Easy-rider / scooter:</strong> ride pillion with the guide unless you hold a valid licence &mdash; police checkpoints on the loop and insurance is void without one</li></ul></div>
-    </div>
-    <div>
-      <div class="blk-lbl">Stop Budget</div>
-      <div class="bm">
-        <div class="bm-item"><span class="bm-lbl">Homestays (Yen Minh, Dong Van):</span><span class="bm-v">INCLUDED (agent)</span></div>
-        <div class="bm-item"><span class="bm-lbl">3D2N Ha Giang loop (Day 4&ndash;6):</span><span class="bm-v">INCLUDED (EST $158pp)</span></div>
-        <div class="bm-item"><span class="bm-lbl">&nbsp;&middot; Day 4 &mdash; Bac Sum, Heaven Gate, Nam Dam:</span><span class="bm-v">in loop</span></div>
-        <div class="bm-item"><span class="bm-lbl">&nbsp;&middot; Day 5 &mdash; Vuong Palace, Lung Cu, Lo Lo Chai:</span><span class="bm-v">in loop</span></div>
-        <div class="bm-item"><span class="bm-lbl">&nbsp;&middot; Day 6 &mdash; Ma Pi Leng, Du Gia:</span><span class="bm-v">in loop</span></div>
-        <div class="bm-item"><span class="bm-lbl">All loop meals:</span><span class="bm-v">INCLUDED (agent)</span></div>
-        <div class="bm-item"><span class="bm-lbl">Nho Que River boat (opt):</span><span class="bm-v">EST $12pp</span></div>
-        <div class="bm-item"><span class="bm-lbl">Bus &rarr; Sapa:</span><span class="bm-v">EST $15pp</span></div>
-        <div class="bm-tot">Est. own spend (per couple): EST $54</div>
-      </div>
-    </div>
-    
-  </div>
-</div>
-</details>
-<details id="stop-3" open>
-<summary>
-  <div class="s-num" style="background:#f97316">3</div>
+  <div class="s-num" style="background:#f97316">2</div>
   <div class="s-info">
     <div class="s-city"><a class="map-link" href="https://maps.google.com/?q=Sapa%2C+Lao+Cai%2C+Vietnam" target="_blank" rel="noopener noreferrer">Sapa</a></div>
-    <div class="s-meta">Nov 1 &ndash; Nov 3 &middot; 2 nights &middot; &#128652; Arrival</div>
+    <div class="s-meta">Oct 29 &ndash; Oct 31 &middot; 2 nights &middot; &#128656; Arrival</div>
   </div>
   <div class="s-badges">
     <span class="badge b-tbd">Bamboo Hotel</span>
@@ -597,8 +529,8 @@ html.splash-on #splash{display:flex}
     <div>
       <div class="blk-lbl">Getting There</div>
       <div class="blk">
-        <div class="tc-row"><span class="tc-icon">&#128652;</span><div><div class="tc-lbl">Arrival</div><div class="tc-det">Day 7 (Nov 1) &middot; bus from <a class="map-link" href="https://maps.google.com/?q=Ha+Giang%2C+Vietnam" target="_blank" rel="noopener noreferrer">Ha Giang</a> &middot; arrive ~11:00 &middot; check in Bamboo Hotel</div></div></div>
-        <div class="tc-row"><span class="tc-icon">&#128646;</span><div><div class="tc-lbl">Departure</div><div class="tc-det">Day 9 (Nov 3) &middot; van ~18:00 to <a class="map-link" href="https://maps.google.com/?q=Lao+Cai+Railway+Station%2C+Vietnam" target="_blank" rel="noopener noreferrer">Lao Cai station</a> &rarr; night train to <a class="map-link" href="https://maps.google.com/?q=Hanoi%2C+Vietnam" target="_blank" rel="noopener noreferrer">Hanoi</a></div></div></div>
+        <div class="tc-row"><span class="tc-icon">&#128656;</span><div><div class="tc-lbl">Arrival</div><div class="tc-det">Day 4 (Oct 29) &middot; limousine van from <a class="map-link" href="https://maps.google.com/?q=Hanoi%2C+Vietnam" target="_blank" rel="noopener noreferrer">Hanoi</a> &middot; ~6 hrs &middot; check in</div></div></div>
+        <div class="tc-row"><span class="tc-icon">&#128646;</span><div><div class="tc-lbl">Departure</div><div class="tc-det">Day 6 (Oct 31) &middot; van ~18:00 to <a class="map-link" href="https://maps.google.com/?q=Lao+Cai+Railway+Station%2C+Vietnam" target="_blank" rel="noopener noreferrer">Lao Cai station</a> &rarr; night train to <a class="map-link" href="https://maps.google.com/?q=Hanoi%2C+Vietnam" target="_blank" rel="noopener noreferrer">Hanoi</a> &rarr; morning car to Ha Long</div></div></div>
       </div>
     </div>
     <div>
@@ -621,7 +553,7 @@ html.splash-on #splash{display:flex}
 <div class="act"><span class="act-icon">&#128694;</span><span class="act-name"><strong>Day 8 &middot; Countryside Trekking with local guide</strong> &mdash; downhill through Black H&rsquo;mong &amp; Red Dao villages, rice-terrace valley &amp; bamboo forest, indigo dyeing &amp; batik; lunch with a local family</span><span class="act-cost">INCLUDED (EST $25pp)</span></div>
 <div class="act"><span class="act-icon">&#9968;</span><span class="act-name"><a class="map-link" href="https://maps.google.com/?q=Red+Dao+herbal+bath%2C+Ta+Phin%2C+Sapa%2C+Vietnam" target="_blank" rel="noopener noreferrer">Red Dao herbal bath</a> (optional) &mdash; traditional medicine bath after the trek, great for sore legs (own charge)</span><span class="act-cost">EST $8pp &middot; extra</span></div>
 <div class="act"><span class="act-icon">&#129346;</span><span class="act-name"><a class="map-link" href="https://maps.google.com/?q=Sapa+Jade+Hill%2C+Sa+Pa%2C+Lao+Cai%2C+Vietnam" target="_blank" rel="noopener noreferrer">Paragliding</a> (optional) <a class="grab-link addr-line" href="grab://open?screenType=BOOKING&drop_off_lat=22.3361&drop_off_lng=103.8438" data-grab-web="https://www.grab.com/vn/" data-grab-addr="Sapa Jade Hill, Lao Chải, Sa Pa, Lào Cai" aria-label="Sapa Jade Hill, Lao Chải, Sa Pa, Lào Cai — open in Grab and copy address">Sapa Jade Hill, Lao Chải, Sa Pa, Lào Cai</a> <a class="yt-link" href="https://www.youtube.com/results?search_query=paragliding+sapa+vietnam" target="_blank" rel="noopener noreferrer" aria-label="Paragliding Sapa — watch on YouTube">&#9654; Watch</a> &mdash; tandem over the rice valley (Oct&ndash;Nov season)</span><span class="act-cost">EST $90pp &middot; extra</span></div>
-<div class="act dep-act"><span class="act-icon">&#128646;</span><span class="act-name"><strong>End of Day 9 &middot; Departure</strong> &mdash; van pickup ~18:00 to <a class="map-link" href="https://maps.google.com/?q=Lao+Cai+Railway+Station%2C+Vietnam" target="_blank" rel="noopener noreferrer" aria-label="Lao Cai Railway Station — Google Maps (opens in new tab)">Lao Cai Railway Station</a> <a class="grab-link addr-line" href="grab://open?screenType=BOOKING&drop_off_lat=22.4180&drop_off_lng=103.9560" data-grab-web="https://www.grab.com/vn/" data-grab-addr="Ga Lào Cai, Phố Mới, Lào Cai" aria-label="Ga Lào Cai, Phố Mới, Lào Cai — open in Grab and copy address">Ga Lào Cai, Phố Mới, Lào Cai</a> &mdash; night train to Hanoi</span><span class="act-cost">EST $25pp &middot; extra</span></div>
+<div class="act dep-act"><span class="act-icon">&#128646;</span><span class="act-name"><strong>End of Day 6 &middot; Departure</strong> &mdash; van pickup ~18:00 to <a class="map-link" href="https://maps.google.com/?q=Lao+Cai+Railway+Station%2C+Vietnam" target="_blank" rel="noopener noreferrer" aria-label="Lao Cai Railway Station — Google Maps (opens in new tab)">Lao Cai Railway Station</a> <a class="grab-link addr-line" href="grab://open?screenType=BOOKING&drop_off_lat=22.4180&drop_off_lng=103.9560" data-grab-web="https://www.grab.com/vn/" data-grab-addr="Ga Lào Cai, Phố Mới, Lào Cai" aria-label="Ga Lào Cai, Phố Mới, Lào Cai — open in Grab and copy address">Ga Lào Cai, Phố Mới, Lào Cai</a> &mdash; night train to Hanoi</span><span class="act-cost">EST $25pp &middot; extra</span></div>
       </div>
       <a class="vid-link" href="https://youtube.com/watch?v=i9YBfaZFhEE" target="_blank" rel="noopener">&#9654; Hiking Fansipan &mdash; Sapa Vietnam</a>
     </div>
@@ -664,69 +596,12 @@ html.splash-on #splash{display:flex}
   </div>
 </div>
 </details>
-<details id="stop-4" open>
+<details id="stop-3" open data-area="stop-3-ha-long">
 <summary>
-  <div class="s-num" style="background:#64748b">4</div>
-  <div class="s-info">
-    <div class="s-city"><a class="map-link" href="https://maps.google.com/?q=Hanoi+Railway+Station%2C+Vietnam" target="_blank" rel="noopener noreferrer">Hanoi (Transit)</a></div>
-    <div class="s-meta">Nov 4 &middot; transit &middot; &#128646; Train arrival</div>
-  </div>
-  <div class="s-badges">
-
-    <span class="badge b-tbd">No overnight</span>
-    <span class="badge b-dim">EST $8</span>
-  </div>
-  <span class="s-arrow">&#8250;</span>
-</summary>
-<div class="stop-body" lang="en" dir="ltr">
-  <div class="grid2">
-    <div>
-      <div class="blk-lbl">Getting There</div>
-      <div class="blk">
-        <div class="tc-row"><span class="tc-icon">&#128646;</span><div><div class="tc-lbl">Arrival</div><div class="tc-det">Day 10 (Nov 4) &middot; night train from <a class="map-link" href="https://maps.google.com/?q=Lao+Cai+Railway+Station%2C+Vietnam" target="_blank" rel="noopener noreferrer">Lao Cai</a> arrives <a class="map-link" href="https://maps.google.com/?q=Hanoi+Railway+Station%2C+Vietnam" target="_blank" rel="noopener noreferrer">Hanoi station</a> early morning</div></div></div>
-        <div class="tc-row"><span class="tc-icon">&#128652;</span><div><div class="tc-lbl">Departure</div><div class="tc-det">06:00 pickup at the station &rarr; drive to <a class="map-link" href="https://maps.google.com/?q=Tuan+Chau+Harbor%2C+Ha+Long%2C+Vietnam" target="_blank" rel="noopener noreferrer">Tuan Chau Harbor</a> (Ha Long) &middot; arrive ~11:00</div></div></div>
-      </div>
-    </div>
-    <div>
-      <div class="blk-lbl">Hotel</div>
-      <div class="blk">
-        <div class="h-name">No overnight in Hanoi</div>
-        <div class="h-price">&mdash;</div>
-        <div class="h-notes">Per the agent plan you transfer straight from the morning train to the <strong>Ha Long cruise</strong> &mdash; tonight is spent aboard the boat (see next stop). Just a few hours in Hanoi for breakfast &amp; freshening up.</div>
-      </div>
-    </div>
-    <div class="full">
-      <div class="blk-lbl">Activities &amp; Adventure</div>
-      <div class="acts">
-<div class="act"><span class="act-icon">&#127837;</span><span class="act-name">Quick breakfast near the station &mdash; a bowl of ph&#7903; before the Ha Long transfer</span><span class="act-cost">EST $3pp &middot; extra</span></div>
-<div class="act"><span class="act-icon">&#129532;</span><span class="act-name">Freshen up / store large bags &mdash; you board the cruise at midday</span><span class="act-cost">&mdash;</span></div>
-<div class="act dep-act"><span class="act-icon">&#128652;</span><span class="act-name"><strong>Day 10 &middot; Departure</strong> &mdash; 06:00 pickup at <a class="map-link" href="https://maps.google.com/?q=Hanoi+Railway+Station%2C+Vietnam" target="_blank" rel="noopener noreferrer" aria-label="Hanoi Railway Station — Google Maps (opens in new tab)">Hanoi Railway Station</a> <a class="grab-link addr-line" href="grab://open?screenType=BOOKING&drop_off_lat=21.0245&drop_off_lng=105.8412" data-grab-web="https://www.grab.com/vn/" data-grab-addr="Ga Hà Nội, 120 Lê Duẩn, Hoàn Kiếm, Hà Nội" aria-label="Ga Hà Nội, 120 Lê Duẩn, Hoàn Kiếm, Hà Nội — open in Grab and copy address">Ga Hà Nội, 120 Lê Duẩn, Hoàn Kiếm, Hà Nội</a> &rarr; car to Tuan Chau / Ha Long (~3.5 hrs)</span><span class="act-cost">INCLUDED (cruise)</span></div>
-      </div>
-
-    </div>
-    <div class="full">
-      <div class="blk-lbl">Practical Tips</div>
-      <div class="tips"><ul><li>This is a <strong>pass-through</strong> &mdash; no Hanoi hotel tonight; you sleep on the Ha Long cruise</li><li>Keep your overnight bag handy; large luggage can ride to the boat or be stored</li><li>The station&rarr;Tuan Chau transfer (~3.5 hrs) is arranged by the cruise &mdash; confirm the 06:00 pickup the evening before</li><li>Grab a SIM top-up / cash at the station if needed before heading to the bay</li></ul></div>
-    </div>
-    <div>
-      <div class="blk-lbl">Stop Budget</div>
-      <div class="bm">
-        <div class="bm-item"><span class="bm-lbl">Station &rarr; Ha Long transfer:</span><span class="bm-v">INCLUDED (cruise)</span></div>
-        <div class="bm-item"><span class="bm-lbl">Breakfast near station:</span><span class="bm-v">EST $3pp</span></div>
-        <div class="bm-item"><span class="bm-lbl">Bag storage (if needed):</span><span class="bm-v">EST $2</span></div>
-        <div class="bm-tot">Est. own spend (per couple): EST $8</div>
-      </div>
-    </div>
-    
-  </div>
-</div>
-</details>
-<details id="stop-5" open>
-<summary>
-  <div class="s-num" style="background:#22c55e">5</div>
+  <div class="s-num" style="background:#22c55e">3</div>
   <div class="s-info">
     <div class="s-city"><a class="map-link" href="https://maps.google.com/?q=Ha+Long+Bay%2C+Vietnam" target="_blank" rel="noopener noreferrer">Ha Long Bay</a></div>
-    <div class="s-meta">Nov 4 &ndash; Nov 5 &middot; 1 night &middot; &#128676; Cruise</div>
+    <div class="s-meta">Nov 1 &ndash; Nov 2 &middot; 1 night &middot; &#128676; Cruise</div>
   </div>
   <div class="s-badges">
     <span class="badge b-cruise">Verdure Lotus &#10003;</span>
@@ -739,8 +614,8 @@ html.splash-on #splash{display:flex}
     <div>
       <div class="blk-lbl">Getting There</div>
       <div class="blk">
-        <div class="tc-row"><span class="tc-icon">&#128676;</span><div><div class="tc-lbl">Arrival</div><div class="tc-det">Day 10 (Nov 4) &middot; from <a class="map-link" href="https://maps.google.com/?q=Tuan+Chau+Harbor%2C+Ha+Long%2C+Vietnam" target="_blank" rel="noopener noreferrer">Tuan Chau Harbor</a> ~11:00 &middot; tender to the Verdure Lotus, welcome drink &amp; lunch</div></div></div>
-        <div class="tc-row"><span class="tc-icon">&#128652;</span><div><div class="tc-lbl">Departure</div><div class="tc-det">Day 11 (Nov 5) &middot; check-out + brunch &rarr; tender to Tuan Chau &rarr; car to <a class="map-link" href="https://maps.google.com/?q=Ninh+Binh%2C+Vietnam" target="_blank" rel="noopener noreferrer">Ninh Binh</a> (Hang Mua Garden Villa)</div></div></div>
+        <div class="tc-row"><span class="tc-icon">&#128676;</span><div><div class="tc-lbl">Arrival</div><div class="tc-det">Day 7 (Nov 1) &middot; night train arrives Hanoi early &rarr; car to <a class="map-link" href="https://maps.google.com/?q=Tuan+Chau+Harbor%2C+Ha+Long%2C+Vietnam" target="_blank" rel="noopener noreferrer">Tuan Chau Harbor</a> (~2.5 hrs) &middot; tender ~11:00, welcome drink &amp; lunch</div></div></div>
+        <div class="tc-row"><span class="tc-icon">&#128652;</span><div><div class="tc-lbl">Departure</div><div class="tc-det">Day 8 (Nov 2) &middot; check-out + brunch &rarr; tender to Tuan Chau &rarr; car to <a class="map-link" href="https://maps.google.com/?q=Ninh+Binh%2C+Vietnam" target="_blank" rel="noopener noreferrer">Ninh Binh</a> (~3 hrs)</div></div></div>
       </div>
     </div>
     <div>
@@ -762,7 +637,7 @@ html.splash-on #splash{display:flex}
 <div class="act"><span class="act-icon">&#128676;</span><span class="act-name"><strong>Day 10 &middot; Lan Ha &amp; Tra Bau cruise</strong> &mdash; <a class="map-link" href="https://maps.google.com/?q=Lan+Ha+Bay%2C+Vietnam" target="_blank" rel="noopener noreferrer">Lan Ha Bay</a> sailing, seafood lunch, <a class="map-link" href="https://maps.google.com/?q=Tra+Bau+Lagoon%2C+Lan+Ha+Bay%2C+Vietnam" target="_blank" rel="noopener noreferrer">Tra Bau</a> lagoon kayaking, sunset party + cooking class, evening squid fishing</span><span class="act-cost">INCLUDED (cruise)</span></div>
 <div class="act"><span class="act-icon">&#129495;</span><span class="act-name"><strong>Day 11 &middot; Dark &amp; Bright Cave</strong> &mdash; <a class="map-link" href="https://maps.google.com/?q=Dark+and+Bright+Cave%2C+Lan+Ha+Bay%2C+Vietnam" target="_blank" rel="noopener noreferrer">Hang Sang &amp; Hang Toi</a> by bamboo boat (driver) through the lagoon, then brunch as the boat returns</span><span class="act-cost">INCLUDED (cruise)</span></div>
 <div class="act"><span class="act-icon">&#127940;</span><span class="act-name"><a class="map-link" href="https://maps.google.com/?q=Cat+Ba+Island%2C+Ha+Long+Bay%2C+Vietnam" target="_blank" rel="noopener noreferrer">Deep-water soloing / cliff jumping</a> (optional add-on) <a class="yt-link" href="https://youtube.com/watch?v=4knY57Kk7Ao" target="_blank" rel="noopener noreferrer" aria-label="Deep Water Soloing Ha Long Bay — watch on YouTube">&#9654; Watch</a> &mdash; rock climbing off the limestone into the sea (via Cat Ba operators)</span><span class="act-cost">EST $40pp &middot; extra</span></div>
-<div class="act dep-act"><span class="act-icon">&#128652;</span><span class="act-name"><strong>End of Day 11 &middot; Departure</strong> &mdash; tender to <a class="map-link" href="https://maps.google.com/?q=Tuan+Chau+Harbor%2C+Ha+Long%2C+Vietnam" target="_blank" rel="noopener noreferrer" aria-label="Tuan Chau Harbor — Google Maps (opens in new tab)">Tuan Chau Harbor</a> <a class="grab-link addr-line" href="grab://open?screenType=BOOKING&drop_off_lat=20.9100&drop_off_lng=106.9870" data-grab-web="https://www.grab.com/vn/" data-grab-addr="Cảng tàu khách quốc tế Tuần Châu, Hạ Long, Quảng Ninh" aria-label="Cảng tàu khách quốc tế Tuần Châu, Hạ Long, Quảng Ninh — open in Grab and copy address">Cảng Tuần Châu, Hạ Long, Quảng Ninh</a> &rarr; car to Ninh Binh (~3 hrs)</span><span class="act-cost">INCLUDED (agent)</span></div>
+<div class="act dep-act"><span class="act-icon">&#128652;</span><span class="act-name"><strong>End of Day 8 &middot; Departure</strong> &mdash; tender to <a class="map-link" href="https://maps.google.com/?q=Tuan+Chau+Harbor%2C+Ha+Long%2C+Vietnam" target="_blank" rel="noopener noreferrer" aria-label="Tuan Chau Harbor — Google Maps (opens in new tab)">Tuan Chau Harbor</a> <a class="grab-link addr-line" href="grab://open?screenType=BOOKING&drop_off_lat=20.9100&drop_off_lng=106.9870" data-grab-web="https://www.grab.com/vn/" data-grab-addr="Cảng tàu khách quốc tế Tuần Châu, Hạ Long, Quảng Ninh" aria-label="Cảng tàu khách quốc tế Tuần Châu, Hạ Long, Quảng Ninh — open in Grab and copy address">Cảng Tuần Châu, Hạ Long, Quảng Ninh</a> &rarr; car to Ninh Binh (~3 hrs)</span><span class="act-cost">INCLUDED (agent)</span></div>
       </div>
       <a class="vid-link" href="https://youtube.com/watch?v=4knY57Kk7Ao" target="_blank" rel="noopener">&#9654; Rock Climbing Deep Water Solo &mdash; Ha Long Bay</a>
     </div>
@@ -815,12 +690,12 @@ html.splash-on #splash{display:flex}
   </div>
 </div>
 </details>
-<details id="stop-6" open>
+<details id="stop-4" open data-area="stop-4-ninh-binh">
 <summary>
-  <div class="s-num" style="background:#14b8a6">6</div>
+  <div class="s-num" style="background:#14b8a6">4</div>
   <div class="s-info">
     <div class="s-city"><a class="map-link" href="https://maps.google.com/?q=Ninh+Binh%2C+Vietnam" target="_blank" rel="noopener noreferrer">Ninh Binh</a></div>
-    <div class="s-meta">Nov 5 &ndash; Nov 7 &middot; 2 nights &middot; &#128651; Arrival</div>
+    <div class="s-meta">Nov 2 &ndash; Nov 5 &middot; 3 nights &middot; &#128652; Arrival</div>
   </div>
   <div class="s-badges">
 
@@ -834,8 +709,8 @@ html.splash-on #splash{display:flex}
     <div>
       <div class="blk-lbl">Getting There</div>
       <div class="blk">
-        <div class="tc-row"><span class="tc-icon">&#128652;</span><div><div class="tc-lbl">Arrival</div><div class="tc-det">Day 11 (Nov 5) &middot; car from <a class="map-link" href="https://maps.google.com/?q=Tuan+Chau+Harbor%2C+Ha+Long%2C+Vietnam" target="_blank" rel="noopener noreferrer">Tuan Chau / Ha Long</a> &middot; ~3 hrs &middot; check in Hang Mua Garden Villa</div></div></div>
-        <div class="tc-row"><span class="tc-icon">&#128646;</span><div><div class="tc-lbl">Departure</div><div class="tc-det">Day 13 (Nov 7) &middot; night <strong>Lotus train</strong> ~21:30 from <a class="map-link" href="https://maps.google.com/?q=Ninh+Binh+Railway+Station%2C+Vietnam" target="_blank" rel="noopener noreferrer">Ninh Binh station</a> &rarr; <a class="map-link" href="https://maps.google.com/?q=Dong+Hoi%2C+Quang+Binh%2C+Vietnam" target="_blank" rel="noopener noreferrer">Phong Nha (Dong Hoi)</a></div></div></div>
+        <div class="tc-row"><span class="tc-icon">&#128652;</span><div><div class="tc-lbl">Arrival</div><div class="tc-det">Day 8 (Nov 2) &middot; car from <a class="map-link" href="https://maps.google.com/?q=Tuan+Chau+Harbor%2C+Ha+Long%2C+Vietnam" target="_blank" rel="noopener noreferrer">Tuan Chau / Ha Long</a> &middot; ~3 hrs &middot; check in</div></div></div>
+        <div class="tc-row"><span class="tc-icon">&#128646;</span><div><div class="tc-lbl">Departure</div><div class="tc-det">Day 11 (Nov 5) &middot; night <strong>Lotus train</strong> ~21:30 from <a class="map-link" href="https://maps.google.com/?q=Ninh+Binh+Railway+Station%2C+Vietnam" target="_blank" rel="noopener noreferrer">Ninh Binh station</a> &rarr; <a class="map-link" href="https://maps.google.com/?q=Dong+Hoi%2C+Quang+Binh%2C+Vietnam" target="_blank" rel="noopener noreferrer">Phong Nha (Dong Hoi)</a></div></div></div>
       </div>
     </div>
     <div>
@@ -858,7 +733,7 @@ html.splash-on #splash{display:flex}
 <div class="act"><span class="act-icon">&#127963;</span><span class="act-name"><strong>Day 12 &middot; Bai Dinh Pagoda</strong> &mdash; <a class="map-link" href="https://maps.google.com/?q=Bai+Dinh+Pagoda%2C+Ninh+Binh%2C+Vietnam" target="_blank" rel="noopener noreferrer">Chua Bai Dinh</a> <a class="grab-link addr-line" href="grab://open?screenType=BOOKING&drop_off_lat=20.2760&drop_off_lng=105.8620" data-grab-web="https://www.grab.com/vn/" data-grab-addr="Chùa Bái Đính, Gia Sinh, Gia Viễn, Ninh Bình" aria-label="Chùa Bái Đính, Gia Sinh, Gia Viễn, Ninh Bình — open in Grab and copy address">Chùa Bái Đính, Gia Sinh, Gia Viễn, Ninh Bình</a> &mdash; largest pagoda complex in SE Asia: 500 La Han statues, giant bronze bells</span><span class="act-cost">INCLUDED (electric cart EST $3pp)</span></div>
 <div class="act"><span class="act-icon">&#128676;</span><span class="act-name"><strong>Day 12 &middot; Trang An boat</strong> &mdash; <a class="map-link" href="https://maps.google.com/?q=Trang+An%2C+Ninh+Binh%2C+Vietnam" target="_blank" rel="noopener noreferrer">Trang An</a> <a class="grab-link addr-line" href="grab://open?screenType=BOOKING&drop_off_lat=20.2700&drop_off_lng=105.8975" data-grab-web="https://www.grab.com/vn/" data-grab-addr="Bến thuyền Tràng An, Tràng An, Hoa Lư, Ninh Bình" aria-label="Bến thuyền Tràng An, Tràng An, Hoa Lư, Ninh Bình — open in Grab and copy address">Bến thuyền Tràng An, Tràng An, Hoa Lư, Ninh Bình</a> &mdash; UNESCO sampan tour through caves &amp; temples (Sang, Toi, Ba Gio caves)</span><span class="act-cost">INCLUDED (EST $10pp)</span></div>
 <div class="act"><span class="act-icon">&#128692;</span><span class="act-name"><a class="map-link" href="https://maps.google.com/?q=Tam+Coc%2C+Ninh+Binh%2C+Vietnam" target="_blank" rel="noopener noreferrer">Tam Coc cycling / kayak</a> (Day 13 free morning, optional) <a class="grab-link addr-line" href="grab://open?screenType=BOOKING&drop_off_lat=20.2534&drop_off_lng=105.9069" data-grab-web="https://www.grab.com/vn/" data-grab-addr="Tam Cốc, Ninh Hải, Hoa Lư, Ninh Bình" aria-label="Tam Cốc, Ninh Hải, Hoa Lư, Ninh Bình — open in Grab and copy address">Tam Cốc, Ninh Hải, Hoa Lư, Ninh Bình</a> &mdash; paddle the 3 caves or cycle the paddies before the night train</span><span class="act-cost">EST $12pp &middot; extra</span></div>
-<div class="act dep-act"><span class="act-icon">&#128646;</span><span class="act-name"><strong>End of Day 13 &middot; Departure</strong> &mdash; ~21:30 Lotus night train from <a class="map-link" href="https://maps.google.com/?q=Ninh+Binh+Railway+Station%2C+Vietnam" target="_blank" rel="noopener noreferrer" aria-label="Ninh Binh Railway Station — Google Maps (opens in new tab)">Ninh Binh Railway Station</a> <a class="grab-link addr-line" href="grab://open?screenType=BOOKING&drop_off_lat=20.2530&drop_off_lng=105.9750" data-grab-web="https://www.grab.com/vn/" data-grab-addr="Ga Ninh Bình, Hoàng Hoa Thám, Ninh Bình" aria-label="Ga Ninh Bình, Hoàng Hoa Thám, Ninh Bình — open in Grab and copy address">Ga Ninh Bình, Hoàng Hoa Thám, Ninh Bình</a> &rarr; Phong Nha (Dong Hoi)</span><span class="act-cost">EST $30pp &middot; extra</span></div>
+<div class="act dep-act"><span class="act-icon">&#128646;</span><span class="act-name"><strong>End of Day 11 &middot; Departure</strong> &mdash; ~21:30 Lotus night train from <a class="map-link" href="https://maps.google.com/?q=Ninh+Binh+Railway+Station%2C+Vietnam" target="_blank" rel="noopener noreferrer" aria-label="Ninh Binh Railway Station — Google Maps (opens in new tab)">Ninh Binh Railway Station</a> <a class="grab-link addr-line" href="grab://open?screenType=BOOKING&drop_off_lat=20.2530&drop_off_lng=105.9750" data-grab-web="https://www.grab.com/vn/" data-grab-addr="Ga Ninh Bình, Hoàng Hoa Thám, Ninh Bình" aria-label="Ga Ninh Bình, Hoàng Hoa Thám, Ninh Bình — open in Grab and copy address">Ga Ninh Bình, Hoàng Hoa Thám, Ninh Bình</a> &rarr; Phong Nha (Dong Hoi)</span><span class="act-cost">EST $30pp &middot; extra</span></div>
       </div>
       <a class="vid-link" href="https://youtube.com/watch?v=dCFRHceICAA" target="_blank" rel="noopener">&#9654; Solo Cycling Adventure &mdash; Ninh Binh Vietnam</a>
     </div>
@@ -883,15 +758,14 @@ html.splash-on #splash{display:flex}
   </div>
 </div>
 </details>
-<details id="stop-7" open>
+<details id="stop-5" open data-area="stop-5-phong-nha">
 <summary>
-  <div class="s-num" style="background:#06b6d4">7</div>
+  <div class="s-num" style="background:#06b6d4">5</div>
   <div class="s-info">
     <div class="s-city"><a class="map-link" href="https://maps.google.com/?q=Phong+Nha%2C+Quang+Binh%2C+Vietnam" target="_blank" rel="noopener noreferrer">Phong Nha</a></div>
-    <div class="s-meta">Nov 8 &ndash; Nov 10 &middot; 2 nights &middot; &#128646; Arrival</div>
+    <div class="s-meta">Nov 6 &ndash; Nov 8 &middot; 2 nights &middot; &#128646; Arrival</div>
   </div>
   <div class="s-badges">
-    <span class="badge b-warn">&#9888; Flight check</span>
     <span class="badge b-tbd">Phong Nha Farmstay</span>
     <span class="badge b-dim">EST $190</span>
   </div>
@@ -902,8 +776,8 @@ html.splash-on #splash{display:flex}
     <div>
       <div class="blk-lbl">Getting There</div>
       <div class="blk">
-        <div class="tc-row"><span class="tc-icon">&#128646;</span><div><div class="tc-lbl">Arrival</div><div class="tc-det">Day 14 (Nov 8) &middot; night Lotus train from <a class="map-link" href="https://maps.google.com/?q=Ninh+Binh%2C+Vietnam" target="_blank" rel="noopener noreferrer">Ninh Binh</a> arrives <a class="map-link" href="https://maps.google.com/?q=Dong+Hoi+Railway+Station%2C+Quang+Binh%2C+Vietnam" target="_blank" rel="noopener noreferrer">Dong Hoi</a> &middot; van to Phong Nha Farmstay</div></div></div>
-        <div class="tc-row"><span class="tc-icon">&#9992;</span><div><div class="tc-lbl">Departure</div><div class="tc-det">Day 16 (Nov 10) &middot; van to <a class="map-link" href="https://maps.google.com/?q=Dong+Hoi+Airport%2C+Quang+Binh%2C+Vietnam" target="_blank" rel="noopener noreferrer">Dong Hoi airport</a> &rarr; fly to <a class="map-link" href="https://maps.google.com/?q=Da+Nang+International+Airport%2C+Vietnam" target="_blank" rel="noopener noreferrer">Da Nang</a> &rarr; car to Hoi An &nbsp;<span style="color:#b45309">&#9888; verify flight (see Tips)</span></div></div></div>
+        <div class="tc-row"><span class="tc-icon">&#128646;</span><div><div class="tc-lbl">Arrival</div><div class="tc-det">Day 12 (Nov 6) &middot; night Lotus train from <a class="map-link" href="https://maps.google.com/?q=Ninh+Binh%2C+Vietnam" target="_blank" rel="noopener noreferrer">Ninh Binh</a> arrives <a class="map-link" href="https://maps.google.com/?q=Dong+Hoi+Railway+Station%2C+Quang+Binh%2C+Vietnam" target="_blank" rel="noopener noreferrer">Dong Hoi</a> &middot; van to Phong Nha</div></div></div>
+        <div class="tc-row"><span class="tc-icon">&#128664;</span><div><div class="tc-lbl">Departure</div><div class="tc-det">Day 14 (Nov 8) &middot; private car via <a class="map-link" href="https://maps.google.com/?q=Vinh+Moc+Tunnels%2C+Quang+Tri%2C+Vietnam" target="_blank" rel="noopener noreferrer">Vinh Moc Tunnels</a> + <a class="map-link" href="https://maps.google.com/?q=Hai+Van+Pass%2C+Vietnam" target="_blank" rel="noopener noreferrer">Hai Van Pass</a> &rarr; Hoi An (scenic full-day drive)</div></div></div>
       </div>
     </div>
     <div>
@@ -925,13 +799,13 @@ html.splash-on #splash{display:flex}
 <div class="act"><span class="act-icon">&#128371;</span><span class="act-name"><strong>Day 15 &middot; Paradise Cave</strong> &mdash; <a class="map-link" href="https://maps.google.com/?q=Paradise+Cave%2C+Phong+Nha-Ke+Bang+National+Park%2C+Quang+Binh%2C+Vietnam" target="_blank" rel="noopener noreferrer">Dong Thien Duong</a> <a class="grab-link addr-line" href="grab://open?screenType=BOOKING&drop_off_lat=17.6008&drop_off_lng=106.3011" data-grab-web="https://www.grab.com/vn/" data-grab-addr="Động Thiên Đường, Km16 Hồ Chí Minh Nhánh Tây, Sơn Trạch, Bố Trạch, Quảng Bình" aria-label="Động Thiên Đường, Km16 Hồ Chí Minh Nhánh Tây, Sơn Trạch, Bố Trạch, Quảng Bình — open in Grab and copy address">Động Thiên Đường, Km16, Sơn Trạch, Bố Trạch, Quảng Bình</a> &mdash; vast dry cave, 9 km long, towering stalactites (1 km boardwalk)</span><span class="act-cost">INCLUDED (EST $11pp)</span></div>
 <div class="act"><span class="act-icon">&#128676;</span><span class="act-name"><strong>Day 15 &middot; Phong Nha Cave (boat)</strong> &mdash; <a class="map-link" href="https://maps.google.com/?q=Phong+Nha+Cave%2C+Son+Trach%2C+Bo+Trach%2C+Quang+Binh%2C+Vietnam" target="_blank" rel="noopener noreferrer">Phong Nha cave pier</a> <a class="grab-link addr-line" href="grab://open?screenType=BOOKING&drop_off_lat=17.5847&drop_off_lng=106.3029" data-grab-web="https://www.grab.com/vn/" data-grab-addr="Bến thuyền Phong Nha, ĐT20, Sơn Trạch, Bố Trạch, Quảng Bình" aria-label="Bến thuyền Phong Nha, ĐT20, Sơn Trạch, Bố Trạch, Quảng Bình — open in Grab and copy address">Bến thuyền Phong Nha, ĐT20, Sơn Trạch, Bố Trạch, Quảng Bình</a> &mdash; boat up the Son River into illuminated chambers</span><span class="act-cost">INCLUDED (EST $7pp)</span></div>
 <div class="act"><span class="act-icon">&#127935;</span><span class="act-name"><a class="map-link" href="https://maps.google.com/?q=Dark+Cave%2C+Phong+Nha%2C+Quang+Binh%2C+Vietnam" target="_blank" rel="noopener noreferrer">Dark Cave</a> (optional add-on) <a class="grab-link addr-line" href="grab://open?screenType=BOOKING&drop_off_lat=17.6254&drop_off_lng=106.2797" data-grab-web="https://www.grab.com/vn/" data-grab-addr="Hang Tối, Sông Chày, Sơn Trạch, Bố Trạch, Quảng Bình" aria-label="Hang Tối, Sông Chày, Sơn Trạch, Bố Trạch, Quảng Bình — open in Grab and copy address">Hang Tối, Sông Chày, Sơn Trạch, Bố Trạch, Quảng Bình</a> <a class="yt-link" href="https://youtube.com/watch?v=raTpnHKXuBQ" target="_blank" rel="noopener noreferrer" aria-label="Dark Cave Phong Nha — watch on YouTube">&#9654; Watch</a> &mdash; 400m zipline, mud bath, kayak</span><span class="act-cost">EST $25pp &middot; extra</span></div>
-<div class="act dep-act"><span class="act-icon">&#9992;</span><span class="act-name"><strong>End of Day 16 &middot; Departure</strong> &mdash; van to <a class="map-link" href="https://maps.google.com/?q=Dong+Hoi+Airport%2C+Quang+Binh%2C+Vietnam" target="_blank" rel="noopener noreferrer" aria-label="Dong Hoi Airport — Google Maps (opens in new tab)">Dong Hoi Airport (VDH)</a> <a class="grab-link addr-line" href="grab://open?screenType=BOOKING&drop_off_lat=17.5150&drop_off_lng=106.5900" data-grab-web="https://www.grab.com/vn/" data-grab-addr="Sân bay Đồng Hới, Lộc Ninh, Đồng Hới, Quảng Bình" aria-label="Sân bay Đồng Hới, Lộc Ninh, Đồng Hới, Quảng Bình — open in Grab and copy address">Sân bay Đồng Hới, Lộc Ninh, Đồng Hới, Quảng Bình</a> &rarr; fly to Da Nang &nbsp;<span style="color:#b45309">&#9888; verify route (see Tips)</span></span><span class="act-cost">EST $60pp &middot; extra</span></div>
+<div class="act dep-act"><span class="act-icon">&#128664;</span><span class="act-name"><strong>End of Day 14 &middot; Departure</strong> &mdash; private car to Hoi An via <a class="map-link" href="https://maps.google.com/?q=Vinh+Moc+Tunnels%2C+Quang+Tri%2C+Vietnam" target="_blank" rel="noopener noreferrer" aria-label="Vinh Moc Tunnels — Google Maps (opens in new tab)">Vinh Moc Tunnels</a> + <a class="map-link" href="https://maps.google.com/?q=Hai+Van+Pass%2C+Vietnam" target="_blank" rel="noopener noreferrer" aria-label="Hai Van Pass — Google Maps (opens in new tab)">Hai Van Pass</a> &mdash; scenic full-day drive with photo stops</span><span class="act-cost">EST $70/car &middot; extra</span></div>
       </div>
       <a class="vid-link" href="https://youtube.com/watch?v=raTpnHKXuBQ" target="_blank" rel="noopener">&#9654; Ziplines and Mud Baths &mdash; Dark Cave Phong Nha</a>
     </div>
     <div class="full">
       <div class="blk-lbl">Practical Tips</div>
-      <div class="tips"><ul><li><strong>&#9888; Da Nang flight (Day 16):</strong> the agent lists a Dong Hoi&rarr;Da Nang flight, but there may be <strong>no direct commercial route</strong> &mdash; confirm with the agent. Fallback: train Dong Hoi&rarr;Da Nang (~6 hrs, scenic Hai Van coast) or private car.</li><li><strong>Paradise Cave:</strong> ~520 steps up, then a 1 km boardwalk &mdash; go in the morning, it&rsquo;s cooler inside; bring water</li><li><strong>Phong Nha Cave:</strong> wooden boat up the Son River &mdash; bring a light layer, it&rsquo;s breezy on the water</li><li>The Farmstay is rural (~10 km from the caves) &mdash; use its shuttle; little nightlife, lovely sunsets over the paddies</li><li>Pack the night-train bag the evening before; soft-sleeper berths, lock luggage</li></ul></div>
+      <div class="tips"><ul><li><strong>Day 14 drive:</strong> Vinh Moc + Hai Van is a full scenic day &mdash; start early; the pass can be foggy but the coastal viewpoints are worth every stop</li><li><strong>Paradise Cave:</strong> ~520 steps up, then a 1 km boardwalk &mdash; go in the morning, it&rsquo;s cooler inside; bring water</li><li><strong>Phong Nha Cave:</strong> wooden boat up the Son River &mdash; bring a light layer, it&rsquo;s breezy on the water</li><li>The Farmstay is rural (~10 km from the caves) &mdash; use its shuttle; little nightlife, lovely sunsets over the paddies</li><li>Pack the night-train bag the evening before; soft-sleeper berths, lock luggage</li></ul></div>
     </div>
     <div>
       <div class="blk-lbl">Stop Budget</div>
@@ -948,12 +822,12 @@ html.splash-on #splash{display:flex}
   </div>
 </div>
 </details>
-<details id="stop-8" open>
+<details id="stop-6" open data-area="stop-6-hoi-an">
 <summary>
-  <div class="s-num" style="background:#8b5cf6">8</div>
+  <div class="s-num" style="background:#8b5cf6">6</div>
   <div class="s-info">
     <div class="s-city"><a class="map-link" href="https://maps.google.com/?q=Hoi+An%2C+Vietnam" target="_blank" rel="noopener noreferrer">Hoi An / Da Nang</a></div>
-    <div class="s-meta">Nov 10 &ndash; Nov 13 &middot; 3 nights &middot; &#9992; Arrival</div>
+    <div class="s-meta">Nov 8 &ndash; Nov 11 &middot; 3 nights &middot; &#128664; Arrival</div>
   </div>
   <div class="s-badges">
 
@@ -967,8 +841,8 @@ html.splash-on #splash{display:flex}
     <div>
       <div class="blk-lbl">Getting There</div>
       <div class="blk">
-        <div class="tc-row"><span class="tc-icon">&#9992;</span><div><div class="tc-lbl">Arrival</div><div class="tc-det">Day 16 (Nov 10) &middot; fly into <a class="map-link" href="https://maps.google.com/?q=Da+Nang+International+Airport%2C+Vietnam" target="_blank" rel="noopener noreferrer">Da Nang</a> &rarr; car ~45 min to <a class="map-link" href="https://maps.google.com/?q=Hoi+An%2C+Vietnam" target="_blank" rel="noopener noreferrer">Hoi An</a> &middot; check in La Senta</div></div></div>
-        <div class="tc-row"><span class="tc-icon">&#9992;</span><div><div class="tc-lbl">Departure</div><div class="tc-det">Day 19 (Nov 13) &middot; car to <a class="map-link" href="https://maps.google.com/?q=Da+Nang+International+Airport%2C+Vietnam" target="_blank" rel="noopener noreferrer">Da Nang airport</a> &rarr; fly to <a class="map-link" href="https://maps.google.com/?q=Da+Lat%2C+Lam+Dong%2C+Vietnam" target="_blank" rel="noopener noreferrer">Da Lat</a> (DLI)</div></div></div>
+        <div class="tc-row"><span class="tc-icon">&#128664;</span><div><div class="tc-lbl">Arrival</div><div class="tc-det">Day 14 (Nov 8) &middot; private car from <a class="map-link" href="https://maps.google.com/?q=Phong+Nha%2C+Quang+Binh%2C+Vietnam" target="_blank" rel="noopener noreferrer">Phong Nha</a> via Hai Van Pass &middot; check in</div></div></div>
+        <div class="tc-row"><span class="tc-icon">&#9992;</span><div><div class="tc-lbl">Departure</div><div class="tc-det">Day 17 (Nov 11) &middot; car to <a class="map-link" href="https://maps.google.com/?q=Da+Nang+International+Airport%2C+Vietnam" target="_blank" rel="noopener noreferrer">Da Nang airport</a> &rarr; VN1911 13:20 to <a class="map-link" href="https://maps.google.com/?q=Buon+Ma+Thuot%2C+Dak+Lak%2C+Vietnam" target="_blank" rel="noopener noreferrer">Buon Ma Thuot</a></div></div></div>
       </div>
     </div>
     <div>
@@ -1004,7 +878,7 @@ html.splash-on #splash{display:flex}
 <div class="act"><span class="act-icon">&#127982;</span><span class="act-name"><a class="map-link" href="https://maps.google.com/?q=Hoi+An+Ancient+Town%2C+Hoi+An%2C+Quang+Nam+Province%2C+Vietnam" target="_blank" rel="noopener noreferrer">Ancient Town Evening Walk</a> <a class="grab-link addr-line" href="grab://open?screenType=BOOKING&drop_off_lat=15.8804&drop_off_lng=108.3356" data-grab-web="https://www.grab.com/vn/" data-grab-addr="Phố cổ Hội An, Minh An, Hội An, Quảng Nam, Vietnam" aria-label="Phố cổ Hội An, Minh An, Hội An, Quảng Nam, Vietnam — open in Grab and copy address">Phố cổ Hội An, Minh An, Hội An, Quảng Nam, Vietnam</a> &mdash; lantern-lit streets, Thu Bon River</span><span class="act-cost">EST Free &middot; extra</span></div>
 <div class="act"><span class="act-icon">&#9968;</span><span class="act-name"><a class="map-link" href="https://maps.google.com/?q=Marble+Mountains%2C+Da+Nang%2C+Vietnam" target="_blank" rel="noopener noreferrer">Marble Mountains</a> <a class="grab-link addr-line" href="grab://open?screenType=BOOKING&drop_off_lat=16.0024&drop_off_lng=108.2624" data-grab-web="https://www.grab.com/vn/" data-grab-addr="Ngũ Hành Sơn, 81 Huyền Trân Công Chúa, Hòa Hải, Ngũ Hành Sơn, Đà Nẵng, Vietnam" aria-label="Ngũ Hành Sơn, 81 Huyền Trân Công Chúa, Hòa Hải, Ngũ Hành Sơn, Đà Nẵng, Vietnam — open in Grab and copy address">Ngũ Hành Sơn, 81 Huyền Trân Công Chúa, Hòa Hải, Ngũ Hành Sơn, Đà Nẵng, Vietnam</a> &mdash; 5 limestone hills, caves, war history, great views</span><span class="act-cost">EST $3pp &middot; extra</span></div>
 <div class="act"><span class="act-icon">&#129363;</span><span class="act-name"><a class="map-link" href="https://maps.google.com/?q=Hoi+An+Ancient+Town%2C+Hoi+An%2C+Quang+Nam%2C+Vietnam" target="_blank" rel="noopener noreferrer">Vietnamese Cooking Class</a> <a class="grab-link addr-line" href="grab://open?screenType=BOOKING&drop_off_lat=15.8778&drop_off_lng=108.3365" data-grab-web="https://www.grab.com/vn/" data-grab-addr="Phố cổ Hội An, Minh An, Hội An, Quảng Nam, Vietnam" aria-label="Phố cổ Hội An, Minh An, Hội An, Quảng Nam, Vietnam — open in Grab and copy address">Phố cổ Hội An, Minh An, Hội An, Quảng Nam, Vietnam</a> &mdash; morning market + cook 4 dishes</span><span class="act-cost">EST $30pp &middot; extra</span></div>
-<div class="act dep-act"><span class="act-icon">&#9992;</span><span class="act-name"><strong>End of Day 19 &middot; Departure</strong> &mdash; car to <a class="map-link" href="https://maps.google.com/?q=Da+Nang+International+Airport%2C+Vietnam" target="_blank" rel="noopener noreferrer" aria-label="Da Nang International Airport — Google Maps (opens in new tab)">Da Nang Airport (DAD)</a> <a class="grab-link addr-line" href="grab://open?screenType=BOOKING&drop_off_lat=16.0439&drop_off_lng=108.1992" data-grab-web="https://www.grab.com/vn/" data-grab-addr="Sân bay Quốc tế Đà Nẵng, Hòa Thuận Tây, Hải Châu, Đà Nẵng" aria-label="Sân bay Quốc tế Đà Nẵng, Hòa Thuận Tây, Hải Châu, Đà Nẵng — open in Grab and copy address">Sân bay Quốc tế Đà Nẵng, Hải Châu, Đà Nẵng</a> &rarr; fly to Da Lat (DLI)</span><span class="act-cost">EST $55pp &middot; extra</span></div>
+<div class="act dep-act"><span class="act-icon">&#9992;</span><span class="act-name"><strong>End of Day 17 &middot; Departure</strong> &mdash; car to <a class="map-link" href="https://maps.google.com/?q=Da+Nang+International+Airport%2C+Vietnam" target="_blank" rel="noopener noreferrer" aria-label="Da Nang International Airport — Google Maps (opens in new tab)">Da Nang Airport (DAD)</a> <a class="grab-link addr-line" href="grab://open?screenType=BOOKING&drop_off_lat=16.0439&drop_off_lng=108.1992" data-grab-web="https://www.grab.com/vn/" data-grab-addr="Sân bay Quốc tế Đà Nẵng, Hòa Thuận Tây, Hải Châu, Đà Nẵng" aria-label="Sân bay Quốc tế Đà Nẵng, Hòa Thuận Tây, Hải Châu, Đà Nẵng — open in Grab and copy address">Sân bay Quốc tế Đà Nẵng, Hải Châu, Đà Nẵng</a> &rarr; fly VN1911 13:20 to Buon Ma Thuot (select-days route &mdash; verify day)</span><span class="act-cost">EST $45pp &middot; extra</span></div>
       </div>
 
     </div>
@@ -1030,12 +904,122 @@ html.splash-on #splash{display:flex}
   </div>
 </div>
 </details>
-<details id="stop-9" open>
+<details id="stop-7" open data-area="stop-7-buon-ma-thuot">
+<summary>
+  <div class="s-num" style="background:#a16207">7</div>
+  <div class="s-info">
+    <div class="s-city"><a class="map-link" href="https://maps.google.com/?q=Buon+Ma+Thuot%2C+Dak+Lak%2C+Vietnam" target="_blank" rel="noopener noreferrer">Buon Ma Thuot</a></div>
+    <div class="s-meta">Nov 11 &ndash; Nov 12 &middot; 1 night &middot; &#9992; Arrival</div>
+  </div>
+  <div class="s-badges">
+    <span class="badge b-tbd">Muong Thanh Luxury</span>
+    <span class="badge b-dim">Details soon</span>
+  </div>
+  <span class="s-arrow">&#8250;</span>
+</summary>
+<div class="stop-body" lang="en" dir="ltr">
+  <div class="grid2">
+    <div>
+      <div class="blk-lbl">Getting There</div>
+      <div class="blk">
+        <div class="tc-row"><span class="tc-icon">&#9992;</span><div><div class="tc-lbl">Arrival</div><div class="tc-det">Day 17 (Nov 11) &middot; VN1911 from <a class="map-link" href="https://maps.google.com/?q=Da+Nang+International+Airport%2C+Vietnam" target="_blank" rel="noopener noreferrer">Da Nang</a> 13:20 &rarr; 14:25 &middot; car to the hotel</div></div></div>
+        <div class="tc-row"><span class="tc-icon">&#127949;</span><div><div class="tc-lbl">Departure</div><div class="tc-det">Day 18 (Nov 12) &middot; 08:00 <strong>easy-rider motorbike</strong> to <a class="map-link" href="https://maps.google.com/?q=Lak+Lake%2C+Dak+Lak%2C+Vietnam" target="_blank" rel="noopener noreferrer">Lak Lake</a> &mdash; full riding day</div></div></div>
+      </div>
+    </div>
+    <div>
+      <div class="blk-lbl">Hotel</div>
+      <div class="blk">
+        <div class="h-name"><a class="book-link" href="https://www.booking.com/searchresults.html?ss=Muong+Thanh+Luxury+Buon+Ma+Thuot" target="_blank" rel="noopener noreferrer" aria-label="Muong Thanh Luxury Buon Ma Thuot — search on Booking.com (opens in new tab)">Muong Thanh Luxury</a> &mdash; Buon Ma Thuot</div>
+        <div class="h-price">Leading pick &middot; alternatives in the master spec</div>
+        <div class="h-notes">
+          Coffee capital of Vietnam &mdash; one night before the highlands ride.<br>
+          <a class="map-link" href="https://maps.google.com/?q=Muong+Thanh+Luxury+Buon+Ma+Thuot%2C+Vietnam" target="_blank" rel="noopener noreferrer" aria-label="Muong Thanh Luxury Buon Ma Thuot — Google Maps (opens in new tab)">&#128205; Map</a>
+          <a class="grab-link addr-line" href="grab://open?screenType=BOOKING&drop_off_lat=12.6800&drop_off_lng=108.0440" data-grab-web="https://www.grab.com/vn/" data-grab-addr="Mường Thanh Luxury, 81 Nguyễn Tất Thành, Buôn Ma Thuột" aria-label="Mường Thanh Luxury, 81 Nguyễn Tất Thành, Buôn Ma Thuột — open in Grab and copy address">Mường Thanh Luxury, 81 Nguyễn Tất Thành, Buôn Ma Thuột</a>
+        </div>
+      </div>
+    </div>
+    <div class="full">
+      <div class="blk-lbl">Activities &amp; Adventure</div>
+      <div class="acts">
+<div class="act"><span class="act-icon">&#9749;</span><span class="act-name"><strong>Evening &middot; Coffee-city stroll</strong> &mdash; Buon Ma Thuot is Vietnam&rsquo;s coffee capital; full activity list coming in the next update</span><span class="act-cost">Details soon</span></div>
+      </div>
+    </div>
+    <div class="full">
+      <div class="blk-lbl">Practical Tips</div>
+      <div class="tips"><ul><li><strong>VN1911 runs on select days only</strong> &mdash; verify the operating day before ticketing (see master spec)</li><li>Pack a small overnight bag for the 2-day ride; the easy-rider team straps main luggage to the bikes or transfers it by car</li></ul></div>
+    </div>
+    <div>
+      <div class="blk-lbl">Stop Budget</div>
+      <div class="bm">
+        <div class="bm-item"><span class="bm-lbl">Hotel (Muong Thanh Luxury):</span><span class="bm-v">TBD (quote)</span></div>
+        <div class="bm-item"><span class="bm-lbl">Flight DAD &rarr; BMT:</span><span class="bm-v">EST $45pp</span></div>
+        <div class="bm-tot">Est. own spend: TBD &mdash; details in the next update</div>
+      </div>
+    </div>
+  </div>
+</div>
+</details>
+<details id="stop-8" open data-area="stop-8-lak-lake">
+<summary>
+  <div class="s-num" style="background:#64748b">8</div>
+  <div class="s-info">
+    <div class="s-city"><a class="map-link" href="https://maps.google.com/?q=Lak+Lake%2C+Dak+Lak%2C+Vietnam" target="_blank" rel="noopener noreferrer">Lak Lake</a></div>
+    <div class="s-meta">Nov 12 &ndash; Nov 13 &middot; 1 night &middot; &#127949; Arrival</div>
+  </div>
+  <div class="s-badges">
+    <span class="badge b-tbd">Lak Tented Camp</span>
+    <span class="badge b-dim">Details soon</span>
+  </div>
+  <span class="s-arrow">&#8250;</span>
+</summary>
+<div class="stop-body" lang="en" dir="ltr">
+  <div class="grid2">
+    <div>
+      <div class="blk-lbl">Getting There</div>
+      <div class="blk">
+        <div class="tc-row"><span class="tc-icon">&#127949;</span><div><div class="tc-lbl">Arrival</div><div class="tc-det">Day 18 (Nov 12) &middot; easy-rider from <a class="map-link" href="https://maps.google.com/?q=Buon+Ma+Thuot%2C+Dak+Lak%2C+Vietnam" target="_blank" rel="noopener noreferrer">Buon Ma Thuot</a> &mdash; waterfalls, farms &amp; villages en route &middot; arrive by 17:00, boat across to the camp</div></div></div>
+        <div class="tc-row"><span class="tc-icon">&#127949;</span><div><div class="tc-lbl">Departure</div><div class="tc-det">Day 19 (Nov 13) &middot; easy-rider onward to <a class="map-link" href="https://maps.google.com/?q=Da+Lat%2C+Lam+Dong%2C+Vietnam" target="_blank" rel="noopener noreferrer">Da Lat</a> &mdash; Elephant Falls, silk &amp; coffee farms en route</div></div></div>
+      </div>
+    </div>
+    <div>
+      <div class="blk-lbl">Hotel</div>
+      <div class="blk">
+        <div class="h-name"><a class="book-link" href="https://www.booking.com/searchresults.html?ss=Lak+Tented+Camp" target="_blank" rel="noopener noreferrer" aria-label="Lak Tented Camp — search on Booking.com (opens in new tab)">Lak Tented Camp</a> &mdash; lakeside glamping</div>
+        <div class="h-price">Leading pick (both agents agree) &middot; Kpan Tiny House / Bungalow</div>
+        <div class="h-notes">
+          Luxury tents on the shore of Lak Lake &mdash; the highlands highlight night.<br>
+          <a class="map-link" href="https://maps.google.com/?q=Lak+Tented+Camp%2C+Lien+Son%2C+Dak+Lak%2C+Vietnam" target="_blank" rel="noopener noreferrer" aria-label="Lak Tented Camp — Google Maps (opens in new tab)">&#128205; Map</a>
+          <a class="grab-link addr-line" href="grab://open?screenType=BOOKING&drop_off_lat=12.4160&drop_off_lng=108.1830" data-grab-web="https://www.grab.com/vn/" data-grab-addr="Lak Tented Camp, Liên Sơn, Lắk, Đắk Lắk" aria-label="Lak Tented Camp, Liên Sơn, Lắk, Đắk Lắk — open in Grab and copy address">Lak Tented Camp, Liên Sơn, Lắk, Đắk Lắk</a>
+        </div>
+      </div>
+    </div>
+    <div class="full">
+      <div class="blk-lbl">Activities &amp; Adventure</div>
+      <div class="acts">
+<div class="act"><span class="act-icon">&#128675;</span><span class="act-name"><strong>Evening &middot; M&rsquo;nong lake village</strong> &mdash; boat across the lake, sunset over the water; full activity list coming in the next update</span><span class="act-cost">Details soon</span></div>
+      </div>
+    </div>
+    <div class="full">
+      <div class="blk-lbl">Practical Tips</div>
+      <div class="tips"><ul><li>Facilities are eco-camp style &mdash; charge power banks in BMT; bring repellent &amp; a head-lamp</li><li>Riding gear: closed shoes, long trousers &amp; sun protection for two full days on the bikes</li></ul></div>
+    </div>
+    <div>
+      <div class="blk-lbl">Stop Budget</div>
+      <div class="bm">
+        <div class="bm-item"><span class="bm-lbl">Lak Tented Camp (1 night):</span><span class="bm-v">TBD (quote)</span></div>
+        <div class="bm-item"><span class="bm-lbl">Easy-rider BMT &rarr; Lak &rarr; Da Lat (2 days):</span><span class="bm-v">EST $90+$90pp</span></div>
+        <div class="bm-tot">Est. own spend: TBD &mdash; details in the next update</div>
+      </div>
+    </div>
+  </div>
+</div>
+</details>
+<details id="stop-9" open data-area="stop-9-da-lat">
 <summary>
   <div class="s-num" style="background:#3b82f6">9</div>
   <div class="s-info">
     <div class="s-city"><a class="map-link" href="https://maps.google.com/?q=Da+Lat%2C+Lam+Dong%2C+Vietnam" target="_blank" rel="noopener noreferrer">Da Lat</a></div>
-    <div class="s-meta">Nov 13 &ndash; Nov 15 &middot; 2 nights &middot; &#9992; Arrival</div>
+    <div class="s-meta">Nov 13 &ndash; Nov 15 &middot; 2 nights &middot; &#127949; Arrival</div>
   </div>
   <div class="s-badges">
 
@@ -1049,8 +1033,8 @@ html.splash-on #splash{display:flex}
     <div>
       <div class="blk-lbl">Getting There</div>
       <div class="blk">
-        <div class="tc-row"><span class="tc-icon">&#9992;</span><div><div class="tc-lbl">Arrival</div><div class="tc-det">Day 19 (Nov 13) &middot; fly Da Nang &rarr; <a class="map-link" href="https://maps.google.com/?q=Lien+Khuong+Airport%2C+Da+Lat%2C+Vietnam" target="_blank" rel="noopener noreferrer">Lien Khuong (DLI)</a> &middot; car ~30 min to the hotel, relax</div></div></div>
-        <div class="tc-row"><span class="tc-icon">&#128652;</span><div><div class="tc-lbl">Departure</div><div class="tc-det">Day 21 (Nov 15) &middot; bus to <a class="map-link" href="https://maps.google.com/?q=Ho+Chi+Minh+City%2C+Vietnam" target="_blank" rel="noopener noreferrer">Ho Chi Minh City</a> &middot; ~6&ndash;7 hrs</div></div></div>
+        <div class="tc-row"><span class="tc-icon">&#127949;</span><div><div class="tc-lbl">Arrival</div><div class="tc-det">Day 19 (Nov 13) &middot; easy-rider ride from <a class="map-link" href="https://maps.google.com/?q=Lak+Lake%2C+Dak+Lak%2C+Vietnam" target="_blank" rel="noopener noreferrer">Lak Lake</a> &middot; arrive afternoon, check in</div></div></div>
+        <div class="tc-row"><span class="tc-icon">&#9992;</span><div><div class="tc-lbl">Departure</div><div class="tc-det">Day 21 (Nov 15) &middot; car to <a class="map-link" href="https://maps.google.com/?q=Lien+Khuong+Airport%2C+Da+Lat%2C+Vietnam" target="_blank" rel="noopener noreferrer">Lien Khuong (DLI)</a> &rarr; fly to <a class="map-link" href="https://maps.google.com/?q=Ho+Chi+Minh+City%2C+Vietnam" target="_blank" rel="noopener noreferrer">Ho Chi Minh City</a> &middot; 55 min (VNA)</div></div></div>
       </div>
     </div>
     <div>
@@ -1076,12 +1060,12 @@ html.splash-on #splash{display:flex}
 <div class="act"><span class="act-icon">&#128699;</span><span class="act-name"><a class="map-link" href="https://maps.google.com/?q=Linh+Phuoc+Pagoda%2C+Da+Lat%2C+Vietnam" target="_blank" rel="noopener noreferrer">Linh Phuoc Pagoda</a> <a class="grab-link addr-line" href="grab://open?screenType=BOOKING&drop_off_lat=11.9460&drop_off_lng=108.5010" data-grab-web="https://www.grab.com/vn/" data-grab-addr="Chùa Linh Phước, 120 Tự Phước, Trại Mát, Đà Lạt" aria-label="Chùa Linh Phước, 120 Tự Phước, Trại Mát, Đà Lạt — open in Grab and copy address">Chùa Linh Phước, 120 Tự Phước, Trại Mát, Đà Lạt</a> &mdash; the &ldquo;broken-glass&rdquo; mosaic dragon pagoda</span><span class="act-cost">EST Free</span></div>
 <div class="act"><span class="act-icon">&#128741;</span><span class="act-name"><a class="map-link" href="https://maps.google.com/?q=Da+Lat+Railway+Station%2C+Vietnam" target="_blank" rel="noopener noreferrer">Da Lat Railway Station</a> <a class="grab-link addr-line" href="grab://open?screenType=BOOKING&drop_off_lat=11.9430&drop_off_lng=108.4540" data-grab-web="https://www.grab.com/vn/" data-grab-addr="Ga Đà Lạt, Quang Trung, Phường 9, Đà Lạt" aria-label="Ga Đà Lạt, Quang Trung, Phường 9, Đà Lạt — open in Grab and copy address">Ga Đà Lạt, Quang Trung, Phường 9, Đà Lạt</a> &mdash; vintage Art-Deco station + heritage train to Trai Mat</span><span class="act-cost">EST $3pp</span></div>
 <div class="act"><span class="act-icon">&#127755;</span><span class="act-name"><a class="map-link" href="https://maps.google.com/?q=Pongour+Waterfall%2C+Lam+Dong%2C+Vietnam" target="_blank" rel="noopener noreferrer">Pongour Waterfall</a> (optional) <a class="grab-link addr-line" href="grab://open?screenType=BOOKING&drop_off_lat=11.6600&drop_off_lng=108.3300" data-grab-web="https://www.grab.com/vn/" data-grab-addr="Thác Pongour, Tân Hội, Đức Trọng, Lâm Đồng" aria-label="Thác Pongour, Tân Hội, Đức Trọng, Lâm Đồng — open in Grab and copy address">Thác Pongour, Tân Hội, Đức Trọng, Lâm Đồng</a> &mdash; the grandest tiered falls &middot; <span style="color:#b45309">&#9888; ~50 km from town</span></span><span class="act-cost">EST $2pp &middot; extra</span></div>
-<div class="act dep-act"><span class="act-icon">&#128652;</span><span class="act-name"><strong>End of Day 21 &middot; Departure</strong> &mdash; <a class="map-link" href="https://maps.google.com/?q=Da+Lat+Bus+Station%2C+Vietnam" target="_blank" rel="noopener noreferrer" aria-label="Da Lat Bus Station — Google Maps (opens in new tab)">Da Lat Bus Station</a> <a class="grab-link addr-line" href="grab://open?screenType=BOOKING&drop_off_lat=11.9300&drop_off_lng=108.4480" data-grab-web="https://www.grab.com/vn/" data-grab-addr="Bến xe Liên tỉnh Đà Lạt, 01 Tô Hiến Thành, Đà Lạt" aria-label="Bến xe Liên tỉnh Đà Lạt, 01 Tô Hiến Thành, Đà Lạt — open in Grab and copy address">Bến xe Liên tỉnh Đà Lạt, 01 Tô Hiến Thành, Đà Lạt</a> &rarr; bus to Ho Chi Minh (~6&ndash;7 hrs)</span><span class="act-cost">EST $12pp &middot; extra</span></div>
+<div class="act dep-act"><span class="act-icon">&#9992;</span><span class="act-name"><strong>End of Day 21 &middot; Departure</strong> &mdash; car to <a class="map-link" href="https://maps.google.com/?q=Lien+Khuong+Airport%2C+Da+Lat%2C+Vietnam" target="_blank" rel="noopener noreferrer" aria-label="Lien Khuong Airport — Google Maps (opens in new tab)">Lien Khuong Airport (DLI)</a> <a class="grab-link addr-line" href="grab://open?screenType=BOOKING&drop_off_lat=11.7500&drop_off_lng=108.3670" data-grab-web="https://www.grab.com/vn/" data-grab-addr="Sân bay Liên Khương, Đức Trọng, Lâm Đồng" aria-label="Sân bay Liên Khương, Đức Trọng, Lâm Đồng — open in Grab and copy address">Sân bay Liên Khương, Đức Trọng, Lâm Đồng</a> &rarr; fly to Ho Chi Minh (55 min, VNA)</span><span class="act-cost">EST $73pp &middot; extra</span></div>
       </div>
     </div>
     <div class="full">
       <div class="blk-lbl">Practical Tips</div>
-      <div class="tips"><ul><li><strong>Cool climate:</strong> Da Lat sits at 1,500 m &mdash; 12&ndash;22&deg;C, often misty; bring a light jacket (a shock after the coast)</li><li><strong>Datanla:</strong> the alpine coaster is the fun way down &mdash; control your own brake; go early before tour buses</li><li><strong>Langbiang:</strong> shared jeeps run to the summit &mdash; agree the price; the lower peak is a free walk</li><li><strong>Private car (Day 20):</strong> agree the stop list with the driver in the morning; Pongour is far (~50 km) so pick it OR the closer cluster</li><li>Confirm the <strong>hotel name</strong> &amp; the Day 21 HCMC bus (sleeper vs seater) with the agent</li></ul></div>
+      <div class="tips"><ul><li><strong>Cool climate:</strong> Da Lat sits at 1,500 m &mdash; 12&ndash;22&deg;C, often misty; bring a light jacket (a shock after the coast)</li><li><strong>Datanla:</strong> the alpine coaster is the fun way down &mdash; control your own brake; go early before tour buses</li><li><strong>Langbiang:</strong> shared jeeps run to the summit &mdash; agree the price; the lower peak is a free walk</li><li><strong>Private car (Day 20):</strong> agree the stop list with the driver in the morning; Pongour is far (~50 km) so pick it OR the closer cluster</li><li>Confirm the <strong>hotel name</strong> &amp; the Day 21 flight to Saigon (Vietnam Airlines, not Vietjet) with the agent</li></ul></div>
     </div>
     <div>
       <div class="blk-lbl">Stop Budget</div>
@@ -1101,12 +1085,12 @@ html.splash-on #splash{display:flex}
   </div>
 </div>
 </details>
-<details id="stop-10" open>
+<details id="stop-10" open data-area="stop-10-saigon">
 <summary>
   <div class="s-num" style="background:#ec4899">10</div>
   <div class="s-info">
     <div class="s-city"><a class="map-link" href="https://maps.google.com/?q=Ho+Chi+Minh+City%2C+Vietnam" target="_blank" rel="noopener noreferrer">Saigon (HCMC)</a></div>
-    <div class="s-meta">Nov 15 &ndash; Nov 17 &middot; 2 nights &middot; &#128652; Arrival</div>
+    <div class="s-meta">Nov 15 &ndash; Nov 17 &middot; 2 nights &middot; &#9992; Arrival</div>
   </div>
   <div class="s-badges">
 
@@ -1120,7 +1104,7 @@ html.splash-on #splash{display:flex}
     <div>
       <div class="blk-lbl">Getting There</div>
       <div class="blk">
-        <div class="tc-row"><span class="tc-icon">&#128652;</span><div><div class="tc-lbl">Arrival</div><div class="tc-det">Day 21 (Nov 15) &middot; bus from <a class="map-link" href="https://maps.google.com/?q=Da+Lat%2C+Lam+Dong%2C+Vietnam" target="_blank" rel="noopener noreferrer">Da Lat</a> &middot; ~6&ndash;7 hrs &middot; check in Royal Hotel, evening on Nguyen Hue</div></div></div>
+        <div class="tc-row"><span class="tc-icon">&#9992;</span><div><div class="tc-lbl">Arrival</div><div class="tc-det">Day 21 (Nov 15) &middot; fly from <a class="map-link" href="https://maps.google.com/?q=Da+Lat%2C+Lam+Dong%2C+Vietnam" target="_blank" rel="noopener noreferrer">Da Lat</a> (55 min) &rarr; car from Tan Son Nhat &middot; check in, evening on Nguyen Hue</div></div></div>
         <div class="tc-row"><span class="tc-icon">&#128652;</span><div><div class="tc-lbl">Departure</div><div class="tc-det">Day 23 (Nov 17) &middot; 08:00 pickup at the hotel &rarr; <a class="map-link" href="https://maps.google.com/?q=Nga+Bay%2C+Hau+Giang%2C+Vietnam" target="_blank" rel="noopener noreferrer">Mekong Delta (Nga Bay)</a></div></div></div>
       </div>
     </div>
@@ -1187,7 +1171,7 @@ html.splash-on #splash{display:flex}
   </div>
 </div>
 </details>
-<details id="stop-11" open>
+<details id="stop-11" open data-area="stop-11-mekong">
 <summary>
   <div class="s-num" style="background:#84cc16">11</div>
   <div class="s-info">
@@ -1253,7 +1237,7 @@ html.splash-on #splash{display:flex}
   </div>
 </div>
 </details>
-<details id="stop-12" open>
+<details id="stop-12" open data-area="stop-12-phu-quoc">
 <summary>
   <div class="s-num" style="background:#f43f5e">12</div>
   <div class="s-info">
@@ -1329,7 +1313,7 @@ html.splash-on #splash{display:flex}
   </div>
 </div>
 </details>
-<details id="stop-13" open>
+<details id="stop-13" open data-area="stop-13-hanoi-departure">
 <summary>
   <div class="s-num" style="background:#6b7280">13</div>
   <div class="s-info">
@@ -1766,7 +1750,7 @@ document.addEventListener('click',function(e){
   <button type="button" id="iosInstallDismiss" aria-label="סגור הודעת התקנה"><span aria-hidden="true">×</span></button>
 </div>
 <style>
-#iosInstallHint{position:fixed;inset-inline:0;bottom:0;z-index:1000;background:#1e3a5f;color:#fff;display:flex;align-items:center;gap:12px;padding:12px 16px;padding-bottom:calc(12px + env(safe-area-inset-bottom));box-shadow:0 -4px 20px rgba(0,0,0,.25);font-size:.95rem;line-height:1.4}
+#iosInstallHint{position:fixed;inset-inline:0;bottom:0;z-index:1000;background:#42276f;color:#fff;display:flex;align-items:center;gap:12px;padding:12px 16px;padding-bottom:calc(12px + env(safe-area-inset-bottom));box-shadow:0 -4px 20px rgba(0,0,0,.25);font-size:.95rem;line-height:1.4}
 #iosInstallHint[hidden]{display:none}
 #iosInstallHint p{margin:0;flex:1 1 auto}
 #iosInstallDismiss{flex:0 0 auto;min-width:44px;min-height:44px;display:inline-flex;align-items:center;justify-content:center;background:transparent;border:none;color:#fff;font-size:24px;line-height:1;cursor:pointer;border-radius:4px}
