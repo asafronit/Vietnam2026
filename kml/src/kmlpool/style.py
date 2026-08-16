@@ -37,7 +37,9 @@ ICON_HREFS: dict[str, str] = {
 # star tier, and a hotel flagged `avoid` turns red with a caution icon so a
 # known-bad option cannot be picked by accident at midnight.
 HOTEL_TIER_SCALES: dict[int, float] = {5: 1.4, 4: 1.1, 3: 0.9}
-AVOID_COLOR = "#e6194b"
+# Must stay distinct from every place colour in PLACE_COLORS, or an avoided
+# hotel in that place is indistinguishable from the place's own anchor pin.
+AVOID_COLOR = "#d7263d"
 AVOID_ICON = f"{_SHAPES}/caution.png"
 
 

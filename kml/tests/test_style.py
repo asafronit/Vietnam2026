@@ -64,3 +64,8 @@ def test_avoided_hotels_get_their_own_style():
 def test_higher_tiers_get_bigger_pins():
     from kmlpool.style import HOTEL_TIER_SCALES
     assert HOTEL_TIER_SCALES[5] > HOTEL_TIER_SCALES[4] > HOTEL_TIER_SCALES[3]
+
+
+def test_avoid_color_is_not_reused_from_the_place_palette():
+    from kmlpool.style import AVOID_COLOR
+    assert AVOID_COLOR not in PLACE_COLORS.values()
