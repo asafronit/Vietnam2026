@@ -1,0 +1,15 @@
+places:
+  - { id: hanoi,          name: Hanoi,               region: north,     lat: 21.0285, lng: 105.8522, radius_km: 30 }
+  - { id: ha-giang,       name: Ha Giang,            region: north,     lat: 22.8278, lng: 104.9839, radius_km: 120 }
+  - { id: sapa,           name: Sapa,                region: north,     lat: 22.3364, lng: 103.8440, radius_km: 30 }
+  - { id: ha-long,        name: Ha Long and Cat Ba,  region: north,     lat: 20.9099, lng: 107.1839, radius_km: 50 }
+  - { id: ninh-binh,      name: Ninh Binh,           region: north,     lat: 20.2505, lng: 105.9745, radius_km: 30 }
+  - { id: phong-nha,      name: Phong Nha,           region: central,   lat: 17.5934, lng: 106.2865, radius_km: 30 }
+  - { id: hue,            name: Hue,                 region: central,   lat: 16.4637, lng: 107.5909, radius_km: 30 }
+  - { id: hoi-an,         name: Hoi An and Da Nang,  region: central,   lat: 15.8801, lng: 108.3380, radius_km: 40 }
+  - { id: buon-ma-thuot,  name: Buon Ma Thuot,       region: highlands, lat: 12.6797, lng: 108.0378, radius_km: 30 }
+  - { id: lak-lake,       name: Lak Lake,            region: highlands, lat: 12.4076, lng: 108.1836, radius_km: 30 }
+  - { id: da-lat,         name: Da Lat,              region: highlands, lat: 11.9404, lng: 108.4583, radius_km: 30 }
+  - { id: saigon,         name: Ho Chi Minh City,    region: south,     lat: 10.7769, lng: 106.7009, radius_km: 40 }
+  - { id: mekong,         name: Mekong and Can Tho,  region: south,     lat: 10.0452, lng: 105.7469, radius_km: 80 }
+  - { id: phu-quoc,       name: Phu Quoc,            region: south,     lat: 10.2899, lng: 103.9840, radius_km: 40 }
