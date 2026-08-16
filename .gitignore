@@ -19,5 +19,13 @@
 !.github/
 !.github/workflows/
 !.github/workflows/deploy-pages.yml
+# Except the KML map-pool pipeline (source, data, generated .kml)
+!kml/
+!kml/**
+# ...but never its local-only artefacts
+kml/.venv/
+kml/cache/
+**/__pycache__/
+**/.pytest_cache/
 
 .preview/

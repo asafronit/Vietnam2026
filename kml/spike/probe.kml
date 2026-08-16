@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Spike Probe</name>
+
+    <Style id="goldPin">
+      <IconStyle>
+        <color>ff37b4ff</color>
+        <scale>1.1</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="forkPin">
+      <IconStyle>
+        <color>ff5ce07c</color>
+        <Icon><href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="routeLine">
+      <LineStyle><color>ff6f2742</color><width>4</width></LineStyle>
+    </Style>
+
+    <Folder>
+      <name>LAYER A - Hotels</name>
+      <Placemark>
+        <name>Peridot Grand Luxury Boutique</name>
+        <styleUrl>#goldPin</styleUrl>
+        <description><![CDATA[
+          <b>5-star</b> &middot; Booking 9.3<br/>
+          $80-137/night <i>(indicative, checked 2026-08-16)</i><br/>
+          <a href="https://www.booking.com/">Booking link</a>
+        ]]></description>
+        <Point><coordinates>105.8480,21.0333,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+
+    <Folder>
+      <name>LAYER B - Food</name>
+      <Placemark>
+        <name>Bun Cha Huong Lien</name>
+        <styleUrl>#forkPin</styleUrl>
+        <description><![CDATA[Michelin Bib Gourmand &middot; bun cha &middot; $]]></description>
+        <Point><coordinates>105.8515,21.0163,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+
+    <Folder>
+      <name>LAYER C - Route</name>
+      <Placemark>
+        <name>Hanoi to Sapa</name>
+        <styleUrl>#routeLine</styleUrl>
+        <LineString>
+          <coordinates>105.8522,21.0285,0 103.8440,22.3364,0</coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
