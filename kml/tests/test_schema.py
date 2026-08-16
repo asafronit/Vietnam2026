@@ -65,6 +65,34 @@ def test_why_that_merely_repeats_what_is_rejected():
     assert any("restate" in e for e in errs)
 
 
+def test_why_differing_only_in_case_is_rejected():
+    errs = validate_record(food(
+        what="A plain three-storey bun cha shop.",
+        why="A PLAIN THREE-STOREY BUN CHA SHOP.",
+    ))
+    assert any("restate" in e for e in errs)
+
+
+def test_why_differing_only_by_trailing_full_stop_is_rejected():
+    errs = validate_record(food(
+        what="A plain three-storey bun cha shop.",
+        why="A plain three-storey bun cha shop",
+    ))
+    assert any("restate" in e for e in errs)
+
+
+def test_why_differing_only_in_surrounding_whitespace_is_rejected():
+    errs = validate_record(food(
+        what="A plain three-storey bun cha shop.",
+        why="  A plain three-storey bun cha shop.  ",
+    ))
+    assert any("restate" in e for e in errs)
+
+
+def test_genuinely_different_what_and_why_is_accepted():
+    assert validate_record(food()) == []
+
+
 def test_hotel_over_the_price_cap_is_rejected():
     errs = validate_record(hotel(price_low=250.0, price_high=400.0))
     assert any("200" in e for e in errs)

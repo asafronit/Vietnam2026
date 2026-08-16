@@ -1,4 +1,5 @@
 """Record model plus the validation rules the spec's misinformation controls require."""
+import re
 from dataclasses import dataclass, field
 
 CATEGORIES = ("hotels", "must_see", "attractions", "food", "markets", "logistics")
@@ -33,6 +34,22 @@ class Record:
     lng: float | None = None
 
 
+# Trailing punctuation stripped before the what/why sameness check, so a
+# stray period or ellipsis doesn't let a byte-identical restatement slip
+# through. Deliberately narrow: normalised *equality* only, not similarity.
+_TRAILING_PUNCTUATION_RE = re.compile(r"[\s.!…?]+$")
+
+
+def _normalized_for_sameness_check(text: str) -> str:
+    """Casefold, strip surrounding whitespace, and strip trailing punctuation.
+
+    Used only to catch a `why` that restates `what` verbatim modulo case,
+    whitespace or a trailing full stop/ellipsis. Not a paraphrase detector:
+    genuinely different wording is left alone by design.
+    """
+    return _TRAILING_PUNCTUATION_RE.sub("", text.strip()).casefold()
+
+
 def validate_record(rec: Record) -> list[str]:
     errors: list[str] = []
     where = f"{rec.category}/{rec.name}"
@@ -45,7 +62,7 @@ def validate_record(rec: Record) -> list[str]:
         errors.append(f"{where}: what is empty")
     if not rec.why.strip():
         errors.append(f"{where}: why is empty")
-    if rec.what.strip() and rec.what.strip() == rec.why.strip():
+    if rec.what.strip() and _normalized_for_sameness_check(rec.what) == _normalized_for_sameness_check(rec.why):
         errors.append(f"{where}: why must not restate what")
     if not rec.area.strip():
         errors.append(f"{where}: area is empty")
