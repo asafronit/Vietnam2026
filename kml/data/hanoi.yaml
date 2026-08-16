@@ -1,0 +1,48 @@
+hotels:
+- name: Peridot Grand Luxury Boutique
+  tier: 5
+  tier_official: true
+  price_low: 80
+  price_high: 137
+  price_checked: '2026-08-16'
+  area: Hoan Kiem, Old Quarter
+  what: A 5-star boutique hotel a few minutes' walk from Hoan Kiem Lake, with a rooftop
+    pool and bar looking over the Old Quarter roofline.
+  why: Best rating-to-location ratio of any hotel in the four agent proposals
+  confidence: high
+  geocode_query: Peridot Grand Luxury Boutique Hotel, Hanoi, Vietnam
+  sources:
+  - https://www.booking.com/hotel/vn/peridot-grand-amp-spa-by-aira-hoan-kiem1.html
+  - https://guide.michelin.com/en/hotels-stays/hanoi
+  coords:
+    lat: 21.0330476
+    lng: 105.8462971
+must_see:
+- name: Hoan Kiem Lake
+  area: Hoan Kiem
+  what: The lake at the centre of old Hanoi, with a small red bridge to a temple island.
+    Locals walk and exercise around it at first light.
+  why: The city organises itself around this lake, and walking it is free
+  confidence: high
+  geocode_query: Hoan Kiem Lake, Hanoi, Vietnam
+  sources:
+  - https://en.wikipedia.org/wiki/Ho%C3%A0n_Ki%E1%BA%BFm_Lake
+  coords:
+    lat: 21.0288313
+    lng: 105.8525357
+food:
+- name: Bun Cha Huong Lien
+  kind: vietnamese
+  signal: michelin_bib
+  dish: Bun cha
+  area: Hai Ba Trung
+  what: A plain three-storey shop that has grilled pork patties over charcoal since
+    the 1990s, served in a bowl of broth with noodles and herbs.
+  why: Michelin Bib Gourmand, and the dish Hanoi is best known for
+  confidence: high
+  geocode_query: Bun Cha Huong Lien, Le Van Huu, Hanoi, Vietnam
+  sources:
+  - https://guide.michelin.com/vn/en/ha-noi-municipality/hanoi/restaurants
+  coords:
+    lat: 21.0180504
+    lng: 105.8538843
