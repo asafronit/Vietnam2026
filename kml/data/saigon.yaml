@@ -32,6 +32,10 @@ hotels:
   sources:
   - https://www.hoteldesartssaigon.com/
   - https://www.tripadvisor.com/Hotel_Review-g293925-d8142973-Reviews-Hotel_Des_Arts_Saigon_Mgallery-Ho_Chi_Minh_City.html
+  coords:
+    lat: 10.7820238
+    lng: 106.6971407
+  location_precision: approximate
 - name: Liberty Central Saigon Riverside
   tier: 4
   tier_official: true
@@ -218,6 +222,10 @@ food:
   sources:
   - https://vietcetera.com/en/banh-mi-huynh-hoa-how-100k-and-35-years-built-a-saigon-icon
   - https://www.tripadvisor.com/Restaurant_Review-g293925-d5484355-Reviews-Banh_Mi_Huynh_Hoa-Ho_Chi_Minh_City.html
+  coords:
+    lat: 10.7713922
+    lng: 106.6927189
+  location_precision: approximate
 - name: La Villa French Restaurant by Thierry Mounon
   kind: international
   signal: michelin_selected

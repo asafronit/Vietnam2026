@@ -53,6 +53,10 @@ hotels:
   sources:
   - https://www.tripadvisor.com/Hotel_Review-g4014591-d1930272-Reviews-Phong_Nha_Farmstay-Phong_Nha_Ke_Bang_National_Park_Quang_Binh_Province.html
   - https://www.booking.com/hotel/vn/phong-nha-farmstay.html
+  coords:
+    lat: 17.5818037
+    lng: 106.3087403
+  location_precision: approximate
 must_see:
 - name: Phong Nha Cave boat trip
   area: Phong Nha tourism centre, Son River
@@ -78,6 +82,10 @@ must_see:
   sources:
   - https://www.vietnamtourism.com/en/phong-nha-ke-bang-national-park-tickets-complete-2026-price-guide-and-cave-selection-2
   - https://oxalisadventure.com/paradise-cave-in-phong-nha/
+  coords:
+    lat: 17.5192008
+    lng: 106.223045
+  location_precision: approximate
 attractions:
 - name: Son Doong Cave Expedition
   area: Deep in Phong Nha-Ke Bang National Park, multi-day trek from Km37
@@ -139,6 +147,10 @@ attractions:
   sources:
   - https://www.getyourguide.com/phong-nha-l176859/phong-nha-cave-exploration-and-zipline-dark-cave-tour-t511831/
   - https://junglebosstours.com/explorer/tourism-blog/dark-cave-phong-nha
+  coords:
+    lat: 17.5742556
+    lng: 106.2527864
+  location_precision: approximate
 - name: The Duck Stop
   area: Bong Lai Valley, ~10km from Phong Nha town
   what: A small working duck farm where visitors feed and walk a flock of ducks along
@@ -150,6 +162,10 @@ attractions:
   sources:
   - https://theduckstop.vn/
   - https://culturephamtravel.com/the-duck-stop/
+  coords:
+    lat: 17.6041976
+    lng: 106.3657674
+  location_precision: approximate
 - name: Pub with Cold Beer
   area: Bong Lai Valley, near the Rao Con River
   what: A rustic family farm-bar down a country lane where you pick a live chicken
@@ -160,6 +176,10 @@ attractions:
   geocode_query: Pub with Cold Beer, Bong Lai Valley, Phong Nha, Quang Binh, Vietnam
   sources:
   - https://culturephamtravel.com/the-duck-stop/
+  coords:
+    lat: 17.5982371
+    lng: 106.3635278
+  location_precision: approximate
 food:
 - name: The Rice House Phong Nha
   kind: vietnamese

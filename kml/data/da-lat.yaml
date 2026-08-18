@@ -68,6 +68,10 @@ hotels:
   sources:
   - https://www.momondo.com/hotels/da-lat/Terracotta-Hotel-Resort-Dalat.mhd2272019.ksp
   - https://www.makemytrip.com/hotels-international/en-us/vietnam/dalat-hotels/terracotta_hotel_resort_dalat-details.html
+  coords:
+    lat: 11.894725
+    lng: 108.4397193
+  location_precision: approximate
 - name: TTC Hotel - Da Lat
   tier: 3
   tier_official: false
@@ -111,6 +115,10 @@ must_see:
   sources:
   - https://www.cnn.com/travel/article/crazy-house-dalat-vietnam
   - https://vinwonders.com/en/wonderpedia/news/dalat-crazy-house/
+  coords:
+    lat: 11.9345622
+    lng: 108.4305116
+  location_precision: approximate
 - name: Langbiang Mountain
   area: Lac Duong, ~12km north of the city
   what: A 2,167m twin-peaked mountain reached by a bumpy 4.5km jeep track from its
@@ -263,6 +271,10 @@ markets:
   sources:
   - https://vinpearl.com/en/da-lat-night-market
   - https://www.vietnamtourism.org.vn/travel-guide/destination-in-vietnam/da-lat%E2%80%99s-night-market.html
+  coords:
+    lat: 11.9414964
+    lng: 108.4372724
+  location_precision: approximate
 logistics:
 - name: Lien Khuong Airport (DLI) to city center
   area: Airport transfer

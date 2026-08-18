@@ -139,6 +139,10 @@ attractions:
   geocode_query: Ben Tre coconut candy village, Ben Tre, Vietnam
   sources:
   - https://viet-go.com/en/attractions/my-tho-ben-tre-mekong-delta-guide
+  coords:
+    lat: 10.0163692
+    lng: 105.7379094
+  location_precision: approximate
 - name: Vinh Trang Pagoda
   area: My Tho
   what: A 19th-century Buddhist pagoda recognised as a national historical relic,

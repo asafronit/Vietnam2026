@@ -16,6 +16,10 @@ hotels:
   sources:
   - https://www.booking.com/hotel/vn/lak-tented-camp.html
   - https://www.tripadvisor.com/Hotel_Review-g3389563-d11875783-Reviews-Lak_Tented_Camp-Lien_Son_Dak_Lak_Province.html
+  coords:
+    lat: 12.4279787
+    lng: 108.1812233
+  location_precision: approximate
 - name: Bao Dai Villa (Lak Lake)
   tier: 3
   tier_official: false

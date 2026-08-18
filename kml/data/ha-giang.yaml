@@ -96,6 +96,10 @@ must_see:
   geocode_query: Ma Pi Leng Pass viewpoint, Meo Vac, Ha Giang, Vietnam
   sources:
   - https://en.wikipedia.org/wiki/M%C3%A3_P%C3%AD_L%C3%A8ng_Pass
+  coords:
+    lat: 23.2419571
+    lng: 105.3979217
+  location_precision: approximate
 - name: Lung Cu Flag Tower
   area: Lung Cu commune, Dong Van district
   what: A 34.85m octagonal tower on a peak near Vietnam's northernmost point, flying
@@ -107,6 +111,10 @@ must_see:
   geocode_query: Lung Cu Flag Tower, Dong Van, Ha Giang, Vietnam
   sources:
   - https://en.wikipedia.org/wiki/Lung_Cu_Flag_Tower
+  coords:
+    lat: 23.3634614
+    lng: 105.3163342
+  location_precision: approximate
 - name: Dong Van Old Quarter
   area: Dong Van town
   what: A cluster of around 40 century-old houses with yellow clay walls, wooden frames
@@ -130,6 +138,10 @@ attractions:
   geocode_query: Ha Giang Loop start point, Ha Giang City, Vietnam
   sources:
   - https://vietnammotorcycletours.com/ha-giang-loop-vietnams-ultimate-motorbike-adventure
+  coords:
+    lat: 22.8372564
+    lng: 105.01257
+  location_precision: approximate
 - name: Nho Que River boat trip, Tu San Canyon
   area: Xin Cai / Ta Lang wharf, below Ma Pi Leng Pass
   what: A roughly 30-minute boat ride on the emerald-green Nho Que River, gliding
@@ -152,6 +164,10 @@ attractions:
   geocode_query: Du Gia waterfall, Du Gia, Ha Giang, Vietnam
   sources:
   - https://www.vietnamcoracle.com/to-day-du-gia-village-independent-review/
+  coords:
+    lat: 22.9329158
+    lng: 105.2233287
+  location_precision: approximate
 markets:
 - name: Dong Van Sunday Market
   area: Dong Van Old Quarter

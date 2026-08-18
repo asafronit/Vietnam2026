@@ -126,6 +126,10 @@ must_see:
   geocode_query: Cat Ba National Park, Cat Ba Island, Vietnam
   sources:
   - https://en.wikipedia.org/wiki/C%C3%A1t_B%C3%A0_National_Park
+  coords:
+    lat: 20.8063272
+    lng: 107.0383362
+  location_precision: approximate
 attractions:
 - name: Deep water soloing, Lan Ha Bay
   area: Lan Ha Bay, off Cat Ba Island
@@ -150,6 +154,10 @@ attractions:
   sources:
   - https://www.bestpricetravel.com/travel-guide/trung-trang-cave.html
   - https://www.halongbaycruises.com/travel-guide/explore-cat-ba-island-with-halong-bay-cruises-trung-trang-cave.html
+  coords:
+    lat: 20.7887703
+    lng: 106.9974369
+  location_precision: approximate
 food:
 - name: Vien Duong Restaurant
   kind: vietnamese

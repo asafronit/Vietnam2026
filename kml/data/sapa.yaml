@@ -113,6 +113,10 @@ must_see:
   geocode_query: Fansipan Legend Cable Car station, Sapa, Vietnam
   sources:
   - https://junglebosstours.com/explorer/tourism-blog/fansipan-mountain-sapa
+  coords:
+    lat: 22.3218699
+    lng: 103.7995338
+  location_precision: approximate
 - name: Cat Cat Village
   area: San Sa Ho commune, about 3km from Sapa town
   what: A Black H'mong village at the entrance to the Muong Hoa Valley, founded in
@@ -177,6 +181,10 @@ food:
   geocode_query: Thang Co A Quynh Restaurant, Thach Son Street, Sapa, Vietnam
   sources:
   - https://www.tripadvisor.com/Restaurant_Review-g311304-d12951605-Reviews-Thang_Co_A_Quynh_Restaurant-Sapa_Lao_Cai_Province.html
+  coords:
+    lat: 22.3360931
+    lng: 103.8445752
+  location_precision: approximate
 logistics:
 - name: Hanoi to Sapa transfer options
   area: Hanoi to Sapa town

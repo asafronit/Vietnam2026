@@ -129,6 +129,10 @@ must_see:
   sources:
   - https://happytovisit.com/ninh-binh-hoa-lu-mua-cave-and-trang-an-tour-and-boat-ride/
   - https://junglebosstours.com/explorer/tourism-blog/trang-an-boat-tour
+  coords:
+    lat: 20.2163426
+    lng: 105.937457
+  location_precision: approximate
 - name: Mua Cave viewpoint (Hang Mua)
   area: Khe Ha Village, ~10km from Ninh Binh city
   what: A roughly 500-step stone staircase up Mua Mountain to a dragon statue and
@@ -166,6 +170,10 @@ attractions:
   geocode_query: Bai Dinh Pagoda, Gia Vien, Ninh Binh, Vietnam
   sources:
   - https://happytovisit.com/ninh-binh-hoa-lu-bai-dinh-trang-an-and-mua-cave-tour/
+  coords:
+    lat: 20.2752292
+    lng: 105.8654697
+  location_precision: approximate
 food:
 - name: Duc De Restaurant
   kind: vietnamese
@@ -211,6 +219,10 @@ markets:
   geocode_query: Cho Rong Market, Ninh Binh, Vietnam
   sources:
   - https://hanoiexploretravel.com/things-to-do-ninh-binh/rong-market
+  coords:
+    lat: 20.2561711
+    lng: 105.9776166
+  location_precision: approximate
 - name: Ninh Binh Night Market
   area: Around Dinh Tien Hoang Street and Ky Lan Lake, city center
   what: Streets around the city-center lake fill from 6pm to 11pm with food stalls

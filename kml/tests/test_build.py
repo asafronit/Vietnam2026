@@ -1,6 +1,8 @@
+import re
+
 import lxml.etree as ET
 
-from kmlpool.build import build_pool_kml
+from kmlpool.build import _description, build_pool_kml
 from kmlpool.inventory import Place
 from kmlpool.schema import Record
 
@@ -152,3 +154,81 @@ def test_exact_location_has_no_approximate_note():
 def test_no_hebrew_reaches_the_output():
     xml = build_pool_kml([place()], {"hanoi": [rec()]})
     assert not any(0x0590 <= ord(c) <= 0x05FF for c in xml.decode("utf-8"))
+
+
+# --- Grab ride-hailing shortcut (Task 5b) ---------------------------------
+
+_GRAB_HREF_RE = re.compile(
+    rb'grab://open\?screenType=BOOKING&drop_off_lat=([^&]+)&drop_off_lng=([^"]+)"'
+)
+
+
+def test_grab_link_uses_the_pins_own_coordinates_exactly():
+    xml = build_pool_kml([place()], {"hanoi": [rec(lat=21.0301, lng=105.8712)]})
+
+    coords = parse(xml).findall(".//k:Placemark/k:Point/k:coordinates", NS)[-1].text
+    lng_str, lat_str, _ = coords.split(",")
+
+    # The Places & Route layer's own anchor link comes first in document
+    # order, so the pin's own link is the last match, not the first.
+    matches = _GRAB_HREF_RE.findall(xml)
+    assert matches, "no Grab deep link found in output"
+    last_lat, last_lng = matches[-1]
+    assert last_lat.decode() == lat_str
+    assert last_lng.decode() == lng_str
+    assert b"Grab ride here" in xml
+
+
+def test_description_omits_grab_link_when_record_has_no_coordinates():
+    r = rec()
+    r.lat, r.lng = None, None
+    desc = _description(r, place())
+    assert "Grab ride here" not in desc
+    assert "grab://" not in desc
+
+
+def test_description_includes_grab_link_when_record_has_coordinates():
+    desc = _description(rec(lat=21.0301, lng=105.8712), place())
+    assert "Grab ride here" in desc
+    assert "grab://open?screenType=BOOKING&drop_off_lat=21.0301&drop_off_lng=105.8712" in desc
+
+
+def test_place_anchors_each_get_a_grab_link():
+    places = [place("hanoi", "north"), place("hue", "central"), place("phu-quoc", "south")]
+    xml = build_pool_kml(places, {})
+
+    root_layer = parse(xml).findall(".//k:Folder", NS)[0]
+    anchors = [
+        p for p in root_layer.findall("k:Placemark", NS)
+        if p.find("k:name", NS).text != "Route"
+    ]
+    assert len(anchors) == len(places)
+    for anchor in anchors:
+        desc = anchor.find("k:description", NS).text
+        assert "Grab ride here" in desc
+        assert "grab://open?screenType=BOOKING" in desc
+
+
+def test_route_linestring_placemark_has_no_grab_link():
+    places = [place("hanoi", "north"), place("phu-quoc", "south")]
+    xml = build_pool_kml(places, {})
+
+    root_layer = parse(xml).findall(".//k:Folder", NS)[0]
+    [route] = [
+        p for p in root_layer.findall("k:Placemark", NS)
+        if p.find("k:name", NS).text == "Route"
+    ]
+    assert route.find("k:description", NS) is None
+    assert route.find("k:LineString", NS) is not None
+
+
+def test_approximate_pins_still_get_a_grab_link_alongside_their_note():
+    r = rec()
+    r.location_precision = "approximate"
+    desc = _description(r, place())
+
+    assert "Approximate location" in desc
+    assert "Grab ride here" in desc
+    assert desc.index("Approximate location") < desc.index("Grab ride here"), (
+        "the approximate-location note should read before the Grab action"
+    )

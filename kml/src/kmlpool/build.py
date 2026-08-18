@@ -28,6 +28,18 @@ CATEGORY_LABELS = {
 }
 
 
+def _grab_link(lat: float, lng: float) -> str:
+    """Grab deep link for a drop-off at (lat, lng).
+
+    Mirrors the established convention in index.html — same href shape, same
+    query params. My Maps strips JavaScript from descriptions, so unlike the
+    site's grab-link anchors this carries only the href: no web fallback, no
+    clipboard copy. lat/lng are interpolated the same way `<Point>` writes
+    them, so the two always agree byte-for-byte.
+    """
+    return f"grab://open?screenType=BOOKING&drop_off_lat={lat}&drop_off_lng={lng}"
+
+
 def _icon_style(style_ident: str, colour: str, scale: float, href: str):
     return E.Style(
         E.IconStyle(E.color(colour), E.scale(str(scale)), E.Icon(E.href(href))),
@@ -100,6 +112,10 @@ def _description(rec: Record, place: Place) -> str:
         f'<a href="{url}">source {i}</a>' for i, url in enumerate(rec.sources, 1)
     )
     lines.append(links)
+
+    if rec.lat is not None and rec.lng is not None:
+        lines.append(f'<a href="{_grab_link(rec.lat, rec.lng)}">Grab ride here</a>')
+
     return "<br/>".join(lines)
 
 
@@ -127,13 +143,15 @@ def _places_layer(places: list[Place]):
     """Layer 1: the 14 anchors plus the locked route. The orientation layer."""
     layer = E.Folder(E.name("Places & Route"))
     for place in places:
+        description = (
+            f"<b>{place.name}</b><br/>{place.region.title()}"
+            f'<br/><a href="{_grab_link(place.lat, place.lng)}">Grab ride here</a>'
+        )
         layer.append(
             E.Placemark(
                 E.name(place.name),
                 E.styleUrl("#place-anchor"),
-                E.description(
-                    ET.CDATA(f"<b>{place.name}</b><br/>{place.region.title()}")
-                ),
+                E.description(ET.CDATA(description)),
                 E.Point(E.coordinates(f"{place.lng},{place.lat},0")),
             )
         )

@@ -71,6 +71,10 @@ hotels:
   sources:
   - https://www.tripadvisor.com/Hotel_Review-g293924-d17627438-Reviews-La_Sinfonia_del_Rey_Hotel_Spa-Hanoi.html
   - https://www.booking.com/hotel/vn/la-sinfonia-del-rey-amp-spa.html
+  coords:
+    lat: 21.0311556
+    lng: 105.8541135
+  location_precision: approximate
 - name: Hanoi Amorita Boutique Hotel & Travel
   tier: 3
   tier_official: true
@@ -103,6 +107,10 @@ hotels:
   sources:
   - https://www.tripadvisor.com/Hotel_Review-g293924-d12154091-Reviews-Hanoi_La_Storia_Hotel-Hanoi.html
   - https://www.traveloka.com/en-en/hotel/vietnam/hanoi-la-storia-hotel--4000000389115
+  coords:
+    lat: 21.0357127
+    lng: 105.847721
+  location_precision: approximate
 must_see:
 - name: Hoan Kiem Lake
   area: Hoan Kiem
@@ -127,6 +135,10 @@ must_see:
   geocode_query: Temple of Literature Van Mieu, Dong Da, Hanoi, Vietnam
   sources:
   - https://en.wikipedia.org/wiki/Temple_of_Literature,_Hanoi
+  coords:
+    lat: 21.0287903
+    lng: 105.8359533
+  location_precision: approximate
 - name: Hoa Lo Prison Museum
   area: Hoan Kiem, Hoa Lo street
   what: A preserved wing of a French colonial-era prison built in 1896, nicknamed
@@ -242,6 +254,10 @@ food:
   geocode_query: Gia Restaurant, Tay Ho, Hanoi, Vietnam
   sources:
   - https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-guide-vietnam-2026
+  coords:
+    lat: 21.0205027
+    lng: 105.7639271
+  location_precision: approximate
 logistics:
 - name: Noi Bai Airport to Old Quarter transfer
   area: Noi Bai International Airport to Hoan Kiem

@@ -191,6 +191,10 @@ food:
   geocode_query: Bun Bo Hue Ba Gai, 11A Ha Noi Street, Hue, Vietnam
   sources:
   - https://www.willflyforfood.net/hue-food-guide/
+  coords:
+    lat: 16.4639321
+    lng: 107.5863388
+  location_precision: approximate
 - name: Lac Thien (Banh Khoai Lac Thien)
   kind: vietnamese
   signal: traveler_recommended
@@ -204,6 +208,10 @@ food:
   geocode_query: Lac Thien Restaurant, 6 Dinh Tien Hoang Street, Hue, Vietnam
   sources:
   - https://beebeetravel.com/banh-khoai-lac-thien-hue-local-food/
+  coords:
+    lat: 16.4720712
+    lng: 107.5846611
+  location_precision: approximate
 - name: Hang Me Me
   kind: vietnamese
   signal: traveler_recommended
@@ -217,6 +225,10 @@ food:
   geocode_query: Hang Me Me, 45 Vo Thi Sau Street, Hue, Vietnam
   sources:
   - https://www.emilyluxton.co.uk/hue-food-guide-dishes-you-have-to-try/
+  coords:
+    lat: 16.470121
+    lng: 107.5960412
+  location_precision: approximate
 - name: Com Hen Ba Den
   kind: vietnamese
   signal: traveler_recommended

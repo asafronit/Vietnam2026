@@ -161,6 +161,10 @@ attractions:
   sources:
   - https://vinwonders.com/en/wonderpedia/news/review-of-vinpearl-safari-phu-quoc/
   - https://www.tripadvisor.com/Attraction_Review-g469418-d9748314-Reviews-Vinpearl_Safari_Phu_Quoc-Phu_Quoc_Island_Kien_Giang_Province.html
+  coords:
+    lat: 10.3393964
+    lng: 103.8950113
+  location_precision: approximate
 food:
 - name: Xin Chao Seafood Restaurant
   kind: vietnamese
@@ -203,6 +207,10 @@ markets:
   sources:
   - https://www.baconismagic.ca/vietnam/phu-quoc-night-market/
   - https://vinwonders.com/en/wonderpedia/news/phu-quoc-night-market/
+  coords:
+    lat: 10.3242259
+    lng: 103.8581673
+  location_precision: approximate
 logistics:
 - name: Grab and taxi from Phu Quoc International Airport
   area: Phu Quoc International Airport (PQC), about 10 km south of Duong Dong

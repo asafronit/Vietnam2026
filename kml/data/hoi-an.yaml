@@ -106,6 +106,10 @@ hotels:
   sources:
   - https://www.tripadvisor.com/Hotel_Review-g298082-d12192622-Reviews-Little_Town_Villas-Hoi_An_Quang_Nam_Province.html
   - https://www.booking.com/hotel/vn/little-town-villa.html
+  coords:
+    lat: 15.8826344
+    lng: 108.3244197
+  location_precision: approximate
 must_see:
 - name: Hoi An Ancient Town and Japanese Covered Bridge
   area: Old Town, along the Thu Bon River
@@ -134,6 +138,10 @@ must_see:
   sources:
   - https://hoiandaytrip.com/ba-na-hills-tickets/
   - https://happytovisit.com/golden-bridge-ba-na-hills-marble-mountain-monkey-mountain/
+  coords:
+    lat: 16.0258471
+    lng: 108.0362621
+  location_precision: approximate
 attractions:
 - name: Marble Mountains (Ngu Hanh Son)
   area: Between Da Nang and Hoi An, on the coast road
@@ -203,6 +211,10 @@ food:
   sources:
   - https://www.tripadvisor.com/Restaurant_Review-g298082-d2365673-Reviews-Banh_My_Phu_ng-Hoi_An_Quang_Nam_Province.html
   - https://hiddenhoian.com/eat/banh-mi-phuong-hoi-ans-best-banh-mi/
+  coords:
+    lat: 15.8784841
+    lng: 108.3320081
+  location_precision: approximate
 - name: Cao Lau Ba Le
   kind: vietnamese
   signal: traveler_recommended
@@ -248,6 +260,10 @@ food:
   sources:
   - https://guide.michelin.com/us/en/da-nang-region/da-nang_2984390/restaurant/la-maison-1888
   - https://www.danang.intercontinental.com/a-michelin-star-for-la-maison-1888/
+  coords:
+    lat: 15.9040037
+    lng: 108.3326237
+  location_precision: approximate
 - name: Phu Hong (Bun Thit Nuong Phu Hong)
   kind: vietnamese
   signal: michelin_bib
@@ -262,6 +278,10 @@ food:
   sources:
   - https://liveyounglivewell.com/quan-phu-hong-da-nang-review/
   - https://guide.michelin.com/en/da-nang-region/da-nang_2984390/restaurant/phu-hong
+  coords:
+    lat: 16.0695853
+    lng: 108.2229138
+  location_precision: approximate
 markets:
 - name: Hoi An Central Market
   area: Tran Phu Street, along the Thu Bon riverbank

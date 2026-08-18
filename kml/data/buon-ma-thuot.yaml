@@ -48,6 +48,10 @@ hotels:
   sources:
   - https://www.tripadvisor.com/Hotel_Review-g670918-d1772273-Reviews-Dakruco_Hotel-Buon_Ma_Thuot_Dak_Lak_Province.html
   - https://www.momondo.com/hotels/buon-ma-thuot/Dakruco-Hotel.mhd373818.ksp
+  coords:
+    lat: 12.6933774
+    lng: 108.0660931
+  location_precision: approximate
 must_see:
 - name: The World Coffee Museum
   area: Tan Loi Ward, inside Trung Nguyen Coffee Village, ~4km from center
@@ -90,6 +94,10 @@ must_see:
   sources:
   - https://vinpearl.com/en/dray-nur-waterfall-dak-lak-things-to-do-here
   - https://www.tripadvisor.com/Attraction_Review-g670918-d4766576-Reviews-Dray_Nur_Waterfall-Buon_Ma_Thuot_Dak_Lak_Province.html
+  coords:
+    lat: 12.5405291
+    lng: 107.8904044
+  location_precision: approximate
 - name: Yok Don National Park
   area: Buon Don district, ~40km from center
   what: Vietnam's second-largest national park, a stretch of dry dipterocarp forest
