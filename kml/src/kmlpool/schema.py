@@ -29,6 +29,10 @@ class Record:
     # food only
     kind: str | None = None
     signal: str | None = None
+    # attractions/must_see only (optional): a YouTube URL rendered as a
+    # "Watch on YouTube" link. Not required, and not enforced as required
+    # for those categories — a missing value falls back to a search link.
+    video: str | None = None
     # filled by the geocode stage
     lat: float | None = None
     lng: float | None = None
@@ -73,6 +77,12 @@ def validate_record(rec: Record) -> list[str]:
         errors.append(f"{where}: geocode_query is empty")
     if rec.confidence not in CONFIDENCE_LEVELS:
         errors.append(f"{where}: confidence must be one of {CONFIDENCE_LEVELS}")
+
+    if rec.video is not None:
+        if not rec.video.startswith("https://") or not any(
+            domain in rec.video for domain in ("youtube.com", "youtu.be")
+        ):
+            errors.append(f"{where}: video must be a https:// youtube.com or youtu.be URL")
 
     required_sources = 2 if rec.category == "hotels" else 1
     if len(rec.sources) < required_sources:

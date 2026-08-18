@@ -106,7 +106,7 @@
       <Placemark>
         <name>Ha Giang</name>
         <styleUrl>#place-anchor</styleUrl>
-        <description><![CDATA[<b>Ha Giang</b><br/>North<br/><a href="https://www.google.com/maps/dir/?api=1&destination=22.8278,104.9839&travelmode=driving">Directions</a><br/>Coords: 22.8278, 104.9839]]></description>
+        <description><![CDATA[<b>Ha Giang</b><br/>North<br/><a href="https://www.google.com/maps/dir/?api=1&destination=22.8278,104.9839&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 22.8278, 104.9839]]></description>
         <Point>
           <coordinates>104.9839,22.8278,0</coordinates>
         </Point>
@@ -117,7 +117,7 @@
       <Placemark>
         <name>Ma Pi Leng Pass</name>
         <styleUrl>#s-ha-giang-must_see</styleUrl>
-        <description><![CDATA[<b>Ha Giang</b> &middot; National Road 4C, between Dong Van and Meo Vac<br/><i>Approximate location — search the name in Maps</i><br/><br/>A 20km stretch of road called the "Happiness Road", carved into a sheer limestone cliff face at over 2,000m, hugging the mountainside with a straight drop of hundreds of metres to the turquoise Nho Que River below.<br/><b>Why it's here:</b> One of Vietnam's "Four Great Passes" and the single most photographed stretch of the entire Ha Giang loop<br/><a href="https://en.wikipedia.org/wiki/M%C3%A3_P%C3%AD_L%C3%A8ng_Pass">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=23.2419571,105.3979217&travelmode=driving">Directions</a><br/>Coords: 23.2419571, 105.3979217]]></description>
+        <description><![CDATA[<b>Ha Giang</b> &middot; National Road 4C, between Dong Van and Meo Vac<br/><i>Approximate location — search the name in Maps</i><br/><br/>A 20km stretch of road called the "Happiness Road", carved into a sheer limestone cliff face at over 2,000m, hugging the mountainside with a straight drop of hundreds of metres to the turquoise Nho Que River below.<br/><b>Why it's here:</b> One of Vietnam's "Four Great Passes" and the single most photographed stretch of the entire Ha Giang loop<br/><a href="https://en.wikipedia.org/wiki/M%C3%A3_P%C3%AD_L%C3%A8ng_Pass">source 1</a><br/><a href="https://www.youtube.com/results?search_query=Ma+Pi+Leng+Pass+Ha+Giang+Vietnam" style="color:#cc0000;font-weight:700">Search YouTube</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=23.2419571,105.3979217&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 23.2419571, 105.3979217]]></description>
         <Point>
           <coordinates>105.3979217,23.2419571,0</coordinates>
         </Point>
@@ -125,7 +125,7 @@
       <Placemark>
         <name>Lung Cu Flag Tower</name>
         <styleUrl>#s-ha-giang-must_see</styleUrl>
-        <description><![CDATA[<b>Ha Giang</b> &middot; Lung Cu commune, Dong Van district<br/><i>Approximate location — search the name in Maps</i><br/><br/>A 34.85m octagonal tower on a peak near Vietnam's northernmost point, flying a red flag with a yellow star that covers 54 square metres, one for each recognised ethnic group. Reached by roughly 280-800 stone steps depending on where you park.<br/><b>Why it's here:</b> The symbolic "top of Vietnam" and a standard end-goal of the loop's northern leg<br/><a href="https://en.wikipedia.org/wiki/Lung_Cu_Flag_Tower">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=23.3634614,105.3163342&travelmode=driving">Directions</a><br/>Coords: 23.3634614, 105.3163342]]></description>
+        <description><![CDATA[<b>Ha Giang</b> &middot; Lung Cu commune, Dong Van district<br/><i>Approximate location — search the name in Maps</i><br/><br/>A 34.85m octagonal tower on a peak near Vietnam's northernmost point, flying a red flag with a yellow star that covers 54 square metres, one for each recognised ethnic group. Reached by roughly 280-800 stone steps depending on where you park.<br/><b>Why it's here:</b> The symbolic "top of Vietnam" and a standard end-goal of the loop's northern leg<br/><a href="https://en.wikipedia.org/wiki/Lung_Cu_Flag_Tower">source 1</a><br/><a href="https://www.youtube.com/results?search_query=Lung+Cu+Flag+Tower+Ha+Giang+Vietnam" style="color:#cc0000;font-weight:700">Search YouTube</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=23.3634614,105.3163342&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 23.3634614, 105.3163342]]></description>
         <Point>
           <coordinates>105.3163342,23.3634614,0</coordinates>
         </Point>
@@ -136,7 +136,7 @@
       <Placemark>
         <name>Ha Giang Loop (self-drive or easy-rider motorbike route)</name>
         <styleUrl>#s-ha-giang-attractions</styleUrl>
-        <description><![CDATA[<b>Ha Giang</b> &middot; Circuit from Ha Giang City through Quan Ba, Yen Minh, Dong Van, Meo Vac<br/><i>Approximate location — search the name in Maps</i><br/><br/>A roughly 350-400km loop of mountain roads through the Dong Van Karst Plateau Geopark, ridden over 3-4 days either as the driver (own or rented manual motorbike) or as a passenger behind a local "easy rider" guide.<br/><b>Why it's here:</b> The reason this region is on the route at all — hairpin passes, terraced valleys and H'mong villages are only reachable this way<br/><a href="https://vietnammotorcycletours.com/ha-giang-loop-vietnams-ultimate-motorbike-adventure">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=22.8372564,105.01257&travelmode=driving">Directions</a><br/>Coords: 22.8372564, 105.01257]]></description>
+        <description><![CDATA[<b>Ha Giang</b> &middot; Circuit from Ha Giang City through Quan Ba, Yen Minh, Dong Van, Meo Vac<br/><i>Approximate location — search the name in Maps</i><br/><br/>A roughly 350-400km loop of mountain roads through the Dong Van Karst Plateau Geopark, ridden over 3-4 days either as the driver (own or rented manual motorbike) or as a passenger behind a local "easy rider" guide.<br/><b>Why it's here:</b> The reason this region is on the route at all — hairpin passes, terraced valleys and H'mong villages are only reachable this way<br/><a href="https://vietnammotorcycletours.com/ha-giang-loop-vietnams-ultimate-motorbike-adventure">source 1</a><br/><a href="https://www.youtube.com/results?search_query=Ha+Giang+Loop+%28self-drive+or+easy-rider+motorbike+route%29+Ha+Giang+Vietnam" style="color:#cc0000;font-weight:700">Search YouTube</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=22.8372564,105.01257&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 22.8372564, 105.01257]]></description>
         <Point>
           <coordinates>105.01257,22.8372564,0</coordinates>
         </Point>
@@ -144,7 +144,7 @@
       <Placemark>
         <name>Du Gia village and waterfall</name>
         <styleUrl>#s-ha-giang-attractions</styleUrl>
-        <description><![CDATA[<b>Ha Giang</b> &middot; Du Gia commune, about 70km from Ha Giang City<br/><i>Approximate location — search the name in Maps</i><br/><br/>A Tay ethnic village of wooden stilt houses in a rice-field valley, with a swimmable turquoise-pooled waterfall a short walk away; usually reached only by motorbike or car since there is no direct bus.<br/><b>Why it's here:</b> The loop's quiet counterpoint to Dong Van/Meo Vac — a slower, greener detour with a place to swim<br/><a href="https://www.vietnamcoracle.com/to-day-du-gia-village-independent-review/">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=22.9329158,105.2233287&travelmode=driving">Directions</a><br/>Coords: 22.9329158, 105.2233287]]></description>
+        <description><![CDATA[<b>Ha Giang</b> &middot; Du Gia commune, about 70km from Ha Giang City<br/><i>Approximate location — search the name in Maps</i><br/><br/>A Tay ethnic village of wooden stilt houses in a rice-field valley, with a swimmable turquoise-pooled waterfall a short walk away; usually reached only by motorbike or car since there is no direct bus.<br/><b>Why it's here:</b> The loop's quiet counterpoint to Dong Van/Meo Vac — a slower, greener detour with a place to swim<br/><a href="https://www.vietnamcoracle.com/to-day-du-gia-village-independent-review/">source 1</a><br/><a href="https://www.youtube.com/results?search_query=Du+Gia+village+and+waterfall+Ha+Giang+Vietnam" style="color:#cc0000;font-weight:700">Search YouTube</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=22.9329158,105.2233287&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 22.9329158, 105.2233287]]></description>
         <Point>
           <coordinates>105.2233287,22.9329158,0</coordinates>
         </Point>

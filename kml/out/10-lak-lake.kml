@@ -106,7 +106,7 @@
       <Placemark>
         <name>Lak Lake</name>
         <styleUrl>#place-anchor</styleUrl>
-        <description><![CDATA[<b>Lak Lake</b><br/>Highlands<br/><a href="https://www.google.com/maps/dir/?api=1&destination=12.4076,108.1836&travelmode=driving">Directions</a><br/>Coords: 12.4076, 108.1836]]></description>
+        <description><![CDATA[<b>Lak Lake</b><br/>Highlands<br/><a href="https://www.google.com/maps/dir/?api=1&destination=12.4076,108.1836&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 12.4076, 108.1836]]></description>
         <Point>
           <coordinates>108.1836,12.4076,0</coordinates>
         </Point>
@@ -117,7 +117,7 @@
       <Placemark>
         <name>Lak Tented Camp</name>
         <styleUrl>#s-lak-lake-hotels-t3</styleUrl>
-        <description><![CDATA[<b>Lak Lake</b> &middot; Yang Tao, Lien Son, reached only by boat<br/><i>Approximate location — search the name in Maps</i><br/>3 stars (self-declared)<br/>$60-$160/night <i>(indicative, checked 2026-08-16)</i><br/><br/>A small eco-lodge accessible only by boat crossing, with 15 safari-style tents, four lakeside bungalows and a wooden longhouse restaurant on the shore of Lak Lake.<br/><b>Why it's here:</b> The consensus pick of two independently-researched agent proposals for this leg, and the only proper lodge actually on the lake<br/><a href="https://www.booking.com/hotel/vn/lak-tented-camp.html">source 1</a> &middot; <a href="https://www.tripadvisor.com/Hotel_Review-g3389563-d11875783-Reviews-Lak_Tented_Camp-Lien_Son_Dak_Lak_Province.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=12.4279787,108.1812233&travelmode=driving">Directions</a><br/>Coords: 12.4279787, 108.1812233]]></description>
+        <description><![CDATA[<b>Lak Lake</b> &middot; Yang Tao, Lien Son, reached only by boat<br/><i>Approximate location — search the name in Maps</i><br/>3 stars (self-declared)<br/>$60-$160/night <i>(indicative, checked 2026-08-16)</i><br/><br/>A small eco-lodge accessible only by boat crossing, with 15 safari-style tents, four lakeside bungalows and a wooden longhouse restaurant on the shore of Lak Lake.<br/><b>Why it's here:</b> The consensus pick of two independently-researched agent proposals for this leg, and the only proper lodge actually on the lake<br/><a href="https://www.booking.com/hotel/vn/lak-tented-camp.html">source 1</a> &middot; <a href="https://www.tripadvisor.com/Hotel_Review-g3389563-d11875783-Reviews-Lak_Tented_Camp-Lien_Son_Dak_Lak_Province.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=12.4279787,108.1812233&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 12.4279787, 108.1812233]]></description>
         <Point>
           <coordinates>108.1812233,12.4279787,0</coordinates>
         </Point>
@@ -125,7 +125,7 @@
       <Placemark>
         <name>Bao Dai Villa (Lak Lake)</name>
         <styleUrl>#s-lak-lake-hotels-t3</styleUrl>
-        <description><![CDATA[<b>Lak Lake</b> &middot; Hill above Lak Lake, Lien Son town<br/>3 stars (self-declared)<br/>$20-$30/night <i>(indicative, checked 2026-08-16)</i><br/><br/>The 1951 hunting lodge Emperor Bao Dai built on a hill overlooking Lak Lake, now run as a simple guesthouse with the old dining room serving as a restaurant.<br/><b>Why it's here:</b> The only accommodation directly on the hill above the lake, inside a genuine former royal building<br/><a href="https://www.tripadvisor.com/Hotel_Review-g670918-d3291911-Reviews-Bao_Dai_Villa-Buon_Ma_Thuot_Dak_Lak_Province.html">source 1</a> &middot; <a href="https://vnexpress.net/biet-dien-bao-dai-ben-ho-lak-4393734.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=12.4155999,108.1816523&travelmode=driving">Directions</a><br/>Coords: 12.4155999, 108.1816523]]></description>
+        <description><![CDATA[<b>Lak Lake</b> &middot; Hill above Lak Lake, Lien Son town<br/>3 stars (self-declared)<br/>$20-$30/night <i>(indicative, checked 2026-08-16)</i><br/><br/>The 1951 hunting lodge Emperor Bao Dai built on a hill overlooking Lak Lake, now run as a simple guesthouse with the old dining room serving as a restaurant.<br/><b>Why it's here:</b> The only accommodation directly on the hill above the lake, inside a genuine former royal building<br/><a href="https://www.tripadvisor.com/Hotel_Review-g670918-d3291911-Reviews-Bao_Dai_Villa-Buon_Ma_Thuot_Dak_Lak_Province.html">source 1</a> &middot; <a href="https://vnexpress.net/biet-dien-bao-dai-ben-ho-lak-4393734.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=12.4155999,108.1816523&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 12.4155999, 108.1816523]]></description>
         <Point>
           <coordinates>108.1816523,12.4155999,0</coordinates>
         </Point>
@@ -136,7 +136,7 @@
       <Placemark>
         <name>Lak Lake</name>
         <styleUrl>#s-lak-lake-must_see</styleUrl>
-        <description><![CDATA[<b>Lak Lake</b> &middot; Lien Son, Lak district<br/><br/>The largest natural freshwater lake in the Central Highlands, ringed by rice paddies and forest, crossed by hand-carved dugout canoes rather than motorboats.<br/><b>Why it's here:</b> The centrepiece of this leg of the route, and the reason the itinerary stops here overnight<br/><a href="https://en.wikipedia.org/wiki/Lak_Lake">source 1</a> &middot; <a href="https://www.bestpricetravel.com/travel-guide/lak-lake.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=12.4232112,108.1776243&travelmode=driving">Directions</a><br/>Coords: 12.4232112, 108.1776243]]></description>
+        <description><![CDATA[<b>Lak Lake</b> &middot; Lien Son, Lak district<br/><br/>The largest natural freshwater lake in the Central Highlands, ringed by rice paddies and forest, crossed by hand-carved dugout canoes rather than motorboats.<br/><b>Why it's here:</b> The centrepiece of this leg of the route, and the reason the itinerary stops here overnight<br/><a href="https://en.wikipedia.org/wiki/Lak_Lake">source 1</a> &middot; <a href="https://www.bestpricetravel.com/travel-guide/lak-lake.html">source 2</a><br/><a href="https://www.youtube.com/results?search_query=Lak+Lake+Lak+Lake+Vietnam" style="color:#cc0000;font-weight:700">Search YouTube</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=12.4232112,108.1776243&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 12.4232112, 108.1776243]]></description>
         <Point>
           <coordinates>108.1776243,12.4232112,0</coordinates>
         </Point>

@@ -132,3 +132,37 @@ def test_high_confidence_with_coordinates_ships():
     rec = food()
     rec.lat, rec.lng = 21.0, 105.8
     assert is_shippable(rec) is True
+
+
+# --- video field validation (Task 12) ---------------------------------------
+
+
+def test_video_that_is_not_a_youtube_url_fails_validation():
+    r = food(name="Bun Cha Huong Lien")
+    r.video = "https://vimeo.com/12345"
+    errs = validate_record(r)
+    assert any("video" in e and "Bun Cha Huong Lien" in e for e in errs)
+
+
+def test_video_that_is_not_https_fails_validation():
+    r = food(name="Bun Cha Huong Lien")
+    r.video = "http://youtube.com/watch?v=abc"
+    errs = validate_record(r)
+    assert any("video" in e for e in errs)
+
+
+def test_valid_youtube_watch_url_passes_validation():
+    r = food()
+    r.video = "https://www.youtube.com/watch?v=abc123"
+    assert validate_record(r) == []
+
+
+def test_valid_youtu_be_short_url_passes_validation():
+    r = food()
+    r.video = "https://youtu.be/abc123"
+    assert validate_record(r) == []
+
+
+def test_no_video_is_fine_for_any_category():
+    assert validate_record(hotel()) == []
+    assert validate_record(food()) == []

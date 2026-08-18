@@ -189,6 +189,28 @@ def test_persist_writes_location_precision_for_approximate_hits(tmp_path, monkey
     assert entry["location_precision"] == "approximate"
 
 
+def test_load_records_round_trips_the_optional_video_field(tmp_path):
+    fixture = tmp_path / "video.yaml"
+    fixture.write_text(
+        """
+attractions:
+  - name: Ha Long Bay Cruise
+    area: Ha Long
+    what: A day cruise through the limestone karsts of Ha Long Bay.
+    why: Confirms load_records passes the optional video field through.
+    confidence: high
+    geocode_query: Ha Long Bay Cruise, Vietnam
+    sources:
+    - https://example.test/a
+    video: https://www.youtube.com/watch?v=abc123
+""",
+        encoding="utf-8",
+    )
+    records = load_records(str(fixture))
+    assert len(records) == 1
+    assert records[0].video == "https://www.youtube.com/watch?v=abc123"
+
+
 def test_persist_omits_location_precision_for_exact_hits(tmp_path, monkeypatch):
     """Exact hits keep the YAML quiet: no location_precision key at all,
     and a stale one from an earlier fallback run is cleared on rewrite."""

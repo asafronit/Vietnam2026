@@ -1,4 +1,6 @@
 """Turn validated records into KML. Pure transform: no network, no disk."""
+from urllib.parse import quote_plus
+
 import lxml.etree as ET
 from lxml.builder import ElementMaker
 
@@ -26,6 +28,17 @@ CATEGORY_LABELS = {
     "markets": "Markets & Shopping",
     "logistics": "Logistics",
 }
+
+# The wider project's fixed colour convention for link "actions" (documented
+# across index.html): colour encodes what the link *does*, not what category
+# the record is in. Only the two actions the KML currently renders are used
+# here — no colour config system, no other action colours.
+DIRECTIONS_COLOR = "#0f7c5c"   # green: take me there
+VIDEO_COLOR = "#cc0000"        # red: watch/search a video
+
+# Categories that ever get a video link. Not enforced in the schema (video
+# is optional everywhere), but only these two categories render one.
+VIDEO_CATEGORIES = ("attractions", "must_see")
 
 
 def _directions_link(lat: float, lng: float) -> str:
@@ -56,9 +69,28 @@ def _location_lines(lat: float, lng: float) -> list[str]:
     purpose.
     """
     return [
-        f'<a href="{_directions_link(lat, lng)}">Directions</a>',
+        f'<a href="{_directions_link(lat, lng)}" '
+        f'style="color:{DIRECTIONS_COLOR};font-weight:700">Directions</a>',
         f"Coords: {lat}, {lng}",
     ]
+
+
+def _video_link(rec: Record, place: Place) -> str:
+    """Red "video" action link for an attractions/must_see record.
+
+    Renders the record's own video when set. Otherwise falls back to a
+    YouTube *search* link: it always resolves and can't be a fabricated
+    video ID, so every attraction gets something useful even before any
+    video research has happened for it.
+    """
+    if rec.video:
+        return (
+            f'<a href="{rec.video}" '
+            f'style="color:{VIDEO_COLOR};font-weight:700">Watch on YouTube</a>'
+        )
+    query = quote_plus(f"{rec.name} {place.name} Vietnam")
+    url = f"https://www.youtube.com/results?search_query={query}"
+    return f'<a href="{url}" style="color:{VIDEO_COLOR};font-weight:700">Search YouTube</a>'
 
 
 def _icon_style(style_ident: str, colour: str, scale: float, href: str):
@@ -133,6 +165,9 @@ def _description(rec: Record, place: Place) -> str:
         f'<a href="{url}">source {i}</a>' for i, url in enumerate(rec.sources, 1)
     )
     lines.append(links)
+
+    if rec.category in VIDEO_CATEGORIES:
+        lines.append(_video_link(rec, place))
 
     if rec.lat is not None and rec.lng is not None:
         lines.extend(_location_lines(rec.lat, rec.lng))

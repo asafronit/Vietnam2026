@@ -302,3 +302,63 @@ def test_place_kml_has_at_most_seven_layers():
     recs = [rec(c, f"r-{c}") for c in
             ("hotels", "must_see", "attractions", "food", "markets", "logistics")]
     assert len(layer_names(build_place_kml(place(), recs))) == 7
+
+
+# --- Colour-coded links + YouTube video support (Task 12) ------------------
+#
+# The wider project has a fixed colour convention for link "actions"
+# (documented across index.html): green = take me there, red = video. The
+# KML must follow it. Directions turns green; attractions/must_see gain a
+# red video link (the record's own video if set, else a YouTube search
+# fallback that always resolves).
+
+
+def test_directions_link_is_coloured_green():
+    desc = _description(rec(lat=21.0301, lng=105.8712), place())
+    assert '<a href="https://www.google.com/maps/dir/?api=1&destination=21.0301,105.8712&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a>' in desc
+
+
+def test_attraction_with_video_renders_a_red_watch_link():
+    r = rec(category="attractions", name="Ha Long Bay Cruise")
+    r.video = "https://www.youtube.com/watch?v=abc123"
+    desc = _description(r, place())
+    assert (
+        '<a href="https://www.youtube.com/watch?v=abc123" '
+        'style="color:#cc0000;font-weight:700">Watch on YouTube</a>' in desc
+    )
+
+
+def test_attraction_without_video_renders_a_red_search_link():
+    r = rec(category="attractions", name="Ha Long Bay Cruise")
+    desc = _description(r, place())
+    assert 'style="color:#cc0000;font-weight:700">Search YouTube</a>' in desc
+    assert "https://www.youtube.com/results?search_query=" in desc
+    # url-encoded query contains the record name and the place name
+    assert "Ha+Long+Bay+Cruise" in desc
+    assert "Hanoi" in desc
+
+
+def test_must_see_record_gets_the_same_video_treatment():
+    r = rec(category="must_see", name="Hoan Kiem Lake")
+    desc = _description(r, place())
+    assert 'style="color:#cc0000;font-weight:700">Search YouTube</a>' in desc
+
+    r.video = "https://youtu.be/xyz789"
+    desc = _description(r, place())
+    assert (
+        '<a href="https://youtu.be/xyz789" '
+        'style="color:#cc0000;font-weight:700">Watch on YouTube</a>' in desc
+    )
+
+
+def test_hotel_record_gets_no_video_link_of_either_kind():
+    desc = _description(rec("hotels", "Peridot"), place())
+    assert "Watch on YouTube" not in desc
+    assert "Search YouTube" not in desc
+    assert "#cc0000" not in desc
+
+
+def test_food_record_gets_no_video_link():
+    desc = _description(rec("food", "Bun Cha"), place())
+    assert "Watch on YouTube" not in desc
+    assert "Search YouTube" not in desc
