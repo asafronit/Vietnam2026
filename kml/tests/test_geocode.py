@@ -120,7 +120,9 @@ def test_it_sends_an_identifying_user_agent(tmp_path):
     assert "vietnam2026" in captured["User-Agent"].lower()
 
 
-HOIAN_DANANG = Place("hoian-danang", "Hoi An and Da Nang", "central", 15.8801, 108.3380, 40)
+HOIAN_DANANG = Place("hoi-an", "Hoi An and Da Nang", "central", 15.8801, 108.3380, 40)
+MEKONG = Place("mekong", "Mekong and Can Tho", "south", 10.0452, 105.7469, 60)
+NO_TABLE_ENTRY = Place("somewhere-else", "Foo and Bar", "south", 10.0, 106.0, 40)
 
 
 def test_fallback_name_city_vietnam_recovers_an_over_specified_miss(tmp_path):
@@ -189,12 +191,35 @@ def test_cached_rung_does_not_sleep(tmp_path):
     assert session.calls == ["Peridot Grand Hotel, Hanoi, Vietnam"]
 
 
-def test_compound_place_name_is_truncated_to_its_first_component(tmp_path):
+def test_compound_place_name_uses_the_mapped_city_for_hoi_an(tmp_path):
     r = rec(name="Some place", query="Some place, Hoi An and Da Nang, Vietnam")
     session = FakeSession([[], hit(15.88, 108.33)])
     geo = Geocoder(str(tmp_path / "c.json"), session=session, sleep=lambda s: None)
     geo.resolve(r, HOIAN_DANANG)
     assert session.calls[1] == "Some place, Hoi An, Vietnam"
+
+
+def test_mekong_place_uses_can_tho_not_the_river_name(tmp_path):
+    """"Mekong" is a river spanning six countries, not a searchable
+    settlement; the explicit table maps place id "mekong" to "Can Tho",
+    the real diagnosed-working rung, not the first component of the
+    compound place name."""
+    r = rec(name="My Tho Coconut Candy Villages",
+            query="My Tho Coconut Candy Villages original query, Mekong Delta, Vietnam")
+    session = FakeSession([[], hit(10.05, 105.80)])  # ~6 km from the Mekong anchor
+    geo = Geocoder(str(tmp_path / "c.json"), session=session, sleep=lambda s: None)
+    result = geo.resolve(r, MEKONG)
+    assert result.accepted is True
+    assert session.calls[1] == "My Tho Coconut Candy Villages, Can Tho, Vietnam"
+
+
+def test_place_absent_from_the_table_uses_its_name_unchanged(tmp_path):
+    r = rec(name="Some place", query="Some place original query, Foo and Bar, Vietnam")
+    session = FakeSession([[], hit(10.01, 106.01)])
+    geo = Geocoder(str(tmp_path / "c.json"), session=session, sleep=lambda s: None)
+    result = geo.resolve(r, NO_TABLE_ENTRY)
+    assert result.accepted is True
+    assert session.calls[1] == "Some place, Foo and Bar, Vietnam"
 
 
 def test_review_queue_lists_every_rejection(tmp_path):

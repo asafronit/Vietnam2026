@@ -25,7 +25,6 @@ MIN_INTERVAL_SECONDS = 1.0
 # rungs progressively coarsen the query. See Task 7b diagnosis.
 _PARENTHETICAL_RE = re.compile(r"\s*\([^)]*\)")
 _BASE_SEPARATORS = (" and ", " - ", " – ")  # hyphen and en dash
-_CITY_SEPARATORS = (" and ",)
 
 
 def _truncate_at_first(text: str, separators: tuple[str, ...]) -> str:
@@ -45,10 +44,27 @@ def _base_name(name: str) -> str:
     return _truncate_at_first(stripped, _BASE_SEPARATORS)
 
 
-def _city_name(place_name: str) -> str:
-    """Compound place names ("Hoi An and Da Nang") truncated to their first
-    component for use in a fallback query."""
-    return _truncate_at_first(place_name, _CITY_SEPARATORS)
+# Three of the pool's 14 places have compound names ("Hoi An and Da Nang").
+# A generic "truncate at the first ' and '" rule is wrong a third of the
+# time it fires: "Mekong and Can Tho" truncates to "Mekong", but Mekong is
+# a river spanning six countries, not a searchable settlement, so it is
+# meaningless as a city qualifier in a Nominatim query. "Can Tho" is the
+# rung that a hand-run diagnostic sample actually recovered a record with
+# ("My Tho, Can Tho, Vietnam"). With only three exceptions out of 14, an
+# explicit table keyed on the stable place.id is clearer and more honest
+# than a rule that silently mis-fires. Do not "simplify" the mekong entry
+# back to a first-component split -- that reintroduces the bug.
+GEOCODE_CITY = {
+    "ha-long": "Ha Long",   # "Ha Long and Cat Ba"
+    "hoi-an": "Hoi An",     # "Hoi An and Da Nang"
+    "mekong": "Can Tho",    # "Mekong and Can Tho" -- Mekong is a river, not a city
+}
+
+
+def _city_name(place: Place) -> str:
+    """The place's fallback-query city: the explicit override for the three
+    compound-name places, otherwise the place's name unchanged."""
+    return GEOCODE_CITY.get(place.id, place.name)
 
 
 @dataclass
@@ -101,7 +117,7 @@ class Geocoder:
         the only rung that counts as "exact"; rungs 2-4 are progressively
         coarser fallbacks and are marked "approximate" when they succeed.
         """
-        city = _city_name(place.name)
+        city = _city_name(place)
         base = _base_name(rec.name)
         rungs = [
             (rec.geocode_query, "exact"),
