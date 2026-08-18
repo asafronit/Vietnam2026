@@ -1,4 +1,8 @@
-from kmlpool.cli import load_records
+import kmlpool.cli as cli_module
+import yaml
+
+from kmlpool.cli import _persist, load_records
+from kmlpool.schema import Record
 
 
 FIXTURE = """
@@ -129,3 +133,87 @@ must_see:
     assert len(records) == 1
     assert records[0].lat == 21.03
     assert records[0].lng == 105.85
+
+
+def test_location_precision_written_by_geocode_is_read_back(tmp_path):
+    """The fallback ladder (Task 7b) marks fallback hits `approximate` so
+    the map can render a visible caveat. load_records must round-trip it
+    the same way it round-trips coords."""
+    fixture = tmp_path / "precision.yaml"
+    fixture.write_text(
+        """
+must_see:
+  - name: My Tho Coconut Candy Villages
+    area: Mekong Delta
+    what: A cluster of candy workshops near My Tho.
+    why: Confirms location_precision survives a reload intact.
+    confidence: high
+    geocode_query: My Tho Coconut Candy Villages, Vietnam
+    coords:
+      lat: 10.35
+      lng: 106.36
+    location_precision: approximate
+""",
+        encoding="utf-8",
+    )
+    records = load_records(str(fixture))
+    assert len(records) == 1
+    assert records[0].location_precision == "approximate"
+    assert records[0].lat == 10.35
+
+
+def test_persist_writes_location_precision_for_approximate_hits(tmp_path, monkeypatch):
+    monkeypatch.setattr(cli_module, "DATA_DIR", str(tmp_path))
+    path = tmp_path / "hanoi.yaml"
+    path.write_text(
+        "must_see:\n"
+        "- name: Test Place\n"
+        "  area: Old Quarter\n"
+        "  what: w\n"
+        "  why: w2\n"
+        "  confidence: high\n"
+        "  geocode_query: Test Place, Hanoi, Vietnam\n",
+        encoding="utf-8",
+    )
+    rec = Record(name="Test Place", category="must_see", area="Old Quarter",
+                 what="w", why="w2", confidence="high",
+                 geocode_query="Test Place, Hanoi, Vietnam")
+    rec.lat, rec.lng = 21.03, 105.84
+    rec.location_precision = "approximate"
+
+    _persist("hanoi", [rec])
+
+    saved = yaml.safe_load(path.read_text(encoding="utf-8"))
+    entry = saved["must_see"][0]
+    assert entry["coords"] == {"lat": 21.03, "lng": 105.84}
+    assert entry["location_precision"] == "approximate"
+
+
+def test_persist_omits_location_precision_for_exact_hits(tmp_path, monkeypatch):
+    """Exact hits keep the YAML quiet: no location_precision key at all,
+    and a stale one from an earlier fallback run is cleared on rewrite."""
+    monkeypatch.setattr(cli_module, "DATA_DIR", str(tmp_path))
+    path = tmp_path / "hanoi.yaml"
+    path.write_text(
+        "must_see:\n"
+        "- name: Test Place\n"
+        "  area: Old Quarter\n"
+        "  what: w\n"
+        "  why: w2\n"
+        "  confidence: high\n"
+        "  geocode_query: Test Place, Hanoi, Vietnam\n"
+        "  location_precision: approximate\n",
+        encoding="utf-8",
+    )
+    rec = Record(name="Test Place", category="must_see", area="Old Quarter",
+                 what="w", why="w2", confidence="high",
+                 geocode_query="Test Place, Hanoi, Vietnam")
+    rec.lat, rec.lng = 21.03, 105.84
+    rec.location_precision = None
+
+    _persist("hanoi", [rec])
+
+    saved = yaml.safe_load(path.read_text(encoding="utf-8"))
+    entry = saved["must_see"][0]
+    assert entry["coords"] == {"lat": 21.03, "lng": 105.84}
+    assert "location_precision" not in entry

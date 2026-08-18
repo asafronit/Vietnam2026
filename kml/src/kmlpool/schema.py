@@ -32,6 +32,9 @@ class Record:
     # filled by the geocode stage
     lat: float | None = None
     lng: float | None = None
+    # "approximate" when lat/lng came from a fallback rung rather than the
+    # exact geocode_query; None (omitted from YAML) for an exact hit.
+    location_precision: str | None = None
 
 
 # Trailing punctuation stripped before the what/why sameness check, so a

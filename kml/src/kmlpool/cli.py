@@ -55,6 +55,9 @@ def cmd_geocode() -> int:
             result = geo.resolve(rec, place)
             if result.accepted:
                 rec.lat, rec.lng = result.lat, result.lng
+                rec.location_precision = (
+                    "approximate" if result.precision == "approximate" else None
+                )
             else:
                 rejected.append((place.id, rec, result))
         _persist(place.id, records[place.id])
@@ -77,6 +80,10 @@ def _persist(place_id: str, records: list[Record]) -> None:
             rec = by_name.get((category, entry["name"]))
             if rec and rec.lat is not None:
                 entry["coords"] = {"lat": rec.lat, "lng": rec.lng}
+                if rec.location_precision == "approximate":
+                    entry["location_precision"] = "approximate"
+                else:
+                    entry.pop("location_precision", None)
     with open(path, "w", encoding="utf-8") as fh:
         yaml.safe_dump(raw, fh, allow_unicode=True, sort_keys=False)
 

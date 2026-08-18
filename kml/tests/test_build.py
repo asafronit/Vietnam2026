@@ -137,6 +137,18 @@ def test_avoided_hotels_are_flagged_and_use_the_warning_style():
     assert b"AVOID" in xml
 
 
+def test_approximate_location_gets_a_visible_note():
+    r = rec()
+    r.location_precision = "approximate"
+    xml = build_pool_kml([place()], {"hanoi": [r]})
+    assert b"Approximate location" in xml
+
+
+def test_exact_location_has_no_approximate_note():
+    xml = build_pool_kml([place()], {"hanoi": [rec()]})
+    assert b"Approximate location" not in xml
+
+
 def test_no_hebrew_reaches_the_output():
     xml = build_pool_kml([place()], {"hanoi": [rec()]})
     assert not any(0x0590 <= ord(c) <= 0x05FF for c in xml.decode("utf-8"))

@@ -71,6 +71,9 @@ def _styles(places: list[Place]) -> list:
 def _description(rec: Record, place: Place) -> str:
     lines = [f"<b>{place.name}</b> &middot; {rec.area}"]
 
+    if rec.location_precision == "approximate":
+        lines.append("<i>Approximate location — search the name in Maps</i>")
+
     if rec.avoid:
         lines.append("<b>AVOID</b>")
 
