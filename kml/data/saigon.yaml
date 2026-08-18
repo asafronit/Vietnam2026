@@ -1,0 +1,254 @@
+hotels:
+- name: La Siesta Premium Saigon
+  tier: 5
+  tier_official: true
+  price_low: 145
+  price_high: 251
+  price_checked: '2026-08-16'
+  area: District 1, near Ben Thanh Market
+  what: A 5-star boutique tower a two-minute walk from Ben Thanh Market, with a
+    rooftop pool and bar looking over the District 1 skyline.
+  why: Best rated boutique 5-star in the four agent proposals, and closest to Ben Thanh
+  confidence: high
+  geocode_query: La Siesta Premium Saigon, Ho Chi Minh City, Vietnam
+  sources:
+  - https://www.booking.com/hotel/vn/la-siesta-premium-sai-gon.html
+  - https://www.tripadvisor.com/Hotel_Review-g293925-d25442757-Reviews-La_Siesta_Premium_Saigon-Ho_Chi_Minh_City.html
+- name: Hotel Des Arts Saigon - MGallery
+  tier: 5
+  tier_official: true
+  price_low: 134
+  price_high: 396
+  price_checked: '2026-08-16'
+  area: District 1, near Notre-Dame Cathedral
+  what: A 5-star Art Deco-era building restored as an Accor MGallery hotel, with
+    168 rooms, a rooftop infinity pool and a French colonial facade a short walk
+    from Notre-Dame Cathedral.
+  why: Accor-chain 5-star with an officially assigned rating, mentioned as an
+    alternative in the project's own vetted hotel research
+  confidence: high
+  geocode_query: Hotel Des Arts Saigon MGallery, Ho Chi Minh City, Vietnam
+  sources:
+  - https://www.hoteldesartssaigon.com/
+  - https://www.tripadvisor.com/Hotel_Review-g293925-d8142973-Reviews-Hotel_Des_Arts_Saigon_Mgallery-Ho_Chi_Minh_City.html
+- name: Liberty Central Saigon Riverside
+  tier: 4
+  tier_official: true
+  price_low: 54
+  price_high: 93
+  price_checked: '2026-08-16'
+  area: District 1, riverside near Ben Nghe Canal
+  what: A modern 4-star tower a few blocks from the Saigon River, part of the
+    established Liberty Central mid-scale chain, with a rooftop pool and gym.
+  why: Reliable mid-scale chain rating at roughly half the price of the 5-star
+    picks, with consistent 4-star classification across booking platforms
+  confidence: high
+  geocode_query: Liberty Central Saigon Riverside Hotel, Ho Chi Minh City, Vietnam
+  sources:
+  - https://www.tripadvisor.com/Hotel_Review-g293925-d4474103-Reviews-Liberty_Central_Saigon_Riverside_Hotel-Ho_Chi_Minh_City.html
+  - https://www.agoda.com/en-ca/liberty-central-saigon-riverside-hotel/hotel/ho-chi-minh-city-vn.html
+- name: Sky Gem Hotel - Ben Thanh
+  tier: 4
+  tier_official: false
+  price_low: 31
+  price_high: 45
+  price_checked: '2026-08-16'
+  area: District 1, near Ben Thanh Market
+  what: A small independent tower hotel a few minutes' walk from Ben Thanh Market,
+    self-classified as 4-star, with smoke-free rooms and a rooftop terrace.
+  why: Cited by an independent agent proposal as its 4-star pick, and the cheapest
+    hotel in the pool with a genuine 4-star self-rating
+  confidence: medium
+  geocode_query: Sky Gem Hotel Ben Thanh, Ho Chi Minh City, Vietnam
+  sources:
+  - https://www.tripadvisor.com/Hotel_Review-g293925-d27532051-Reviews-Sky_Gem_Hotel_Ben_Thanh-Ho_Chi_Minh_City.html
+  - https://www.trip.com/hotels/ho-chi-minh-city-hotel-detail-2192606/sky-gem-hotel-ben-thanh/
+- name: Silverland Central Hotel
+  tier: 3
+  tier_official: true
+  price_low: 177
+  price_high: 188
+  price_checked: '2026-08-16'
+  area: District 1, near Ben Thanh Market
+  what: A 101-room officially-rated 3-star boutique hotel a short walk from Ben
+    Thanh Market, part of the long-running Silverland hotel group, with a rooftop
+    bar called OMG.
+  why: Officially classified 3-star (not self-declared) with a decade of top-ten
+    3-star rankings in the city
+  confidence: high
+  geocode_query: Silverland Central Hotel, Ho Chi Minh City, Vietnam
+  sources:
+  - https://www.tripadvisor.com/Hotel_Review-g293925-d1178145-Reviews-Silverland_Central_Hotel-Ho_Chi_Minh_City.html
+  - https://silverlandhotels.com/
+- name: Bong Sen Hotel Saigon
+  tier: 3
+  tier_official: true
+  price_low: 48
+  price_high: 94
+  price_checked: '2026-08-16'
+  area: District 1, Dong Khoi Street
+  what: A 120-room 3-star hotel on Dong Khoi, the city's main shopping street,
+    with three restaurants and a small fitness center.
+  why: Officially rated 3-star on the same street as the 5-star picks, at a
+    fraction of the price
+  confidence: high
+  geocode_query: Bong Sen Hotel Saigon, Dong Khoi, Ho Chi Minh City, Vietnam
+  sources:
+  - https://www.tripadvisor.com/Hotel_Review-g293925-d1748426-Reviews-Bong_Sen_Hotel_Saigon-Ho_Chi_Minh_City.html
+  - https://www.booking.com/hotel/vn/bong-sen-saigon.html
+must_see:
+- name: Reunification Palace
+  area: District 1
+  what: A 1960s modernist government building where a North Vietnamese tank
+    crashed through the gates on 30 April 1975. The war rooms, radio room and
+    presidential quarters are preserved as they were that day.
+  why: The single physical location where the Vietnam War's ending is preserved
+    in place, not just described
+  confidence: high
+  geocode_query: Reunification Palace, Ho Chi Minh City, Vietnam
+  sources:
+  - https://www.getyourguide.com/explorer/ho-chi-minh-ttd272/landmarks-in-ho-chi-minh-city/
+- name: Notre-Dame Cathedral Basilica of Saigon
+  area: District 1
+  what: A twin-towered red-brick cathedral built by French colonists in the
+    1880s from bricks imported from Marseille. It has been under scaffolded
+    restoration since the late 2010s, with completion pushed to 2027, but the
+    front square remains open and Mass is still held.
+  why: The city's best-known colonial landmark, worth seeing even mid-restoration
+    for the square and the surrounding post office
+  confidence: high
+  geocode_query: Notre-Dame Cathedral Basilica of Saigon, Ho Chi Minh City, Vietnam
+  sources:
+  - https://saigoneer.com/saigon-news/25698-saigon-extends-notre-dame-cathedral-renovation-by-4-years-to-2027
+attractions:
+- name: Cu Chi Tunnels
+  area: Cu Chi District, about 1.5 hours from central Saigon
+  what: A preserved section of the more than 120 km of hand-dug underground
+    tunnel network used by Viet Cong fighters, with widened crawl-through
+    sections, hidden trapdoor entrances and reconstructed underground rooms.
+  why: The signature half-day trip from Saigon, and one of the few places in
+    Vietnam you physically enter the war rather than just read about it
+  confidence: high
+  geocode_query: Cu Chi Tunnels, Ho Chi Minh City, Vietnam
+  sources:
+  - https://www.holidify.com/places/ho-chi-minh-city/sightseeing-and-things-to-do.html
+- name: War Remnants Museum
+  area: District 3
+  what: A three-storey museum housing over 20,000 artifacts, photographs and
+    military hardware across nine permanent exhibitions on the Vietnam War and
+    its aftermath, including an outdoor yard of captured US tanks and aircraft.
+  why: The most direct, unfiltered account of the war from the Vietnamese side,
+    consistently rated the city's top museum
+  confidence: high
+  geocode_query: War Remnants Museum, Ho Chi Minh City, Vietnam
+  sources:
+  - https://ahoyvietnam.com/war-remnants-museum/
+food:
+- name: Anan Saigon
+  kind: vietnamese
+  signal: michelin_star
+  dish: Modern Vietnamese street food
+  area: District 1, Cho Cu (Old Market)
+  what: A restaurant built inside a former wet-market stall on Ton That Dam
+    Street, where chef Peter Cuong Franklin runs street-food recipes through
+    French fine-dining technique.
+  why: One Michelin Star, held since 2023, and the clearest example of
+    Saigon's fine-dining scene built on its own street food
+  confidence: high
+  geocode_query: Anan Saigon, Ton That Dam, Ho Chi Minh City, Vietnam
+  sources:
+  - https://guide.michelin.com/en/ho-chi-minh/ho-chi-minh_2978179/restaurant/anan-saigon
+  - https://anansaigon.com/
+- name: Banh Canh Cua Ba Ba
+  kind: vietnamese
+  signal: michelin_bib
+  dish: Banh canh cua (crab rice-noodle soup)
+  area: Cho Quan Ward, District 5
+  what: A tiny shop down an alley serving a single dish, a vivid orange crab
+    and rice-noodle soup, from indoor and outdoor plastic-stool seating.
+  why: Michelin Bib Gourmand, and the kind of one-dish alley shop Saigon
+    street food is built on
+  confidence: high
+  geocode_query: Banh Canh Cua Ba Ba, Nguyen Bieu, Ho Chi Minh City, Vietnam
+  sources:
+  - https://guide.michelin.com/at/en/ho-chi-minh/ho-chi-minh_2978179/restaurant/banh-canh-cua-ba-ba
+- name: Bun Rieu Yen
+  kind: vietnamese
+  signal: michelin_bib
+  dish: Bun rieu (tomato and crab noodle soup)
+  area: Tan Son Hoa Ward
+  what: A family-run corner eatery, indoor and outdoor seating, serving the
+    only Bib Gourmand-listed version of bun rieu in the city.
+  why: Michelin Bib Gourmand, the sole representative of this dish on the
+    guide's Saigon list
+  confidence: high
+  geocode_query: Bun Rieu Yen, Truong Sa, Ho Chi Minh City, Vietnam
+  sources:
+  - https://guide.michelin.com/sg/en/ho-chi-minh/ho-chi-minh_2978179/restaurant/bun-rieu-yen
+- name: Banh Mi Huynh Hoa
+  kind: vietnamese
+  signal: traveler_recommended
+  dish: Banh mi
+  area: District 1
+  what: A takeaway counter open since 1989 with a permanent line out front,
+    packing a baguette with five cold cuts, pate, butter and pickles.
+  why: Widely cited as the single most-loaded, most-recommended banh mi in the
+    city, voted Travelers' Top Pick at the 2024 Flavors Awards
+  confidence: high
+  geocode_query: Banh Mi Huynh Hoa, Ly Tu Trong, Ho Chi Minh City, Vietnam
+  sources:
+  - https://vietcetera.com/en/banh-mi-huynh-hoa-how-100k-and-35-years-built-a-saigon-icon
+  - https://www.tripadvisor.com/Restaurant_Review-g293925-d5484355-Reviews-Banh_Mi_Huynh_Hoa-Ho_Chi_Minh_City.html
+- name: La Villa French Restaurant by Thierry Mounon
+  kind: international
+  signal: michelin_selected
+  dish: Classic French cuisine
+  area: Thao Dien, Thu Duc City
+  what: An 11-table colonial-villa dining room run by French chef Thierry
+    Mounon and his wife, serving haute cuisine from southwestern France with
+    starched linen, a cheese trolley and a full wine cellar.
+  why: Michelin Selected, and Saigon's clearest example of its serious
+    international fine-dining scene beyond Vietnamese food
+  confidence: high
+  geocode_query: La Villa French Restaurant, Thao Dien, Ho Chi Minh City, Vietnam
+  sources:
+  - https://lavilla-restaurant.com.vn/
+  - https://thedotmagazine.com/the-best-french-restaurants-in-ho-chi-minh-city/
+markets:
+- name: Ben Thanh Market
+  area: District 1
+  what: A covered market of nearly 1,450 stalls under a French-built 1914
+    clock-tower facade, selling everything from produce and dried goods to
+    clothing, souvenirs and a food court, spilling into a street-food night
+    market outside after dark.
+  why: The city's oldest and largest market, and the default orientation point
+    for District 1
+  confidence: high
+  geocode_query: Ben Thanh Market, Ho Chi Minh City, Vietnam
+  sources:
+  - https://oxalisadventure.com/ben-thanh-market-ho-chi-minh-city/
+  - https://vinwonders.com/en/wonderpedia/news/ben-thanh-market-a-prominent-landmark-of-the-bustling-ho-chi-minh-city/
+logistics:
+- name: Grab from Tan Son Nhat Airport
+  area: Tan Son Nhat International Airport (SGN)
+  what: Ride-hailing pickup for Grab cars is outside the arrivals hall, past
+    the metered-taxi rank; a ride to District 1 takes 25-50 minutes depending
+    on traffic and costs roughly 110,000-250,000 VND.
+  why: Cheaper and more predictable than the taxi rank, with a fixed upfront
+    fare shown before booking
+  confidence: high
+  geocode_query: Tan Son Nhat International Airport, Ho Chi Minh City, Vietnam
+  sources:
+  - https://blog.gettransfer.com/from-ho-chi-minh-city-airport-to-the-city-center-taxi-grab-more/
+  - https://www.grab.com/global/airport-rides/tan-son-nhat-international-airport/
+- name: No airport metro link yet
+  area: Tan Son Nhat International Airport (SGN)
+  what: Saigon's first metro line (Line 1, Ben Thanh-Suoi Tien) opened in
+    December 2024, but no metro or rail line reaches the airport; a dedicated
+    airport link is not expected until around 2030.
+  why: Rules out the metro as an airport option, which travelers researching
+    the new 2024 line sometimes assume is already connected
+  confidence: medium
+  geocode_query: Tan Son Nhat International Airport, Ho Chi Minh City, Vietnam
+  sources:
+  - https://aifly.one/2026/03/ho-chi-minh-city-tan-son-nhat-airport-guide/

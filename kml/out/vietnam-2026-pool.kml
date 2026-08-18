@@ -1,0 +1,1403 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Vietnam 2026 - Pool</name>
+    <Style id="s-hanoi-hotels">
+      <IconStyle>
+        <color>ff4b19e6</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hanoi-must_see">
+      <IconStyle>
+        <color>ff4b19e6</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hanoi-attractions">
+      <IconStyle>
+        <color>ff4b19e6</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hanoi-food">
+      <IconStyle>
+        <color>ff4b19e6</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hanoi-markets">
+      <IconStyle>
+        <color>ff4b19e6</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hanoi-logistics">
+      <IconStyle>
+        <color>ff4b19e6</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hanoi-hotels-t5">
+      <IconStyle>
+        <color>ff4b19e6</color>
+        <scale>1.4</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hanoi-hotels-t4">
+      <IconStyle>
+        <color>ff4b19e6</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hanoi-hotels-t3">
+      <IconStyle>
+        <color>ff4b19e6</color>
+        <scale>0.9</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hanoi-hotels-avoid">
+      <IconStyle>
+        <color>ff3d26d7</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-giang-hotels">
+      <IconStyle>
+        <color>ff3182f5</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-giang-must_see">
+      <IconStyle>
+        <color>ff3182f5</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-giang-attractions">
+      <IconStyle>
+        <color>ff3182f5</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-giang-food">
+      <IconStyle>
+        <color>ff3182f5</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-giang-markets">
+      <IconStyle>
+        <color>ff3182f5</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-giang-logistics">
+      <IconStyle>
+        <color>ff3182f5</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-giang-hotels-t5">
+      <IconStyle>
+        <color>ff3182f5</color>
+        <scale>1.4</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-giang-hotels-t4">
+      <IconStyle>
+        <color>ff3182f5</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-giang-hotels-t3">
+      <IconStyle>
+        <color>ff3182f5</color>
+        <scale>0.9</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-giang-hotels-avoid">
+      <IconStyle>
+        <color>ff3d26d7</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-sapa-hotels">
+      <IconStyle>
+        <color>ff19e1ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-sapa-must_see">
+      <IconStyle>
+        <color>ff19e1ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-sapa-attractions">
+      <IconStyle>
+        <color>ff19e1ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-sapa-food">
+      <IconStyle>
+        <color>ff19e1ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-sapa-markets">
+      <IconStyle>
+        <color>ff19e1ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-sapa-logistics">
+      <IconStyle>
+        <color>ff19e1ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-sapa-hotels-t5">
+      <IconStyle>
+        <color>ff19e1ff</color>
+        <scale>1.4</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-sapa-hotels-t4">
+      <IconStyle>
+        <color>ff19e1ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-sapa-hotels-t3">
+      <IconStyle>
+        <color>ff19e1ff</color>
+        <scale>0.9</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-sapa-hotels-avoid">
+      <IconStyle>
+        <color>ff3d26d7</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-long-hotels">
+      <IconStyle>
+        <color>ff4bb43c</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-long-must_see">
+      <IconStyle>
+        <color>ff4bb43c</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-long-attractions">
+      <IconStyle>
+        <color>ff4bb43c</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-long-food">
+      <IconStyle>
+        <color>ff4bb43c</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-long-markets">
+      <IconStyle>
+        <color>ff4bb43c</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-long-logistics">
+      <IconStyle>
+        <color>ff4bb43c</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-long-hotels-t5">
+      <IconStyle>
+        <color>ff4bb43c</color>
+        <scale>1.4</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-long-hotels-t4">
+      <IconStyle>
+        <color>ff4bb43c</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-long-hotels-t3">
+      <IconStyle>
+        <color>ff4bb43c</color>
+        <scale>0.9</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-long-hotels-avoid">
+      <IconStyle>
+        <color>ff3d26d7</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ninh-binh-hotels">
+      <IconStyle>
+        <color>fff4d442</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ninh-binh-must_see">
+      <IconStyle>
+        <color>fff4d442</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ninh-binh-attractions">
+      <IconStyle>
+        <color>fff4d442</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ninh-binh-food">
+      <IconStyle>
+        <color>fff4d442</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ninh-binh-markets">
+      <IconStyle>
+        <color>fff4d442</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ninh-binh-logistics">
+      <IconStyle>
+        <color>fff4d442</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ninh-binh-hotels-t5">
+      <IconStyle>
+        <color>fff4d442</color>
+        <scale>1.4</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ninh-binh-hotels-t4">
+      <IconStyle>
+        <color>fff4d442</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ninh-binh-hotels-t3">
+      <IconStyle>
+        <color>fff4d442</color>
+        <scale>0.9</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ninh-binh-hotels-avoid">
+      <IconStyle>
+        <color>ff3d26d7</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-phong-nha-hotels">
+      <IconStyle>
+        <color>ffd86343</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-phong-nha-must_see">
+      <IconStyle>
+        <color>ffd86343</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-phong-nha-attractions">
+      <IconStyle>
+        <color>ffd86343</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-phong-nha-food">
+      <IconStyle>
+        <color>ffd86343</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-phong-nha-markets">
+      <IconStyle>
+        <color>ffd86343</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-phong-nha-logistics">
+      <IconStyle>
+        <color>ffd86343</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-phong-nha-hotels-t5">
+      <IconStyle>
+        <color>ffd86343</color>
+        <scale>1.4</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-phong-nha-hotels-t4">
+      <IconStyle>
+        <color>ffd86343</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-phong-nha-hotels-t3">
+      <IconStyle>
+        <color>ffd86343</color>
+        <scale>0.9</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-phong-nha-hotels-avoid">
+      <IconStyle>
+        <color>ff3d26d7</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hue-hotels">
+      <IconStyle>
+        <color>ffb41e91</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hue-must_see">
+      <IconStyle>
+        <color>ffb41e91</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hue-attractions">
+      <IconStyle>
+        <color>ffb41e91</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hue-food">
+      <IconStyle>
+        <color>ffb41e91</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hue-markets">
+      <IconStyle>
+        <color>ffb41e91</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hue-logistics">
+      <IconStyle>
+        <color>ffb41e91</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hue-hotels-t5">
+      <IconStyle>
+        <color>ffb41e91</color>
+        <scale>1.4</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hue-hotels-t4">
+      <IconStyle>
+        <color>ffb41e91</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hue-hotels-t3">
+      <IconStyle>
+        <color>ffb41e91</color>
+        <scale>0.9</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hue-hotels-avoid">
+      <IconStyle>
+        <color>ff3d26d7</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hoi-an-hotels">
+      <IconStyle>
+        <color>ffe632f0</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hoi-an-must_see">
+      <IconStyle>
+        <color>ffe632f0</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hoi-an-attractions">
+      <IconStyle>
+        <color>ffe632f0</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hoi-an-food">
+      <IconStyle>
+        <color>ffe632f0</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hoi-an-markets">
+      <IconStyle>
+        <color>ffe632f0</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hoi-an-logistics">
+      <IconStyle>
+        <color>ffe632f0</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hoi-an-hotels-t5">
+      <IconStyle>
+        <color>ffe632f0</color>
+        <scale>1.4</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hoi-an-hotels-t4">
+      <IconStyle>
+        <color>ffe632f0</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hoi-an-hotels-t3">
+      <IconStyle>
+        <color>ffe632f0</color>
+        <scale>0.9</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hoi-an-hotels-avoid">
+      <IconStyle>
+        <color>ff3d26d7</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-buon-ma-thuot-hotels">
+      <IconStyle>
+        <color>ff24639a</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-buon-ma-thuot-must_see">
+      <IconStyle>
+        <color>ff24639a</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-buon-ma-thuot-attractions">
+      <IconStyle>
+        <color>ff24639a</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-buon-ma-thuot-food">
+      <IconStyle>
+        <color>ff24639a</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-buon-ma-thuot-markets">
+      <IconStyle>
+        <color>ff24639a</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-buon-ma-thuot-logistics">
+      <IconStyle>
+        <color>ff24639a</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-buon-ma-thuot-hotels-t5">
+      <IconStyle>
+        <color>ff24639a</color>
+        <scale>1.4</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-buon-ma-thuot-hotels-t4">
+      <IconStyle>
+        <color>ff24639a</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-buon-ma-thuot-hotels-t3">
+      <IconStyle>
+        <color>ff24639a</color>
+        <scale>0.9</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-buon-ma-thuot-hotels-avoid">
+      <IconStyle>
+        <color>ff3d26d7</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-lak-lake-hotels">
+      <IconStyle>
+        <color>ff008080</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-lak-lake-must_see">
+      <IconStyle>
+        <color>ff008080</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-lak-lake-attractions">
+      <IconStyle>
+        <color>ff008080</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-lak-lake-food">
+      <IconStyle>
+        <color>ff008080</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-lak-lake-markets">
+      <IconStyle>
+        <color>ff008080</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-lak-lake-logistics">
+      <IconStyle>
+        <color>ff008080</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-lak-lake-hotels-t5">
+      <IconStyle>
+        <color>ff008080</color>
+        <scale>1.4</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-lak-lake-hotels-t4">
+      <IconStyle>
+        <color>ff008080</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-lak-lake-hotels-t3">
+      <IconStyle>
+        <color>ff008080</color>
+        <scale>0.9</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-lak-lake-hotels-avoid">
+      <IconStyle>
+        <color>ff3d26d7</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-da-lat-hotels">
+      <IconStyle>
+        <color>ff909946</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-da-lat-must_see">
+      <IconStyle>
+        <color>ff909946</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-da-lat-attractions">
+      <IconStyle>
+        <color>ff909946</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-da-lat-food">
+      <IconStyle>
+        <color>ff909946</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-da-lat-markets">
+      <IconStyle>
+        <color>ff909946</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-da-lat-logistics">
+      <IconStyle>
+        <color>ff909946</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-da-lat-hotels-t5">
+      <IconStyle>
+        <color>ff909946</color>
+        <scale>1.4</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-da-lat-hotels-t4">
+      <IconStyle>
+        <color>ff909946</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-da-lat-hotels-t3">
+      <IconStyle>
+        <color>ff909946</color>
+        <scale>0.9</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-da-lat-hotels-avoid">
+      <IconStyle>
+        <color>ff3d26d7</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-saigon-hotels">
+      <IconStyle>
+        <color>ff750000</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-saigon-must_see">
+      <IconStyle>
+        <color>ff750000</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-saigon-attractions">
+      <IconStyle>
+        <color>ff750000</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-saigon-food">
+      <IconStyle>
+        <color>ff750000</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-saigon-markets">
+      <IconStyle>
+        <color>ff750000</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-saigon-logistics">
+      <IconStyle>
+        <color>ff750000</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-saigon-hotels-t5">
+      <IconStyle>
+        <color>ff750000</color>
+        <scale>1.4</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-saigon-hotels-t4">
+      <IconStyle>
+        <color>ff750000</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-saigon-hotels-t3">
+      <IconStyle>
+        <color>ff750000</color>
+        <scale>0.9</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-saigon-hotels-avoid">
+      <IconStyle>
+        <color>ff3d26d7</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-mekong-hotels">
+      <IconStyle>
+        <color>ff000080</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-mekong-must_see">
+      <IconStyle>
+        <color>ff000080</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-mekong-attractions">
+      <IconStyle>
+        <color>ff000080</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-mekong-food">
+      <IconStyle>
+        <color>ff000080</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-mekong-markets">
+      <IconStyle>
+        <color>ff000080</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-mekong-logistics">
+      <IconStyle>
+        <color>ff000080</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-mekong-hotels-t5">
+      <IconStyle>
+        <color>ff000080</color>
+        <scale>1.4</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-mekong-hotels-t4">
+      <IconStyle>
+        <color>ff000080</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-mekong-hotels-t3">
+      <IconStyle>
+        <color>ff000080</color>
+        <scale>0.9</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-mekong-hotels-avoid">
+      <IconStyle>
+        <color>ff3d26d7</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-phu-quoc-hotels">
+      <IconStyle>
+        <color>ffa9a9a9</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-phu-quoc-must_see">
+      <IconStyle>
+        <color>ffa9a9a9</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-phu-quoc-attractions">
+      <IconStyle>
+        <color>ffa9a9a9</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-phu-quoc-food">
+      <IconStyle>
+        <color>ffa9a9a9</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-phu-quoc-markets">
+      <IconStyle>
+        <color>ffa9a9a9</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-phu-quoc-logistics">
+      <IconStyle>
+        <color>ffa9a9a9</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-phu-quoc-hotels-t5">
+      <IconStyle>
+        <color>ffa9a9a9</color>
+        <scale>1.4</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-phu-quoc-hotels-t4">
+      <IconStyle>
+        <color>ffa9a9a9</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-phu-quoc-hotels-t3">
+      <IconStyle>
+        <color>ffa9a9a9</color>
+        <scale>0.9</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-phu-quoc-hotels-avoid">
+      <IconStyle>
+        <color>ff3d26d7</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="route">
+      <LineStyle>
+        <color>ff6f2742</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="place-anchor">
+      <IconStyle>
+        <color>ff6f2742</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>Places &amp; Route</name>
+      <Placemark>
+        <name>Hanoi</name>
+        <styleUrl>#place-anchor</styleUrl>
+        <description><![CDATA[<b>Hanoi</b><br/>North]]></description>
+        <Point>
+          <coordinates>105.8522,21.0285,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ha Giang</name>
+        <styleUrl>#place-anchor</styleUrl>
+        <description><![CDATA[<b>Ha Giang</b><br/>North]]></description>
+        <Point>
+          <coordinates>104.9839,22.8278,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sapa</name>
+        <styleUrl>#place-anchor</styleUrl>
+        <description><![CDATA[<b>Sapa</b><br/>North]]></description>
+        <Point>
+          <coordinates>103.844,22.3364,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ha Long and Cat Ba</name>
+        <styleUrl>#place-anchor</styleUrl>
+        <description><![CDATA[<b>Ha Long and Cat Ba</b><br/>North]]></description>
+        <Point>
+          <coordinates>107.1839,20.9099,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ninh Binh</name>
+        <styleUrl>#place-anchor</styleUrl>
+        <description><![CDATA[<b>Ninh Binh</b><br/>North]]></description>
+        <Point>
+          <coordinates>105.9745,20.2505,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Phong Nha</name>
+        <styleUrl>#place-anchor</styleUrl>
+        <description><![CDATA[<b>Phong Nha</b><br/>Central]]></description>
+        <Point>
+          <coordinates>106.2865,17.5934,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hue</name>
+        <styleUrl>#place-anchor</styleUrl>
+        <description><![CDATA[<b>Hue</b><br/>Central]]></description>
+        <Point>
+          <coordinates>107.5909,16.4637,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hoi An and Da Nang</name>
+        <styleUrl>#place-anchor</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b><br/>Central]]></description>
+        <Point>
+          <coordinates>108.338,15.8801,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Buon Ma Thuot</name>
+        <styleUrl>#place-anchor</styleUrl>
+        <description><![CDATA[<b>Buon Ma Thuot</b><br/>Highlands]]></description>
+        <Point>
+          <coordinates>108.0378,12.6797,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lak Lake</name>
+        <styleUrl>#place-anchor</styleUrl>
+        <description><![CDATA[<b>Lak Lake</b><br/>Highlands]]></description>
+        <Point>
+          <coordinates>108.1836,12.4076,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Da Lat</name>
+        <styleUrl>#place-anchor</styleUrl>
+        <description><![CDATA[<b>Da Lat</b><br/>Highlands]]></description>
+        <Point>
+          <coordinates>108.4583,11.9404,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ho Chi Minh City</name>
+        <styleUrl>#place-anchor</styleUrl>
+        <description><![CDATA[<b>Ho Chi Minh City</b><br/>South]]></description>
+        <Point>
+          <coordinates>106.7009,10.7769,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mekong and Can Tho</name>
+        <styleUrl>#place-anchor</styleUrl>
+        <description><![CDATA[<b>Mekong and Can Tho</b><br/>South]]></description>
+        <Point>
+          <coordinates>105.7469,10.0452,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Phu Quoc</name>
+        <styleUrl>#place-anchor</styleUrl>
+        <description><![CDATA[<b>Phu Quoc</b><br/>South]]></description>
+        <Point>
+          <coordinates>103.984,10.2899,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Route</name>
+        <styleUrl>#route</styleUrl>
+        <LineString>
+          <coordinates>105.8522,21.0285,0 104.9839,22.8278,0 103.844,22.3364,0 107.1839,20.9099,0 105.9745,20.2505,0 106.2865,17.5934,0 107.5909,16.4637,0 108.338,15.8801,0 108.0378,12.6797,0 108.1836,12.4076,0 108.4583,11.9404,0 106.7009,10.7769,0 105.7469,10.0452,0 103.984,10.2899,0</coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

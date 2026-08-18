@@ -1,0 +1,223 @@
+hotels:
+- name: Four Points by Sheraton Ha Giang
+  tier: 5
+  tier_official: true
+  price_low: 64
+  price_high: 120
+  price_checked: '2026-08-16'
+  area: Ha Giang City centre
+  what: A 151-room international-brand hotel opened as Ha Giang's first Marriott
+    property, with an indoor four-season pool, spa, gym and a rooftop bar overlooking
+    the city and surrounding mountains.
+  why: The only hotel in Ha Giang province officially awarded 5-star status by the
+    Vietnam National Authority of Tourism, and the natural start/end point for
+    the loop
+  confidence: high
+  geocode_query: Four Points by Sheraton Ha Giang, Ha Giang City, Vietnam
+  sources:
+  - https://vietnamnews.vn/brandinfo/1719536/first-hotel-in-ha-giang-earns-5-star-rating-expected-to-drive-regional-tourism-growth.html
+  - https://www.booking.com/hotel/vn/four-points-by-sheraton-ha-giang.html
+  - https://www.marriott.com/en-us/hotels/hanhp-four-points-ha-giang/overview/
+- name: Yen Bien Luxury Hotel
+  tier: 4
+  tier_official: true
+  price_low: 33
+  price_high: 65
+  price_checked: '2026-08-16'
+  area: Ha Giang City, on the Lo river
+  what: A 125-room hotel with large windows facing the city or mountains, an
+    outdoor seasonal pool and a fitness centre, popular as a pre- or post-loop
+    base.
+  why: Officially rated 4-star, with an unusually high review score for a
+    provincial-capital hotel
+  confidence: high
+  geocode_query: Yen Bien Luxury Hotel, Ha Giang City, Vietnam
+  sources:
+  - https://en.planetofhotels.com/vietnam/ha-giang/yen-bien-luxury-hotel
+  - https://www.tripadvisor.com/Hotel_Review-g1544599-d23300625-Reviews-Yen_Bien_Luxury_Hotel_Wedding-Ha_Giang_Ha_Giang_Province.html
+- name: De La Mont Hotel Ha Giang
+  tier: 4
+  tier_official: true
+  price_low: 29
+  price_high: 39
+  price_checked: '2026-08-16'
+  area: Ha Giang City, near the Km 0 milestone
+  what: A newly built 50-room hotel a short walk from the Ha Giang Km 0 milestone
+    where most loop tours start, with private-balcony rooms, a rooftop sky bar
+    and an outdoor pool.
+  why: Officially rated 4-star and priced well under the luxury-tier hotels, with
+    consistently strong early reviews
+  confidence: medium
+  geocode_query: De La Mont Hotel Ha Giang, Ha Giang City, Vietnam
+  sources:
+  - https://www.tripadvisor.com/Hotel_Review-g1544599-d34062803-Reviews-De_La_Mont_Hotel_Ha_Giang-Ha_Giang_Ha_Giang_Province.html
+  - https://www.traveloka.com/en-en/hotel/vietnam/de-la-mont-hotel-ha-giang-9000007871420
+- name: Silk River Hotel Ha Giang
+  tier: 3
+  tier_official: true
+  price_low: 30
+  price_high: 42
+  price_checked: '2026-08-16'
+  area: Ha Giang City, Nguyen Trai street
+  what: A garden hotel on the main street through Ha Giang City, with air-conditioned
+    rooms, a restaurant and bar, popular with loop riders needing a bike-adjacent
+    place to leave gear.
+  why: Officially rated 3-star, genuinely cheap, and consistently well reviewed
+    by loop riders specifically
+  confidence: high
+  geocode_query: Silk River Hotel Ha Giang, Nguyen Trai, Ha Giang City, Vietnam
+  sources:
+  - https://www.tripadvisor.com/Hotel_Review-g1544599-d23617781-Reviews-Silk_River_Hotel_Ha_Giang-Ha_Giang_Ha_Giang_Province.html
+  - https://www.booking.com/hotel/vn/silk-river-ha-giang-ha-giang.html
+- name: Phuc Lam Hotel
+  tier: 3
+  tier_official: true
+  price_low: 22
+  price_high: 40
+  price_checked: '2026-08-16'
+  area: Ha Giang City
+  what: A new, plainly built hotel in Ha Giang City with unusually large rooms
+    for the price, a garden terrace and bar.
+  why: Officially rated 3-star and the cheapest of the credibly-sourced Ha Giang
+    hotels, with strong recent review scores
+  confidence: medium
+  geocode_query: Phuc Lam Hotel, Ha Giang City, Vietnam
+  sources:
+  - https://www.tripadvisor.com/Hotel_Review-g1544599-d26027206-Reviews-Phuc_Lam_Hotel-Ha_Giang_Ha_Giang_Province.html
+  - https://www.booking.com/hotel/vn/phuc-lam-thanh-pho-ha-giang.html
+must_see:
+- name: Ma Pi Leng Pass
+  area: National Road 4C, between Dong Van and Meo Vac
+  what: A 20km stretch of road called the "Happiness Road", carved into a sheer
+    limestone cliff face at over 2,000m, hugging the mountainside with a straight
+    drop of hundreds of metres to the turquoise Nho Que River below.
+  why: One of Vietnam's "Four Great Passes" and the single most photographed
+    stretch of the entire Ha Giang loop
+  confidence: high
+  geocode_query: Ma Pi Leng Pass viewpoint, Meo Vac, Ha Giang, Vietnam
+  sources:
+  - https://en.wikipedia.org/wiki/M%C3%A3_P%C3%AD_L%C3%A8ng_Pass
+- name: Lung Cu Flag Tower
+  area: Lung Cu commune, Dong Van district
+  what: A 34.85m octagonal tower on a peak near Vietnam's northernmost point,
+    flying a red flag with a yellow star that covers 54 square metres, one for
+    each recognised ethnic group. Reached by roughly 280-800 stone steps
+    depending on where you park.
+  why: The symbolic "top of Vietnam" and a standard end-goal of the loop's
+    northern leg
+  confidence: high
+  geocode_query: Lung Cu Flag Tower, Dong Van, Ha Giang, Vietnam
+  sources:
+  - https://en.wikipedia.org/wiki/Lung_Cu_Flag_Tower
+- name: Dong Van Old Quarter
+  area: Dong Van town
+  what: A cluster of around 40 century-old houses with yellow clay walls, wooden
+    frames and tiled roofs, built as a French colonial-era trading post at
+    1,000-1,600m in the middle of the karst plateau.
+  why: The loop's most atmospheric overnight town, and the base for the Sunday
+    market and Lung Cu day trip
+  confidence: high
+  geocode_query: Dong Van Old Quarter, Dong Van, Ha Giang, Vietnam
+  sources:
+  - https://en.wikivoyage.org/wiki/Dong_Van
+attractions:
+- name: Ha Giang Loop (self-drive or easy-rider motorbike route)
+  area: Circuit from Ha Giang City through Quan Ba, Yen Minh, Dong Van, Meo Vac
+  what: A roughly 350-400km loop of mountain roads through the Dong Van Karst
+    Plateau Geopark, ridden over 3-4 days either as the driver (own or rented
+    manual motorbike) or as a passenger behind a local "easy rider" guide.
+  why: The reason this region is on the route at all — hairpin passes, terraced
+    valleys and H'mong villages are only reachable this way
+  confidence: high
+  geocode_query: Ha Giang Loop start point, Ha Giang City, Vietnam
+  sources:
+  - https://vietnammotorcycletours.com/ha-giang-loop-vietnams-ultimate-motorbike-adventure
+- name: Nho Que River boat trip, Tu San Canyon
+  area: Xin Cai / Ta Lang wharf, below Ma Pi Leng Pass
+  what: A roughly 30-minute boat ride on the emerald-green Nho Que River, gliding
+    beneath the towering rock walls of Tu San Canyon, reached by a side road
+    5-7km past the Ma Pi Leng viewpoint.
+  why: A sit-down, water-level view of the same canyon the road looks down into
+    from above, and a break from riding
+  confidence: high
+  geocode_query: Nho Que River boat pier, Xin Cai, Meo Vac, Ha Giang, Vietnam
+  sources:
+  - https://oxalisadventure.com/nho-que-river/
+- name: Du Gia village and waterfall
+  area: Du Gia commune, about 70km from Ha Giang City
+  what: A Tay ethnic village of wooden stilt houses in a rice-field valley, with
+    a swimmable turquoise-pooled waterfall a short walk away; usually reached
+    only by motorbike or car since there is no direct bus.
+  why: The loop's quiet counterpoint to Dong Van/Meo Vac — a slower, greener
+    detour with a place to swim
+  confidence: medium
+  geocode_query: Du Gia waterfall, Du Gia, Ha Giang, Vietnam
+  sources:
+  - https://www.vietnamcoracle.com/to-day-du-gia-village-independent-review/
+markets:
+- name: Dong Van Sunday Market
+  area: Dong Van Old Quarter
+  what: A weekly Sunday-morning market where H'mong, Tay, Dao, Nung and Lo Lo
+    traders from the surrounding mountains sell produce, livestock, textiles and
+    handicrafts in the streets around the old quarter.
+  why: The most accessible of the region's ethnic markets, held right where most
+    loop itineraries already overnight
+  confidence: high
+  geocode_query: Dong Van Market, Dong Van, Ha Giang, Vietnam
+  sources:
+  - https://seniworld.com/dong-van-market/
+- name: Meo Vac Sunday Market
+  area: Meo Vac town centre
+  what: A weekly market from roughly 4am to 4pm where 17 ethnic minority groups
+    trade produce and livestock; the cattle-and-buffalo trading area is the
+    market's best-known section.
+  why: Larger and more livestock-focused than Dong Van's market, and sits at the
+    loop's most dramatic overnight stop below Ma Pi Leng
+  confidence: high
+  geocode_query: Meo Vac Market, Meo Vac, Ha Giang, Vietnam
+  sources:
+  - https://www.colorfuljourneys.com/articles/visit-meo-vac-market-ha-giang
+food:
+- name: Ha Giang-style banh cuon (in broth)
+  kind: vietnamese
+  signal: traveler_recommended
+  dish: Banh cuon
+  area: Ha Giang City, Ly Tu Trong street, and Dong Van market stalls
+  what: Steamed rice-flour rolls filled with minced pork and wood-ear mushroom,
+    served not with the usual dipping fish sauce but floating in a hot pork-bone
+    broth.
+  why: A distinct regional variant of a dish found nationwide, and one of the
+    cheapest hot meals on the loop
+  confidence: medium
+  geocode_query: Ly Tu Trong street food stalls, Ha Giang City, Vietnam
+  sources:
+  - https://www.handspan.com/en/foods-in-ha-giang.html
+- name: Thang co
+  kind: vietnamese
+  signal: traveler_recommended
+  dish: Thang co (H'mong offal and meat stew)
+  area: Dong Van, Meo Vac and Lung Cu markets
+  what: A H'mong stew of horse, beef or goat meat and offal, simmered for hours
+    with a spice mix of around a dozen ingredients into a dark, strongly-flavoured
+    broth, traditionally ladled from a communal pot at market.
+  why: The signature dish of the loop's Sunday markets, and about as far from
+    lowland Vietnamese cooking as the food on this trip gets
+  confidence: medium
+  geocode_query: Dong Van Market, Ha Giang, Vietnam
+  sources:
+  - https://vietnam.travel/things-to-do/local-unpacked-one-kind-cuisine-ha-giang-karst-plateau
+logistics:
+- name: Border Area Entry Permit for the Ha Giang loop
+  area: Quan Ba, Yen Minh, Dong Van and Meo Vac districts
+  what: A permit required for foreign travellers entering these border districts,
+    costing roughly 200,000-250,000 VND (about $10) and checked at checkpoints
+    and hotel registration; most easy-rider and tour operators arrange it as
+    part of the booking, or it can be obtained at the Ha Giang City immigration
+    office.
+  why: Not optional and increasingly enforced from mid-2026 — worth confirming
+    with whichever operator books the loop before departure
+  confidence: medium
+  geocode_query: Ha Giang City Immigration Office, Vietnam
+  sources:
+  - https://bongbackpackerhostel.com/blog/ha-giang-loop/border-permit-for-the-ha-giang-loop-in-2026-the-new-rule-every-traveler-needs-to-know
+  - https://www.timeout.com/asia/news/ha-giang-loop-permits-what-travellers-need-to-know-before-riding-vietnams-famous-mountain-route-061426
