@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Hoi An and Da Nang</name>
+    <Style id="s-hoi-an-hotels">
+      <IconStyle>
+        <color>ffe632f0</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hoi-an-must_see">
+      <IconStyle>
+        <color>ffe632f0</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hoi-an-attractions">
+      <IconStyle>
+        <color>ffe632f0</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hoi-an-food">
+      <IconStyle>
+        <color>ffe632f0</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hoi-an-markets">
+      <IconStyle>
+        <color>ffe632f0</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hoi-an-logistics">
+      <IconStyle>
+        <color>ffe632f0</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hoi-an-hotels-t5">
+      <IconStyle>
+        <color>ffe632f0</color>
+        <scale>1.4</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hoi-an-hotels-t4">
+      <IconStyle>
+        <color>ffe632f0</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hoi-an-hotels-t3">
+      <IconStyle>
+        <color>ffe632f0</color>
+        <scale>0.9</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hoi-an-hotels-avoid">
+      <IconStyle>
+        <color>ff3d26d7</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="place-anchor">
+      <IconStyle>
+        <color>ff6f2742</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>Hoi An and Da Nang</name>
+      <Placemark>
+        <name>Hoi An and Da Nang</name>
+        <styleUrl>#place-anchor</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b><br/>Central<br/><a href="https://www.google.com/maps/dir/?api=1&destination=15.8801,108.338&travelmode=driving">Directions</a><br/>Coords: 15.8801, 108.338]]></description>
+        <Point>
+          <coordinates>108.338,15.8801,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Hotels</name>
+      <Placemark>
+        <name>Silkotel Hoi An</name>
+        <styleUrl>#s-hoi-an-hotels-t4</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; Cam Pho Ward, close to Old Town<br/>4 stars<br/>$41-$91/night <i>(indicative, checked 2026-08-16)</i><br/><br/>A mid-size hotel with an outdoor pool, spa, gym and restaurant a short walk from the Old Town's riverside streets.<br/><b>Why it's here:</b> The master-spec's 'best value' pick for Hoi An, rated 9.1/10 from 1,700 reviews at roughly two-thirds the price of the resort-style 5-stars<br/><a href="https://www.tripadvisor.com/Hotel_Review-g298082-d10259528-Reviews-Silkotel_Hoi_An-Hoi_An_Quang_Nam_Province.html">source 1</a> &middot; <a href="https://www.hotelscombined.com/Hotel/Silkotel_Hoi_An.htm">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=15.8794893,108.3223668&travelmode=driving">Directions</a><br/>Coords: 15.8794893, 108.3223668]]></description>
+        <Point>
+          <coordinates>108.3223668,15.8794893,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lasenta Boutique Hotel Hoian</name>
+        <styleUrl>#s-hoi-an-hotels-t4</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; Edge of town, among rice fields<br/>4 stars<br/>$52-$120/night <i>(indicative, checked 2026-08-16)</i><br/><br/>A boutique hotel on the edge of Hoi An with an infinity pool and 4th-floor bar looking out over open rice paddies, plus a free shuttle to both Old Town and the beach.<br/><b>Why it's here:</b> Master-spec's alternative pick for the rice-field-view infinity pool at a lower price point than La Siesta<br/><a href="https://www.tripadvisor.com/Hotel_Review-g298082-d10149768-Reviews-Lasenta_Boutique_Hotel_Hoian-Hoi_An_Quang_Nam_Province.html">source 1</a> &middot; <a href="https://www.vietnamcoracle.com/lasenta-boutique-hotel-hoi-an/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=15.8819958,108.3403954&travelmode=driving">Directions</a><br/>Coords: 15.8819958, 108.3403954]]></description>
+        <Point>
+          <coordinates>108.3403954,15.8819958,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hoian Central Hotel</name>
+        <styleUrl>#s-hoi-an-hotels-t3</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; In the heart of Hoi An, steps from the riverside<br/>3 stars<br/>$30-$69/night <i>(indicative, checked 2026-08-16)</i><br/><br/>A small hotel right in the town center with an outdoor pool and free bicycle rental, close enough to the Old Town's riverside streets to walk everywhere.<br/><b>Why it's here:</b> One of the best-located officially-rated 3-star hotels in town, with ratings above many pricier properties<br/><a href="https://www.tripadvisor.com/Hotel_Review-g298082-d13737482-Reviews-Hoian_Central_Hotel-Hoi_An_Quang_Nam_Province.html">source 1</a> &middot; <a href="https://www.klook.com/hotels/detail/113919-hoian-central-hotel/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=15.8797503,108.319306&travelmode=driving">Directions</a><br/>Coords: 15.8797503, 108.319306]]></description>
+        <Point>
+          <coordinates>108.319306,15.8797503,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Little Town Villa</name>
+        <styleUrl>#s-hoi-an-hotels-t3</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; Near Hoi An Market, 5 minutes' walk from the Japanese Covered Bridge<br/><i>Approximate location — search the name in Maps</i><br/>3 stars<br/>$25-$130/night <i>(indicative, checked 2026-08-16)</i><br/><br/>A small villa-style property near the town market with a spa, outdoor pool and restaurant, five minutes' walk from the Japanese Covered Bridge.<br/><b>Why it's here:</b> Rated 5/5 on Tripadvisor from hundreds of reviews despite its official 3-star classification - well above its price bracket<br/><a href="https://www.tripadvisor.com/Hotel_Review-g298082-d12192622-Reviews-Little_Town_Villas-Hoi_An_Quang_Nam_Province.html">source 1</a> &middot; <a href="https://www.booking.com/hotel/vn/little-town-villa.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=15.8826344,108.3244197&travelmode=driving">Directions</a><br/>Coords: 15.8826344, 108.3244197]]></description>
+        <Point>
+          <coordinates>108.3244197,15.8826344,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Must-see</name>
+      <Placemark>
+        <name>Hoi An Ancient Town and Japanese Covered Bridge</name>
+        <styleUrl>#s-hoi-an-must_see</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; Old Town, along the Thu Bon River<br/><br/>A UNESCO-listed trading-port town of yellow-walled shophouses, Chinese assembly halls and merchant homes dating to the 16th-18th centuries, centred on the 18-metre wooden Japanese Covered Bridge that doubles as a small temple.<br/><b>Why it's here:</b> The reason Hoi An exists on any itinerary - one of Southeast Asia's best-preserved trading ports, UNESCO-listed since 1999<br/><a href="https://vinpearl.com/en/japanese-bridge-hoi-an-a-cultural-symbol-of-the-ancient-town">source 1</a> &middot; <a href="https://grooviet.com/destination/japanese-covered-bridge/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=15.8779509,108.3239898&travelmode=driving">Directions</a><br/>Coords: 15.8779509, 108.3239898]]></description>
+        <Point>
+          <coordinates>108.3239898,15.8779509,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ba Na Hills and Golden Bridge</name>
+        <styleUrl>#s-hoi-an-must_see</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; Ba Na Mountain, ~45 minutes west of Da Nang<br/><i>Approximate location — search the name in Maps</i><br/><br/>A hilltop resort reached by a record-length cable car, built around a recreated French hill-station village and the Golden Bridge - a walkway held up by two giant stone hands emerging from the hillside.<br/><b>Why it's here:</b> The consensus pick over My Son among the trip's competing proposals (route decision R6), and Central Vietnam's most photographed modern landmark<br/><a href="https://hoiandaytrip.com/ba-na-hills-tickets/">source 1</a> &middot; <a href="https://happytovisit.com/golden-bridge-ba-na-hills-marble-mountain-monkey-mountain/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.0258471,108.0362621&travelmode=driving">Directions</a><br/>Coords: 16.0258471, 108.0362621]]></description>
+        <Point>
+          <coordinates>108.0362621,16.0258471,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Attractions &amp; Experiences</name>
+      <Placemark>
+        <name>Marble Mountains (Ngu Hanh Son)</name>
+        <styleUrl>#s-hoi-an-attractions</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; Between Da Nang and Hoi An, on the coast road<br/><br/>Five limestone-and-marble hills, each named for one of the five elements, honeycombed with caves and grottoes containing Buddhist shrines; an elevator and stairs lead up to viewpoints and the Huyen Khong cave, once used as a wartime field hospital.<br/><b>Why it's here:</b> A genuinely different landscape from Hoi An's flat riverside town, and an easy stop on the way to or from Da Nang<br/><a href="https://happytovisit.com/golden-bridge-ba-na-hills-marble-mountain-monkey-mountain/">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.00402,108.2627745&travelmode=driving">Directions</a><br/>Coords: 16.00402, 108.2627745]]></description>
+        <Point>
+          <coordinates>108.2627745,16.00402,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>An Bang Beach surf lesson</name>
+        <styleUrl>#s-hoi-an-attractions</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; An Bang Beach, ~3km east of Old Town<br/><br/>A stretch of sandy beach with gentle, beginner-friendly waves, where expat-run surf schools rent boards and run lessons; the surf season runs roughly September to March.<br/><b>Why it's here:</b> Hoi An's real board-sport option, and a 20-minute bike ride from the Old Town through rice paddies<br/><a href="https://thesurfatlas.com/vietnam-surf/hoi-an-surf/">source 1</a> &middot; <a href="https://thedeckhousevietnam.com/water-sports/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=15.9141779,108.3396551&travelmode=driving">Directions</a><br/>Coords: 15.9141779, 108.3396551]]></description>
+        <Point>
+          <coordinates>108.3396551,15.9141779,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Food</name>
+      <Placemark>
+        <name>Banh Mi Phuong</name>
+        <styleUrl>#s-hoi-an-food</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; 2B Phan Chu Trinh Street, Old Town<br/><i>Approximate location — search the name in Maps</i><br/>traveler recommended<br/><br/>A perpetually busy banh mi stand grilling and assembling its own pork, pate and pickled vegetables into a crusty baguette sandwich to order.<br/><b>Why it's here:</b> The banh mi Anthony Bourdain called possibly the best in Vietnam - still packed with a line out the door years later<br/><a href="https://www.tripadvisor.com/Restaurant_Review-g298082-d2365673-Reviews-Banh_My_Phu_ng-Hoi_An_Quang_Nam_Province.html">source 1</a> &middot; <a href="https://hiddenhoian.com/eat/banh-mi-phuong-hoi-ans-best-banh-mi/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=15.8784841,108.3320081&travelmode=driving">Directions</a><br/>Coords: 15.8784841, 108.3320081]]></description>
+        <Point>
+          <coordinates>108.3320081,15.8784841,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>White Rose Restaurant</name>
+        <styleUrl>#s-hoi-an-food</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; 533 Hai Ba Trung Street<br/>traveler recommended<br/><br/>The restaurant most associated with white rose dumplings (banh bao vac) - translucent rice-dough parcels of spiced minced shrimp, steamed and shaped to resemble a folded rose, then topped with crispy fried shallots.<br/><b>Why it's here:</b> The dish comes from one family recipe distributed to eateries around town, and this restaurant is the most famous outlet for it<br/><a href="https://culturephamtravel.com/white-rose-dumplings-hoi-an/">source 1</a> &middot; <a href="https://cavinteo.blogspot.com/2024/10/white-rose-restaurant-dumplings-hoi-an-vietnam.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=15.8829593,108.3250054&travelmode=driving">Directions</a><br/>Coords: 15.8829593, 108.3250054]]></description>
+        <Point>
+          <coordinates>108.3250054,15.8829593,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Maison 1888</name>
+        <styleUrl>#s-hoi-an-food</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; InterContinental Danang Sun Peninsula Resort, Son Tra<br/><i>Approximate location — search the name in Maps</i><br/>michelin star<br/><br/>A fine-dining French restaurant inside a recreated Indochinese colonial mansion overlooking the sea, serving a five- or eight-course set menu built on Vietnamese, French and Japanese ingredients.<br/><b>Why it's here:</b> The only Michelin-starred restaurant in Central Vietnam, held by chef Christian Le Squer, who carried three Michelin stars in France for 23 years<br/><a href="https://guide.michelin.com/us/en/da-nang-region/da-nang_2984390/restaurant/la-maison-1888">source 1</a> &middot; <a href="https://www.danang.intercontinental.com/a-michelin-star-for-la-maison-1888/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=15.9040037,108.3326237&travelmode=driving">Directions</a><br/>Coords: 15.9040037, 108.3326237]]></description>
+        <Point>
+          <coordinates>108.3326237,15.9040037,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Phu Hong (Bun Thit Nuong Phu Hong)</name>
+        <styleUrl>#s-hoi-an-food</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; 19 Yen Bai Street, Hai Chau District, Da Nang<br/><i>Approximate location — search the name in Maps</i><br/>michelin bib<br/><br/>A street-food stall serving bun thit nuong - grilled pork over rice vermicelli with fresh herbs - alongside grilled pork and minced-pork skewers wrapped in rice paper, no reservations, cash only.<br/><b>Why it's here:</b> Holds a Michelin Bib Gourmand for good quality, good value cooking - the everyday-food end of Da Nang's Michelin coverage, distinct from La Maison 1888's fine dining<br/><a href="https://liveyounglivewell.com/quan-phu-hong-da-nang-review/">source 1</a> &middot; <a href="https://guide.michelin.com/en/da-nang-region/da-nang_2984390/restaurant/phu-hong">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.0695853,108.2229138&travelmode=driving">Directions</a><br/>Coords: 16.0695853, 108.2229138]]></description>
+        <Point>
+          <coordinates>108.2229138,16.0695853,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Logistics</name>
+      <Placemark>
+        <name>Da Nang Airport to Hoi An</name>
+        <styleUrl>#s-hoi-an-logistics</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; Airport transfer<br/><br/>Da Nang International Airport (DAD) sits about 30km from Hoi An; a Grab car or taxi takes 30-40 minutes in normal traffic (up to an hour at peak times) and costs roughly 250,000-400,000 VND.<br/><b>Why it's here:</b> Fixes the practical transfer time for the flight in and out of the Hoi An/Da Nang leg of the trip<br/><a href="https://unmappedasia.com/da-nang-airport-to-hoi-an/">source 1</a> &middot; <a href="https://www.welcomepickups.com/da-nang/airport-to-hoi-an/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.0425792,108.1971613&travelmode=driving">Directions</a><br/>Coords: 16.0425792, 108.1971613]]></description>
+        <Point>
+          <coordinates>108.1971613,16.0425792,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hoi An Old Town vehicle restrictions</name>
+        <styleUrl>#s-hoi-an-logistics</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; Old Town core<br/><br/>Cars and, at scheduled hours, motorbikes are barred from the Old Town's core streets, which are walking- and cyclo-only; a paid Old Town ticket covers entry to several assembly halls, temples and heritage houses.<br/><b>Why it's here:</b> Affects how you actually move around and reach hotels/restaurants once inside the historic core<br/><a href="https://grooviet.com/destination/japanese-covered-bridge/">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=15.8779509,108.3239898&travelmode=driving">Directions</a><br/>Coords: 15.8779509, 108.3239898]]></description>
+        <Point>
+          <coordinates>108.3239898,15.8779509,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

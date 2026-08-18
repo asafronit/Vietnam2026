@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ha Long and Cat Ba</name>
+    <Style id="s-ha-long-hotels">
+      <IconStyle>
+        <color>ff4bb43c</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-long-must_see">
+      <IconStyle>
+        <color>ff4bb43c</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-long-attractions">
+      <IconStyle>
+        <color>ff4bb43c</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-long-food">
+      <IconStyle>
+        <color>ff4bb43c</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-long-markets">
+      <IconStyle>
+        <color>ff4bb43c</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-long-logistics">
+      <IconStyle>
+        <color>ff4bb43c</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-long-hotels-t5">
+      <IconStyle>
+        <color>ff4bb43c</color>
+        <scale>1.4</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-long-hotels-t4">
+      <IconStyle>
+        <color>ff4bb43c</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-long-hotels-t3">
+      <IconStyle>
+        <color>ff4bb43c</color>
+        <scale>0.9</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-long-hotels-avoid">
+      <IconStyle>
+        <color>ff3d26d7</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="place-anchor">
+      <IconStyle>
+        <color>ff6f2742</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>Ha Long and Cat Ba</name>
+      <Placemark>
+        <name>Ha Long and Cat Ba</name>
+        <styleUrl>#place-anchor</styleUrl>
+        <description><![CDATA[<b>Ha Long and Cat Ba</b><br/>North<br/><a href="https://www.google.com/maps/dir/?api=1&destination=20.9099,107.1839&travelmode=driving">Directions</a><br/>Coords: 20.9099, 107.1839]]></description>
+        <Point>
+          <coordinates>107.1839,20.9099,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Must-see</name>
+      <Placemark>
+        <name>Ha Long Bay limestone karsts</name>
+        <styleUrl>#s-ha-long-must_see</styleUrl>
+        <description><![CDATA[<b>Ha Long and Cat Ba</b> &middot; Ha Long Bay, Quang Ninh province<br/><br/>Roughly 1,600 limestone islands and karst pillars rising from emerald-green water, many topped with vegetation and containing caves; a UNESCO World Heritage Site since 1994.<br/><b>Why it's here:</b> The reason this leg of the trip exists — best seen slowly, from the deck of an overnight boat<br/><a href="https://whc.unesco.org/en/list/672/">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=20.9084384,107.0682782&travelmode=driving">Directions</a><br/>Coords: 20.9084384, 107.0682782]]></description>
+        <Point>
+          <coordinates>107.0682782,20.9084384,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cat Ba National Park</name>
+        <styleUrl>#s-ha-long-must_see</styleUrl>
+        <description><![CDATA[<b>Ha Long and Cat Ba</b> &middot; Central Cat Ba Island<br/><i>Approximate location — search the name in Maps</i><br/><br/>A national park covering most of Cat Ba Island's interior, protecting tropical limestone forest, wetlands and mangroves; part of the joint Ha Long Bay-Cat Ba Archipelago UNESCO World Heritage Site and a UNESCO Biosphere Reserve since 2004.<br/><b>Why it's here:</b> The forested, trekkable counterpart to the bay's boat-only islands, and home to the critically endangered Cat Ba langur<br/><a href="https://en.wikipedia.org/wiki/C%C3%A1t_B%C3%A0_National_Park">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=20.8063272,107.0383362&travelmode=driving">Directions</a><br/>Coords: 20.8063272, 107.0383362]]></description>
+        <Point>
+          <coordinates>107.0383362,20.8063272,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Attractions &amp; Experiences</name>
+      <Placemark>
+        <name>Trung Trang Cave</name>
+        <styleUrl>#s-ha-long-attractions</styleUrl>
+        <description><![CDATA[<b>Ha Long and Cat Ba</b> &middot; Cat Ba National Park, about 20-30 minutes from the port<br/><i>Approximate location — search the name in Maps</i><br/><br/>A 300-metre natural cave carved through a mountain in the middle of Cat Ba's largest valley, with stalactites and stalagmites reachable on a short easy walk.<br/><b>Why it's here:</b> A quick, low-effort cave stop that fits into a cruise itinerary alongside kayaking, without needing a dedicated caving day<br/><a href="https://www.bestpricetravel.com/travel-guide/trung-trang-cave.html">source 1</a> &middot; <a href="https://www.halongbaycruises.com/travel-guide/explore-cat-ba-island-with-halong-bay-cruises-trung-trang-cave.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=20.7887703,106.9974369&travelmode=driving">Directions</a><br/>Coords: 20.7887703, 106.9974369]]></description>
+        <Point>
+          <coordinates>106.9974369,20.7887703,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

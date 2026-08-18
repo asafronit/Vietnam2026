@@ -57,3 +57,24 @@ Q2–Q5 shape the styling only; whatever does not survive gets dropped from
 
     Decision:
     >
+
+---
+
+## ANSWERED — 2026-08-18, from Asaf's live import
+
+1. **Did the three `<Folder>` elements become separate layers?** **YES.**
+   Confirmed on the real 7-layer pool file: all seven appeared as separate,
+   independently toggleable layers. Task 5 Branch A was correct; Branch B is
+   dead and needs no implementation.
+
+2-3. Icon colour and custom icon rendering — not separately reported.
+
+4. **Did HTML in `<description>` render with clickable links?** Partially.
+   `https://` links work. **A custom URI scheme does NOT** — `grab://` renders
+   as dead, unclickable text. My Maps sanitises non-http(s) schemes.
+
+5. LineString — not separately reported; the route line is present.
+
+## Consequence
+Any "take me there" action inside a KML description must use `https://`.
+Replaced the Grab deep link with a Google Maps directions URL.

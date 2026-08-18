@@ -28,16 +28,37 @@ CATEGORY_LABELS = {
 }
 
 
-def _grab_link(lat: float, lng: float) -> str:
-    """Grab deep link for a drop-off at (lat, lng).
+def _directions_link(lat: float, lng: float) -> str:
+    """Google Maps driving-directions URL for (lat, lng).
 
-    Mirrors the established convention in index.html — same href shape, same
-    query params. My Maps strips JavaScript from descriptions, so unlike the
-    site's grab-link anchors this carries only the href: no web fallback, no
-    clipboard copy. lat/lng are interpolated the same way `<Point>` writes
-    them, so the two always agree byte-for-byte.
+    Uses the documented Maps URLs API (`/maps/dir/?api=1&...`), which My Maps
+    renders as a working link. A `grab://` deep link used to sit here, but My
+    Maps strips custom URI schemes — it rendered as dead, unclickable text.
+    No https form of the Grab deep link exists to fall back to, so the
+    traveller's route to a Grab ride is the raw coordinates printed alongside
+    this link (see `_location_lines`), copied by hand into the Grab app.
+    lat/lng are interpolated the same way `<Point>` writes them, so the link
+    and the pin always agree byte-for-byte.
     """
-    return f"grab://open?screenType=BOOKING&drop_off_lat={lat}&drop_off_lng={lng}"
+    return (
+        "https://www.google.com/maps/dir/?api=1"
+        f"&destination={lat},{lng}&travelmode=driving"
+    )
+
+
+def _location_lines(lat: float, lng: float) -> list[str]:
+    """Directions link plus the raw coordinates as selectable plain text.
+
+    The coordinates are not decorative: Grab cannot be deep-linked to from
+    inside My Maps, so reading or copying them into the Grab app is the
+    traveller's actual route to a ride. This is the degraded, JavaScript-free
+    form of the clipboard-copy mechanism index.html implements for the same
+    purpose.
+    """
+    return [
+        f'<a href="{_directions_link(lat, lng)}">Directions</a>',
+        f"Coords: {lat}, {lng}",
+    ]
 
 
 def _icon_style(style_ident: str, colour: str, scale: float, href: str):
@@ -114,7 +135,7 @@ def _description(rec: Record, place: Place) -> str:
     lines.append(links)
 
     if rec.lat is not None and rec.lng is not None:
-        lines.append(f'<a href="{_grab_link(rec.lat, rec.lng)}">Grab ride here</a>')
+        lines.extend(_location_lines(rec.lat, rec.lng))
 
     return "<br/>".join(lines)
 
@@ -139,22 +160,29 @@ def _serialise(doc) -> bytes:
     )
 
 
+def _anchor_placemark(place: Place):
+    """A single place's own orientation pin: town centre, not a category pin."""
+    description = (
+        f"<b>{place.name}</b><br/>{place.region.title()}<br/>"
+        + "<br/>".join(_location_lines(place.lat, place.lng))
+    )
+    return E.Placemark(
+        E.name(place.name),
+        E.styleUrl("#place-anchor"),
+        E.description(ET.CDATA(description)),
+        E.Point(E.coordinates(f"{place.lng},{place.lat},0")),
+    )
+
+
 def _places_layer(places: list[Place]):
-    """Layer 1: the 14 anchors plus the locked route. The orientation layer."""
+    """Layer 1: the 14 anchors plus the locked route. The orientation layer.
+
+    Pool-file only — a route spanning the whole country means nothing on a
+    single-station map, so per-station files skip this layer entirely.
+    """
     layer = E.Folder(E.name("Places & Route"))
     for place in places:
-        description = (
-            f"<b>{place.name}</b><br/>{place.region.title()}"
-            f'<br/><a href="{_grab_link(place.lat, place.lng)}">Grab ride here</a>'
-        )
-        layer.append(
-            E.Placemark(
-                E.name(place.name),
-                E.styleUrl("#place-anchor"),
-                E.description(ET.CDATA(description)),
-                E.Point(E.coordinates(f"{place.lng},{place.lat},0")),
-            )
-        )
+        layer.append(_anchor_placemark(place))
     path = " ".join(f"{p.lng},{p.lat},0" for p in places)
     layer.append(
         E.Placemark(
@@ -164,6 +192,43 @@ def _places_layer(places: list[Place]):
         )
     )
     return layer
+
+
+def _anchor_layer(place: Place):
+    """A per-station file's first layer: just that place's own anchor pin,
+    named after the place so the traveller can see the town centre without
+    the country-spanning route that would mean nothing on a single stop."""
+    layer = E.Folder(E.name(place.name))
+    layer.append(_anchor_placemark(place))
+    return layer
+
+
+def _place_anchor_style():
+    return _icon_style(
+        "place-anchor", to_kml_color("#42276f"), 1.2,
+        "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
+    )
+
+
+def _category_layers(
+    place_records: list[tuple[Place, list[Record]]]
+) -> list:
+    """One Folder per category that has at least one shippable record, in
+    CATEGORIES order. Shared between the pool file (many places) and each
+    per-station file (one place), so filtering only lives here once."""
+    layers = []
+    for category in CATEGORIES:
+        layer = E.Folder(E.name(CATEGORY_LABELS[category]))
+        count = 0
+        for place, records in place_records:
+            for rec in records:
+                if rec.category != category or not is_shippable(rec):
+                    continue
+                layer.append(_placemark(rec, place))
+                count += 1
+        if count:
+            layers.append(layer)
+    return layers
 
 
 def build_pool_kml(
@@ -178,25 +243,30 @@ def build_pool_kml(
     doc.append(
         E.Style(E.LineStyle(E.color(to_kml_color("#42276f")), E.width("4")), id="route")
     )
-    doc.append(
-        _icon_style(
-            "place-anchor", to_kml_color("#42276f"), 1.2,
-            "http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png",
-        )
-    )
+    doc.append(_place_anchor_style())
 
     doc.append(_places_layer(places))
 
-    for category in CATEGORIES:
-        layer = E.Folder(E.name(CATEGORY_LABELS[category]))
-        count = 0
-        for place in places:
-            for rec in records.get(place.id, []):
-                if rec.category != category or not is_shippable(rec):
-                    continue
-                layer.append(_placemark(rec, place))
-                count += 1
-        if count:
-            doc.append(layer)
+    for layer in _category_layers([(place, records.get(place.id, [])) for place in places]):
+        doc.append(layer)
+
+    return _serialise(doc)
+
+
+def build_place_kml(place: Place, records: list[Record]) -> bytes:
+    """One station's own file: up to six category layers plus a single
+    anchor layer for that place, never the whole-country route. Shares
+    description, styling and filtering with the pool build so the two never
+    drift apart."""
+    doc = E.Document(E.name(place.name))
+
+    for style in _styles([place]):
+        doc.append(style)
+    doc.append(_place_anchor_style())
+
+    doc.append(_anchor_layer(place))
+
+    for layer in _category_layers([(place, records)]):
+        doc.append(layer)
 
     return _serialise(doc)

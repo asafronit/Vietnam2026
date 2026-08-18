@@ -2,7 +2,7 @@ import re
 
 import lxml.etree as ET
 
-from kmlpool.build import _description, build_pool_kml
+from kmlpool.build import _description, build_place_kml, build_pool_kml
 from kmlpool.inventory import Place
 from kmlpool.schema import Record
 
@@ -156,14 +156,20 @@ def test_no_hebrew_reaches_the_output():
     assert not any(0x0590 <= ord(c) <= 0x05FF for c in xml.decode("utf-8"))
 
 
-# --- Grab ride-hailing shortcut (Task 5b) ---------------------------------
+# --- Directions link + raw coordinates (Task 11) ---------------------------
+#
+# grab:// deep links render as dead, unclickable text inside My Maps (it
+# strips custom URI schemes). Replaced with a Google Maps directions URL
+# (working) plus the raw coordinates as selectable plain text, since Grab
+# itself can't be deep-linked to from inside My Maps — the traveller's path
+# to a Grab ride is copying the coordinates into the Grab app by hand.
 
-_GRAB_HREF_RE = re.compile(
-    rb'grab://open\?screenType=BOOKING&drop_off_lat=([^&]+)&drop_off_lng=([^"]+)"'
+_DIRECTIONS_HREF_RE = re.compile(
+    rb'https://www\.google\.com/maps/dir/\?api=1&destination=([^&]+)&travelmode=driving"'
 )
 
 
-def test_grab_link_uses_the_pins_own_coordinates_exactly():
+def test_directions_link_uses_the_pins_own_coordinates_exactly():
     xml = build_pool_kml([place()], {"hanoi": [rec(lat=21.0301, lng=105.8712)]})
 
     coords = parse(xml).findall(".//k:Placemark/k:Point/k:coordinates", NS)[-1].text
@@ -171,29 +177,43 @@ def test_grab_link_uses_the_pins_own_coordinates_exactly():
 
     # The Places & Route layer's own anchor link comes first in document
     # order, so the pin's own link is the last match, not the first.
-    matches = _GRAB_HREF_RE.findall(xml)
-    assert matches, "no Grab deep link found in output"
-    last_lat, last_lng = matches[-1]
-    assert last_lat.decode() == lat_str
-    assert last_lng.decode() == lng_str
-    assert b"Grab ride here" in xml
+    matches = _DIRECTIONS_HREF_RE.findall(xml)
+    assert matches, "no Directions link found in output"
+    last_destination = matches[-1].decode()
+    assert last_destination == f"{lat_str},{lng_str}"
+    assert b"Directions" in xml
 
 
-def test_description_omits_grab_link_when_record_has_no_coordinates():
+def test_pin_renders_coordinates_as_plain_text():
+    desc = _description(rec(lat=21.0330476, lng=105.8462971), place())
+    assert "Coords: 21.0330476, 105.8462971" in desc
+
+
+def test_no_grab_link_anywhere_in_output():
+    xml = build_pool_kml([place()], {"hanoi": [rec(lat=21.0301, lng=105.8712)]})
+    assert b"grab://" not in xml
+
+
+def test_description_omits_directions_and_coords_when_record_has_no_coordinates():
     r = rec()
     r.lat, r.lng = None, None
     desc = _description(r, place())
-    assert "Grab ride here" not in desc
+    assert "Directions" not in desc
+    assert "Coords:" not in desc
     assert "grab://" not in desc
 
 
-def test_description_includes_grab_link_when_record_has_coordinates():
+def test_description_includes_directions_link_and_coords_when_record_has_coordinates():
     desc = _description(rec(lat=21.0301, lng=105.8712), place())
-    assert "Grab ride here" in desc
-    assert "grab://open?screenType=BOOKING&drop_off_lat=21.0301&drop_off_lng=105.8712" in desc
+    assert "Directions" in desc
+    assert (
+        "https://www.google.com/maps/dir/?api=1&destination=21.0301,105.8712"
+        "&travelmode=driving" in desc
+    )
+    assert "Coords: 21.0301, 105.8712" in desc
 
 
-def test_place_anchors_each_get_a_grab_link():
+def test_place_anchors_each_get_a_directions_link():
     places = [place("hanoi", "north"), place("hue", "central"), place("phu-quoc", "south")]
     xml = build_pool_kml(places, {})
 
@@ -205,11 +225,12 @@ def test_place_anchors_each_get_a_grab_link():
     assert len(anchors) == len(places)
     for anchor in anchors:
         desc = anchor.find("k:description", NS).text
-        assert "Grab ride here" in desc
-        assert "grab://open?screenType=BOOKING" in desc
+        assert "Directions" in desc
+        assert "https://www.google.com/maps/dir/?api=1" in desc
+        assert "grab://" not in desc
 
 
-def test_route_linestring_placemark_has_no_grab_link():
+def test_route_linestring_placemark_still_renders_neither():
     places = [place("hanoi", "north"), place("phu-quoc", "south")]
     xml = build_pool_kml(places, {})
 
@@ -222,13 +243,62 @@ def test_route_linestring_placemark_has_no_grab_link():
     assert route.find("k:LineString", NS) is not None
 
 
-def test_approximate_pins_still_get_a_grab_link_alongside_their_note():
+def test_approximate_pins_still_get_a_directions_link_alongside_their_note():
     r = rec()
     r.location_precision = "approximate"
     desc = _description(r, place())
 
     assert "Approximate location" in desc
-    assert "Grab ride here" in desc
-    assert desc.index("Approximate location") < desc.index("Grab ride here"), (
-        "the approximate-location note should read before the Grab action"
+    assert "Directions" in desc
+    assert desc.index("Approximate location") < desc.index("Directions"), (
+        "the approximate-location note should read before the Directions action"
     )
+
+
+# --- Per-station files (Task 11) --------------------------------------------
+
+
+def test_place_kml_contains_only_that_places_records():
+    hanoi, hue = place("hanoi", "north"), place("hue", "central")
+    xml_hanoi = build_place_kml(hanoi, [rec(name="Hanoi Pho")])
+    xml_hue = build_place_kml(hue, [rec(name="Hue Bun Bo")])
+
+    assert "Hanoi Pho" in pin_names(xml_hanoi)
+    assert "Hue Bun Bo" not in pin_names(xml_hanoi)
+    assert "Hue Bun Bo" in pin_names(xml_hue)
+    assert "Hanoi Pho" not in pin_names(xml_hue)
+
+
+def test_place_kml_has_no_places_and_route_layer():
+    xml = build_place_kml(place(), [rec()])
+    assert "Places & Route" not in layer_names(xml)
+
+
+def test_place_kml_first_layer_is_named_for_the_place_with_one_anchor_pin():
+    p = place()
+    xml = build_place_kml(p, [rec()])
+    assert layer_names(xml)[0] == p.name
+
+    first_folder = parse(xml).findall(".//k:Folder", NS)[0]
+    placemarks = first_folder.findall("k:Placemark", NS)
+    assert len(placemarks) == 1
+    assert placemarks[0].find("k:name", NS).text == p.name
+    assert placemarks[0].find("k:Point", NS) is not None
+    assert placemarks[0].find("k:LineString", NS) is None
+
+
+def test_place_kml_empty_category_produces_no_layer():
+    xml = build_place_kml(place(), [rec("food")])
+    assert layer_names(xml) == ["Hanoi", "Food"]
+
+
+def test_place_kml_document_name_is_the_place_name():
+    xml = build_place_kml(place(), [])
+    doc_name = parse(xml).find(".//k:Document/k:name", NS).text
+    assert doc_name == "Hanoi"
+
+
+def test_place_kml_has_at_most_seven_layers():
+    recs = [rec(c, f"r-{c}") for c in
+            ("hotels", "must_see", "attractions", "food", "markets", "logistics")]
+    assert len(layer_names(build_place_kml(place(), recs))) == 7

@@ -6,7 +6,7 @@ import sys
 
 import yaml
 
-from .build import build_pool_kml
+from .build import build_place_kml, build_pool_kml
 from .geocode import Geocoder, write_review_queue
 from .inventory import load_places
 from .schema import CATEGORIES, Record, validate_hotels, validate_record
@@ -109,6 +109,18 @@ def cmd_build() -> int:
 
     shipped = sum(1 for rs in records.values() for r in rs if r.lat is not None)
     print(f"built {target} ({shipped} pins across 7 layers)")
+
+    # One file per station, alongside the pool file. Numbered by the order
+    # in places.yaml so filenames sort in itinerary order.
+    for index, place in enumerate(places, start=1):
+        place_records = records.get(place.id, [])
+        station_file = f"{index:02d}-{place.id}.kml"
+        station_path = os.path.join(OUT_DIR, station_file)
+        with open(station_path, "wb") as fh:
+            fh.write(build_place_kml(place, place_records))
+        station_shipped = sum(1 for r in place_records if r.lat is not None)
+        print(f"built {station_path} ({station_shipped} pins)")
+
     return 0
 
 

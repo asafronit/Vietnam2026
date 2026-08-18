@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ninh Binh</name>
+    <Style id="s-ninh-binh-hotels">
+      <IconStyle>
+        <color>fff4d442</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ninh-binh-must_see">
+      <IconStyle>
+        <color>fff4d442</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ninh-binh-attractions">
+      <IconStyle>
+        <color>fff4d442</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ninh-binh-food">
+      <IconStyle>
+        <color>fff4d442</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ninh-binh-markets">
+      <IconStyle>
+        <color>fff4d442</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ninh-binh-logistics">
+      <IconStyle>
+        <color>fff4d442</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ninh-binh-hotels-t5">
+      <IconStyle>
+        <color>fff4d442</color>
+        <scale>1.4</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ninh-binh-hotels-t4">
+      <IconStyle>
+        <color>fff4d442</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ninh-binh-hotels-t3">
+      <IconStyle>
+        <color>fff4d442</color>
+        <scale>0.9</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ninh-binh-hotels-avoid">
+      <IconStyle>
+        <color>ff3d26d7</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="place-anchor">
+      <IconStyle>
+        <color>ff6f2742</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>Ninh Binh</name>
+      <Placemark>
+        <name>Ninh Binh</name>
+        <styleUrl>#place-anchor</styleUrl>
+        <description><![CDATA[<b>Ninh Binh</b><br/>North<br/><a href="https://www.google.com/maps/dir/?api=1&destination=20.2505,105.9745&travelmode=driving">Directions</a><br/>Coords: 20.2505, 105.9745]]></description>
+        <Point>
+          <coordinates>105.9745,20.2505,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Hotels</name>
+      <Placemark>
+        <name>Ninh Binh Legend Hotel</name>
+        <styleUrl>#s-ninh-binh-hotels-t5</styleUrl>
+        <description><![CDATA[<b>Ninh Binh</b> &middot; City center<br/>5 stars<br/>$58-$120/night <i>(indicative, checked 2026-08-16)</i><br/><br/>A 260-room hotel in the middle of Ninh Binh city with three swimming pools, an indoor pool, outdoor tennis courts, sauna and gym.<br/><b>Why it's here:</b> The city-center 5-star option, for a stay closer to restaurants and the train station rather than out among the karsts<br/><a href="https://www.tripadvisor.com/Hotel_Review-g303945-d1761735-Reviews-Ninh_Binh_Legend_Hotel-Ninh_Binh_Ninh_Binh_Province.html">source 1</a> &middot; <a href="https://www.kayak.com/Ninh-Binh-Hotels-Ninh-Binh-Legend-Hotel.376440.ksp">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=20.2744939,105.9587265&travelmode=driving">Directions</a><br/>Coords: 20.2744939, 105.9587265]]></description>
+        <Point>
+          <coordinates>105.9587265,20.2744939,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Must-see</name>
+      <Placemark>
+        <name>Trang An Scenic Landscape Complex</name>
+        <styleUrl>#s-ninh-binh-must_see</styleUrl>
+        <description><![CDATA[<b>Ninh Binh</b> &middot; Ninh Hai Commune, Hoa Lu District, ~7km from Ninh Binh city<br/><br/>A UNESCO World Heritage limestone karst landscape toured by rowed sampan along a 3-hour river route that threads through nine natural cave tunnels beneath the cliffs.<br/><b>Why it's here:</b> The UNESCO-listed core of the whole 'Ha Long Bay on land' comparison, and the reason Ninh Binh is on the itinerary at all<br/><a href="https://wherearethosemorgans.com/trang-an-boat-tour/">source 1</a> &middot; <a href="https://www.getyourguide.com/trang-an-l36900/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=20.2537827,105.9005014&travelmode=driving">Directions</a><br/>Coords: 20.2537827, 105.9005014]]></description>
+        <Point>
+          <coordinates>105.9005014,20.2537827,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tam Coc boat ride</name>
+        <styleUrl>#s-ninh-binh-must_see</styleUrl>
+        <description><![CDATA[<b>Ninh Binh</b> &middot; Van Lam Village, Ninh Hai Commune<br/><i>Approximate location — search the name in Maps</i><br/><br/>A shorter 2-hour sampan ride, often rowed by foot, along the Ngo Dong River between rice paddies and through three limestone tunnels (Hang Ca, Hang Hai, Hang Ba) that give Tam Coc its name.<br/><b>Why it's here:</b> The classic, more compact counterpart to Trang An - green rice-paddy scenery in the dry season, flooded gold fields at harvest<br/><a href="https://happytovisit.com/ninh-binh-hoa-lu-mua-cave-and-trang-an-tour-and-boat-ride/">source 1</a> &middot; <a href="https://junglebosstours.com/explorer/tourism-blog/trang-an-boat-tour">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=20.2163426,105.937457&travelmode=driving">Directions</a><br/>Coords: 20.2163426, 105.937457]]></description>
+        <Point>
+          <coordinates>105.937457,20.2163426,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Attractions &amp; Experiences</name>
+      <Placemark>
+        <name>Hoa Lu Ancient Capital</name>
+        <styleUrl>#s-ninh-binh-attractions</styleUrl>
+        <description><![CDATA[<b>Ninh Binh</b> &middot; Truong Yen Commune, ~10km from Ninh Binh city<br/><br/>The restored temples of Dinh Tien Hoang and Le Dai Hanh, marking the site of Vietnam's 10th-century capital, set inside a ring of limestone mountains.<br/><b>Why it's here:</b> The historical anchor of the region, and usually combined with Trang An or Mua Cave into one day's route<br/><a href="https://happytovisit.com/ninh-binh-hoa-lu-bai-dinh-trang-an-and-mua-cave-tour/">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=20.283483,105.8995986&travelmode=driving">Directions</a><br/>Coords: 20.283483, 105.8995986]]></description>
+        <Point>
+          <coordinates>105.8995986,20.283483,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bai Dinh Pagoda</name>
+        <styleUrl>#s-ninh-binh-attractions</styleUrl>
+        <description><![CDATA[<b>Ninh Binh</b> &middot; Gia Sinh Commune, ~15km from Ninh Binh city<br/><i>Approximate location — search the name in Maps</i><br/><br/>The largest Buddhist temple complex in Vietnam, spread across a hillside with a giant bronze Buddha, hundreds of Arhat statues along covered corridors, and a bell tower housing one of Asia's largest bronze bells.<br/><b>Why it's here:</b> A different register from the boat-and-karst circuit - scale and religious architecture rather than nature<br/><a href="https://happytovisit.com/ninh-binh-hoa-lu-bai-dinh-trang-an-and-mua-cave-tour/">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=20.2752292,105.8654697&travelmode=driving">Directions</a><br/>Coords: 20.2752292, 105.8654697]]></description>
+        <Point>
+          <coordinates>105.8654697,20.2752292,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Food</name>
+      <Placemark>
+        <name>Duc De Restaurant</name>
+        <styleUrl>#s-ninh-binh-food</styleUrl>
+        <description><![CDATA[<b>Ninh Binh</b> &middot; City center, Ninh Binh<br/>traveler recommended<br/><br/>A long-running goat-meat restaurant on a main street in Ninh Binh city, serving the mountain goat (de nui) dishes the region is known for - steamed, grilled and in hotpot.<br/><b>Why it's here:</b> Consistently the most-reviewed goat-meat specialist in the city center, with a reputation built over years rather than a recent tourist spike<br/><a href="https://www.tripadvisor.com/Restaurant_Review-g303945-d8853028-Reviews-Duc_De_Restaurant-Ninh_Binh_Ninh_Binh_Province.html">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=20.2340333,105.9682771&travelmode=driving">Directions</a><br/>Coords: 20.2340333, 105.9682771]]></description>
+        <Point>
+          <coordinates>105.9682771,20.2340333,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trung Tuyet</name>
+        <styleUrl>#s-ninh-binh-food</styleUrl>
+        <description><![CDATA[<b>Ninh Binh</b> &middot; City center, Ninh Binh<br/>traveler recommended<br/><br/>A local eatery specializing in com chay - sun-dried rice pressed into crisp sheets, deep-fried and served with a savory meat-and-mushroom sauce - alongside egg soup and pho.<br/><b>Why it's here:</b> Ranked among the most reliable all-rounders in Ninh Binh on both Tripadvisor and Lonely Planet for the region's signature souvenir dish<br/><a href="https://pioneersailtravel.com/ninh-binh-restaurants/">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=20.2516139,105.97874&travelmode=driving">Directions</a><br/>Coords: 20.2516139, 105.97874]]></description>
+        <Point>
+          <coordinates>105.97874,20.2516139,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Markets &amp; Shopping</name>
+      <Placemark>
+        <name>Cho Rong (Rong Market)</name>
+        <styleUrl>#s-ninh-binh-markets</styleUrl>
+        <description><![CDATA[<b>Ninh Binh</b> &middot; 71 Van Giang Street, Thanh Binh Ward<br/><i>Approximate location — search the name in Maps</i><br/><br/>Ninh Binh city's main traditional market, spread across a three-story building and open-air stalls, selling household goods, textiles and a fresh-produce section with rice, fish, mountain goat meat and Kim Son rice wine.<br/><b>Why it's here:</b> The everyday market locals actually shop at, as opposed to the tourist-facing night market<br/><a href="https://hanoiexploretravel.com/things-to-do-ninh-binh/rong-market">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=20.2561711,105.9776166&travelmode=driving">Directions</a><br/>Coords: 20.2561711, 105.9776166]]></description>
+        <Point>
+          <coordinates>105.9776166,20.2561711,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Logistics</name>
+      <Placemark>
+        <name>Ninh Binh to Hanoi (train and road)</name>
+        <styleUrl>#s-ninh-binh-logistics</styleUrl>
+        <description><![CDATA[<b>Ninh Binh</b> &middot; Regional transfer<br/><br/>Ninh Binh's train station sits centrally in the city; five daily trains run to Hanoi's main station on Le Duan Street in about 2 hours, or a private car takes roughly the same time by road.<br/><b>Why it's here:</b> Fixes the practical transfer time between Ninh Binh and the trip's Hanoi anchor<br/><a href="https://oxalisadventure.com/hanoi-to-ninh-binh-best-transport-options/">source 1</a> &middot; <a href="https://a21tours.com/ninh-binh-city-to-hanoi-transfer">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=20.2421142,105.9746207&travelmode=driving">Directions</a><br/>Coords: 20.2421142, 105.9746207]]></description>
+        <Point>
+          <coordinates>105.9746207,20.2421142,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lotus Train - Ninh Binh to Dong Hoi (night train)</name>
+        <styleUrl>#s-ninh-binh-logistics</styleUrl>
+        <description><![CDATA[<b>Ninh Binh</b> &middot; Ninh Binh Railway Station, departure point<br/><br/>A privately refurbished overnight sleeper carriage (2-berth or 4-berth cabins, Vietnam Railways track) departing Ninh Binh around 22:00 and arriving Dong Hoi around 06:00, with onboard wifi, snacks and breakfast.<br/><b>Why it's here:</b> Turns the long road transfer south toward Phong Nha into a night's sleep instead of a lost travel day<br/><a href="https://lotustrain.vn/ninh-binh-to-dong-hoi-lotus-express">source 1</a> &middot; <a href="https://violetexpresstrain.com/ninh-binh-dong-hoi-on-lotus-train-se19.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=20.2421142,105.9746207&travelmode=driving">Directions</a><br/>Coords: 20.2421142, 105.9746207]]></description>
+        <Point>
+          <coordinates>105.9746207,20.2421142,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

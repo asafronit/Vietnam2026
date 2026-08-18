@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Hue</name>
+    <Style id="s-hue-hotels">
+      <IconStyle>
+        <color>ffb41e91</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hue-must_see">
+      <IconStyle>
+        <color>ffb41e91</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hue-attractions">
+      <IconStyle>
+        <color>ffb41e91</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hue-food">
+      <IconStyle>
+        <color>ffb41e91</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hue-markets">
+      <IconStyle>
+        <color>ffb41e91</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hue-logistics">
+      <IconStyle>
+        <color>ffb41e91</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hue-hotels-t5">
+      <IconStyle>
+        <color>ffb41e91</color>
+        <scale>1.4</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hue-hotels-t4">
+      <IconStyle>
+        <color>ffb41e91</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hue-hotels-t3">
+      <IconStyle>
+        <color>ffb41e91</color>
+        <scale>0.9</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hue-hotels-avoid">
+      <IconStyle>
+        <color>ff3d26d7</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="place-anchor">
+      <IconStyle>
+        <color>ff6f2742</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>Hue</name>
+      <Placemark>
+        <name>Hue</name>
+        <styleUrl>#place-anchor</styleUrl>
+        <description><![CDATA[<b>Hue</b><br/>Central<br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.4637,107.5909&travelmode=driving">Directions</a><br/>Coords: 16.4637, 107.5909]]></description>
+        <Point>
+          <coordinates>107.5909,16.4637,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Hotels</name>
+      <Placemark>
+        <name>Meliá Vinpearl Hue</name>
+        <styleUrl>#s-hue-hotels-t5</styleUrl>
+        <description><![CDATA[<b>Hue</b> &middot; City center, near the Perfume River and Truong Tien Bridge<br/>5 stars<br/>$54-$200/night <i>(indicative, checked 2026-08-16)</i><br/><br/>A high-rise 5-star hotel in the middle of Hue with a full-service spa, indoor pool, gym and sauna, a 10-minute walk from the Perfume River and Truong Tien Bridge.<br/><b>Why it's here:</b> The master-spec's own pick for a restored Hue visit, and the highest-reviewed international-chain 5-star in the city (9.4/10 from over 3,000 reviews)<br/><a href="https://www.tripadvisor.com/Hotel_Review-g293926-d15113220-Reviews-Melia_Vinpearl_Hue-Hue_Thua_Thien_Hue_Province.html">source 1</a> &middot; <a href="https://www.melia.com/en/hotels/vietnam/hue-city/melia-vinpearl-hue">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.463231,107.5941414&travelmode=driving">Directions</a><br/>Coords: 16.463231, 107.5941414]]></description>
+        <Point>
+          <coordinates>107.5941414,16.463231,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Eldora Hotel</name>
+        <styleUrl>#s-hue-hotels-t4</styleUrl>
+        <description><![CDATA[<b>Hue</b> &middot; City center<br/>4 stars<br/>$35-$90/night <i>(indicative, checked 2026-08-16)</i><br/><br/>An 81-room boutique hotel with bright, wood-floored rooms in a renaissance-style building in central Hue.<br/><b>Why it's here:</b> One of the few hotels in Hue with an unambiguous official 4-star classification rather than a self-declared one, and consistently praised for cleanliness<br/><a href="https://www.tripadvisor.com/Hotel_Review-g293926-d6416461-Reviews-Eldora_Hotel-Hue_Thua_Thien_Hue_Province.html">source 1</a> &middot; <a href="https://www.kayak.com/Hue-Hotels-Eldora-Hotel.2076224.ksp">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.4648595,107.5945502&travelmode=driving">Directions</a><br/>Coords: 16.4648595, 107.5945502]]></description>
+        <Point>
+          <coordinates>107.5945502,16.4648595,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jade Scene Hotel</name>
+        <styleUrl>#s-hue-hotels-t3</styleUrl>
+        <description><![CDATA[<b>Hue</b> &middot; 30/42 Nguyen Cong Tru Street, near the pub street and Perfume River embankment<br/>3 stars<br/>$33-$100/night <i>(indicative, checked 2026-08-16)</i><br/><br/>A new hotel a short walk from Hue's pub street and the river embankment, with a small rooftop pool overlooking the city and a spa.<br/><b>Why it's here:</b> One of the highest-rated hotels of any tier in Hue (9.2/10 from over 3,000 reviews) and an officially assessed 3-star, not a self-rated boutique<br/><a href="https://www.tripadvisor.com/Hotel_Review-g293926-d25179951-Reviews-Jade_Scene_Hotel-Hue_Thua_Thien_Hue_Province.html">source 1</a> &middot; <a href="https://www.booking.com/hotel/vn/jade-scene.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.4695305,107.5968967&travelmode=driving">Directions</a><br/>Coords: 16.4695305, 107.5968967]]></description>
+        <Point>
+          <coordinates>107.5968967,16.4695305,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thanh Lich Hue Hotel</name>
+        <styleUrl>#s-hue-hotels-t3</styleUrl>
+        <description><![CDATA[<b>Hue</b> &middot; City center<br/>3 stars (self-declared)<br/>$25-$54/night <i>(indicative, checked 2026-08-16)</i><br/><br/>A 40-room hotel with air-conditioned rooms, minibars and an indoor pool and sauna, with a rooftop breakfast serving both Asian and Western options.<br/><b>Why it's here:</b> A dependable budget-friendly city-center option (9.0/10 from over 900 reviews), though its 'plus' star billing is self-declared<br/><a href="https://www.momondo.com/hotels/hue/Thanh-Lich-Hue-Hotel.mhd2207716.ksp">source 1</a> &middot; <a href="https://www.kayak.com/Hue-Hotels-Thanh-Lich-2-Hotel.2207716.ksp">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.4703117,107.5959428&travelmode=driving">Directions</a><br/>Coords: 16.4703117, 107.5959428]]></description>
+        <Point>
+          <coordinates>107.5959428,16.4703117,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Must-see</name>
+      <Placemark>
+        <name>Khai Dinh Tomb</name>
+        <styleUrl>#s-hue-must_see</styleUrl>
+        <description><![CDATA[<b>Hue</b> &middot; Chau Chu Village, ~10km from Hue city<br/><br/>The last and most ornate of the Nguyen royal tombs, its concrete exterior built in a Gothic-tinged European style but its interior sarcophagus chamber an explosion of colorful ceramic-mosaic murals, reached by 127 stone steps.<br/><b>Why it's here:</b> The most visually striking of the seven royal tombs and unlike any other Nguyen monument in Hue<br/><a href="https://vinwonders.com/en/wonderpedia/news/khai-dinh-tomb-things-to-know-about-the-last-imperial-tomb-built-in-hue/">source 1</a> &middot; <a href="https://www.lonelyplanet.com/vietnam/central-vietnam/hue/attractions/tomb-of-khai-dinh/a/poi-sig/1158037/357875">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.3989537,107.5902801&travelmode=driving">Directions</a><br/>Coords: 16.3989537, 107.5902801]]></description>
+        <Point>
+          <coordinates>107.5902801,16.3989537,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Attractions &amp; Experiences</name>
+      <Placemark>
+        <name>Tu Duc Tomb</name>
+        <styleUrl>#s-hue-attractions</styleUrl>
+        <description><![CDATA[<b>Hue</b> &middot; Thuy Xuan Village, ~7km from Hue city<br/><br/>A landscaped royal retreat built around a lake in a pine-forested valley, where Emperor Tu Duc lived, wrote poetry and boated for years before his death, dotted with pavilions and temples rather than a single mausoleum building.<br/><b>Why it's here:</b> The gentlest and most park-like of the tombs - built as a living retreat, not just a burial site - and a contrast to Khai Dinh's grandeur<br/><a href="https://centralvietnamguide.com/tu-duc-tomb/">source 1</a> &middot; <a href="https://vinpearl.com/en/tu-duc-tomb-one-of-the-most-appealing-attractions-in-hue-to-visit">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.433089,107.5647017&travelmode=driving">Directions</a><br/>Coords: 16.433089, 107.5647017]]></description>
+        <Point>
+          <coordinates>107.5647017,16.433089,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Food</name>
+      <Placemark>
+        <name>Bun Bo Hue Ba Gai</name>
+        <styleUrl>#s-hue-food</styleUrl>
+        <description><![CDATA[<b>Hue</b> &middot; 11A Ha Noi Street, Vinh Ninh<br/><i>Approximate location — search the name in Maps</i><br/>traveler recommended<br/><br/>A 24-hour noodle shop serving bun bo Hue, the city's own spicy lemongrass-and-beef broth noodle soup, in a plain no-frills dining room popular with locals at all hours.<br/><b>Why it's here:</b> One of the most consistently recommended bun bo Hue spots in the city that actually invented the dish, open around the clock<br/><a href="https://www.willflyforfood.net/hue-food-guide/">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.4639321,107.5863388&travelmode=driving">Directions</a><br/>Coords: 16.4639321, 107.5863388]]></description>
+        <Point>
+          <coordinates>107.5863388,16.4639321,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lac Thien (Banh Khoai Lac Thien)</name>
+        <styleUrl>#s-hue-food</styleUrl>
+        <description><![CDATA[<b>Hue</b> &middot; 6 Dinh Tien Hoang Street<br/><i>Approximate location — search the name in Maps</i><br/>traveler recommended<br/><br/>A family-run restaurant grilling banh khoai to order - Hue's crisp turmeric rice-flour pancake, folded over pork, shrimp and bean sprouts and eaten wrapped in rice paper with a thick peanut-sesame dipping sauce.<br/><b>Why it's here:</b> Widely cited as Hue's best banh khoai, and the crunchiest version of the dish in the city<br/><a href="https://beebeetravel.com/banh-khoai-lac-thien-hue-local-food/">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.4720712,107.5846611&travelmode=driving">Directions</a><br/>Coords: 16.4720712, 107.5846611]]></description>
+        <Point>
+          <coordinates>107.5846611,16.4720712,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Markets &amp; Shopping</name>
+      <Placemark>
+        <name>Dong Ba Market</name>
+        <styleUrl>#s-hue-markets</styleUrl>
+        <description><![CDATA[<b>Hue</b> &middot; North bank of the Perfume River, city center<br/><br/>Hue's biggest market, a three-floor bell-shaped building where the ground floor sells dried seafood and local sauces, the second floor sells crafts like forged knives and ceramics, and the third is devoted to ao dai tailoring.<br/><b>Why it's here:</b> Central Vietnam's largest and oldest market, and as much a symbol of Hue's identity as the Citadel<br/><a href="https://vinwonders.com/en/wonderpedia/news/dong-ba-market-take-a-tour-to-one-of-the-busiest-markets-in-hue/">source 1</a> &middot; <a href="https://vietnamdiscovery.com/hue/shopping/dong-ba-market/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.4724474,107.5886452&travelmode=driving">Directions</a><br/>Coords: 16.4724474, 107.5886452]]></description>
+        <Point>
+          <coordinates>107.5886452,16.4724474,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Logistics</name>
+      <Placemark>
+        <name>Phu Bai Airport to Hue city center</name>
+        <styleUrl>#s-hue-logistics</styleUrl>
+        <description><![CDATA[<b>Hue</b> &middot; Airport transfer<br/><br/>Phu Bai International Airport sits about 15km south of Hue; a taxi or private car to the city center takes 20-30 minutes and costs roughly 250,000-300,000 VND ($10-12).<br/><b>Why it's here:</b> Fixes the transfer time for flying in or out of Hue directly, rather than via Da Nang<br/><a href="https://www.geckoroutes.com/vietnam/hue-airport/">source 1</a> &middot; <a href="https://danangtransfer.vn/en/4-ways-to-get-from-hue-airport-to-city-center-price-time-tips/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.399655,107.7054596&travelmode=driving">Directions</a><br/>Coords: 16.399655, 107.7054596]]></description>
+        <Point>
+          <coordinates>107.7054596,16.399655,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

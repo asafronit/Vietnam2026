@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Phong Nha</name>
+    <Style id="s-phong-nha-hotels">
+      <IconStyle>
+        <color>ffd86343</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-phong-nha-must_see">
+      <IconStyle>
+        <color>ffd86343</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-phong-nha-attractions">
+      <IconStyle>
+        <color>ffd86343</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-phong-nha-food">
+      <IconStyle>
+        <color>ffd86343</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-phong-nha-markets">
+      <IconStyle>
+        <color>ffd86343</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-phong-nha-logistics">
+      <IconStyle>
+        <color>ffd86343</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-phong-nha-hotels-t5">
+      <IconStyle>
+        <color>ffd86343</color>
+        <scale>1.4</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-phong-nha-hotels-t4">
+      <IconStyle>
+        <color>ffd86343</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-phong-nha-hotels-t3">
+      <IconStyle>
+        <color>ffd86343</color>
+        <scale>0.9</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-phong-nha-hotels-avoid">
+      <IconStyle>
+        <color>ff3d26d7</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="place-anchor">
+      <IconStyle>
+        <color>ff6f2742</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>Phong Nha</name>
+      <Placemark>
+        <name>Phong Nha</name>
+        <styleUrl>#place-anchor</styleUrl>
+        <description><![CDATA[<b>Phong Nha</b><br/>Central<br/><a href="https://www.google.com/maps/dir/?api=1&destination=17.5934,106.2865&travelmode=driving">Directions</a><br/>Coords: 17.5934, 106.2865]]></description>
+        <Point>
+          <coordinates>106.2865,17.5934,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Hotels</name>
+      <Placemark>
+        <name>Phong Nha Farmstay</name>
+        <styleUrl>#s-phong-nha-hotels-t3</styleUrl>
+        <description><![CDATA[<b>Phong Nha</b> &middot; Cu Nam, ~10km from Phong Nha town<br/><i>Approximate location — search the name in Maps</i><br/>3 stars (self-declared)<br/>$14-$34/night <i>(indicative, checked 2026-08-16)</i><br/><br/>The original farmstay of the area — simple rooms and a pool set among rice fields and grazing buffalo, run by an Australian-Vietnamese family with a restaurant and tour desk on site.<br/><b>Why it's here:</b> TripAdvisor's #1-ranked property in the national park (1,500+ reviews) and one of the two hotels the project's own agents agreed on.<br/><a href="https://www.tripadvisor.com/Hotel_Review-g4014591-d1930272-Reviews-Phong_Nha_Farmstay-Phong_Nha_Ke_Bang_National_Park_Quang_Binh_Province.html">source 1</a> &middot; <a href="https://www.booking.com/hotel/vn/phong-nha-farmstay.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=17.5818037,106.3087403&travelmode=driving">Directions</a><br/>Coords: 17.5818037, 106.3087403]]></description>
+        <Point>
+          <coordinates>106.3087403,17.5818037,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Must-see</name>
+      <Placemark>
+        <name>Paradise Cave</name>
+        <styleUrl>#s-phong-nha-must_see</styleUrl>
+        <description><![CDATA[<b>Phong Nha</b> &middot; Phong Nha-Ke Bang National Park<br/><i>Approximate location — search the name in Maps</i><br/><br/>A dry cave reached by a steep staircase and jungle path, then a kilometre of wooden walkway through a cavern hung with stalactites lit to look like an underground cathedral.<br/><b>Why it's here:</b> Regularly named one of the most beautiful caves in Vietnam, and doable without a guide or booking ahead<br/><a href="https://www.vietnamtourism.com/en/phong-nha-ke-bang-national-park-tickets-complete-2026-price-guide-and-cave-selection-2">source 1</a> &middot; <a href="https://oxalisadventure.com/paradise-cave-in-phong-nha/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=17.5192008,106.223045&travelmode=driving">Directions</a><br/>Coords: 17.5192008, 106.223045]]></description>
+        <Point>
+          <coordinates>106.223045,17.5192008,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Attractions &amp; Experiences</name>
+      <Placemark>
+        <name>Dark Cave zipline and mud bath</name>
+        <styleUrl>#s-phong-nha-attractions</styleUrl>
+        <description><![CDATA[<b>Phong Nha</b> &middot; Chay River, Phong Nha-Ke Bang National Park<br/><i>Approximate location — search the name in Maps</i><br/><br/>A short zipline across the Chay River into a pitch-black cave, followed by a swim to a natural mud pool deep inside, then kayaking back down the river.<br/><b>Why it's here:</b> The easiest adrenaline activity in Phong Nha — half a day, no fitness test, and the one every family and backpacker group does<br/><a href="https://www.getyourguide.com/phong-nha-l176859/phong-nha-cave-exploration-and-zipline-dark-cave-tour-t511831/">source 1</a> &middot; <a href="https://junglebosstours.com/explorer/tourism-blog/dark-cave-phong-nha">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=17.5742556,106.2527864&travelmode=driving">Directions</a><br/>Coords: 17.5742556, 106.2527864]]></description>
+        <Point>
+          <coordinates>106.2527864,17.5742556,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Duck Stop</name>
+        <styleUrl>#s-phong-nha-attractions</styleUrl>
+        <description><![CDATA[<b>Phong Nha</b> &middot; Bong Lai Valley, ~10km from Phong Nha town<br/><i>Approximate location — search the name in Maps</i><br/><br/>A small working duck farm where visitors feed and walk a flock of ducks along the paddy dikes, with a buffalo ride and a drink included.<br/><b>Why it's here:</b> TripAdvisor's #1-ranked Phong Nha attraction and the easiest, lightest thing to do on a rest day between caves<br/><a href="https://theduckstop.vn/">source 1</a> &middot; <a href="https://culturephamtravel.com/the-duck-stop/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=17.6041976,106.3657674&travelmode=driving">Directions</a><br/>Coords: 17.6041976, 106.3657674]]></description>
+        <Point>
+          <coordinates>106.3657674,17.6041976,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pub with Cold Beer</name>
+        <styleUrl>#s-phong-nha-attractions</styleUrl>
+        <description><![CDATA[<b>Phong Nha</b> &middot; Bong Lai Valley, near the Rao Con River<br/><i>Approximate location — search the name in Maps</i><br/><br/>A rustic family farm-bar down a country lane where you pick a live chicken from the garden and it's grilled to order, eaten in hammocks by the river.<br/><b>Why it's here:</b> The best-known stop on the Bong Lai Valley motorbike loop and a genuinely local, unstaged meal<br/><a href="https://culturephamtravel.com/the-duck-stop/">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=17.5982371,106.3635278&travelmode=driving">Directions</a><br/>Coords: 17.5982371, 106.3635278]]></description>
+        <Point>
+          <coordinates>106.3635278,17.5982371,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

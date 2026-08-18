@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Sapa</name>
+    <Style id="s-sapa-hotels">
+      <IconStyle>
+        <color>ff19e1ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-sapa-must_see">
+      <IconStyle>
+        <color>ff19e1ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-sapa-attractions">
+      <IconStyle>
+        <color>ff19e1ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-sapa-food">
+      <IconStyle>
+        <color>ff19e1ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-sapa-markets">
+      <IconStyle>
+        <color>ff19e1ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-sapa-logistics">
+      <IconStyle>
+        <color>ff19e1ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-sapa-hotels-t5">
+      <IconStyle>
+        <color>ff19e1ff</color>
+        <scale>1.4</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-sapa-hotels-t4">
+      <IconStyle>
+        <color>ff19e1ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-sapa-hotels-t3">
+      <IconStyle>
+        <color>ff19e1ff</color>
+        <scale>0.9</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-sapa-hotels-avoid">
+      <IconStyle>
+        <color>ff3d26d7</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="place-anchor">
+      <IconStyle>
+        <color>ff6f2742</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>Sapa</name>
+      <Placemark>
+        <name>Sapa</name>
+        <styleUrl>#place-anchor</styleUrl>
+        <description><![CDATA[<b>Sapa</b><br/>North<br/><a href="https://www.google.com/maps/dir/?api=1&destination=22.3364,103.844&travelmode=driving">Directions</a><br/>Coords: 22.3364, 103.844]]></description>
+        <Point>
+          <coordinates>103.844,22.3364,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Hotels</name>
+      <Placemark>
+        <name>Pao's Sapa Leisure Hotel</name>
+        <styleUrl>#s-sapa-hotels-t5</styleUrl>
+        <description><![CDATA[<b>Sapa</b> &middot; Sapa town hillside, Muong Hoa Valley view<br/>5 stars<br/>$90-$180/night <i>(indicative, checked 2026-08-16)</i><br/><br/>A 223-room resort built into the hillside with terrace views over the Muong Hoa rice-terrace valley and Fansipan, run by CTX Holdings.<br/><b>Why it's here:</b> Ranked #3 of 180+ Sapa hotels on Tripadvisor and independently confirmed as officially 5-star; note that several reviewers say the room quality feels closer to a solid 3-star by Western standards, so treat the rating as location- and facility-driven rather than a guarantee of finish quality<br/><a href="https://www.tripadvisor.com/Hotel_Review-g311304-d12786956-Reviews-Pao_s_Sapa_Leisure_Hotel-Sapa_Lao_Cai_Province.html">source 1</a> &middot; <a href="https://www.trip.com/hotels/sapa-hotel-detail-10540093/pao-s-sapa-leisure-hotel/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=22.3270114,103.8466396&travelmode=driving">Directions</a><br/>Coords: 22.3270114, 103.8466396]]></description>
+        <Point>
+          <coordinates>103.8466396,22.3270114,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Must-see</name>
+      <Placemark>
+        <name>Fansipan cable car and Muong Hoa mountain train</name>
+        <styleUrl>#s-sapa-must_see</styleUrl>
+        <description><![CDATA[<b>Sapa</b> &middot; Sun Plaza, Sapa town, to Fansipan summit<br/><i>Approximate location — search the name in Maps</i><br/><br/>A combined mountain train (Sun Plaza to Muong Hoa station) and a 6.3km cable car climbing to near the summit of Fansipan, at 3,143m the highest peak in Indochina, with a pagoda complex at the top station.<br/><b>Why it's here:</b> The easiest way to stand on the "Roof of Indochina" without a multi-day trek, and the combo ticket includes both legs<br/><a href="https://junglebosstours.com/explorer/tourism-blog/fansipan-mountain-sapa">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=22.3218699,103.7995338&travelmode=driving">Directions</a><br/>Coords: 22.3218699, 103.7995338]]></description>
+        <Point>
+          <coordinates>103.7995338,22.3218699,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cat Cat Village</name>
+        <styleUrl>#s-sapa-must_see</styleUrl>
+        <description><![CDATA[<b>Sapa</b> &middot; San Sa Ho commune, about 3km from Sapa town<br/><br/>A Black H'mong village at the entrance to the Muong Hoa Valley, founded in the mid-19th century, with three streams meeting at Cat Cat waterfall and two chain footbridges crossing it.<br/><b>Why it's here:</b> The most accessible ethnic-minority village from Sapa town, walkable in an afternoon<br/><a href="https://vinpearl.com/en/cat-cat-village-sapa">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=22.3309642,103.8340516&travelmode=driving">Directions</a><br/>Coords: 22.3309642, 103.8340516]]></description>
+        <Point>
+          <coordinates>103.8340516,22.3309642,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Food</name>
+      <Placemark>
+        <name>Thang Co A Quynh</name>
+        <styleUrl>#s-sapa-food</styleUrl>
+        <description><![CDATA[<b>Sapa</b> &middot; 15 Thach Son Street, Sapa town<br/><i>Approximate location — search the name in Maps</i><br/>traveler recommended<br/><br/>A long-running local restaurant serving thang co, the H'mong horse-meat and offal stew simmered with highland herbs, alongside other mountain specialities.<br/><b>Why it's here:</b> The most consistently recommended address in Sapa for this specific regional dish, with an established following on Tripadvisor and local guides alike<br/><a href="https://www.tripadvisor.com/Restaurant_Review-g311304-d12951605-Reviews-Thang_Co_A_Quynh_Restaurant-Sapa_Lao_Cai_Province.html">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=22.3360931,103.8445752&travelmode=driving">Directions</a><br/>Coords: 22.3360931, 103.8445752]]></description>
+        <Point>
+          <coordinates>103.8445752,22.3360931,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Logistics</name>
+      <Placemark>
+        <name>Hanoi to Sapa transfer options</name>
+        <styleUrl>#s-sapa-logistics</styleUrl>
+        <description><![CDATA[<b>Sapa</b> &middot; Hanoi to Sapa town<br/><br/>Two practical ways to cover the roughly 300km/6 hours - an overnight sleeper train from Hanoi to Lao Cai followed by a 45-60 minute shuttle up to Sapa, or a direct day or overnight limousine van/sleeper bus (5.5-6 hours, roughly 300,000-660,000 VND depending on seat class).<br/><b>Why it's here:</b> The overnight train turns a dead travel day into a night's sleep, but only the van/bus goes door-to-door into Sapa town itself<br/><a href="https://a21tours.com/sapa-sleeper-bus-vs-limousine-van">source 1</a> &middot; <a href="https://visit-sapa.com/en/blog/hanoi-sapa-bus-limousine">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=22.3399787,103.8485698&travelmode=driving">Directions</a><br/>Coords: 22.3399787, 103.8485698]]></description>
+        <Point>
+          <coordinates>103.8485698,22.3399787,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

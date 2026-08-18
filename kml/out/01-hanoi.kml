@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Hanoi</name>
+    <Style id="s-hanoi-hotels">
+      <IconStyle>
+        <color>ff4b19e6</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hanoi-must_see">
+      <IconStyle>
+        <color>ff4b19e6</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hanoi-attractions">
+      <IconStyle>
+        <color>ff4b19e6</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hanoi-food">
+      <IconStyle>
+        <color>ff4b19e6</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hanoi-markets">
+      <IconStyle>
+        <color>ff4b19e6</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hanoi-logistics">
+      <IconStyle>
+        <color>ff4b19e6</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hanoi-hotels-t5">
+      <IconStyle>
+        <color>ff4b19e6</color>
+        <scale>1.4</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hanoi-hotels-t4">
+      <IconStyle>
+        <color>ff4b19e6</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hanoi-hotels-t3">
+      <IconStyle>
+        <color>ff4b19e6</color>
+        <scale>0.9</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hanoi-hotels-avoid">
+      <IconStyle>
+        <color>ff3d26d7</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="place-anchor">
+      <IconStyle>
+        <color>ff6f2742</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>Hanoi</name>
+      <Placemark>
+        <name>Hanoi</name>
+        <styleUrl>#place-anchor</styleUrl>
+        <description><![CDATA[<b>Hanoi</b><br/>North<br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0285,105.8522&travelmode=driving">Directions</a><br/>Coords: 21.0285, 105.8522]]></description>
+        <Point>
+          <coordinates>105.8522,21.0285,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Hotels</name>
+      <Placemark>
+        <name>Peridot Grand Luxury Boutique</name>
+        <styleUrl>#s-hanoi-hotels-t5</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Hoan Kiem, Old Quarter<br/>5 stars<br/>$80-$137/night <i>(indicative, checked 2026-08-16)</i><br/><br/>A 5-star boutique hotel a few minutes' walk from Hoan Kiem Lake, with a rooftop pool and bar looking over the Old Quarter roofline.<br/><b>Why it's here:</b> Best rating-to-location ratio of any hotel in the four agent proposals<br/><a href="https://www.booking.com/hotel/vn/peridot-grand-amp-spa-by-aira-hoan-kiem1.html">source 1</a> &middot; <a href="https://guide.michelin.com/en/hotels-stays/hanoi">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0330476,105.8462971&travelmode=driving">Directions</a><br/>Coords: 21.0330476, 105.8462971]]></description>
+        <Point>
+          <coordinates>105.8462971,21.0330476,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GM Premium Hotel</name>
+        <styleUrl>#s-hanoi-hotels-t5</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Hoan Kiem, Old Quarter<br/>5 stars (self-declared)<br/>$58-$162/night <i>(indicative, checked 2026-08-16)</i><br/><br/>A small Indochine-style hotel a short walk from Hoan Kiem Lake, with a rooftop pool and bar and a lobby styled like a private residence rather than a chain hotel.<br/><b>Why it's here:</b> Markets itself as 5-star and is priced and reviewed like one, but the rating is self-declared rather than issued by a tourism authority<br/><a href="https://www.tripadvisor.com/Hotel_Review-g293924-d24001394-Reviews-GM_Premium_Hotel-Hanoi.html">source 1</a> &middot; <a href="https://www.agoda.com/gm-premium-hotel_2/hotel/hanoi-vn.html">source 2</a> &middot; <a href="https://guide.michelin.com/en/hotels-stays/hoan-kiem/gm-premium-hotel-15158">source 3</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0307612,105.8481999&travelmode=driving">Directions</a><br/>Coords: 21.0307612, 105.8481999]]></description>
+        <Point>
+          <coordinates>105.8481999,21.0307612,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Sinfonia del Rey Hotel &amp; Spa</name>
+        <styleUrl>#s-hanoi-hotels-t4</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Hoan Kiem, opposite Hoan Kiem Lake<br/><i>Approximate location — search the name in Maps</i><br/>4 stars (self-declared)<br/>$55-$130/night <i>(indicative, checked 2026-08-16)</i><br/><br/>A neoclassical-styled hotel directly across from Hoan Kiem Lake, with a sky bar and a lake-view restaurant on the upper floors.<br/><b>Why it's here:</b> Unbeatable lake-front position; guest reviews and marketing describe it as 5-star but third-party listings place it at 4-star, so treat the rating as self-promoted<br/><a href="https://www.tripadvisor.com/Hotel_Review-g293924-d17627438-Reviews-La_Sinfonia_del_Rey_Hotel_Spa-Hanoi.html">source 1</a> &middot; <a href="https://www.booking.com/hotel/vn/la-sinfonia-del-rey-amp-spa.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0311556,105.8541135&travelmode=driving">Directions</a><br/>Coords: 21.0311556, 105.8541135]]></description>
+        <Point>
+          <coordinates>105.8541135,21.0311556,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hanoi La Storia Hotel</name>
+        <styleUrl>#s-hanoi-hotels-t3</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Old Quarter, near Hang Ma Street and Dong Xuan Market<br/><i>Approximate location — search the name in Maps</i><br/>3 stars<br/>$25-$50/night <i>(indicative, checked 2026-08-16)</i><br/><br/>An 18-room hotel on a quiet Old Quarter street four minutes' walk from Dong Xuan Market, with soundproofed rooms and an in-room computer in some categories.<br/><b>Why it's here:</b> Officially rated 3.0-star with a genuine budget price point and strong, if imperfect, reviews<br/><a href="https://www.tripadvisor.com/Hotel_Review-g293924-d12154091-Reviews-Hanoi_La_Storia_Hotel-Hanoi.html">source 1</a> &middot; <a href="https://www.traveloka.com/en-en/hotel/vietnam/hanoi-la-storia-hotel--4000000389115">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0357127,105.847721&travelmode=driving">Directions</a><br/>Coords: 21.0357127, 105.847721]]></description>
+        <Point>
+          <coordinates>105.847721,21.0357127,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Must-see</name>
+      <Placemark>
+        <name>Hoan Kiem Lake</name>
+        <styleUrl>#s-hanoi-must_see</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Hoan Kiem<br/><br/>The lake at the centre of old Hanoi, with a small red bridge to a temple island. Locals walk and exercise around it at first light.<br/><b>Why it's here:</b> The city organises itself around this lake, and walking it is free<br/><a href="https://en.wikipedia.org/wiki/Ho%C3%A0n_Ki%E1%BA%BFm_Lake">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0288313,105.8525357&travelmode=driving">Directions</a><br/>Coords: 21.0288313, 105.8525357]]></description>
+        <Point>
+          <coordinates>105.8525357,21.0288313,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Temple of Literature</name>
+        <styleUrl>#s-hanoi-must_see</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Dong Da, Van Mieu street<br/><i>Approximate location — search the name in Maps</i><br/><br/>A walled 2.5-hectare Confucian temple complex founded in 1070, with five courtyards, stone stelae on turtle bases recording centuries of exam graduates, and a wooden hall dedicated to Confucius.<br/><b>Why it's here:</b> Vietnam's first national university and one of Hanoi's oldest intact historical sites<br/><a href="https://en.wikipedia.org/wiki/Temple_of_Literature,_Hanoi">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0287903,105.8359533&travelmode=driving">Directions</a><br/>Coords: 21.0287903, 105.8359533]]></description>
+        <Point>
+          <coordinates>105.8359533,21.0287903,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hoa Lo Prison Museum</name>
+        <styleUrl>#s-hanoi-must_see</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Hoan Kiem, Hoa Lo street<br/><br/>A preserved wing of a French colonial-era prison built in 1896, nicknamed the "Hanoi Hilton" by American POWs held there in the 1960s-70s. Exhibits include a guillotine and the cell blocks used to hold Vietnamese independence activists.<br/><b>Why it's here:</b> A blunt, unfiltered look at both the colonial and American-war periods of Vietnamese history, in the middle of the modern city<br/><a href="https://www.lonelyplanet.com/vietnam/hanoi/attractions/hoa-lo-prison-museum/a/poi-sig/1141862/357880">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0254222,105.8465093&travelmode=driving">Directions</a><br/>Coords: 21.0254222, 105.8465093]]></description>
+        <Point>
+          <coordinates>105.8465093,21.0254222,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Attractions &amp; Experiences</name>
+      <Placemark>
+        <name>Vietnam Museum of Ethnology</name>
+        <styleUrl>#s-hanoi-attractions</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Cau Giay, about 8km from the Old Quarter<br/><br/>An open-air and indoor museum on the 54 officially recognised ethnic groups of Vietnam, with full-size reconstructed stilt houses and tombs in the garden and 15,000+ artifacts inside.<br/><b>Why it's here:</b> The single best introduction to the hill-tribe cultures the trip later passes through in Sapa and Ha Giang<br/><a href="https://en.wikipedia.org/wiki/Vietnam_Museum_of_Ethnology">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0400774,105.7988403&travelmode=driving">Directions</a><br/>Coords: 21.0400774, 105.7988403]]></description>
+        <Point>
+          <coordinates>105.7988403,21.0400774,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Food</name>
+      <Placemark>
+        <name>Bun Cha Huong Lien</name>
+        <styleUrl>#s-hanoi-food</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Hai Ba Trung<br/>michelin bib<br/><br/>A plain three-storey shop that has grilled pork patties over charcoal since the 1990s, served in a bowl of broth with noodles and herbs.<br/><b>Why it's here:</b> Michelin Bib Gourmand, and the dish Hanoi is best known for<br/><a href="https://guide.michelin.com/vn/en/ha-noi-municipality/hanoi/restaurants">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0180504,105.8538843&travelmode=driving">Directions</a><br/>Coords: 21.0180504, 105.8538843]]></description>
+        <Point>
+          <coordinates>105.8538843,21.0180504,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cha Ca Thang Long</name>
+        <styleUrl>#s-hanoi-food</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Old Quarter, Duong Thanh street<br/>michelin bib<br/><br/>A no-frills shop where turmeric-marinated fish is grilled tableside on a charcoal brazier, then finished in a pan with dill and spring onion and served over rice noodles.<br/><b>Why it's here:</b> Michelin Bib Gourmand and the most consistently recommended cha ca address left in the Old Quarter<br/><a href="https://guide.michelin.com/us/en/ha-noi/ha-noi_2974158/restaurant/cha-ca-thang-long">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.033293,105.8459895&travelmode=driving">Directions</a><br/>Coords: 21.033293, 105.8459895]]></description>
+        <Point>
+          <coordinates>105.8459895,21.033293,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gia</name>
+        <styleUrl>#s-hanoi-food</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Tay Ho (West Lake)<br/><i>Approximate location — search the name in Maps</i><br/>michelin star<br/><br/>A small tasting-menu restaurant built around a chef's-table kitchen, serving a set multi-course menu that reworks Vietnamese ingredients in a modern fine-dining format.<br/><b>Why it's here:</b> One of Vietnam's first Michelin-starred restaurants (awarded 2025, retained 2026), and Hanoi's clearest high-end tasting-menu option<br/><a href="https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-guide-vietnam-2026">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0205027,105.7639271&travelmode=driving">Directions</a><br/>Coords: 21.0205027, 105.7639271]]></description>
+        <Point>
+          <coordinates>105.7639271,21.0205027,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Markets &amp; Shopping</name>
+      <Placemark>
+        <name>Dong Xuan Market</name>
+        <styleUrl>#s-hanoi-markets</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Old Quarter, 600m north of Hoan Kiem Lake<br/><br/>Hanoi's largest covered market, three floors and five linked pavilion halls over 6,500 square metres, selling everything from textiles and household goods to a ground-floor food and produce section.<br/><b>Why it's here:</b> The working market Hanoians actually shop at, not a tourist-only stall row<br/><a href="https://en.wikipedia.org/wiki/%C4%90%E1%BB%93ng_Xu%C3%A2n_Market">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0382556,105.849671&travelmode=driving">Directions</a><br/>Coords: 21.0382556, 105.849671]]></description>
+        <Point>
+          <coordinates>105.849671,21.0382556,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hanoi Weekend Night Market</name>
+        <styleUrl>#s-hanoi-markets</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Old Quarter, Hang Dao / Hang Ngang / Hang Luoc streets<br/><br/>A near-3km stretch of Old Quarter streets closed to traffic on Friday, Saturday and Sunday evenings and filled with clothing and souvenir stalls, street food carts, and impromptu street performances.<br/><b>Why it's here:</b> Only runs three nights a week, so it is worth timing the Hanoi stay around if the dates line up<br/><a href="https://vinpearl.com/en/hanoi-weekend-night-market">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0335078,105.8509571&travelmode=driving">Directions</a><br/>Coords: 21.0335078, 105.8509571]]></description>
+        <Point>
+          <coordinates>105.8509571,21.0335078,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Logistics</name>
+      <Placemark>
+        <name>Noi Bai Airport to Old Quarter transfer</name>
+        <styleUrl>#s-hanoi-logistics</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Noi Bai International Airport to Hoan Kiem<br/><br/>The airport sits about 27-30km north of the Old Quarter; a metered taxi or pre-booked private transfer takes 30-40 minutes off-peak (up to 90 in traffic) and costs roughly 300,000-350,000 VND, while a Grab typically comes in cheaper at around 240,000-250,000 VND plus tolls.<br/><b>Why it's here:</b> The first and last transfer of the whole trip, and the one most worth pre-booking to skip the arrivals-hall taxi touts<br/><a href="https://eternalarrival.com/grab-at-hanoi-airport-noi-bai/">source 1</a> &middot; <a href="https://unchartedlens.com/routes/vietnam/hanoi-airport-to-city-transport-comparison/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.2188925,105.8044596&travelmode=driving">Directions</a><br/>Coords: 21.2188925, 105.8044596]]></description>
+        <Point>
+          <coordinates>105.8044596,21.2188925,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
