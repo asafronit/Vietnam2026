@@ -14,6 +14,9 @@ hotels:
   sources:
   - https://www.booking.com/hotel/vn/peridot-grand-amp-spa-by-aira-hoan-kiem1.html
   - https://guide.michelin.com/en/hotels-stays/hanoi
+  coords:
+    lat: 21.0330476
+    lng: 105.8462971
 - name: GM Premium Hotel
   tier: 5
   tier_official: false
@@ -31,6 +34,9 @@ hotels:
   - https://www.tripadvisor.com/Hotel_Review-g293924-d24001394-Reviews-GM_Premium_Hotel-Hanoi.html
   - https://www.agoda.com/gm-premium-hotel_2/hotel/hanoi-vn.html
   - https://guide.michelin.com/en/hotels-stays/hoan-kiem/gm-premium-hotel-15158
+  coords:
+    lat: 21.0307612
+    lng: 105.8481999
 - name: Aurora Premium - A Lifestyle Hotel
   tier: 4
   tier_official: true
@@ -59,8 +65,7 @@ hotels:
   what: A neoclassical-styled hotel directly across from Hoan Kiem Lake, with a sky
     bar and a lake-view restaurant on the upper floors.
   why: Unbeatable lake-front position; guest reviews and marketing describe it as
-    5-star but third-party listings place it at 4-star, so treat the rating as
-    self-promoted
+    5-star but third-party listings place it at 4-star, so treat the rating as self-promoted
   confidence: medium
   geocode_query: La Sinfonia del Rey Hotel and Spa, Hoan Kiem, Hanoi, Vietnam
   sources:
@@ -91,8 +96,8 @@ hotels:
   area: Old Quarter, near Hang Ma Street and Dong Xuan Market
   what: An 18-room hotel on a quiet Old Quarter street four minutes' walk from Dong
     Xuan Market, with soundproofed rooms and an in-room computer in some categories.
-  why: Officially rated 3.0-star with a genuine budget price point and strong,
-    if imperfect, reviews
+  why: Officially rated 3.0-star with a genuine budget price point and strong, if
+    imperfect, reviews
   confidence: high
   geocode_query: Hanoi La Storia Hotel, Hang Ma, Hanoi, Vietnam
   sources:
@@ -108,13 +113,16 @@ must_see:
   geocode_query: Hoan Kiem Lake, Hanoi, Vietnam
   sources:
   - https://en.wikipedia.org/wiki/Ho%C3%A0n_Ki%E1%BA%BFm_Lake
+  coords:
+    lat: 21.0288313
+    lng: 105.8525357
 - name: Temple of Literature
   area: Dong Da, Van Mieu street
-  what: A walled 2.5-hectare Confucian temple complex founded in 1070, with five
-    courtyards, stone stelae on turtle bases recording centuries of exam graduates,
-    and a wooden hall dedicated to Confucius.
-  why: Vietnam's first national university and one of Hanoi's oldest intact
-    historical sites
+  what: A walled 2.5-hectare Confucian temple complex founded in 1070, with five courtyards,
+    stone stelae on turtle bases recording centuries of exam graduates, and a wooden
+    hall dedicated to Confucius.
+  why: Vietnam's first national university and one of Hanoi's oldest intact historical
+    sites
   confidence: high
   geocode_query: Temple of Literature Van Mieu, Dong Da, Hanoi, Vietnam
   sources:
@@ -124,29 +132,35 @@ must_see:
   what: A preserved wing of a French colonial-era prison built in 1896, nicknamed
     the "Hanoi Hilton" by American POWs held there in the 1960s-70s. Exhibits include
     a guillotine and the cell blocks used to hold Vietnamese independence activists.
-  why: A blunt, unfiltered look at both the colonial and American-war periods of
-    Vietnamese history, in the middle of the modern city
+  why: A blunt, unfiltered look at both the colonial and American-war periods of Vietnamese
+    history, in the middle of the modern city
   confidence: high
   geocode_query: Hoa Lo Prison Museum, Hanoi, Vietnam
   sources:
   - https://www.lonelyplanet.com/vietnam/hanoi/attractions/hoa-lo-prison-museum/a/poi-sig/1141862/357880
+  coords:
+    lat: 21.0254222
+    lng: 105.8465093
 attractions:
 - name: Vietnam Museum of Ethnology
   area: Cau Giay, about 8km from the Old Quarter
   what: An open-air and indoor museum on the 54 officially recognised ethnic groups
     of Vietnam, with full-size reconstructed stilt houses and tombs in the garden
     and 15,000+ artifacts inside.
-  why: The single best introduction to the hill-tribe cultures the trip later
-    passes through in Sapa and Ha Giang
+  why: The single best introduction to the hill-tribe cultures the trip later passes
+    through in Sapa and Ha Giang
   confidence: high
   geocode_query: Vietnam Museum of Ethnology, Cau Giay, Hanoi, Vietnam
   sources:
   - https://en.wikipedia.org/wiki/Vietnam_Museum_of_Ethnology
+  coords:
+    lat: 21.0400774
+    lng: 105.7988403
 - name: Hanoi Train Street coffee shops
   area: Old Quarter, Phung Hung / Le Duan
-  what: A row of narrow-gauge cafes squeezed along an active railway corridor;
-    twice a day a train passes within arm's reach of the tables and everyone pulls
-    their chairs back against the walls.
+  what: A row of narrow-gauge cafes squeezed along an active railway corridor; twice
+    a day a train passes within arm's reach of the tables and everyone pulls their
+    chairs back against the walls.
   why: A genuinely strange, camera-ready five minutes, though access has tightened
     to a store-led system after past crowd-safety closures
   confidence: medium
@@ -164,17 +178,23 @@ markets:
   geocode_query: Dong Xuan Market, Hanoi, Vietnam
   sources:
   - https://en.wikipedia.org/wiki/%C4%90%E1%BB%93ng_Xu%C3%A2n_Market
+  coords:
+    lat: 21.0382556
+    lng: 105.849671
 - name: Hanoi Weekend Night Market
   area: Old Quarter, Hang Dao / Hang Ngang / Hang Luoc streets
-  what: A near-3km stretch of Old Quarter streets closed to traffic on Friday,
-    Saturday and Sunday evenings and filled with clothing and souvenir stalls,
-    street food carts, and impromptu street performances.
+  what: A near-3km stretch of Old Quarter streets closed to traffic on Friday, Saturday
+    and Sunday evenings and filled with clothing and souvenir stalls, street food
+    carts, and impromptu street performances.
   why: Only runs three nights a week, so it is worth timing the Hanoi stay around
     if the dates line up
   confidence: high
   geocode_query: Hanoi Weekend Night Market, Hang Dao, Hanoi, Vietnam
   sources:
   - https://vinpearl.com/en/hanoi-weekend-night-market
+  coords:
+    lat: 21.0335078
+    lng: 105.8509571
 food:
 - name: Bun Cha Huong Lien
   kind: vietnamese
@@ -188,28 +208,34 @@ food:
   geocode_query: Bun Cha Huong Lien, Le Van Huu, Hanoi, Vietnam
   sources:
   - https://guide.michelin.com/vn/en/ha-noi-municipality/hanoi/restaurants
+  coords:
+    lat: 21.0180504
+    lng: 105.8538843
 - name: Cha Ca Thang Long
   kind: vietnamese
   signal: michelin_bib
   dish: Cha ca (turmeric fish with dill)
   area: Old Quarter, Duong Thanh street
-  what: A no-frills shop where turmeric-marinated fish is grilled tableside on a
-    charcoal brazier, then finished in a pan with dill and spring onion and served
-    over rice noodles.
+  what: A no-frills shop where turmeric-marinated fish is grilled tableside on a charcoal
+    brazier, then finished in a pan with dill and spring onion and served over rice
+    noodles.
   why: Michelin Bib Gourmand and the most consistently recommended cha ca address
     left in the Old Quarter
   confidence: high
   geocode_query: Cha Ca Thang Long, Duong Thanh, Hanoi, Vietnam
   sources:
   - https://guide.michelin.com/us/en/ha-noi/ha-noi_2974158/restaurant/cha-ca-thang-long
+  coords:
+    lat: 21.033293
+    lng: 105.8459895
 - name: Gia
   kind: international
   signal: michelin_star
   dish: Tasting menu, modern Vietnamese-French
   area: Tay Ho (West Lake)
   what: A small tasting-menu restaurant built around a chef's-table kitchen, serving
-    a set multi-course menu that reworks Vietnamese ingredients in a modern
-    fine-dining format.
+    a set multi-course menu that reworks Vietnamese ingredients in a modern fine-dining
+    format.
   why: One of Vietnam's first Michelin-starred restaurants (awarded 2025, retained
     2026), and Hanoi's clearest high-end tasting-menu option
   confidence: high
@@ -219,14 +245,17 @@ food:
 logistics:
 - name: Noi Bai Airport to Old Quarter transfer
   area: Noi Bai International Airport to Hoan Kiem
-  what: The airport sits about 27-30km north of the Old Quarter; a metered taxi
-    or pre-booked private transfer takes 30-40 minutes off-peak (up to 90 in
-    traffic) and costs roughly 300,000-350,000 VND, while a Grab typically comes
-    in cheaper at around 240,000-250,000 VND plus tolls.
-  why: The first and last transfer of the whole trip, and the one most worth
-    pre-booking to skip the arrivals-hall taxi touts
+  what: The airport sits about 27-30km north of the Old Quarter; a metered taxi or
+    pre-booked private transfer takes 30-40 minutes off-peak (up to 90 in traffic)
+    and costs roughly 300,000-350,000 VND, while a Grab typically comes in cheaper
+    at around 240,000-250,000 VND plus tolls.
+  why: The first and last transfer of the whole trip, and the one most worth pre-booking
+    to skip the arrivals-hall taxi touts
   confidence: high
   geocode_query: Noi Bai International Airport, Hanoi, Vietnam
   sources:
   - https://eternalarrival.com/grab-at-hanoi-airport-noi-bai/
   - https://unchartedlens.com/routes/vietnam/hanoi-airport-to-city-transport-comparison/
+  coords:
+    lat: 21.2188925
+    lng: 105.8044596

@@ -1399,5 +1399,631 @@
         </LineString>
       </Placemark>
     </Folder>
+    <Folder>
+      <name>Hotels</name>
+      <Placemark>
+        <name>Peridot Grand Luxury Boutique</name>
+        <styleUrl>#s-hanoi-hotels-t5</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Hoan Kiem, Old Quarter<br/>5 stars<br/>$80-$137/night <i>(indicative, checked 2026-08-16)</i><br/><br/>A 5-star boutique hotel a few minutes' walk from Hoan Kiem Lake, with a rooftop pool and bar looking over the Old Quarter roofline.<br/><b>Why it's here:</b> Best rating-to-location ratio of any hotel in the four agent proposals<br/><a href="https://www.booking.com/hotel/vn/peridot-grand-amp-spa-by-aira-hoan-kiem1.html">source 1</a> &middot; <a href="https://guide.michelin.com/en/hotels-stays/hanoi">source 2</a>]]></description>
+        <Point>
+          <coordinates>105.8462971,21.0330476,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GM Premium Hotel</name>
+        <styleUrl>#s-hanoi-hotels-t5</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Hoan Kiem, Old Quarter<br/>5 stars (self-declared)<br/>$58-$162/night <i>(indicative, checked 2026-08-16)</i><br/><br/>A small Indochine-style hotel a short walk from Hoan Kiem Lake, with a rooftop pool and bar and a lobby styled like a private residence rather than a chain hotel.<br/><b>Why it's here:</b> Markets itself as 5-star and is priced and reviewed like one, but the rating is self-declared rather than issued by a tourism authority<br/><a href="https://www.tripadvisor.com/Hotel_Review-g293924-d24001394-Reviews-GM_Premium_Hotel-Hanoi.html">source 1</a> &middot; <a href="https://www.agoda.com/gm-premium-hotel_2/hotel/hanoi-vn.html">source 2</a> &middot; <a href="https://guide.michelin.com/en/hotels-stays/hoan-kiem/gm-premium-hotel-15158">source 3</a>]]></description>
+        <Point>
+          <coordinates>105.8481999,21.0307612,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pao's Sapa Leisure Hotel</name>
+        <styleUrl>#s-sapa-hotels-t5</styleUrl>
+        <description><![CDATA[<b>Sapa</b> &middot; Sapa town hillside, Muong Hoa Valley view<br/>5 stars<br/>$90-$180/night <i>(indicative, checked 2026-08-16)</i><br/><br/>A 223-room resort built into the hillside with terrace views over the Muong Hoa rice-terrace valley and Fansipan, run by CTX Holdings.<br/><b>Why it's here:</b> Ranked #3 of 180+ Sapa hotels on Tripadvisor and independently confirmed as officially 5-star; note that several reviewers say the room quality feels closer to a solid 3-star by Western standards, so treat the rating as location- and facility-driven rather than a guarantee of finish quality<br/><a href="https://www.tripadvisor.com/Hotel_Review-g311304-d12786956-Reviews-Pao_s_Sapa_Leisure_Hotel-Sapa_Lao_Cai_Province.html">source 1</a> &middot; <a href="https://www.trip.com/hotels/sapa-hotel-detail-10540093/pao-s-sapa-leisure-hotel/">source 2</a>]]></description>
+        <Point>
+          <coordinates>103.8466396,22.3270114,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ninh Binh Legend Hotel</name>
+        <styleUrl>#s-ninh-binh-hotels-t5</styleUrl>
+        <description><![CDATA[<b>Ninh Binh</b> &middot; City center<br/>5 stars<br/>$58-$120/night <i>(indicative, checked 2026-08-16)</i><br/><br/>A 260-room hotel in the middle of Ninh Binh city with three swimming pools, an indoor pool, outdoor tennis courts, sauna and gym.<br/><b>Why it's here:</b> The city-center 5-star option, for a stay closer to restaurants and the train station rather than out among the karsts<br/><a href="https://www.tripadvisor.com/Hotel_Review-g303945-d1761735-Reviews-Ninh_Binh_Legend_Hotel-Ninh_Binh_Ninh_Binh_Province.html">source 1</a> &middot; <a href="https://www.kayak.com/Ninh-Binh-Hotels-Ninh-Binh-Legend-Hotel.376440.ksp">source 2</a>]]></description>
+        <Point>
+          <coordinates>105.9587265,20.2744939,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Meliá Vinpearl Hue</name>
+        <styleUrl>#s-hue-hotels-t5</styleUrl>
+        <description><![CDATA[<b>Hue</b> &middot; City center, near the Perfume River and Truong Tien Bridge<br/>5 stars<br/>$54-$200/night <i>(indicative, checked 2026-08-16)</i><br/><br/>A high-rise 5-star hotel in the middle of Hue with a full-service spa, indoor pool, gym and sauna, a 10-minute walk from the Perfume River and Truong Tien Bridge.<br/><b>Why it's here:</b> The master-spec's own pick for a restored Hue visit, and the highest-reviewed international-chain 5-star in the city (9.4/10 from over 3,000 reviews)<br/><a href="https://www.tripadvisor.com/Hotel_Review-g293926-d15113220-Reviews-Melia_Vinpearl_Hue-Hue_Thua_Thien_Hue_Province.html">source 1</a> &middot; <a href="https://www.melia.com/en/hotels/vietnam/hue-city/melia-vinpearl-hue">source 2</a>]]></description>
+        <Point>
+          <coordinates>107.5941414,16.463231,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Eldora Hotel</name>
+        <styleUrl>#s-hue-hotels-t4</styleUrl>
+        <description><![CDATA[<b>Hue</b> &middot; City center<br/>4 stars<br/>$35-$90/night <i>(indicative, checked 2026-08-16)</i><br/><br/>An 81-room boutique hotel with bright, wood-floored rooms in a renaissance-style building in central Hue.<br/><b>Why it's here:</b> One of the few hotels in Hue with an unambiguous official 4-star classification rather than a self-declared one, and consistently praised for cleanliness<br/><a href="https://www.tripadvisor.com/Hotel_Review-g293926-d6416461-Reviews-Eldora_Hotel-Hue_Thua_Thien_Hue_Province.html">source 1</a> &middot; <a href="https://www.kayak.com/Hue-Hotels-Eldora-Hotel.2076224.ksp">source 2</a>]]></description>
+        <Point>
+          <coordinates>107.5945502,16.4648595,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jade Scene Hotel</name>
+        <styleUrl>#s-hue-hotels-t3</styleUrl>
+        <description><![CDATA[<b>Hue</b> &middot; 30/42 Nguyen Cong Tru Street, near the pub street and Perfume River embankment<br/>3 stars<br/>$33-$100/night <i>(indicative, checked 2026-08-16)</i><br/><br/>A new hotel a short walk from Hue's pub street and the river embankment, with a small rooftop pool overlooking the city and a spa.<br/><b>Why it's here:</b> One of the highest-rated hotels of any tier in Hue (9.2/10 from over 3,000 reviews) and an officially assessed 3-star, not a self-rated boutique<br/><a href="https://www.tripadvisor.com/Hotel_Review-g293926-d25179951-Reviews-Jade_Scene_Hotel-Hue_Thua_Thien_Hue_Province.html">source 1</a> &middot; <a href="https://www.booking.com/hotel/vn/jade-scene.html">source 2</a>]]></description>
+        <Point>
+          <coordinates>107.5968967,16.4695305,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thanh Lich Hue Hotel</name>
+        <styleUrl>#s-hue-hotels-t3</styleUrl>
+        <description><![CDATA[<b>Hue</b> &middot; City center<br/>3 stars (self-declared)<br/>$25-$54/night <i>(indicative, checked 2026-08-16)</i><br/><br/>A 40-room hotel with air-conditioned rooms, minibars and an indoor pool and sauna, with a rooftop breakfast serving both Asian and Western options.<br/><b>Why it's here:</b> A dependable budget-friendly city-center option (9.0/10 from over 900 reviews), though its 'plus' star billing is self-declared<br/><a href="https://www.momondo.com/hotels/hue/Thanh-Lich-Hue-Hotel.mhd2207716.ksp">source 1</a> &middot; <a href="https://www.kayak.com/Hue-Hotels-Thanh-Lich-2-Hotel.2207716.ksp">source 2</a>]]></description>
+        <Point>
+          <coordinates>107.5959428,16.4703117,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Silkotel Hoi An</name>
+        <styleUrl>#s-hoi-an-hotels-t4</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; Cam Pho Ward, close to Old Town<br/>4 stars<br/>$41-$91/night <i>(indicative, checked 2026-08-16)</i><br/><br/>A mid-size hotel with an outdoor pool, spa, gym and restaurant a short walk from the Old Town's riverside streets.<br/><b>Why it's here:</b> The master-spec's 'best value' pick for Hoi An, rated 9.1/10 from 1,700 reviews at roughly two-thirds the price of the resort-style 5-stars<br/><a href="https://www.tripadvisor.com/Hotel_Review-g298082-d10259528-Reviews-Silkotel_Hoi_An-Hoi_An_Quang_Nam_Province.html">source 1</a> &middot; <a href="https://www.hotelscombined.com/Hotel/Silkotel_Hoi_An.htm">source 2</a>]]></description>
+        <Point>
+          <coordinates>108.3223668,15.8794893,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lasenta Boutique Hotel Hoian</name>
+        <styleUrl>#s-hoi-an-hotels-t4</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; Edge of town, among rice fields<br/>4 stars<br/>$52-$120/night <i>(indicative, checked 2026-08-16)</i><br/><br/>A boutique hotel on the edge of Hoi An with an infinity pool and 4th-floor bar looking out over open rice paddies, plus a free shuttle to both Old Town and the beach.<br/><b>Why it's here:</b> Master-spec's alternative pick for the rice-field-view infinity pool at a lower price point than La Siesta<br/><a href="https://www.tripadvisor.com/Hotel_Review-g298082-d10149768-Reviews-Lasenta_Boutique_Hotel_Hoian-Hoi_An_Quang_Nam_Province.html">source 1</a> &middot; <a href="https://www.vietnamcoracle.com/lasenta-boutique-hotel-hoi-an/">source 2</a>]]></description>
+        <Point>
+          <coordinates>108.3403954,15.8819958,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hoian Central Hotel</name>
+        <styleUrl>#s-hoi-an-hotels-t3</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; In the heart of Hoi An, steps from the riverside<br/>3 stars<br/>$30-$69/night <i>(indicative, checked 2026-08-16)</i><br/><br/>A small hotel right in the town center with an outdoor pool and free bicycle rental, close enough to the Old Town's riverside streets to walk everywhere.<br/><b>Why it's here:</b> One of the best-located officially-rated 3-star hotels in town, with ratings above many pricier properties<br/><a href="https://www.tripadvisor.com/Hotel_Review-g298082-d13737482-Reviews-Hoian_Central_Hotel-Hoi_An_Quang_Nam_Province.html">source 1</a> &middot; <a href="https://www.klook.com/hotels/detail/113919-hoian-central-hotel/">source 2</a>]]></description>
+        <Point>
+          <coordinates>108.319306,15.8797503,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bao Dai Villa (Lak Lake)</name>
+        <styleUrl>#s-lak-lake-hotels-t3</styleUrl>
+        <description><![CDATA[<b>Lak Lake</b> &middot; Hill above Lak Lake, Lien Son town<br/>3 stars (self-declared)<br/>$20-$30/night <i>(indicative, checked 2026-08-16)</i><br/><br/>The 1951 hunting lodge Emperor Bao Dai built on a hill overlooking Lak Lake, now run as a simple guesthouse with the old dining room serving as a restaurant.<br/><b>Why it's here:</b> The only accommodation directly on the hill above the lake, inside a genuine former royal building<br/><a href="https://www.tripadvisor.com/Hotel_Review-g670918-d3291911-Reviews-Bao_Dai_Villa-Buon_Ma_Thuot_Dak_Lak_Province.html">source 1</a> &middot; <a href="https://vnexpress.net/biet-dien-bao-dai-ben-ho-lak-4393734.html">source 2</a>]]></description>
+        <Point>
+          <coordinates>108.1816523,12.4155999,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MerPerle Dalat Hotel</name>
+        <styleUrl>#s-da-lat-hotels-t5</styleUrl>
+        <description><![CDATA[<b>Da Lat</b> &middot; Next to Da Lat golf course<br/>5 stars (self-declared)<br/>$55-$91/night <i>(indicative, checked 2026-08-16)</i><br/><br/>A large new hotel with an indoor pool, spa and its own attached winery, on the edge of downtown next to Da Lat's golf course.<br/><b>Why it's here:</b> The highest-scoring self-declared 5-star in Da Lat, though several guests say it falls short of a true 5-star standard<br/><a href="https://www.tripadvisor.com/Hotel_Review-g293922-d26305215-Reviews-MerPerle_Dalat_Hotel-Da_Lat_Lam_Dong_Province.html">source 1</a> &middot; <a href="https://www.kayak.com/Dalat-Hotels-Merperle-Dalat-Hotel.9967439.ksp">source 2</a>]]></description>
+        <Point>
+          <coordinates>108.4583231,11.9410283,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Colline Dalat</name>
+        <styleUrl>#s-da-lat-hotels-t4</styleUrl>
+        <description><![CDATA[<b>Da Lat</b> &middot; Next to Da Lat night market<br/>4 stars<br/>$63-$76/night <i>(indicative, checked 2026-08-16)</i><br/><br/>A 150-room modern hotel built directly onto the steps down to Da Lat's night market, with a rooftop restaurant looking over the town.<br/><b>Why it's here:</b> Officially 4-star and zero steps from the night market; the master-spec's top pick for Da Lat<br/><a href="https://www.tripadvisor.com/Hotel_Review-g293922-d16731336-Reviews-Colline-Da_Lat_Lam_Dong_Province.html">source 1</a> &middot; <a href="https://us.trip.com/hotels/dalat-hotel-detail-29515862/colline-dalat/">source 2</a>]]></description>
+        <Point>
+          <coordinates>108.438126,11.94397,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Silverland Central Hotel</name>
+        <styleUrl>#s-saigon-hotels-t3</styleUrl>
+        <description><![CDATA[<b>Ho Chi Minh City</b> &middot; District 1, near Ben Thanh Market<br/>3 stars<br/>$177-$188/night <i>(indicative, checked 2026-08-16)</i><br/><br/>A 101-room officially-rated 3-star boutique hotel a short walk from Ben Thanh Market, part of the long-running Silverland hotel group, with a rooftop bar called OMG.<br/><b>Why it's here:</b> Officially classified 3-star (not self-declared) with a decade of top-ten 3-star rankings in the city<br/><a href="https://www.tripadvisor.com/Hotel_Review-g293925-d1178145-Reviews-Silverland_Central_Hotel-Ho_Chi_Minh_City.html">source 1</a> &middot; <a href="https://silverlandhotels.com/">source 2</a>]]></description>
+        <Point>
+          <coordinates>106.6972524,10.7718774,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bong Sen Hotel Saigon</name>
+        <styleUrl>#s-saigon-hotels-t3</styleUrl>
+        <description><![CDATA[<b>Ho Chi Minh City</b> &middot; District 1, Dong Khoi Street<br/>3 stars<br/>$48-$94/night <i>(indicative, checked 2026-08-16)</i><br/><br/>A 120-room 3-star hotel on Dong Khoi, the city's main shopping street, with three restaurants and a small fitness center.<br/><b>Why it's here:</b> Officially rated 3-star on the same street as the 5-star picks, at a fraction of the price<br/><a href="https://www.tripadvisor.com/Hotel_Review-g293925-d1748426-Reviews-Bong_Sen_Hotel_Saigon-Ho_Chi_Minh_City.html">source 1</a> &middot; <a href="https://www.booking.com/hotel/vn/bong-sen-saigon.html">source 2</a>]]></description>
+        <Point>
+          <coordinates>106.7038852,10.7751171,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sheraton Can Tho</name>
+        <styleUrl>#s-mekong-hotels-t5</styleUrl>
+        <description><![CDATA[<b>Mekong and Can Tho</b> &middot; Ninh Kieu, riverside<br/>5 stars<br/>$61-$200/night <i>(indicative, checked 2026-08-16)</i><br/><br/>The tallest international hotel in the Mekong Delta, on the Can Tho riverfront near Ninh Kieu Pier and the night market, formerly branded as Vinpearl Hotel Can Tho before its rebrand under Marriott.<br/><b>Why it's here:</b> The only internationally-chained 5-star in the Mekong Delta, confirmed by multiple independent sources as officially rated<br/><a href="https://www.tripadvisor.com/Hotel_Review-g303942-d11743875-Reviews-Sheraton_Can_Tho-Can_Tho_Mekong_Delta.html">source 1</a> &middot; <a href="https://www.marriott.com/en-us/hotels/vcasi-sheraton-can-tho/overview/">source 2</a>]]></description>
+        <Point>
+          <coordinates>105.7744816,10.0242294,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Victoria Can Tho Resort</name>
+        <styleUrl>#s-mekong-hotels-t4</styleUrl>
+        <description><![CDATA[<b>Mekong and Can Tho</b> &middot; Riverside, Cai Khe islet<br/>4 stars<br/>$71-$95/night <i>(indicative, checked 2026-08-16)</i><br/><br/>A colonial-style riverside resort from the established Victoria hotels chain, with a pool overlooking the Can Tho River and its own daily Mekong boat tours for guests.<br/><b>Why it's here:</b> The delta's best-regarded conventional resort chain, officially rated and consistently praised over the larger conference hotels in town<br/><a href="https://www.travelfish.org/accommodation_profile/vietnam/mekong_delta/can_tho/can_tho/all/8497">source 1</a> &middot; <a href="https://www.tripadvisor.com/Hotel_Review-g303942-d306941-Reviews-Victoria_Can_Tho_Resort-Can_Tho_Mekong_Delta.html">source 2</a>]]></description>
+        <Point>
+          <coordinates>105.7930514,10.0393054,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Can Tho Ecolodge</name>
+        <styleUrl>#s-mekong-hotels-t4</styleUrl>
+        <description><![CDATA[<b>Mekong and Can Tho</b> &middot; Cai Rang, Ba Lang River<br/>4 stars (self-declared)<br/>$56-$82/night <i>(indicative, checked 2026-08-16)</i><br/><br/>A thatched-house eco-resort on the Ba Lang River outside town, with a pool, garden and bar, built around responsibly showcasing the surrounding delta rather than a conventional hotel tower.<br/><b>Why it's here:</b> The most resort-like eco-lodge option in the area, ranked third of Can Tho's specialty lodging with consistently strong reviews<br/><a href="https://www.tripadvisor.com/Hotel_Review-g303942-d17528812-Reviews-Can_Tho_Ecolodge-Can_Tho_Mekong_Delta.html">source 1</a> &middot; <a href="https://www.booking.com/hotel/vn/can-tho-ecolodge.en-gb.html">source 2</a>]]></description>
+        <Point>
+          <coordinates>105.7414525,9.9878302,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bamboo Eco Village</name>
+        <styleUrl>#s-mekong-hotels-t3</styleUrl>
+        <description><![CDATA[<b>Mekong and Can Tho</b> &middot; Can Tho outskirts<br/>3 stars<br/>$33-$56/night <i>(indicative, checked 2026-08-16)</i><br/><br/>A small officially 3-star eco-hotel with a garden, pool and bicycles for guests, built around orchard and canal surroundings rather than a town-centre location.<br/><b>Why it's here:</b> Officially rated 3-star with unusually strong reviews for the tier, praised repeatedly for the garden and pool<br/><a href="https://www.tripadvisor.com/Hotel_Review-g303942-d19602577-Reviews-Bamboo_Eco_Village-Can_Tho_Mekong_Delta.html">source 1</a> &middot; <a href="https://en.planetofhotels.com/vietnam/can-tho/bamboo-eco-village">source 2</a>]]></description>
+        <Point>
+          <coordinates>105.7054798,10.0074606,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sheraton Phu Quoc Long Beach Resort</name>
+        <styleUrl>#s-phu-quoc-hotels-t5</styleUrl>
+        <description><![CDATA[<b>Phu Quoc</b> &middot; Long Beach, Ganh Dau<br/>5 stars<br/>$97-$200/night <i>(indicative, checked 2026-08-16)</i><br/><br/>A large Marriott-chain beachfront resort on Long Beach with multiple pools, several restaurants and direct sand access.<br/><b>Why it's here:</b> Officially rated 5-star with an international chain standard, and its entry-level rooms stay under the trip's price cap despite the brand<br/><a href="https://www.tripadvisor.com/Hotel_Review-g12666019-d8774806-Reviews-Sheraton_Phu_Quoc_Long_Beach_Resort-Ganh_Dau_Phu_Quoc_Island_Kien_Giang_Province.html">source 1</a> &middot; <a href="https://www.momondo.com/hotels/phu-quoc/Sheraton-Phu-Quoc-Long-Beach-Resort.mhd2449378.ksp">source 2</a>]]></description>
+        <Point>
+          <coordinates>103.8498843,10.3375473,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>L'Azure Resort and Spa</name>
+        <styleUrl>#s-phu-quoc-hotels-t4</styleUrl>
+        <description><![CDATA[<b>Phu Quoc</b> &middot; Duong Dong<br/>4 stars<br/>$63-$115/night <i>(indicative, checked 2026-08-16)</i><br/><br/>A small rustic-eco resort with a private sand beach, pool and spa, officially rated 4-star, built around a low-rise, garden-heavy design rather than a tower.<br/><b>Why it's here:</b> Officially rated 4-star with a 9.4-9.5 guest score, and the most consistently well-reviewed 4-star in the pool<br/><a href="https://www.tripadvisor.com/Hotel_Review-g1184679-d640629-Reviews-L_Azure_Resort_and_Spa-Duong_Dong_Phu_Quoc_Island_Kien_Giang_Province.html">source 1</a> &middot; <a href="https://www.makemytrip.com/hotels-international/vietnam/phu_quoc-hotels/l_azure_resort_and_spa-details.html">source 2</a>]]></description>
+        <Point>
+          <coordinates>103.9616615,10.2080717,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>AVS Hotel Phu Quoc</name>
+        <styleUrl>#s-phu-quoc-hotels-t4</styleUrl>
+        <description><![CDATA[<b>Phu Quoc</b> &middot; Duong Dong, 100m from the beach<br/>4 stars<br/>$46-$156/night <i>(indicative, checked 2026-08-16)</i><br/><br/>A modern mid-size hotel a hundred metres from the beach, officially rated 4-star, with a pool, spa and airport transfers.<br/><b>Why it's here:</b> Officially rated 4-star, ranked in the top 20 hotels on the island by guest reviews despite its budget-adjacent price<br/><a href="https://en.planetofhotels.com/vietnam/phu-quoc/avs-hotel-phu-quoc">source 1</a> &middot; <a href="https://www.tripadvisor.com/Hotel_Review-g1184679-d20200026-Reviews-AVS_Hotel_Phu_Quoc-Duong_Dong_Phu_Quoc_Island_Kien_Giang_Province.html">source 2</a>]]></description>
+        <Point>
+          <coordinates>103.9638791,10.2007569,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Must-see</name>
+      <Placemark>
+        <name>Hoan Kiem Lake</name>
+        <styleUrl>#s-hanoi-must_see</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Hoan Kiem<br/><br/>The lake at the centre of old Hanoi, with a small red bridge to a temple island. Locals walk and exercise around it at first light.<br/><b>Why it's here:</b> The city organises itself around this lake, and walking it is free<br/><a href="https://en.wikipedia.org/wiki/Ho%C3%A0n_Ki%E1%BA%BFm_Lake">source 1</a>]]></description>
+        <Point>
+          <coordinates>105.8525357,21.0288313,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hoa Lo Prison Museum</name>
+        <styleUrl>#s-hanoi-must_see</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Hoan Kiem, Hoa Lo street<br/><br/>A preserved wing of a French colonial-era prison built in 1896, nicknamed the "Hanoi Hilton" by American POWs held there in the 1960s-70s. Exhibits include a guillotine and the cell blocks used to hold Vietnamese independence activists.<br/><b>Why it's here:</b> A blunt, unfiltered look at both the colonial and American-war periods of Vietnamese history, in the middle of the modern city<br/><a href="https://www.lonelyplanet.com/vietnam/hanoi/attractions/hoa-lo-prison-museum/a/poi-sig/1141862/357880">source 1</a>]]></description>
+        <Point>
+          <coordinates>105.8465093,21.0254222,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cat Cat Village</name>
+        <styleUrl>#s-sapa-must_see</styleUrl>
+        <description><![CDATA[<b>Sapa</b> &middot; San Sa Ho commune, about 3km from Sapa town<br/><br/>A Black H'mong village at the entrance to the Muong Hoa Valley, founded in the mid-19th century, with three streams meeting at Cat Cat waterfall and two chain footbridges crossing it.<br/><b>Why it's here:</b> The most accessible ethnic-minority village from Sapa town, walkable in an afternoon<br/><a href="https://vinpearl.com/en/cat-cat-village-sapa">source 1</a>]]></description>
+        <Point>
+          <coordinates>103.8340516,22.3309642,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ha Long Bay limestone karsts</name>
+        <styleUrl>#s-ha-long-must_see</styleUrl>
+        <description><![CDATA[<b>Ha Long and Cat Ba</b> &middot; Ha Long Bay, Quang Ninh province<br/><br/>Roughly 1,600 limestone islands and karst pillars rising from emerald-green water, many topped with vegetation and containing caves; a UNESCO World Heritage Site since 1994.<br/><b>Why it's here:</b> The reason this leg of the trip exists — best seen slowly, from the deck of an overnight boat<br/><a href="https://whc.unesco.org/en/list/672/">source 1</a>]]></description>
+        <Point>
+          <coordinates>107.0682782,20.9084384,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trang An Scenic Landscape Complex</name>
+        <styleUrl>#s-ninh-binh-must_see</styleUrl>
+        <description><![CDATA[<b>Ninh Binh</b> &middot; Ninh Hai Commune, Hoa Lu District, ~7km from Ninh Binh city<br/><br/>A UNESCO World Heritage limestone karst landscape toured by rowed sampan along a 3-hour river route that threads through nine natural cave tunnels beneath the cliffs.<br/><b>Why it's here:</b> The UNESCO-listed core of the whole 'Ha Long Bay on land' comparison, and the reason Ninh Binh is on the itinerary at all<br/><a href="https://wherearethosemorgans.com/trang-an-boat-tour/">source 1</a> &middot; <a href="https://www.getyourguide.com/trang-an-l36900/">source 2</a>]]></description>
+        <Point>
+          <coordinates>105.9005014,20.2537827,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Khai Dinh Tomb</name>
+        <styleUrl>#s-hue-must_see</styleUrl>
+        <description><![CDATA[<b>Hue</b> &middot; Chau Chu Village, ~10km from Hue city<br/><br/>The last and most ornate of the Nguyen royal tombs, its concrete exterior built in a Gothic-tinged European style but its interior sarcophagus chamber an explosion of colorful ceramic-mosaic murals, reached by 127 stone steps.<br/><b>Why it's here:</b> The most visually striking of the seven royal tombs and unlike any other Nguyen monument in Hue<br/><a href="https://vinwonders.com/en/wonderpedia/news/khai-dinh-tomb-things-to-know-about-the-last-imperial-tomb-built-in-hue/">source 1</a> &middot; <a href="https://www.lonelyplanet.com/vietnam/central-vietnam/hue/attractions/tomb-of-khai-dinh/a/poi-sig/1158037/357875">source 2</a>]]></description>
+        <Point>
+          <coordinates>107.5902801,16.3989537,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hoi An Ancient Town and Japanese Covered Bridge</name>
+        <styleUrl>#s-hoi-an-must_see</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; Old Town, along the Thu Bon River<br/><br/>A UNESCO-listed trading-port town of yellow-walled shophouses, Chinese assembly halls and merchant homes dating to the 16th-18th centuries, centred on the 18-metre wooden Japanese Covered Bridge that doubles as a small temple.<br/><b>Why it's here:</b> The reason Hoi An exists on any itinerary - one of Southeast Asia's best-preserved trading ports, UNESCO-listed since 1999<br/><a href="https://vinpearl.com/en/japanese-bridge-hoi-an-a-cultural-symbol-of-the-ancient-town">source 1</a> &middot; <a href="https://grooviet.com/destination/japanese-covered-bridge/">source 2</a>]]></description>
+        <Point>
+          <coordinates>108.3239898,15.8779509,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The World Coffee Museum</name>
+        <styleUrl>#s-buon-ma-thuot-must_see</styleUrl>
+        <description><![CDATA[<b>Buon Ma Thuot</b> &middot; Tan Loi Ward, inside Trung Nguyen Coffee Village, ~4km from center<br/><br/>A museum built in the style of Central Highlands longhouses, holding over 10,000 coffee-related artefacts from around the world, with hands-on tasting rooms rather than glass display cases.<br/><b>Why it's here:</b> The signature sight of Vietnam's coffee capital, and the reason most visitors come to Buon Ma Thuot at all<br/><a href="https://en.wikipedia.org/wiki/The_World_Coffee_Museum">source 1</a> &middot; <a href="https://vietnamtourism.gov.vn/en/post/20640">source 2</a>]]></description>
+        <Point>
+          <coordinates>108.0445203,12.6908584,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ako Dhong Village</name>
+        <styleUrl>#s-buon-ma-thuot-must_see</styleUrl>
+        <description><![CDATA[<b>Buon Ma Thuot</b> &middot; Tan Loi Ward, inside the city<br/><br/>A working Ede ethnic-minority neighbourhood inside the city itself, with more than 30 traditional wooden longhouses built on stilts in the shape of boats.<br/><b>Why it's here:</b> The only place to see genuine Ede stilt-house architecture without leaving town<br/><a href="https://en.nhandan.vn/ako-dhong-village-a-door-to-explore-ede-ethnic-culture-in-the-heart-of-buon-ma-thuot-city-post146489.html">source 1</a> &middot; <a href="https://sayhellovietnam.com/ako-dhong-village-an-attractive-village-in-the-city-in-buon-ma-thuot/">source 2</a>]]></description>
+        <Point>
+          <coordinates>108.0491334,12.696465,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lak Lake</name>
+        <styleUrl>#s-lak-lake-must_see</styleUrl>
+        <description><![CDATA[<b>Lak Lake</b> &middot; Lien Son, Lak district<br/><br/>The largest natural freshwater lake in the Central Highlands, ringed by rice paddies and forest, crossed by hand-carved dugout canoes rather than motorboats.<br/><b>Why it's here:</b> The centrepiece of this leg of the route, and the reason the itinerary stops here overnight<br/><a href="https://en.wikipedia.org/wiki/Lak_Lake">source 1</a> &middot; <a href="https://www.bestpricetravel.com/travel-guide/lak-lake.html">source 2</a>]]></description>
+        <Point>
+          <coordinates>108.1776243,12.4232112,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Langbiang Mountain</name>
+        <styleUrl>#s-da-lat-must_see</styleUrl>
+        <description><![CDATA[<b>Da Lat</b> &middot; Lac Duong, ~12km north of the city<br/><br/>A 2,167m twin-peaked mountain reached by a bumpy 4.5km jeep track from its base, with panoramic views over Da Lat's pine forests and valleys from the summit.<br/><b>Why it's here:</b> The best viewpoint over the whole Da Lat plateau, and an easy half-day trip<br/><a href="https://vinwonders.com/en/wonderpedia/news/lang-biang-mountain-dalat/">source 1</a> &middot; <a href="https://localvietnam.com/blog/langbiang-mountain/">source 2</a>]]></description>
+        <Point>
+          <coordinates>108.4405826,12.0472573,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Xuan Huong Lake</name>
+        <styleUrl>#s-da-lat-must_see</styleUrl>
+        <description><![CDATA[<b>Da Lat</b> &middot; City center<br/><br/>A 40-hectare artificial lake built by French colonists in 1919 at the centre of Da Lat, ringed by a walking path, pine trees and the old golf course.<br/><b>Why it's here:</b> Da Lat organises itself around this lake the way Hanoi organises itself around Hoan Kiem<br/><a href="https://vinwonders.com/en/wonderpedia/news/xuan-huong-lake-dalat/">source 1</a> &middot; <a href="https://www.tripadvisor.com/Attraction_Review-g293922-d451022-Reviews-Xuan_Huong_Lake-Da_Lat_Lam_Dong_Province.html">source 2</a>]]></description>
+        <Point>
+          <coordinates>108.4487222,11.9450803,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Reunification Palace</name>
+        <styleUrl>#s-saigon-must_see</styleUrl>
+        <description><![CDATA[<b>Ho Chi Minh City</b> &middot; District 1<br/><br/>A 1960s modernist government building where a North Vietnamese tank crashed through the gates on 30 April 1975. The war rooms, radio room and presidential quarters are preserved as they were that day.<br/><b>Why it's here:</b> The single physical location where the Vietnam War's ending is preserved in place, not just described<br/><a href="https://www.getyourguide.com/explorer/ho-chi-minh-ttd272/landmarks-in-ho-chi-minh-city/">source 1</a>]]></description>
+        <Point>
+          <coordinates>106.695488,10.7770348,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cai Rang Floating Market</name>
+        <styleUrl>#s-mekong-must_see</styleUrl>
+        <description><![CDATA[<b>Mekong and Can Tho</b> &middot; Cai Rang, about 6 km southwest of central Can Tho<br/><br/>A river market of roughly 200-300 local trading boats and produce barges, each hanging a sample of its goods from a tall pole so buyers can spot it from the water. It runs from before sunrise and is essentially over as a wholesale market by mid-morning.<br/><b>Why it's here:</b> The largest and most authentic floating market left in the delta, but only if timed for its real dawn trading hours, not a mid-morning visit<br/><a href="https://vemekong.com/guide-to-can-tho-floating-markets/">source 1</a> &middot; <a href="https://www.travelfish.org/sight_profile/vietnam/mekong_delta/can_tho/can_tho/2496">source 2</a>]]></description>
+        <Point>
+          <coordinates>105.7443925,10.0023957,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hon Thom Cable Car</name>
+        <styleUrl>#s-phu-quoc-must_see</styleUrl>
+        <description><![CDATA[<b>Phu Quoc</b> &middot; An Thoi, southern Phu Quoc<br/><br/>A three-cable gondola line running almost 8 km from the An Thoi coast over open sea to Hon Thom island, in 30-passenger cabins over a 15-minute ride, passing above two smaller islands en route.<br/><b>Why it's here:</b> Guinness World Record holder for the longest three-wire sea-crossing cable car, and the way most visitors reach Hon Thom's Sun World park<br/><a href="https://blog.premierresidencesphuquoc.com/hon-thom-cable-car/">source 1</a> &middot; <a href="https://www.vietjetair.com/en/news/travel-guides-1665635013747/hon-thom-phu-quoc-cable-car-review-the-worlds-longest-sea-crossing-cable-car-1768878737803">source 2</a>]]></description>
+        <Point>
+          <coordinates>104.0124425,9.9920077,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Attractions &amp; Experiences</name>
+      <Placemark>
+        <name>Vietnam Museum of Ethnology</name>
+        <styleUrl>#s-hanoi-attractions</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Cau Giay, about 8km from the Old Quarter<br/><br/>An open-air and indoor museum on the 54 officially recognised ethnic groups of Vietnam, with full-size reconstructed stilt houses and tombs in the garden and 15,000+ artifacts inside.<br/><b>Why it's here:</b> The single best introduction to the hill-tribe cultures the trip later passes through in Sapa and Ha Giang<br/><a href="https://en.wikipedia.org/wiki/Vietnam_Museum_of_Ethnology">source 1</a>]]></description>
+        <Point>
+          <coordinates>105.7988403,21.0400774,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hoa Lu Ancient Capital</name>
+        <styleUrl>#s-ninh-binh-attractions</styleUrl>
+        <description><![CDATA[<b>Ninh Binh</b> &middot; Truong Yen Commune, ~10km from Ninh Binh city<br/><br/>The restored temples of Dinh Tien Hoang and Le Dai Hanh, marking the site of Vietnam's 10th-century capital, set inside a ring of limestone mountains.<br/><b>Why it's here:</b> The historical anchor of the region, and usually combined with Trang An or Mua Cave into one day's route<br/><a href="https://happytovisit.com/ninh-binh-hoa-lu-bai-dinh-trang-an-and-mua-cave-tour/">source 1</a>]]></description>
+        <Point>
+          <coordinates>105.8995986,20.283483,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tu Duc Tomb</name>
+        <styleUrl>#s-hue-attractions</styleUrl>
+        <description><![CDATA[<b>Hue</b> &middot; Thuy Xuan Village, ~7km from Hue city<br/><br/>A landscaped royal retreat built around a lake in a pine-forested valley, where Emperor Tu Duc lived, wrote poetry and boated for years before his death, dotted with pavilions and temples rather than a single mausoleum building.<br/><b>Why it's here:</b> The gentlest and most park-like of the tombs - built as a living retreat, not just a burial site - and a contrast to Khai Dinh's grandeur<br/><a href="https://centralvietnamguide.com/tu-duc-tomb/">source 1</a> &middot; <a href="https://vinpearl.com/en/tu-duc-tomb-one-of-the-most-appealing-attractions-in-hue-to-visit">source 2</a>]]></description>
+        <Point>
+          <coordinates>107.5647017,16.433089,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marble Mountains (Ngu Hanh Son)</name>
+        <styleUrl>#s-hoi-an-attractions</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; Between Da Nang and Hoi An, on the coast road<br/><br/>Five limestone-and-marble hills, each named for one of the five elements, honeycombed with caves and grottoes containing Buddhist shrines; an elevator and stairs lead up to viewpoints and the Huyen Khong cave, once used as a wartime field hospital.<br/><b>Why it's here:</b> A genuinely different landscape from Hoi An's flat riverside town, and an easy stop on the way to or from Da Nang<br/><a href="https://happytovisit.com/golden-bridge-ba-na-hills-marble-mountain-monkey-mountain/">source 1</a>]]></description>
+        <Point>
+          <coordinates>108.2627745,16.00402,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>An Bang Beach surf lesson</name>
+        <styleUrl>#s-hoi-an-attractions</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; An Bang Beach, ~3km east of Old Town<br/><br/>A stretch of sandy beach with gentle, beginner-friendly waves, where expat-run surf schools rent boards and run lessons; the surf season runs roughly September to March.<br/><b>Why it's here:</b> Hoi An's real board-sport option, and a 20-minute bike ride from the Old Town through rice paddies<br/><a href="https://thesurfatlas.com/vietnam-surf/hoi-an-surf/">source 1</a> &middot; <a href="https://thedeckhousevietnam.com/water-sports/">source 2</a>]]></description>
+        <Point>
+          <coordinates>108.3396551,15.9141779,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Datanla Waterfall Canyoning</name>
+        <styleUrl>#s-da-lat-attractions</styleUrl>
+        <description><![CDATA[<b>Da Lat</b> &middot; 7km south of the city<br/><br/>A guided descent through the Datanla waterfall gorge from a base camp at the falls: rappelling down cliffs and a 30m waterfall, a zipline, a water slide and a narrow rock chute nicknamed the 'washing machine'.<br/><b>Why it's here:</b> Da Lat's real adventure-sport claim, and one of the few canyoning operations anywhere in Vietnam<br/><a href="https://tinggly.com/experience/canyoning-2400m-alpine-coaster-activity-in-dalat/141620P6">source 1</a> &middot; <a href="https://www.tripadvisor.com/AttractionProductReview-g293922-d27116487-Canyoning_2400m_Alpine_Coaster_Activity_in_Dalat-Da_Lat_Lam_Dong_Province.html">source 2</a>]]></description>
+        <Point>
+          <coordinates>108.4488444,11.9011774,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tuyen Lam Lake SUP/Kayak and Clay Tunnel</name>
+        <styleUrl>#s-da-lat-attractions</styleUrl>
+        <description><![CDATA[<b>Da Lat</b> &middot; Tuyen Lam Lake, south of the city<br/><br/>A paddle by kayak or stand-up paddleboard across Tuyen Lam Lake's pine-fringed water, usually combined with a stop at the Clay Tunnel, a walk-through open-air clay sculpture near the Truc Lam monastery.<br/><b>Why it's here:</b> The quiet, uncrowded counterpart to the night market; nature and folk art in one outing<br/><a href="https://powertraveller.com/da-lat-tuyen-lam-lake-kayak-or-sup-tour/">source 1</a> &middot; <a href="https://kayawanderlust.com/self-guided-tour-to-the-clay-tunnel-and-truc-lam-monastery/">source 2</a>]]></description>
+        <Point>
+          <coordinates>108.4250836,11.8907954,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cu Chi Tunnels</name>
+        <styleUrl>#s-saigon-attractions</styleUrl>
+        <description><![CDATA[<b>Ho Chi Minh City</b> &middot; Cu Chi District, about 1.5 hours from central Saigon<br/><br/>A preserved section of the more than 120 km of hand-dug underground tunnel network used by Viet Cong fighters, with widened crawl-through sections, hidden trapdoor entrances and reconstructed underground rooms.<br/><b>Why it's here:</b> The signature half-day trip from Saigon, and one of the few places in Vietnam you physically enter the war rather than just read about it<br/><a href="https://www.holidify.com/places/ho-chi-minh-city/sightseeing-and-things-to-do.html">source 1</a>]]></description>
+        <Point>
+          <coordinates>106.5291244,11.0630436,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>War Remnants Museum</name>
+        <styleUrl>#s-saigon-attractions</styleUrl>
+        <description><![CDATA[<b>Ho Chi Minh City</b> &middot; District 3<br/><br/>A three-storey museum housing over 20,000 artifacts, photographs and military hardware across nine permanent exhibitions on the Vietnam War and its aftermath, including an outdoor yard of captured US tanks and aircraft.<br/><b>Why it's here:</b> The most direct, unfiltered account of the war from the Vietnamese side, consistently rated the city's top museum<br/><a href="https://ahoyvietnam.com/war-remnants-museum/">source 1</a>]]></description>
+        <Point>
+          <coordinates>106.6922806,10.7793647,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vinh Trang Pagoda</name>
+        <styleUrl>#s-mekong-attractions</styleUrl>
+        <description><![CDATA[<b>Mekong and Can Tho</b> &middot; My Tho<br/><br/>A 19th-century Buddhist pagoda recognised as a national historical relic, blending Vietnamese, Khmer and French architectural styles with a large reclining Buddha statue in its grounds.<br/><b>Why it's here:</b> The most architecturally distinct temple in the delta, mixing three building traditions in one compound<br/><a href="https://www.viator.com/Mekong-Delta-attractions/Vinh-Trang-Pagoda/d23962-a19069">source 1</a>]]></description>
+        <Point>
+          <coordinates>106.3735689,10.3628375,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Food</name>
+      <Placemark>
+        <name>Bun Cha Huong Lien</name>
+        <styleUrl>#s-hanoi-food</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Hai Ba Trung<br/>michelin bib<br/><br/>A plain three-storey shop that has grilled pork patties over charcoal since the 1990s, served in a bowl of broth with noodles and herbs.<br/><b>Why it's here:</b> Michelin Bib Gourmand, and the dish Hanoi is best known for<br/><a href="https://guide.michelin.com/vn/en/ha-noi-municipality/hanoi/restaurants">source 1</a>]]></description>
+        <Point>
+          <coordinates>105.8538843,21.0180504,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cha Ca Thang Long</name>
+        <styleUrl>#s-hanoi-food</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Old Quarter, Duong Thanh street<br/>michelin bib<br/><br/>A no-frills shop where turmeric-marinated fish is grilled tableside on a charcoal brazier, then finished in a pan with dill and spring onion and served over rice noodles.<br/><b>Why it's here:</b> Michelin Bib Gourmand and the most consistently recommended cha ca address left in the Old Quarter<br/><a href="https://guide.michelin.com/us/en/ha-noi/ha-noi_2974158/restaurant/cha-ca-thang-long">source 1</a>]]></description>
+        <Point>
+          <coordinates>105.8459895,21.033293,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Duc De Restaurant</name>
+        <styleUrl>#s-ninh-binh-food</styleUrl>
+        <description><![CDATA[<b>Ninh Binh</b> &middot; City center, Ninh Binh<br/>traveler recommended<br/><br/>A long-running goat-meat restaurant on a main street in Ninh Binh city, serving the mountain goat (de nui) dishes the region is known for - steamed, grilled and in hotpot.<br/><b>Why it's here:</b> Consistently the most-reviewed goat-meat specialist in the city center, with a reputation built over years rather than a recent tourist spike<br/><a href="https://www.tripadvisor.com/Restaurant_Review-g303945-d8853028-Reviews-Duc_De_Restaurant-Ninh_Binh_Ninh_Binh_Province.html">source 1</a>]]></description>
+        <Point>
+          <coordinates>105.9682771,20.2340333,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trung Tuyet</name>
+        <styleUrl>#s-ninh-binh-food</styleUrl>
+        <description><![CDATA[<b>Ninh Binh</b> &middot; City center, Ninh Binh<br/>traveler recommended<br/><br/>A local eatery specializing in com chay - sun-dried rice pressed into crisp sheets, deep-fried and served with a savory meat-and-mushroom sauce - alongside egg soup and pho.<br/><b>Why it's here:</b> Ranked among the most reliable all-rounders in Ninh Binh on both Tripadvisor and Lonely Planet for the region's signature souvenir dish<br/><a href="https://pioneersailtravel.com/ninh-binh-restaurants/">source 1</a>]]></description>
+        <Point>
+          <coordinates>105.97874,20.2516139,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>White Rose Restaurant</name>
+        <styleUrl>#s-hoi-an-food</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; 533 Hai Ba Trung Street<br/>traveler recommended<br/><br/>The restaurant most associated with white rose dumplings (banh bao vac) - translucent rice-dough parcels of spiced minced shrimp, steamed and shaped to resemble a folded rose, then topped with crispy fried shallots.<br/><b>Why it's here:</b> The dish comes from one family recipe distributed to eateries around town, and this restaurant is the most famous outlet for it<br/><a href="https://culturephamtravel.com/white-rose-dumplings-hoi-an/">source 1</a> &middot; <a href="https://cavinteo.blogspot.com/2024/10/white-rose-restaurant-dumplings-hoi-an-vietnam.html">source 2</a>]]></description>
+        <Point>
+          <coordinates>108.3250054,15.8829593,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Artichoke tea (Tra Atiso) at Da Lat Market</name>
+        <styleUrl>#s-da-lat-food</styleUrl>
+        <description><![CDATA[<b>Da Lat</b> &middot; Da Lat Market, city center<br/>local media<br/><br/>Dried artichoke flower heads, grown on the plateau around Da Lat, sold loose or bagged as a bitter herbal tea at stalls throughout Da Lat Market.<br/><b>Why it's here:</b> Da Lat grows most of Vietnam's artichoke crop; the tea is the plateau's signature souvenir<br/><a href="https://tamtrinhcoffee.com/da-lat-specialty-gifts/">source 1</a> &middot; <a href="https://www.expatolife.com/things-to-buy-shopping-da-lat-vietnam/">source 2</a>]]></description>
+        <Point>
+          <coordinates>108.4372097,11.9435196,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Anan Saigon</name>
+        <styleUrl>#s-saigon-food</styleUrl>
+        <description><![CDATA[<b>Ho Chi Minh City</b> &middot; District 1, Cho Cu (Old Market)<br/>michelin star<br/><br/>A restaurant built inside a former wet-market stall on Ton That Dam Street, where chef Peter Cuong Franklin runs street-food recipes through French fine-dining technique.<br/><b>Why it's here:</b> One Michelin Star, held since 2023, and the clearest example of Saigon's fine-dining scene built on its own street food<br/><a href="https://guide.michelin.com/en/ho-chi-minh/ho-chi-minh_2978179/restaurant/anan-saigon">source 1</a> &middot; <a href="https://anansaigon.com/">source 2</a>]]></description>
+        <Point>
+          <coordinates>106.7029748,10.7718032,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lua Nep</name>
+        <styleUrl>#s-mekong-food</styleUrl>
+        <description><![CDATA[<b>Mekong and Can Tho</b> &middot; Ninh Kieu riverside, Can Tho<br/>traveler recommended<br/><br/>A riverside restaurant serving the delta's signature elephant ear fish, fried whole and served upright so the flesh is rolled into rice paper with herbs and pickles at the table.<br/><b>Why it's here:</b> Repeatedly singled out by recent travelers for this specific dish, the Mekong Delta's most iconic<br/><a href="https://hanoivoyage.com/en/blog/restaurant/top-7-restaurants-in-the-mekong-delta">source 1</a>]]></description>
+        <Point>
+          <coordinates>105.7947956,10.0450175,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sao Hom Restaurant</name>
+        <styleUrl>#s-mekong-food</styleUrl>
+        <description><![CDATA[<b>Mekong and Can Tho</b> &middot; Ninh Kieu riverside, Can Tho, inside the old Nha Long market building<br/>traveler recommended<br/><br/>A restaurant set inside a restored early-1900s riverside market hall, with open river views and a menu of southern Vietnamese home cooking.<br/><b>Why it's here:</b> A local guide recommendation for a proper sit-down dinner, in one of Can Tho's most distinctive dining buildings<br/><a href="https://vinwonders.com/en/wonderpedia/news/can-tho-restaurants/">source 1</a>]]></description>
+        <Point>
+          <coordinates>105.7882653,10.0313789,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Markets &amp; Shopping</name>
+      <Placemark>
+        <name>Dong Xuan Market</name>
+        <styleUrl>#s-hanoi-markets</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Old Quarter, 600m north of Hoan Kiem Lake<br/><br/>Hanoi's largest covered market, three floors and five linked pavilion halls over 6,500 square metres, selling everything from textiles and household goods to a ground-floor food and produce section.<br/><b>Why it's here:</b> The working market Hanoians actually shop at, not a tourist-only stall row<br/><a href="https://en.wikipedia.org/wiki/%C4%90%E1%BB%93ng_Xu%C3%A2n_Market">source 1</a>]]></description>
+        <Point>
+          <coordinates>105.849671,21.0382556,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hanoi Weekend Night Market</name>
+        <styleUrl>#s-hanoi-markets</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Old Quarter, Hang Dao / Hang Ngang / Hang Luoc streets<br/><br/>A near-3km stretch of Old Quarter streets closed to traffic on Friday, Saturday and Sunday evenings and filled with clothing and souvenir stalls, street food carts, and impromptu street performances.<br/><b>Why it's here:</b> Only runs three nights a week, so it is worth timing the Hanoi stay around if the dates line up<br/><a href="https://vinpearl.com/en/hanoi-weekend-night-market">source 1</a>]]></description>
+        <Point>
+          <coordinates>105.8509571,21.0335078,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dong Ba Market</name>
+        <styleUrl>#s-hue-markets</styleUrl>
+        <description><![CDATA[<b>Hue</b> &middot; North bank of the Perfume River, city center<br/><br/>Hue's biggest market, a three-floor bell-shaped building where the ground floor sells dried seafood and local sauces, the second floor sells crafts like forged knives and ceramics, and the third is devoted to ao dai tailoring.<br/><b>Why it's here:</b> Central Vietnam's largest and oldest market, and as much a symbol of Hue's identity as the Citadel<br/><a href="https://vinwonders.com/en/wonderpedia/news/dong-ba-market-take-a-tour-to-one-of-the-busiest-markets-in-hue/">source 1</a> &middot; <a href="https://vietnamdiscovery.com/hue/shopping/dong-ba-market/">source 2</a>]]></description>
+        <Point>
+          <coordinates>107.5886452,16.4724474,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Buon Ma Thuot Central Market</name>
+        <styleUrl>#s-buon-ma-thuot-markets</styleUrl>
+        <description><![CDATA[<b>Buon Ma Thuot</b> &middot; City center, near Victory Monument<br/><br/>The city's main covered market, stalls piled with roasted and green coffee beans, black pepper, cacao, macadamia nuts and honey harvested from the surrounding highland forests.<br/><b>Why it's here:</b> The place to buy coffee straight from the source rather than at inflated airport prices<br/><a href="https://www.frommers.com/destinations/buon-ma-thuot/shopping/overview">source 1</a> &middot; <a href="https://vinpearl.com/en/buon-ma-thuot-vietnam-a-comprehensive-travel-guide">source 2</a>]]></description>
+        <Point>
+          <coordinates>108.042465,12.6805026,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Da Lat Market (Cho Da Lat)</name>
+        <styleUrl>#s-da-lat-markets</styleUrl>
+        <description><![CDATA[<b>Da Lat</b> &middot; City center, beside Xuan Huong Lake<br/><br/>The city's main covered market building on a hillside above Xuan Huong Lake, selling fresh produce, dried flowers, hot street food and Da Lat's own coffee and wine.<br/><b>Why it's here:</b> The daytime anchor of Da Lat's market district, a few steps from the lake<br/><a href="https://en.wikipedia.org/wiki/Da_Lat_Market">source 1</a> &middot; <a href="https://vinwonders.com/en/wonderpedia/news/dalat-market/">source 2</a>]]></description>
+        <Point>
+          <coordinates>108.4372097,11.9435196,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ben Thanh Market</name>
+        <styleUrl>#s-saigon-markets</styleUrl>
+        <description><![CDATA[<b>Ho Chi Minh City</b> &middot; District 1<br/><br/>A covered market of nearly 1,450 stalls under a French-built 1914 clock-tower facade, selling everything from produce and dried goods to clothing, souvenirs and a food court, spilling into a street-food night market outside after dark.<br/><b>Why it's here:</b> The city's oldest and largest market, and the default orientation point for District 1<br/><a href="https://oxalisadventure.com/ben-thanh-market-ho-chi-minh-city/">source 1</a> &middot; <a href="https://vinwonders.com/en/wonderpedia/news/ben-thanh-market-a-prominent-landmark-of-the-bustling-ho-chi-minh-city/">source 2</a>]]></description>
+        <Point>
+          <coordinates>106.6980365,10.7725301,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Logistics</name>
+      <Placemark>
+        <name>Noi Bai Airport to Old Quarter transfer</name>
+        <styleUrl>#s-hanoi-logistics</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Noi Bai International Airport to Hoan Kiem<br/><br/>The airport sits about 27-30km north of the Old Quarter; a metered taxi or pre-booked private transfer takes 30-40 minutes off-peak (up to 90 in traffic) and costs roughly 300,000-350,000 VND, while a Grab typically comes in cheaper at around 240,000-250,000 VND plus tolls.<br/><b>Why it's here:</b> The first and last transfer of the whole trip, and the one most worth pre-booking to skip the arrivals-hall taxi touts<br/><a href="https://eternalarrival.com/grab-at-hanoi-airport-noi-bai/">source 1</a> &middot; <a href="https://unchartedlens.com/routes/vietnam/hanoi-airport-to-city-transport-comparison/">source 2</a>]]></description>
+        <Point>
+          <coordinates>105.8044596,21.2188925,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hanoi to Sapa transfer options</name>
+        <styleUrl>#s-sapa-logistics</styleUrl>
+        <description><![CDATA[<b>Sapa</b> &middot; Hanoi to Sapa town<br/><br/>Two practical ways to cover the roughly 300km/6 hours - an overnight sleeper train from Hanoi to Lao Cai followed by a 45-60 minute shuttle up to Sapa, or a direct day or overnight limousine van/sleeper bus (5.5-6 hours, roughly 300,000-660,000 VND depending on seat class).<br/><b>Why it's here:</b> The overnight train turns a dead travel day into a night's sleep, but only the van/bus goes door-to-door into Sapa town itself<br/><a href="https://a21tours.com/sapa-sleeper-bus-vs-limousine-van">source 1</a> &middot; <a href="https://visit-sapa.com/en/blog/hanoi-sapa-bus-limousine">source 2</a>]]></description>
+        <Point>
+          <coordinates>103.8485698,22.3399787,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ninh Binh to Hanoi (train and road)</name>
+        <styleUrl>#s-ninh-binh-logistics</styleUrl>
+        <description><![CDATA[<b>Ninh Binh</b> &middot; Regional transfer<br/><br/>Ninh Binh's train station sits centrally in the city; five daily trains run to Hanoi's main station on Le Duan Street in about 2 hours, or a private car takes roughly the same time by road.<br/><b>Why it's here:</b> Fixes the practical transfer time between Ninh Binh and the trip's Hanoi anchor<br/><a href="https://oxalisadventure.com/hanoi-to-ninh-binh-best-transport-options/">source 1</a> &middot; <a href="https://a21tours.com/ninh-binh-city-to-hanoi-transfer">source 2</a>]]></description>
+        <Point>
+          <coordinates>105.9746207,20.2421142,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lotus Train - Ninh Binh to Dong Hoi (night train)</name>
+        <styleUrl>#s-ninh-binh-logistics</styleUrl>
+        <description><![CDATA[<b>Ninh Binh</b> &middot; Ninh Binh Railway Station, departure point<br/><br/>A privately refurbished overnight sleeper carriage (2-berth or 4-berth cabins, Vietnam Railways track) departing Ninh Binh around 22:00 and arriving Dong Hoi around 06:00, with onboard wifi, snacks and breakfast.<br/><b>Why it's here:</b> Turns the long road transfer south toward Phong Nha into a night's sleep instead of a lost travel day<br/><a href="https://lotustrain.vn/ninh-binh-to-dong-hoi-lotus-express">source 1</a> &middot; <a href="https://violetexpresstrain.com/ninh-binh-dong-hoi-on-lotus-train-se19.html">source 2</a>]]></description>
+        <Point>
+          <coordinates>105.9746207,20.2421142,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Phu Bai Airport to Hue city center</name>
+        <styleUrl>#s-hue-logistics</styleUrl>
+        <description><![CDATA[<b>Hue</b> &middot; Airport transfer<br/><br/>Phu Bai International Airport sits about 15km south of Hue; a taxi or private car to the city center takes 20-30 minutes and costs roughly 250,000-300,000 VND ($10-12).<br/><b>Why it's here:</b> Fixes the transfer time for flying in or out of Hue directly, rather than via Da Nang<br/><a href="https://www.geckoroutes.com/vietnam/hue-airport/">source 1</a> &middot; <a href="https://danangtransfer.vn/en/4-ways-to-get-from-hue-airport-to-city-center-price-time-tips/">source 2</a>]]></description>
+        <Point>
+          <coordinates>107.7054596,16.399655,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Da Nang Airport to Hoi An</name>
+        <styleUrl>#s-hoi-an-logistics</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; Airport transfer<br/><br/>Da Nang International Airport (DAD) sits about 30km from Hoi An; a Grab car or taxi takes 30-40 minutes in normal traffic (up to an hour at peak times) and costs roughly 250,000-400,000 VND.<br/><b>Why it's here:</b> Fixes the practical transfer time for the flight in and out of the Hoi An/Da Nang leg of the trip<br/><a href="https://unmappedasia.com/da-nang-airport-to-hoi-an/">source 1</a> &middot; <a href="https://www.welcomepickups.com/da-nang/airport-to-hoi-an/">source 2</a>]]></description>
+        <Point>
+          <coordinates>108.1971613,16.0425792,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hoi An Old Town vehicle restrictions</name>
+        <styleUrl>#s-hoi-an-logistics</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; Old Town core<br/><br/>Cars and, at scheduled hours, motorbikes are barred from the Old Town's core streets, which are walking- and cyclo-only; a paid Old Town ticket covers entry to several assembly halls, temples and heritage houses.<br/><b>Why it's here:</b> Affects how you actually move around and reach hotels/restaurants once inside the historic core<br/><a href="https://grooviet.com/destination/japanese-covered-bridge/">source 1</a>]]></description>
+        <Point>
+          <coordinates>108.3239898,15.8779509,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Da Nang - Buon Ma Thuot flight (VN1911)</name>
+        <styleUrl>#s-buon-ma-thuot-logistics</styleUrl>
+        <description><![CDATA[<b>Buon Ma Thuot</b> &middot; Route into the highlands leg<br/><br/>The only practical way into this leg of the route: a roughly 65-minute Vietnam Airlines flight from Da Nang, operated on selected days of the week rather than daily.<br/><b>Why it's here:</b> The whole route depends on this flight existing on the chosen date; it must be checked against the calendar before booking, not assumed<br/><a href="https://www.vietnamairlines.com/en-vn/flights-from-da-nang-to-buon-ma-thuot">source 1</a> &middot; <a href="https://www.flightaware.com/live/flight/HVN1911">source 2</a>]]></description>
+        <Point>
+          <coordinates>108.1199878,12.6668723,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Grab from Tan Son Nhat Airport</name>
+        <styleUrl>#s-saigon-logistics</styleUrl>
+        <description><![CDATA[<b>Ho Chi Minh City</b> &middot; Tan Son Nhat International Airport (SGN)<br/><br/>Ride-hailing pickup for Grab cars is outside the arrivals hall, past the metered-taxi rank; a ride to District 1 takes 25-50 minutes depending on traffic and costs roughly 110,000-250,000 VND.<br/><b>Why it's here:</b> Cheaper and more predictable than the taxi rank, with a fixed upfront fare shown before booking<br/><a href="https://blog.gettransfer.com/from-ho-chi-minh-city-airport-to-the-city-center-taxi-grab-more/">source 1</a> &middot; <a href="https://www.grab.com/global/airport-rides/tan-son-nhat-international-airport/">source 2</a>]]></description>
+        <Point>
+          <coordinates>106.6562645,10.8179793,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>No airport metro link yet</name>
+        <styleUrl>#s-saigon-logistics</styleUrl>
+        <description><![CDATA[<b>Ho Chi Minh City</b> &middot; Tan Son Nhat International Airport (SGN)<br/><br/>Saigon's first metro line (Line 1, Ben Thanh-Suoi Tien) opened in December 2024, but no metro or rail line reaches the airport; a dedicated airport link is not expected until around 2030.<br/><b>Why it's here:</b> Rules out the metro as an airport option, which travelers researching the new 2024 line sometimes assume is already connected<br/><a href="https://aifly.one/2026/03/ho-chi-minh-city-tan-son-nhat-airport-guide/">source 1</a>]]></description>
+        <Point>
+          <coordinates>106.6562645,10.8179793,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bus from Ho Chi Minh City to Can Tho</name>
+        <styleUrl>#s-mekong-logistics</styleUrl>
+        <description><![CDATA[<b>Mekong and Can Tho</b> &middot; Ho Chi Minh City to Can Tho, roughly 170 km<br/><br/>A sleeper coach (commonly the Futa/Phuong Trang line) covers the route in about 3 hours of driving, though the door-to-door trip including rest stops and pickup/drop-off typically runs closer to 5 hours; a taxi from the Can Tho bus station to Ninh Kieu Wharf adds about 15 minutes.<br/><b>Why it's here:</b> The standard overland option between the two, and the reason a Mekong stop is usually built around an overnight rather than a rushed day trip<br/><a href="https://vemekong.com/guide-to-can-tho-floating-markets/">source 1</a>]]></description>
+        <Point>
+          <coordinates>105.7615442,10.0243445,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Grab and taxi from Phu Quoc International Airport</name>
+        <styleUrl>#s-phu-quoc-logistics</styleUrl>
+        <description><![CDATA[<b>Phu Quoc</b> &middot; Phu Quoc International Airport (PQC), about 10 km south of Duong Dong<br/><br/>Grab and metered taxis both operate from the terminal; a ride to the Long Beach hotel strip takes about 10-15 minutes and costs roughly 100,000-200,000 VND, with Grab typically 10-20% cheaper than the metered taxi rate.<br/><b>Why it's here:</b> The airport sits close enough to the main hotel strip that a transfer is short and cheap regardless of which resort is booked<br/><a href="https://www.airporttransferportal.com/airport-guides/pqc/cost-to-city">source 1</a> &middot; <a href="https://www.grab.com/global/airport-rides/phu-quoc-international-airport/">source 2</a>]]></description>
+        <Point>
+          <coordinates>103.9921557,10.1727084,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Speedboat from the Mekong Delta (Ha Tien)</name>
+        <styleUrl>#s-phu-quoc-logistics</styleUrl>
+        <description><![CDATA[<b>Phu Quoc</b> &middot; Ha Tien to Bai Vong pier, Phu Quoc<br/><br/>Fast boats from Ha Tien on the Mekong Delta coast to Phu Quoc's Bai Vong pier run 3-5 times daily between about 6am and 2pm, taking roughly 1.5 hours; slower car ferries take about 3 hours on the same route.<br/><b>Why it's here:</b> Connects a Mekong Delta stop directly to Phu Quoc without backtracking through Ho Chi Minh City for a flight<br/><a href="https://www.vietnamcoracle.com/phu-quoc-island-ferry-times/">source 1</a>]]></description>
+        <Point>
+          <coordinates>104.038743,10.1457488,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
   </Document>
 </kml>

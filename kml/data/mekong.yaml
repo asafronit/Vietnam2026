@@ -6,16 +6,19 @@ hotels:
   price_high: 200
   price_checked: '2026-08-16'
   area: Ninh Kieu, riverside
-  what: The tallest international hotel in the Mekong Delta, on the Can Tho
-    riverfront near Ninh Kieu Pier and the night market, formerly branded as
-    Vinpearl Hotel Can Tho before its rebrand under Marriott.
-  why: The only internationally-chained 5-star in the Mekong Delta, confirmed
-    by multiple independent sources as officially rated
+  what: The tallest international hotel in the Mekong Delta, on the Can Tho riverfront
+    near Ninh Kieu Pier and the night market, formerly branded as Vinpearl Hotel Can
+    Tho before its rebrand under Marriott.
+  why: The only internationally-chained 5-star in the Mekong Delta, confirmed by multiple
+    independent sources as officially rated
   confidence: high
   geocode_query: Sheraton Can Tho, Can Tho, Vietnam
   sources:
   - https://www.tripadvisor.com/Hotel_Review-g303942-d11743875-Reviews-Sheraton_Can_Tho-Can_Tho_Mekong_Delta.html
   - https://www.marriott.com/en-us/hotels/vcasi-sheraton-can-tho/overview/
+  coords:
+    lat: 10.0242294
+    lng: 105.7744816
 - name: Muong Thanh Luxury Can Tho Hotel
   tier: 5
   tier_official: false
@@ -23,10 +26,10 @@ hotels:
   price_high: 168
   price_checked: '2026-08-16'
   area: Ninh Kieu
-  what: A tower hotel branded "5-star luxury" by the domestic Muong Thanh
-    chain, with a rooftop bar, pool and gym overlooking the Can Tho river.
-  why: Cheapest 5-star-branded option in the delta, though guest reviews note
-    the rooms feel dated relative to the star claim
+  what: A tower hotel branded "5-star luxury" by the domestic Muong Thanh chain, with
+    a rooftop bar, pool and gym overlooking the Can Tho river.
+  why: Cheapest 5-star-branded option in the delta, though guest reviews note the
+    rooms feel dated relative to the star claim
   confidence: medium
   geocode_query: Muong Thanh Luxury Can Tho Hotel, Can Tho, Vietnam
   sources:
@@ -39,16 +42,19 @@ hotels:
   price_high: 95
   price_checked: '2026-08-16'
   area: Riverside, Cai Khe islet
-  what: A colonial-style riverside resort from the established Victoria
-    hotels chain, with a pool overlooking the Can Tho River and its own daily
-    Mekong boat tours for guests.
-  why: The delta's best-regarded conventional resort chain, officially rated
-    and consistently praised over the larger conference hotels in town
+  what: A colonial-style riverside resort from the established Victoria hotels chain,
+    with a pool overlooking the Can Tho River and its own daily Mekong boat tours
+    for guests.
+  why: The delta's best-regarded conventional resort chain, officially rated and consistently
+    praised over the larger conference hotels in town
   confidence: high
   geocode_query: Victoria Can Tho Resort, Can Tho, Vietnam
   sources:
   - https://www.travelfish.org/accommodation_profile/vietnam/mekong_delta/can_tho/can_tho/all/8497
   - https://www.tripadvisor.com/Hotel_Review-g303942-d306941-Reviews-Victoria_Can_Tho_Resort-Can_Tho_Mekong_Delta.html
+  coords:
+    lat: 10.0393054
+    lng: 105.7930514
 - name: Can Tho Ecolodge
   tier: 4
   tier_official: false
@@ -56,16 +62,19 @@ hotels:
   price_high: 82
   price_checked: '2026-08-16'
   area: Cai Rang, Ba Lang River
-  what: A thatched-house eco-resort on the Ba Lang River outside town, with a
-    pool, garden and bar, built around responsibly showcasing the surrounding
-    delta rather than a conventional hotel tower.
-  why: The most resort-like eco-lodge option in the area, ranked third of Can
-    Tho's specialty lodging with consistently strong reviews
+  what: A thatched-house eco-resort on the Ba Lang River outside town, with a pool,
+    garden and bar, built around responsibly showcasing the surrounding delta rather
+    than a conventional hotel tower.
+  why: The most resort-like eco-lodge option in the area, ranked third of Can Tho's
+    specialty lodging with consistently strong reviews
   confidence: medium
   geocode_query: Can Tho Ecolodge, Cai Rang, Can Tho, Vietnam
   sources:
   - https://www.tripadvisor.com/Hotel_Review-g303942-d17528812-Reviews-Can_Tho_Ecolodge-Can_Tho_Mekong_Delta.html
   - https://www.booking.com/hotel/vn/can-tho-ecolodge.en-gb.html
+  coords:
+    lat: 9.9878302
+    lng: 105.7414525
 - name: Bamboo Eco Village
   tier: 3
   tier_official: true
@@ -73,16 +82,18 @@ hotels:
   price_high: 56
   price_checked: '2026-08-16'
   area: Can Tho outskirts
-  what: A small officially 3-star eco-hotel with a garden, pool and bicycles
-    for guests, built around orchard and canal surroundings rather than a
-    town-centre location.
-  why: Officially rated 3-star with unusually strong reviews for the tier,
-    praised repeatedly for the garden and pool
+  what: A small officially 3-star eco-hotel with a garden, pool and bicycles for guests,
+    built around orchard and canal surroundings rather than a town-centre location.
+  why: Officially rated 3-star with unusually strong reviews for the tier, praised
+    repeatedly for the garden and pool
   confidence: medium
   geocode_query: Bamboo Eco Village, Can Tho, Vietnam
   sources:
   - https://www.tripadvisor.com/Hotel_Review-g303942-d19602577-Reviews-Bamboo_Eco_Village-Can_Tho_Mekong_Delta.html
   - https://en.planetofhotels.com/vietnam/can-tho/bamboo-eco-village
+  coords:
+    lat: 10.0074606
+    lng: 105.7054798
 - name: Mekong Silt Ecolodge
   tier: 3
   tier_official: false
@@ -90,11 +101,10 @@ hotels:
   price_high: 62
   price_checked: '2026-08-16'
   area: My Khanh, about 30 minutes from central Can Tho
-  what: A homestay-style ecolodge in a quiet rural area outside the city,
-    with garden cottages, a pool and staff-led tours to off-the-beaten-track
-    parts of the delta.
-  why: Consistently praised for genuinely local, off-tourist-track tours
-    rather than the standard packaged canal-boat circuit
+  what: A homestay-style ecolodge in a quiet rural area outside the city, with garden
+    cottages, a pool and staff-led tours to off-the-beaten-track parts of the delta.
+  why: Consistently praised for genuinely local, off-tourist-track tours rather than
+    the standard packaged canal-boat circuit
   confidence: medium
   geocode_query: Mekong Silt Ecolodge, My Khanh, Can Tho, Vietnam
   sources:
@@ -103,77 +113,88 @@ hotels:
 must_see:
 - name: Cai Rang Floating Market
   area: Cai Rang, about 6 km southwest of central Can Tho
-  what: A river market of roughly 200-300 local trading boats and produce
-    barges, each hanging a sample of its goods from a tall pole so buyers can
-    spot it from the water. It runs from before sunrise and is essentially
-    over as a wholesale market by mid-morning.
-  why: The largest and most authentic floating market left in the delta, but
-    only if timed for its real dawn trading hours, not a mid-morning visit
+  what: A river market of roughly 200-300 local trading boats and produce barges,
+    each hanging a sample of its goods from a tall pole so buyers can spot it from
+    the water. It runs from before sunrise and is essentially over as a wholesale
+    market by mid-morning.
+  why: The largest and most authentic floating market left in the delta, but only
+    if timed for its real dawn trading hours, not a mid-morning visit
   confidence: high
   geocode_query: Cai Rang Floating Market, Can Tho, Vietnam
   sources:
   - https://vemekong.com/guide-to-can-tho-floating-markets/
   - https://www.travelfish.org/sight_profile/vietnam/mekong_delta/can_tho/can_tho/2496
+  coords:
+    lat: 10.0023957
+    lng: 105.7443925
 attractions:
 - name: My Tho and Ben Tre coconut candy village
   area: My Tho and Ben Tre provinces, upper Mekong Delta
-  what: A river-island circuit reached by motorboat and narrow-canal sampan
-    (a small wooden boat rowed by a boatman in a conical hat), stopping at a
-    small workshop where coconut milk is hand-cooked and cut into candy while
-    still warm.
-  why: The classic, gentler alternative to Can Tho for a single-day Mekong
-    visit, and the standard way to see hand-made coconut candy production
+  what: A river-island circuit reached by motorboat and narrow-canal sampan (a small
+    wooden boat rowed by a boatman in a conical hat), stopping at a small workshop
+    where coconut milk is hand-cooked and cut into candy while still warm.
+  why: The classic, gentler alternative to Can Tho for a single-day Mekong visit,
+    and the standard way to see hand-made coconut candy production
   confidence: high
   geocode_query: Ben Tre coconut candy village, Ben Tre, Vietnam
   sources:
   - https://viet-go.com/en/attractions/my-tho-ben-tre-mekong-delta-guide
 - name: Vinh Trang Pagoda
   area: My Tho
-  what: A 19th-century Buddhist pagoda recognised as a national historical
-    relic, blending Vietnamese, Khmer and French architectural styles with
-    a large reclining Buddha statue in its grounds.
-  why: The most architecturally distinct temple in the delta, mixing three
-    building traditions in one compound
+  what: A 19th-century Buddhist pagoda recognised as a national historical relic,
+    blending Vietnamese, Khmer and French architectural styles with a large reclining
+    Buddha statue in its grounds.
+  why: The most architecturally distinct temple in the delta, mixing three building
+    traditions in one compound
   confidence: high
   geocode_query: Vinh Trang Pagoda, My Tho, Vietnam
   sources:
   - https://www.viator.com/Mekong-Delta-attractions/Vinh-Trang-Pagoda/d23962-a19069
+  coords:
+    lat: 10.3628375
+    lng: 106.3735689
 food:
 - name: Lua Nep
   kind: vietnamese
   signal: traveler_recommended
   dish: Deep-fried elephant ear fish
   area: Ninh Kieu riverside, Can Tho
-  what: A riverside restaurant serving the delta's signature elephant ear
-    fish, fried whole and served upright so the flesh is rolled into rice
-    paper with herbs and pickles at the table.
-  why: Repeatedly singled out by recent travelers for this specific dish,
-    the Mekong Delta's most iconic
+  what: A riverside restaurant serving the delta's signature elephant ear fish, fried
+    whole and served upright so the flesh is rolled into rice paper with herbs and
+    pickles at the table.
+  why: Repeatedly singled out by recent travelers for this specific dish, the Mekong
+    Delta's most iconic
   confidence: medium
   geocode_query: Lua Nep restaurant, Can Tho, Vietnam
   sources:
   - https://hanoivoyage.com/en/blog/restaurant/top-7-restaurants-in-the-mekong-delta
+  coords:
+    lat: 10.0450175
+    lng: 105.7947956
 - name: Sao Hom Restaurant
   kind: vietnamese
   signal: traveler_recommended
   dish: Garlic fried rice, Mekong-style spring rolls
   area: Ninh Kieu riverside, Can Tho, inside the old Nha Long market building
-  what: A restaurant set inside a restored early-1900s riverside market hall,
-    with open river views and a menu of southern Vietnamese home cooking.
-  why: A local guide recommendation for a proper sit-down dinner, in one of
-    Can Tho's most distinctive dining buildings
+  what: A restaurant set inside a restored early-1900s riverside market hall, with
+    open river views and a menu of southern Vietnamese home cooking.
+  why: A local guide recommendation for a proper sit-down dinner, in one of Can Tho's
+    most distinctive dining buildings
   confidence: medium
   geocode_query: Sao Hom Restaurant, Ninh Kieu, Can Tho, Vietnam
   sources:
   - https://vinwonders.com/en/wonderpedia/news/can-tho-restaurants/
+  coords:
+    lat: 10.0313789
+    lng: 105.7882653
 markets:
 - name: Ninh Kieu Night Market
   area: Ninh Kieu, Phan Boi Chau and Phan Chau Trinh streets
-  what: A two-street night market a short walk from Ninh Kieu Wharf, split
-    between a food court selling grilled skewers, sweet soups and sugarcane
-    juice, and a shopping side of cheap clothing and printed T-shirts.
-  why: The natural evening follow-on to a riverside stroll, busiest and
-    coolest from around 7:30-9:30pm
+  what: A two-street night market a short walk from Ninh Kieu Wharf, split between
+    a food court selling grilled skewers, sweet soups and sugarcane juice, and a shopping
+    side of cheap clothing and printed T-shirts.
+  why: The natural evening follow-on to a riverside stroll, busiest and coolest from
+    around 7:30-9:30pm
   confidence: high
   geocode_query: Ninh Kieu Night Market, Can Tho, Vietnam
   sources:
@@ -182,23 +203,25 @@ markets:
 logistics:
 - name: Bus from Ho Chi Minh City to Can Tho
   area: Ho Chi Minh City to Can Tho, roughly 170 km
-  what: A sleeper coach (commonly the Futa/Phuong Trang line) covers the
-    route in about 3 hours of driving, though the door-to-door trip including
-    rest stops and pickup/drop-off typically runs closer to 5 hours; a taxi
-    from the Can Tho bus station to Ninh Kieu Wharf adds about 15 minutes.
-  why: The standard overland option between the two, and the reason a Mekong
-    stop is usually built around an overnight rather than a rushed day trip
+  what: A sleeper coach (commonly the Futa/Phuong Trang line) covers the route in
+    about 3 hours of driving, though the door-to-door trip including rest stops and
+    pickup/drop-off typically runs closer to 5 hours; a taxi from the Can Tho bus
+    station to Ninh Kieu Wharf adds about 15 minutes.
+  why: The standard overland option between the two, and the reason a Mekong stop
+    is usually built around an overnight rather than a rushed day trip
   confidence: medium
   geocode_query: Can Tho bus station, Can Tho, Vietnam
   sources:
   - https://vemekong.com/guide-to-can-tho-floating-markets/
+  coords:
+    lat: 10.0243445
+    lng: 105.7615442
 - name: Speedboat from the Mekong Delta to Phu Quoc
   area: Ha Tien, Kien Giang province
-  what: Fast boats from Ha Tien to Phu Quoc's Bai Vong pier run 3-5 times
-    daily between roughly 6am and 2pm, taking about 1.5 hours; car ferries
-    from the same pier take about 3 hours and cost slightly less.
-  why: Lets a Mekong-to-Phu Quoc leg skip a backtrack to Ho Chi Minh City for
-    a flight
+  what: Fast boats from Ha Tien to Phu Quoc's Bai Vong pier run 3-5 times daily between
+    roughly 6am and 2pm, taking about 1.5 hours; car ferries from the same pier take
+    about 3 hours and cost slightly less.
+  why: Lets a Mekong-to-Phu Quoc leg skip a backtrack to Ho Chi Minh City for a flight
   confidence: high
   geocode_query: Ha Tien ferry terminal, Kien Giang, Vietnam
   sources:

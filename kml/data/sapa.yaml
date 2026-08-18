@@ -6,10 +6,10 @@ hotels:
   price_high: 200
   price_checked: '2026-08-16'
   area: Sapa town, above Sun Plaza
-  what: A 152-room hillside resort with an indoor pool, full-service spa and two
-    restaurants, one of the largest true luxury properties in Sapa town.
-  why: Officially 5-star and the highest-rated large luxury property in Sapa;
-    priced far below Hanoi/HCMC 5-stars
+  what: A 152-room hillside resort with an indoor pool, full-service spa and two restaurants,
+    one of the largest true luxury properties in Sapa town.
+  why: Officially 5-star and the highest-rated large luxury property in Sapa; priced
+    far below Hanoi/HCMC 5-stars
   confidence: high
   geocode_query: Silk Path Grand Sapa Resort and Spa, Sapa, Vietnam
   sources:
@@ -22,17 +22,20 @@ hotels:
   price_high: 180
   price_checked: '2026-08-16'
   area: Sapa town hillside, Muong Hoa Valley view
-  what: A 223-room resort built into the hillside with terrace views over the
-    Muong Hoa rice-terrace valley and Fansipan, run by CTX Holdings.
-  why: Ranked #3 of 180+ Sapa hotels on Tripadvisor and independently confirmed
-    as officially 5-star; note that several reviewers say the room quality feels
-    closer to a solid 3-star by Western standards, so treat the rating as
-    location- and facility-driven rather than a guarantee of finish quality
+  what: A 223-room resort built into the hillside with terrace views over the Muong
+    Hoa rice-terrace valley and Fansipan, run by CTX Holdings.
+  why: 'Ranked #3 of 180+ Sapa hotels on Tripadvisor and independently confirmed as
+    officially 5-star; note that several reviewers say the room quality feels closer
+    to a solid 3-star by Western standards, so treat the rating as location- and facility-driven
+    rather than a guarantee of finish quality'
   confidence: medium
   geocode_query: Pao's Sapa Leisure Hotel, Sapa, Vietnam
   sources:
   - https://www.tripadvisor.com/Hotel_Review-g311304-d12786956-Reviews-Pao_s_Sapa_Leisure_Hotel-Sapa_Lao_Cai_Province.html
   - https://www.trip.com/hotels/sapa-hotel-detail-10540093/pao-s-sapa-leisure-hotel/
+  coords:
+    lat: 22.3270114
+    lng: 103.8466396
 - name: Pistachio Hotel Sapa
   tier: 4
   tier_official: true
@@ -40,10 +43,10 @@ hotels:
   price_high: 180
   price_checked: '2026-08-16'
   area: Sapa town, near Fansipan Legend cable car station
-  what: A 4-star hotel with Sapa's highest rooftop infinity pool (seasonal) next
-    to the Fansi Sky Bar, looking out over Fansipan and the Muong Hoa Valley.
-  why: The best-reviewed straightforward 4-star in town, and the master-spec
-    upgrade pick over the mould-flagged Bamboo Sapa
+  what: A 4-star hotel with Sapa's highest rooftop infinity pool (seasonal) next to
+    the Fansi Sky Bar, looking out over Fansipan and the Muong Hoa Valley.
+  why: The best-reviewed straightforward 4-star in town, and the master-spec upgrade
+    pick over the mould-flagged Bamboo Sapa
   confidence: high
   geocode_query: Pistachio Hotel Sapa, Sapa, Vietnam
   sources:
@@ -56,11 +59,11 @@ hotels:
   price_high: 120
   price_checked: '2026-08-16'
   area: Sapa town
-  what: A boutique hotel with a heated pool, spa and mountain-view rooms,
-    previously traded as Aira Boutique Sapa Hotel & Spa.
-  why: Ranked #9 of 188 Sapa hotels with a very high review volume; some
-    platforms round its self-described "4.5-star" positioning up to 5, so treat
-    the star figure as boutique marketing rather than an official grade
+  what: A boutique hotel with a heated pool, spa and mountain-view rooms, previously
+    traded as Aira Boutique Sapa Hotel & Spa.
+  why: 'Ranked #9 of 188 Sapa hotels with a very high review volume; some platforms
+    round its self-described "4.5-star" positioning up to 5, so treat the star figure
+    as boutique marketing rather than an official grade'
   confidence: medium
   geocode_query: Aliana Boutique Sapa Hotel and Spa, Sapa, Vietnam
   sources:
@@ -75,8 +78,8 @@ hotels:
   area: Sapa town, 20m from Sun Plaza
   what: A small central hotel a few steps from Sun Plaza, the town's main square,
     with clean simple rooms and an on-site restaurant and bar.
-  why: Officially 3-star with an unusually high review score (9.4-9.5) for its
-    price point and the most central location on this list
+  why: Officially 3-star with an unusually high review score (9.4-9.5) for its price
+    point and the most central location on this list
   confidence: high
   geocode_query: Sapa Centre Hotel, Sapa, Vietnam
   sources:
@@ -89,10 +92,10 @@ hotels:
   price_high: 55
   price_checked: '2026-08-16'
   area: Sapa town, near Ham Rong Flower Garden and Sapa railway station
-  what: A small hotel near the Ham Rong Flower Garden with a lounge bar and
-    sundeck, and rooms looking toward Sapa station and Fansipan.
-  why: Officially 3-star with strong, consistent reviews (8.9-9.5) across
-    multiple booking platforms
+  what: A small hotel near the Ham Rong Flower Garden with a lounge bar and sundeck,
+    and rooms looking toward Sapa station and Fansipan.
+  why: Officially 3-star with strong, consistent reviews (8.9-9.5) across multiple
+    booking platforms
   confidence: high
   geocode_query: Ladybird Boutique Hotel, Sapa, Vietnam
   sources:
@@ -101,33 +104,36 @@ hotels:
 must_see:
 - name: Fansipan cable car and Muong Hoa mountain train
   area: Sun Plaza, Sapa town, to Fansipan summit
-  what: A combined mountain train (Sun Plaza to Muong Hoa station) and a 6.3km
-    cable car climbing to near the summit of Fansipan, at 3,143m the highest
-    peak in Indochina, with a pagoda complex at the top station.
-  why: The easiest way to stand on the "Roof of Indochina" without a multi-day
-    trek, and the combo ticket includes both legs
+  what: A combined mountain train (Sun Plaza to Muong Hoa station) and a 6.3km cable
+    car climbing to near the summit of Fansipan, at 3,143m the highest peak in Indochina,
+    with a pagoda complex at the top station.
+  why: The easiest way to stand on the "Roof of Indochina" without a multi-day trek,
+    and the combo ticket includes both legs
   confidence: high
   geocode_query: Fansipan Legend Cable Car station, Sapa, Vietnam
   sources:
   - https://junglebosstours.com/explorer/tourism-blog/fansipan-mountain-sapa
 - name: Cat Cat Village
   area: San Sa Ho commune, about 3km from Sapa town
-  what: A Black H'mong village at the entrance to the Muong Hoa Valley, founded
-    in the mid-19th century, with three streams meeting at Cat Cat waterfall
-    and two chain footbridges crossing it.
-  why: The most accessible ethnic-minority village from Sapa town, walkable in
-    an afternoon
+  what: A Black H'mong village at the entrance to the Muong Hoa Valley, founded in
+    the mid-19th century, with three streams meeting at Cat Cat waterfall and two
+    chain footbridges crossing it.
+  why: The most accessible ethnic-minority village from Sapa town, walkable in an
+    afternoon
   confidence: high
   geocode_query: Cat Cat Village, Sapa, Vietnam
   sources:
   - https://vinpearl.com/en/cat-cat-village-sapa
+  coords:
+    lat: 22.3309642
+    lng: 103.8340516
 - name: Sapa Stone Church and Sun Plaza
   area: Central Sapa town
-  what: A Roman-Gothic stone church built in 1926-1935 at the foot of Ham Rong
-    mountain, facing the paved square (Sun Plaza) that functions as the town's
-    social centre and the starting point for the mountain train.
-  why: The literal centre of Sapa town and the anchor point for the Saturday
-    night market
+  what: A Roman-Gothic stone church built in 1926-1935 at the foot of Ham Rong mountain,
+    facing the paved square (Sun Plaza) that functions as the town's social centre
+    and the starting point for the mountain train.
+  why: The literal centre of Sapa town and the anchor point for the Saturday night
+    market
   confidence: high
   geocode_query: Sapa Stone Church, Sapa, Vietnam
   sources:
@@ -135,11 +141,11 @@ must_see:
 attractions:
 - name: Black H'mong village trek, Muong Hoa Valley
   area: Muong Hoa Valley, villages south of Sapa town (Lao Chai, Ta Van)
-  what: A half- or full-day guided walk on dirt paths through terraced rice
-    fields and H'mong/Dao villages in the valley below Sapa, usually led by a
-    local Hmong or Dao woman guide.
-  why: The most substantive way to see the terrace landscape and meet local
-    families rather than just photograph the valley from a viewpoint
+  what: A half- or full-day guided walk on dirt paths through terraced rice fields
+    and H'mong/Dao villages in the valley below Sapa, usually led by a local Hmong
+    or Dao woman guide.
+  why: The most substantive way to see the terrace landscape and meet local families
+    rather than just photograph the valley from a viewpoint
   confidence: high
   geocode_query: Muong Hoa Valley trekking trailhead, Sapa, Vietnam
   sources:
@@ -147,13 +153,12 @@ attractions:
 markets:
 - name: Sapa Love Market
   area: Central square, in front of Sapa Stone Church
-  what: A Saturday-evening gathering in the town square where ethnic-minority
-    performers sing and dance; historically a courtship custom where young
-    people from different villages met, now largely a staged tourism
-    performance rather than the original tradition.
-  why: Worth seeing for what it is honestly — a living piece of local culture
-    that has been reshaped into a weekly show, not the folk custom the name
-    still advertises
+  what: A Saturday-evening gathering in the town square where ethnic-minority performers
+    sing and dance; historically a courtship custom where young people from different
+    villages met, now largely a staged tourism performance rather than the original
+    tradition.
+  why: Worth seeing for what it is honestly — a living piece of local culture that
+    has been reshaped into a weekly show, not the folk custom the name still advertises
   confidence: medium
   geocode_query: Sapa Stone Church square, Sapa, Vietnam
   sources:
@@ -164,12 +169,10 @@ food:
   signal: traveler_recommended
   dish: Thang co (horse stew)
   area: 15 Thach Son Street, Sapa town
-  what: A long-running local restaurant serving thang co, the H'mong horse-meat
-    and offal stew simmered with highland herbs, alongside other mountain
-    specialities.
-  why: The most consistently recommended address in Sapa for this specific
-    regional dish, with an established following on Tripadvisor and local
-    guides alike
+  what: A long-running local restaurant serving thang co, the H'mong horse-meat and
+    offal stew simmered with highland herbs, alongside other mountain specialities.
+  why: The most consistently recommended address in Sapa for this specific regional
+    dish, with an established following on Tripadvisor and local guides alike
   confidence: medium
   geocode_query: Thang Co A Quynh Restaurant, Thach Son Street, Sapa, Vietnam
   sources:
@@ -177,14 +180,17 @@ food:
 logistics:
 - name: Hanoi to Sapa transfer options
   area: Hanoi to Sapa town
-  what: Two practical ways to cover the roughly 300km/6 hours - an overnight
-    sleeper train from Hanoi to Lao Cai followed by a 45-60 minute shuttle up to
-    Sapa, or a direct day or overnight limousine van/sleeper bus (5.5-6 hours,
-    roughly 300,000-660,000 VND depending on seat class).
-  why: The overnight train turns a dead travel day into a night's sleep, but
-    only the van/bus goes door-to-door into Sapa town itself
+  what: Two practical ways to cover the roughly 300km/6 hours - an overnight sleeper
+    train from Hanoi to Lao Cai followed by a 45-60 minute shuttle up to Sapa, or
+    a direct day or overnight limousine van/sleeper bus (5.5-6 hours, roughly 300,000-660,000
+    VND depending on seat class).
+  why: The overnight train turns a dead travel day into a night's sleep, but only
+    the van/bus goes door-to-door into Sapa town itself
   confidence: high
   geocode_query: Sapa bus station, Sapa, Vietnam
   sources:
   - https://a21tours.com/sapa-sleeper-bus-vs-limousine-van
   - https://visit-sapa.com/en/blog/hanoi-sapa-bus-limousine
+  coords:
+    lat: 22.3399787
+    lng: 103.8485698

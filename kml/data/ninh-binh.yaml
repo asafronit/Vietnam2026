@@ -1,0 +1,255 @@
+hotels:
+- name: Wyndham Grand Vedana Ninh Binh Resort
+  tier: 5
+  tier_official: false
+  price_low: 70
+  price_high: 250
+  price_checked: '2026-08-16'
+  area: Nho Quan District, on the Hoang Long River near Cuc Phuong National Park
+  what: A 195-room lakeside resort on a bend of the Hoang Long River, with a hot-mineral
+    infinity pool, spa, kids' club and free kayaking, about 30-40 minutes from Trang
+    An.
+  why: The only international-chain (Wyndham Grand) resort in the province, though
+    local listings disagree on whether it rates a true 5-star or 4.5-star
+  confidence: medium
+  geocode_query: Wyndham Grand Vedana Ninh Binh Resort, Nho Quan, Ninh Binh, Vietnam
+  sources:
+  - https://www.tripadvisor.com/Hotel_Review-g303945-d24980381-Reviews-Wyndham_Grand_Vedana_Ninh_Binh-Ninh_Binh_Ninh_Binh_Province.html
+  - https://www.priceline.com/hotel-deals/en-us/P5000000445/H195883603/wyndham-grand-vedana-ninh-binh.ssp
+  - https://www.wyndhamhotels.com/wyndham-grand/ninh-binh-vietnam/wyndham-grand-vedana-ninh-binh/overview
+- name: Ninh Binh Legend Hotel
+  tier: 5
+  tier_official: true
+  price_low: 58
+  price_high: 120
+  price_checked: '2026-08-16'
+  area: City center
+  what: A 260-room hotel in the middle of Ninh Binh city with three swimming pools,
+    an indoor pool, outdoor tennis courts, sauna and gym.
+  why: The city-center 5-star option, for a stay closer to restaurants and the train
+    station rather than out among the karsts
+  confidence: medium
+  geocode_query: Ninh Binh Legend Hotel, Ninh Binh, Vietnam
+  sources:
+  - https://www.tripadvisor.com/Hotel_Review-g303945-d1761735-Reviews-Ninh_Binh_Legend_Hotel-Ninh_Binh_Ninh_Binh_Province.html
+  - https://www.kayak.com/Ninh-Binh-Hotels-Ninh-Binh-Legend-Hotel.376440.ksp
+  coords:
+    lat: 20.2744939
+    lng: 105.9587265
+- name: Emeralda Resort Ninh Binh
+  tier: 4
+  tier_official: true
+  price_low: 61
+  price_high: 183
+  price_checked: '2026-08-16'
+  area: Gia Vien District, on a lake in the Van Long Nature Reserve
+  what: A lakeside 4-star resort built around a private lake inside the Van Long Nature
+    Reserve, with an indoor pool, sauna, Jacuzzi and spa, about a 15-minute drive
+    from Trang An.
+  why: Ranked among the top handful of hotels in the whole province, and one of the
+    few with an officially assessed 4-star rating rather than a self-declared one
+  confidence: high
+  geocode_query: Emeralda Resort Ninh Binh, Gia Vien, Ninh Binh, Vietnam
+  sources:
+  - https://www.tripadvisor.com/Hotel_Review-g303945-d2243645-Reviews-Emeralda_Resort_Ninh_Binh-Ninh_Binh_Ninh_Binh_Province.html
+  - https://www.kayak.com/Ninh-Binh-Hotels-Emeralda-Resort-Ninh-Binh.659496.ksp
+- name: Ninh Binh Hidden Charm Hotel & Resort
+  tier: 4
+  tier_official: true
+  price_low: 66
+  price_high: 95
+  price_checked: '2026-08-16'
+  area: Tam Coc - Bich Dong area, Hoa Lu District
+  what: A modern hotel with two restaurants, a full-service spa and an outdoor pool,
+    set among rice fields close to the Tam Coc boat pier.
+  why: Officially 4-star and the highest-ranked hotel of its size in Ninh Binh (#3
+    of over 120 on Tripadvisor), not just a self-rated boutique
+  confidence: high
+  geocode_query: Ninh Binh Hidden Charm Hotel and Resort, Hoa Lu, Ninh Binh, Vietnam
+  sources:
+  - https://www.tripadvisor.com/Hotel_Review-g303945-d9770834-Reviews-Ninh_Binh_Hidden_Charm_Hotel_Resort-Ninh_Binh_Ninh_Binh_Province.html
+  - https://luxurylifestyleawards.com/winners/boutique-hotel/ninh-binh-hidden-charm-hotel-resort-4-star-gem
+- name: Lalita Tam Coc Resort & Spa
+  tier: 3
+  tier_official: false
+  price_low: 99
+  price_high: 180
+  price_checked: '2026-08-16'
+  area: Ninh Hai, near Bich Dong Pagoda and the Tam Coc boat pier
+  what: A resort with an infinity pool, spa, sauna, garden and free bicycles, within
+    walking distance of Bich Dong Pagoda but away from the busiest tourist strip.
+  why: The master-spec's top pick for Ninh Binh (Agoda 9.2 from 866 reviews) and the
+    best-located resort for reaching Tam Coc on foot
+  confidence: medium
+  geocode_query: Lalita Tam Coc Resort and Spa, Ninh Hai, Ninh Binh, Vietnam
+  sources:
+  - https://www.tripadvisor.com/Hotel_Review-g12866457-d25224812-Reviews-Lalita_Tam_Coc_Resort_Spa-Ninh_Hai_Hoa_Lu_District_Ninh_Binh_Province.html
+  - https://lalitatamcocspa.luxury-hotels.com/
+- name: An's Eco Garden Resort
+  tier: 3
+  tier_official: false
+  price_low: 32
+  price_high: 154
+  price_checked: '2026-08-16'
+  area: Thung Chuoi, inside the Trang An Scenic Landscape Complex
+  what: A rustic eco-resort inside the Trang An landscape complex, with rooms in bamboo
+    huts on stilts and converted buses, an infinity pool and free bicycles.
+  why: Rated 9.0+ on both Tripadvisor and Booking.com from over 800 reviews, and the
+    only lodging actually inside the Trang An reserve rather than on its edge
+  confidence: medium
+  geocode_query: An's Eco Garden Resort, Trang An, Ninh Binh, Vietnam
+  sources:
+  - https://www.tripadvisor.com/Hotel_Review-g303945-d12190248-Reviews-An_s_Eco_Garden-Ninh_Binh_Ninh_Binh_Province.html
+  - https://www.booking.com/hotel/vn/buffalo-eco-garden.html
+must_see:
+- name: Trang An Scenic Landscape Complex
+  area: Ninh Hai Commune, Hoa Lu District, ~7km from Ninh Binh city
+  what: A UNESCO World Heritage limestone karst landscape toured by rowed sampan along
+    a 3-hour river route that threads through nine natural cave tunnels beneath the
+    cliffs.
+  why: The UNESCO-listed core of the whole 'Ha Long Bay on land' comparison, and the
+    reason Ninh Binh is on the itinerary at all
+  confidence: high
+  geocode_query: Trang An Scenic Landscape Complex, Ninh Binh, Vietnam
+  sources:
+  - https://wherearethosemorgans.com/trang-an-boat-tour/
+  - https://www.getyourguide.com/trang-an-l36900/
+  coords:
+    lat: 20.2537827
+    lng: 105.9005014
+- name: Tam Coc boat ride
+  area: Van Lam Village, Ninh Hai Commune
+  what: A shorter 2-hour sampan ride, often rowed by foot, along the Ngo Dong River
+    between rice paddies and through three limestone tunnels (Hang Ca, Hang Hai, Hang
+    Ba) that give Tam Coc its name.
+  why: The classic, more compact counterpart to Trang An - green rice-paddy scenery
+    in the dry season, flooded gold fields at harvest
+  confidence: high
+  geocode_query: Tam Coc boat pier, Ninh Binh, Vietnam
+  sources:
+  - https://happytovisit.com/ninh-binh-hoa-lu-mua-cave-and-trang-an-tour-and-boat-ride/
+  - https://junglebosstours.com/explorer/tourism-blog/trang-an-boat-tour
+- name: Mua Cave viewpoint (Hang Mua)
+  area: Khe Ha Village, ~10km from Ninh Binh city
+  what: A roughly 500-step stone staircase up Mua Mountain to a dragon statue and
+    a 360-degree viewpoint over the Tam Coc rice fields and limestone peaks below;
+    the climb itself takes 15-45 minutes.
+  why: Ninh Binh's signature adventure/physical challenge and its single best photo
+    viewpoint, reached under your own steam rather than by boat
+  confidence: high
+  geocode_query: Hang Mua Mua Cave viewpoint, Ninh Binh, Vietnam
+  sources:
+  - https://oxalisadventure.com/mua-cave-ninh-binh/
+  - https://junglebosstours.com/explorer/tourism-blog/mua-caves-vietnam-travel-guide
+attractions:
+- name: Hoa Lu Ancient Capital
+  area: Truong Yen Commune, ~10km from Ninh Binh city
+  what: The restored temples of Dinh Tien Hoang and Le Dai Hanh, marking the site
+    of Vietnam's 10th-century capital, set inside a ring of limestone mountains.
+  why: The historical anchor of the region, and usually combined with Trang An or
+    Mua Cave into one day's route
+  confidence: high
+  geocode_query: Hoa Lu Ancient Capital, Ninh Binh, Vietnam
+  sources:
+  - https://happytovisit.com/ninh-binh-hoa-lu-bai-dinh-trang-an-and-mua-cave-tour/
+  coords:
+    lat: 20.283483
+    lng: 105.8995986
+- name: Bai Dinh Pagoda
+  area: Gia Sinh Commune, ~15km from Ninh Binh city
+  what: The largest Buddhist temple complex in Vietnam, spread across a hillside with
+    a giant bronze Buddha, hundreds of Arhat statues along covered corridors, and
+    a bell tower housing one of Asia's largest bronze bells.
+  why: A different register from the boat-and-karst circuit - scale and religious
+    architecture rather than nature
+  confidence: high
+  geocode_query: Bai Dinh Pagoda, Gia Vien, Ninh Binh, Vietnam
+  sources:
+  - https://happytovisit.com/ninh-binh-hoa-lu-bai-dinh-trang-an-and-mua-cave-tour/
+food:
+- name: Duc De Restaurant
+  kind: vietnamese
+  signal: traveler_recommended
+  area: City center, Ninh Binh
+  what: A long-running goat-meat restaurant on a main street in Ninh Binh city, serving
+    the mountain goat (de nui) dishes the region is known for - steamed, grilled and
+    in hotpot.
+  why: Consistently the most-reviewed goat-meat specialist in the city center, with
+    a reputation built over years rather than a recent tourist spike
+  confidence: medium
+  geocode_query: Duc De Restaurant, Ninh Binh, Vietnam
+  sources:
+  - https://www.tripadvisor.com/Restaurant_Review-g303945-d8853028-Reviews-Duc_De_Restaurant-Ninh_Binh_Ninh_Binh_Province.html
+  coords:
+    lat: 20.2340333
+    lng: 105.9682771
+- name: Trung Tuyet
+  kind: vietnamese
+  signal: traveler_recommended
+  area: City center, Ninh Binh
+  what: A local eatery specializing in com chay - sun-dried rice pressed into crisp
+    sheets, deep-fried and served with a savory meat-and-mushroom sauce - alongside
+    egg soup and pho.
+  why: Ranked among the most reliable all-rounders in Ninh Binh on both Tripadvisor
+    and Lonely Planet for the region's signature souvenir dish
+  confidence: medium
+  geocode_query: Trung Tuyet Restaurant, Ninh Binh, Vietnam
+  sources:
+  - https://pioneersailtravel.com/ninh-binh-restaurants/
+  coords:
+    lat: 20.2516139
+    lng: 105.97874
+markets:
+- name: Cho Rong (Rong Market)
+  area: 71 Van Giang Street, Thanh Binh Ward
+  what: Ninh Binh city's main traditional market, spread across a three-story building
+    and open-air stalls, selling household goods, textiles and a fresh-produce section
+    with rice, fish, mountain goat meat and Kim Son rice wine.
+  why: The everyday market locals actually shop at, as opposed to the tourist-facing
+    night market
+  confidence: medium
+  geocode_query: Cho Rong Market, Ninh Binh, Vietnam
+  sources:
+  - https://hanoiexploretravel.com/things-to-do-ninh-binh/rong-market
+- name: Ninh Binh Night Market
+  area: Around Dinh Tien Hoang Street and Ky Lan Lake, city center
+  what: Streets around the city-center lake fill from 6pm to 11pm with food stalls
+    and vendors selling embroidered scarves, clothing and souvenirs from nearby craft
+    villages like Van Lam.
+  why: The evening counterpart to the daytime boat trips, and the easiest place to
+    try street food after a day on the water
+  confidence: medium
+  geocode_query: Ninh Binh Night Market, Ninh Binh, Vietnam
+  sources:
+  - https://vietnamdiscovery.com/ninh-binh/ninh-binh-night-market/
+  - https://sinhcafe.com/ninh-binh-night-market
+logistics:
+- name: Ninh Binh to Hanoi (train and road)
+  area: Regional transfer
+  what: Ninh Binh's train station sits centrally in the city; five daily trains run
+    to Hanoi's main station on Le Duan Street in about 2 hours, or a private car takes
+    roughly the same time by road.
+  why: Fixes the practical transfer time between Ninh Binh and the trip's Hanoi anchor
+  confidence: high
+  geocode_query: Ninh Binh Railway Station, Ninh Binh, Vietnam
+  sources:
+  - https://oxalisadventure.com/hanoi-to-ninh-binh-best-transport-options/
+  - https://a21tours.com/ninh-binh-city-to-hanoi-transfer
+  coords:
+    lat: 20.2421142
+    lng: 105.9746207
+- name: Lotus Train - Ninh Binh to Dong Hoi (night train)
+  area: Ninh Binh Railway Station, departure point
+  what: A privately refurbished overnight sleeper carriage (2-berth or 4-berth cabins,
+    Vietnam Railways track) departing Ninh Binh around 22:00 and arriving Dong Hoi
+    around 06:00, with onboard wifi, snacks and breakfast.
+  why: Turns the long road transfer south toward Phong Nha into a night's sleep instead
+    of a lost travel day
+  confidence: medium
+  geocode_query: Ninh Binh Railway Station, Ninh Binh, Vietnam
+  sources:
+  - https://lotustrain.vn/ninh-binh-to-dong-hoi-lotus-express
+  - https://violetexpresstrain.com/ninh-binh-dong-hoi-on-lotus-train-se19.html
+  coords:
+    lat: 20.2421142
+    lng: 105.9746207

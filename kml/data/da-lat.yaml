@@ -6,10 +6,12 @@ hotels:
   price_high: 258
   price_checked: '2026-08-16'
   area: Next to Xuan Huong Lake, city center
-  what: "A 1922 French colonial hotel overlooking Xuan Huong Lake, with wood floors, chandeliers, cast-iron bathtubs and a working fireplace in every room."
-  why: "Da Lat's original grand hotel and its only heritage-grade 5-star, not a newly self-rated property"
+  what: A 1922 French colonial hotel overlooking Xuan Huong Lake, with wood floors,
+    chandeliers, cast-iron bathtubs and a working fireplace in every room.
+  why: Da Lat's original grand hotel and its only heritage-grade 5-star, not a newly
+    self-rated property
   confidence: high
-  geocode_query: "Dalat Palace Heritage Hotel, Da Lat, Vietnam"
+  geocode_query: Dalat Palace Heritage Hotel, Da Lat, Vietnam
   sources:
   - https://www.tripadvisor.com/Hotel_Review-g293922-d299557-Reviews-Dalat_Palace_Heritage_Hotel-Da_Lat_Lam_Dong_Province.html
   - https://www.momondo.com/hotels/da-lat/Dalat-Palace-Heritage-Hotel.mhd7081.ksp
@@ -20,13 +22,18 @@ hotels:
   price_high: 91
   price_checked: '2026-08-16'
   area: Next to Da Lat golf course
-  what: "A large new hotel with an indoor pool, spa and its own attached winery, on the edge of downtown next to Da Lat's golf course."
-  why: "The highest-scoring self-declared 5-star in Da Lat, though several guests say it falls short of a true 5-star standard"
+  what: A large new hotel with an indoor pool, spa and its own attached winery, on
+    the edge of downtown next to Da Lat's golf course.
+  why: The highest-scoring self-declared 5-star in Da Lat, though several guests say
+    it falls short of a true 5-star standard
   confidence: medium
-  geocode_query: "MerPerle Dalat Hotel, Da Lat, Vietnam"
+  geocode_query: MerPerle Dalat Hotel, Da Lat, Vietnam
   sources:
   - https://www.tripadvisor.com/Hotel_Review-g293922-d26305215-Reviews-MerPerle_Dalat_Hotel-Da_Lat_Lam_Dong_Province.html
   - https://www.kayak.com/Dalat-Hotels-Merperle-Dalat-Hotel.9967439.ksp
+  coords:
+    lat: 11.9410283
+    lng: 108.4583231
 - name: Colline Dalat
   tier: 4
   tier_official: true
@@ -34,13 +41,18 @@ hotels:
   price_high: 76
   price_checked: '2026-08-16'
   area: Next to Da Lat night market
-  what: "A 150-room modern hotel built directly onto the steps down to Da Lat's night market, with a rooftop restaurant looking over the town."
-  why: "Officially 4-star and zero steps from the night market; the master-spec's top pick for Da Lat"
+  what: A 150-room modern hotel built directly onto the steps down to Da Lat's night
+    market, with a rooftop restaurant looking over the town.
+  why: Officially 4-star and zero steps from the night market; the master-spec's top
+    pick for Da Lat
   confidence: high
-  geocode_query: "Colline Dalat Hotel, Da Lat, Vietnam"
+  geocode_query: Colline Dalat Hotel, Da Lat, Vietnam
   sources:
   - https://www.tripadvisor.com/Hotel_Review-g293922-d16731336-Reviews-Colline-Da_Lat_Lam_Dong_Province.html
   - https://us.trip.com/hotels/dalat-hotel-detail-29515862/colline-dalat/
+  coords:
+    lat: 11.94397
+    lng: 108.438126
 - name: Terracotta Hotel & Resort Dalat
   tier: 4
   tier_official: false
@@ -48,10 +60,11 @@ hotels:
   price_high: 53
   price_checked: '2026-08-16'
   area: Lakeside, near Da Lat golf course
-  what: "A spa hotel on the shore of a small private lake, with two restaurants, bike rental and an adjoining golf course."
-  why: "A genuine lakeside 4-star property at close to 3-star prices"
+  what: A spa hotel on the shore of a small private lake, with two restaurants, bike
+    rental and an adjoining golf course.
+  why: A genuine lakeside 4-star property at close to 3-star prices
   confidence: medium
-  geocode_query: "Terracotta Hotel and Resort Dalat, Da Lat, Vietnam"
+  geocode_query: Terracotta Hotel and Resort Dalat, Da Lat, Vietnam
   sources:
   - https://www.momondo.com/hotels/da-lat/Terracotta-Hotel-Resort-Dalat.mhd2272019.ksp
   - https://www.makemytrip.com/hotels-international/en-us/vietnam/dalat-hotels/terracotta_hotel_resort_dalat-details.html
@@ -62,10 +75,11 @@ hotels:
   price_high: 53
   price_checked: '2026-08-16'
   area: Near Xuan Huong Lake, city center
-  what: "A straightforward business hotel nine minutes' walk from Xuan Huong Lake, with two restaurants and a small fitness room."
-  why: "A dependable branded 3-star in the centre, not a self-rated guesthouse"
+  what: A straightforward business hotel nine minutes' walk from Xuan Huong Lake,
+    with two restaurants and a small fitness room.
+  why: A dependable branded 3-star in the centre, not a self-rated guesthouse
   confidence: medium
-  geocode_query: "TTC Hotel Da Lat, Da Lat, Vietnam"
+  geocode_query: TTC Hotel Da Lat, Da Lat, Vietnam
   sources:
   - https://www.tripadvisor.com/Hotel_Review-g293922-d451005-Reviews-TTC_Hotel_Dalat-Da_Lat_Lam_Dong_Province.html
   - https://www.trip.com/hotels/dalat-hotel-detail-713949/ttc-hotel-premium-da-lat/
@@ -76,75 +90,105 @@ hotels:
   price_high: 65
   price_checked: '2026-08-16'
   area: Near the city center
-  what: "A small new boutique hotel close to the centre, with large clean rooms and a breakfast menu that changes daily."
-  why: "The best-reviewed budget-boutique option in Da Lat, though it carries no official star rating"
+  what: A small new boutique hotel close to the centre, with large clean rooms and
+    a breakfast menu that changes daily.
+  why: The best-reviewed budget-boutique option in Da Lat, though it carries no official
+    star rating
   confidence: medium
-  geocode_query: "Le House Dalat, Da Lat, Vietnam"
+  geocode_query: Le House Dalat, Da Lat, Vietnam
   sources:
   - https://www.tripadvisor.com/Hotel_Review-g293922-d27137692-Reviews-Le_House_Dalat-Da_Lat_Lam_Dong_Province.html
   - https://www.booking.com/hotel/vn/le-house-dalat-thanh-pho-da-lat.html
 must_see:
 - name: Crazy House (Hang Nga Guesthouse)
   area: Huynh Thuc Khang Street
-  what: "A surreal building shaped like a giant banyan tree, designed by architect Dang Viet Nga with tunnel staircases, mushroom-shaped rooms and almost no straight lines anywhere."
-  why: "Unlike anything else built in Vietnam, and walkable from the city centre"
+  what: A surreal building shaped like a giant banyan tree, designed by architect
+    Dang Viet Nga with tunnel staircases, mushroom-shaped rooms and almost no straight
+    lines anywhere.
+  why: Unlike anything else built in Vietnam, and walkable from the city centre
   confidence: high
-  geocode_query: "Crazy House Hang Nga Guesthouse, Da Lat, Vietnam"
+  geocode_query: Crazy House Hang Nga Guesthouse, Da Lat, Vietnam
   sources:
   - https://www.cnn.com/travel/article/crazy-house-dalat-vietnam
   - https://vinwonders.com/en/wonderpedia/news/dalat-crazy-house/
 - name: Langbiang Mountain
   area: Lac Duong, ~12km north of the city
-  what: "A 2,167m twin-peaked mountain reached by a bumpy 4.5km jeep track from its base, with panoramic views over Da Lat's pine forests and valleys from the summit."
-  why: "The best viewpoint over the whole Da Lat plateau, and an easy half-day trip"
+  what: A 2,167m twin-peaked mountain reached by a bumpy 4.5km jeep track from its
+    base, with panoramic views over Da Lat's pine forests and valleys from the summit.
+  why: The best viewpoint over the whole Da Lat plateau, and an easy half-day trip
   confidence: high
-  geocode_query: "Langbiang Mountain, Da Lat, Vietnam"
+  geocode_query: Langbiang Mountain, Da Lat, Vietnam
   sources:
   - https://vinwonders.com/en/wonderpedia/news/lang-biang-mountain-dalat/
   - https://localvietnam.com/blog/langbiang-mountain/
+  coords:
+    lat: 12.0472573
+    lng: 108.4405826
 - name: Xuan Huong Lake
   area: City center
-  what: "A 40-hectare artificial lake built by French colonists in 1919 at the centre of Da Lat, ringed by a walking path, pine trees and the old golf course."
-  why: "Da Lat organises itself around this lake the way Hanoi organises itself around Hoan Kiem"
+  what: A 40-hectare artificial lake built by French colonists in 1919 at the centre
+    of Da Lat, ringed by a walking path, pine trees and the old golf course.
+  why: Da Lat organises itself around this lake the way Hanoi organises itself around
+    Hoan Kiem
   confidence: high
-  geocode_query: "Xuan Huong Lake, Da Lat, Vietnam"
+  geocode_query: Xuan Huong Lake, Da Lat, Vietnam
   sources:
   - https://vinwonders.com/en/wonderpedia/news/xuan-huong-lake-dalat/
   - https://www.tripadvisor.com/Attraction_Review-g293922-d451022-Reviews-Xuan_Huong_Lake-Da_Lat_Lam_Dong_Province.html
+  coords:
+    lat: 11.9450803
+    lng: 108.4487222
 attractions:
 - name: Datanla Waterfall Canyoning
   area: 7km south of the city
-  what: "A guided descent through the Datanla waterfall gorge from a base camp at the falls: rappelling down cliffs and a 30m waterfall, a zipline, a water slide and a narrow rock chute nicknamed the 'washing machine'."
-  why: "Da Lat's real adventure-sport claim, and one of the few canyoning operations anywhere in Vietnam"
+  what: 'A guided descent through the Datanla waterfall gorge from a base camp at
+    the falls: rappelling down cliffs and a 30m waterfall, a zipline, a water slide
+    and a narrow rock chute nicknamed the ''washing machine''.'
+  why: Da Lat's real adventure-sport claim, and one of the few canyoning operations
+    anywhere in Vietnam
   confidence: high
-  geocode_query: "Datanla Waterfall, Da Lat, Vietnam"
+  geocode_query: Datanla Waterfall, Da Lat, Vietnam
   sources:
   - https://tinggly.com/experience/canyoning-2400m-alpine-coaster-activity-in-dalat/141620P6
   - https://www.tripadvisor.com/AttractionProductReview-g293922-d27116487-Canyoning_2400m_Alpine_Coaster_Activity_in_Dalat-Da_Lat_Lam_Dong_Province.html
+  coords:
+    lat: 11.9011774
+    lng: 108.4488444
 - name: Datanla Alpine Coaster
   area: Datanla Waterfall, 7km south of the city
-  what: "A 2,400-metre gravity toboggan track through pine forest down toward the waterfall, with a handbrake so each rider controls their own speed."
-  why: "The longest alpine coaster in Asia, and a gentler adrenaline option than the canyoning next door"
+  what: A 2,400-metre gravity toboggan track through pine forest down toward the waterfall,
+    with a handbrake so each rider controls their own speed.
+  why: The longest alpine coaster in Asia, and a gentler adrenaline option than the
+    canyoning next door
   confidence: high
-  geocode_query: "Datanla Alpine Coaster, Da Lat, Vietnam"
+  geocode_query: Datanla Alpine Coaster, Da Lat, Vietnam
   sources:
   - https://www.tripadvisor.com/Attraction_Review-g293922-d2448851-Reviews-Datanla_Waterfall-Da_Lat_Lam_Dong_Province.html
   - https://ummigoeswhere.com/datanla-alpine-coaster-dalat/
 - name: Tuyen Lam Lake SUP/Kayak and Clay Tunnel
   area: Tuyen Lam Lake, south of the city
-  what: "A paddle by kayak or stand-up paddleboard across Tuyen Lam Lake's pine-fringed water, usually combined with a stop at the Clay Tunnel, a walk-through open-air clay sculpture near the Truc Lam monastery."
-  why: "The quiet, uncrowded counterpart to the night market; nature and folk art in one outing"
+  what: A paddle by kayak or stand-up paddleboard across Tuyen Lam Lake's pine-fringed
+    water, usually combined with a stop at the Clay Tunnel, a walk-through open-air
+    clay sculpture near the Truc Lam monastery.
+  why: The quiet, uncrowded counterpart to the night market; nature and folk art in
+    one outing
   confidence: medium
-  geocode_query: "Tuyen Lam Lake, Da Lat, Vietnam"
+  geocode_query: Tuyen Lam Lake, Da Lat, Vietnam
   sources:
   - https://powertraveller.com/da-lat-tuyen-lam-lake-kayak-or-sup-tour/
   - https://kayawanderlust.com/self-guided-tour-to-the-clay-tunnel-and-truc-lam-monastery/
+  coords:
+    lat: 11.8907954
+    lng: 108.4250836
 - name: Easy Rider day tour from Da Lat
   area: City-wide, starts downtown
-  what: "A full day riding pillion on a local guide's motorbike through Da Lat's flower farms, a silk factory, a weasel-coffee plantation and back-road viewpoints most tour buses never reach."
-  why: "The consensus recommendation of the two agent proposals that researched this leg, and the standard way to see rural Da Lat"
+  what: A full day riding pillion on a local guide's motorbike through Da Lat's flower
+    farms, a silk factory, a weasel-coffee plantation and back-road viewpoints most
+    tour buses never reach.
+  why: The consensus recommendation of the two agent proposals that researched this
+    leg, and the standard way to see rural Da Lat
   confidence: high
-  geocode_query: "Dalat Easy Riders, Da Lat, Vietnam"
+  geocode_query: Dalat Easy Riders, Da Lat, Vietnam
   sources:
   - https://dalat-easyriders.com/
   - https://www.easyridersvietnam.org/tour/dalat-to-bmt-2-days/
@@ -153,10 +197,13 @@ food:
   kind: vietnamese
   signal: traveler_recommended
   area: 50 Pham Ngoc Thach, Ward 6
-  what: "A streetside grill stall cooking 'Da Lat pizza', rice paper toasted over charcoal and topped to order with egg, dried pork, scallion and chilli sauce."
-  why: "One of the most consistently reviewed banh trang nuong stalls in a city that treats the dish as a local specialty"
+  what: A streetside grill stall cooking 'Da Lat pizza', rice paper toasted over charcoal
+    and topped to order with egg, dried pork, scallion and chilli sauce.
+  why: One of the most consistently reviewed banh trang nuong stalls in a city that
+    treats the dish as a local specialty
   confidence: medium
-  geocode_query: "Banh Trang Nuong Da Lat Ngon Be Lun, 50 Pham Ngoc Thach, Da Lat, Vietnam"
+  geocode_query: Banh Trang Nuong Da Lat Ngon Be Lun, 50 Pham Ngoc Thach, Da Lat,
+    Vietnam
   sources:
   - https://www.tripadvisor.com/Restaurant_Review-g293922-d19089769-Reviews-Banh_Trang_Nuong_Da_Lat_Ngon_Be_Lun-Da_Lat_Lam_Dong_Province.html
   - https://extensionembed.wanderlog.com/list/geoCategory/83008/street-food
@@ -164,10 +211,12 @@ food:
   kind: vietnamese
   signal: traveler_recommended
   area: ~20 minutes from the city center
-  what: "A pick-your-own strawberry farm with a hillside café, where visitors pick their own berries and can buy strawberry jam, jelly and wine on site."
-  why: "Da Lat's cool climate produces sweeter, firmer strawberries than lowland Vietnam, and this is one of the most-reviewed farms for picking them yourself"
+  what: A pick-your-own strawberry farm with a hillside café, where visitors pick
+    their own berries and can buy strawberry jam, jelly and wine on site.
+  why: Da Lat's cool climate produces sweeter, firmer strawberries than lowland Vietnam,
+    and this is one of the most-reviewed farms for picking them yourself
   confidence: low
-  geocode_query: "Ichigo Strawberry Farm, Da Lat, Vietnam"
+  geocode_query: Ichigo Strawberry Farm, Da Lat, Vietnam
   sources:
   - https://wanderlog.com/place/details/5149075/ichigo-strawberry-farm-%C4%91%C3%A0-l%E1%BA%A1t
   - https://inboundvietnam.com/top-5-must-visit-strawberry-farms-in-da-lat
@@ -175,48 +224,64 @@ food:
   kind: vietnamese
   signal: local_media
   area: Da Lat Market, city center
-  what: "Dried artichoke flower heads, grown on the plateau around Da Lat, sold loose or bagged as a bitter herbal tea at stalls throughout Da Lat Market."
-  why: "Da Lat grows most of Vietnam's artichoke crop; the tea is the plateau's signature souvenir"
+  what: Dried artichoke flower heads, grown on the plateau around Da Lat, sold loose
+    or bagged as a bitter herbal tea at stalls throughout Da Lat Market.
+  why: Da Lat grows most of Vietnam's artichoke crop; the tea is the plateau's signature
+    souvenir
   confidence: medium
-  geocode_query: "Da Lat Market, Da Lat, Vietnam"
+  geocode_query: Da Lat Market, Da Lat, Vietnam
   sources:
   - https://tamtrinhcoffee.com/da-lat-specialty-gifts/
   - https://www.expatolife.com/things-to-buy-shopping-da-lat-vietnam/
+  coords:
+    lat: 11.9435196
+    lng: 108.4372097
 markets:
 - name: Da Lat Market (Cho Da Lat)
   area: City center, beside Xuan Huong Lake
-  what: "The city's main covered market building on a hillside above Xuan Huong Lake, selling fresh produce, dried flowers, hot street food and Da Lat's own coffee and wine."
-  why: "The daytime anchor of Da Lat's market district, a few steps from the lake"
+  what: The city's main covered market building on a hillside above Xuan Huong Lake,
+    selling fresh produce, dried flowers, hot street food and Da Lat's own coffee
+    and wine.
+  why: The daytime anchor of Da Lat's market district, a few steps from the lake
   confidence: high
-  geocode_query: "Da Lat Market, Da Lat, Vietnam"
+  geocode_query: Da Lat Market, Da Lat, Vietnam
   sources:
   - https://en.wikipedia.org/wiki/Da_Lat_Market
   - https://vinwonders.com/en/wonderpedia/news/dalat-market/
+  coords:
+    lat: 11.9435196
+    lng: 108.4372097
 - name: Da Lat Night Market (Cho Am Phu)
   area: Steps below Da Lat Market, city center
-  what: "The streets and steps below the market building come alive after 5pm with food stalls, grilled rice paper, hot soy milk and fresh strawberries, plus clothing and souvenir stalls."
-  why: "Da Lat's evening centre of gravity, and where most of the specialty street food listed here is actually eaten"
+  what: The streets and steps below the market building come alive after 5pm with
+    food stalls, grilled rice paper, hot soy milk and fresh strawberries, plus clothing
+    and souvenir stalls.
+  why: Da Lat's evening centre of gravity, and where most of the specialty street
+    food listed here is actually eaten
   confidence: high
-  geocode_query: "Dalat Night Market, Da Lat, Vietnam"
+  geocode_query: Dalat Night Market, Da Lat, Vietnam
   sources:
   - https://vinpearl.com/en/da-lat-night-market
   - https://www.vietnamtourism.org.vn/travel-guide/destination-in-vietnam/da-lat%E2%80%99s-night-market.html
 logistics:
 - name: Lien Khuong Airport (DLI) to city center
   area: Airport transfer
-  what: "Lien Khuong Airport sits about 30km south of Da Lat; a taxi or private transfer to the city centre takes roughly 40-50 minutes depending on traffic."
-  why: "Fixes the transfer time for the flight out of Da Lat at the end of this leg"
+  what: Lien Khuong Airport sits about 30km south of Da Lat; a taxi or private transfer
+    to the city centre takes roughly 40-50 minutes depending on traffic.
+  why: Fixes the transfer time for the flight out of Da Lat at the end of this leg
   confidence: high
-  geocode_query: "Lien Khuong Airport, Da Lat, Vietnam"
+  geocode_query: Lien Khuong Airport, Da Lat, Vietnam
   sources:
   - https://vinpearl.com/en/da-lat-airport
   - https://www.geckoroutes.com/vietnam/dalat-airport/
 - name: Lak Lake to Da Lat road (National Highway 27)
   area: Route into the city from the north
-  what: "The final leg of the easy-rider route: roughly 160km / 4 hours south from Lak Lake on National Highway 27 through the Ta Dung area into Da Lat."
-  why: "Confirms the length of the second riding day for the route already locked into the itinerary"
+  what: 'The final leg of the easy-rider route: roughly 160km / 4 hours south from
+    Lak Lake on National Highway 27 through the Ta Dung area into Da Lat.'
+  why: Confirms the length of the second riding day for the route already locked into
+    the itinerary
   confidence: medium
-  geocode_query: "National Highway 27, Da Lat, Vietnam"
+  geocode_query: National Highway 27, Da Lat, Vietnam
   sources:
   - https://www.bestpricetravel.com/travel-guide/lak-lake.html
   - https://www.rome2rio.com/s/Buon-Ma-Thuot-Dak-Lak/%C3%90%C3%A0-L%E1%BA%A1t

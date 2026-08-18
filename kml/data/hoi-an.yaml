@@ -1,0 +1,318 @@
+hotels:
+- name: La Siesta Hoi An Resort & Spa
+  tier: 5
+  tier_official: true
+  price_low: 64
+  price_high: 150
+  price_checked: '2026-08-16'
+  area: Cam Chau, on the edge of the rice fields, ~10 min walk from Old Town
+  what: A resort built around an infinity pool overlooking rice paddies, with an award-winning
+    spa doing stone massages with a paddy view and free bicycles into town.
+  why: 'The master-spec''s top pick for Hoi An - #2 of over 460 hotels in town and
+    rated 5/5 on Tripadvisor from thousands of reviews'
+  confidence: high
+  geocode_query: La Siesta Hoi An Resort and Spa, Hoi An, Vietnam
+  sources:
+  - https://www.tripadvisor.com/Hotel_Review-g298082-d4339781-Reviews-La_Siesta_Hoi_An_Resort_Spa-Hoi_An_Quang_Nam_Province.html
+  - https://www.hotelscombined.com/Hotel/La_Siesta_Hoi_An_Resort_Spa.htm
+- name: Almanity Hoi An Resort & Spa
+  tier: 5
+  tier_official: false
+  price_low: 70
+  price_high: 163
+  price_checked: '2026-08-16'
+  area: Old Town, on Hai Ba Trung Street
+  what: A 139-room wellness resort inside the Old Town itself, built around a Japanese
+    garden with a koi pond and My Chi Spa, the largest resort spa in Hoi An.
+  why: One of the highest-rated hotels of any tier in Hoi An (9.2/10 from over 2,400
+    reviews), though some reviewers rate the actual guest experience closer to a strong
+    4-star than a true 5-star
+  confidence: medium
+  geocode_query: Almanity Hoi An Resort and Spa, Hoi An, Vietnam
+  sources:
+  - https://www.tripadvisor.com/Hotel_Review-g298082-d7094399-Reviews-Almanity_Hoi_An_Resort_Spa-Hoi_An_Quang_Nam_Province.html
+  - https://www.oyster.com/vietnam/hotels/almanity-hoi-an/
+- name: Silkotel Hoi An
+  tier: 4
+  tier_official: true
+  price_low: 41
+  price_high: 91
+  price_checked: '2026-08-16'
+  area: Cam Pho Ward, close to Old Town
+  what: A mid-size hotel with an outdoor pool, spa, gym and restaurant a short walk
+    from the Old Town's riverside streets.
+  why: The master-spec's 'best value' pick for Hoi An, rated 9.1/10 from 1,700 reviews
+    at roughly two-thirds the price of the resort-style 5-stars
+  confidence: high
+  geocode_query: Silkotel Hoi An, Hoi An, Vietnam
+  sources:
+  - https://www.tripadvisor.com/Hotel_Review-g298082-d10259528-Reviews-Silkotel_Hoi_An-Hoi_An_Quang_Nam_Province.html
+  - https://www.hotelscombined.com/Hotel/Silkotel_Hoi_An.htm
+  coords:
+    lat: 15.8794893
+    lng: 108.3223668
+- name: Lasenta Boutique Hotel Hoian
+  tier: 4
+  tier_official: true
+  price_low: 52
+  price_high: 120
+  price_checked: '2026-08-16'
+  area: Edge of town, among rice fields
+  what: A boutique hotel on the edge of Hoi An with an infinity pool and 4th-floor
+    bar looking out over open rice paddies, plus a free shuttle to both Old Town and
+    the beach.
+  why: Master-spec's alternative pick for the rice-field-view infinity pool at a lower
+    price point than La Siesta
+  confidence: medium
+  geocode_query: Lasenta Boutique Hotel Hoian, Hoi An, Vietnam
+  sources:
+  - https://www.tripadvisor.com/Hotel_Review-g298082-d10149768-Reviews-Lasenta_Boutique_Hotel_Hoian-Hoi_An_Quang_Nam_Province.html
+  - https://www.vietnamcoracle.com/lasenta-boutique-hotel-hoi-an/
+  coords:
+    lat: 15.8819958
+    lng: 108.3403954
+- name: Hoian Central Hotel
+  tier: 3
+  tier_official: true
+  price_low: 30
+  price_high: 69
+  price_checked: '2026-08-16'
+  area: In the heart of Hoi An, steps from the riverside
+  what: A small hotel right in the town center with an outdoor pool and free bicycle
+    rental, close enough to the Old Town's riverside streets to walk everywhere.
+  why: One of the best-located officially-rated 3-star hotels in town, with ratings
+    above many pricier properties
+  confidence: medium
+  geocode_query: Hoian Central Hotel, Hoi An, Vietnam
+  sources:
+  - https://www.tripadvisor.com/Hotel_Review-g298082-d13737482-Reviews-Hoian_Central_Hotel-Hoi_An_Quang_Nam_Province.html
+  - https://www.klook.com/hotels/detail/113919-hoian-central-hotel/
+  coords:
+    lat: 15.8797503
+    lng: 108.319306
+- name: Little Town Villa
+  tier: 3
+  tier_official: true
+  price_low: 25
+  price_high: 130
+  price_checked: '2026-08-16'
+  area: Near Hoi An Market, 5 minutes' walk from the Japanese Covered Bridge
+  what: A small villa-style property near the town market with a spa, outdoor pool
+    and restaurant, five minutes' walk from the Japanese Covered Bridge.
+  why: Rated 5/5 on Tripadvisor from hundreds of reviews despite its official 3-star
+    classification - well above its price bracket
+  confidence: medium
+  geocode_query: Little Town Villa, Hoi An, Vietnam
+  sources:
+  - https://www.tripadvisor.com/Hotel_Review-g298082-d12192622-Reviews-Little_Town_Villas-Hoi_An_Quang_Nam_Province.html
+  - https://www.booking.com/hotel/vn/little-town-villa.html
+must_see:
+- name: Hoi An Ancient Town and Japanese Covered Bridge
+  area: Old Town, along the Thu Bon River
+  what: A UNESCO-listed trading-port town of yellow-walled shophouses, Chinese assembly
+    halls and merchant homes dating to the 16th-18th centuries, centred on the 18-metre
+    wooden Japanese Covered Bridge that doubles as a small temple.
+  why: The reason Hoi An exists on any itinerary - one of Southeast Asia's best-preserved
+    trading ports, UNESCO-listed since 1999
+  confidence: high
+  geocode_query: Hoi An Ancient Town, Hoi An, Vietnam
+  sources:
+  - https://vinpearl.com/en/japanese-bridge-hoi-an-a-cultural-symbol-of-the-ancient-town
+  - https://grooviet.com/destination/japanese-covered-bridge/
+  coords:
+    lat: 15.8779509
+    lng: 108.3239898
+- name: Ba Na Hills and Golden Bridge
+  area: Ba Na Mountain, ~45 minutes west of Da Nang
+  what: A hilltop resort reached by a record-length cable car, built around a recreated
+    French hill-station village and the Golden Bridge - a walkway held up by two giant
+    stone hands emerging from the hillside.
+  why: The consensus pick over My Son among the trip's competing proposals (route
+    decision R6), and Central Vietnam's most photographed modern landmark
+  confidence: high
+  geocode_query: Ba Na Hills Golden Bridge, Da Nang, Vietnam
+  sources:
+  - https://hoiandaytrip.com/ba-na-hills-tickets/
+  - https://happytovisit.com/golden-bridge-ba-na-hills-marble-mountain-monkey-mountain/
+attractions:
+- name: Marble Mountains (Ngu Hanh Son)
+  area: Between Da Nang and Hoi An, on the coast road
+  what: Five limestone-and-marble hills, each named for one of the five elements,
+    honeycombed with caves and grottoes containing Buddhist shrines; an elevator and
+    stairs lead up to viewpoints and the Huyen Khong cave, once used as a wartime
+    field hospital.
+  why: A genuinely different landscape from Hoi An's flat riverside town, and an easy
+    stop on the way to or from Da Nang
+  confidence: high
+  geocode_query: Marble Mountains Ngu Hanh Son, Da Nang, Vietnam
+  sources:
+  - https://happytovisit.com/golden-bridge-ba-na-hills-marble-mountain-monkey-mountain/
+  coords:
+    lat: 16.00402
+    lng: 108.2627745
+- name: An Bang Beach surf lesson
+  area: An Bang Beach, ~3km east of Old Town
+  what: A stretch of sandy beach with gentle, beginner-friendly waves, where expat-run
+    surf schools rent boards and run lessons; the surf season runs roughly September
+    to March.
+  why: Hoi An's real board-sport option, and a 20-minute bike ride from the Old Town
+    through rice paddies
+  confidence: medium
+  geocode_query: An Bang Beach, Hoi An, Vietnam
+  sources:
+  - https://thesurfatlas.com/vietnam-surf/hoi-an-surf/
+  - https://thedeckhousevietnam.com/water-sports/
+  coords:
+    lat: 15.9141779
+    lng: 108.3396551
+- name: Cham Island snorkeling / diving day trip
+  area: Cu Lao Cham, ~15-20 minutes by speedboat from Cua Dai
+  what: A cluster of eight granite islands and a UNESCO Biosphere Reserve offshore
+    from Hoi An, with coral reefs reachable by snorkeling from the surface or diving
+    to around 6 metres or more.
+  why: The area's clearest water and only real reef diving/snorkeling, a short speedboat
+    hop from the mainland
+  confidence: medium
+  geocode_query: Cu Lao Cham Cham Island, Hoi An, Vietnam
+  sources:
+  - https://www.yourvietnamtravel.com/cham-island-snorkeling
+  - https://divehoian.com/hoi-an-diving-and-snorkelling-trips/
+- name: Cam Thanh coconut forest basket boat ride
+  area: Bay Mau coconut forest, Cam Thanh village, ~5km from Old Town
+  what: A round bamboo 'basket boat' (thung chai) paddled through the water canals
+    of a palm forest that locals call Hoi An's green lung, usually including a spinning-boat
+    performance and a net-fishing demonstration.
+  why: A lighter, closer-to-town alternative to the Mekong Delta basket-boat experience,
+    and popular with families
+  confidence: medium
+  geocode_query: Cam Thanh Coconut Forest, Hoi An, Vietnam
+  sources:
+  - https://oxalisadventure.com/coconut-boat-ride-hoi-an/
+  - https://www.tripadvisor.com/Attraction_Review-g298082-d15709027-Reviews-Hoi_An_Basket_Boat_Tours-Hoi_An_Quang_Nam_Province.html
+food:
+- name: Banh Mi Phuong
+  kind: vietnamese
+  signal: traveler_recommended
+  area: 2B Phan Chu Trinh Street, Old Town
+  what: A perpetually busy banh mi stand grilling and assembling its own pork, pate
+    and pickled vegetables into a crusty baguette sandwich to order.
+  why: The banh mi Anthony Bourdain called possibly the best in Vietnam - still packed
+    with a line out the door years later
+  confidence: high
+  geocode_query: Banh Mi Phuong, 2B Phan Chu Trinh Street, Hoi An, Vietnam
+  sources:
+  - https://www.tripadvisor.com/Restaurant_Review-g298082-d2365673-Reviews-Banh_My_Phu_ng-Hoi_An_Quang_Nam_Province.html
+  - https://hiddenhoian.com/eat/banh-mi-phuong-hoi-ans-best-banh-mi/
+- name: Cao Lau Ba Le
+  kind: vietnamese
+  signal: traveler_recommended
+  area: Old Town
+  what: A local restaurant specializing in cao lau - thick rice noodles unique to
+    Hoi An (traditionally made with water from a specific local well), tossed with
+    slices of pork, croutons and greens in a light broth.
+  why: Widely cited as serving the best version of Hoi An's own noodle dish, which
+    by local lore can't be authentically replicated anywhere else
+  confidence: medium
+  geocode_query: Cao Lau Ba Le Restaurant, Hoi An, Vietnam
+  sources:
+  - https://www.tripadvisor.com/Restaurant_Review-g298082-d15016299-Reviews-Cao_Lau_Ba_Le_Restaurant-Hoi_An_Quang_Nam_Province.html
+- name: White Rose Restaurant
+  kind: vietnamese
+  signal: traveler_recommended
+  area: 533 Hai Ba Trung Street
+  what: The restaurant most associated with white rose dumplings (banh bao vac) -
+    translucent rice-dough parcels of spiced minced shrimp, steamed and shaped to
+    resemble a folded rose, then topped with crispy fried shallots.
+  why: The dish comes from one family recipe distributed to eateries around town,
+    and this restaurant is the most famous outlet for it
+  confidence: medium
+  geocode_query: White Rose Restaurant, 533 Hai Ba Trung Street, Hoi An, Vietnam
+  sources:
+  - https://culturephamtravel.com/white-rose-dumplings-hoi-an/
+  - https://cavinteo.blogspot.com/2024/10/white-rose-restaurant-dumplings-hoi-an-vietnam.html
+  coords:
+    lat: 15.8829593
+    lng: 108.3250054
+- name: La Maison 1888
+  kind: international
+  signal: michelin_star
+  area: InterContinental Danang Sun Peninsula Resort, Son Tra
+  what: A fine-dining French restaurant inside a recreated Indochinese colonial mansion
+    overlooking the sea, serving a five- or eight-course set menu built on Vietnamese,
+    French and Japanese ingredients.
+  why: The only Michelin-starred restaurant in Central Vietnam, held by chef Christian
+    Le Squer, who carried three Michelin stars in France for 23 years
+  confidence: high
+  geocode_query: La Maison 1888, InterContinental Danang Sun Peninsula Resort, Da
+    Nang, Vietnam
+  sources:
+  - https://guide.michelin.com/us/en/da-nang-region/da-nang_2984390/restaurant/la-maison-1888
+  - https://www.danang.intercontinental.com/a-michelin-star-for-la-maison-1888/
+- name: Phu Hong (Bun Thit Nuong Phu Hong)
+  kind: vietnamese
+  signal: michelin_bib
+  area: 19 Yen Bai Street, Hai Chau District, Da Nang
+  what: A street-food stall serving bun thit nuong - grilled pork over rice vermicelli
+    with fresh herbs - alongside grilled pork and minced-pork skewers wrapped in rice
+    paper, no reservations, cash only.
+  why: Holds a Michelin Bib Gourmand for good quality, good value cooking - the everyday-food
+    end of Da Nang's Michelin coverage, distinct from La Maison 1888's fine dining
+  confidence: high
+  geocode_query: Bun Thit Nuong Phu Hong, 19 Yen Bai Street, Da Nang, Vietnam
+  sources:
+  - https://liveyounglivewell.com/quan-phu-hong-da-nang-review/
+  - https://guide.michelin.com/en/da-nang-region/da-nang_2984390/restaurant/phu-hong
+markets:
+- name: Hoi An Central Market
+  area: Tran Phu Street, along the Thu Bon riverbank
+  what: The daytime market where locals actually shop, selling fresh produce, herbs,
+    meat, fish, fabric and household goods across covered stalls a block from the
+    river.
+  why: The working counterpart to the tourist-facing lantern streets, and a good source
+    of cheap street food for lunch
+  confidence: medium
+  geocode_query: Hoi An Central Market, Hoi An, Vietnam
+  sources:
+  - https://www.klook.com/blog/hoi-an-markets-guide/
+- name: Hoi An Night Market (Nguyen Hoang)
+  area: Nguyen Hoang Street, opposite the Japanese Covered Bridge
+  what: A roughly 300-metre stretch of Nguyen Hoang Street that fills after dark with
+    silk-and-bamboo lantern stalls, street food carts and souvenir vendors on both
+    sides of the road.
+  why: The largest and most popular night market in Hoi An, and the source of the
+    lantern glow the town is known for after sunset
+  confidence: high
+  geocode_query: Hoi An Night Market Nguyen Hoang Street, Hoi An, Vietnam
+  sources:
+  - https://vinpearl.com/en/hoi-an-night-market-explore-vibrant-nightlife-inside-an-ancient-town
+  - https://culturephamtravel.com/hoi-an-lantern-market/
+logistics:
+- name: Da Nang Airport to Hoi An
+  area: Airport transfer
+  what: Da Nang International Airport (DAD) sits about 30km from Hoi An; a Grab car
+    or taxi takes 30-40 minutes in normal traffic (up to an hour at peak times) and
+    costs roughly 250,000-400,000 VND.
+  why: Fixes the practical transfer time for the flight in and out of the Hoi An/Da
+    Nang leg of the trip
+  confidence: high
+  geocode_query: Da Nang International Airport, Da Nang, Vietnam
+  sources:
+  - https://unmappedasia.com/da-nang-airport-to-hoi-an/
+  - https://www.welcomepickups.com/da-nang/airport-to-hoi-an/
+  coords:
+    lat: 16.0425792
+    lng: 108.1971613
+- name: Hoi An Old Town vehicle restrictions
+  area: Old Town core
+  what: Cars and, at scheduled hours, motorbikes are barred from the Old Town's core
+    streets, which are walking- and cyclo-only; a paid Old Town ticket covers entry
+    to several assembly halls, temples and heritage houses.
+  why: Affects how you actually move around and reach hotels/restaurants once inside
+    the historic core
+  confidence: medium
+  geocode_query: Hoi An Ancient Town, Hoi An, Vietnam
+  sources:
+  - https://grooviet.com/destination/japanese-covered-bridge/
+  coords:
+    lat: 15.8779509
+    lng: 108.3239898

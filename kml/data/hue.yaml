@@ -1,0 +1,278 @@
+hotels:
+- name: Azerai La Residence Hue
+  tier: 5
+  tier_official: true
+  price_low: 154
+  price_high: 692
+  price_checked: '2026-08-16'
+  area: On the Perfume River, close to the Imperial City
+  what: A 122-room art deco resort built around a 1930s French colonial mansion (the
+    former residence of the French Resident Superieure), with 200 metres of frontage
+    on the Perfume River and its own spa.
+  why: Hue's best-reviewed genuine 5-star (9.5/10 from 487 reviews), and a heritage
+    building rather than a new tower
+  confidence: high
+  geocode_query: Azerai La Residence Hue, Hue, Vietnam
+  sources:
+  - https://www.tripadvisor.com/Hotel_Review-g293926-d585172-Reviews-Azerai_La_Residence_Hue-Hue_Thua_Thien_Hue_Province.html
+  - https://azerai.com/azerai-la-residence-hue/
+  - https://www.fivestaralliance.com/luxury-hotels/hue/azerai-la-residence-hue
+- name: Meliá Vinpearl Hue
+  tier: 5
+  tier_official: true
+  price_low: 54
+  price_high: 200
+  price_checked: '2026-08-16'
+  area: City center, near the Perfume River and Truong Tien Bridge
+  what: A high-rise 5-star hotel in the middle of Hue with a full-service spa, indoor
+    pool, gym and sauna, a 10-minute walk from the Perfume River and Truong Tien Bridge.
+  why: The master-spec's own pick for a restored Hue visit, and the highest-reviewed
+    international-chain 5-star in the city (9.4/10 from over 3,000 reviews)
+  confidence: high
+  geocode_query: Melia Vinpearl Hue, Hue, Vietnam
+  sources:
+  - https://www.tripadvisor.com/Hotel_Review-g293926-d15113220-Reviews-Melia_Vinpearl_Hue-Hue_Thua_Thien_Hue_Province.html
+  - https://www.melia.com/en/hotels/vietnam/hue-city/melia-vinpearl-hue
+  coords:
+    lat: 16.463231
+    lng: 107.5941414
+- name: Eldora Hotel
+  tier: 4
+  tier_official: true
+  price_low: 35
+  price_high: 90
+  price_checked: '2026-08-16'
+  area: City center
+  what: An 81-room boutique hotel with bright, wood-floored rooms in a renaissance-style
+    building in central Hue.
+  why: One of the few hotels in Hue with an unambiguous official 4-star classification
+    rather than a self-declared one, and consistently praised for cleanliness
+  confidence: medium
+  geocode_query: Eldora Hotel, Hue, Vietnam
+  sources:
+  - https://www.tripadvisor.com/Hotel_Review-g293926-d6416461-Reviews-Eldora_Hotel-Hue_Thua_Thien_Hue_Province.html
+  - https://www.kayak.com/Hue-Hotels-Eldora-Hotel.2076224.ksp
+  coords:
+    lat: 16.4648595
+    lng: 107.5945502
+- name: Pilgrimage Village Boutique Resort & Spa
+  tier: 4
+  tier_official: false
+  price_low: 47
+  price_high: 250
+  price_checked: '2026-08-16'
+  area: Outside the city, on a forested hillside en route to the tombs
+  what: A resort built like a Vietnamese hamlet across landscaped, forested grounds
+    south of the city, with multiple pools, an extensive spa and its own restaurants.
+  why: Sources disagree on whether this is a 4-star or 5-star property, but it is
+    master-spec's noted alternative to Meliá Vinpearl for a quieter, greener stay
+  confidence: medium
+  geocode_query: Pilgrimage Village Boutique Resort and Spa, Hue, Vietnam
+  sources:
+  - https://www.tripadvisor.com/Hotel_Review-g293926-d582872-Reviews-Pilgrimage_Village_Boutique_Resort_Spa-Hue_Thua_Thien_Hue_Province.html
+  - https://www.momondo.com/hotels/hue/Pilgrimage-Village-Boutique-Resort-Spa.mhd120660.ksp
+- name: Jade Scene Hotel
+  tier: 3
+  tier_official: true
+  price_low: 33
+  price_high: 100
+  price_checked: '2026-08-16'
+  area: 30/42 Nguyen Cong Tru Street, near the pub street and Perfume River embankment
+  what: A new hotel a short walk from Hue's pub street and the river embankment, with
+    a small rooftop pool overlooking the city and a spa.
+  why: One of the highest-rated hotels of any tier in Hue (9.2/10 from over 3,000
+    reviews) and an officially assessed 3-star, not a self-rated boutique
+  confidence: high
+  geocode_query: Jade Scene Hotel, Hue, Vietnam
+  sources:
+  - https://www.tripadvisor.com/Hotel_Review-g293926-d25179951-Reviews-Jade_Scene_Hotel-Hue_Thua_Thien_Hue_Province.html
+  - https://www.booking.com/hotel/vn/jade-scene.html
+  coords:
+    lat: 16.4695305
+    lng: 107.5968967
+- name: Thanh Lich Hue Hotel
+  tier: 3
+  tier_official: false
+  price_low: 25
+  price_high: 54
+  price_checked: '2026-08-16'
+  area: City center
+  what: A 40-room hotel with air-conditioned rooms, minibars and an indoor pool and
+    sauna, with a rooftop breakfast serving both Asian and Western options.
+  why: A dependable budget-friendly city-center option (9.0/10 from over 900 reviews),
+    though its 'plus' star billing is self-declared
+  confidence: medium
+  geocode_query: Thanh Lich Hue Hotel, Hue, Vietnam
+  sources:
+  - https://www.momondo.com/hotels/hue/Thanh-Lich-Hue-Hotel.mhd2207716.ksp
+  - https://www.kayak.com/Hue-Hotels-Thanh-Lich-2-Hotel.2207716.ksp
+  coords:
+    lat: 16.4703117
+    lng: 107.5959428
+must_see:
+- name: Hue Imperial City (The Citadel)
+  area: North bank of the Perfume River, city center
+  what: The walled seat of the Nguyen Dynasty from 1802 to 1945, entered through the
+    Ngo Mon Gate past the Nine Holy Cannons and the Nine Dynastic Urns, with the To
+    Mieu royal family temple inside.
+  why: The reason Hue is Vietnam's imperial capital rather than just another river
+    city, and the largest single historical site in the country
+  confidence: high
+  geocode_query: Hue Imperial City Citadel, Hue, Vietnam
+  sources:
+  - https://www.tripadvisor.com/Attraction_Review-g293926-d317599-Reviews-Hue_Imperial_City_The_Citadel-Hue_Thua_Thien_Hue_Province.html
+  - https://culturephamtravel.com/hue-entrance-fee/
+- name: Khai Dinh Tomb
+  area: Chau Chu Village, ~10km from Hue city
+  what: The last and most ornate of the Nguyen royal tombs, its concrete exterior
+    built in a Gothic-tinged European style but its interior sarcophagus chamber an
+    explosion of colorful ceramic-mosaic murals, reached by 127 stone steps.
+  why: The most visually striking of the seven royal tombs and unlike any other Nguyen
+    monument in Hue
+  confidence: high
+  geocode_query: Khai Dinh Tomb, Hue, Vietnam
+  sources:
+  - https://vinwonders.com/en/wonderpedia/news/khai-dinh-tomb-things-to-know-about-the-last-imperial-tomb-built-in-hue/
+  - https://www.lonelyplanet.com/vietnam/central-vietnam/hue/attractions/tomb-of-khai-dinh/a/poi-sig/1158037/357875
+  coords:
+    lat: 16.3989537
+    lng: 107.5902801
+- name: Thien Mu Pagoda
+  area: Ha Khe Hill, north bank of the Perfume River, ~5km from the city
+  what: Hue's oldest religious building, founded in 1601, centred on the seven-storey
+    octagonal Phuoc Duyen tower that is the unofficial symbol of the city, with a
+    2.5-metre bronze bell inside the main sanctuary.
+  why: The single most-photographed landmark on the Perfume River, and over four centuries
+    old
+  confidence: high
+  geocode_query: Thien Mu Pagoda, Hue, Vietnam
+  sources:
+  - https://vinpearl.com/en/thien-mu-pagoda-hue
+  - https://vietnamdiscovery.com/hue/attractions/thien-mu-pagoda/
+attractions:
+- name: Tu Duc Tomb
+  area: Thuy Xuan Village, ~7km from Hue city
+  what: A landscaped royal retreat built around a lake in a pine-forested valley,
+    where Emperor Tu Duc lived, wrote poetry and boated for years before his death,
+    dotted with pavilions and temples rather than a single mausoleum building.
+  why: The gentlest and most park-like of the tombs - built as a living retreat, not
+    just a burial site - and a contrast to Khai Dinh's grandeur
+  confidence: high
+  geocode_query: Tu Duc Tomb, Hue, Vietnam
+  sources:
+  - https://centralvietnamguide.com/tu-duc-tomb/
+  - https://vinpearl.com/en/tu-duc-tomb-one-of-the-most-appealing-attractions-in-hue-to-visit
+  coords:
+    lat: 16.433089
+    lng: 107.5647017
+- name: Perfume River dragon boat cruise
+  area: Departs from piers along the Perfume River, city center
+  what: An evening cruise on a wooden dragon-prowed boat past Truong Tien and Phu
+    Xuan bridges, typically with a live Ca Hue folk-music performance on board and
+    the option to release a lotus lantern onto the water.
+  why: The classic way to see Hue's bridges and riverbanks lit up at night, and to
+    hear Ca Hue court music in something like its original setting
+  confidence: medium
+  geocode_query: Perfume River dragon boat pier, Hue, Vietnam
+  sources:
+  - https://www.getyourguide.com/hue-vietnam-l833/sunset-boat-tour-along-perfume-river-t394246/
+  - https://culturephamtravel.com/hue-dragon-boat-trip/
+food:
+- name: Bun Bo Hue Ba Gai
+  kind: vietnamese
+  signal: traveler_recommended
+  area: 11A Ha Noi Street, Vinh Ninh
+  what: A 24-hour noodle shop serving bun bo Hue, the city's own spicy lemongrass-and-beef
+    broth noodle soup, in a plain no-frills dining room popular with locals at all
+    hours.
+  why: One of the most consistently recommended bun bo Hue spots in the city that
+    actually invented the dish, open around the clock
+  confidence: medium
+  geocode_query: Bun Bo Hue Ba Gai, 11A Ha Noi Street, Hue, Vietnam
+  sources:
+  - https://www.willflyforfood.net/hue-food-guide/
+- name: Lac Thien (Banh Khoai Lac Thien)
+  kind: vietnamese
+  signal: traveler_recommended
+  area: 6 Dinh Tien Hoang Street
+  what: A family-run restaurant grilling banh khoai to order - Hue's crisp turmeric
+    rice-flour pancake, folded over pork, shrimp and bean sprouts and eaten wrapped
+    in rice paper with a thick peanut-sesame dipping sauce.
+  why: Widely cited as Hue's best banh khoai, and the crunchiest version of the dish
+    in the city
+  confidence: medium
+  geocode_query: Lac Thien Restaurant, 6 Dinh Tien Hoang Street, Hue, Vietnam
+  sources:
+  - https://beebeetravel.com/banh-khoai-lac-thien-hue-local-food/
+- name: Hang Me Me
+  kind: vietnamese
+  signal: traveler_recommended
+  area: 45 Vo Thi Sau Street, Phu Hoi Ward
+  what: A local eatery specializing in banh beo, tiny steamed rice cakes served in
+    individual dishes and topped with dried shrimp and crispy pork skin, alongside
+    banh cuon and banh ram-it.
+  why: One of the go-to addresses in Hue specifically for banh beo, a dish that's
+    hard to find done well outside the city
+  confidence: low
+  geocode_query: Hang Me Me, 45 Vo Thi Sau Street, Hue, Vietnam
+  sources:
+  - https://www.emilyluxton.co.uk/hue-food-guide-dishes-you-have-to-try/
+- name: Com Hen Ba Den
+  kind: vietnamese
+  signal: traveler_recommended
+  area: Local, off the main tourist strip
+  what: A local spot serving com hen - cold rice topped with tiny stir-fried river
+    clams, herbs, peanuts and chilli oil - and its noodle-soup cousin bun hen, closing
+    by 11:30am once the day's clams run out.
+  why: Draws a steady stream of locals and Grab drivers rather than tour groups, the
+    usual sign of the real thing in Hue
+  confidence: medium
+  geocode_query: Com Hen Ba Den, Hue, Vietnam
+  sources:
+  - https://wanderlog.com/place/details/6178201/c%C6%A1m-h%E1%BA%BFn-b%C3%A0-%C4%91en
+  - https://www.thetravellingsquid.com/2018/04/03/ba-hoa-for-authentic-vietnamese-food-in-hue/
+markets:
+- name: Dong Ba Market
+  area: North bank of the Perfume River, city center
+  what: Hue's biggest market, a three-floor bell-shaped building where the ground
+    floor sells dried seafood and local sauces, the second floor sells crafts like
+    forged knives and ceramics, and the third is devoted to ao dai tailoring.
+  why: Central Vietnam's largest and oldest market, and as much a symbol of Hue's
+    identity as the Citadel
+  confidence: high
+  geocode_query: Dong Ba Market, Hue, Vietnam
+  sources:
+  - https://vinwonders.com/en/wonderpedia/news/dong-ba-market-take-a-tour-to-one-of-the-busiest-markets-in-hue/
+  - https://vietnamdiscovery.com/hue/shopping/dong-ba-market/
+  coords:
+    lat: 16.4724474
+    lng: 107.5886452
+logistics:
+- name: Phu Bai Airport to Hue city center
+  area: Airport transfer
+  what: Phu Bai International Airport sits about 15km south of Hue; a taxi or private
+    car to the city center takes 20-30 minutes and costs roughly 250,000-300,000 VND
+    ($10-12).
+  why: Fixes the transfer time for flying in or out of Hue directly, rather than via
+    Da Nang
+  confidence: high
+  geocode_query: Phu Bai International Airport, Hue, Vietnam
+  sources:
+  - https://www.geckoroutes.com/vietnam/hue-airport/
+  - https://danangtransfer.vn/en/4-ways-to-get-from-hue-airport-to-city-center-price-time-tips/
+  coords:
+    lat: 16.399655
+    lng: 107.7054596
+- name: Hai Van Pass - Hue to Da Nang / Hoi An
+  area: Route south out of Hue
+  what: A 21km mountain pass reaching 500m above sea level on the Thua Thien Hue /
+    Da Nang provincial border, driven by private car, motorbike or hired 'easy rider';
+    the pass itself takes about 45 minutes, with Da Nang city roughly 30 minutes beyond
+    it and Hoi An about 90 minutes from the summit.
+  why: The scenic overland alternative to flying or the flat coastal train, and how
+    the master-spec's cheap Hue day-trip from Hoi An is physically done
+  confidence: high
+  geocode_query: Hai Van Pass, Thua Thien Hue, Vietnam
+  sources:
+  - https://vietnamstory.in/hai-van-pass/
+  - https://www.uncovervietnam.com/hai-van-pass-route/
