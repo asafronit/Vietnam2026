@@ -158,19 +158,6 @@ attractions:
     lat: 20.7887703
     lng: 106.9974369
   location_precision: approximate
-food:
-- name: Vien Duong Restaurant
-  kind: vietnamese
-  signal: traveler_recommended
-  dish: Fresh tank seafood
-  area: 12-19 Nui Ngoc, Cat Ba town
-  what: A seafood restaurant where the catch is chosen live from tanks at the door
-    and cooked to order, typically 200,000-500,000 VND per person.
-  why: The most consistently named seafood address in current Cat Ba dining guides
-  confidence: medium
-  geocode_query: Vien Duong Restaurant, Nui Ngoc, Cat Ba town, Vietnam
-  sources:
-  - https://catbagreentrail.com/cat-ba-review/
 logistics:
 - name: Hanoi to Tuan Chau Harbour transfer
   area: Hanoi Old Quarter to Tuan Chau Harbour, Ha Long
@@ -183,3 +170,16 @@ logistics:
   geocode_query: Tuan Chau Harbour, Ha Long, Vietnam
   sources:
   - https://bhayacruises.com/blog/get-from-hanoi-to-halong-bay/
+restaurants:
+- name: Vien Duong Restaurant
+  kind: vietnamese
+  signal: traveler_recommended
+  dish: Fresh tank seafood
+  area: 12-19 Nui Ngoc, Cat Ba town
+  what: A seafood restaurant where the catch is chosen live from tanks at the door
+    and cooked to order, typically 200,000-500,000 VND per person.
+  why: The most consistently named seafood address in current Cat Ba dining guides
+  confidence: medium
+  geocode_query: Vien Duong Restaurant, Nui Ngoc, Cat Ba town, Vietnam
+  sources:
+  - https://catbagreentrail.com/cat-ba-review/

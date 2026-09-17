@@ -38,12 +38,48 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-ha-giang-street_food">
+      <IconStyle>
+        <color>ff3182f5</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-giang-restaurants">
+      <IconStyle>
+        <color>ff3182f5</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-ha-giang-markets">
       <IconStyle>
         <color>ff3182f5</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-giang-nightlife">
+      <IconStyle>
+        <color>ff3182f5</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/bars.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-giang-spa">
+      <IconStyle>
+        <color>ff3182f5</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
         </Icon>
       </IconStyle>
     </Style>

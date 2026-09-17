@@ -17,6 +17,12 @@ hotels:
   - https://www.tripadvisor.com/Hotel_Review-g303945-d24980381-Reviews-Wyndham_Grand_Vedana_Ninh_Binh-Ninh_Binh_Ninh_Binh_Province.html
   - https://www.priceline.com/hotel-deals/en-us/P5000000445/H195883603/wyndham-grand-vedana-ninh-binh.ssp
   - https://www.wyndhamhotels.com/wyndham-grand/ninh-binh-vietnam/wyndham-grand-vedana-ninh-binh/overview
+  name_he: וינדהאם גרנד ודאנה נין בין
+  area_he: מחוז נו קוואן, על נהר הואנג לונג סמוך לפארק הלאומי קוק פואונג
+  what_he: ריזורט של 195 חדרים על עיקול נהר הואנג לונג, עם בריכת אינסוף של מים מינרליים
+    חמים, ספא, מועדון ילדים וקיאקים ללא תשלום. כ-30 עד 40 דקות מטראנג אן.
+  why_he: הריזורט היחיד במחוז שמשתייך לרשת בינלאומית, אם כי האתרים המקומיים חלוקים
+    אם מדובר ב-5 כוכבים מלאים או ב-4.5
 - name: Ninh Binh Legend Hotel
   tier: 5
   tier_official: true
@@ -36,6 +42,12 @@ hotels:
   coords:
     lat: 20.2744939
     lng: 105.9587265
+  name_he: נין בין לג'נד
+  area_he: מרכז העיר
+  what_he: מלון של 260 חדרים בלב העיר נין בין, עם שלוש בריכות שחייה, בריכה מקורה,
+    מגרשי טניס, סאונה וחדר כושר.
+  why_he: אפשרות 5 הכוכבים של מרכז העיר, למי שמעדיף לישון קרוב למסעדות ולתחנת הרכבת
+    ולא בין הקארסטים
 - name: Emeralda Resort Ninh Binh
   tier: 4
   tier_official: true
@@ -53,6 +65,12 @@ hotels:
   sources:
   - https://www.tripadvisor.com/Hotel_Review-g303945-d2243645-Reviews-Emeralda_Resort_Ninh_Binh-Ninh_Binh_Ninh_Binh_Province.html
   - https://www.kayak.com/Ninh-Binh-Hotels-Emeralda-Resort-Ninh-Binh.659496.ksp
+  name_he: אמרלדה ריזורט נין בין
+  area_he: מחוז ז'יה וייןּ, על אגם בשמורת הטבע ואן לונג
+  what_he: ריזורט 4 כוכבים הבנוי סביב אגם פרטי בתוך שמורת הטבע ואן לונג, עם בריכה
+    מקורה, סאונה, ג'קוזי וספא. כרבע שעה נסיעה מטראנג אן.
+  why_he: מדורג בין קומץ המלונות המובילים במחוז כולו, ואחד הבודדים עם דירוג 4 כוכבים
+    שנבדק רשמית ולא הוכרז עצמאית
 - name: Ninh Binh Hidden Charm Hotel & Resort
   tier: 4
   tier_official: true
@@ -69,6 +87,12 @@ hotels:
   sources:
   - https://www.tripadvisor.com/Hotel_Review-g303945-d9770834-Reviews-Ninh_Binh_Hidden_Charm_Hotel_Resort-Ninh_Binh_Ninh_Binh_Province.html
   - https://luxurylifestyleawards.com/winners/boutique-hotel/ninh-binh-hidden-charm-hotel-resort-4-star-gem
+  name_he: נין בין הידן צ'ארם
+  area_he: אזור טאם קוק–ביק דונג, מחוז הואה לו
+  what_he: מלון מודרני עם שתי מסעדות, ספא מלא ובריכה חיצונית, בין שדות אורז וסמוך
+    למזח הסירות של טאם קוק.
+  why_he: 4 כוכבים רשמיים, והמדורג הגבוה ביותר מבין המלונות בגודלו בנין בין — מקום
+    3 מתוך יותר מ-120 בטריפאדוויזר, ולא בוטיק שדירג את עצמו
 - name: Lalita Tam Coc Resort & Spa
   tier: 3
   tier_official: false
@@ -85,6 +109,12 @@ hotels:
   sources:
   - https://www.tripadvisor.com/Hotel_Review-g12866457-d25224812-Reviews-Lalita_Tam_Coc_Resort_Spa-Ninh_Hai_Hoa_Lu_District_Ninh_Binh_Province.html
   - https://lalitatamcocspa.luxury-hotels.com/
+  name_he: לליטה טאם קוק
+  area_he: נין האי, ליד פגודת ביק דונג ומזח הסירות של טאם קוק
+  what_he: ריזורט עם בריכת אינסוף, ספא, סאונה, גן ואופניים ללא תשלום, במרחק הליכה
+    מפגודת ביק דונג אך מחוץ לרצועה התיירותית הסואנת.
+  why_he: הבחירה המובילה של מפרט-האב לנין בין (9.2 באגודה מתוך 866 ביקורות), והריזורט
+    הממוקם ביותר להגעה רגלית לטאם קוק
 - name: An's Eco Garden Resort
   tier: 3
   tier_official: false
@@ -101,8 +131,23 @@ hotels:
   sources:
   - https://www.tripadvisor.com/Hotel_Review-g303945-d12190248-Reviews-An_s_Eco_Garden-Ninh_Binh_Ninh_Binh_Province.html
   - https://www.booking.com/hotel/vn/buffalo-eco-garden.html
+  name_he: אן'ס אקו גארדן
+  area_he: תונג צ'ואי, בתוך מתחם הנוף טראנג אן
+  what_he: ריזורט אקולוגי כפרי בתוך מתחם הנוף של טראנג אן, עם חדרים בבקתות במבוק על
+    כלונסאות ובאוטובוסים משופצים, בריכת אינסוף ואופניים ללא תשלום.
+  why_he: מדורג 9.0 ומעלה גם בטריפאדוויזר וגם בבוקינג מתוך יותר מ-800 ביקורות, והלינה
+    היחידה שנמצאת ממש בתוך שמורת טראנג אן ולא בשוליה
 must_see:
 - name: Trang An Scenic Landscape Complex
+  price_low: 11.5
+  price_unit: per_person
+  price_checked: 2026-05
+  name_he: מתחם הנוף טראנג אן
+  area_he: מחוז הואה לו, כ-7 ק"מ מהעיר נין בין
+  what_he: נוף קארסט המוכר כאתר מורשת עולמית של אונסק"ו, שמסיירים בו בסירת משוטים
+    לאורך מסלול נהר של כשלוש שעות שחוצה תשע מנהרות מערה טבעיות מתחת לצוקים.
+  why_he: הליבה המוכרזת של ההשוואה ל"מפרץ הא לונג ביבשה", והסיבה שנין בין נמצאת במסלול
+    מלכתחילה
   area: Ninh Hai Commune, Hoa Lu District, ~7km from Ninh Binh city
   what: A UNESCO World Heritage limestone karst landscape toured by rowed sampan along
     a 3-hour river route that threads through nine natural cave tunnels beneath the
@@ -118,6 +163,15 @@ must_see:
     lat: 20.2537827
     lng: 105.9005014
 - name: Tam Coc boat ride
+  price_low: 9.6
+  price_unit: per_person
+  price_checked: 2026-05
+  name_he: שיט טאם קוק
+  area_he: כפר ואן לאם, מחוז נין האי
+  what_he: שיט קצר יותר, כשעתיים, לעיתים בחתירה ברגליים, לאורך נהר נגו דונג בין שדות
+    אורז ודרך שלוש מנהרות אבן גיר שמהן בא השם טאם קוק.
+  why_he: המקבילה הקלאסית והדחוסה יותר לטראנג אן — שדות אורז ירוקים בעונה היבשה, ושדות
+    זהב מוצפים בקציר
   area: Van Lam Village, Ninh Hai Commune
   what: A shorter 2-hour sampan ride, often rowed by foot, along the Ngo Dong River
     between rice paddies and through three limestone tunnels (Hang Ca, Hang Hai, Hang
@@ -134,6 +188,17 @@ must_see:
     lng: 105.937457
   location_precision: approximate
 - name: Mua Cave viewpoint (Hang Mua)
+  price_low: 5.8
+  price_unit: per_person
+  price_checked: 2026-05
+  weather: high
+  name_he: תצפית מערת מואה
+  area_he: כפר קה הא, כ-10 ק"מ מהעיר נין בין
+  what_he: גרם מדרגות אבן של כ-500 שלבים במעלה הר מואה אל פסל דרקון ותצפית של 360
+    מעלות מעל שדות האורז של טאם קוק והפסגות שסביבם. הטיפוס נמשך רבע שעה עד שלושת רבעי
+    שעה.
+  why_he: האתגר הפיזי המזוהה ביותר עם נין בין ונקודת התצפית הטובה בה, ואליה מגיעים
+    ברגליים ולא בסירה
   area: Khe Ha Village, ~10km from Ninh Binh city
   what: A roughly 500-step stone staircase up Mua Mountain to a dragon statue and
     a 360-degree viewpoint over the Tam Coc rice fields and limestone peaks below;
@@ -147,6 +212,12 @@ must_see:
   - https://junglebosstours.com/explorer/tourism-blog/mua-caves-vietnam-travel-guide
 attractions:
 - name: Hoa Lu Ancient Capital
+  name_he: הבירה העתיקה הואה לו
+  area_he: מחוז טרואונג יין, כ-10 ק"מ מהעיר נין בין
+  what_he: המקדשים המשוחזרים של דין טיין הואנג ולה דאי האן, המסמנים את מקום בירתה
+    של וייטנאם במאה העשירית, בתוך טבעת של הרי אבן גיר.
+  why_he: העוגן ההיסטורי של האזור, ובדרך כלל משלבים אותו עם טראנג אן או עם מערת מואה
+    ליום אחד
   area: Truong Yen Commune, ~10km from Ninh Binh city
   what: The restored temples of Dinh Tien Hoang and Le Dai Hanh, marking the site
     of Vietnam's 10th-century capital, set inside a ring of limestone mountains.
@@ -160,6 +231,16 @@ attractions:
     lat: 20.283483
     lng: 105.8995986
 - name: Bai Dinh Pagoda
+  price_low: 2.3
+  price_high: 8.1
+  price_unit: per_person
+  price_checked: 2026-05
+  name_he: פגודת באי דין
+  area_he: מחוז גיה סין, כ-15 ק"מ מהעיר נין בין
+  what_he: מתחם המקדשים הבודהיסטי הגדול בווייטנאם, פרוש על מדרון גבעה, ובו פסל בודהה
+    ענק מברונזה, מאות פסלי ארהאט לאורך מסדרונות מקורים, ומגדל פעמונים ובו אחד מפעמוני
+    הברונזה הגדולים באסיה.
+  why_he: מפתח אחר לגמרי מהמסלול של סירות וקארסט — קנה מידה ואדריכלות דתית ולא טבע
   area: Gia Sinh Commune, ~15km from Ninh Binh city
   what: The largest Buddhist temple complex in Vietnam, spread across a hillside with
     a giant bronze Buddha, hundreds of Arhat statues along covered corridors, and
@@ -174,39 +255,6 @@ attractions:
     lat: 20.2752292
     lng: 105.8654697
   location_precision: approximate
-food:
-- name: Duc De Restaurant
-  kind: vietnamese
-  signal: traveler_recommended
-  area: City center, Ninh Binh
-  what: A long-running goat-meat restaurant on a main street in Ninh Binh city, serving
-    the mountain goat (de nui) dishes the region is known for - steamed, grilled and
-    in hotpot.
-  why: Consistently the most-reviewed goat-meat specialist in the city center, with
-    a reputation built over years rather than a recent tourist spike
-  confidence: medium
-  geocode_query: Duc De Restaurant, Ninh Binh, Vietnam
-  sources:
-  - https://www.tripadvisor.com/Restaurant_Review-g303945-d8853028-Reviews-Duc_De_Restaurant-Ninh_Binh_Ninh_Binh_Province.html
-  coords:
-    lat: 20.2340333
-    lng: 105.9682771
-- name: Trung Tuyet
-  kind: vietnamese
-  signal: traveler_recommended
-  area: City center, Ninh Binh
-  what: A local eatery specializing in com chay - sun-dried rice pressed into crisp
-    sheets, deep-fried and served with a savory meat-and-mushroom sauce - alongside
-    egg soup and pho.
-  why: Ranked among the most reliable all-rounders in Ninh Binh on both Tripadvisor
-    and Lonely Planet for the region's signature souvenir dish
-  confidence: medium
-  geocode_query: Trung Tuyet Restaurant, Ninh Binh, Vietnam
-  sources:
-  - https://pioneersailtravel.com/ninh-binh-restaurants/
-  coords:
-    lat: 20.2516139
-    lng: 105.97874
 markets:
 - name: Cho Rong (Rong Market)
   area: 71 Van Giang Street, Thanh Binh Ward
@@ -223,6 +271,12 @@ markets:
     lat: 20.2561711
     lng: 105.9776166
   location_precision: approximate
+  name_he: שוק רונג
+  area_he: רחוב ואן ז'יאנג 71, שכונת תאן בין
+  what_he: השוק המסורתי המרכזי של העיר נין בין, פרוש על מבנה תלת-קומתי ודוכנים בחוץ,
+    ובו מוצרי בית, טקסטיל ומדור תוצרת טרייה עם אורז, דגים, בשר עז הרים ויין אורז מקים
+    סון.
+  why_he: השוק שהמקומיים באמת קונים בו ביומיום, בניגוד לשוק הלילה שפונה לתיירים
 - name: Ninh Binh Night Market
   area: Around Dinh Tien Hoang Street and Ky Lan Lake, city center
   what: Streets around the city-center lake fill from 6pm to 11pm with food stalls
@@ -235,6 +289,12 @@ markets:
   sources:
   - https://vietnamdiscovery.com/ninh-binh/ninh-binh-night-market/
   - https://sinhcafe.com/ninh-binh-night-market
+  name_he: שוק הלילה של נין בין
+  area_he: סביב רחוב דין טיין הואנג ואגם קי לאן, מרכז העיר
+  what_he: הרחובות סביב האגם שבמרכז העיר מתמלאים בין 18:00 ל-23:00 בדוכני אוכל ובמוכרי
+    צעיפי רקמה, בגדים ומזכרות מכפרי המלאכה שבסביבה, כמו ואן לאם.
+  why_he: המקבילה הערבית לשיט של שעות היום, והמקום הנוח ביותר לטעום אוכל רחוב אחרי
+    יום על המים
 logistics:
 - name: Ninh Binh to Hanoi (train and road)
   area: Regional transfer
@@ -250,6 +310,11 @@ logistics:
   coords:
     lat: 20.2421142
     lng: 105.9746207
+  name_he: מנין בין אל האנוי — רכבת וכביש
+  area_he: מעבר אזורי
+  what_he: תחנת הרכבת של נין בין יושבת במרכז העיר; חמש רכבות ביום מגיעות לתחנה הראשית
+    של האנוי ברחוב לה דואן בכשעתיים, ורכב פרטי לוקח בערך אותו זמן בכביש.
+  why_he: מקבע את זמן המעבר המעשי בין נין בין לבין עוגן האנוי של הטיול
 - name: Lotus Train - Ninh Binh to Dong Hoi (night train)
   area: Ninh Binh Railway Station, departure point
   what: A privately refurbished overnight sleeper carriage (2-berth or 4-berth cabins,
@@ -265,3 +330,57 @@ logistics:
   coords:
     lat: 20.2421142
     lng: 105.9746207
+  name_he: רכבת לוטוס — מנין בין אל דונג הוי
+  area_he: תחנת הרכבת נין בין, נקודת היציאה
+  what_he: קרון שינה לילי משופץ בבעלות פרטית (תאים לשניים או לארבעה, על מסילת רכבות
+    וייטנאם) שיוצא מנין בין סביב 22:00 ומגיע לדונג הוי סביב 06:00, עם אינטרנט אלחוטי,
+    חטיפים וארוחת בוקר.
+  why_he: הופך את המעבר הארוך בכביש דרומה לכיוון פונג ניה ללילה של שינה במקום ליום
+    נסיעה אבוד
+hebrew_complete: true
+restaurants:
+- name: Duc De Restaurant
+  kind: vietnamese
+  signal: traveler_recommended
+  area: City center, Ninh Binh
+  what: A long-running goat-meat restaurant on a main street in Ninh Binh city, serving
+    the mountain goat (de nui) dishes the region is known for - steamed, grilled and
+    in hotpot.
+  why: Consistently the most-reviewed goat-meat specialist in the city center, with
+    a reputation built over years rather than a recent tourist spike
+  confidence: medium
+  geocode_query: Duc De Restaurant, Ninh Binh, Vietnam
+  sources:
+  - https://www.tripadvisor.com/Restaurant_Review-g303945-d8853028-Reviews-Duc_De_Restaurant-Ninh_Binh_Ninh_Binh_Province.html
+  coords:
+    lat: 20.2340333
+    lng: 105.9682771
+  name_he: מסעדת דוק דה
+  area_he: מרכז העיר, נין בין
+  what_he: מסעדת בשר עיזים ותיקה ברחוב ראשי בעיר נין בין, שמגישה את מנות עז ההרים
+    (דה נוי) שהאזור מזוהה איתן — מאודות, צלויות ובסיר חם.
+  why_he: המומחית לבשר עיזים עם הכי הרבה ביקורות במרכז העיר באופן עקבי, עם מוניטין
+    שנבנה לאורך שנים ולא בקפיצה תיירותית אחת
+street_food:
+- name: Trung Tuyet
+  kind: vietnamese
+  signal: traveler_recommended
+  area: City center, Ninh Binh
+  what: A local eatery specializing in com chay - sun-dried rice pressed into crisp
+    sheets, deep-fried and served with a savory meat-and-mushroom sauce - alongside
+    egg soup and pho.
+  why: Ranked among the most reliable all-rounders in Ninh Binh on both Tripadvisor
+    and Lonely Planet for the region's signature souvenir dish
+  confidence: medium
+  geocode_query: Trung Tuyet Restaurant, Ninh Binh, Vietnam
+  sources:
+  - https://pioneersailtravel.com/ninh-binh-restaurants/
+  coords:
+    lat: 20.2516139
+    lng: 105.97874
+  name_he: טרונג טויט
+  area_he: מרכז העיר, נין בין
+  what_he: מסעדה מקומית המתמחה בקום צ'אי — אורז מיובש בשמש, נדחס לגיליונות פריכים,
+    מטוגן עמוק ומוגש ברוטב בשר ופטריות — לצד מרק ביצים ופו.
+  why_he: מדורגת בין הכתובות הכי אמינות בנין בין גם בטריפאדוויזר וגם בלונלי פלאנט,
+    למנה שהיא גם המזכרת המזוהה של האזור

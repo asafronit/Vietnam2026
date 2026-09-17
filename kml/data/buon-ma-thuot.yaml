@@ -123,35 +123,6 @@ attractions:
   sources:
   - https://www.originvietnam.com/destinations/trung-nguyen-coffee-village/
   - https://trungnguyenlegend.com/lang-ca-phe-trung-nguyen/
-food:
-- name: Soul Specialty Coffee - BMT
-  kind: vietnamese
-  signal: local_media
-  area: City center
-  what: A minimalist specialty-coffee bar roasting its own Buon Ma Thuot robusta and
-    serving cold brew and pour-overs rather than the sweetened iced coffee sold on
-    every corner.
-  why: Placed in the top 5 of the 2025 Vietnam Amazing Cup for Fine Robusta, judged
-    against the country's best roasters
-  confidence: medium
-  geocode_query: Soul Specialty Coffee BMT, Buon Ma Thuot, Vietnam
-  sources:
-  - https://www.tripadvisor.com/Restaurant_Review-g670918-d26632037-Reviews-Soul_Specialty_Coffee_BMT-Buon_Ma_Thuot_Dak_Lak_Province.html
-  - https://wanderlog.com/place/details/5809719/soul-fine-robusta-bmt
-- name: Ga Nuong Com Lam (30/4)
-  kind: vietnamese
-  signal: traveler_recommended
-  area: 30/4 Pham Van Dong Street, Tan Hoa
-  what: A family-run restaurant grilling marinated chicken over charcoal and serving
-    it with com lam, sticky rice steamed inside a bamboo tube, the classic Central
-    Highlands meal.
-  why: One of the most consistently mentioned spots in the city for this specific
-    highland dish
-  confidence: medium
-  geocode_query: Ga Nuong Com Lam, 30/4 Pham Van Dong, Buon Ma Thuot, Vietnam
-  sources:
-  - https://mindtrip.ai/restaurant/buon-ma-thuot-dak-lak/ga-nuong-com-lam/re-SIdAcKcx
-  - https://accdaklak.vn/ga-nuong-com-lam-buon-ma-thuot/
 markets:
 - name: Buon Ma Thuot Central Market
   area: City center, near Victory Monument
@@ -196,3 +167,32 @@ logistics:
   sources:
   - https://www.aroundtheworld360.com/distance/buon-ma-thuot_vn/lak_vn/
   - https://www.travelfish.org/sight_profile/vietnam/central_highlands/dak_lak/buon_ma_thuot/672
+restaurants:
+- name: Soul Specialty Coffee - BMT
+  kind: vietnamese
+  signal: local_media
+  area: City center
+  what: A minimalist specialty-coffee bar roasting its own Buon Ma Thuot robusta and
+    serving cold brew and pour-overs rather than the sweetened iced coffee sold on
+    every corner.
+  why: Placed in the top 5 of the 2025 Vietnam Amazing Cup for Fine Robusta, judged
+    against the country's best roasters
+  confidence: medium
+  geocode_query: Soul Specialty Coffee BMT, Buon Ma Thuot, Vietnam
+  sources:
+  - https://www.tripadvisor.com/Restaurant_Review-g670918-d26632037-Reviews-Soul_Specialty_Coffee_BMT-Buon_Ma_Thuot_Dak_Lak_Province.html
+  - https://wanderlog.com/place/details/5809719/soul-fine-robusta-bmt
+- name: Ga Nuong Com Lam (30/4)
+  kind: vietnamese
+  signal: traveler_recommended
+  area: 30/4 Pham Van Dong Street, Tan Hoa
+  what: A family-run restaurant grilling marinated chicken over charcoal and serving
+    it with com lam, sticky rice steamed inside a bamboo tube, the classic Central
+    Highlands meal.
+  why: One of the most consistently mentioned spots in the city for this specific
+    highland dish
+  confidence: medium
+  geocode_query: Ga Nuong Com Lam, 30/4 Pham Van Dong, Buon Ma Thuot, Vietnam
+  sources:
+  - https://mindtrip.ai/restaurant/buon-ma-thuot-dak-lak/ga-nuong-com-lam/re-SIdAcKcx
+  - https://accdaklak.vn/ga-nuong-com-lam-buon-ma-thuot/

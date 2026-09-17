@@ -38,12 +38,48 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-mekong-street_food">
+      <IconStyle>
+        <color>ff000080</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-mekong-restaurants">
+      <IconStyle>
+        <color>ff000080</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-mekong-markets">
       <IconStyle>
         <color>ff000080</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-mekong-nightlife">
+      <IconStyle>
+        <color>ff000080</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/bars.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-mekong-spa">
+      <IconStyle>
+        <color>ff000080</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -181,16 +217,16 @@
       <name>Food</name>
       <Placemark>
         <name>Lua Nep</name>
-        <styleUrl>#s-mekong-food</styleUrl>
-        <description><![CDATA[<b>Mekong and Can Tho</b> &middot; Ninh Kieu riverside, Can Tho<br/>traveler recommended<br/><br/>A riverside restaurant serving the delta's signature elephant ear fish, fried whole and served upright so the flesh is rolled into rice paper with herbs and pickles at the table.<br/><b>Why it's here:</b> Repeatedly singled out by recent travelers for this specific dish, the Mekong Delta's most iconic<br/><a href="https://hanoivoyage.com/en/blog/restaurant/top-7-restaurants-in-the-mekong-delta">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.0450175,105.7947956&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.0450175, 105.7947956]]></description>
+        <styleUrl>#s-mekong-restaurants</styleUrl>
+        <description><![CDATA[<b>Mekong and Can Tho</b> &middot; Ninh Kieu riverside, Can Tho<br/><br/>A riverside restaurant serving the delta's signature elephant ear fish, fried whole and served upright so the flesh is rolled into rice paper with herbs and pickles at the table.<br/><b>Why it's here:</b> Repeatedly singled out by recent travelers for this specific dish, the Mekong Delta's most iconic<br/><a href="https://hanoivoyage.com/en/blog/restaurant/top-7-restaurants-in-the-mekong-delta">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.0450175,105.7947956&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.0450175, 105.7947956]]></description>
         <Point>
           <coordinates>105.7947956,10.0450175,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Sao Hom Restaurant</name>
-        <styleUrl>#s-mekong-food</styleUrl>
-        <description><![CDATA[<b>Mekong and Can Tho</b> &middot; Ninh Kieu riverside, Can Tho, inside the old Nha Long market building<br/>traveler recommended<br/><br/>A restaurant set inside a restored early-1900s riverside market hall, with open river views and a menu of southern Vietnamese home cooking.<br/><b>Why it's here:</b> A local guide recommendation for a proper sit-down dinner, in one of Can Tho's most distinctive dining buildings<br/><a href="https://vinwonders.com/en/wonderpedia/news/can-tho-restaurants/">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.0313789,105.7882653&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.0313789, 105.7882653]]></description>
+        <styleUrl>#s-mekong-restaurants</styleUrl>
+        <description><![CDATA[<b>Mekong and Can Tho</b> &middot; Ninh Kieu riverside, Can Tho, inside the old Nha Long market building<br/><br/>A restaurant set inside a restored early-1900s riverside market hall, with open river views and a menu of southern Vietnamese home cooking.<br/><b>Why it's here:</b> A local guide recommendation for a proper sit-down dinner, in one of Can Tho's most distinctive dining buildings<br/><a href="https://vinwonders.com/en/wonderpedia/news/can-tho-restaurants/">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.0313789,105.7882653&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.0313789, 105.7882653]]></description>
         <Point>
           <coordinates>105.7882653,10.0313789,0</coordinates>
         </Point>

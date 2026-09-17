@@ -38,12 +38,48 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-ha-long-street_food">
+      <IconStyle>
+        <color>ff4bb43c</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-long-restaurants">
+      <IconStyle>
+        <color>ff4bb43c</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-ha-long-markets">
       <IconStyle>
         <color>ff4bb43c</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-long-nightlife">
+      <IconStyle>
+        <color>ff4bb43c</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/bars.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-long-spa">
+      <IconStyle>
+        <color>ff4bb43c</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
         </Icon>
       </IconStyle>
     </Style>

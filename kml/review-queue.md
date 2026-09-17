@@ -9,6 +9,10 @@ then rerun the geocode stage.
 | hanoi | hotels | Aurora Premium - A Lifestyle Hotel | no match for query 'Aurora Premium, Vietnam' |
 | hanoi | hotels | Hanoi Amorita Boutique Hotel & Travel | no match for query 'Hanoi Amorita Boutique Hotel & Travel, Vietnam' |
 | hanoi | attractions | Hanoi Train Street coffee shops | no match for query 'Hanoi Train Street coffee shops, Vietnam' |
+| hanoi | street_food | Tuyet Bun Cha 34 | no match for query 'Tuyet Bun Cha 34, Vietnam' |
+| hanoi | street_food | Pho Khoi Hoi | 623 km from hanoi anchor, limit is 30 km |
+| hanoi | nightlife | The Haflington | no match for query 'The Haflington, Vietnam' |
+| hanoi | spa | Nap Spa | no match for query 'Nap Spa, Vietnam' |
 | ha-giang | hotels | Four Points by Sheraton Ha Giang | no match for query 'Four Points by Sheraton Ha Giang, Vietnam' |
 | ha-giang | hotels | Yen Bien Luxury Hotel | no match for query 'Yen Bien Luxury Hotel, Vietnam' |
 | ha-giang | hotels | De La Mont Hotel Ha Giang | no match for query 'De La Mont Hotel Ha Giang, Vietnam' |
@@ -71,9 +75,11 @@ then rerun the geocode stage.
 | hoi-an | hotels | Almanity Hoi An Resort & Spa | no match for query 'Almanity Hoi An Resort & Spa, Vietnam' |
 | hoi-an | attractions | Cham Island snorkeling / diving day trip | no match for query 'Cham Island snorkeling / diving day trip, Vietnam' |
 | hoi-an | attractions | Cam Thanh coconut forest basket boat ride | no match for query 'Cam Thanh coconut forest basket boat ride, Vietnam' |
-| hoi-an | food | Cao Lau Ba Le | no match for query 'Cao Lau Ba Le, Vietnam' |
+| hoi-an | street_food | Cao Lau Ba Le | no match for query 'Cao Lau Ba Le, Vietnam' |
 | hoi-an | markets | Hoi An Central Market | no match for query 'Hoi An Central Market, Vietnam' |
 | hoi-an | markets | Hoi An Night Market (Nguyen Hoang) | no match for query 'Hoi An Night Market, Vietnam' |
+| hoi-an | nightlife | Hoi An Old Town after dark | no match for query 'Hoi An Old Town after dark, Vietnam' |
+| hoi-an | nightlife | Nguyen Hoang Night Market | no match for query 'Nguyen Hoang Night Market, Vietnam' |
 | buon-ma-thuot | hotels | Muong Thanh Luxury Buon Ma Thuot Hotel | no match for query 'Muong Thanh Luxury Buon Ma Thuot Hotel, Vietnam' |
 | buon-ma-thuot | hotels | Saigon Ban Me Hotel | no match for query 'Saigon Ban Me Hotel, Vietnam' |
 | buon-ma-thuot | must_see | Yok Don National Park | 52 km from buon-ma-thuot anchor, limit is 30 km |
@@ -98,9 +104,14 @@ then rerun the geocode stage.
 | saigon | hotels | Liberty Central Saigon Riverside | no match for query 'Liberty Central Saigon Riverside, Vietnam' |
 | saigon | hotels | Sky Gem Hotel - Ben Thanh | no match for query 'Sky Gem Hotel, Vietnam' |
 | saigon | must_see | Notre-Dame Cathedral Basilica of Saigon | no match for query 'Notre-Dame Cathedral Basilica of Saigon, Vietnam' |
-| saigon | food | Banh Canh Cua Ba Ba | no match for query 'Banh Canh Cua Ba Ba, Vietnam' |
-| saigon | food | Bun Rieu Yen | 1145 km from saigon anchor, limit is 40 km |
-| saigon | food | La Villa French Restaurant by Thierry Mounon | no match for query 'La Villa French Restaurant by Thierry Mounon, Vietnam' |
+| saigon | street_food | Banh Canh Cua Ba Ba | no match for query 'Banh Canh Cua Ba Ba, Vietnam' |
+| saigon | street_food | Bun Rieu Yen | 1145 km from saigon anchor, limit is 40 km |
+| saigon | street_food | Com Tam Ba Ghien | no match for query 'Com Tam Ba Ghien, Vietnam' |
+| saigon | street_food | Bun Bo Hue 14B | no match for query 'Bun Bo Hue 14B, Vietnam' |
+| saigon | restaurants | La Villa French Restaurant by Thierry Mounon | no match for query 'La Villa French Restaurant by Thierry Mounon, Vietnam' |
+| saigon | markets | Hai Thuong Lan Ong herbal medicine street | no match for query 'Hai Thuong Lan Ong herbal medicine street, Vietnam' |
+| saigon | nightlife | The Enigma Mansion | no match for query 'The Enigma Mansion, Vietnam' |
+| saigon | nightlife | Stir | 1142 km from saigon anchor, limit is 40 km |
 | mekong | hotels | Muong Thanh Luxury Can Tho Hotel | no match for query 'Muong Thanh Luxury Can Tho Hotel, Vietnam' |
 | mekong | hotels | Mekong Silt Ecolodge | no match for query 'Mekong Silt Ecolodge, Vietnam' |
 | mekong | markets | Ninh Kieu Night Market | no match for query 'Ninh Kieu Night Market, Vietnam' |

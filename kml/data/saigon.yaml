@@ -163,25 +163,7 @@ attractions:
   coords:
     lat: 10.7793647
     lng: 106.6922806
-food:
-- name: Anan Saigon
-  kind: vietnamese
-  signal: michelin_star
-  dish: Modern Vietnamese street food
-  area: District 1, Cho Cu (Old Market)
-  what: A restaurant built inside a former wet-market stall on Ton That Dam Street,
-    where chef Peter Cuong Franklin runs street-food recipes through French fine-dining
-    technique.
-  why: One Michelin Star, held since 2023, and the clearest example of Saigon's fine-dining
-    scene built on its own street food
-  confidence: high
-  geocode_query: Anan Saigon, Ton That Dam, Ho Chi Minh City, Vietnam
-  sources:
-  - https://guide.michelin.com/en/ho-chi-minh/ho-chi-minh_2978179/restaurant/anan-saigon
-  - https://anansaigon.com/
-  coords:
-    lat: 10.7718032
-    lng: 106.7029748
+street_food:
 - name: Banh Canh Cua Ba Ba
   kind: vietnamese
   signal: michelin_bib
@@ -226,6 +208,71 @@ food:
     lat: 10.7713922
     lng: 106.6927189
   location_precision: approximate
+- name: Com Tam Ba Ghien
+  kind: vietnamese
+  signal: michelin_bib
+  dish: Com tam (broken rice with grilled pork chop)
+  area: Phu Nhuan District
+  what: A broken-rice shop whose pork chop overhangs the plate, grilled over charcoal
+    and served with the shredded pork skin, steamed egg loaf and fish sauce that make
+    up a proper com tam.
+  why: Com tam is Saigon's own dish rather than a Hanoi import, and this is the Bib
+    Gourmand address for it
+  confidence: medium
+  geocode_query: Com Tam Ba Ghien, Phu Nhuan, Ho Chi Minh City, Vietnam
+  sources:
+  - https://guide.michelin.com/us/en/ho-chi-minh/restaurants/bib-gourmand
+  - https://www.tripadvisor.com/Restaurants-g293925-Ho_Chi_Minh_City.html
+- name: Pho Phuong
+  kind: vietnamese
+  signal: michelin_bib
+  dish: Pho bo, southern style
+  area: District 3
+  what: A southern pho counter, sweeter and more herb-heavy than the Hanoi version,
+    served with the plate of bean sprouts, basil and lime that the north leaves off.
+  why: Eating this after Hanoi's pho is the fastest way to taste how far apart the
+    two halves of the country actually are
+  confidence: medium
+  geocode_query: Pho Phuong, District 3, Ho Chi Minh City, Vietnam
+  sources:
+  - https://guide.michelin.com/us/en/ho-chi-minh/restaurants/bib-gourmand
+  - https://www.tripadvisor.com/Restaurants-g293925-Ho_Chi_Minh_City.html
+  coords:
+    lat: 10.7747697
+    lng: 106.7007331
+- name: Bun Bo Hue 14B
+  kind: vietnamese
+  signal: michelin_bib
+  dish: Bun bo Hue (spicy beef and lemongrass noodle soup)
+  area: District 1
+  what: A shop serving the central-Vietnamese lemongrass-and-chilli beef noodle soup,
+    thicker round noodles and a far hotter broth than pho.
+  why: A chance to eat Hue's signature dish properly even if the weather in Hue itself
+    does not cooperate
+  confidence: medium
+  geocode_query: Bun Bo Hue 14B, District 1, Ho Chi Minh City, Vietnam
+  sources:
+  - https://guide.michelin.com/us/en/ho-chi-minh/restaurants/bib-gourmand
+  - https://www.tripadvisor.com/Restaurants-g293925-Ho_Chi_Minh_City.html
+restaurants:
+- name: Anan Saigon
+  kind: vietnamese
+  signal: michelin_star
+  dish: Modern Vietnamese street food
+  area: District 1, Cho Cu (Old Market)
+  what: A restaurant built inside a former wet-market stall on Ton That Dam Street,
+    where chef Peter Cuong Franklin runs street-food recipes through French fine-dining
+    technique.
+  why: One Michelin Star, held since 2023, and the clearest example of Saigon's fine-dining
+    scene built on its own street food
+  confidence: high
+  geocode_query: Anan Saigon, Ton That Dam, Ho Chi Minh City, Vietnam
+  sources:
+  - https://guide.michelin.com/en/ho-chi-minh/ho-chi-minh_2978179/restaurant/anan-saigon
+  - https://anansaigon.com/
+  coords:
+    lat: 10.7718032
+    lng: 106.7029748
 - name: La Villa French Restaurant by Thierry Mounon
   kind: international
   signal: michelin_selected
@@ -241,6 +288,60 @@ food:
   sources:
   - https://lavilla-restaurant.com.vn/
   - https://thedotmagazine.com/the-best-french-restaurants-in-ho-chi-minh-city/
+- name: Cuc Gach Quan
+  kind: vietnamese
+  signal: michelin_bib
+  dish: Home-style Vietnamese
+  area: District 1
+  what: An architect-converted old house serving the kind of everyday Vietnamese home
+    cooking - braises, clay pots, simple greens - that restaurants usually skip, across
+    several small rooms and a courtyard.
+  why: Bib Gourmand, and the answer to a week of noodle counters when what you want
+    is a table, a fan and a long dinner
+  confidence: medium
+  geocode_query: Cuc Gach Quan, District 1, Ho Chi Minh City, Vietnam
+  sources:
+  - https://guide.michelin.com/us/en/ho-chi-minh/restaurants/bib-gourmand
+  - https://www.tripadvisor.com/Restaurants-g293925-Ho_Chi_Minh_City.html
+  coords:
+    lat: 10.7929997
+    lng: 106.6889296
+  location_precision: approximate
+- name: Hum Garden
+  kind: vietnamese
+  signal: michelin_bib
+  dish: Vegetarian Vietnamese
+  area: District 1
+  what: A garden restaurant serving plated vegetarian Vietnamese food - lotus, tofu,
+    mushroom and herb dishes - in a quiet courtyard away from the traffic.
+  why: Saigon's Bib Gourmand vegetarian address, and one of the few genuinely calm
+    dining rooms in District 1
+  confidence: medium
+  geocode_query: Hum Garden, District 1, Ho Chi Minh City, Vietnam
+  sources:
+  - https://guide.michelin.com/us/en/ho-chi-minh/restaurants/bib-gourmand
+  - https://www.tripadvisor.com/Restaurants-g293925-Ho_Chi_Minh_City.html
+  coords:
+    lat: 10.804141
+    lng: 106.7441455
+  location_precision: approximate
+- name: Banh Xeo 46A
+  kind: vietnamese
+  signal: michelin_bib
+  dish: Banh xeo (sizzling turmeric crepe)
+  area: District 1
+  what: A long-running shop turning out large turmeric-yellow rice crepes filled with
+    pork, prawn and bean sprouts, wrapped at the table in mustard leaf and herbs.
+  why: Bib Gourmand, and the southern dish that is most fun to eat with your hands
+  confidence: medium
+  geocode_query: Banh Xeo 46A, Dinh Cong Trang, District 1, Ho Chi Minh City, Vietnam
+  sources:
+  - https://guide.michelin.com/us/en/ho-chi-minh/restaurants/bib-gourmand
+  - https://www.tripadvisor.com/Restaurants-g293925-Ho_Chi_Minh_City.html
+  coords:
+    lat: 10.7896047
+    lng: 106.6912995
+  location_precision: approximate
 markets:
 - name: Ben Thanh Market
   area: District 1
@@ -257,6 +358,19 @@ markets:
   coords:
     lat: 10.7725301
     lng: 106.6980365
+- name: Hai Thuong Lan Ong herbal medicine street
+  area: District 5, Cho Lon
+  what: The city's oldest traditional-medicine quarter - sixty to eighty shops along
+    one street, sacks and jars of dried roots, bark and herbs, named after the founder
+    of Vietnamese traditional medicine.
+  why: A working trade street rather than a tourist market, and the strongest smell
+    you will meet in Vietnam
+  confidence: medium
+  weather: medium
+  geocode_query: Hai Thuong Lan Ong Street, District 5, Ho Chi Minh City, Vietnam
+  sources:
+  - https://itourvn.com/blog/a-quick-look-at-traditional-vietnamese-medicine/
+  - https://travelsense.asia/vietnamese-traditional-medicine-a-quick-note-for-wellness-travellers/
 logistics:
 - name: Grab from Tan Son Nhat Airport
   area: Tan Son Nhat International Airport (SGN)
@@ -287,3 +401,42 @@ logistics:
   coords:
     lat: 10.8179793
     lng: 106.6562645
+nightlife:
+- name: The Enigma Mansion
+  area: District 1
+  what: A cocktail bar staged as a mansion of connected rooms, each with its own character,
+    where the drinks list is built as a narrative rather than a menu.
+  why: Number 55 on Asia's 50 Best Bars 2026 and the biggest climber on the whole
+    list, up 38 places in a year
+  confidence: medium
+  geocode_query: The Enigma Mansion, District 1, Ho Chi Minh City, Vietnam
+  sources:
+  - https://www.theworlds50best.com/stories/News/asias-50-best-bars-2026-the-51-100-list-revealed.html
+  - https://www.asia-bars.com/2026/03/top-12-highly-rated-cocktail-bars-hcmc-vietnam-2026/
+- name: Layla
+  area: Dong Du Street, District 1
+  what: A bar spread across the upper floors of a colonial-era apartment block, with
+    an eleven-metre bar in the main room and neighbouring flats converted into a pool
+    room, lounges and a smoking terrace.
+  why: The clearest example of Saigon's converted-apartment-block bar culture, which
+    exists nowhere else in the country
+  confidence: medium
+  geocode_query: Layla Eatery and Bar, Dong Du, District 1, Ho Chi Minh City, Vietnam
+  sources:
+  - https://www.asia-bars.com/2026/03/top-12-highly-rated-cocktail-bars-hcmc-vietnam-2026/
+  - https://www.tripadvisor.com/Attractions-g293925-Activities-c20-t99-Ho_Chi_Minh_City.html
+  coords:
+    lat: 10.775022
+    lng: 106.7031275
+  location_precision: approximate
+- name: Stir
+  area: Overlooking Ben Thanh Market, District 1
+  what: A hidden first-floor apartment bar looking down on Ben Thanh Market, serving
+    modern cocktails in a deliberately nostalgic Vietnamese room.
+  why: Number 85 on Asia's 50 Best Bars 2026, and the view over the market at night
+    is the reason to pick it over the others
+  confidence: medium
+  geocode_query: Stir Bar, Ben Thanh, District 1, Ho Chi Minh City, Vietnam
+  sources:
+  - https://www.theworlds50best.com/stories/News/asias-50-best-bars-2026-the-51-100-list-revealed.html
+  - https://www.asia-bars.com/2026/03/top-12-highly-rated-cocktail-bars-hcmc-vietnam-2026/

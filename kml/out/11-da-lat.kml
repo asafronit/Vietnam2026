@@ -38,12 +38,48 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-da-lat-street_food">
+      <IconStyle>
+        <color>ff909946</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-da-lat-restaurants">
+      <IconStyle>
+        <color>ff909946</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-da-lat-markets">
       <IconStyle>
         <color>ff909946</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-da-lat-nightlife">
+      <IconStyle>
+        <color>ff909946</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/bars.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-da-lat-spa">
+      <IconStyle>
+        <color>ff909946</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -182,17 +218,6 @@
         <description><![CDATA[<b>Da Lat</b> &middot; Tuyen Lam Lake, south of the city<br/><br/>A paddle by kayak or stand-up paddleboard across Tuyen Lam Lake's pine-fringed water, usually combined with a stop at the Clay Tunnel, a walk-through open-air clay sculpture near the Truc Lam monastery.<br/><b>Why it's here:</b> The quiet, uncrowded counterpart to the night market; nature and folk art in one outing<br/><a href="https://powertraveller.com/da-lat-tuyen-lam-lake-kayak-or-sup-tour/">source 1</a> &middot; <a href="https://kayawanderlust.com/self-guided-tour-to-the-clay-tunnel-and-truc-lam-monastery/">source 2</a><br/><a href="https://www.youtube.com/results?search_query=Tuyen+Lam+Lake+SUP%2FKayak+and+Clay+Tunnel+Da+Lat+Vietnam" style="color:#cc0000;font-weight:700">Search YouTube</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=11.8907954,108.4250836&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 11.8907954, 108.4250836]]></description>
         <Point>
           <coordinates>108.4250836,11.8907954,0</coordinates>
-        </Point>
-      </Placemark>
-    </Folder>
-    <Folder>
-      <name>Food</name>
-      <Placemark>
-        <name>Artichoke tea (Tra Atiso) at Da Lat Market</name>
-        <styleUrl>#s-da-lat-food</styleUrl>
-        <description><![CDATA[<b>Da Lat</b> &middot; Da Lat Market, city center<br/>local media<br/><br/>Dried artichoke flower heads, grown on the plateau around Da Lat, sold loose or bagged as a bitter herbal tea at stalls throughout Da Lat Market.<br/><b>Why it's here:</b> Da Lat grows most of Vietnam's artichoke crop; the tea is the plateau's signature souvenir<br/><a href="https://tamtrinhcoffee.com/da-lat-specialty-gifts/">source 1</a> &middot; <a href="https://www.expatolife.com/things-to-buy-shopping-da-lat-vietnam/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=11.9435196,108.4372097&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 11.9435196, 108.4372097]]></description>
-        <Point>
-          <coordinates>108.4372097,11.9435196,0</coordinates>
         </Point>
       </Placemark>
     </Folder>

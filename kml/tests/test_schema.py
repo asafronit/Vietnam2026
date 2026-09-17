@@ -1,4 +1,10 @@
-from kmlpool.schema import Record, validate_record, validate_hotels, is_shippable
+from kmlpool.schema import (
+    Record,
+    validate_record,
+    validate_hotels,
+    validate_hebrew,
+    is_shippable,
+)
 
 
 def hotel(**over):
@@ -11,7 +17,7 @@ def hotel(**over):
         geocode_query="Peridot Grand Hotel, Hanoi, Vietnam",
         sources=["https://booking.com/a", "https://tripadvisor.com/b"],
         tier=5, tier_official=True, price_low=80.0, price_high=137.0,
-        price_checked="2026-08-16",
+        price_checked="2026-08-16", price_unit="per_night",
     )
     base.update(over)
     return Record(**base)
@@ -166,3 +172,43 @@ def test_valid_youtu_be_short_url_passes_validation():
 def test_no_video_is_fine_for_any_category():
     assert validate_record(hotel()) == []
     assert validate_record(food()) == []
+
+
+# --- Hebrew coverage, enforced per place ------------------------------------
+
+def he_rec(**over):
+    """A shippable non-hotel record; Hebrew fields empty unless overridden."""
+    base = dict(
+        name="Bun Cha Huong Lien", category="street_food", area="Hai Ba Trung",
+        what="A three-storey shop grilling pork over charcoal.",
+        why="Michelin Bib Gourmand",
+        confidence="high",
+        geocode_query="Bun Cha Huong Lien, Hanoi, Vietnam",
+        sources=["https://guide.michelin.com/x"],
+    )
+    base.update(over)
+    return Record(**base)
+
+
+def test_declared_complete_place_fails_on_a_record_missing_hebrew():
+    errors = validate_hebrew("hanoi", [he_rec()], declared_complete=True)
+    assert len(errors) == 1
+    assert "Bun Cha Huong Lien" in errors[0]
+    assert "what_he" in errors[0] and "why_he" in errors[0]
+
+
+def test_declared_complete_place_passes_when_every_record_has_hebrew():
+    rec = he_rec(what_he="דוכן בן שלוש קומות שצולה חזיר על גחלים.",
+                 why_he="ביב גורמה של מישלן")
+    assert validate_hebrew("hanoi", [rec], declared_complete=True) == []
+
+
+def test_undeclared_place_is_never_blocked_for_missing_hebrew():
+    """This is what lets the translation work proceed one place at a time."""
+    assert validate_hebrew("sapa", [he_rec(), he_rec()], declared_complete=False) == []
+
+
+def test_records_the_web_pool_drops_are_not_counted():
+    """A low-confidence record never renders, so it cannot leave a visible hole."""
+    dropped = he_rec(confidence="low")
+    assert validate_hebrew("hanoi", [dropped], declared_complete=True) == []

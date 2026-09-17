@@ -191,34 +191,6 @@ markets:
   geocode_query: Meo Vac Market, Meo Vac, Ha Giang, Vietnam
   sources:
   - https://www.colorfuljourneys.com/articles/visit-meo-vac-market-ha-giang
-food:
-- name: Ha Giang-style banh cuon (in broth)
-  kind: vietnamese
-  signal: traveler_recommended
-  dish: Banh cuon
-  area: Ha Giang City, Ly Tu Trong street, and Dong Van market stalls
-  what: Steamed rice-flour rolls filled with minced pork and wood-ear mushroom, served
-    not with the usual dipping fish sauce but floating in a hot pork-bone broth.
-  why: A distinct regional variant of a dish found nationwide, and one of the cheapest
-    hot meals on the loop
-  confidence: medium
-  geocode_query: Ly Tu Trong street food stalls, Ha Giang City, Vietnam
-  sources:
-  - https://www.handspan.com/en/foods-in-ha-giang.html
-- name: Thang co
-  kind: vietnamese
-  signal: traveler_recommended
-  dish: Thang co (H'mong offal and meat stew)
-  area: Dong Van, Meo Vac and Lung Cu markets
-  what: A H'mong stew of horse, beef or goat meat and offal, simmered for hours with
-    a spice mix of around a dozen ingredients into a dark, strongly-flavoured broth,
-    traditionally ladled from a communal pot at market.
-  why: The signature dish of the loop's Sunday markets, and about as far from lowland
-    Vietnamese cooking as the food on this trip gets
-  confidence: medium
-  geocode_query: Dong Van Market, Ha Giang, Vietnam
-  sources:
-  - https://vietnam.travel/things-to-do/local-unpacked-one-kind-cuisine-ha-giang-karst-plateau
 logistics:
 - name: Border Area Entry Permit for the Ha Giang loop
   area: Quan Ba, Yen Minh, Dong Van and Meo Vac districts
@@ -233,3 +205,33 @@ logistics:
   sources:
   - https://bongbackpackerhostel.com/blog/ha-giang-loop/border-permit-for-the-ha-giang-loop-in-2026-the-new-rule-every-traveler-needs-to-know
   - https://www.timeout.com/asia/news/ha-giang-loop-permits-what-travellers-need-to-know-before-riding-vietnams-famous-mountain-route-061426
+street_food:
+- name: Ha Giang-style banh cuon (in broth)
+  kind: vietnamese
+  signal: traveler_recommended
+  dish: Banh cuon
+  area: Ha Giang City, Ly Tu Trong street, and Dong Van market stalls
+  what: Steamed rice-flour rolls filled with minced pork and wood-ear mushroom, served
+    not with the usual dipping fish sauce but floating in a hot pork-bone broth.
+  why: A distinct regional variant of a dish found nationwide, and one of the cheapest
+    hot meals on the loop
+  confidence: medium
+  geocode_query: Ly Tu Trong street food stalls, Ha Giang City, Vietnam
+  sources:
+  - https://www.handspan.com/en/foods-in-ha-giang.html
+  is_dish: true
+- name: Thang co
+  kind: vietnamese
+  signal: traveler_recommended
+  dish: Thang co (H'mong offal and meat stew)
+  area: Dong Van, Meo Vac and Lung Cu markets
+  what: A H'mong stew of horse, beef or goat meat and offal, simmered for hours with
+    a spice mix of around a dozen ingredients into a dark, strongly-flavoured broth,
+    traditionally ladled from a communal pot at market.
+  why: The signature dish of the loop's Sunday markets, and about as far from lowland
+    Vietnamese cooking as the food on this trip gets
+  confidence: medium
+  geocode_query: Dong Van Market, Ha Giang, Vietnam
+  sources:
+  - https://vietnam.travel/things-to-do/local-unpacked-one-kind-cuisine-ha-giang-karst-plateau
+  is_dish: true

@@ -167,24 +167,6 @@ markets:
   geocode_query: Sapa Stone Church square, Sapa, Vietnam
   sources:
   - https://www.ethosspirit.com/sapa-love-market
-food:
-- name: Thang Co A Quynh
-  kind: vietnamese
-  signal: traveler_recommended
-  dish: Thang co (horse stew)
-  area: 15 Thach Son Street, Sapa town
-  what: A long-running local restaurant serving thang co, the H'mong horse-meat and
-    offal stew simmered with highland herbs, alongside other mountain specialities.
-  why: The most consistently recommended address in Sapa for this specific regional
-    dish, with an established following on Tripadvisor and local guides alike
-  confidence: medium
-  geocode_query: Thang Co A Quynh Restaurant, Thach Son Street, Sapa, Vietnam
-  sources:
-  - https://www.tripadvisor.com/Restaurant_Review-g311304-d12951605-Reviews-Thang_Co_A_Quynh_Restaurant-Sapa_Lao_Cai_Province.html
-  coords:
-    lat: 22.3360931
-    lng: 103.8445752
-  location_precision: approximate
 logistics:
 - name: Hanoi to Sapa transfer options
   area: Hanoi to Sapa town
@@ -202,3 +184,21 @@ logistics:
   coords:
     lat: 22.3399787
     lng: 103.8485698
+restaurants:
+- name: Thang Co A Quynh
+  kind: vietnamese
+  signal: traveler_recommended
+  dish: Thang co (horse stew)
+  area: 15 Thach Son Street, Sapa town
+  what: A long-running local restaurant serving thang co, the H'mong horse-meat and
+    offal stew simmered with highland herbs, alongside other mountain specialities.
+  why: The most consistently recommended address in Sapa for this specific regional
+    dish, with an established following on Tripadvisor and local guides alike
+  confidence: medium
+  geocode_query: Thang Co A Quynh Restaurant, Thach Son Street, Sapa, Vietnam
+  sources:
+  - https://www.tripadvisor.com/Restaurant_Review-g311304-d12951605-Reviews-Thang_Co_A_Quynh_Restaurant-Sapa_Lao_Cai_Province.html
+  coords:
+    lat: 22.3360931
+    lng: 103.8445752
+  location_precision: approximate

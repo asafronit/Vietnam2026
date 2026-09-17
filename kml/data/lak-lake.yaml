@@ -77,20 +77,6 @@ attractions:
   sources:
   - https://www.laktentedcamp.com/
   - https://www.tripadvisor.com/ShowUserReviews-g3389563-d11875783-r717309876-Lak_Tented_Camp-Lien_Son_Dak_Lak_Province.html
-food:
-- name: Com Lam Ga Nuong Ho Lak (Pai R'Lam)
-  kind: vietnamese
-  signal: traveler_recommended
-  area: Buon Le, on the lake shore
-  what: A stilt-house restaurant on Lak Lake serving the Central Highlands staple
-    of chicken grilled over charcoal alongside rice steamed inside a bamboo tube.
-  why: One of very few sit-down restaurants actually at the lake, rather than back
-    in Buon Ma Thuot
-  confidence: medium
-  geocode_query: Com Lam Ga Nuong Ho Lak, Lak Lake, Dak Lak, Vietnam
-  sources:
-  - https://www.tripadvisor.com.vn/Restaurant_Review-g670918-d25188323-Reviews-Com_Lam_Ga_Nu_ng_H_Lak-Buon_Ma_Thuot_Dak_Lak_Province.html
-  - https://wanderlog.com/place/details/7813963/pai-rl%C4%83m-c%C6%A1m-lam-g%C3%A0-n%C6%B0%E1%BB%9Bng-h%E1%BB%93-l%C4%83k
 logistics:
 - name: Getting to Lak Tented Camp
   area: Lien Son, on National Highway 27
@@ -105,3 +91,17 @@ logistics:
   sources:
   - https://www.laktentedcamp.com/how-to-travel-to-lak/
   - https://www.aroundtheworld360.com/distance/buon-ma-thuot_vn/lak_vn/
+restaurants:
+- name: Com Lam Ga Nuong Ho Lak (Pai R'Lam)
+  kind: vietnamese
+  signal: traveler_recommended
+  area: Buon Le, on the lake shore
+  what: A stilt-house restaurant on Lak Lake serving the Central Highlands staple
+    of chicken grilled over charcoal alongside rice steamed inside a bamboo tube.
+  why: One of very few sit-down restaurants actually at the lake, rather than back
+    in Buon Ma Thuot
+  confidence: medium
+  geocode_query: Com Lam Ga Nuong Ho Lak, Lak Lake, Dak Lak, Vietnam
+  sources:
+  - https://www.tripadvisor.com.vn/Restaurant_Review-g670918-d25188323-Reviews-Com_Lam_Ga_Nu_ng_H_Lak-Buon_Ma_Thuot_Dak_Lak_Province.html
+  - https://wanderlog.com/place/details/7813963/pai-rl%C4%83m-c%C6%A1m-lam-g%C3%A0-n%C6%B0%E1%BB%9Bng-h%E1%BB%93-l%C4%83k

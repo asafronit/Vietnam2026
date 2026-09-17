@@ -38,12 +38,48 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-hoi-an-street_food">
+      <IconStyle>
+        <color>ffe632f0</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hoi-an-restaurants">
+      <IconStyle>
+        <color>ffe632f0</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-hoi-an-markets">
       <IconStyle>
         <color>ffe632f0</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hoi-an-nightlife">
+      <IconStyle>
+        <color>ffe632f0</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/bars.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hoi-an-spa">
+      <IconStyle>
+        <color>ffe632f0</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -189,34 +225,112 @@
       <name>Food</name>
       <Placemark>
         <name>Banh Mi Phuong</name>
-        <styleUrl>#s-hoi-an-food</styleUrl>
-        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; 2B Phan Chu Trinh Street, Old Town<br/><i>Approximate location — search the name in Maps</i><br/>traveler recommended<br/><br/>A perpetually busy banh mi stand grilling and assembling its own pork, pate and pickled vegetables into a crusty baguette sandwich to order.<br/><b>Why it's here:</b> The banh mi Anthony Bourdain called possibly the best in Vietnam - still packed with a line out the door years later<br/><a href="https://www.tripadvisor.com/Restaurant_Review-g298082-d2365673-Reviews-Banh_My_Phu_ng-Hoi_An_Quang_Nam_Province.html">source 1</a> &middot; <a href="https://hiddenhoian.com/eat/banh-mi-phuong-hoi-ans-best-banh-mi/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=15.8784841,108.3320081&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 15.8784841, 108.3320081]]></description>
+        <styleUrl>#s-hoi-an-street_food</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; 2B Phan Chu Trinh Street, Old Town<br/><i>Approximate location — search the name in Maps</i><br/><br/>A perpetually busy banh mi stand grilling and assembling its own pork, pate and pickled vegetables into a crusty baguette sandwich to order.<br/><b>Why it's here:</b> The banh mi Anthony Bourdain called possibly the best in Vietnam - still packed with a line out the door years later<br/><a href="https://www.tripadvisor.com/Restaurant_Review-g298082-d2365673-Reviews-Banh_My_Phu_ng-Hoi_An_Quang_Nam_Province.html">source 1</a> &middot; <a href="https://hiddenhoian.com/eat/banh-mi-phuong-hoi-ans-best-banh-mi/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=15.8784841,108.3320081&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 15.8784841, 108.3320081]]></description>
         <Point>
           <coordinates>108.3320081,15.8784841,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
+        <name>Phu Hong (Bun Thit Nuong Phu Hong)</name>
+        <styleUrl>#s-hoi-an-street_food</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; 19 Yen Bai Street, Hai Chau District, Da Nang<br/><i>Approximate location — search the name in Maps</i><br/><br/>A street-food stall serving bun thit nuong - grilled pork over rice vermicelli with fresh herbs - alongside grilled pork and minced-pork skewers wrapped in rice paper, no reservations, cash only.<br/><b>Why it's here:</b> Holds a Michelin Bib Gourmand for good quality, good value cooking - the everyday-food end of Da Nang's Michelin coverage, distinct from La Maison 1888's fine dining<br/><a href="https://liveyounglivewell.com/quan-phu-hong-da-nang-review/">source 1</a> &middot; <a href="https://guide.michelin.com/en/da-nang-region/da-nang_2984390/restaurant/phu-hong">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.0695853,108.2229138&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 16.0695853, 108.2229138]]></description>
+        <Point>
+          <coordinates>108.2229138,16.0695853,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>My Quang Sua Hong Van</name>
+        <styleUrl>#s-hoi-an-street_food</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; Da Nang<br/><br/>A stall serving my quang - central Vietnam's wide turmeric-yellow noodles in a shallow pool of broth rather than a soup - in the local jellyfish version, with peanuts and a sheet of grilled rice cracker.<br/><b>Why it's here:</b> My quang is the dish of this province specifically, and the jellyfish version barely exists outside Da Nang<br/><a href="https://guide.michelin.com/us/en/da-nang-region/restaurants/bib-gourmand">source 1</a> &middot; <a href="https://www.tripadvisor.com/Restaurants-g298085-Da_Nang.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.0661233,108.229693&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 16.0661233, 108.229693]]></description>
+        <Point>
+          <coordinates>108.229693,16.0661233,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Banh Beo - Banh Dap</name>
+        <styleUrl>#s-hoi-an-street_food</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; Da Nang<br/><i>Approximate location — search the name in Maps</i><br/><br/>A stall built on two central-coast snacks - small steamed rice cakes topped with dried shrimp, and a grilled rice cracker sandwiched with a soft wet sheet that you smash by hand before dipping.<br/><b>Why it's here:</b> Banh dap is eaten by breaking it with your palm, which makes it the most fun dish on this list and one you will not find at home<br/><a href="https://guide.michelin.com/us/en/da-nang-region/restaurants/bib-gourmand">source 1</a> &middot; <a href="https://www.tripadvisor.com/Restaurants-g298085-Da_Nang.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=15.8844674,108.3303903&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 15.8844674, 108.3303903]]></description>
+        <Point>
+          <coordinates>108.3303903,15.8844674,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Co Chu Nho</name>
+        <styleUrl>#s-hoi-an-street_food</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; Da Nang<br/><br/>A small Da Nang street-food shop that entered the Bib Gourmand list in the most recent selection.<br/><b>Why it's here:</b> One of only three new Da Nang entries in the 2026 guide, so it has not yet been found by the tour groups<br/><a href="https://guide.michelin.com/vn/en/da-nang-region/da-nang_2984390/restaurant/co-chu-nho">source 1</a> &middot; <a href="https://guide.michelin.com/us/en/da-nang-region/restaurants/bib-gourmand">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.0461704,108.2454747&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 16.0461704, 108.2454747]]></description>
+        <Point>
+          <coordinates>108.2454747,16.0461704,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
         <name>White Rose Restaurant</name>
-        <styleUrl>#s-hoi-an-food</styleUrl>
-        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; 533 Hai Ba Trung Street<br/>traveler recommended<br/><br/>The restaurant most associated with white rose dumplings (banh bao vac) - translucent rice-dough parcels of spiced minced shrimp, steamed and shaped to resemble a folded rose, then topped with crispy fried shallots.<br/><b>Why it's here:</b> The dish comes from one family recipe distributed to eateries around town, and this restaurant is the most famous outlet for it<br/><a href="https://culturephamtravel.com/white-rose-dumplings-hoi-an/">source 1</a> &middot; <a href="https://cavinteo.blogspot.com/2024/10/white-rose-restaurant-dumplings-hoi-an-vietnam.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=15.8829593,108.3250054&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 15.8829593, 108.3250054]]></description>
+        <styleUrl>#s-hoi-an-restaurants</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; 533 Hai Ba Trung Street<br/><br/>The restaurant most associated with white rose dumplings (banh bao vac) - translucent rice-dough parcels of spiced minced shrimp, steamed and shaped to resemble a folded rose, then topped with crispy fried shallots.<br/><b>Why it's here:</b> The dish comes from one family recipe distributed to eateries around town, and this restaurant is the most famous outlet for it<br/><a href="https://culturephamtravel.com/white-rose-dumplings-hoi-an/">source 1</a> &middot; <a href="https://cavinteo.blogspot.com/2024/10/white-rose-restaurant-dumplings-hoi-an-vietnam.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=15.8829593,108.3250054&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 15.8829593, 108.3250054]]></description>
         <Point>
           <coordinates>108.3250054,15.8829593,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>La Maison 1888</name>
-        <styleUrl>#s-hoi-an-food</styleUrl>
-        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; InterContinental Danang Sun Peninsula Resort, Son Tra<br/><i>Approximate location — search the name in Maps</i><br/>michelin star<br/><br/>A fine-dining French restaurant inside a recreated Indochinese colonial mansion overlooking the sea, serving a five- or eight-course set menu built on Vietnamese, French and Japanese ingredients.<br/><b>Why it's here:</b> The only Michelin-starred restaurant in Central Vietnam, held by chef Christian Le Squer, who carried three Michelin stars in France for 23 years<br/><a href="https://guide.michelin.com/us/en/da-nang-region/da-nang_2984390/restaurant/la-maison-1888">source 1</a> &middot; <a href="https://www.danang.intercontinental.com/a-michelin-star-for-la-maison-1888/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=15.9040037,108.3326237&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 15.9040037, 108.3326237]]></description>
+        <styleUrl>#s-hoi-an-restaurants</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; InterContinental Danang Sun Peninsula Resort, Son Tra<br/><i>Approximate location — search the name in Maps</i><br/><br/>A fine-dining French restaurant inside a recreated Indochinese colonial mansion overlooking the sea, serving a five- or eight-course set menu built on Vietnamese, French and Japanese ingredients.<br/><b>Why it's here:</b> The only Michelin-starred restaurant in Central Vietnam, held by chef Christian Le Squer, who carried three Michelin stars in France for 23 years<br/><a href="https://guide.michelin.com/us/en/da-nang-region/da-nang_2984390/restaurant/la-maison-1888">source 1</a> &middot; <a href="https://www.danang.intercontinental.com/a-michelin-star-for-la-maison-1888/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=15.9040037,108.3326237&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 15.9040037, 108.3326237]]></description>
         <Point>
           <coordinates>108.3326237,15.9040037,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>Phu Hong (Bun Thit Nuong Phu Hong)</name>
-        <styleUrl>#s-hoi-an-food</styleUrl>
-        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; 19 Yen Bai Street, Hai Chau District, Da Nang<br/><i>Approximate location — search the name in Maps</i><br/>michelin bib<br/><br/>A street-food stall serving bun thit nuong - grilled pork over rice vermicelli with fresh herbs - alongside grilled pork and minced-pork skewers wrapped in rice paper, no reservations, cash only.<br/><b>Why it's here:</b> Holds a Michelin Bib Gourmand for good quality, good value cooking - the everyday-food end of Da Nang's Michelin coverage, distinct from La Maison 1888's fine dining<br/><a href="https://liveyounglivewell.com/quan-phu-hong-da-nang-review/">source 1</a> &middot; <a href="https://guide.michelin.com/en/da-nang-region/da-nang_2984390/restaurant/phu-hong">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.0695853,108.2229138&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 16.0695853, 108.2229138]]></description>
+        <name>Thia Go</name>
+        <styleUrl>#s-hoi-an-restaurants</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; Da Nang<br/><br/>A sit-down Vietnamese kitchen working with central-coast produce and seafood, plated as a full menu rather than a single-dish counter.<br/><b>Why it's here:</b> Bib Gourmand, and the option for a proper dinner in Da Nang that is neither a resort restaurant nor a plastic stool<br/><a href="https://guide.michelin.com/us/en/da-nang-region/da-nang_2984390/restaurant/thia-go%C2%A0">source 1</a> &middot; <a href="https://guide.michelin.com/us/en/da-nang-region/restaurants/bib-gourmand">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.0532123,108.24153&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 16.0532123, 108.24153]]></description>
         <Point>
-          <coordinates>108.2229138,16.0695853,0</coordinates>
+          <coordinates>108.24153,16.0532123,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Be Ni 2</name>
+        <styleUrl>#s-hoi-an-restaurants</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; Da Nang<br/><i>Approximate location — search the name in Maps</i><br/><br/>A Da Nang seafood house where the catch is picked from tanks at the front and cooked to order - grilled, steamed with lemongrass, or fried with tamarind.<br/><b>Why it's here:</b> The only seafood address on the guide's Da Nang list, in a city whose whole economy faces the sea<br/><a href="https://guide.michelin.com/us/en/da-nang-region/restaurants/bib-gourmand">source 1</a> &middot; <a href="https://www.tripadvisor.com/Restaurants-g298085-Da_Nang.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.0667909,108.2449525&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 16.0667909, 108.2449525]]></description>
+        <Point>
+          <coordinates>108.2449525,16.0667909,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ngoc Chi</name>
+        <styleUrl>#s-hoi-an-restaurants</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; Da Nang<br/><br/>A vegetarian kitchen rebuilding central-Vietnamese dishes without meat or fish sauce, from noodle bowls to rice plates.<br/><b>Why it's here:</b> Bib Gourmand vegetarian, and the fallback in a region whose cooking leans hard on fish sauce and pork<br/><a href="https://guide.michelin.com/us/en/da-nang-region/restaurants/bib-gourmand">source 1</a> &middot; <a href="https://www.tripadvisor.com/Restaurants-g298085-Da_Nang.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.0650511,108.2227097&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 16.0650511, 108.2227097]]></description>
+        <Point>
+          <coordinates>108.2227097,16.0650511,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Nightlife</name>
+      <Placemark>
+        <name>An Bang Beach bars</name>
+        <styleUrl>#s-hoi-an-nightlife</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; An Bang Beach, 3 km from the Old Town<br/><br/>A line of beachfront bars and seafood shacks with live music, sand underfoot and a very different crowd from the lantern-lit old town.<br/><b>Why it's here:</b> Where Hoi An goes when the old town closes at 22:00, and the only late option in this station<br/><a href="https://vietadvisor.travel/hoi-an/hoi-an-nightlife">source 1</a> &middot; <a href="https://hoianmemoriesresort.com/en/best-bars-in-hoi-an-top-nightlife-spots-for-tourists-and-young-travelers.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=15.9141779,108.3396551&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 15.9141779, 108.3396551]]></description>
+        <Point>
+          <coordinates>108.3396551,15.9141779,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Spa &amp; Massage</name>
+      <Placemark>
+        <name>Herbal Spa Hoi An</name>
+        <styleUrl>#s-hoi-an-spa</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; Hoi An, several branches<br/><br/>A spa built around a Vietnamese herbal treatment - lemongrass, ginger, cinnamon and mugwort steamed and applied warm - alongside standard body and foot massage.<br/><b>Why it's here:</b> 4.8 out of 5 from more than two thousand Klook reviews and top-ranked on TripAdvisor since 2019, which is a far deeper review base than any spa in Hanoi<br/><a href="https://herbalspa.vn/en/hoi-an">source 1</a> &middot; <a href="https://www.tripadvisor.com/Attractions-g298082-Activities-c40-Hoi_An_Quang_Nam_Province.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=15.8784079,108.3240194&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 15.8784079, 108.3240194]]></description>
+        <Point>
+          <coordinates>108.3240194,15.8784079,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ocean Spa Hoi An</name>
+        <styleUrl>#s-hoi-an-spa</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; Near An Bang Beach<br/><i>Approximate location — search the name in Maps</i><br/><br/>A spa near An Bang beach offering body, foot and herbal treatments away from the old-town crowds.<br/><b>Why it's here:</b> 4.9 out of 5 across more than 1,300 reviews, and close enough to the beach to combine with a swim<br/><a href="https://www.tripadvisor.com/Attractions-g298082-Activities-c40-Hoi_An_Quang_Nam_Province.html">source 1</a> &middot; <a href="https://www.klook.com/destination/c75-hoi-an/1011-spa/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=15.9129019,108.3402428&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 15.9129019, 108.3402428]]></description>
+        <Point>
+          <coordinates>108.3402428,15.9129019,0</coordinates>
         </Point>
       </Placemark>
     </Folder>

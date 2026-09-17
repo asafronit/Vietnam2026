@@ -28,7 +28,14 @@ ICON_HREFS: dict[str, str] = {
     "must_see":    f"{_SHAPES}/star.png",
     "attractions": f"{_SHAPES}/hiker.png",
     "food":        f"{_SHAPES}/dining.png",
+    # street_food and restaurants split out of `food`. My Maps offers no
+    # separate street-stall icon, so the two share the dining pin and are
+    # told apart by their layer, not their glyph.
+    "street_food": f"{_SHAPES}/dining.png",
+    "restaurants": f"{_SHAPES}/dining.png",
     "markets":     f"{_SHAPES}/shopping.png",
+    "nightlife":   f"{_SHAPES}/bars.png",
+    "spa":         f"{_SHAPES}/parks.png",
     "logistics":   f"{_SHAPES}/airports.png",
 }
 

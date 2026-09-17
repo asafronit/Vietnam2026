@@ -157,10 +157,28 @@ def test_high_confidence_geocoded_record_is_included(tmp_path, monkeypatch):
     assert "Good Lake" in names
 
 
-def test_ungeocoded_record_is_excluded(tmp_path, monkeypatch):
+def test_ungeocoded_record_still_reaches_the_web_pool(tmp_path, monkeypatch):
+    """The web gate deliberately does not require coordinates.
+
+    KML is a map format, so a pin without coordinates is meaningless there and
+    `is_shippable` still blocks it. A web card is not: it can carry the name,
+    the description and the reason, and link out to a maps *search*. Requiring
+    coordinates here was inherited from the KML path by accident and was
+    silently withholding roughly half the researched records from the site.
+    """
     data = _run_and_load(tmp_path, monkeypatch)
     names = [r["name"] for r in data["hanoi"]["poi"]["must_see"]]
-    assert "No Coords Lake" not in names
+    assert "No Coords Lake" in names
+
+
+def test_ungeocoded_record_carries_no_coordinates(tmp_path, monkeypatch):
+    """Shipping it is not the same as inventing a location for it."""
+    data = _run_and_load(tmp_path, monkeypatch)
+    lake = next(
+        r for r in data["hanoi"]["poi"]["must_see"] if r["name"] == "No Coords Lake"
+    )
+    assert lake.get("lat") is None
+    assert lake.get("lng") is None
 
 
 def test_counts_matches_actual_length_of_category_arrays(tmp_path, monkeypatch):
@@ -168,7 +186,9 @@ def test_counts_matches_actual_length_of_category_arrays(tmp_path, monkeypatch):
     hanoi = data["hanoi"]
     for category, records in hanoi["poi"].items():
         assert hanoi["counts"][category] == len(records)
-    assert hanoi["counts"]["must_see"] == 1  # only Good Lake ships
+    # Good Lake and No Coords Lake both ship; Bad Lake is low-confidence and
+    # is the only must_see the web gate rejects.
+    assert hanoi["counts"]["must_see"] == 2
     assert hanoi["counts"]["hotels"] == 1
 
 

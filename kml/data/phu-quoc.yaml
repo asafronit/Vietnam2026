@@ -165,34 +165,6 @@ attractions:
     lat: 10.3393964
     lng: 103.8950113
   location_precision: approximate
-food:
-- name: Xin Chao Seafood Restaurant
-  kind: vietnamese
-  signal: traveler_recommended
-  dish: Fresh seafood, sea view dining
-  area: Duong Dong, 30 Thang 4 Street
-  what: An open-air seafood restaurant with tank-to-table dining overlooking the sea,
-    popular for sunset and evening meals.
-  why: One of the most consistently traveler-recommended seafood restaurants on the
-    island for its combination of view and quality
-  confidence: medium
-  geocode_query: Xin Chao Seafood Restaurant, Duong Dong, Phu Quoc, Vietnam
-  sources:
-  - https://kampatour.com/phu-quoc-restaurants
-- name: Ra Khoi Seafood Restaurant
-  kind: vietnamese
-  signal: traveler_recommended
-  dish: Fresh seafood bought directly from local fishermen
-  area: Duong Dong
-  what: A no-frills local seafood restaurant sourcing its catch directly from fishermen
-    rather than a supplier, with tanks out front for picking your own fish, crab or
-    squid.
-  why: Cited repeatedly by travelers for genuine, unmarked-up seafood prices compared
-    to the tourist-strip restaurants nearby
-  confidence: medium
-  geocode_query: Ra Khoi Seafood Restaurant, Duong Dong, Phu Quoc, Vietnam
-  sources:
-  - https://kampatour.com/phu-quoc-restaurants
 markets:
 - name: Phu Quoc Night Market (Dinh Cau)
   area: Duong Dong, Bach Dang street
@@ -241,3 +213,31 @@ logistics:
   coords:
     lat: 10.1457488
     lng: 104.038743
+restaurants:
+- name: Xin Chao Seafood Restaurant
+  kind: vietnamese
+  signal: traveler_recommended
+  dish: Fresh seafood, sea view dining
+  area: Duong Dong, 30 Thang 4 Street
+  what: An open-air seafood restaurant with tank-to-table dining overlooking the sea,
+    popular for sunset and evening meals.
+  why: One of the most consistently traveler-recommended seafood restaurants on the
+    island for its combination of view and quality
+  confidence: medium
+  geocode_query: Xin Chao Seafood Restaurant, Duong Dong, Phu Quoc, Vietnam
+  sources:
+  - https://kampatour.com/phu-quoc-restaurants
+- name: Ra Khoi Seafood Restaurant
+  kind: vietnamese
+  signal: traveler_recommended
+  dish: Fresh seafood bought directly from local fishermen
+  area: Duong Dong
+  what: A no-frills local seafood restaurant sourcing its catch directly from fishermen
+    rather than a supplier, with tanks out front for picking your own fish, crab or
+    squid.
+  why: Cited repeatedly by travelers for genuine, unmarked-up seafood prices compared
+    to the tourist-strip restaurants nearby
+  confidence: medium
+  geocode_query: Ra Khoi Seafood Restaurant, Duong Dong, Phu Quoc, Vietnam
+  sources:
+  - https://kampatour.com/phu-quoc-restaurants

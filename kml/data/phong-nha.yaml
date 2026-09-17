@@ -180,57 +180,6 @@ attractions:
     lat: 17.5982371
     lng: 106.3635278
   location_precision: approximate
-food:
-- name: The Rice House Phong Nha
-  kind: vietnamese
-  signal: traveler_recommended
-  area: Phong Nha town centre
-  what: A bamboo-built restaurant with low lighting serving refined regional dishes
-    such as bo la lot (beef wrapped in betel leaf) and braised eggplant.
-  why: The strongest reviewed sit-down Vietnamese dinner in town (Google 4.9/1,358,
-    TripAdvisor 5.0/91) and a step up from the backpacker-strip kitchens
-  confidence: high
-  geocode_query: The Rice House Phong Nha, Son Trach, Quang Binh, Vietnam
-  sources:
-  - https://www.tripadvisor.com/Restaurant_Review-g13163545-d27122855-Reviews-The_Rice_House-Phong_Nha_Quang_Binh_Province.html
-  - https://junglebosstours.com/explorer/tourism-blog/phong-nha-restaurants
-- name: Ha Chinh Grilled Chicken
-  kind: vietnamese
-  signal: traveler_recommended
-  area: Rice paddies outside Phong Nha town
-  what: An unmarked rice-paddy grilled-chicken stall — crispy-skinned chicken grilled
-    whole, served with a chilli-and-"cheo" salt dip, stir-fried vermicelli and sticky
-    rice.
-  why: A rustic, locals-only alternative to the tourist-strip restaurants, with a
-    perfect Google rating from over a hundred reviews
-  confidence: medium
-  geocode_query: Quan Ga Nuong Chinh Ha, Phong Nha, Bo Trach, Quang Binh, Vietnam
-  sources:
-  - https://junglebosstours.com/explorer/tourism-blog/phong-nha-restaurants
-- name: Ganesh Indian Restaurant
-  kind: international
-  signal: traveler_recommended
-  area: Phong Nha town centre
-  what: A small Indian restaurant with tandoori and curry dishes cooked to order,
-    set inside a dining room decorated in Indian style.
-  why: Properly spiced Indian food in a rural Vietnamese caving town is genuinely
-    unusual, and it is consistently the top-rated non-Vietnamese kitchen in town
-  confidence: medium
-  geocode_query: Ganesh Indian Restaurant, Son Trach, Phong Nha, Quang Binh, Vietnam
-  sources:
-  - https://junglebosstours.com/explorer/tourism-blog/phong-nha-restaurants
-- name: The Villas Restaurant
-  kind: international
-  signal: traveler_recommended
-  area: Phong Nha riverside, attached to Victory Road Villas
-  what: An open-sided riverside restaurant with karst-mountain views serving imported
-    steaks and pasta on a full Western menu.
-  why: The closest thing Phong Nha has to a proper fine-dining Western dinner, for
-    the night you don't want another bowl of pho
-  confidence: medium
-  geocode_query: The Villas Restaurant, Phong Nha, Bo Trach, Quang Binh, Vietnam
-  sources:
-  - https://junglebosstours.com/explorer/tourism-blog/phong-nha-restaurants
 markets:
 - name: Son Trach Market
   area: Son Trach (Phong Nha town centre), by the Phong Nha-Ke Bang tourist centre
@@ -278,3 +227,55 @@ logistics:
   sources:
   - https://www.getyourguide.com/en-gb/da-nang-l939/hoi-an-private-car-to-phong-nha-with-sightseeing-stops-t892548/
   - https://www.tripadvisor.com/AttractionProductReview-g298082-d20307049-Hoi_An_to_Phong_Nha_by_Private_Car_via_Vinh_Moc_Tunnels-Hoi_An_Quang_Nam_Province.html
+restaurants:
+- name: The Rice House Phong Nha
+  kind: vietnamese
+  signal: traveler_recommended
+  area: Phong Nha town centre
+  what: A bamboo-built restaurant with low lighting serving refined regional dishes
+    such as bo la lot (beef wrapped in betel leaf) and braised eggplant.
+  why: The strongest reviewed sit-down Vietnamese dinner in town (Google 4.9/1,358,
+    TripAdvisor 5.0/91) and a step up from the backpacker-strip kitchens
+  confidence: high
+  geocode_query: The Rice House Phong Nha, Son Trach, Quang Binh, Vietnam
+  sources:
+  - https://www.tripadvisor.com/Restaurant_Review-g13163545-d27122855-Reviews-The_Rice_House-Phong_Nha_Quang_Binh_Province.html
+  - https://junglebosstours.com/explorer/tourism-blog/phong-nha-restaurants
+- name: Ganesh Indian Restaurant
+  kind: international
+  signal: traveler_recommended
+  area: Phong Nha town centre
+  what: A small Indian restaurant with tandoori and curry dishes cooked to order,
+    set inside a dining room decorated in Indian style.
+  why: Properly spiced Indian food in a rural Vietnamese caving town is genuinely
+    unusual, and it is consistently the top-rated non-Vietnamese kitchen in town
+  confidence: medium
+  geocode_query: Ganesh Indian Restaurant, Son Trach, Phong Nha, Quang Binh, Vietnam
+  sources:
+  - https://junglebosstours.com/explorer/tourism-blog/phong-nha-restaurants
+- name: The Villas Restaurant
+  kind: international
+  signal: traveler_recommended
+  area: Phong Nha riverside, attached to Victory Road Villas
+  what: An open-sided riverside restaurant with karst-mountain views serving imported
+    steaks and pasta on a full Western menu.
+  why: The closest thing Phong Nha has to a proper fine-dining Western dinner, for
+    the night you don't want another bowl of pho
+  confidence: medium
+  geocode_query: The Villas Restaurant, Phong Nha, Bo Trach, Quang Binh, Vietnam
+  sources:
+  - https://junglebosstours.com/explorer/tourism-blog/phong-nha-restaurants
+street_food:
+- name: Ha Chinh Grilled Chicken
+  kind: vietnamese
+  signal: traveler_recommended
+  area: Rice paddies outside Phong Nha town
+  what: An unmarked rice-paddy grilled-chicken stall — crispy-skinned chicken grilled
+    whole, served with a chilli-and-"cheo" salt dip, stir-fried vermicelli and sticky
+    rice.
+  why: A rustic, locals-only alternative to the tourist-strip restaurants, with a
+    perfect Google rating from over a hundred reviews
+  confidence: medium
+  geocode_query: Quan Ga Nuong Chinh Ha, Phong Nha, Bo Trach, Quang Binh, Vietnam
+  sources:
+  - https://junglebosstours.com/explorer/tourism-blog/phong-nha-restaurants

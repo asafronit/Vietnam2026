@@ -38,12 +38,48 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-hanoi-street_food">
+      <IconStyle>
+        <color>ff4b19e6</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hanoi-restaurants">
+      <IconStyle>
+        <color>ff4b19e6</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-hanoi-markets">
       <IconStyle>
         <color>ff4b19e6</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hanoi-nightlife">
+      <IconStyle>
+        <color>ff4b19e6</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/bars.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hanoi-spa">
+      <IconStyle>
+        <color>ff4b19e6</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -189,26 +225,66 @@
       <name>Food</name>
       <Placemark>
         <name>Bun Cha Huong Lien</name>
-        <styleUrl>#s-hanoi-food</styleUrl>
-        <description><![CDATA[<b>Hanoi</b> &middot; Hai Ba Trung<br/>michelin bib<br/><br/>A plain three-storey shop that has grilled pork patties over charcoal since the 1990s, served in a bowl of broth with noodles and herbs.<br/><b>Why it's here:</b> Michelin Bib Gourmand, and the dish Hanoi is best known for<br/><a href="https://guide.michelin.com/vn/en/ha-noi-municipality/hanoi/restaurants">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0180504,105.8538843&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0180504, 105.8538843]]></description>
+        <styleUrl>#s-hanoi-street_food</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Hai Ba Trung<br/><br/>A plain three-storey shop that has grilled pork patties over charcoal since the 1990s, served in a bowl of broth with noodles and herbs.<br/><b>Why it's here:</b> Michelin Bib Gourmand, and the dish Hanoi is best known for<br/><a href="https://guide.michelin.com/vn/en/ha-noi-municipality/hanoi/restaurants">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0180504,105.8538843&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0180504, 105.8538843]]></description>
         <Point>
           <coordinates>105.8538843,21.0180504,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
+        <name>Pho Gia Truyen (Bat Dan)</name>
+        <styleUrl>#s-hanoi-street_food</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; 49 Bat Dan Street, Cua Dong Ward, Hoan Kiem<br/><br/>A bare-bones pho shop where you queue at the counter, pay first and carry your own bowl to a shared table. Beef only, in three cuts - flank, round steak and brisket.<br/><b>Why it's here:</b> The Old Quarter's benchmark beef pho and a Bib Gourmand; the queue at 07:00 is the review<br/><a href="https://guide.michelin.com/en/vn/ha-noi/ha-noi_2974158/restaurants/bib-gourmand">source 1</a> &middot; <a href="https://e.vnexpress.net/photo/food-recipes/hanois-best-pho-michelin-guide-picks-4931684.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0336377,105.8463792&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0336377, 105.8463792]]></description>
+        <Point>
+          <coordinates>105.8463792,21.0336377,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pho Ga Nguyet</name>
+        <styleUrl>#s-hanoi-street_food</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; 5B Phu Doan Street, Hang Trong Ward, Hoan Kiem<br/><i>Approximate location — search the name in Maps</i><br/><br/>A chicken-pho counter that lets you pick the cut - thigh, breast, or the whole lot with egg - in a clear broth. Open late, past midnight.<br/><b>Why it's here:</b> The one pho address on this list that is still serving at 23:00, which matters on an arrival night<br/><a href="https://guide.michelin.com/vn/en/ha-noi/ha-noi_2974158/restaurant/pho-ga-nguyet">source 1</a> &middot; <a href="https://guide.michelin.com/en/vn/ha-noi/ha-noi_2974158/restaurants/bib-gourmand">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0302913,105.8476483&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0302913, 105.8476483]]></description>
+        <Point>
+          <coordinates>105.8476483,21.0302913,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Banh Cuon Gia Truyen Thanh Van (Hang Ga)</name>
+        <styleUrl>#s-hanoi-street_food</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Hang Ga Street, Hoan Kiem<br/><br/>Rice batter steamed into paper-thin sheets to order over a cloth-covered pot, rolled around minced pork and wood-ear mushroom, eaten with fish sauce and fried shallot.<br/><b>Why it's here:</b> A breakfast dish you have to watch being made, and the Old Quarter's Bib Gourmand address for it<br/><a href="https://guide.michelin.com/en/vn/ha-noi/ha-noi_2974158/restaurants/bib-gourmand">source 1</a> &middot; <a href="https://guide.michelin.com/en/ha-noi/ha-noi_2974158/restaurant/banh-cuon-gia-truyen-thanh-van-hang-ga-street">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0360528,105.8471707&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0360528, 105.8471707]]></description>
+        <Point>
+          <coordinates>105.8471707,21.0360528,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
         <name>Cha Ca Thang Long</name>
-        <styleUrl>#s-hanoi-food</styleUrl>
-        <description><![CDATA[<b>Hanoi</b> &middot; Old Quarter, Duong Thanh street<br/>michelin bib<br/><br/>A no-frills shop where turmeric-marinated fish is grilled tableside on a charcoal brazier, then finished in a pan with dill and spring onion and served over rice noodles.<br/><b>Why it's here:</b> Michelin Bib Gourmand and the most consistently recommended cha ca address left in the Old Quarter<br/><a href="https://guide.michelin.com/us/en/ha-noi/ha-noi_2974158/restaurant/cha-ca-thang-long">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.033293,105.8459895&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.033293, 105.8459895]]></description>
+        <styleUrl>#s-hanoi-restaurants</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Old Quarter, Duong Thanh street<br/><br/>A no-frills shop where turmeric-marinated fish is grilled tableside on a charcoal brazier, then finished in a pan with dill and spring onion and served over rice noodles.<br/><b>Why it's here:</b> Michelin Bib Gourmand and the most consistently recommended cha ca address left in the Old Quarter<br/><a href="https://guide.michelin.com/us/en/ha-noi/ha-noi_2974158/restaurant/cha-ca-thang-long">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.033293,105.8459895&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.033293, 105.8459895]]></description>
         <Point>
           <coordinates>105.8459895,21.033293,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Gia</name>
-        <styleUrl>#s-hanoi-food</styleUrl>
-        <description><![CDATA[<b>Hanoi</b> &middot; Tay Ho (West Lake)<br/><i>Approximate location — search the name in Maps</i><br/>michelin star<br/><br/>A small tasting-menu restaurant built around a chef's-table kitchen, serving a set multi-course menu that reworks Vietnamese ingredients in a modern fine-dining format.<br/><b>Why it's here:</b> One of Vietnam's first Michelin-starred restaurants (awarded 2025, retained 2026), and Hanoi's clearest high-end tasting-menu option<br/><a href="https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-guide-vietnam-2026">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0205027,105.7639271&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0205027, 105.7639271]]></description>
+        <styleUrl>#s-hanoi-restaurants</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Tay Ho (West Lake)<br/><i>Approximate location — search the name in Maps</i><br/><br/>A small tasting-menu restaurant built around a chef's-table kitchen, serving a set multi-course menu that reworks Vietnamese ingredients in a modern fine-dining format.<br/><b>Why it's here:</b> One of Vietnam's first Michelin-starred restaurants (awarded 2025, retained 2026), and Hanoi's clearest high-end tasting-menu option<br/><a href="https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-guide-vietnam-2026">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0205027,105.7639271&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0205027, 105.7639271]]></description>
         <Point>
           <coordinates>105.7639271,21.0205027,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Luk Lak</name>
+        <styleUrl>#s-hanoi-restaurants</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Hai Ba Trung<br/><i>Approximate location — search the name in Maps</i><br/><br/>A sit-down Vietnamese restaurant in a colonial-era villa, run by a chef who cooked for the diplomatic corps, serving regional dishes as a full menu rather than a single speciality.<br/><b>Why it's here:</b> The one address here that works as a proper dinner with a table and a wine list while still being Bib Gourmand priced<br/><a href="https://guide.michelin.com/en/vn/ha-noi/ha-noi_2974158/restaurants/bib-gourmand">source 1</a> &middot; <a href="https://en.vietnamplus.vn/michelin-guide-unveils-2024-bib-gourmand-selection-for-hanoi-hcm-city-post289000.vnp">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0225054,105.8575276&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0225054, 105.8575276]]></description>
+        <Point>
+          <coordinates>105.8575276,21.0225054,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Uu Dam Chay</name>
+        <styleUrl>#s-hanoi-restaurants</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Hoan Kiem<br/><i>Approximate location — search the name in Maps</i><br/><br/>A multi-floor vegetarian kitchen that rebuilds Vietnamese classics without meat or fish sauce, presented as a full plated menu.<br/><b>Why it's here:</b> The only Bib Gourmand vegetarian address in Hanoi, and the fallback when a meat-heavy week has run its course<br/><a href="https://guide.michelin.com/en/vn/ha-noi/ha-noi_2974158/restaurants/bib-gourmand">source 1</a> &middot; <a href="https://happyvietnamtours.com/blogs/news/michelin-guide-vietnam-2024-michelin-star-bib-gourmand">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0187719,105.84814&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0187719, 105.84814]]></description>
+        <Point>
+          <coordinates>105.84814,21.0187719,0</coordinates>
         </Point>
       </Placemark>
     </Folder>
@@ -228,6 +304,28 @@
         <description><![CDATA[<b>Hanoi</b> &middot; Old Quarter, Hang Dao / Hang Ngang / Hang Luoc streets<br/><br/>A near-3km stretch of Old Quarter streets closed to traffic on Friday, Saturday and Sunday evenings and filled with clothing and souvenir stalls, street food carts, and impromptu street performances.<br/><b>Why it's here:</b> Only runs three nights a week, so it is worth timing the Hanoi stay around if the dates line up<br/><a href="https://vinpearl.com/en/hanoi-weekend-night-market">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0335078,105.8509571&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0335078, 105.8509571]]></description>
         <Point>
           <coordinates>105.8509571,21.0335078,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Nightlife</name>
+      <Placemark>
+        <name>Ta Hien Beer Street (Bia Hoi Junction)</name>
+        <styleUrl>#s-hanoi-nightlife</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Ta Hien and Luong Ngoc Quyen, Old Quarter<br/><br/>A pedestrianised corner where plastic stools spill across the road each evening and fresh unpasteurised draught beer is poured from the keg for about 15,000 VND a glass.<br/><b>Why it's here:</b> Not a bar but the city's open-air living room, and the cheapest beer you will ever drink sitting down<br/><a href="https://www.hanoitourism.org/hanoi-bia-hoi-guide/">source 1</a> &middot; <a href="https://www.tripadvisor.com/Attractions-g293924-Activities-c20-t99-Hanoi.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0341902,105.852079&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0341902, 105.852079]]></description>
+        <Point>
+          <coordinates>105.852079,21.0341902,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Spa &amp; Massage</name>
+      <Placemark>
+        <name>Orient Spa Hanoi</name>
+        <styleUrl>#s-hanoi-spa</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Old Quarter, Hoan Kiem (four branches)<br/><br/>A spa group running four branches inside the Old Quarter, offering foot and body massage, deep tissue work, and packages that combine massage with a hair wash.<br/><b>Why it's here:</b> The most consistently reviewed chain in the Old Quarter, and having four branches means one is always within walking distance of wherever the day ended<br/><a href="https://www.orientspahanoi.com/">source 1</a> &middot; <a href="https://www.tripadvisor.com.sg/Attraction_Review-g293924-d24090474-Reviews-Hanoi_Old_Quarter_Spa-Hanoi.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0289459,105.8487425&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0289459, 105.8487425]]></description>
+        <Point>
+          <coordinates>105.8487425,21.0289459,0</coordinates>
         </Point>
       </Placemark>
     </Folder>

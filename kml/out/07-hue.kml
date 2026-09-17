@@ -38,12 +38,48 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-hue-street_food">
+      <IconStyle>
+        <color>ffb41e91</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hue-restaurants">
+      <IconStyle>
+        <color>ffb41e91</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-hue-markets">
       <IconStyle>
         <color>ffb41e91</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hue-nightlife">
+      <IconStyle>
+        <color>ffb41e91</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/bars.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hue-spa">
+      <IconStyle>
+        <color>ffb41e91</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -173,16 +209,16 @@
       <name>Food</name>
       <Placemark>
         <name>Bun Bo Hue Ba Gai</name>
-        <styleUrl>#s-hue-food</styleUrl>
-        <description><![CDATA[<b>Hue</b> &middot; 11A Ha Noi Street, Vinh Ninh<br/><i>Approximate location — search the name in Maps</i><br/>traveler recommended<br/><br/>A 24-hour noodle shop serving bun bo Hue, the city's own spicy lemongrass-and-beef broth noodle soup, in a plain no-frills dining room popular with locals at all hours.<br/><b>Why it's here:</b> One of the most consistently recommended bun bo Hue spots in the city that actually invented the dish, open around the clock<br/><a href="https://www.willflyforfood.net/hue-food-guide/">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.4639321,107.5863388&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 16.4639321, 107.5863388]]></description>
+        <styleUrl>#s-hue-street_food</styleUrl>
+        <description><![CDATA[<b>Hue</b> &middot; 11A Ha Noi Street, Vinh Ninh<br/><i>Approximate location — search the name in Maps</i><br/><br/>A 24-hour noodle shop serving bun bo Hue, the city's own spicy lemongrass-and-beef broth noodle soup, in a plain no-frills dining room popular with locals at all hours.<br/><b>Why it's here:</b> One of the most consistently recommended bun bo Hue spots in the city that actually invented the dish, open around the clock<br/><a href="https://www.willflyforfood.net/hue-food-guide/">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.4639321,107.5863388&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 16.4639321, 107.5863388]]></description>
         <Point>
           <coordinates>107.5863388,16.4639321,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Lac Thien (Banh Khoai Lac Thien)</name>
-        <styleUrl>#s-hue-food</styleUrl>
-        <description><![CDATA[<b>Hue</b> &middot; 6 Dinh Tien Hoang Street<br/><i>Approximate location — search the name in Maps</i><br/>traveler recommended<br/><br/>A family-run restaurant grilling banh khoai to order - Hue's crisp turmeric rice-flour pancake, folded over pork, shrimp and bean sprouts and eaten wrapped in rice paper with a thick peanut-sesame dipping sauce.<br/><b>Why it's here:</b> Widely cited as Hue's best banh khoai, and the crunchiest version of the dish in the city<br/><a href="https://beebeetravel.com/banh-khoai-lac-thien-hue-local-food/">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.4720712,107.5846611&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 16.4720712, 107.5846611]]></description>
+        <styleUrl>#s-hue-restaurants</styleUrl>
+        <description><![CDATA[<b>Hue</b> &middot; 6 Dinh Tien Hoang Street<br/><i>Approximate location — search the name in Maps</i><br/><br/>A family-run restaurant grilling banh khoai to order - Hue's crisp turmeric rice-flour pancake, folded over pork, shrimp and bean sprouts and eaten wrapped in rice paper with a thick peanut-sesame dipping sauce.<br/><b>Why it's here:</b> Widely cited as Hue's best banh khoai, and the crunchiest version of the dish in the city<br/><a href="https://beebeetravel.com/banh-khoai-lac-thien-hue-local-food/">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.4720712,107.5846611&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 16.4720712, 107.5846611]]></description>
         <Point>
           <coordinates>107.5846611,16.4720712,0</coordinates>
         </Point>

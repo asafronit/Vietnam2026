@@ -38,12 +38,48 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-saigon-street_food">
+      <IconStyle>
+        <color>ff750000</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-saigon-restaurants">
+      <IconStyle>
+        <color>ff750000</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-saigon-markets">
       <IconStyle>
         <color>ff750000</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-saigon-nightlife">
+      <IconStyle>
+        <color>ff750000</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/bars.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-saigon-spa">
+      <IconStyle>
+        <color>ff750000</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -172,19 +208,51 @@
     <Folder>
       <name>Food</name>
       <Placemark>
+        <name>Banh Mi Huynh Hoa</name>
+        <styleUrl>#s-saigon-street_food</styleUrl>
+        <description><![CDATA[<b>Ho Chi Minh City</b> &middot; District 1<br/><i>Approximate location — search the name in Maps</i><br/><br/>A takeaway counter open since 1989 with a permanent line out front, packing a baguette with five cold cuts, pate, butter and pickles.<br/><b>Why it's here:</b> Widely cited as the single most-loaded, most-recommended banh mi in the city, voted Travelers' Top Pick at the 2024 Flavors Awards<br/><a href="https://vietcetera.com/en/banh-mi-huynh-hoa-how-100k-and-35-years-built-a-saigon-icon">source 1</a> &middot; <a href="https://www.tripadvisor.com/Restaurant_Review-g293925-d5484355-Reviews-Banh_Mi_Huynh_Hoa-Ho_Chi_Minh_City.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.7713922,106.6927189&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.7713922, 106.6927189]]></description>
+        <Point>
+          <coordinates>106.6927189,10.7713922,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pho Phuong</name>
+        <styleUrl>#s-saigon-street_food</styleUrl>
+        <description><![CDATA[<b>Ho Chi Minh City</b> &middot; District 3<br/><br/>A southern pho counter, sweeter and more herb-heavy than the Hanoi version, served with the plate of bean sprouts, basil and lime that the north leaves off.<br/><b>Why it's here:</b> Eating this after Hanoi's pho is the fastest way to taste how far apart the two halves of the country actually are<br/><a href="https://guide.michelin.com/us/en/ho-chi-minh/restaurants/bib-gourmand">source 1</a> &middot; <a href="https://www.tripadvisor.com/Restaurants-g293925-Ho_Chi_Minh_City.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.7747697,106.7007331&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.7747697, 106.7007331]]></description>
+        <Point>
+          <coordinates>106.7007331,10.7747697,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
         <name>Anan Saigon</name>
-        <styleUrl>#s-saigon-food</styleUrl>
-        <description><![CDATA[<b>Ho Chi Minh City</b> &middot; District 1, Cho Cu (Old Market)<br/>michelin star<br/><br/>A restaurant built inside a former wet-market stall on Ton That Dam Street, where chef Peter Cuong Franklin runs street-food recipes through French fine-dining technique.<br/><b>Why it's here:</b> One Michelin Star, held since 2023, and the clearest example of Saigon's fine-dining scene built on its own street food<br/><a href="https://guide.michelin.com/en/ho-chi-minh/ho-chi-minh_2978179/restaurant/anan-saigon">source 1</a> &middot; <a href="https://anansaigon.com/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.7718032,106.7029748&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.7718032, 106.7029748]]></description>
+        <styleUrl>#s-saigon-restaurants</styleUrl>
+        <description><![CDATA[<b>Ho Chi Minh City</b> &middot; District 1, Cho Cu (Old Market)<br/><br/>A restaurant built inside a former wet-market stall on Ton That Dam Street, where chef Peter Cuong Franklin runs street-food recipes through French fine-dining technique.<br/><b>Why it's here:</b> One Michelin Star, held since 2023, and the clearest example of Saigon's fine-dining scene built on its own street food<br/><a href="https://guide.michelin.com/en/ho-chi-minh/ho-chi-minh_2978179/restaurant/anan-saigon">source 1</a> &middot; <a href="https://anansaigon.com/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.7718032,106.7029748&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.7718032, 106.7029748]]></description>
         <Point>
           <coordinates>106.7029748,10.7718032,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>Banh Mi Huynh Hoa</name>
-        <styleUrl>#s-saigon-food</styleUrl>
-        <description><![CDATA[<b>Ho Chi Minh City</b> &middot; District 1<br/><i>Approximate location — search the name in Maps</i><br/>traveler recommended<br/><br/>A takeaway counter open since 1989 with a permanent line out front, packing a baguette with five cold cuts, pate, butter and pickles.<br/><b>Why it's here:</b> Widely cited as the single most-loaded, most-recommended banh mi in the city, voted Travelers' Top Pick at the 2024 Flavors Awards<br/><a href="https://vietcetera.com/en/banh-mi-huynh-hoa-how-100k-and-35-years-built-a-saigon-icon">source 1</a> &middot; <a href="https://www.tripadvisor.com/Restaurant_Review-g293925-d5484355-Reviews-Banh_Mi_Huynh_Hoa-Ho_Chi_Minh_City.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.7713922,106.6927189&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.7713922, 106.6927189]]></description>
+        <name>Cuc Gach Quan</name>
+        <styleUrl>#s-saigon-restaurants</styleUrl>
+        <description><![CDATA[<b>Ho Chi Minh City</b> &middot; District 1<br/><i>Approximate location — search the name in Maps</i><br/><br/>An architect-converted old house serving the kind of everyday Vietnamese home cooking - braises, clay pots, simple greens - that restaurants usually skip, across several small rooms and a courtyard.<br/><b>Why it's here:</b> Bib Gourmand, and the answer to a week of noodle counters when what you want is a table, a fan and a long dinner<br/><a href="https://guide.michelin.com/us/en/ho-chi-minh/restaurants/bib-gourmand">source 1</a> &middot; <a href="https://www.tripadvisor.com/Restaurants-g293925-Ho_Chi_Minh_City.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.7929997,106.6889296&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.7929997, 106.6889296]]></description>
         <Point>
-          <coordinates>106.6927189,10.7713922,0</coordinates>
+          <coordinates>106.6889296,10.7929997,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hum Garden</name>
+        <styleUrl>#s-saigon-restaurants</styleUrl>
+        <description><![CDATA[<b>Ho Chi Minh City</b> &middot; District 1<br/><i>Approximate location — search the name in Maps</i><br/><br/>A garden restaurant serving plated vegetarian Vietnamese food - lotus, tofu, mushroom and herb dishes - in a quiet courtyard away from the traffic.<br/><b>Why it's here:</b> Saigon's Bib Gourmand vegetarian address, and one of the few genuinely calm dining rooms in District 1<br/><a href="https://guide.michelin.com/us/en/ho-chi-minh/restaurants/bib-gourmand">source 1</a> &middot; <a href="https://www.tripadvisor.com/Restaurants-g293925-Ho_Chi_Minh_City.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.804141,106.7441455&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.804141, 106.7441455]]></description>
+        <Point>
+          <coordinates>106.7441455,10.804141,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Banh Xeo 46A</name>
+        <styleUrl>#s-saigon-restaurants</styleUrl>
+        <description><![CDATA[<b>Ho Chi Minh City</b> &middot; District 1<br/><i>Approximate location — search the name in Maps</i><br/><br/>A long-running shop turning out large turmeric-yellow rice crepes filled with pork, prawn and bean sprouts, wrapped at the table in mustard leaf and herbs.<br/><b>Why it's here:</b> Bib Gourmand, and the southern dish that is most fun to eat with your hands<br/><a href="https://guide.michelin.com/us/en/ho-chi-minh/restaurants/bib-gourmand">source 1</a> &middot; <a href="https://www.tripadvisor.com/Restaurants-g293925-Ho_Chi_Minh_City.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.7896047,106.6912995&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.7896047, 106.6912995]]></description>
+        <Point>
+          <coordinates>106.6912995,10.7896047,0</coordinates>
         </Point>
       </Placemark>
     </Folder>
@@ -196,6 +264,17 @@
         <description><![CDATA[<b>Ho Chi Minh City</b> &middot; District 1<br/><br/>A covered market of nearly 1,450 stalls under a French-built 1914 clock-tower facade, selling everything from produce and dried goods to clothing, souvenirs and a food court, spilling into a street-food night market outside after dark.<br/><b>Why it's here:</b> The city's oldest and largest market, and the default orientation point for District 1<br/><a href="https://oxalisadventure.com/ben-thanh-market-ho-chi-minh-city/">source 1</a> &middot; <a href="https://vinwonders.com/en/wonderpedia/news/ben-thanh-market-a-prominent-landmark-of-the-bustling-ho-chi-minh-city/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.7725301,106.6980365&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.7725301, 106.6980365]]></description>
         <Point>
           <coordinates>106.6980365,10.7725301,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Nightlife</name>
+      <Placemark>
+        <name>Layla</name>
+        <styleUrl>#s-saigon-nightlife</styleUrl>
+        <description><![CDATA[<b>Ho Chi Minh City</b> &middot; Dong Du Street, District 1<br/><i>Approximate location — search the name in Maps</i><br/><br/>A bar spread across the upper floors of a colonial-era apartment block, with an eleven-metre bar in the main room and neighbouring flats converted into a pool room, lounges and a smoking terrace.<br/><b>Why it's here:</b> The clearest example of Saigon's converted-apartment-block bar culture, which exists nowhere else in the country<br/><a href="https://www.asia-bars.com/2026/03/top-12-highly-rated-cocktail-bars-hcmc-vietnam-2026/">source 1</a> &middot; <a href="https://www.tripadvisor.com/Attractions-g293925-Activities-c20-t99-Ho_Chi_Minh_City.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.775022,106.7031275&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.775022, 106.7031275]]></description>
+        <Point>
+          <coordinates>106.7031275,10.775022,0</coordinates>
         </Point>
       </Placemark>
     </Folder>

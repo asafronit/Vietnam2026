@@ -25,8 +25,20 @@ CATEGORY_LABELS = {
     "must_see": "Must-see",
     "attractions": "Attractions & Experiences",
     "food": "Food",
+    "street_food": "Street Food",
+    "restaurants": "Restaurants",
     "markets": "Markets & Shopping",
+    "nightlife": "Nightlife",
+    "spa": "Spa & Massage",
     "logistics": "Logistics",
+}
+
+# My Maps allows ten layers per map and the pool has more categories than
+# that. The three eating categories share one KML layer; the website keeps
+# them separate. Anything absent here gets a layer of its own.
+KML_LAYER_OF = {
+    "street_food": "food",
+    "restaurants": "food",
 }
 
 # The wider project's fixed colour convention for link "actions" (documented
@@ -248,16 +260,28 @@ def _place_anchor_style():
 def _category_layers(
     place_records: list[tuple[Place, list[Record]]]
 ) -> list:
-    """One Folder per category that has at least one shippable record, in
-    CATEGORIES order. Shared between the pool file (many places) and each
-    per-station file (one place), so filtering only lives here once."""
-    layers = []
+    """One Folder per KML layer that has at least one shippable record.
+
+    Layers are not categories one-to-one. My Maps caps a map at ten layers,
+    and the pool now carries more categories than that, so the three eating
+    categories collapse into a single Food layer here. The website has no
+    such cap and keeps them apart -- this merge is a KML concession, not a
+    change to the data.
+    """
+    ordered_layers: list[str] = []
     for category in CATEGORIES:
-        layer = E.Folder(E.name(CATEGORY_LABELS[category]))
+        layer_name = KML_LAYER_OF.get(category, category)
+        if layer_name not in ordered_layers:
+            ordered_layers.append(layer_name)
+
+    layers = []
+    for layer_name in ordered_layers:
+        members = {c for c in CATEGORIES if KML_LAYER_OF.get(c, c) == layer_name}
+        layer = E.Folder(E.name(CATEGORY_LABELS[layer_name]))
         count = 0
         for place, records in place_records:
             for rec in records:
-                if rec.category != category or not is_shippable(rec):
+                if rec.category not in members or not is_shippable(rec):
                     continue
                 layer.append(_placemark(rec, place))
                 count += 1

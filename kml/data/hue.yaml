@@ -177,72 +177,6 @@ attractions:
   sources:
   - https://www.getyourguide.com/hue-vietnam-l833/sunset-boat-tour-along-perfume-river-t394246/
   - https://culturephamtravel.com/hue-dragon-boat-trip/
-food:
-- name: Bun Bo Hue Ba Gai
-  kind: vietnamese
-  signal: traveler_recommended
-  area: 11A Ha Noi Street, Vinh Ninh
-  what: A 24-hour noodle shop serving bun bo Hue, the city's own spicy lemongrass-and-beef
-    broth noodle soup, in a plain no-frills dining room popular with locals at all
-    hours.
-  why: One of the most consistently recommended bun bo Hue spots in the city that
-    actually invented the dish, open around the clock
-  confidence: medium
-  geocode_query: Bun Bo Hue Ba Gai, 11A Ha Noi Street, Hue, Vietnam
-  sources:
-  - https://www.willflyforfood.net/hue-food-guide/
-  coords:
-    lat: 16.4639321
-    lng: 107.5863388
-  location_precision: approximate
-- name: Lac Thien (Banh Khoai Lac Thien)
-  kind: vietnamese
-  signal: traveler_recommended
-  area: 6 Dinh Tien Hoang Street
-  what: A family-run restaurant grilling banh khoai to order - Hue's crisp turmeric
-    rice-flour pancake, folded over pork, shrimp and bean sprouts and eaten wrapped
-    in rice paper with a thick peanut-sesame dipping sauce.
-  why: Widely cited as Hue's best banh khoai, and the crunchiest version of the dish
-    in the city
-  confidence: medium
-  geocode_query: Lac Thien Restaurant, 6 Dinh Tien Hoang Street, Hue, Vietnam
-  sources:
-  - https://beebeetravel.com/banh-khoai-lac-thien-hue-local-food/
-  coords:
-    lat: 16.4720712
-    lng: 107.5846611
-  location_precision: approximate
-- name: Hang Me Me
-  kind: vietnamese
-  signal: traveler_recommended
-  area: 45 Vo Thi Sau Street, Phu Hoi Ward
-  what: A local eatery specializing in banh beo, tiny steamed rice cakes served in
-    individual dishes and topped with dried shrimp and crispy pork skin, alongside
-    banh cuon and banh ram-it.
-  why: One of the go-to addresses in Hue specifically for banh beo, a dish that's
-    hard to find done well outside the city
-  confidence: low
-  geocode_query: Hang Me Me, 45 Vo Thi Sau Street, Hue, Vietnam
-  sources:
-  - https://www.emilyluxton.co.uk/hue-food-guide-dishes-you-have-to-try/
-  coords:
-    lat: 16.470121
-    lng: 107.5960412
-  location_precision: approximate
-- name: Com Hen Ba Den
-  kind: vietnamese
-  signal: traveler_recommended
-  area: Local, off the main tourist strip
-  what: A local spot serving com hen - cold rice topped with tiny stir-fried river
-    clams, herbs, peanuts and chilli oil - and its noodle-soup cousin bun hen, closing
-    by 11:30am once the day's clams run out.
-  why: Draws a steady stream of locals and Grab drivers rather than tour groups, the
-    usual sign of the real thing in Hue
-  confidence: medium
-  geocode_query: Com Hen Ba Den, Hue, Vietnam
-  sources:
-  - https://wanderlog.com/place/details/6178201/c%C6%A1m-h%E1%BA%BFn-b%C3%A0-%C4%91en
-  - https://www.thetravellingsquid.com/2018/04/03/ba-hoa-for-authentic-vietnamese-food-in-hue/
 markets:
 - name: Dong Ba Market
   area: North bank of the Perfume River, city center
@@ -288,3 +222,70 @@ logistics:
   sources:
   - https://vietnamstory.in/hai-van-pass/
   - https://www.uncovervietnam.com/hai-van-pass-route/
+street_food:
+- name: Bun Bo Hue Ba Gai
+  kind: vietnamese
+  signal: traveler_recommended
+  area: 11A Ha Noi Street, Vinh Ninh
+  what: A 24-hour noodle shop serving bun bo Hue, the city's own spicy lemongrass-and-beef
+    broth noodle soup, in a plain no-frills dining room popular with locals at all
+    hours.
+  why: One of the most consistently recommended bun bo Hue spots in the city that
+    actually invented the dish, open around the clock
+  confidence: medium
+  geocode_query: Bun Bo Hue Ba Gai, 11A Ha Noi Street, Hue, Vietnam
+  sources:
+  - https://www.willflyforfood.net/hue-food-guide/
+  coords:
+    lat: 16.4639321
+    lng: 107.5863388
+  location_precision: approximate
+- name: Hang Me Me
+  kind: vietnamese
+  signal: traveler_recommended
+  area: 45 Vo Thi Sau Street, Phu Hoi Ward
+  what: A local eatery specializing in banh beo, tiny steamed rice cakes served in
+    individual dishes and topped with dried shrimp and crispy pork skin, alongside
+    banh cuon and banh ram-it.
+  why: One of the go-to addresses in Hue specifically for banh beo, a dish that's
+    hard to find done well outside the city
+  confidence: low
+  geocode_query: Hang Me Me, 45 Vo Thi Sau Street, Hue, Vietnam
+  sources:
+  - https://www.emilyluxton.co.uk/hue-food-guide-dishes-you-have-to-try/
+  coords:
+    lat: 16.470121
+    lng: 107.5960412
+  location_precision: approximate
+- name: Com Hen Ba Den
+  kind: vietnamese
+  signal: traveler_recommended
+  area: Local, off the main tourist strip
+  what: A local spot serving com hen - cold rice topped with tiny stir-fried river
+    clams, herbs, peanuts and chilli oil - and its noodle-soup cousin bun hen, closing
+    by 11:30am once the day's clams run out.
+  why: Draws a steady stream of locals and Grab drivers rather than tour groups, the
+    usual sign of the real thing in Hue
+  confidence: medium
+  geocode_query: Com Hen Ba Den, Hue, Vietnam
+  sources:
+  - https://wanderlog.com/place/details/6178201/c%C6%A1m-h%E1%BA%BFn-b%C3%A0-%C4%91en
+  - https://www.thetravellingsquid.com/2018/04/03/ba-hoa-for-authentic-vietnamese-food-in-hue/
+restaurants:
+- name: Lac Thien (Banh Khoai Lac Thien)
+  kind: vietnamese
+  signal: traveler_recommended
+  area: 6 Dinh Tien Hoang Street
+  what: A family-run restaurant grilling banh khoai to order - Hue's crisp turmeric
+    rice-flour pancake, folded over pork, shrimp and bean sprouts and eaten wrapped
+    in rice paper with a thick peanut-sesame dipping sauce.
+  why: Widely cited as Hue's best banh khoai, and the crunchiest version of the dish
+    in the city
+  confidence: medium
+  geocode_query: Lac Thien Restaurant, 6 Dinh Tien Hoang Street, Hue, Vietnam
+  sources:
+  - https://beebeetravel.com/banh-khoai-lac-thien-hue-local-food/
+  coords:
+    lat: 16.4720712
+    lng: 107.5846611
+  location_precision: approximate

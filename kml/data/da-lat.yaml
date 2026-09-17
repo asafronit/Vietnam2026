@@ -200,50 +200,6 @@ attractions:
   sources:
   - https://dalat-easyriders.com/
   - https://www.easyridersvietnam.org/tour/dalat-to-bmt-2-days/
-food:
-- name: Banh Trang Nuong Da Lat Ngon Be Lun
-  kind: vietnamese
-  signal: traveler_recommended
-  area: 50 Pham Ngoc Thach, Ward 6
-  what: A streetside grill stall cooking 'Da Lat pizza', rice paper toasted over charcoal
-    and topped to order with egg, dried pork, scallion and chilli sauce.
-  why: One of the most consistently reviewed banh trang nuong stalls in a city that
-    treats the dish as a local specialty
-  confidence: medium
-  geocode_query: Banh Trang Nuong Da Lat Ngon Be Lun, 50 Pham Ngoc Thach, Da Lat,
-    Vietnam
-  sources:
-  - https://www.tripadvisor.com/Restaurant_Review-g293922-d19089769-Reviews-Banh_Trang_Nuong_Da_Lat_Ngon_Be_Lun-Da_Lat_Lam_Dong_Province.html
-  - https://extensionembed.wanderlog.com/list/geoCategory/83008/street-food
-- name: Ichigo Strawberry Farm
-  kind: vietnamese
-  signal: traveler_recommended
-  area: ~20 minutes from the city center
-  what: A pick-your-own strawberry farm with a hillside café, where visitors pick
-    their own berries and can buy strawberry jam, jelly and wine on site.
-  why: Da Lat's cool climate produces sweeter, firmer strawberries than lowland Vietnam,
-    and this is one of the most-reviewed farms for picking them yourself
-  confidence: low
-  geocode_query: Ichigo Strawberry Farm, Da Lat, Vietnam
-  sources:
-  - https://wanderlog.com/place/details/5149075/ichigo-strawberry-farm-%C4%91%C3%A0-l%E1%BA%A1t
-  - https://inboundvietnam.com/top-5-must-visit-strawberry-farms-in-da-lat
-- name: Artichoke tea (Tra Atiso) at Da Lat Market
-  kind: vietnamese
-  signal: local_media
-  area: Da Lat Market, city center
-  what: Dried artichoke flower heads, grown on the plateau around Da Lat, sold loose
-    or bagged as a bitter herbal tea at stalls throughout Da Lat Market.
-  why: Da Lat grows most of Vietnam's artichoke crop; the tea is the plateau's signature
-    souvenir
-  confidence: medium
-  geocode_query: Da Lat Market, Da Lat, Vietnam
-  sources:
-  - https://tamtrinhcoffee.com/da-lat-specialty-gifts/
-  - https://www.expatolife.com/things-to-buy-shopping-da-lat-vietnam/
-  coords:
-    lat: 11.9435196
-    lng: 108.4372097
 markets:
 - name: Da Lat Market (Cho Da Lat)
   area: City center, beside Xuan Huong Lake
@@ -297,3 +253,46 @@ logistics:
   sources:
   - https://www.bestpricetravel.com/travel-guide/lak-lake.html
   - https://www.rome2rio.com/s/Buon-Ma-Thuot-Dak-Lak/%C3%90%C3%A0-L%E1%BA%A1t
+street_food:
+- name: Banh Trang Nuong Da Lat Ngon Be Lun
+  kind: vietnamese
+  signal: traveler_recommended
+  area: 50 Pham Ngoc Thach, Ward 6
+  what: A streetside grill stall cooking 'Da Lat pizza', rice paper toasted over charcoal
+    and topped to order with egg, dried pork, scallion and chilli sauce.
+  why: One of the most consistently reviewed banh trang nuong stalls in a city that
+    treats the dish as a local specialty
+  confidence: medium
+  geocode_query: Banh Trang Nuong Da Lat Ngon Be Lun, 50 Pham Ngoc Thach, Da Lat,
+    Vietnam
+  sources:
+  - https://www.tripadvisor.com/Restaurant_Review-g293922-d19089769-Reviews-Banh_Trang_Nuong_Da_Lat_Ngon_Be_Lun-Da_Lat_Lam_Dong_Province.html
+  - https://extensionembed.wanderlog.com/list/geoCategory/83008/street-food
+- name: Artichoke tea (Tra Atiso) at Da Lat Market
+  kind: vietnamese
+  signal: local_media
+  area: Da Lat Market, city center
+  what: Dried artichoke flower heads, grown on the plateau around Da Lat, sold loose
+    or bagged as a bitter herbal tea at stalls throughout Da Lat Market.
+  why: Da Lat grows most of Vietnam's artichoke crop; the tea is the plateau's signature
+    souvenir
+  confidence: medium
+  geocode_query: Da Lat Market, Da Lat, Vietnam
+  sources:
+  - https://tamtrinhcoffee.com/da-lat-specialty-gifts/
+  - https://www.expatolife.com/things-to-buy-shopping-da-lat-vietnam/
+  is_dish: true
+restaurants:
+- name: Ichigo Strawberry Farm
+  kind: vietnamese
+  signal: traveler_recommended
+  area: ~20 minutes from the city center
+  what: A pick-your-own strawberry farm with a hillside café, where visitors pick
+    their own berries and can buy strawberry jam, jelly and wine on site.
+  why: Da Lat's cool climate produces sweeter, firmer strawberries than lowland Vietnam,
+    and this is one of the most-reviewed farms for picking them yourself
+  confidence: low
+  geocode_query: Ichigo Strawberry Farm, Da Lat, Vietnam
+  sources:
+  - https://wanderlog.com/place/details/5149075/ichigo-strawberry-farm-%C4%91%C3%A0-l%E1%BA%A1t
+  - https://inboundvietnam.com/top-5-must-visit-strawberry-farms-in-da-lat

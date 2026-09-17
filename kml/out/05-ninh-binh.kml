@@ -38,12 +38,48 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-ninh-binh-street_food">
+      <IconStyle>
+        <color>fff4d442</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ninh-binh-restaurants">
+      <IconStyle>
+        <color>fff4d442</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-ninh-binh-markets">
       <IconStyle>
         <color>fff4d442</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ninh-binh-nightlife">
+      <IconStyle>
+        <color>fff4d442</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/bars.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ninh-binh-spa">
+      <IconStyle>
+        <color>fff4d442</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -165,16 +201,16 @@
       <name>Food</name>
       <Placemark>
         <name>Duc De Restaurant</name>
-        <styleUrl>#s-ninh-binh-food</styleUrl>
-        <description><![CDATA[<b>Ninh Binh</b> &middot; City center, Ninh Binh<br/>traveler recommended<br/><br/>A long-running goat-meat restaurant on a main street in Ninh Binh city, serving the mountain goat (de nui) dishes the region is known for - steamed, grilled and in hotpot.<br/><b>Why it's here:</b> Consistently the most-reviewed goat-meat specialist in the city center, with a reputation built over years rather than a recent tourist spike<br/><a href="https://www.tripadvisor.com/Restaurant_Review-g303945-d8853028-Reviews-Duc_De_Restaurant-Ninh_Binh_Ninh_Binh_Province.html">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=20.2340333,105.9682771&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 20.2340333, 105.9682771]]></description>
+        <styleUrl>#s-ninh-binh-restaurants</styleUrl>
+        <description><![CDATA[<b>Ninh Binh</b> &middot; City center, Ninh Binh<br/><br/>A long-running goat-meat restaurant on a main street in Ninh Binh city, serving the mountain goat (de nui) dishes the region is known for - steamed, grilled and in hotpot.<br/><b>Why it's here:</b> Consistently the most-reviewed goat-meat specialist in the city center, with a reputation built over years rather than a recent tourist spike<br/><a href="https://www.tripadvisor.com/Restaurant_Review-g303945-d8853028-Reviews-Duc_De_Restaurant-Ninh_Binh_Ninh_Binh_Province.html">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=20.2340333,105.9682771&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 20.2340333, 105.9682771]]></description>
         <Point>
           <coordinates>105.9682771,20.2340333,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Trung Tuyet</name>
-        <styleUrl>#s-ninh-binh-food</styleUrl>
-        <description><![CDATA[<b>Ninh Binh</b> &middot; City center, Ninh Binh<br/>traveler recommended<br/><br/>A local eatery specializing in com chay - sun-dried rice pressed into crisp sheets, deep-fried and served with a savory meat-and-mushroom sauce - alongside egg soup and pho.<br/><b>Why it's here:</b> Ranked among the most reliable all-rounders in Ninh Binh on both Tripadvisor and Lonely Planet for the region's signature souvenir dish<br/><a href="https://pioneersailtravel.com/ninh-binh-restaurants/">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=20.2516139,105.97874&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 20.2516139, 105.97874]]></description>
+        <styleUrl>#s-ninh-binh-street_food</styleUrl>
+        <description><![CDATA[<b>Ninh Binh</b> &middot; City center, Ninh Binh<br/><br/>A local eatery specializing in com chay - sun-dried rice pressed into crisp sheets, deep-fried and served with a savory meat-and-mushroom sauce - alongside egg soup and pho.<br/><b>Why it's here:</b> Ranked among the most reliable all-rounders in Ninh Binh on both Tripadvisor and Lonely Planet for the region's signature souvenir dish<br/><a href="https://pioneersailtravel.com/ninh-binh-restaurants/">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=20.2516139,105.97874&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 20.2516139, 105.97874]]></description>
         <Point>
           <coordinates>105.97874,20.2516139,0</coordinates>
         </Point>

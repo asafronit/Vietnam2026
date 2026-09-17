@@ -38,12 +38,48 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-hanoi-street_food">
+      <IconStyle>
+        <color>ff4b19e6</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hanoi-restaurants">
+      <IconStyle>
+        <color>ff4b19e6</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-hanoi-markets">
       <IconStyle>
         <color>ff4b19e6</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hanoi-nightlife">
+      <IconStyle>
+        <color>ff4b19e6</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/bars.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hanoi-spa">
+      <IconStyle>
+        <color>ff4b19e6</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -128,12 +164,48 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-ha-giang-street_food">
+      <IconStyle>
+        <color>ff3182f5</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-giang-restaurants">
+      <IconStyle>
+        <color>ff3182f5</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-ha-giang-markets">
       <IconStyle>
         <color>ff3182f5</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-giang-nightlife">
+      <IconStyle>
+        <color>ff3182f5</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/bars.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-giang-spa">
+      <IconStyle>
+        <color>ff3182f5</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -218,12 +290,48 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-sapa-street_food">
+      <IconStyle>
+        <color>ff19e1ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-sapa-restaurants">
+      <IconStyle>
+        <color>ff19e1ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-sapa-markets">
       <IconStyle>
         <color>ff19e1ff</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-sapa-nightlife">
+      <IconStyle>
+        <color>ff19e1ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/bars.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-sapa-spa">
+      <IconStyle>
+        <color>ff19e1ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -308,12 +416,48 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-ha-long-street_food">
+      <IconStyle>
+        <color>ff4bb43c</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-long-restaurants">
+      <IconStyle>
+        <color>ff4bb43c</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-ha-long-markets">
       <IconStyle>
         <color>ff4bb43c</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-long-nightlife">
+      <IconStyle>
+        <color>ff4bb43c</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/bars.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-long-spa">
+      <IconStyle>
+        <color>ff4bb43c</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -398,12 +542,48 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-ninh-binh-street_food">
+      <IconStyle>
+        <color>fff4d442</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ninh-binh-restaurants">
+      <IconStyle>
+        <color>fff4d442</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-ninh-binh-markets">
       <IconStyle>
         <color>fff4d442</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ninh-binh-nightlife">
+      <IconStyle>
+        <color>fff4d442</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/bars.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ninh-binh-spa">
+      <IconStyle>
+        <color>fff4d442</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -488,12 +668,48 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-phong-nha-street_food">
+      <IconStyle>
+        <color>ffd86343</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-phong-nha-restaurants">
+      <IconStyle>
+        <color>ffd86343</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-phong-nha-markets">
       <IconStyle>
         <color>ffd86343</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-phong-nha-nightlife">
+      <IconStyle>
+        <color>ffd86343</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/bars.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-phong-nha-spa">
+      <IconStyle>
+        <color>ffd86343</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -578,12 +794,48 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-hue-street_food">
+      <IconStyle>
+        <color>ffb41e91</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hue-restaurants">
+      <IconStyle>
+        <color>ffb41e91</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-hue-markets">
       <IconStyle>
         <color>ffb41e91</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hue-nightlife">
+      <IconStyle>
+        <color>ffb41e91</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/bars.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hue-spa">
+      <IconStyle>
+        <color>ffb41e91</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -668,12 +920,48 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-hoi-an-street_food">
+      <IconStyle>
+        <color>ffe632f0</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hoi-an-restaurants">
+      <IconStyle>
+        <color>ffe632f0</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-hoi-an-markets">
       <IconStyle>
         <color>ffe632f0</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hoi-an-nightlife">
+      <IconStyle>
+        <color>ffe632f0</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/bars.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hoi-an-spa">
+      <IconStyle>
+        <color>ffe632f0</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -758,12 +1046,48 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-buon-ma-thuot-street_food">
+      <IconStyle>
+        <color>ff24639a</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-buon-ma-thuot-restaurants">
+      <IconStyle>
+        <color>ff24639a</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-buon-ma-thuot-markets">
       <IconStyle>
         <color>ff24639a</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-buon-ma-thuot-nightlife">
+      <IconStyle>
+        <color>ff24639a</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/bars.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-buon-ma-thuot-spa">
+      <IconStyle>
+        <color>ff24639a</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -848,12 +1172,48 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-lak-lake-street_food">
+      <IconStyle>
+        <color>ff008080</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-lak-lake-restaurants">
+      <IconStyle>
+        <color>ff008080</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-lak-lake-markets">
       <IconStyle>
         <color>ff008080</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-lak-lake-nightlife">
+      <IconStyle>
+        <color>ff008080</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/bars.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-lak-lake-spa">
+      <IconStyle>
+        <color>ff008080</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -938,12 +1298,48 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-da-lat-street_food">
+      <IconStyle>
+        <color>ff909946</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-da-lat-restaurants">
+      <IconStyle>
+        <color>ff909946</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-da-lat-markets">
       <IconStyle>
         <color>ff909946</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-da-lat-nightlife">
+      <IconStyle>
+        <color>ff909946</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/bars.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-da-lat-spa">
+      <IconStyle>
+        <color>ff909946</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -1028,12 +1424,48 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-saigon-street_food">
+      <IconStyle>
+        <color>ff750000</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-saigon-restaurants">
+      <IconStyle>
+        <color>ff750000</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-saigon-markets">
       <IconStyle>
         <color>ff750000</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-saigon-nightlife">
+      <IconStyle>
+        <color>ff750000</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/bars.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-saigon-spa">
+      <IconStyle>
+        <color>ff750000</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -1118,12 +1550,48 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-mekong-street_food">
+      <IconStyle>
+        <color>ff000080</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-mekong-restaurants">
+      <IconStyle>
+        <color>ff000080</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-mekong-markets">
       <IconStyle>
         <color>ff000080</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-mekong-nightlife">
+      <IconStyle>
+        <color>ff000080</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/bars.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-mekong-spa">
+      <IconStyle>
+        <color>ff000080</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -1208,12 +1676,48 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-phu-quoc-street_food">
+      <IconStyle>
+        <color>ffa9a9a9</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-phu-quoc-restaurants">
+      <IconStyle>
+        <color>ffa9a9a9</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-phu-quoc-markets">
       <IconStyle>
         <color>ffa9a9a9</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-phu-quoc-nightlife">
+      <IconStyle>
+        <color>ffa9a9a9</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/bars.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-phu-quoc-spa">
+      <IconStyle>
+        <color>ffa9a9a9</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -2012,136 +2516,248 @@
       <name>Food</name>
       <Placemark>
         <name>Bun Cha Huong Lien</name>
-        <styleUrl>#s-hanoi-food</styleUrl>
-        <description><![CDATA[<b>Hanoi</b> &middot; Hai Ba Trung<br/>michelin bib<br/><br/>A plain three-storey shop that has grilled pork patties over charcoal since the 1990s, served in a bowl of broth with noodles and herbs.<br/><b>Why it's here:</b> Michelin Bib Gourmand, and the dish Hanoi is best known for<br/><a href="https://guide.michelin.com/vn/en/ha-noi-municipality/hanoi/restaurants">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0180504,105.8538843&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0180504, 105.8538843]]></description>
+        <styleUrl>#s-hanoi-street_food</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Hai Ba Trung<br/><br/>A plain three-storey shop that has grilled pork patties over charcoal since the 1990s, served in a bowl of broth with noodles and herbs.<br/><b>Why it's here:</b> Michelin Bib Gourmand, and the dish Hanoi is best known for<br/><a href="https://guide.michelin.com/vn/en/ha-noi-municipality/hanoi/restaurants">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0180504,105.8538843&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0180504, 105.8538843]]></description>
         <Point>
           <coordinates>105.8538843,21.0180504,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
+        <name>Pho Gia Truyen (Bat Dan)</name>
+        <styleUrl>#s-hanoi-street_food</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; 49 Bat Dan Street, Cua Dong Ward, Hoan Kiem<br/><br/>A bare-bones pho shop where you queue at the counter, pay first and carry your own bowl to a shared table. Beef only, in three cuts - flank, round steak and brisket.<br/><b>Why it's here:</b> The Old Quarter's benchmark beef pho and a Bib Gourmand; the queue at 07:00 is the review<br/><a href="https://guide.michelin.com/en/vn/ha-noi/ha-noi_2974158/restaurants/bib-gourmand">source 1</a> &middot; <a href="https://e.vnexpress.net/photo/food-recipes/hanois-best-pho-michelin-guide-picks-4931684.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0336377,105.8463792&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0336377, 105.8463792]]></description>
+        <Point>
+          <coordinates>105.8463792,21.0336377,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pho Ga Nguyet</name>
+        <styleUrl>#s-hanoi-street_food</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; 5B Phu Doan Street, Hang Trong Ward, Hoan Kiem<br/><i>Approximate location — search the name in Maps</i><br/><br/>A chicken-pho counter that lets you pick the cut - thigh, breast, or the whole lot with egg - in a clear broth. Open late, past midnight.<br/><b>Why it's here:</b> The one pho address on this list that is still serving at 23:00, which matters on an arrival night<br/><a href="https://guide.michelin.com/vn/en/ha-noi/ha-noi_2974158/restaurant/pho-ga-nguyet">source 1</a> &middot; <a href="https://guide.michelin.com/en/vn/ha-noi/ha-noi_2974158/restaurants/bib-gourmand">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0302913,105.8476483&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0302913, 105.8476483]]></description>
+        <Point>
+          <coordinates>105.8476483,21.0302913,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Banh Cuon Gia Truyen Thanh Van (Hang Ga)</name>
+        <styleUrl>#s-hanoi-street_food</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Hang Ga Street, Hoan Kiem<br/><br/>Rice batter steamed into paper-thin sheets to order over a cloth-covered pot, rolled around minced pork and wood-ear mushroom, eaten with fish sauce and fried shallot.<br/><b>Why it's here:</b> A breakfast dish you have to watch being made, and the Old Quarter's Bib Gourmand address for it<br/><a href="https://guide.michelin.com/en/vn/ha-noi/ha-noi_2974158/restaurants/bib-gourmand">source 1</a> &middot; <a href="https://guide.michelin.com/en/ha-noi/ha-noi_2974158/restaurant/banh-cuon-gia-truyen-thanh-van-hang-ga-street">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0360528,105.8471707&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0360528, 105.8471707]]></description>
+        <Point>
+          <coordinates>105.8471707,21.0360528,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
         <name>Cha Ca Thang Long</name>
-        <styleUrl>#s-hanoi-food</styleUrl>
-        <description><![CDATA[<b>Hanoi</b> &middot; Old Quarter, Duong Thanh street<br/>michelin bib<br/><br/>A no-frills shop where turmeric-marinated fish is grilled tableside on a charcoal brazier, then finished in a pan with dill and spring onion and served over rice noodles.<br/><b>Why it's here:</b> Michelin Bib Gourmand and the most consistently recommended cha ca address left in the Old Quarter<br/><a href="https://guide.michelin.com/us/en/ha-noi/ha-noi_2974158/restaurant/cha-ca-thang-long">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.033293,105.8459895&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.033293, 105.8459895]]></description>
+        <styleUrl>#s-hanoi-restaurants</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Old Quarter, Duong Thanh street<br/><br/>A no-frills shop where turmeric-marinated fish is grilled tableside on a charcoal brazier, then finished in a pan with dill and spring onion and served over rice noodles.<br/><b>Why it's here:</b> Michelin Bib Gourmand and the most consistently recommended cha ca address left in the Old Quarter<br/><a href="https://guide.michelin.com/us/en/ha-noi/ha-noi_2974158/restaurant/cha-ca-thang-long">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.033293,105.8459895&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.033293, 105.8459895]]></description>
         <Point>
           <coordinates>105.8459895,21.033293,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Gia</name>
-        <styleUrl>#s-hanoi-food</styleUrl>
-        <description><![CDATA[<b>Hanoi</b> &middot; Tay Ho (West Lake)<br/><i>Approximate location — search the name in Maps</i><br/>michelin star<br/><br/>A small tasting-menu restaurant built around a chef's-table kitchen, serving a set multi-course menu that reworks Vietnamese ingredients in a modern fine-dining format.<br/><b>Why it's here:</b> One of Vietnam's first Michelin-starred restaurants (awarded 2025, retained 2026), and Hanoi's clearest high-end tasting-menu option<br/><a href="https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-guide-vietnam-2026">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0205027,105.7639271&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0205027, 105.7639271]]></description>
+        <styleUrl>#s-hanoi-restaurants</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Tay Ho (West Lake)<br/><i>Approximate location — search the name in Maps</i><br/><br/>A small tasting-menu restaurant built around a chef's-table kitchen, serving a set multi-course menu that reworks Vietnamese ingredients in a modern fine-dining format.<br/><b>Why it's here:</b> One of Vietnam's first Michelin-starred restaurants (awarded 2025, retained 2026), and Hanoi's clearest high-end tasting-menu option<br/><a href="https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-guide-vietnam-2026">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0205027,105.7639271&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0205027, 105.7639271]]></description>
         <Point>
           <coordinates>105.7639271,21.0205027,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
+        <name>Luk Lak</name>
+        <styleUrl>#s-hanoi-restaurants</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Hai Ba Trung<br/><i>Approximate location — search the name in Maps</i><br/><br/>A sit-down Vietnamese restaurant in a colonial-era villa, run by a chef who cooked for the diplomatic corps, serving regional dishes as a full menu rather than a single speciality.<br/><b>Why it's here:</b> The one address here that works as a proper dinner with a table and a wine list while still being Bib Gourmand priced<br/><a href="https://guide.michelin.com/en/vn/ha-noi/ha-noi_2974158/restaurants/bib-gourmand">source 1</a> &middot; <a href="https://en.vietnamplus.vn/michelin-guide-unveils-2024-bib-gourmand-selection-for-hanoi-hcm-city-post289000.vnp">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0225054,105.8575276&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0225054, 105.8575276]]></description>
+        <Point>
+          <coordinates>105.8575276,21.0225054,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Uu Dam Chay</name>
+        <styleUrl>#s-hanoi-restaurants</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Hoan Kiem<br/><i>Approximate location — search the name in Maps</i><br/><br/>A multi-floor vegetarian kitchen that rebuilds Vietnamese classics without meat or fish sauce, presented as a full plated menu.<br/><b>Why it's here:</b> The only Bib Gourmand vegetarian address in Hanoi, and the fallback when a meat-heavy week has run its course<br/><a href="https://guide.michelin.com/en/vn/ha-noi/ha-noi_2974158/restaurants/bib-gourmand">source 1</a> &middot; <a href="https://happyvietnamtours.com/blogs/news/michelin-guide-vietnam-2024-michelin-star-bib-gourmand">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0187719,105.84814&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0187719, 105.84814]]></description>
+        <Point>
+          <coordinates>105.84814,21.0187719,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
         <name>Thang Co A Quynh</name>
-        <styleUrl>#s-sapa-food</styleUrl>
-        <description><![CDATA[<b>Sapa</b> &middot; 15 Thach Son Street, Sapa town<br/><i>Approximate location — search the name in Maps</i><br/>traveler recommended<br/><br/>A long-running local restaurant serving thang co, the H'mong horse-meat and offal stew simmered with highland herbs, alongside other mountain specialities.<br/><b>Why it's here:</b> The most consistently recommended address in Sapa for this specific regional dish, with an established following on Tripadvisor and local guides alike<br/><a href="https://www.tripadvisor.com/Restaurant_Review-g311304-d12951605-Reviews-Thang_Co_A_Quynh_Restaurant-Sapa_Lao_Cai_Province.html">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=22.3360931,103.8445752&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 22.3360931, 103.8445752]]></description>
+        <styleUrl>#s-sapa-restaurants</styleUrl>
+        <description><![CDATA[<b>Sapa</b> &middot; 15 Thach Son Street, Sapa town<br/><i>Approximate location — search the name in Maps</i><br/><br/>A long-running local restaurant serving thang co, the H'mong horse-meat and offal stew simmered with highland herbs, alongside other mountain specialities.<br/><b>Why it's here:</b> The most consistently recommended address in Sapa for this specific regional dish, with an established following on Tripadvisor and local guides alike<br/><a href="https://www.tripadvisor.com/Restaurant_Review-g311304-d12951605-Reviews-Thang_Co_A_Quynh_Restaurant-Sapa_Lao_Cai_Province.html">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=22.3360931,103.8445752&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 22.3360931, 103.8445752]]></description>
         <Point>
           <coordinates>103.8445752,22.3360931,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Duc De Restaurant</name>
-        <styleUrl>#s-ninh-binh-food</styleUrl>
-        <description><![CDATA[<b>Ninh Binh</b> &middot; City center, Ninh Binh<br/>traveler recommended<br/><br/>A long-running goat-meat restaurant on a main street in Ninh Binh city, serving the mountain goat (de nui) dishes the region is known for - steamed, grilled and in hotpot.<br/><b>Why it's here:</b> Consistently the most-reviewed goat-meat specialist in the city center, with a reputation built over years rather than a recent tourist spike<br/><a href="https://www.tripadvisor.com/Restaurant_Review-g303945-d8853028-Reviews-Duc_De_Restaurant-Ninh_Binh_Ninh_Binh_Province.html">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=20.2340333,105.9682771&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 20.2340333, 105.9682771]]></description>
+        <styleUrl>#s-ninh-binh-restaurants</styleUrl>
+        <description><![CDATA[<b>Ninh Binh</b> &middot; City center, Ninh Binh<br/><br/>A long-running goat-meat restaurant on a main street in Ninh Binh city, serving the mountain goat (de nui) dishes the region is known for - steamed, grilled and in hotpot.<br/><b>Why it's here:</b> Consistently the most-reviewed goat-meat specialist in the city center, with a reputation built over years rather than a recent tourist spike<br/><a href="https://www.tripadvisor.com/Restaurant_Review-g303945-d8853028-Reviews-Duc_De_Restaurant-Ninh_Binh_Ninh_Binh_Province.html">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=20.2340333,105.9682771&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 20.2340333, 105.9682771]]></description>
         <Point>
           <coordinates>105.9682771,20.2340333,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Trung Tuyet</name>
-        <styleUrl>#s-ninh-binh-food</styleUrl>
-        <description><![CDATA[<b>Ninh Binh</b> &middot; City center, Ninh Binh<br/>traveler recommended<br/><br/>A local eatery specializing in com chay - sun-dried rice pressed into crisp sheets, deep-fried and served with a savory meat-and-mushroom sauce - alongside egg soup and pho.<br/><b>Why it's here:</b> Ranked among the most reliable all-rounders in Ninh Binh on both Tripadvisor and Lonely Planet for the region's signature souvenir dish<br/><a href="https://pioneersailtravel.com/ninh-binh-restaurants/">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=20.2516139,105.97874&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 20.2516139, 105.97874]]></description>
+        <styleUrl>#s-ninh-binh-street_food</styleUrl>
+        <description><![CDATA[<b>Ninh Binh</b> &middot; City center, Ninh Binh<br/><br/>A local eatery specializing in com chay - sun-dried rice pressed into crisp sheets, deep-fried and served with a savory meat-and-mushroom sauce - alongside egg soup and pho.<br/><b>Why it's here:</b> Ranked among the most reliable all-rounders in Ninh Binh on both Tripadvisor and Lonely Planet for the region's signature souvenir dish<br/><a href="https://pioneersailtravel.com/ninh-binh-restaurants/">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=20.2516139,105.97874&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 20.2516139, 105.97874]]></description>
         <Point>
           <coordinates>105.97874,20.2516139,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Bun Bo Hue Ba Gai</name>
-        <styleUrl>#s-hue-food</styleUrl>
-        <description><![CDATA[<b>Hue</b> &middot; 11A Ha Noi Street, Vinh Ninh<br/><i>Approximate location — search the name in Maps</i><br/>traveler recommended<br/><br/>A 24-hour noodle shop serving bun bo Hue, the city's own spicy lemongrass-and-beef broth noodle soup, in a plain no-frills dining room popular with locals at all hours.<br/><b>Why it's here:</b> One of the most consistently recommended bun bo Hue spots in the city that actually invented the dish, open around the clock<br/><a href="https://www.willflyforfood.net/hue-food-guide/">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.4639321,107.5863388&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 16.4639321, 107.5863388]]></description>
+        <styleUrl>#s-hue-street_food</styleUrl>
+        <description><![CDATA[<b>Hue</b> &middot; 11A Ha Noi Street, Vinh Ninh<br/><i>Approximate location — search the name in Maps</i><br/><br/>A 24-hour noodle shop serving bun bo Hue, the city's own spicy lemongrass-and-beef broth noodle soup, in a plain no-frills dining room popular with locals at all hours.<br/><b>Why it's here:</b> One of the most consistently recommended bun bo Hue spots in the city that actually invented the dish, open around the clock<br/><a href="https://www.willflyforfood.net/hue-food-guide/">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.4639321,107.5863388&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 16.4639321, 107.5863388]]></description>
         <Point>
           <coordinates>107.5863388,16.4639321,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Lac Thien (Banh Khoai Lac Thien)</name>
-        <styleUrl>#s-hue-food</styleUrl>
-        <description><![CDATA[<b>Hue</b> &middot; 6 Dinh Tien Hoang Street<br/><i>Approximate location — search the name in Maps</i><br/>traveler recommended<br/><br/>A family-run restaurant grilling banh khoai to order - Hue's crisp turmeric rice-flour pancake, folded over pork, shrimp and bean sprouts and eaten wrapped in rice paper with a thick peanut-sesame dipping sauce.<br/><b>Why it's here:</b> Widely cited as Hue's best banh khoai, and the crunchiest version of the dish in the city<br/><a href="https://beebeetravel.com/banh-khoai-lac-thien-hue-local-food/">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.4720712,107.5846611&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 16.4720712, 107.5846611]]></description>
+        <styleUrl>#s-hue-restaurants</styleUrl>
+        <description><![CDATA[<b>Hue</b> &middot; 6 Dinh Tien Hoang Street<br/><i>Approximate location — search the name in Maps</i><br/><br/>A family-run restaurant grilling banh khoai to order - Hue's crisp turmeric rice-flour pancake, folded over pork, shrimp and bean sprouts and eaten wrapped in rice paper with a thick peanut-sesame dipping sauce.<br/><b>Why it's here:</b> Widely cited as Hue's best banh khoai, and the crunchiest version of the dish in the city<br/><a href="https://beebeetravel.com/banh-khoai-lac-thien-hue-local-food/">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.4720712,107.5846611&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 16.4720712, 107.5846611]]></description>
         <Point>
           <coordinates>107.5846611,16.4720712,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Banh Mi Phuong</name>
-        <styleUrl>#s-hoi-an-food</styleUrl>
-        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; 2B Phan Chu Trinh Street, Old Town<br/><i>Approximate location — search the name in Maps</i><br/>traveler recommended<br/><br/>A perpetually busy banh mi stand grilling and assembling its own pork, pate and pickled vegetables into a crusty baguette sandwich to order.<br/><b>Why it's here:</b> The banh mi Anthony Bourdain called possibly the best in Vietnam - still packed with a line out the door years later<br/><a href="https://www.tripadvisor.com/Restaurant_Review-g298082-d2365673-Reviews-Banh_My_Phu_ng-Hoi_An_Quang_Nam_Province.html">source 1</a> &middot; <a href="https://hiddenhoian.com/eat/banh-mi-phuong-hoi-ans-best-banh-mi/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=15.8784841,108.3320081&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 15.8784841, 108.3320081]]></description>
+        <styleUrl>#s-hoi-an-street_food</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; 2B Phan Chu Trinh Street, Old Town<br/><i>Approximate location — search the name in Maps</i><br/><br/>A perpetually busy banh mi stand grilling and assembling its own pork, pate and pickled vegetables into a crusty baguette sandwich to order.<br/><b>Why it's here:</b> The banh mi Anthony Bourdain called possibly the best in Vietnam - still packed with a line out the door years later<br/><a href="https://www.tripadvisor.com/Restaurant_Review-g298082-d2365673-Reviews-Banh_My_Phu_ng-Hoi_An_Quang_Nam_Province.html">source 1</a> &middot; <a href="https://hiddenhoian.com/eat/banh-mi-phuong-hoi-ans-best-banh-mi/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=15.8784841,108.3320081&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 15.8784841, 108.3320081]]></description>
         <Point>
           <coordinates>108.3320081,15.8784841,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
+        <name>Phu Hong (Bun Thit Nuong Phu Hong)</name>
+        <styleUrl>#s-hoi-an-street_food</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; 19 Yen Bai Street, Hai Chau District, Da Nang<br/><i>Approximate location — search the name in Maps</i><br/><br/>A street-food stall serving bun thit nuong - grilled pork over rice vermicelli with fresh herbs - alongside grilled pork and minced-pork skewers wrapped in rice paper, no reservations, cash only.<br/><b>Why it's here:</b> Holds a Michelin Bib Gourmand for good quality, good value cooking - the everyday-food end of Da Nang's Michelin coverage, distinct from La Maison 1888's fine dining<br/><a href="https://liveyounglivewell.com/quan-phu-hong-da-nang-review/">source 1</a> &middot; <a href="https://guide.michelin.com/en/da-nang-region/da-nang_2984390/restaurant/phu-hong">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.0695853,108.2229138&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 16.0695853, 108.2229138]]></description>
+        <Point>
+          <coordinates>108.2229138,16.0695853,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>My Quang Sua Hong Van</name>
+        <styleUrl>#s-hoi-an-street_food</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; Da Nang<br/><br/>A stall serving my quang - central Vietnam's wide turmeric-yellow noodles in a shallow pool of broth rather than a soup - in the local jellyfish version, with peanuts and a sheet of grilled rice cracker.<br/><b>Why it's here:</b> My quang is the dish of this province specifically, and the jellyfish version barely exists outside Da Nang<br/><a href="https://guide.michelin.com/us/en/da-nang-region/restaurants/bib-gourmand">source 1</a> &middot; <a href="https://www.tripadvisor.com/Restaurants-g298085-Da_Nang.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.0661233,108.229693&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 16.0661233, 108.229693]]></description>
+        <Point>
+          <coordinates>108.229693,16.0661233,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Banh Beo - Banh Dap</name>
+        <styleUrl>#s-hoi-an-street_food</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; Da Nang<br/><i>Approximate location — search the name in Maps</i><br/><br/>A stall built on two central-coast snacks - small steamed rice cakes topped with dried shrimp, and a grilled rice cracker sandwiched with a soft wet sheet that you smash by hand before dipping.<br/><b>Why it's here:</b> Banh dap is eaten by breaking it with your palm, which makes it the most fun dish on this list and one you will not find at home<br/><a href="https://guide.michelin.com/us/en/da-nang-region/restaurants/bib-gourmand">source 1</a> &middot; <a href="https://www.tripadvisor.com/Restaurants-g298085-Da_Nang.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=15.8844674,108.3303903&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 15.8844674, 108.3303903]]></description>
+        <Point>
+          <coordinates>108.3303903,15.8844674,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Co Chu Nho</name>
+        <styleUrl>#s-hoi-an-street_food</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; Da Nang<br/><br/>A small Da Nang street-food shop that entered the Bib Gourmand list in the most recent selection.<br/><b>Why it's here:</b> One of only three new Da Nang entries in the 2026 guide, so it has not yet been found by the tour groups<br/><a href="https://guide.michelin.com/vn/en/da-nang-region/da-nang_2984390/restaurant/co-chu-nho">source 1</a> &middot; <a href="https://guide.michelin.com/us/en/da-nang-region/restaurants/bib-gourmand">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.0461704,108.2454747&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 16.0461704, 108.2454747]]></description>
+        <Point>
+          <coordinates>108.2454747,16.0461704,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
         <name>White Rose Restaurant</name>
-        <styleUrl>#s-hoi-an-food</styleUrl>
-        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; 533 Hai Ba Trung Street<br/>traveler recommended<br/><br/>The restaurant most associated with white rose dumplings (banh bao vac) - translucent rice-dough parcels of spiced minced shrimp, steamed and shaped to resemble a folded rose, then topped with crispy fried shallots.<br/><b>Why it's here:</b> The dish comes from one family recipe distributed to eateries around town, and this restaurant is the most famous outlet for it<br/><a href="https://culturephamtravel.com/white-rose-dumplings-hoi-an/">source 1</a> &middot; <a href="https://cavinteo.blogspot.com/2024/10/white-rose-restaurant-dumplings-hoi-an-vietnam.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=15.8829593,108.3250054&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 15.8829593, 108.3250054]]></description>
+        <styleUrl>#s-hoi-an-restaurants</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; 533 Hai Ba Trung Street<br/><br/>The restaurant most associated with white rose dumplings (banh bao vac) - translucent rice-dough parcels of spiced minced shrimp, steamed and shaped to resemble a folded rose, then topped with crispy fried shallots.<br/><b>Why it's here:</b> The dish comes from one family recipe distributed to eateries around town, and this restaurant is the most famous outlet for it<br/><a href="https://culturephamtravel.com/white-rose-dumplings-hoi-an/">source 1</a> &middot; <a href="https://cavinteo.blogspot.com/2024/10/white-rose-restaurant-dumplings-hoi-an-vietnam.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=15.8829593,108.3250054&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 15.8829593, 108.3250054]]></description>
         <Point>
           <coordinates>108.3250054,15.8829593,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>La Maison 1888</name>
-        <styleUrl>#s-hoi-an-food</styleUrl>
-        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; InterContinental Danang Sun Peninsula Resort, Son Tra<br/><i>Approximate location — search the name in Maps</i><br/>michelin star<br/><br/>A fine-dining French restaurant inside a recreated Indochinese colonial mansion overlooking the sea, serving a five- or eight-course set menu built on Vietnamese, French and Japanese ingredients.<br/><b>Why it's here:</b> The only Michelin-starred restaurant in Central Vietnam, held by chef Christian Le Squer, who carried three Michelin stars in France for 23 years<br/><a href="https://guide.michelin.com/us/en/da-nang-region/da-nang_2984390/restaurant/la-maison-1888">source 1</a> &middot; <a href="https://www.danang.intercontinental.com/a-michelin-star-for-la-maison-1888/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=15.9040037,108.3326237&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 15.9040037, 108.3326237]]></description>
+        <styleUrl>#s-hoi-an-restaurants</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; InterContinental Danang Sun Peninsula Resort, Son Tra<br/><i>Approximate location — search the name in Maps</i><br/><br/>A fine-dining French restaurant inside a recreated Indochinese colonial mansion overlooking the sea, serving a five- or eight-course set menu built on Vietnamese, French and Japanese ingredients.<br/><b>Why it's here:</b> The only Michelin-starred restaurant in Central Vietnam, held by chef Christian Le Squer, who carried three Michelin stars in France for 23 years<br/><a href="https://guide.michelin.com/us/en/da-nang-region/da-nang_2984390/restaurant/la-maison-1888">source 1</a> &middot; <a href="https://www.danang.intercontinental.com/a-michelin-star-for-la-maison-1888/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=15.9040037,108.3326237&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 15.9040037, 108.3326237]]></description>
         <Point>
           <coordinates>108.3326237,15.9040037,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>Phu Hong (Bun Thit Nuong Phu Hong)</name>
-        <styleUrl>#s-hoi-an-food</styleUrl>
-        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; 19 Yen Bai Street, Hai Chau District, Da Nang<br/><i>Approximate location — search the name in Maps</i><br/>michelin bib<br/><br/>A street-food stall serving bun thit nuong - grilled pork over rice vermicelli with fresh herbs - alongside grilled pork and minced-pork skewers wrapped in rice paper, no reservations, cash only.<br/><b>Why it's here:</b> Holds a Michelin Bib Gourmand for good quality, good value cooking - the everyday-food end of Da Nang's Michelin coverage, distinct from La Maison 1888's fine dining<br/><a href="https://liveyounglivewell.com/quan-phu-hong-da-nang-review/">source 1</a> &middot; <a href="https://guide.michelin.com/en/da-nang-region/da-nang_2984390/restaurant/phu-hong">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.0695853,108.2229138&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 16.0695853, 108.2229138]]></description>
+        <name>Thia Go</name>
+        <styleUrl>#s-hoi-an-restaurants</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; Da Nang<br/><br/>A sit-down Vietnamese kitchen working with central-coast produce and seafood, plated as a full menu rather than a single-dish counter.<br/><b>Why it's here:</b> Bib Gourmand, and the option for a proper dinner in Da Nang that is neither a resort restaurant nor a plastic stool<br/><a href="https://guide.michelin.com/us/en/da-nang-region/da-nang_2984390/restaurant/thia-go%C2%A0">source 1</a> &middot; <a href="https://guide.michelin.com/us/en/da-nang-region/restaurants/bib-gourmand">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.0532123,108.24153&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 16.0532123, 108.24153]]></description>
         <Point>
-          <coordinates>108.2229138,16.0695853,0</coordinates>
+          <coordinates>108.24153,16.0532123,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>Artichoke tea (Tra Atiso) at Da Lat Market</name>
-        <styleUrl>#s-da-lat-food</styleUrl>
-        <description><![CDATA[<b>Da Lat</b> &middot; Da Lat Market, city center<br/>local media<br/><br/>Dried artichoke flower heads, grown on the plateau around Da Lat, sold loose or bagged as a bitter herbal tea at stalls throughout Da Lat Market.<br/><b>Why it's here:</b> Da Lat grows most of Vietnam's artichoke crop; the tea is the plateau's signature souvenir<br/><a href="https://tamtrinhcoffee.com/da-lat-specialty-gifts/">source 1</a> &middot; <a href="https://www.expatolife.com/things-to-buy-shopping-da-lat-vietnam/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=11.9435196,108.4372097&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 11.9435196, 108.4372097]]></description>
+        <name>Be Ni 2</name>
+        <styleUrl>#s-hoi-an-restaurants</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; Da Nang<br/><i>Approximate location — search the name in Maps</i><br/><br/>A Da Nang seafood house where the catch is picked from tanks at the front and cooked to order - grilled, steamed with lemongrass, or fried with tamarind.<br/><b>Why it's here:</b> The only seafood address on the guide's Da Nang list, in a city whose whole economy faces the sea<br/><a href="https://guide.michelin.com/us/en/da-nang-region/restaurants/bib-gourmand">source 1</a> &middot; <a href="https://www.tripadvisor.com/Restaurants-g298085-Da_Nang.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.0667909,108.2449525&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 16.0667909, 108.2449525]]></description>
         <Point>
-          <coordinates>108.4372097,11.9435196,0</coordinates>
+          <coordinates>108.2449525,16.0667909,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>Anan Saigon</name>
-        <styleUrl>#s-saigon-food</styleUrl>
-        <description><![CDATA[<b>Ho Chi Minh City</b> &middot; District 1, Cho Cu (Old Market)<br/>michelin star<br/><br/>A restaurant built inside a former wet-market stall on Ton That Dam Street, where chef Peter Cuong Franklin runs street-food recipes through French fine-dining technique.<br/><b>Why it's here:</b> One Michelin Star, held since 2023, and the clearest example of Saigon's fine-dining scene built on its own street food<br/><a href="https://guide.michelin.com/en/ho-chi-minh/ho-chi-minh_2978179/restaurant/anan-saigon">source 1</a> &middot; <a href="https://anansaigon.com/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.7718032,106.7029748&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.7718032, 106.7029748]]></description>
+        <name>Ngoc Chi</name>
+        <styleUrl>#s-hoi-an-restaurants</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; Da Nang<br/><br/>A vegetarian kitchen rebuilding central-Vietnamese dishes without meat or fish sauce, from noodle bowls to rice plates.<br/><b>Why it's here:</b> Bib Gourmand vegetarian, and the fallback in a region whose cooking leans hard on fish sauce and pork<br/><a href="https://guide.michelin.com/us/en/da-nang-region/restaurants/bib-gourmand">source 1</a> &middot; <a href="https://www.tripadvisor.com/Restaurants-g298085-Da_Nang.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.0650511,108.2227097&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 16.0650511, 108.2227097]]></description>
         <Point>
-          <coordinates>106.7029748,10.7718032,0</coordinates>
+          <coordinates>108.2227097,16.0650511,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Banh Mi Huynh Hoa</name>
-        <styleUrl>#s-saigon-food</styleUrl>
-        <description><![CDATA[<b>Ho Chi Minh City</b> &middot; District 1<br/><i>Approximate location — search the name in Maps</i><br/>traveler recommended<br/><br/>A takeaway counter open since 1989 with a permanent line out front, packing a baguette with five cold cuts, pate, butter and pickles.<br/><b>Why it's here:</b> Widely cited as the single most-loaded, most-recommended banh mi in the city, voted Travelers' Top Pick at the 2024 Flavors Awards<br/><a href="https://vietcetera.com/en/banh-mi-huynh-hoa-how-100k-and-35-years-built-a-saigon-icon">source 1</a> &middot; <a href="https://www.tripadvisor.com/Restaurant_Review-g293925-d5484355-Reviews-Banh_Mi_Huynh_Hoa-Ho_Chi_Minh_City.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.7713922,106.6927189&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.7713922, 106.6927189]]></description>
+        <styleUrl>#s-saigon-street_food</styleUrl>
+        <description><![CDATA[<b>Ho Chi Minh City</b> &middot; District 1<br/><i>Approximate location — search the name in Maps</i><br/><br/>A takeaway counter open since 1989 with a permanent line out front, packing a baguette with five cold cuts, pate, butter and pickles.<br/><b>Why it's here:</b> Widely cited as the single most-loaded, most-recommended banh mi in the city, voted Travelers' Top Pick at the 2024 Flavors Awards<br/><a href="https://vietcetera.com/en/banh-mi-huynh-hoa-how-100k-and-35-years-built-a-saigon-icon">source 1</a> &middot; <a href="https://www.tripadvisor.com/Restaurant_Review-g293925-d5484355-Reviews-Banh_Mi_Huynh_Hoa-Ho_Chi_Minh_City.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.7713922,106.6927189&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.7713922, 106.6927189]]></description>
         <Point>
           <coordinates>106.6927189,10.7713922,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
+        <name>Pho Phuong</name>
+        <styleUrl>#s-saigon-street_food</styleUrl>
+        <description><![CDATA[<b>Ho Chi Minh City</b> &middot; District 3<br/><br/>A southern pho counter, sweeter and more herb-heavy than the Hanoi version, served with the plate of bean sprouts, basil and lime that the north leaves off.<br/><b>Why it's here:</b> Eating this after Hanoi's pho is the fastest way to taste how far apart the two halves of the country actually are<br/><a href="https://guide.michelin.com/us/en/ho-chi-minh/restaurants/bib-gourmand">source 1</a> &middot; <a href="https://www.tripadvisor.com/Restaurants-g293925-Ho_Chi_Minh_City.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.7747697,106.7007331&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.7747697, 106.7007331]]></description>
+        <Point>
+          <coordinates>106.7007331,10.7747697,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Anan Saigon</name>
+        <styleUrl>#s-saigon-restaurants</styleUrl>
+        <description><![CDATA[<b>Ho Chi Minh City</b> &middot; District 1, Cho Cu (Old Market)<br/><br/>A restaurant built inside a former wet-market stall on Ton That Dam Street, where chef Peter Cuong Franklin runs street-food recipes through French fine-dining technique.<br/><b>Why it's here:</b> One Michelin Star, held since 2023, and the clearest example of Saigon's fine-dining scene built on its own street food<br/><a href="https://guide.michelin.com/en/ho-chi-minh/ho-chi-minh_2978179/restaurant/anan-saigon">source 1</a> &middot; <a href="https://anansaigon.com/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.7718032,106.7029748&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.7718032, 106.7029748]]></description>
+        <Point>
+          <coordinates>106.7029748,10.7718032,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cuc Gach Quan</name>
+        <styleUrl>#s-saigon-restaurants</styleUrl>
+        <description><![CDATA[<b>Ho Chi Minh City</b> &middot; District 1<br/><i>Approximate location — search the name in Maps</i><br/><br/>An architect-converted old house serving the kind of everyday Vietnamese home cooking - braises, clay pots, simple greens - that restaurants usually skip, across several small rooms and a courtyard.<br/><b>Why it's here:</b> Bib Gourmand, and the answer to a week of noodle counters when what you want is a table, a fan and a long dinner<br/><a href="https://guide.michelin.com/us/en/ho-chi-minh/restaurants/bib-gourmand">source 1</a> &middot; <a href="https://www.tripadvisor.com/Restaurants-g293925-Ho_Chi_Minh_City.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.7929997,106.6889296&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.7929997, 106.6889296]]></description>
+        <Point>
+          <coordinates>106.6889296,10.7929997,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hum Garden</name>
+        <styleUrl>#s-saigon-restaurants</styleUrl>
+        <description><![CDATA[<b>Ho Chi Minh City</b> &middot; District 1<br/><i>Approximate location — search the name in Maps</i><br/><br/>A garden restaurant serving plated vegetarian Vietnamese food - lotus, tofu, mushroom and herb dishes - in a quiet courtyard away from the traffic.<br/><b>Why it's here:</b> Saigon's Bib Gourmand vegetarian address, and one of the few genuinely calm dining rooms in District 1<br/><a href="https://guide.michelin.com/us/en/ho-chi-minh/restaurants/bib-gourmand">source 1</a> &middot; <a href="https://www.tripadvisor.com/Restaurants-g293925-Ho_Chi_Minh_City.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.804141,106.7441455&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.804141, 106.7441455]]></description>
+        <Point>
+          <coordinates>106.7441455,10.804141,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Banh Xeo 46A</name>
+        <styleUrl>#s-saigon-restaurants</styleUrl>
+        <description><![CDATA[<b>Ho Chi Minh City</b> &middot; District 1<br/><i>Approximate location — search the name in Maps</i><br/><br/>A long-running shop turning out large turmeric-yellow rice crepes filled with pork, prawn and bean sprouts, wrapped at the table in mustard leaf and herbs.<br/><b>Why it's here:</b> Bib Gourmand, and the southern dish that is most fun to eat with your hands<br/><a href="https://guide.michelin.com/us/en/ho-chi-minh/restaurants/bib-gourmand">source 1</a> &middot; <a href="https://www.tripadvisor.com/Restaurants-g293925-Ho_Chi_Minh_City.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.7896047,106.6912995&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.7896047, 106.6912995]]></description>
+        <Point>
+          <coordinates>106.6912995,10.7896047,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
         <name>Lua Nep</name>
-        <styleUrl>#s-mekong-food</styleUrl>
-        <description><![CDATA[<b>Mekong and Can Tho</b> &middot; Ninh Kieu riverside, Can Tho<br/>traveler recommended<br/><br/>A riverside restaurant serving the delta's signature elephant ear fish, fried whole and served upright so the flesh is rolled into rice paper with herbs and pickles at the table.<br/><b>Why it's here:</b> Repeatedly singled out by recent travelers for this specific dish, the Mekong Delta's most iconic<br/><a href="https://hanoivoyage.com/en/blog/restaurant/top-7-restaurants-in-the-mekong-delta">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.0450175,105.7947956&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.0450175, 105.7947956]]></description>
+        <styleUrl>#s-mekong-restaurants</styleUrl>
+        <description><![CDATA[<b>Mekong and Can Tho</b> &middot; Ninh Kieu riverside, Can Tho<br/><br/>A riverside restaurant serving the delta's signature elephant ear fish, fried whole and served upright so the flesh is rolled into rice paper with herbs and pickles at the table.<br/><b>Why it's here:</b> Repeatedly singled out by recent travelers for this specific dish, the Mekong Delta's most iconic<br/><a href="https://hanoivoyage.com/en/blog/restaurant/top-7-restaurants-in-the-mekong-delta">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.0450175,105.7947956&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.0450175, 105.7947956]]></description>
         <Point>
           <coordinates>105.7947956,10.0450175,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Sao Hom Restaurant</name>
-        <styleUrl>#s-mekong-food</styleUrl>
-        <description><![CDATA[<b>Mekong and Can Tho</b> &middot; Ninh Kieu riverside, Can Tho, inside the old Nha Long market building<br/>traveler recommended<br/><br/>A restaurant set inside a restored early-1900s riverside market hall, with open river views and a menu of southern Vietnamese home cooking.<br/><b>Why it's here:</b> A local guide recommendation for a proper sit-down dinner, in one of Can Tho's most distinctive dining buildings<br/><a href="https://vinwonders.com/en/wonderpedia/news/can-tho-restaurants/">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.0313789,105.7882653&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.0313789, 105.7882653]]></description>
+        <styleUrl>#s-mekong-restaurants</styleUrl>
+        <description><![CDATA[<b>Mekong and Can Tho</b> &middot; Ninh Kieu riverside, Can Tho, inside the old Nha Long market building<br/><br/>A restaurant set inside a restored early-1900s riverside market hall, with open river views and a menu of southern Vietnamese home cooking.<br/><b>Why it's here:</b> A local guide recommendation for a proper sit-down dinner, in one of Can Tho's most distinctive dining buildings<br/><a href="https://vinwonders.com/en/wonderpedia/news/can-tho-restaurants/">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.0313789,105.7882653&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.0313789, 105.7882653]]></description>
         <Point>
           <coordinates>105.7882653,10.0313789,0</coordinates>
         </Point>
@@ -2219,6 +2835,60 @@
         <description><![CDATA[<b>Phu Quoc</b> &middot; Duong Dong, Bach Dang street<br/><i>Approximate location — search the name in Maps</i><br/><br/>A single-street night market where diners pick live fish, crab or squid from tanks to be grilled or steamed to order, alongside stalls selling herring salad, banh xeo pancakes and grilled scallops.<br/><b>Why it's here:</b> The island's main after-dark food destination since its 2016 merger with the old Dinh Cau market, and the best single stop for trying local seafood specialties in one place<br/><a href="https://www.baconismagic.ca/vietnam/phu-quoc-night-market/">source 1</a> &middot; <a href="https://vinwonders.com/en/wonderpedia/news/phu-quoc-night-market/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.3242259,103.8581673&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.3242259, 103.8581673]]></description>
         <Point>
           <coordinates>103.8581673,10.3242259,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Nightlife</name>
+      <Placemark>
+        <name>Ta Hien Beer Street (Bia Hoi Junction)</name>
+        <styleUrl>#s-hanoi-nightlife</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Ta Hien and Luong Ngoc Quyen, Old Quarter<br/><br/>A pedestrianised corner where plastic stools spill across the road each evening and fresh unpasteurised draught beer is poured from the keg for about 15,000 VND a glass.<br/><b>Why it's here:</b> Not a bar but the city's open-air living room, and the cheapest beer you will ever drink sitting down<br/><a href="https://www.hanoitourism.org/hanoi-bia-hoi-guide/">source 1</a> &middot; <a href="https://www.tripadvisor.com/Attractions-g293924-Activities-c20-t99-Hanoi.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0341902,105.852079&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0341902, 105.852079]]></description>
+        <Point>
+          <coordinates>105.852079,21.0341902,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>An Bang Beach bars</name>
+        <styleUrl>#s-hoi-an-nightlife</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; An Bang Beach, 3 km from the Old Town<br/><br/>A line of beachfront bars and seafood shacks with live music, sand underfoot and a very different crowd from the lantern-lit old town.<br/><b>Why it's here:</b> Where Hoi An goes when the old town closes at 22:00, and the only late option in this station<br/><a href="https://vietadvisor.travel/hoi-an/hoi-an-nightlife">source 1</a> &middot; <a href="https://hoianmemoriesresort.com/en/best-bars-in-hoi-an-top-nightlife-spots-for-tourists-and-young-travelers.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=15.9141779,108.3396551&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 15.9141779, 108.3396551]]></description>
+        <Point>
+          <coordinates>108.3396551,15.9141779,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Layla</name>
+        <styleUrl>#s-saigon-nightlife</styleUrl>
+        <description><![CDATA[<b>Ho Chi Minh City</b> &middot; Dong Du Street, District 1<br/><i>Approximate location — search the name in Maps</i><br/><br/>A bar spread across the upper floors of a colonial-era apartment block, with an eleven-metre bar in the main room and neighbouring flats converted into a pool room, lounges and a smoking terrace.<br/><b>Why it's here:</b> The clearest example of Saigon's converted-apartment-block bar culture, which exists nowhere else in the country<br/><a href="https://www.asia-bars.com/2026/03/top-12-highly-rated-cocktail-bars-hcmc-vietnam-2026/">source 1</a> &middot; <a href="https://www.tripadvisor.com/Attractions-g293925-Activities-c20-t99-Ho_Chi_Minh_City.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.775022,106.7031275&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.775022, 106.7031275]]></description>
+        <Point>
+          <coordinates>106.7031275,10.775022,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Spa &amp; Massage</name>
+      <Placemark>
+        <name>Orient Spa Hanoi</name>
+        <styleUrl>#s-hanoi-spa</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Old Quarter, Hoan Kiem (four branches)<br/><br/>A spa group running four branches inside the Old Quarter, offering foot and body massage, deep tissue work, and packages that combine massage with a hair wash.<br/><b>Why it's here:</b> The most consistently reviewed chain in the Old Quarter, and having four branches means one is always within walking distance of wherever the day ended<br/><a href="https://www.orientspahanoi.com/">source 1</a> &middot; <a href="https://www.tripadvisor.com.sg/Attraction_Review-g293924-d24090474-Reviews-Hanoi_Old_Quarter_Spa-Hanoi.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0289459,105.8487425&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0289459, 105.8487425]]></description>
+        <Point>
+          <coordinates>105.8487425,21.0289459,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Herbal Spa Hoi An</name>
+        <styleUrl>#s-hoi-an-spa</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; Hoi An, several branches<br/><br/>A spa built around a Vietnamese herbal treatment - lemongrass, ginger, cinnamon and mugwort steamed and applied warm - alongside standard body and foot massage.<br/><b>Why it's here:</b> 4.8 out of 5 from more than two thousand Klook reviews and top-ranked on TripAdvisor since 2019, which is a far deeper review base than any spa in Hanoi<br/><a href="https://herbalspa.vn/en/hoi-an">source 1</a> &middot; <a href="https://www.tripadvisor.com/Attractions-g298082-Activities-c40-Hoi_An_Quang_Nam_Province.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=15.8784079,108.3240194&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 15.8784079, 108.3240194]]></description>
+        <Point>
+          <coordinates>108.3240194,15.8784079,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ocean Spa Hoi An</name>
+        <styleUrl>#s-hoi-an-spa</styleUrl>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; Near An Bang Beach<br/><i>Approximate location — search the name in Maps</i><br/><br/>A spa near An Bang beach offering body, foot and herbal treatments away from the old-town crowds.<br/><b>Why it's here:</b> 4.9 out of 5 across more than 1,300 reviews, and close enough to the beach to combine with a swim<br/><a href="https://www.tripadvisor.com/Attractions-g298082-Activities-c40-Hoi_An_Quang_Nam_Province.html">source 1</a> &middot; <a href="https://www.klook.com/destination/c75-hoi-an/1011-spa/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=15.9129019,108.3402428&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 15.9129019, 108.3402428]]></description>
+        <Point>
+          <coordinates>108.3402428,15.9129019,0</coordinates>
         </Point>
       </Placemark>
     </Folder>

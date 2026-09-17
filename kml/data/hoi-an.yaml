@@ -197,7 +197,7 @@ attractions:
   sources:
   - https://oxalisadventure.com/coconut-boat-ride-hoi-an/
   - https://www.tripadvisor.com/Attraction_Review-g298082-d15709027-Reviews-Hoi_An_Basket_Boat_Tours-Hoi_An_Quang_Nam_Province.html
-food:
+street_food:
 - name: Banh Mi Phuong
   kind: vietnamese
   signal: traveler_recommended
@@ -228,6 +228,79 @@ food:
   geocode_query: Cao Lau Ba Le Restaurant, Hoi An, Vietnam
   sources:
   - https://www.tripadvisor.com/Restaurant_Review-g298082-d15016299-Reviews-Cao_Lau_Ba_Le_Restaurant-Hoi_An_Quang_Nam_Province.html
+- name: Phu Hong (Bun Thit Nuong Phu Hong)
+  kind: vietnamese
+  signal: michelin_bib
+  area: 19 Yen Bai Street, Hai Chau District, Da Nang
+  what: A street-food stall serving bun thit nuong - grilled pork over rice vermicelli
+    with fresh herbs - alongside grilled pork and minced-pork skewers wrapped in rice
+    paper, no reservations, cash only.
+  why: Holds a Michelin Bib Gourmand for good quality, good value cooking - the everyday-food
+    end of Da Nang's Michelin coverage, distinct from La Maison 1888's fine dining
+  confidence: high
+  geocode_query: Bun Thit Nuong Phu Hong, 19 Yen Bai Street, Da Nang, Vietnam
+  sources:
+  - https://liveyounglivewell.com/quan-phu-hong-da-nang-review/
+  - https://guide.michelin.com/en/da-nang-region/da-nang_2984390/restaurant/phu-hong
+  coords:
+    lat: 16.0695853
+    lng: 108.2229138
+  location_precision: approximate
+- name: My Quang Sua Hong Van
+  kind: vietnamese
+  signal: michelin_bib
+  dish: My quang sua (turmeric noodles with jellyfish)
+  area: Da Nang
+  what: A stall serving my quang - central Vietnam's wide turmeric-yellow noodles
+    in a shallow pool of broth rather than a soup - in the local jellyfish version,
+    with peanuts and a sheet of grilled rice cracker.
+  why: My quang is the dish of this province specifically, and the jellyfish version
+    barely exists outside Da Nang
+  confidence: medium
+  geocode_query: My Quang Sua Hong Van, Da Nang, Vietnam
+  sources:
+  - https://guide.michelin.com/us/en/da-nang-region/restaurants/bib-gourmand
+  - https://www.tripadvisor.com/Restaurants-g298085-Da_Nang.html
+  coords:
+    lat: 16.0661233
+    lng: 108.229693
+- name: Banh Beo - Banh Dap
+  kind: vietnamese
+  signal: michelin_bib
+  dish: Banh beo and banh dap (steamed rice cakes, smashed rice paper)
+  area: Da Nang
+  what: A stall built on two central-coast snacks - small steamed rice cakes topped
+    with dried shrimp, and a grilled rice cracker sandwiched with a soft wet sheet
+    that you smash by hand before dipping.
+  why: Banh dap is eaten by breaking it with your palm, which makes it the most fun
+    dish on this list and one you will not find at home
+  confidence: medium
+  geocode_query: Banh Beo Banh Dap, Da Nang, Vietnam
+  sources:
+  - https://guide.michelin.com/us/en/da-nang-region/restaurants/bib-gourmand
+  - https://www.tripadvisor.com/Restaurants-g298085-Da_Nang.html
+  coords:
+    lat: 15.8844674
+    lng: 108.3303903
+  location_precision: approximate
+- name: Co Chu Nho
+  kind: vietnamese
+  signal: michelin_bib
+  dish: Street food
+  area: Da Nang
+  what: A small Da Nang street-food shop that entered the Bib Gourmand list in the
+    most recent selection.
+  why: One of only three new Da Nang entries in the 2026 guide, so it has not yet
+    been found by the tour groups
+  confidence: medium
+  geocode_query: Co Chu Nho, Da Nang, Vietnam
+  sources:
+  - https://guide.michelin.com/vn/en/da-nang-region/da-nang_2984390/restaurant/co-chu-nho
+  - https://guide.michelin.com/us/en/da-nang-region/restaurants/bib-gourmand
+  coords:
+    lat: 16.0461704
+    lng: 108.2454747
+restaurants:
 - name: White Rose Restaurant
   kind: vietnamese
   signal: traveler_recommended
@@ -264,24 +337,58 @@ food:
     lat: 15.9040037
     lng: 108.3326237
   location_precision: approximate
-- name: Phu Hong (Bun Thit Nuong Phu Hong)
+- name: Thia Go
   kind: vietnamese
   signal: michelin_bib
-  area: 19 Yen Bai Street, Hai Chau District, Da Nang
-  what: A street-food stall serving bun thit nuong - grilled pork over rice vermicelli
-    with fresh herbs - alongside grilled pork and minced-pork skewers wrapped in rice
-    paper, no reservations, cash only.
-  why: Holds a Michelin Bib Gourmand for good quality, good value cooking - the everyday-food
-    end of Da Nang's Michelin coverage, distinct from La Maison 1888's fine dining
-  confidence: high
-  geocode_query: Bun Thit Nuong Phu Hong, 19 Yen Bai Street, Da Nang, Vietnam
+  dish: Modern Vietnamese
+  area: Da Nang
+  what: A sit-down Vietnamese kitchen working with central-coast produce and seafood,
+    plated as a full menu rather than a single-dish counter.
+  why: Bib Gourmand, and the option for a proper dinner in Da Nang that is neither
+    a resort restaurant nor a plastic stool
+  confidence: medium
+  geocode_query: Thia Go Restaurant, Da Nang, Vietnam
   sources:
-  - https://liveyounglivewell.com/quan-phu-hong-da-nang-review/
-  - https://guide.michelin.com/en/da-nang-region/da-nang_2984390/restaurant/phu-hong
+  - https://guide.michelin.com/us/en/da-nang-region/da-nang_2984390/restaurant/thia-go%C2%A0
+  - https://guide.michelin.com/us/en/da-nang-region/restaurants/bib-gourmand
   coords:
-    lat: 16.0695853
-    lng: 108.2229138
+    lat: 16.0532123
+    lng: 108.24153
+- name: Be Ni 2
+  kind: vietnamese
+  signal: michelin_bib
+  dish: Seafood
+  area: Da Nang
+  what: A Da Nang seafood house where the catch is picked from tanks at the front
+    and cooked to order - grilled, steamed with lemongrass, or fried with tamarind.
+  why: The only seafood address on the guide's Da Nang list, in a city whose whole
+    economy faces the sea
+  confidence: medium
+  geocode_query: Be Ni 2 Seafood, Da Nang, Vietnam
+  sources:
+  - https://guide.michelin.com/us/en/da-nang-region/restaurants/bib-gourmand
+  - https://www.tripadvisor.com/Restaurants-g298085-Da_Nang.html
+  coords:
+    lat: 16.0667909
+    lng: 108.2449525
   location_precision: approximate
+- name: Ngoc Chi
+  kind: vietnamese
+  signal: michelin_bib
+  dish: Vegetarian Vietnamese
+  area: Da Nang
+  what: A vegetarian kitchen rebuilding central-Vietnamese dishes without meat or
+    fish sauce, from noodle bowls to rice plates.
+  why: Bib Gourmand vegetarian, and the fallback in a region whose cooking leans hard
+    on fish sauce and pork
+  confidence: medium
+  geocode_query: Ngoc Chi Vegetarian, Da Nang, Vietnam
+  sources:
+  - https://guide.michelin.com/us/en/da-nang-region/restaurants/bib-gourmand
+  - https://www.tripadvisor.com/Restaurants-g298085-Da_Nang.html
+  coords:
+    lat: 16.0650511
+    lng: 108.2227097
 markets:
 - name: Hoi An Central Market
   area: Tran Phu Street, along the Thu Bon riverbank
@@ -336,3 +443,74 @@ logistics:
   coords:
     lat: 15.8779509
     lng: 108.3239898
+nightlife:
+- name: Hoi An Old Town after dark
+  area: Tran Phu, Nguyen Thai Hoc and Bach Dang, along the Hoai River
+  what: At dusk the electric lights in the old town are switched off and the silk
+    lanterns come on. The riverside lanes close to traffic and fill with people walking,
+    eating and floating paper candles on the water.
+  why: The town itself is the nightlife here - there is no single venue to book, and
+    after 22:00 it quietly empties
+  confidence: high
+  weather: high
+  geocode_query: Tran Phu Street, Hoi An Ancient Town, Vietnam
+  sources:
+  - https://hoianit.com/hoi-an-lantern-street-the-most-magical-night/
+  - https://www.getyourguide.com/old-town-hoi-an-l228645/nightlife-bars-tc109/
+- name: Nguyen Hoang Night Market
+  area: An Hoi islet, across the bridge from the Old Town
+  what: Around fifty stalls selling handmade silk lanterns, souvenirs and grilled
+    street snacks, running the length of An Hoi islet each evening.
+  why: The lantern stalls are where the photographs everyone takes of Hoi An actually
+    happen, and it is the cheapest place in town to buy one to take home
+  confidence: high
+  weather: high
+  geocode_query: Nguyen Hoang Night Market, An Hoi, Hoi An, Vietnam
+  sources:
+  - https://hoianit.com/hoi-an-lantern-street-the-most-magical-night/
+  - https://www.getyourguide.com/hoi-an-l831/nightlife-bars-tc109/
+- name: An Bang Beach bars
+  area: An Bang Beach, 3 km from the Old Town
+  what: A line of beachfront bars and seafood shacks with live music, sand underfoot
+    and a very different crowd from the lantern-lit old town.
+  why: Where Hoi An goes when the old town closes at 22:00, and the only late option
+    in this station
+  confidence: medium
+  weather: high
+  geocode_query: An Bang Beach, Hoi An, Vietnam
+  sources:
+  - https://vietadvisor.travel/hoi-an/hoi-an-nightlife
+  - https://hoianmemoriesresort.com/en/best-bars-in-hoi-an-top-nightlife-spots-for-tourists-and-young-travelers.html
+  coords:
+    lat: 15.9141779
+    lng: 108.3396551
+spa:
+- name: Herbal Spa Hoi An
+  area: Hoi An, several branches
+  what: A spa built around a Vietnamese herbal treatment - lemongrass, ginger, cinnamon
+    and mugwort steamed and applied warm - alongside standard body and foot massage.
+  why: 4.8 out of 5 from more than two thousand Klook reviews and top-ranked on TripAdvisor
+    since 2019, which is a far deeper review base than any spa in Hanoi
+  confidence: high
+  geocode_query: Herbal Spa Hoi An, Hoi An, Vietnam
+  sources:
+  - https://herbalspa.vn/en/hoi-an
+  - https://www.tripadvisor.com/Attractions-g298082-Activities-c40-Hoi_An_Quang_Nam_Province.html
+  coords:
+    lat: 15.8784079
+    lng: 108.3240194
+- name: Ocean Spa Hoi An
+  area: Near An Bang Beach
+  what: A spa near An Bang beach offering body, foot and herbal treatments away from
+    the old-town crowds.
+  why: 4.9 out of 5 across more than 1,300 reviews, and close enough to the beach
+    to combine with a swim
+  confidence: medium
+  geocode_query: Ocean Spa, An Bang, Hoi An, Vietnam
+  sources:
+  - https://www.tripadvisor.com/Attractions-g298082-Activities-c40-Hoi_An_Quang_Nam_Province.html
+  - https://www.klook.com/destination/c75-hoi-an/1011-spa/
+  coords:
+    lat: 15.9129019
+    lng: 108.3402428
+  location_precision: approximate

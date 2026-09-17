@@ -337,7 +337,7 @@ html.splash-on #splash{display:flex}
     <div class="sc"><div class="sc-lbl" data-he="חזרה ל-TLV">Return TLV</div><div class="sc-val">24 Nov</div><div class="sc-sub">EY431 HAN 20:00 &rarr; AUH &rarr; TLV</div></div>
     <div class="sc"><div class="sc-lbl" data-he="לילות מלון">Hotel Nights</div><div class="sc-val">26</div><div class="sc-sub">+ 2 night trains + Ha Long cruise</div></div>
     <div class="sc"><div class="sc-lbl" data-he="אומדן הוצאה עצמית">Own Spend Est.</div><div class="sc-val">~$1,550</div><div class="sc-sub">per couple &middot; on top of agent package + flights</div></div>
-    <div class="sc"><div class="sc-lbl" data-he="שער חליפין">Exchange Rate</div><div class="sc-val fx-rate-line" id="fx-rate">$1 = ₪2.92</div><div class="sc-val fx-rate-line" id="fx-rate2">₪1 = ₫9,000</div><div class="sc-sub" id="fx-date" data-en="est. Jun 2026" data-he="יוני 2026">est. Jun 2026</div></div>
+    <div class="sc"><div class="sc-lbl" data-he="שער חליפין">Exchange Rate</div><div class="sc-val fx-rate-line" id="fx-rate">$1 = ₪3.03</div><div class="sc-val fx-rate-line" id="fx-rate2">₪1 = ₫8,586</div><div class="sc-sub" id="fx-date" data-en="est. Sep 2026" data-he="ספטמבר 2026">est. Sep 2026</div></div>
   </div>
   <p class="sec-label" data-he="ציר המסלול">Route Timeline</p>
   <div class="tl-wrap" data-area="timeline"><div class="tl">
@@ -1390,7 +1390,7 @@ function goToStop(e,a){var href=a.getAttribute('href')||'';var id=href.split('#'
 
 /* ---- Currency switcher (USD / ILS / VND) ---- */
 (function(){
-  var RATES={USD:1, ILS:2.92, VND:26300};            /* fallback only — live-updated below */
+  var RATES={USD:1, ILS:3.03, VND:26016};            /* fallback only — live-updated below; checked 2026-09-03 */
   var current='USD';                                  /* active currency, for re-apply after rate refresh */
   var SYM={USD:'$', ILS:'₪', VND:'₫'};
   var NAME={USD:'US Dollars', ILS:'Israeli Shekel', VND:'Vietnamese Dong'};

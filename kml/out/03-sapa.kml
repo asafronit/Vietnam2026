@@ -38,12 +38,48 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-sapa-street_food">
+      <IconStyle>
+        <color>ff19e1ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-sapa-restaurants">
+      <IconStyle>
+        <color>ff19e1ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-sapa-markets">
       <IconStyle>
         <color>ff19e1ff</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/shopping.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-sapa-nightlife">
+      <IconStyle>
+        <color>ff19e1ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/bars.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-sapa-spa">
+      <IconStyle>
+        <color>ff19e1ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -146,8 +182,8 @@
       <name>Food</name>
       <Placemark>
         <name>Thang Co A Quynh</name>
-        <styleUrl>#s-sapa-food</styleUrl>
-        <description><![CDATA[<b>Sapa</b> &middot; 15 Thach Son Street, Sapa town<br/><i>Approximate location — search the name in Maps</i><br/>traveler recommended<br/><br/>A long-running local restaurant serving thang co, the H'mong horse-meat and offal stew simmered with highland herbs, alongside other mountain specialities.<br/><b>Why it's here:</b> The most consistently recommended address in Sapa for this specific regional dish, with an established following on Tripadvisor and local guides alike<br/><a href="https://www.tripadvisor.com/Restaurant_Review-g311304-d12951605-Reviews-Thang_Co_A_Quynh_Restaurant-Sapa_Lao_Cai_Province.html">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=22.3360931,103.8445752&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 22.3360931, 103.8445752]]></description>
+        <styleUrl>#s-sapa-restaurants</styleUrl>
+        <description><![CDATA[<b>Sapa</b> &middot; 15 Thach Son Street, Sapa town<br/><i>Approximate location — search the name in Maps</i><br/><br/>A long-running local restaurant serving thang co, the H'mong horse-meat and offal stew simmered with highland herbs, alongside other mountain specialities.<br/><b>Why it's here:</b> The most consistently recommended address in Sapa for this specific regional dish, with an established following on Tripadvisor and local guides alike<br/><a href="https://www.tripadvisor.com/Restaurant_Review-g311304-d12951605-Reviews-Thang_Co_A_Quynh_Restaurant-Sapa_Lao_Cai_Province.html">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=22.3360931,103.8445752&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 22.3360931, 103.8445752]]></description>
         <Point>
           <coordinates>103.8445752,22.3360931,0</coordinates>
         </Point>

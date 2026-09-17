@@ -207,7 +207,7 @@ markets:
   coords:
     lat: 21.0335078
     lng: 105.8509571
-food:
+street_food:
 - name: Bun Cha Huong Lien
   kind: vietnamese
   signal: michelin_bib
@@ -223,6 +223,89 @@ food:
   coords:
     lat: 21.0180504
     lng: 105.8538843
+- name: Pho Gia Truyen (Bat Dan)
+  kind: vietnamese
+  signal: michelin_bib
+  dish: Pho bo (beef noodle soup)
+  area: 49 Bat Dan Street, Cua Dong Ward, Hoan Kiem
+  what: A bare-bones pho shop where you queue at the counter, pay first and carry
+    your own bowl to a shared table. Beef only, in three cuts - flank, round steak
+    and brisket.
+  why: The Old Quarter's benchmark beef pho and a Bib Gourmand; the queue at 07:00
+    is the review
+  confidence: high
+  geocode_query: Pho Gia Truyen, 49 Bat Dan, Hoan Kiem, Hanoi, Vietnam
+  sources:
+  - https://guide.michelin.com/en/vn/ha-noi/ha-noi_2974158/restaurants/bib-gourmand
+  - https://e.vnexpress.net/photo/food-recipes/hanois-best-pho-michelin-guide-picks-4931684.html
+  coords:
+    lat: 21.0336377
+    lng: 105.8463792
+- name: Pho Ga Nguyet
+  kind: vietnamese
+  signal: michelin_bib
+  dish: Pho ga (chicken noodle soup)
+  area: 5B Phu Doan Street, Hang Trong Ward, Hoan Kiem
+  what: A chicken-pho counter that lets you pick the cut - thigh, breast, or the whole
+    lot with egg - in a clear broth. Open late, past midnight.
+  why: The one pho address on this list that is still serving at 23:00, which matters
+    on an arrival night
+  confidence: high
+  geocode_query: Pho Ga Nguyet, 5B Phu Doan, Hoan Kiem, Hanoi, Vietnam
+  sources:
+  - https://guide.michelin.com/vn/en/ha-noi/ha-noi_2974158/restaurant/pho-ga-nguyet
+  - https://guide.michelin.com/en/vn/ha-noi/ha-noi_2974158/restaurants/bib-gourmand
+  coords:
+    lat: 21.0302913
+    lng: 105.8476483
+  location_precision: approximate
+- name: Tuyet Bun Cha 34
+  kind: vietnamese
+  signal: michelin_bib
+  dish: Bun cha (grilled pork with rice noodles)
+  area: 34 Hang Than Street, Nguyen Trung Truc Ward, Ba Dinh
+  what: A small bun cha stall where the pork is chargrilled to order rather than held
+    warm, served with a bowl of dipping broth and a plate of herbs.
+  why: Michelin inspectors singled it out for grilling to order - the difference between
+    good bun cha and reheated bun cha
+  confidence: high
+  geocode_query: Tuyet Bun Cha 34, 34 Hang Than, Ba Dinh, Hanoi, Vietnam
+  sources:
+  - https://guide.michelin.com/en/vn/ha-noi/ha-noi_2974158/restaurants/bib-gourmand
+  - https://guide.michelin.com/vn/en/article/dining-out/michelin-guide-inspectors-reveal-their-favourite-street-food-in-hanoi
+- name: Banh Cuon Gia Truyen Thanh Van (Hang Ga)
+  kind: vietnamese
+  signal: michelin_bib
+  dish: Banh cuon (steamed rice rolls)
+  area: Hang Ga Street, Hoan Kiem
+  what: Rice batter steamed into paper-thin sheets to order over a cloth-covered pot,
+    rolled around minced pork and wood-ear mushroom, eaten with fish sauce and fried
+    shallot.
+  why: A breakfast dish you have to watch being made, and the Old Quarter's Bib Gourmand
+    address for it
+  confidence: medium
+  geocode_query: Banh Cuon Gia Truyen Thanh Van, Hang Ga, Hoan Kiem, Hanoi, Vietnam
+  sources:
+  - https://guide.michelin.com/en/vn/ha-noi/ha-noi_2974158/restaurants/bib-gourmand
+  - https://guide.michelin.com/en/ha-noi/ha-noi_2974158/restaurant/banh-cuon-gia-truyen-thanh-van-hang-ga-street
+  coords:
+    lat: 21.0360528
+    lng: 105.8471707
+- name: Pho Khoi Hoi
+  kind: vietnamese
+  signal: michelin_bib
+  dish: Pho bo
+  area: Hoan Kiem
+  what: A pho shop of more than three decades, named after the owner's bald head,
+    that joined the Bib Gourmand list in the most recent selection.
+  why: A locals' pho that the guide reached only recently, so it has not yet been
+    reshaped by tourist traffic
+  confidence: medium
+  geocode_query: Pho Khoi Hoi, Hoan Kiem, Hanoi, Vietnam
+  sources:
+  - https://guide.michelin.com/en/vn/ha-noi/ha-noi_2974158/restaurants/bib-gourmand
+  - https://vietnamnet.vn/en/michelin-honors-hanoi-s-pho-khoi-hoi-on-bib-gourmand-list-2300221.html
+restaurants:
 - name: Cha Ca Thang Long
   kind: vietnamese
   signal: michelin_bib
@@ -258,6 +341,43 @@ food:
     lat: 21.0205027
     lng: 105.7639271
   location_precision: approximate
+- name: Luk Lak
+  kind: vietnamese
+  signal: michelin_bib
+  dish: Vietnamese, full menu
+  area: Hai Ba Trung
+  what: A sit-down Vietnamese restaurant in a colonial-era villa, run by a chef who
+    cooked for the diplomatic corps, serving regional dishes as a full menu rather
+    than a single speciality.
+  why: The one address here that works as a proper dinner with a table and a wine
+    list while still being Bib Gourmand priced
+  confidence: medium
+  geocode_query: Luk Lak Restaurant, Hai Ba Trung, Hanoi, Vietnam
+  sources:
+  - https://guide.michelin.com/en/vn/ha-noi/ha-noi_2974158/restaurants/bib-gourmand
+  - https://en.vietnamplus.vn/michelin-guide-unveils-2024-bib-gourmand-selection-for-hanoi-hcm-city-post289000.vnp
+  coords:
+    lat: 21.0225054
+    lng: 105.8575276
+  location_precision: approximate
+- name: Uu Dam Chay
+  kind: vietnamese
+  signal: michelin_bib
+  dish: Vegetarian Vietnamese
+  area: Hoan Kiem
+  what: A multi-floor vegetarian kitchen that rebuilds Vietnamese classics without
+    meat or fish sauce, presented as a full plated menu.
+  why: The only Bib Gourmand vegetarian address in Hanoi, and the fallback when a
+    meat-heavy week has run its course
+  confidence: medium
+  geocode_query: Uu Dam Chay, Hoan Kiem, Hanoi, Vietnam
+  sources:
+  - https://guide.michelin.com/en/vn/ha-noi/ha-noi_2974158/restaurants/bib-gourmand
+  - https://happyvietnamtours.com/blogs/news/michelin-guide-vietnam-2024-michelin-star-bib-gourmand
+  coords:
+    lat: 21.0187719
+    lng: 105.84814
+  location_precision: approximate
 logistics:
 - name: Noi Bai Airport to Old Quarter transfer
   area: Noi Bai International Airport to Hoan Kiem
@@ -275,3 +395,73 @@ logistics:
   coords:
     lat: 21.2188925
     lng: 105.8044596
+nightlife:
+- name: The Haflington
+  area: Off Hang Ma Street, Old Quarter, Hoan Kiem
+  what: A hidden cocktail bar reached down a narrow corridor and up through the floors
+    of a French colonial building, with a whisky reserve of roughly 200 labels and
+    a signature oyster-and-whisky pairing.
+  why: The first bar in Vietnam ever to enter Asia's 50 Best Bars, and the one place
+    here that is a destination rather than a drink
+  confidence: medium
+  geocode_query: The Haflington, Hang Ma, Hoan Kiem, Hanoi, Vietnam
+  sources:
+  - https://www.asia-bars.com/2026/05/top-12-hanoi-cocktail-bars-visit-2026/
+  - https://www.tripadvisor.com/Attractions-g293924-Activities-c20-t99-Hanoi.html
+- name: Ta Hien Beer Street (Bia Hoi Junction)
+  area: Ta Hien and Luong Ngoc Quyen, Old Quarter
+  what: A pedestrianised corner where plastic stools spill across the road each evening
+    and fresh unpasteurised draught beer is poured from the keg for about 15,000 VND
+    a glass.
+  why: Not a bar but the city's open-air living room, and the cheapest beer you will
+    ever drink sitting down
+  confidence: high
+  weather: high
+  geocode_query: Ta Hien Street, Hoan Kiem, Hanoi, Vietnam
+  sources:
+  - https://www.hanoitourism.org/hanoi-bia-hoi-guide/
+  - https://www.tripadvisor.com/Attractions-g293924-Activities-c20-t99-Hanoi.html
+  coords:
+    lat: 21.0341902
+    lng: 105.852079
+- name: West Lake craft beer and jazz strip
+  area: Tay Ho, around Xuan Dieu
+  what: The expat side of the city's drinking scene - craft taprooms, live jazz rooms
+    and lakeside terraces, spread along the streets behind West Lake rather than concentrated
+    on one corner.
+  why: Where to go when the Old Quarter stools stop being charming, and the only part
+    of Hanoi nightlife that is comfortable rather than loud
+  confidence: low
+  geocode_query: Xuan Dieu, Tay Ho, Hanoi, Vietnam
+  sources:
+  - https://www.asia-bars.com/2026/05/top-12-hanoi-cocktail-bars-visit-2026/
+  coords:
+    lat: 21.0657495
+    lng: 105.8271397
+spa:
+- name: Orient Spa Hanoi
+  area: Old Quarter, Hoan Kiem (four branches)
+  what: A spa group running four branches inside the Old Quarter, offering foot and
+    body massage, deep tissue work, and packages that combine massage with a hair
+    wash.
+  why: The most consistently reviewed chain in the Old Quarter, and having four branches
+    means one is always within walking distance of wherever the day ended
+  confidence: medium
+  geocode_query: Orient Spa Hanoi, Hoan Kiem, Hanoi, Vietnam
+  sources:
+  - https://www.orientspahanoi.com/
+  - https://www.tripadvisor.com.sg/Attraction_Review-g293924-d24090474-Reviews-Hanoi_Old_Quarter_Spa-Hanoi.html
+  coords:
+    lat: 21.0289459
+    lng: 105.8487425
+- name: Nap Spa
+  area: Old Quarter, Hoan Kiem
+  what: A small Old Quarter spa whose foot massage and Vietnamese "nourishing shampoo"
+    head-and-scalp treatment draw the strongest traveller reviews in the district.
+  why: The head-wash treatment is a Vietnamese ritual with no real equivalent at home,
+    and it costs less than a coffee does in Tel Aviv
+  confidence: medium
+  geocode_query: Nap Spa, Hoan Kiem, Hanoi, Vietnam
+  sources:
+  - https://www.tripadvisor.com/ShowUserReviews-g293924-d26685192-r945284663-Nap_Spa_Nourishing_Shampoo-Hanoi.html
+  - https://asiamystika.com/blog/hanoi-massage
