@@ -17,7 +17,8 @@ const POI_DATA = {
       "markets": 2,
       "nightlife": 2,
       "spa": 2,
-      "logistics": 1
+      "logistics": 1,
+      "contacts": 4
     },
     "poi": {
       "hotels": [
@@ -799,6 +800,120 @@ const POI_DATA = {
           "video": null,
           "weather": "medium"
         }
+      ],
+      "contacts": [
+        {
+          "name": "Kelly - visa assistance",
+          "area": "Works remotely; relevant before departure and on arrival",
+          "what": "The contact handling the e-visa application. The number is a valid Vietnamese mobile in VinaPhone's 094 range and reaches WhatsApp. It carries no public business listing - nothing indexed ties it to a registered visa agency - which is ordinary for Vietnamese fixers who work from a personal mobile, but means the agency behind it cannot be checked from outside.",
+          "why": "The named human for the one document without which the trip does not start. Worth knowing alongside her - the e-visa is a direct government application at evisa.gov.vn costing 25 USD for single entry, so any quote well above that is the fee for having someone else fill in the form, not the visa itself",
+          "lat": null,
+          "lng": null,
+          "approx": false,
+          "sources": [
+            "https://evisa.gov.vn/",
+            "https://lawnet.vn/en/laws/what-is-the-current-list-of-prefixes-of-vietnamese-phone-numbers-of-mobile-network-operators-what-i-134777.html"
+          ],
+          "tier": null,
+          "nameHe": "קלי — סיוע בוויזה",
+          "areaHe": "עובדת מרחוק; רלוונטית לפני היציאה ובהגעה",
+          "whatHe": "איש הקשר שמטפלת בבקשת ה-E-Visa. המספר הוא מספר סלולרי ויאטנמי תקין בטווח 094 של VinaPhone ומגיע לוואטסאפ. אין לו רישום עסקי ציבורי: שום תוצאה מאונדקסת לא קושרת אותו לסוכנות ויזות רשומה. זה רגיל אצל מסדירים ויאטנמים שעובדים ממספר פרטי, אבל פירושו שאי אפשר לבדוק מבחוץ את הגוף שמאחוריו.",
+          "whyHe": "האדם בשם למסמך היחיד שבלעדיו הטיול לא מתחיל. שווה לדעת לצידה: ה-E-Visa היא בקשה ממשלתית ישירה ב-evisa.gov.vn שעולה 25 דולר לכניסה יחידה, ולכן כל מחיר גבוה ממנו בהרבה הוא שכר על מילוי הטופס ולא מחיר הוויזה",
+          "priceUnit": null,
+          "priceLow": null,
+          "priceHigh": null,
+          "avoid": false,
+          "kind": null,
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "whatsapp": "+84947222598",
+          "weather": "low"
+        },
+        {
+          "name": "Funny Travel - Vicky",
+          "area": "Nationwide operator; the leading quote",
+          "what": "The travel agency behind the v3 quote of 3,520 USD per person, covering 4-5 star hotels, four internal flights and the visa. It names its hotels rather than describing them by class, and carries 944 TripAdvisor reviews.",
+          "why": "The front-running operator as of the last round, and the number to call first if anything on a booked day goes wrong",
+          "lat": null,
+          "lng": null,
+          "approx": false,
+          "sources": [
+            "https://www.tripadvisor.com/Attraction_Review-g293924-d10008301-Reviews-Funny_Travel-Hanoi.html"
+          ],
+          "tier": null,
+          "nameHe": "פאני טראוול — ויקי",
+          "areaHe": "מפעילה ארצית; ההצעה המובילה",
+          "whatHe": "סוכנות הנסיעות שמאחורי הצעת v3 של 3,520 דולר לאדם, הכוללת מלונות 4 עד 5 כוכבים, ארבע טיסות פנים וויזה. היא נוקבת בשמות המלונות ולא מתארת אותם לפי דירוג, ויש לה 944 ביקורות בטריפאדוויזר.",
+          "whyHe": "המפעילה המובילה נכון לסבב האחרון, והמספר שאליו מתקשרים ראשון אם משהו משתבש ביום מוזמן",
+          "priceUnit": null,
+          "priceLow": null,
+          "priceHigh": null,
+          "avoid": false,
+          "kind": null,
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "whatsapp": "+84919481386",
+          "email": "funnytravelvietnam@gmail.com",
+          "weather": "low"
+        },
+        {
+          "name": "ATT Asia Travel - Huong Giang",
+          "area": "Nationwide operator; quote received, re-quote outstanding",
+          "what": "Tour manager at ATT Asia Travel. The quote on file is 4,430 USD per person at single occupancy and includes five Vietnam Airlines flights, a Mon Cheri cruise and canyoning; a re-quote for shared occupancy was requested and has not arrived.",
+          "why": "A live alternative if the leading operator falls through, and the only quote that priced the domestic legs on Vietnam Airlines throughout",
+          "lat": null,
+          "lng": null,
+          "approx": false,
+          "sources": [
+            "https://attasiatravel.com/"
+          ],
+          "tier": null,
+          "nameHe": "ATT אסיה טראוול — הואונג ז'יאנג",
+          "areaHe": "מפעילה ארצית; התקבלה הצעה, ממתינים לתמחור מחדש",
+          "whatHe": "מנהלת סיורים ב-ATT אסיה טראוול. ההצעה שבתיק היא 4,430 דולר לאדם בחדר ליחיד וכוללת חמש טיסות של ויטנאם איירליינס, שייט Mon Cheri וקניוניניג. התבקש תמחור מחדש לחדר משותף והוא טרם הגיע.",
+          "whyHe": "חלופה חיה אם המפעילה המובילה תיפול, וההצעה היחידה שתמחרה את כל הקטעים הפנימיים על ויטנאם איירליינס",
+          "priceUnit": null,
+          "priceLow": null,
+          "priceHigh": null,
+          "avoid": false,
+          "kind": null,
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "phone": "+84904160918",
+          "email": "sale@attasiatravel.com",
+          "weather": "low"
+        },
+        {
+          "name": "VietBright Travel - Nancy",
+          "area": "Nationwide operator; awaiting a revised quote",
+          "what": "The agency behind the v1 quote of 3,369 USD per person at four star and 4,068 at five, with five internal flights and named hotels. A counter-offer was sent and the revised version has not come back. It publishes no VNAT licence number.",
+          "why": "The cheapest structure seen at five-star level, but the one with the most unanswered corporate questions - worth a call only after the licence number arrives",
+          "lat": null,
+          "lng": null,
+          "approx": false,
+          "sources": [
+            "https://vietbrighttravel.com/"
+          ],
+          "tier": null,
+          "nameHe": "ויטברייט טראוול — ננסי",
+          "areaHe": "מפעילה ארצית; ממתינים להצעה מתוקנת",
+          "whatHe": "הסוכנות שמאחורי הצעת v1 של 3,369 דולר לאדם ב-4 כוכבים ו-4,068 ב-5, עם חמש טיסות פנים ומלונות נקובים בשם. נשלחה הצעה נגדית והגרסה המתוקנת לא חזרה. היא אינה מפרסמת מספר רישיון VNAT.",
+          "whyHe": "המבנה הזול ביותר שנראה ברמת 5 כוכבים, אבל זה עם הכי הרבה שאלות תאגידיות פתוחות — שווה שיחה רק אחרי שיגיע מספר הרישיון",
+          "priceUnit": null,
+          "priceLow": null,
+          "priceHigh": null,
+          "avoid": false,
+          "kind": null,
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "whatsapp": "+84968537258",
+          "email": "info@vietbrighttravel.com",
+          "weather": "low"
+        }
       ]
     }
   },
@@ -820,7 +935,8 @@ const POI_DATA = {
       "markets": 2,
       "nightlife": 0,
       "spa": 0,
-      "logistics": 1
+      "logistics": 1,
+      "contacts": 0
     },
     "poi": {
       "hotels": [
@@ -1271,7 +1387,8 @@ const POI_DATA = {
           "video": null,
           "weather": "medium"
         }
-      ]
+      ],
+      "contacts": []
     }
   },
   "sapa": {
@@ -1292,7 +1409,8 @@ const POI_DATA = {
       "markets": 1,
       "nightlife": 0,
       "spa": 0,
-      "logistics": 1
+      "logistics": 1,
+      "contacts": 0
     },
     "poi": {
       "hotels": [
@@ -1667,7 +1785,8 @@ const POI_DATA = {
           "video": null,
           "weather": "medium"
         }
-      ]
+      ],
+      "contacts": []
     }
   },
   "ha-long": {
@@ -1688,7 +1807,8 @@ const POI_DATA = {
       "markets": 0,
       "nightlife": 0,
       "spa": 0,
-      "logistics": 1
+      "logistics": 1,
+      "contacts": 0
     },
     "poi": {
       "hotels": [
@@ -2038,7 +2158,8 @@ const POI_DATA = {
           "video": null,
           "weather": "medium"
         }
-      ]
+      ],
+      "contacts": []
     }
   },
   "ninh-binh": {
@@ -2059,7 +2180,8 @@ const POI_DATA = {
       "markets": 2,
       "nightlife": 0,
       "spa": 0,
-      "logistics": 2
+      "logistics": 2,
+      "contacts": 0
     },
     "poi": {
       "hotels": [
@@ -2549,7 +2671,8 @@ const POI_DATA = {
           "video": null,
           "weather": "medium"
         }
-      ]
+      ],
+      "contacts": []
     }
   },
   "phong-nha": {
@@ -2570,7 +2693,8 @@ const POI_DATA = {
       "markets": 1,
       "nightlife": 0,
       "spa": 0,
-      "logistics": 3
+      "logistics": 3,
+      "contacts": 0
     },
     "poi": {
       "hotels": [
@@ -3129,7 +3253,8 @@ const POI_DATA = {
           "video": null,
           "weather": "medium"
         }
-      ]
+      ],
+      "contacts": []
     }
   },
   "hue": {
@@ -3150,7 +3275,8 @@ const POI_DATA = {
       "markets": 1,
       "nightlife": 0,
       "spa": 0,
-      "logistics": 2
+      "logistics": 2,
+      "contacts": 0
     },
     "poi": {
       "hotels": [
@@ -3639,7 +3765,8 @@ const POI_DATA = {
           "video": null,
           "weather": "medium"
         }
-      ]
+      ],
+      "contacts": []
     }
   },
   "hoi-an": {
@@ -3660,7 +3787,8 @@ const POI_DATA = {
       "markets": 2,
       "nightlife": 3,
       "spa": 2,
-      "logistics": 2
+      "logistics": 2,
+      "contacts": 1
     },
     "poi": {
       "hotels": [
@@ -3952,24 +4080,26 @@ const POI_DATA = {
         {
           "name": "Cham Island snorkeling / diving day trip",
           "area": "Cu Lao Cham, ~15-20 minutes by speedboat from Cua Dai",
-          "what": "A cluster of eight granite islands and a UNESCO Biosphere Reserve offshore from Hoi An, with coral reefs reachable by snorkeling from the surface or diving to around 6 metres or more.",
-          "why": "The area's clearest water and only real reef diving/snorkeling, a short speedboat hop from the mainland",
+          "what": "A cluster of eight granite islands and a UNESCO Biosphere Reserve offshore from Hoi An, with coral reefs reachable by snorkeling from the surface or diving to around 6 metres or more. The diving season runs March to September. From about October the northeast monsoon makes the crossing unreliable, the Hoi An dive centres close, and boat services are suspended for days at a time.",
+          "why": "Out of season for this trip. The dates fall squarely inside the monsoon shutdown, so treat any operator still selling it for late October or November as selling weather they cannot deliver. The reef diving for these dates is An Thoi in the south of Phu Quoc, where November is the start of the best window",
           "lat": null,
           "lng": null,
           "approx": false,
           "sources": [
             "https://www.yourvietnamtravel.com/cham-island-snorkeling",
-            "https://divehoian.com/hoi-an-diving-and-snorkelling-trips/"
+            "https://divehoian.com/hoi-an-diving-and-snorkelling-trips/",
+            "https://hoiandaytrip.com/cham-island-diving/",
+            "https://hoiandaytrip.com/cham-island-weather-by-month/"
           ],
           "tier": null,
           "nameHe": "שנורקלינג וצלילה באיי צ'אם",
           "areaHe": "קו לאו צ'אם, כ-15 עד 20 דקות בסירה מהירה מקואה דאי",
-          "whatHe": "אשכול של שמונה איי גרניט ושמורת ביוספרה של אונסק\"ו מול חופי הוי אן, עם שוניות אלמוגים שנגישות בשנורקלינג מהפנים או בצלילה לעומק של כשישה מטרים ומעלה.",
-          "whyHe": "המים הצלולים ביותר באזור, והצלילה והשנורקלינג האמיתיים היחידים בשונית, במרחק קפיצה קצרה בסירה מהיבשת",
+          "whatHe": "אשכול של שמונה איי גרניט ושמורת ביוספרה של אונסק\"ו מול חופי הוי אן, עם שוניות אלמוגים שנגישות בשנורקלינג מהפנים או בצלילה לעומק של כשישה מטרים ומעלה. עונת הצלילה נמשכת ממרץ עד ספטמבר. מאוקטובר בערך המונסון הצפון-מזרחי הופך את המעבר ללא אמין, מרכזי הצלילה בהוי אן נסגרים, ושירותי הסירות מושבתים לימים שלמים.",
+          "whyHe": "מחוץ לעונה עבור הטיול הזה. התאריכים נופלים בדיוק בתוך ההשבתה של המונסון, ולכן מפעיל שעדיין מוכר את זה לסוף אוקטובר או לנובמבר מוכר מזג אוויר שאינו יכול לספק. צלילת השונית לתאריכים האלה היא אן תוי בדרום פו קוק, שם נובמבר פותח את החלון הטוב ביותר",
           "priceUnit": null,
           "priceLow": null,
           "priceHigh": null,
-          "avoid": false,
+          "avoid": true,
           "kind": null,
           "isDish": false,
           "signal": null,
@@ -4553,6 +4683,36 @@ const POI_DATA = {
           "video": null,
           "weather": "medium"
         }
+      ],
+      "contacts": [
+        {
+          "name": "Hoi An Wanderlust - Mr. Quan",
+          "area": "Based in Hoi An; quoted the whole trip",
+          "what": "The agency behind the cheapest full-trip quote on file - roughly 4,550 to 4,750 USD for two, ground transport plus two flights, with the rest on night trains and private car. It is based here in Hoi An, so this is the one operator on the list you could walk in on.",
+          "why": "The cheapest structure, and the one with the most unresolved questions - 42 sent and unanswered, itinerary changes made without asking, a non-refundable 875 USD prepayment, and no published VNAT licence. Get the Dora Cruise commitment in writing before paying anything",
+          "lat": null,
+          "lng": null,
+          "approx": false,
+          "sources": [
+            "https://www.tripadvisor.com/Attraction_Review-g298082-d23990307-Reviews-Hoi_An_Wanderlust-Hoi_An_Quang_Nam_Province.html"
+          ],
+          "tier": null,
+          "nameHe": "הוי אן וונדרלסט — מר קוואן",
+          "areaHe": "יושבת בהוי אן; תמחרה את כל הטיול",
+          "whatHe": "הסוכנות שמאחורי ההצעה הזולה ביותר לכל הטיול שבתיק — כ-4,550 עד 4,750 דולר לשניים, תחבורה יבשתית ושתי טיסות, כשהשאר ברכבות לילה וברכב פרטי. היא יושבת כאן בהוי אן, ולכן זו המפעילה היחידה ברשימה שאפשר פשוט להיכנס אליה.",
+          "whyHe": "המבנה הזול ביותר, וגם זה עם הכי הרבה שאלות פתוחות: 42 נשלחו ולא נענו, שינויים במסלול שנעשו בלי לשאול, מקדמה של 875 דולר שאינה מוחזרת, ואין רישיון VNAT מפורסם. לקבל את ההתחייבות לספינת Dora בכתב לפני תשלום כלשהו",
+          "priceUnit": null,
+          "priceLow": null,
+          "priceHigh": null,
+          "avoid": false,
+          "kind": null,
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "whatsapp": "+84905486259",
+          "email": "hoianwanderlust@gmail.com",
+          "weather": "low"
+        }
       ]
     }
   },
@@ -4574,7 +4734,8 @@ const POI_DATA = {
       "markets": 1,
       "nightlife": 0,
       "spa": 0,
-      "logistics": 2
+      "logistics": 2,
+      "contacts": 0
     },
     "poi": {
       "hotels": [
@@ -4949,7 +5110,8 @@ const POI_DATA = {
           "video": null,
           "weather": "medium"
         }
-      ]
+      ],
+      "contacts": []
     }
   },
   "lak-lake": {
@@ -4970,7 +5132,8 @@ const POI_DATA = {
       "markets": 0,
       "nightlife": 0,
       "spa": 0,
-      "logistics": 1
+      "logistics": 1,
+      "contacts": 0
     },
     "poi": {
       "hotels": [
@@ -5180,7 +5343,8 @@ const POI_DATA = {
           "video": null,
           "weather": "medium"
         }
-      ]
+      ],
+      "contacts": []
     }
   },
   "da-lat": {
@@ -5201,7 +5365,8 @@ const POI_DATA = {
       "markets": 2,
       "nightlife": 0,
       "spa": 0,
-      "logistics": 2
+      "logistics": 2,
+      "contacts": 0
     },
     "poi": {
       "hotels": [
@@ -5744,7 +5909,8 @@ const POI_DATA = {
           "video": null,
           "weather": "medium"
         }
-      ]
+      ],
+      "contacts": []
     }
   },
   "saigon": {
@@ -5765,7 +5931,8 @@ const POI_DATA = {
       "markets": 2,
       "nightlife": 3,
       "spa": 0,
-      "logistics": 3
+      "logistics": 3,
+      "contacts": 0
     },
     "poi": {
       "hotels": [
@@ -6574,7 +6741,8 @@ const POI_DATA = {
           "video": null,
           "weather": "medium"
         }
-      ]
+      ],
+      "contacts": []
     }
   },
   "mekong": {
@@ -6595,7 +6763,8 @@ const POI_DATA = {
       "markets": 1,
       "nightlife": 0,
       "spa": 0,
-      "logistics": 2
+      "logistics": 2,
+      "contacts": 0
     },
     "poi": {
       "hotels": [
@@ -6998,7 +7167,8 @@ const POI_DATA = {
           "video": null,
           "weather": "medium"
         }
-      ]
+      ],
+      "contacts": []
     }
   },
   "phu-quoc": {
@@ -7019,7 +7189,8 @@ const POI_DATA = {
       "markets": 1,
       "nightlife": 0,
       "spa": 0,
-      "logistics": 2
+      "logistics": 2,
+      "contacts": 0
     },
     "poi": {
       "hotels": [
@@ -7232,7 +7403,7 @@ const POI_DATA = {
           "name": "Rainbow Divers fun dive, An Thoi archipelago",
           "area": "An Thoi, southern Phu Quoc",
           "what": "A twin-deck dive boat trip from Vietnam's longest-established PADI dive centre to reef sites in the An Thoi islands, groups capped at 4 divers per guide, with a full lunch served on board after the southern route.",
-          "why": "The certified-diver option for the trip's PADI Open Water diver - Vietnam's oldest PADI operation, running since 1996, at $65-85 per dive, cheaper than equivalent sites in Thailand or Indonesia",
+          "why": "The certified-diver option for the trip's PADI Open Water diver - Vietnam's oldest PADI operation, running since 1996, at $65-85 per dive, cheaper than equivalent sites in Thailand or Indonesia. The timing is right - the An Thoi season runs November to April, visibility reaches 15-20 metres from late November, and the southern sites average about 8 metres, which sits well inside the 18-metre Open Water limit",
           "lat": null,
           "lng": null,
           "approx": false,
@@ -7244,7 +7415,7 @@ const POI_DATA = {
           "nameHe": "צלילת הנאה עם ריינבו דייברס",
           "areaHe": "אן תוי, דרום פו קוק",
           "whatHe": "יציאה בסירת צלילה דו-סיפונית ממרכז הצלילה PADI הוותיק בוויאטנם אל אתרי שונית באיי אן תוי, בקבוצות של עד ארבעה צוללים למדריך, עם ארוחת צהריים מלאה על הסיפון אחרי המסלול הדרומי.",
-          "whyHe": "האפשרות לצולל המוסמך של הטיול — מפעילת ה-PADI הוותיקה בוויאטנם, פועלת מאז 1996, ב-65 עד 85 דולר לצלילה, זול מאתרים מקבילים בתאילנד או באינדונזיה",
+          "whyHe": "האפשרות לצולל המוסמך של הטיול — מפעילת ה-PADI הוותיקה בוויאטנם, פועלת מאז 1996, ב-65 עד 85 דולר לצלילה, זול מאתרים מקבילים בתאילנד או באינדונזיה. התזמון מדויק — עונת אן תוי נמשכת מנובמבר עד אפריל, הראות מגיעה ל-15 עד 20 מטר מסוף נובמבר, והאתרים הדרומיים בעומק ממוצע של כשמונה מטרים — הרבה בתוך גבול 18 המטרים של Open Water",
           "priceUnit": null,
           "priceLow": null,
           "priceHigh": null,
@@ -7451,7 +7622,8 @@ const POI_DATA = {
           "video": null,
           "weather": "medium"
         }
-      ]
+      ],
+      "contacts": []
     }
   }
 };

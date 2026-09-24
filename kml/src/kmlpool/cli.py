@@ -225,6 +225,12 @@ def _record_to_web_json(rec: Record) -> dict:
     data["isDish"] = rec.is_dish
     data["signal"] = rec.signal
     data["video"] = rec.video
+    # Contact routes ship only when present. The page renders whatsapp as the
+    # purple action the link convention reserves for reaching a person; the
+    # other two are plain tel: and mailto: links.
+    for src, key in ((rec.whatsapp, "whatsapp"), (rec.phone, "phone"), (rec.email, "email")):
+        if src:
+            data[key] = src
     # Weather sensitivity travels with the record so the page never has to
     # guess it. The per-record override wins; otherwise the category default.
     data["weather"] = rec.weather or WEATHER_SENSITIVITY.get(rec.category, "medium")

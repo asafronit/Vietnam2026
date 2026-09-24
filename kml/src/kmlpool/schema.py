@@ -16,6 +16,11 @@ CATEGORIES = (
     "nightlife",
     "spa",
     "logistics",
+    # People rather than places: the agent who booked the trip, the dive club,
+    # the fixer who handles the visa. They belong in a field guide for the same
+    # reason a phone number belongs in a wallet, and the website already had
+    # the category, the label and the purple WhatsApp button waiting for them.
+    "contacts",
 )
 
 # עד כמה כל סוג פעילות נפגע מגשם. נקרא ע"י האתר לחישוב ההיתכנות,
@@ -31,6 +36,7 @@ WEATHER_SENSITIVITY = {
     "nightlife": "low",
     "spa": "low",
     "logistics": "medium",
+    "contacts": "low",
 }
 SENSITIVITY_LEVELS = ("high", "medium", "low")
 
@@ -51,7 +57,10 @@ class Record:
     what: str      # what this place is, for someone who has never heard of it
     why: str       # why it earned a place in the pool
     confidence: str
-    geocode_query: str
+    # Defaulted so a placeless record -- a dish, a person -- can omit it
+    # entirely in YAML. The requirement has not moved: validate_record still
+    # rejects an empty query for every category that describes a place.
+    geocode_query: str = ""
     sources: list[str] = field(default_factory=list)
     # Hebrew content. `name` deliberately stays in Latin script -- it is what
     # you show a taxi driver -- but everything a reader reads gets a Hebrew
@@ -81,6 +90,12 @@ class Record:
     # Deliberately NOT folded into `kind`, which already means cuisine and is
     # still `vietnamese` for every one of these.
     is_dish: bool = False
+    # Ways to reach a person. `whatsapp` is digits with or without punctuation;
+    # the website strips everything but digits for the wa.me URL and renders it
+    # as the purple action the link convention reserves for a human contact.
+    whatsapp: str | None = None
+    phone: str | None = None
+    email: str | None = None
     # דריסה ידנית של רגישות מזג האוויר, כשברירת המחדל של הקטגוריה שגויה
     # (מערה בקטגוריית attractions, שוק מקורה בקטגוריית markets).
     weather: str | None = None
@@ -128,14 +143,21 @@ def validate_record(rec: Record) -> list[str]:
         errors.append(f"{where}: why must not restate what")
     if not rec.area.strip():
         errors.append(f"{where}: area is empty")
-    # A dish has no address, so it has nothing to geocode and is not required
-    # to carry a query. Every other record still is.
-    if not rec.is_dish and not rec.geocode_query.strip():
+    # A dish has no address, and neither does a person: geocoding either one
+    # produces a pin in a city centre that lies about where the thing is.
+    # Both skip the geocoder and stay out of the review queue.
+    _placeless = rec.is_dish or rec.category == "contacts"
+    if not _placeless and not rec.geocode_query.strip():
         errors.append(f"{where}: geocode_query is empty")
     if rec.is_dish and rec.category not in ("food", "street_food", "restaurants"):
         errors.append(f"{where}: is_dish only applies to food categories")
     if rec.confidence not in CONFIDENCE_LEVELS:
         errors.append(f"{where}: confidence must be one of {CONFIDENCE_LEVELS}")
+
+    # A contact nobody can reach is not a contact. The whole point of the
+    # category is the tap that opens WhatsApp, the dialler or the mail app.
+    if rec.category == "contacts" and not (rec.whatsapp or rec.phone or rec.email):
+        errors.append(f"{where}: a contact needs a whatsapp, phone or email")
 
     if rec.weather is not None and rec.weather not in SENSITIVITY_LEVELS:
         errors.append(f"{where}: weather must be one of {SENSITIVITY_LEVELS}")

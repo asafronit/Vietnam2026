@@ -37,6 +37,11 @@ ICON_HREFS: dict[str, str] = {
     "nightlife":   f"{_SHAPES}/bars.png",
     "spa":         f"{_SHAPES}/parks.png",
     "logistics":   f"{_SHAPES}/airports.png",
+    # Contacts never reach the KML — a person has no coordinates, so the
+    # record is never shippable and the layer is dropped as empty. The entry
+    # exists because styles are emitted per category before that test runs,
+    # and because a category without an icon is a gap the style test refuses.
+    "contacts":    f"{_SHAPES}/phone.png",
 }
 
 

@@ -31,6 +31,7 @@ CATEGORY_LABELS = {
     "nightlife": "Nightlife",
     "spa": "Spa & Massage",
     "logistics": "Logistics",
+    "contacts": "Contacts",
 }
 
 # My Maps allows ten layers per map and the pool has more categories than

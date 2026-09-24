@@ -233,20 +233,30 @@ attractions:
   area: Cu Lao Cham, ~15-20 minutes by speedboat from Cua Dai
   what: A cluster of eight granite islands and a UNESCO Biosphere Reserve offshore from Hoi
     An, with coral reefs reachable by snorkeling from the surface or diving to around 6 metres
-    or more.
-  why: The area's clearest water and only real reef diving/snorkeling, a short speedboat hop
-    from the mainland
-  confidence: medium
+    or more. The diving season runs March to September. From about October the northeast
+    monsoon makes the crossing unreliable, the Hoi An dive centres close, and boat services
+    are suspended for days at a time.
+  why: Out of season for this trip. The dates fall squarely inside the monsoon shutdown, so
+    treat any operator still selling it for late October or November as selling weather they
+    cannot deliver. The reef diving for these dates is An Thoi in the south of Phu Quoc,
+    where November is the start of the best window
+  confidence: high
+  avoid: true
   geocode_query: Cu Lao Cham Cham Island, Hoi An, Vietnam
   sources:
   - https://www.yourvietnamtravel.com/cham-island-snorkeling
   - https://divehoian.com/hoi-an-diving-and-snorkelling-trips/
+  - https://hoiandaytrip.com/cham-island-diving/
+  - https://hoiandaytrip.com/cham-island-weather-by-month/
   name_he: שנורקלינג וצלילה באיי צ'אם
   area_he: קו לאו צ'אם, כ-15 עד 20 דקות בסירה מהירה מקואה דאי
   what_he: אשכול של שמונה איי גרניט ושמורת ביוספרה של אונסק"ו מול חופי הוי אן, עם שוניות אלמוגים
-    שנגישות בשנורקלינג מהפנים או בצלילה לעומק של כשישה מטרים ומעלה.
-  why_he: המים הצלולים ביותר באזור, והצלילה והשנורקלינג האמיתיים היחידים בשונית, במרחק קפיצה
-    קצרה בסירה מהיבשת
+    שנגישות בשנורקלינג מהפנים או בצלילה לעומק של כשישה מטרים ומעלה. עונת הצלילה נמשכת ממרץ
+    עד ספטמבר. מאוקטובר בערך המונסון הצפון-מזרחי הופך את המעבר ללא אמין, מרכזי הצלילה בהוי
+    אן נסגרים, ושירותי הסירות מושבתים לימים שלמים.
+  why_he: מחוץ לעונה עבור הטיול הזה. התאריכים נופלים בדיוק בתוך ההשבתה של המונסון, ולכן מפעיל
+    שעדיין מוכר את זה לסוף אוקטובר או לנובמבר מוכר מזג אוויר שאינו יכול לספק. צלילת השונית
+    לתאריכים האלה היא אן תוי בדרום פו קוק, שם נובמבר פותח את החלון הטוב ביותר
 - name: Cam Thanh coconut forest basket boat ride
   area: Bay Mau coconut forest, Cam Thanh village, ~5km from Old Town
   what: A round bamboo 'basket boat' (thung chai) paddled through the water canals of a palm
@@ -689,4 +699,28 @@ spa:
   area_he: ליד חוף אן באנג
   what_he: ספא ליד חוף אן באנג שמציע טיפולי גוף, כפות רגליים וצמחים, הרחק מההמון של העיר העתיקה.
   why_he: 4.9 מתוך 5 מלמעלה מ-1,300 ביקורות, וקרוב מספיק לחוף כדי לשלב עם שחייה
+contacts:
+- name: Hoi An Wanderlust - Mr. Quan
+  area: Based in Hoi An; quoted the whole trip
+  what: The agency behind the cheapest full-trip quote on file - roughly 4,550 to 4,750 USD
+    for two, ground transport plus two flights, with the rest on night trains and private
+    car. It is based here in Hoi An, so this is the one operator on the list you could walk
+    in on.
+  why: The cheapest structure, and the one with the most unresolved questions - 42 sent and
+    unanswered, itinerary changes made without asking, a non-refundable 875 USD prepayment,
+    and no published VNAT licence. Get the Dora Cruise commitment in writing before paying
+    anything
+  confidence: high
+  whatsapp: '+84905486259'
+  email: hoianwanderlust@gmail.com
+  sources:
+  - https://www.tripadvisor.com/Attraction_Review-g298082-d23990307-Reviews-Hoi_An_Wanderlust-Hoi_An_Quang_Nam_Province.html
+  name_he: הוי אן וונדרלסט — מר קוואן
+  area_he: יושבת בהוי אן; תמחרה את כל הטיול
+  what_he: הסוכנות שמאחורי ההצעה הזולה ביותר לכל הטיול שבתיק — כ-4,550 עד 4,750 דולר לשניים,
+    תחבורה יבשתית ושתי טיסות, כשהשאר ברכבות לילה וברכב פרטי. היא יושבת כאן בהוי אן, ולכן זו
+    המפעילה היחידה ברשימה שאפשר פשוט להיכנס אליה.
+  why_he: 'המבנה הזול ביותר, וגם זה עם הכי הרבה שאלות פתוחות: 42 נשלחו ולא נענו, שינויים
+    במסלול שנעשו בלי לשאול, מקדמה של 875 דולר שאינה מוחזרת, ואין רישיון VNAT מפורסם. לקבל
+    את ההתחייבות לספינת Dora בכתב לפני תשלום כלשהו'
 hebrew_complete: true

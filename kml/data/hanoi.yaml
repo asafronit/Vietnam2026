@@ -623,4 +623,87 @@ spa:
     ולקרקפת מקבלים את הביקורות החזקות ביותר ברובע.
   why_he: טיפול חפיפת הראש הוא טקס ויאטנמי שאין לו מקבילה אמיתית בבית, והוא עולה פחות מכוס
     קפה בתל אביב
+contacts:
+- name: Kelly - visa assistance
+  area: Works remotely; relevant before departure and on arrival
+  what: The contact handling the e-visa application. The number is a valid Vietnamese mobile
+    in VinaPhone's 094 range and reaches WhatsApp. It carries no public business listing -
+    nothing indexed ties it to a registered visa agency - which is ordinary for Vietnamese
+    fixers who work from a personal mobile, but means the agency behind it cannot be checked
+    from outside.
+  why: The named human for the one document without which the trip does not start. Worth
+    knowing alongside her - the e-visa is a direct government application at evisa.gov.vn
+    costing 25 USD for single entry, so any quote well above that is the fee for having
+    someone else fill in the form, not the visa itself
+  confidence: medium
+  whatsapp: '+84947222598'
+  sources:
+  - https://evisa.gov.vn/
+  - https://lawnet.vn/en/laws/what-is-the-current-list-of-prefixes-of-vietnamese-phone-numbers-of-mobile-network-operators-what-i-134777.html
+  name_he: קלי — סיוע בוויזה
+  area_he: עובדת מרחוק; רלוונטית לפני היציאה ובהגעה
+  what_he: 'איש הקשר שמטפלת בבקשת ה-E-Visa. המספר הוא מספר סלולרי ויאטנמי תקין בטווח 094 של
+    VinaPhone ומגיע לוואטסאפ. אין לו רישום עסקי ציבורי: שום תוצאה מאונדקסת לא קושרת אותו
+    לסוכנות ויזות רשומה. זה רגיל אצל מסדירים ויאטנמים שעובדים ממספר פרטי, אבל פירושו
+    שאי אפשר לבדוק מבחוץ את הגוף שמאחוריו.'
+  why_he: 'האדם בשם למסמך היחיד שבלעדיו הטיול לא מתחיל. שווה לדעת לצידה: ה-E-Visa היא בקשה
+    ממשלתית ישירה ב-evisa.gov.vn שעולה 25 דולר לכניסה יחידה, ולכן כל מחיר גבוה ממנו בהרבה
+    הוא שכר על מילוי הטופס ולא מחיר הוויזה'
+- name: Funny Travel - Vicky
+  area: Nationwide operator; the leading quote
+  what: The travel agency behind the v3 quote of 3,520 USD per person, covering 4-5 star
+    hotels, four internal flights and the visa. It names its hotels rather than describing
+    them by class, and carries 944 TripAdvisor reviews.
+  why: The front-running operator as of the last round, and the number to call first if
+    anything on a booked day goes wrong
+  confidence: high
+  whatsapp: '+84919481386'
+  email: funnytravelvietnam@gmail.com
+  sources:
+  - https://www.tripadvisor.com/Attraction_Review-g293924-d10008301-Reviews-Funny_Travel-Hanoi.html
+  name_he: פאני טראוול — ויקי
+  area_he: מפעילה ארצית; ההצעה המובילה
+  what_he: סוכנות הנסיעות שמאחורי הצעת v3 של 3,520 דולר לאדם, הכוללת מלונות 4 עד 5 כוכבים,
+    ארבע טיסות פנים וויזה. היא נוקבת בשמות המלונות ולא מתארת אותם לפי דירוג, ויש לה 944
+    ביקורות בטריפאדוויזר.
+  why_he: המפעילה המובילה נכון לסבב האחרון, והמספר שאליו מתקשרים ראשון אם משהו משתבש ביום
+    מוזמן
+- name: ATT Asia Travel - Huong Giang
+  area: Nationwide operator; quote received, re-quote outstanding
+  what: Tour manager at ATT Asia Travel. The quote on file is 4,430 USD per person at single
+    occupancy and includes five Vietnam Airlines flights, a Mon Cheri cruise and canyoning;
+    a re-quote for shared occupancy was requested and has not arrived.
+  why: A live alternative if the leading operator falls through, and the only quote that
+    priced the domestic legs on Vietnam Airlines throughout
+  confidence: high
+  phone: '+84904160918'
+  email: sale@attasiatravel.com
+  sources:
+  - https://attasiatravel.com/
+  name_he: ATT אסיה טראוול — הואונג ז'יאנג
+  area_he: מפעילה ארצית; התקבלה הצעה, ממתינים לתמחור מחדש
+  what_he: מנהלת סיורים ב-ATT אסיה טראוול. ההצעה שבתיק היא 4,430 דולר לאדם בחדר ליחיד וכוללת
+    חמש טיסות של ויטנאם איירליינס, שייט Mon Cheri וקניוניניג. התבקש תמחור מחדש לחדר משותף
+    והוא טרם הגיע.
+  why_he: חלופה חיה אם המפעילה המובילה תיפול, וההצעה היחידה שתמחרה את כל הקטעים הפנימיים על
+    ויטנאם איירליינס
+- name: VietBright Travel - Nancy
+  area: Nationwide operator; awaiting a revised quote
+  what: The agency behind the v1 quote of 3,369 USD per person at four star and 4,068 at
+    five, with five internal flights and named hotels. A counter-offer was sent and the
+    revised version has not come back. It publishes no VNAT licence number.
+  why: The cheapest structure seen at five-star level, but the one with the most unanswered
+    corporate questions - worth a call only after the licence number arrives
+  confidence: medium
+  whatsapp: '+84968537258'
+  email: info@vietbrighttravel.com
+  sources:
+  - https://vietbrighttravel.com/
+  name_he: ויטברייט טראוול — ננסי
+  area_he: מפעילה ארצית; ממתינים להצעה מתוקנת
+  what_he: הסוכנות שמאחורי הצעת v1 של 3,369 דולר לאדם ב-4 כוכבים ו-4,068 ב-5, עם חמש טיסות
+    פנים ומלונות נקובים בשם. נשלחה הצעה נגדית והגרסה המתוקנת לא חזרה. היא אינה מפרסמת מספר
+    רישיון VNAT.
+  why_he: המבנה הזול ביותר שנראה ברמת 5 כוכבים, אבל זה עם הכי הרבה שאלות תאגידיות פתוחות —
+    שווה שיחה רק אחרי שיגיע מספר הרישיון
 hebrew_complete: true

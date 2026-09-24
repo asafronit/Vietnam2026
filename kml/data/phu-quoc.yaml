@@ -169,7 +169,9 @@ attractions:
     served on board after the southern route.
   why: The certified-diver option for the trip's PADI Open Water diver - Vietnam's oldest
     PADI operation, running since 1996, at $65-85 per dive, cheaper than equivalent sites
-    in Thailand or Indonesia
+    in Thailand or Indonesia. The timing is right - the An Thoi season runs November to
+    April, visibility reaches 15-20 metres from late November, and the southern sites
+    average about 8 metres, which sits well inside the 18-metre Open Water limit
   confidence: high
   geocode_query: Rainbow Divers, Duong Dong, Phu Quoc, Vietnam
   sources:
@@ -181,7 +183,9 @@ attractions:
     אן תוי, בקבוצות של עד ארבעה צוללים למדריך, עם ארוחת צהריים מלאה על הסיפון אחרי המסלול
     הדרומי.
   why_he: האפשרות לצולל המוסמך של הטיול — מפעילת ה-PADI הוותיקה בוויאטנם, פועלת מאז 1996,
-    ב-65 עד 85 דולר לצלילה, זול מאתרים מקבילים בתאילנד או באינדונזיה
+    ב-65 עד 85 דולר לצלילה, זול מאתרים מקבילים בתאילנד או באינדונזיה. התזמון מדויק — עונת
+    אן תוי נמשכת מנובמבר עד אפריל, הראות מגיעה ל-15 עד 20 מטר מסוף נובמבר, והאתרים הדרומיים
+    בעומק ממוצע של כשמונה מטרים — הרבה בתוך גבול 18 המטרים של Open Water
 - name: Discover Scuba Diving for beginners
   area: An Thoi archipelago, southern Phu Quoc
   what: A no-certification-required introduction to scuba, run one-on-one with an instructor
