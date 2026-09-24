@@ -266,11 +266,16 @@ logistics:
 - name: Border Area Entry Permit for the Ha Giang loop
   area: Quan Ba, Yen Minh, Dong Van and Meo Vac districts
   what: A permit required for foreign travellers entering these border districts, costing
-    roughly 200,000-250,000 VND (about $10) and checked at checkpoints and hotel registration;
-    most easy-rider and tour operators arrange it as part of the booking, or it can be obtained
-    at the Ha Giang City immigration office.
-  why: Not optional and increasingly enforced from mid-2026 — worth confirming with whichever
-    operator books the loop before departure
+    260,000 VND (about $10) and checked at checkpoints and hotel registration; most easy-rider
+    and tour operators arrange it as part of the booking, or it can be obtained at the
+    provincial immigration office in Ha Giang City. Riding yourself needs a second document
+    the permit does not cover - a physical International Driving Permit under the 1968 Vienna
+    Convention, endorsed for category A. Note the province itself was merged into Tuyen Quang
+    in the July 2025 reorganisation, so the issuing office may be named differently.
+  why: Not optional, and enforcement tightened sharply from June 2026. Riding without it
+    carries a 500,000 to 2,000,000 VND fine and a turn-around back to the city. Confirm with
+    whichever operator books the loop before departure, and bring the IDP from home - it
+    cannot be issued in Vietnam
   confidence: medium
   geocode_query: Ha Giang City Immigration Office, Vietnam
   sources:
@@ -278,11 +283,14 @@ logistics:
   - https://www.timeout.com/asia/news/ha-giang-loop-permits-what-travellers-need-to-know-before-riding-vietnams-famous-mountain-route-061426
   name_he: היתר כניסה לאזור הגבול
   area_he: מחוזות קוואן בה, יין מין, דונג ואן ומאו ואק
-  what_he: היתר הנדרש מנוסעים זרים שנכנסים למחוזות הגבול האלה. עולה כ-200,000 עד 250,000 דונג,
-    כעשרה דולר, ונבדק במחסומים וברישום במלון. רוב מפעילי הסיורים מסדירים אותו כחלק מההזמנה,
-    ואפשר גם להוציא אותו במשרד ההגירה בעיר הא ז'יאנג.
-  why_he: אינו רשות, והאכיפה מתהדקת מאמצע 2026 — שווה לאשר מול המפעיל שמזמין את הלולאה לפני
-    היציאה
+  what_he: היתר הנדרש מנוסעים זרים שנכנסים למחוזות הגבול האלה. עולה 260,000 דונג, כעשרה דולר,
+    ונבדק במחסומים וברישום במלון. רוב מפעילי הסיורים מסדירים אותו כחלק מההזמנה, ואפשר גם
+    להוציא אותו במשרד ההגירה המחוזי בעיר הא ז'יאנג. מי שרוכב בעצמו צריך מסמך שני שההיתר
+    אינו מכסה — רישיון נהיגה בינלאומי פיזי לפי אמנת וינה 1968, עם סיווג A. לידיעה — המחוז
+    עצמו מוזג לתוך טואן קוואנג בארגון מחדש של יולי 2025, ולכן שם המשרד המנפיק עשוי להשתנות.
+  why_he: אינו רשות, והאכיפה התהדקה בחדות מיוני 2026. רכיבה בלעדיו גוררת קנס של 500,000 עד
+    2,000,000 דונג והחזרה לעיר. לאשר מול המפעיל שמזמין את הלולאה לפני היציאה, ולהביא את
+    הרישיון הבינלאומי מהבית — אי אפשר להנפיק אותו בווייטנאם
 street_food:
 - name: Ha Giang-style banh cuon (in broth)
   kind: vietnamese

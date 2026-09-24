@@ -277,24 +277,32 @@ markets:
 street_food:
 - name: Bun Cha Huong Lien
   kind: vietnamese
-  signal: michelin_bib
+  signal: michelin_selected
   dish: Bun cha
   area: Hai Ba Trung
   what: A plain three-storey shop that has grilled pork patties over charcoal since the 1990s,
-    served in a bowl of broth with noodles and herbs.
-  why: Michelin Bib Gourmand, and the dish Hanoi is best known for
+    served in a bowl of broth with noodles and herbs. Obama and Anthony Bourdain ate here in
+    2016 and the shop has traded on it since - prices rose, the plastic stools became chairs,
+    and the queue is now mostly visitors.
+  why: The Obama shop, and worth it only if that is the point - it sits in the Michelin Guide
+    selection but carries no Bib Gourmand, and locals rate the sauce and the marinade below
+    what it was. Better bun cha is two streets away
   confidence: high
   geocode_query: Bun Cha Huong Lien, Le Van Huu, Hanoi, Vietnam
   sources:
-  - https://guide.michelin.com/vn/en/ha-noi-municipality/hanoi/restaurants
+  - https://guide.michelin.com/vn/en/ha-noi-municipality/hanoi/restaurant/bun-cha-huong-lien
+  - https://deeptravelmag.com/is-the-obama-bun-cha-huong-lien-in-hanoi-worth-it-a-local-tells-all/
   coords:
     lat: 21.0180504
     lng: 105.8538843
   name_he: בון צ'ה הואונג ליין
   area_he: האי בה צ'ונג
   what_he: חנות פשוטה בת שלוש קומות שצולה קציצות חזיר על גחלים מאז שנות ה-90, ומגישה אותן
-    בקערת מרק עם אטריות ועשבי תיבול.
-  why_he: ביב גורמנד של מישלן, והמנה שהאנוי מזוהה איתה יותר מכל
+    בקערת מרק עם אטריות ועשבי תיבול. אובמה ואנתוני בורדיין אכלו כאן ב-2016, והמקום חי על
+    זה מאז — המחירים עלו, שרפרפי הפלסטיק הפכו לכיסאות, והתור היום הוא בעיקר מבקרים.
+  why_he: החנות של אובמה, ושווה רק אם זו הנקודה — היא נמצאת בסלקציה של מדריך מישלן אך
+    אינה נושאת ביב גורמנד, ומקומיים מדרגים את הרוטב והמרינדה מתחת למה שהיו. בון צ'ה טוב
+    יותר נמצא שני רחובות משם
 - name: Pho Gia Truyen (Bat Dan)
   kind: vietnamese
   signal: michelin_bib

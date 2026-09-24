@@ -147,26 +147,33 @@ hotels:
 must_see:
 - name: Cai Rang Floating Market
   area: Cai Rang, about 6 km southwest of central Can Tho
-  what: A river market of roughly 200-300 local trading boats and produce barges, each hanging
-    a sample of its goods from a tall pole so buyers can spot it from the water. It runs from
-    before sunrise and is essentially over as a wholesale market by mid-morning.
-  why: The largest and most authentic floating market left in the delta, but only if timed
-    for its real dawn trading hours, not a mid-morning visit
+  what: A river market where trading boats hang a sample of their goods from a tall pole so
+    buyers spot it from the water. It is shrinking fast - around 400 boats at its 1990s peak,
+    roughly 200 registered today, and reports of as few as 40 actually trading on a good
+    morning as roads replaced the river. Tour boats now outnumber traders. It runs from before
+    sunrise and is over as a wholesale market by mid-morning.
+  why: Still the largest floating market left in the delta, but go for what it is now rather
+    than the photographs - and only at dawn. Touts and price gouging were reported through
+    2026. Phong Dien, upstream, sits on a channel too narrow for the big tour boats and keeps
+    more real trading
   confidence: high
   geocode_query: Cai Rang Floating Market, Can Tho, Vietnam
   sources:
   - https://vemekong.com/guide-to-can-tho-floating-markets/
-  - https://www.travelfish.org/sight_profile/vietnam/mekong_delta/can_tho/can_tho/2496
+  - https://www.aljazeera.com/features/2025/2/28/vietnams-floating-markets-face-uncertain-future-as-life-moves-onshore
+  - https://news.tuoitre.vn/are-business-and-management-practices-sinking-cai-rang-floating-market-in-vietnam-103260224205542246.htm
   coords:
     lat: 10.0023957
     lng: 105.7443925
   name_he: השוק הצף קאי ראנג
   area_he: קאי ראנג, כ-6 קילומטר מדרום-מערב למרכז קאן טו
-  what_he: שוק נהר של כ-200 עד 300 סירות מסחר מקומיות ודוברות תוצרת, שכל אחת תולה דוגמה מסחורתה
-    על מוט גבוה כדי שקונים יזהו אותה מהמים. פועל מלפני הזריחה, וכשוק סיטונאי הוא למעשה נגמר
-    עד אמצע הבוקר.
-  why_he: השוק הצף הגדול והאותנטי ביותר שנותר בדלתה, אבל רק אם מתזמנים לשעות המסחר האמיתיות
-    עם שחר ולא לביקור באמצע הבוקר
+  what_he: שוק נהר שבו סירות המסחר תולות דוגמה מסחורתן על מוט גבוה כדי שקונים יזהו אותן מהמים.
+    הוא מצטמק במהירות — כ-400 סירות בשיא שנות ה-90, כ-200 רשומות היום, ודיווחים על 40 בלבד
+    שסוחרות בפועל בבוקר טוב, אחרי שהכבישים החליפו את הנהר. סירות התיירים כבר רבות מהסוחרות.
+    פועל מלפני הזריחה, וכשוק סיטונאי נגמר עד אמצע הבוקר.
+  why_he: עדיין השוק הצף הגדול ביותר שנותר בדלתה, אבל ללכת אליו לפי מה שהוא היום ולא לפי
+    התצלומים — ורק עם שחר. במהלך 2026 דווחו נגישה אגרסיבית והפקעת מחירים. פונג דיין, במעלה
+    הזרם, יושב על תעלה צרה מדי לסירות התיירים הגדולות ושומר על מסחר אמיתי יותר
 attractions:
 - name: My Tho and Ben Tre coconut candy village
   area: My Tho and Ben Tre provinces, upper Mekong Delta

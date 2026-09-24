@@ -388,8 +388,8 @@ street_food:
   area: Da Nang
   what: A small Da Nang street-food shop that entered the Bib Gourmand list in the most recent
     selection.
-  why: One of only three new Da Nang entries in the 2026 guide, so it has not yet been found
-    by the tour groups
+  why: A Bib Gourmand that sits away from the riverfront circuit, so it has not been reshaped
+    by tour-group traffic the way the central addresses have
   confidence: medium
   geocode_query: Co Chu Nho, Da Nang, Vietnam
   sources:
@@ -401,8 +401,8 @@ street_food:
   name_he: קו צ'ו נו
   area_he: דה נאנג
   what_he: חנות אוכל רחוב קטנה בדה נאנג שנכנסה לרשימת הביב גורמנד במהדורה האחרונה.
-  why_he: אחת משלוש כניסות חדשות בלבד של דה נאנג למדריך 2026, ולכן קבוצות התיירים עוד לא מצאו
-    אותה
+  why_he: ביב גורמנד שיושב מחוץ למסלול שעל גדת הנהר, ולכן לא עוצב מחדש בידי תנועת קבוצות
+    התיירים כפי שקרה לכתובות המרכזיות
 restaurants:
 - name: White Rose Restaurant
   kind: vietnamese

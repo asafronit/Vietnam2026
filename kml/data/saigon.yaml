@@ -160,10 +160,13 @@ must_see:
 - name: Notre-Dame Cathedral Basilica of Saigon
   area: District 1
   what: A twin-towered red-brick cathedral built by French colonists in the 1880s from bricks
-    imported from Marseille. It has been under scaffolded restoration since the late 2010s,
-    with completion pushed to 2027, but the front square remains open and Mass is still held.
-  why: The city's best-known colonial landmark, worth seeing even mid-restoration for the
-    square and the surrounding post office
+    imported from Marseille. It has been under scaffolded restoration since July 2017; the
+    2027 target has since slipped further, and scaffolding and hoardings still limit access.
+    The front square remains open and Mass is still held. Two gold-plated crosses went back
+    on the towers in March 2026.
+  why: The city's best-known colonial landmark - but expect a building wrapped in scaffolding,
+    not the postcard. The square and the Central Post Office beside it are the reason to stand
+    there
   confidence: high
   geocode_query: Notre-Dame Cathedral Basilica of Saigon, Ho Chi Minh City, Vietnam
   sources:
@@ -171,10 +174,11 @@ must_see:
   name_he: קתדרלת נוטרדאם
   area_he: מחוז 1
   what_he: קתדרלת לבנים אדומות עם שני מגדלים, שבנו המתיישבים הצרפתים בשנות ה-80 של המאה ה-19
-    מלבנים שיובאו ממרסיי. בשיפוץ בפיגומים מאז סוף שנות ה-2010, והסיום נדחה ל-2027, אבל הכיכר
-    שלפניה פתוחה והמיסה עדיין נערכת.
-  why_he: האתר הקולוניאלי המוכר ביותר בעיר, ושווה לראות גם באמצע שיפוץ בזכות הכיכר ובניין
-    הדואר שלידה
+    מלבנים שיובאו ממרסיי. בשיפוץ בפיגומים מאז יולי 2017; יעד 2027 נדחה מאז עוד, ופיגומים
+    וגדרות עדיין מגבילים את הגישה. הכיכר שלפניה פתוחה והמיסה עדיין נערכת. שני צלבים מצופי
+    זהב הוחזרו למגדלים במרץ 2026.
+  why_he: האתר הקולוניאלי המוכר ביותר בעיר — אבל לצפות לבניין עטוף פיגומים ולא לגלויה. הכיכר
+    ובניין הדואר המרכזי שלצידה הם הסיבה לעמוד שם
 attractions:
 - name: Cu Chi Tunnels
   area: Cu Chi District, about 1.5 hours from central Saigon
@@ -516,26 +520,56 @@ logistics:
   what_he: איסוף של גראב נמצא מחוץ לאולם הנוסעים, אחרי תחנת המוניות עם המונה. נסיעה למחוז
     1 לוקחת 25 עד 50 דקות תלוי בתנועה ועולה בערך 110,000 עד 250,000 דונג.
   why_he: זול וצפוי יותר מתחנת המוניות, עם מחיר קבוע שמוצג לפני ההזמנה
+- name: Terminal T3 is a separate building, not a gate
+  area: Tan Son Nhat International Airport (SGN)
+  what: T3 opened in April 2025 and handles domestic flights only. There is no internal
+    connection to T1 and T2 - moving between them means leaving the airport and going 3.3 to
+    3.8 km on public roads, 15 to 20 minutes by shuttle bus and longer in traffic. Vietnam
+    Airlines domestic departures use T3; international departures stay at T2.
+  why: The single easiest way to miss a flight here. A domestic leg connecting to or from an
+    international one is not a walk between gates - budget an hour on the ground, not fifteen
+    minutes, and confirm which terminal the ticket says
+  confidence: high
+  geocode_query: Tan Son Nhat International Airport Terminal 3, Ho Chi Minh City, Vietnam
+  sources:
+  - https://www.traveloka.com/en-au/explore/tips/ho-chi-minh-city-airport-tan-son-nhat-airport-terminal-3/542434
+  - https://authentiktravel.com/tan-son-nhat-t3-terminal
+  coords:
+    lat: 10.8179793
+    lng: 106.6562645
+  name_he: טרמינל T3 הוא בניין נפרד, לא שער
+  area_he: שדה התעופה הבינלאומי טאן סון נהאט
+  what_he: 'T3 נפתח באפריל 2025 ומשרת טיסות פנים בלבד. אין בינו לבין T1 ו-T2 שום מעבר פנימי:
+    מעבר ביניהם מחייב לצאת מהשדה ולנסוע 3.3 עד 3.8 קילומטר בכבישים ציבוריים, 15 עד 20 דקות
+    בשאטל ויותר בפקקים. טיסות הפנים של ויטנאם איירליינס יוצאות מ-T3; היציאה הבינלאומית
+    נשארת ב-T2.'
+  why_he: הדרך הקלה ביותר לפספס כאן טיסה. חיבור בין קטע פנים-ארצי לבינלאומי אינו הליכה בין
+    שערים — לתקצב שעה על הקרקע ולא רבע שעה, ולוודא איזה טרמינל רשום על הכרטיס
 - name: No airport metro link yet
   area: Tan Son Nhat International Airport (SGN)
   what: Saigon's first metro line (Line 1, Ben Thanh-Suoi Tien) opened in December 2024, but
     no metro or rail line reaches the airport; a dedicated airport link is not expected until
-    around 2030.
+    around 2030. Two underground stations serving all three terminals are planned on the
+    Tan Son Nhat-Phu Huu line, still unbuilt. Long Thanh, the new airport out in Dong Nai,
+    does not open commercially until 1 December 2026.
   why: Rules out the metro as an airport option, which travelers researching the new 2024
-    line sometimes assume is already connected
+    line sometimes assume is already connected - and rules out Long Thanh for this trip
   confidence: medium
   geocode_query: Tan Son Nhat International Airport, Ho Chi Minh City, Vietnam
   sources:
   - https://aifly.one/2026/03/ho-chi-minh-city-tan-son-nhat-airport-guide/
+  - https://e.vnexpress.net/news/news/traffic/ho-chi-minh-city-unveils-underground-metro-stations-to-link-all-3-tan-son-nhat-airport-terminals-5102103.html
   coords:
     lat: 10.8179793
     lng: 106.6562645
   name_he: אין עדיין קו מטרו לשדה התעופה
   area_he: שדה התעופה הבינלאומי טאן סון נהאט
   what_he: קו המטרו הראשון של סייגון, קו 1 מבן תאן לסואוי טיין, נפתח בדצמבר 2024, אבל שום
-    קו מטרו או רכבת אינו מגיע לשדה התעופה. חיבור ייעודי לשדה אינו צפוי לפני 2030 בערך.
+    קו מטרו או רכבת אינו מגיע לשדה התעופה. חיבור ייעודי לשדה אינו צפוי לפני 2030 בערך. שתי
+    תחנות תת-קרקעיות שישרתו את שלושת הטרמינלים מתוכננות על הקו מטאן סון נהאט לפו הו, וטרם
+    נבנו. לונג תאן, שדה התעופה החדש בדונג נאי, נפתח מסחרית רק ב-1 בדצמבר 2026.
   why_he: פוסל את המטרו כאפשרות לשדה התעופה, מה שנוסעים שקוראים על הקו החדש מ-2024 לפעמים
-    מניחים שכבר קיים
+    מניחים שכבר קיים — ופוסל את לונג תאן לטיול הזה
 nightlife:
 - name: The Enigma Mansion
   area: District 1
