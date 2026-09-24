@@ -6,11 +6,10 @@ hotels:
   price_high: 160
   price_checked: '2026-08-16'
   area: Yang Tao, Lien Son, reached only by boat
-  what: A small eco-lodge accessible only by boat crossing, with 15 safari-style tents,
-    four lakeside bungalows and a wooden longhouse restaurant on the shore of Lak
-    Lake.
-  why: The consensus pick of two independently-researched agent proposals for this
-    leg, and the only proper lodge actually on the lake
+  what: A small eco-lodge accessible only by boat crossing, with 15 safari-style tents, four
+    lakeside bungalows and a wooden longhouse restaurant on the shore of Lak Lake.
+  why: The consensus pick of two independently-researched agent proposals for this leg, and
+    the only proper lodge actually on the lake
   confidence: high
   geocode_query: Lak Tented Camp, Lak Lake, Dak Lak, Vietnam
   sources:
@@ -20,6 +19,12 @@ hotels:
     lat: 12.4279787
     lng: 108.1812233
   location_precision: approximate
+  name_he: מחנה האוהלים לאק
+  area_he: יאנג טאו, ליין סון, בגישה בסירה בלבד
+  what_he: אכסניה אקולוגית קטנה שמגיעים אליה רק בשייט, עם 15 אוהלי ספארי, ארבעה בונגלווים
+    על שפת האגם ומסעדה בבית אורך מעץ על החוף.
+  why_he: הבחירה המוסכמת של שתי הצעות סוכנות שנחקרו בנפרד לרגל הזו, והאכסניה האמיתית היחידה
+    שיושבת ממש על האגם
 - name: Bao Dai Villa (Lak Lake)
   tier: 3
   tier_official: false
@@ -27,10 +32,10 @@ hotels:
   price_high: 30
   price_checked: '2026-08-16'
   area: Hill above Lak Lake, Lien Son town
-  what: The 1951 hunting lodge Emperor Bao Dai built on a hill overlooking Lak Lake,
-    now run as a simple guesthouse with the old dining room serving as a restaurant.
-  why: The only accommodation directly on the hill above the lake, inside a genuine
-    former royal building
+  what: The 1951 hunting lodge Emperor Bao Dai built on a hill overlooking Lak Lake, now run
+    as a simple guesthouse with the old dining room serving as a restaurant.
+  why: The only accommodation directly on the hill above the lake, inside a genuine former
+    royal building
   confidence: medium
   geocode_query: 30 Au Co, Lien Son, Lak, Dak Lak, Vietnam
   sources:
@@ -39,13 +44,17 @@ hotels:
   coords:
     lat: 12.4155999
     lng: 108.1816523
+  name_he: וילת באו דאי
+  area_he: גבעה מעל אגם לאק, העיירה ליין סון
+  what_he: בקתת הציד שהקיסר באו דאי בנה ב-1951 על גבעה שמשקיפה על אגם לאק, ומתופעלת היום כבית
+    הארחה פשוט, כשחדר האוכל הישן משמש כמסעדה.
+  why_he: האכסניה היחידה ממש על הגבעה שמעל האגם, בתוך מבנה מלכותי לשעבר אמיתי
 must_see:
 - name: Lak Lake
   area: Lien Son, Lak district
-  what: The largest natural freshwater lake in the Central Highlands, ringed by rice
-    paddies and forest, crossed by hand-carved dugout canoes rather than motorboats.
-  why: The centrepiece of this leg of the route, and the reason the itinerary stops
-    here overnight
+  what: The largest natural freshwater lake in the Central Highlands, ringed by rice paddies
+    and forest, crossed by hand-carved dugout canoes rather than motorboats.
+  why: The centrepiece of this leg of the route, and the reason the itinerary stops here overnight
   confidence: high
   geocode_query: Lak Lake, Dak Lak, Vietnam
   sources:
@@ -54,36 +63,50 @@ must_see:
   coords:
     lat: 12.4232112
     lng: 108.1776243
+  name_he: אגם לאק
+  area_he: ליין סון, מחוז לאק
+  what_he: האגם הטבעי הגדול ביותר של מים מתוקים ברמות המרכז, מוקף שדות אורז ויער, וחוצים אותו
+    בסירות חצובות מגזע עץ ולא בסירות מנוע.
+  why_he: לב הרגל הזו של המסלול, והסיבה שהתוכנית עוצרת כאן ללינה
 - name: Jun Village (Buon Jun)
   area: South shore of Lak Lake
-  what: A M'nong ethnic-minority settlement of wood and rattan stilt houses on the
-    lake's south shore, where villagers still weave brocade and fish from dugout canoes.
-  why: The most accessible M'nong village on the lake, and the standard stop on the
-    easy-rider route through here
+  what: A M'nong ethnic-minority settlement of wood and rattan stilt houses on the lake's
+    south shore, where villagers still weave brocade and fish from dugout canoes.
+  why: The most accessible M'nong village on the lake, and the standard stop on the easy-rider
+    route through here
   confidence: medium
   geocode_query: Jun Village, Lak Lake, Dak Lak, Vietnam
   sources:
   - https://www.dalattrip.com/fly/jun-village-in-central-highland-of-vietnam/
   - https://authentiktravel.com/lak-lake-a-treasure-of-m-nong-in-dak-lak
+  name_he: הכפר ג'ון
+  area_he: החוף הדרומי של אגם לאק
+  what_he: יישוב של בני המיעוט מנונג מבתי כלונסאות מעץ ומקש על החוף הדרומי של האגם, שבו התושבים
+    עדיין אורגים ברוקד ודגים מסירות חצובות.
+  why_he: כפר המנונג הנגיש ביותר על האגם, והעצירה הסטנדרטית במסלול הרוכבים כאן
 attractions:
 - name: Lak Lake dugout canoe crossing
   area: Boat launch near Jun village / Lak Tented Camp
-  what: A traditional single-log dugout canoe, hand-paddled across Lak Lake at dawn
-    or dusk, arranged through Jun village boatmen or through the tented camp.
-  why: The way locals actually move across the lake, and a quieter alternative to
-    the elephant rides sold nearby in the village
+  what: A traditional single-log dugout canoe, hand-paddled across Lak Lake at dawn or dusk,
+    arranged through Jun village boatmen or through the tented camp.
+  why: The way locals actually move across the lake, and a quieter alternative to the elephant
+    rides sold nearby in the village
   confidence: medium
   geocode_query: Lak Lake boat launch, Lien Son, Dak Lak, Vietnam
   sources:
   - https://www.laktentedcamp.com/
   - https://www.tripadvisor.com/ShowUserReviews-g3389563-d11875783-r717309876-Lak_Tented_Camp-Lien_Son_Dak_Lak_Province.html
+  name_he: חציית האגם בסירה חצובה
+  area_he: מעגן ליד הכפר ג'ון ומחנה האוהלים
+  what_he: סירה מסורתית חצובה מגזע עץ יחיד, שחותרים בה ידנית על פני אגם לאק עם שחר או עם דמדומים.
+    מסודרת דרך שייטי הכפר ג'ון או דרך מחנה האוהלים.
+  why_he: כך המקומיים באמת נעים על האגם, וחלופה שקטה יותר לרכיבות הפילים שנמכרות בכפר לידו
 logistics:
 - name: Getting to Lak Tented Camp
   area: Lien Son, on National Highway 27
-  what: Lak Lake sits on National Highway 27 about 50km / 1.5 hours south of Buon
-    Ma Thuot and roughly 160km / 4 hours north of Da Lat; the tented camp itself is
-    reached by a short boat crossing from the village dock, not by driving to the
-    door.
+  what: Lak Lake sits on National Highway 27 about 50km / 1.5 hours south of Buon Ma Thuot
+    and roughly 160km / 4 hours north of Da Lat; the tented camp itself is reached by a short
+    boat crossing from the village dock, not by driving to the door.
   why: 'The one non-obvious detail that shapes the overnight stop: the hotel is boat-access
     only'
   confidence: high
@@ -91,17 +114,29 @@ logistics:
   sources:
   - https://www.laktentedcamp.com/how-to-travel-to-lak/
   - https://www.aroundtheworld360.com/distance/buon-ma-thuot_vn/lak_vn/
+  name_he: איך מגיעים למחנה האוהלים
+  area_he: ליין סון, על כביש ארצי 27
+  what_he: אגם לאק יושב על כביש ארצי 27, כ-50 קילומטר ושעה וחצי מדרום לבואן מה תואט, וכ-160
+    קילומטר וארבע שעות מצפון לדה לאט. אל מחנה האוהלים עצמו מגיעים בשייט קצר ממזח הכפר, ולא
+    בנסיעה עד הדלת.
+  why_he: 'הפרט הלא-מובן-מאליו שמעצב את עצירת הלינה: למלון יש גישה בסירה בלבד'
 restaurants:
 - name: Com Lam Ga Nuong Ho Lak (Pai R'Lam)
   kind: vietnamese
   signal: traveler_recommended
   area: Buon Le, on the lake shore
-  what: A stilt-house restaurant on Lak Lake serving the Central Highlands staple
-    of chicken grilled over charcoal alongside rice steamed inside a bamboo tube.
-  why: One of very few sit-down restaurants actually at the lake, rather than back
-    in Buon Ma Thuot
+  what: A stilt-house restaurant on Lak Lake serving the Central Highlands staple of chicken
+    grilled over charcoal alongside rice steamed inside a bamboo tube.
+  why: One of very few sit-down restaurants actually at the lake, rather than back in Buon
+    Ma Thuot
   confidence: medium
   geocode_query: Com Lam Ga Nuong Ho Lak, Lak Lake, Dak Lak, Vietnam
   sources:
   - https://www.tripadvisor.com.vn/Restaurant_Review-g670918-d25188323-Reviews-Com_Lam_Ga_Nu_ng_H_Lak-Buon_Ma_Thuot_Dak_Lak_Province.html
   - https://wanderlog.com/place/details/7813963/pai-rl%C4%83m-c%C6%A1m-lam-g%C3%A0-n%C6%B0%E1%BB%9Bng-h%E1%BB%93-l%C4%83k
+  name_he: קום לאם גא נואונג הו לאק
+  area_he: בואן לה, על שפת האגם
+  what_he: 'מסעדה בבית כלונסאות על אגם לאק, שמגישה את מנת היסוד של רמות המרכז: עוף צלוי על
+    גחלים לצד אורז מאודה בתוך קנה במבוק.'
+  why_he: אחת ממעט מאוד מסעדות לשבת בהן שנמצאות ממש באגם, ולא בחזרה בבואן מה תואט
+hebrew_complete: true

@@ -6,10 +6,10 @@ hotels:
   price_high: 200
   price_checked: '2026-08-16'
   area: Long Beach, Ganh Dau
-  what: A large Marriott-chain beachfront resort on Long Beach with multiple pools,
-    several restaurants and direct sand access.
-  why: Officially rated 5-star with an international chain standard, and its entry-level
-    rooms stay under the trip's price cap despite the brand
+  what: A large Marriott-chain beachfront resort on Long Beach with multiple pools, several
+    restaurants and direct sand access.
+  why: Officially rated 5-star with an international chain standard, and its entry-level rooms
+    stay under the trip's price cap despite the brand
   confidence: high
   geocode_query: Sheraton Phu Quoc Long Beach Resort, Phu Quoc, Vietnam
   sources:
@@ -18,6 +18,12 @@ hotels:
   coords:
     lat: 10.3375473
     lng: 103.8498843
+  name_he: שרתון לונג ביץ'
+  area_he: לונג ביץ', גאן דאו
+  what_he: ריזורט חוף גדול של רשת מריוט על לונג ביץ', עם כמה בריכות, מסעדות אחדות וגישה ישירה
+    לחול.
+  why_he: מדורג רשמית 5 כוכבים בסטנדרט של רשת בינלאומית, וחדרי הכניסה שלו נשארים מתחת לתקרת
+    המחיר של הטיול למרות המותג
 - name: Dusit Princess Moonrise Beach Resort
   tier: 5
   tier_official: false
@@ -25,17 +31,22 @@ hotels:
   price_high: 180
   price_checked: '2026-08-16'
   area: Cua Lap, near Long Beach
-  what: A Dusit-brand beach resort three minutes' walk from Long Beach, with a pool,
-    kids' club and free shuttle, ranked the top-rated hotel in its ward by traveler
-    reviews.
-  why: Marketed and reviewed as 5-star by the resort and by independent travel-agent
-    research, though one booking aggregator describes it as built to 4-star standard
-    - flagged here as self-declared
+  what: A Dusit-brand beach resort three minutes' walk from Long Beach, with a pool, kids'
+    club and free shuttle, ranked the top-rated hotel in its ward by traveler reviews.
+  why: Marketed and reviewed as 5-star by the resort and by independent travel-agent research,
+    though one booking aggregator describes it as built to 4-star standard - flagged here
+    as self-declared
   confidence: medium
   geocode_query: Dusit Princess Moonrise Beach Resort, Phu Quoc, Vietnam
   sources:
   - https://www.tripadvisor.com/Hotel_Review-g12596009-d14077912-Reviews-Dusit_Princess_Moonrise_Beach_Resort-Cua_Lap_Duong_To_Phu_Quoc_Island_Kien_Giang_Pr.html
   - https://us.trip.com/hotels/phu-quoc-island-hotel-detail-19573631/dusit-princess-moonrise-beach-resort/
+  name_he: דוסיט פרינסס מונרייז
+  area_he: קואה לאפ, ליד לונג ביץ'
+  what_he: ריזורט חוף של רשת דוסיט, שלוש דקות הליכה מלונג ביץ', עם בריכה, מועדון ילדים והסעה
+    חופשית. מדורג המלון המוביל ברובע שלו לפי ביקורות מטיילים.
+  why_he: משווק ומדורג כ-5 כוכבים ע"י הריזורט וע"י מחקר סוכנות עצמאי, אם כי אתר הזמנות אחד
+    מתאר אותו כבנוי לתקן 4 כוכבים — ולכן מסומן כאן כהצהרה עצמית
 - name: L'Azure Resort and Spa
   tier: 4
   tier_official: true
@@ -43,10 +54,10 @@ hotels:
   price_high: 115
   price_checked: '2026-08-16'
   area: Duong Dong
-  what: A small rustic-eco resort with a private sand beach, pool and spa, officially
-    rated 4-star, built around a low-rise, garden-heavy design rather than a tower.
-  why: Officially rated 4-star with a 9.4-9.5 guest score, and the most consistently
-    well-reviewed 4-star in the pool
+  what: A small rustic-eco resort with a private sand beach, pool and spa, officially rated
+    4-star, built around a low-rise, garden-heavy design rather than a tower.
+  why: Officially rated 4-star with a 9.4-9.5 guest score, and the most consistently well-reviewed
+    4-star in the pool
   confidence: high
   geocode_query: L'Azure Resort and Spa, Phu Quoc, Vietnam
   sources:
@@ -55,6 +66,11 @@ hotels:
   coords:
     lat: 10.2080717
     lng: 103.9616615
+  name_he: לאזור ריזורט
+  area_he: דואונג דונג
+  what_he: ריזורט אקולוגי כפרי וקטן עם חוף חול פרטי, בריכה וספא, מדורג רשמית 4 כוכבים, בנוי
+    בגובה נמוך ועתיר גינון ולא כמגדל.
+  why_he: 4 כוכבים רשמיים עם ציון אורחים 9.4 עד 9.5, וה-4 כוכבים המדורג ביותר באופן עקבי במאגר
 - name: AVS Hotel Phu Quoc
   tier: 4
   tier_official: true
@@ -62,10 +78,10 @@ hotels:
   price_high: 156
   price_checked: '2026-08-16'
   area: Duong Dong, 100m from the beach
-  what: A modern mid-size hotel a hundred metres from the beach, officially rated
-    4-star, with a pool, spa and airport transfers.
-  why: Officially rated 4-star, ranked in the top 20 hotels on the island by guest
-    reviews despite its budget-adjacent price
+  what: A modern mid-size hotel a hundred metres from the beach, officially rated 4-star,
+    with a pool, spa and airport transfers.
+  why: Officially rated 4-star, ranked in the top 20 hotels on the island by guest reviews
+    despite its budget-adjacent price
   confidence: high
   geocode_query: AVS Hotel Phu Quoc, Duong Dong, Phu Quoc, Vietnam
   sources:
@@ -74,6 +90,12 @@ hotels:
   coords:
     lat: 10.2007569
     lng: 103.9638791
+  name_he: AVS
+  area_he: דואונג דונג, 100 מטר מהחוף
+  what_he: מלון מודרני בגודל בינוני במאה מטר מהחוף, מדורג רשמית 4 כוכבים, עם בריכה, ספא והסעות
+    לשדה התעופה.
+  why_he: 4 כוכבים רשמיים, ומדורג בעשרים המלונות המובילים באי לפי ביקורות אורחים למרות מחיר
+    שצמוד לתקציבי
 - name: Hung Vuong Resort
   tier: 3
   tier_official: true
@@ -81,15 +103,20 @@ hotels:
   price_high: 20
   price_checked: '2026-08-16'
   area: Duong Dong, near Sung Hung Pagoda
-  what: A small officially 3-star resort with a pool and garden rooms, well outside
-    the resort-strip price bracket.
-  why: Officially rated 3-star yet reviewed at guest scores more typical of a much
-    higher tier
+  what: A small officially 3-star resort with a pool and garden rooms, well outside the resort-strip
+    price bracket.
+  why: Officially rated 3-star yet reviewed at guest scores more typical of a much higher
+    tier
   confidence: high
   geocode_query: Hung Vuong Resort, Phu Quoc, Vietnam
   sources:
   - https://www.tripadvisor.com/Hotel_Review-g469418-d12703873-Reviews-Hung_Vuong_Resort-Phu_Quoc_Island_Kien_Giang_Province.html
   - https://en.planetofhotels.com/vietnam/phu-quoc/hung-vuong-resort
+  name_he: הונג וואונג
+  area_he: דואונג דונג, ליד פגודת סונג הונג
+  what_he: ריזורט קטן עם 3 כוכבים רשמיים, עם בריכה וחדרי גן, הרבה מתחת לטווח המחירים של רצועת
+    הריזורטים.
+  why_he: 3 כוכבים רשמיים ועם זאת ציוני אורחים אופייניים לדרגה גבוהה בהרבה
 - name: Dao Ngoc Hotel
   tier: 3
   tier_official: true
@@ -97,23 +124,29 @@ hotels:
   price_high: 35
   price_checked: '2026-08-16'
   area: Duong Dong, near Dinh Cau night market
-  what: A 75-room officially 3-star hotel in central Duong Dong, a short walk from
-    the night market and Dinh Cau beach.
-  why: Officially rated 3-star with the most central location of the budget options,
-    walkable to the night market
+  what: A 75-room officially 3-star hotel in central Duong Dong, a short walk from the night
+    market and Dinh Cau beach.
+  why: Officially rated 3-star with the most central location of the budget options, walkable
+    to the night market
   confidence: medium
   geocode_query: Dao Ngoc Hotel, Duong Dong, Phu Quoc, Vietnam
   sources:
   - https://www.tripadvisor.com/Hotel_Review-g1184679-d12452460-Reviews-Dao_Ngoc_Hotel-Duong_Dong_Phu_Quoc_Island_Kien_Giang_Province.html
   - https://www.booking.com/hotel/vn/dao-ngoc-phu-quoc1.html
+  name_he: דאו נגוק
+  area_he: דואונג דונג, ליד שוק הלילה דין קאו
+  what_he: מלון של 75 חדרים עם 3 כוכבים רשמיים במרכז דואונג דונג, במרחק הליכה קצר משוק הלילה
+    ומחוף דין קאו.
+  why_he: 3 כוכבים רשמיים עם המיקום המרכזי ביותר מבין האפשרויות התקציביות, ובמרחק הליכה משוק
+    הלילה
 must_see:
 - name: Hon Thom Cable Car
   area: An Thoi, southern Phu Quoc
-  what: A three-cable gondola line running almost 8 km from the An Thoi coast over
-    open sea to Hon Thom island, in 30-passenger cabins over a 15-minute ride, passing
-    above two smaller islands en route.
-  why: Guinness World Record holder for the longest three-wire sea-crossing cable
-    car, and the way most visitors reach Hon Thom's Sun World park
+  what: A three-cable gondola line running almost 8 km from the An Thoi coast over open sea
+    to Hon Thom island, in 30-passenger cabins over a 15-minute ride, passing above two smaller
+    islands en route.
+  why: Guinness World Record holder for the longest three-wire sea-crossing cable car, and
+    the way most visitors reach Hon Thom's Sun World park
   confidence: high
   geocode_query: Hon Thom Cable Car, An Thoi, Phu Quoc, Vietnam
   sources:
@@ -122,40 +155,58 @@ must_see:
   coords:
     lat: 9.9920077
     lng: 104.0124425
+  name_he: הרכבל להון תום
+  area_he: אן תוי, דרום פו קוק
+  what_he: קו רכבל תלת-כבלי שנמתח כמעט 8 קילומטר מחוף אן תוי מעל ים פתוח אל האי הון תום, בתאים
+    ל-30 נוסעים ובנסיעה של רבע שעה, מעל שני איים קטנים יותר בדרך.
+  why_he: שיא גינס לרכבל תלת-כבלי חוצה-ים הארוך בעולם, והדרך שבה רוב המבקרים מגיעים לפארק
+    סאן וורלד שבהון תום
 attractions:
 - name: Rainbow Divers fun dive, An Thoi archipelago
   area: An Thoi, southern Phu Quoc
-  what: A twin-deck dive boat trip from Vietnam's longest-established PADI dive centre
-    to reef sites in the An Thoi islands, groups capped at 4 divers per guide, with
-    a full lunch served on board after the southern route.
-  why: The certified-diver option for the trip's PADI Open Water diver - Vietnam's
-    oldest PADI operation, running since 1996, at $65-85 per dive, cheaper than equivalent
-    sites in Thailand or Indonesia
+  what: A twin-deck dive boat trip from Vietnam's longest-established PADI dive centre to
+    reef sites in the An Thoi islands, groups capped at 4 divers per guide, with a full lunch
+    served on board after the southern route.
+  why: The certified-diver option for the trip's PADI Open Water diver - Vietnam's oldest
+    PADI operation, running since 1996, at $65-85 per dive, cheaper than equivalent sites
+    in Thailand or Indonesia
   confidence: high
   geocode_query: Rainbow Divers, Duong Dong, Phu Quoc, Vietnam
   sources:
   - https://www.divevietnam.com/dive-centres/phu-quoc-island/
   - https://www.tripadvisor.com/Attraction_Review-g1184679-d1818391-Reviews-Rainbow_Divers-Duong_Dong_Phu_Quoc_Island_Kien_Giang_Province.html
+  name_he: צלילת הנאה עם ריינבו דייברס
+  area_he: אן תוי, דרום פו קוק
+  what_he: יציאה בסירת צלילה דו-סיפונית ממרכז הצלילה PADI הוותיק בוויאטנם אל אתרי שונית באיי
+    אן תוי, בקבוצות של עד ארבעה צוללים למדריך, עם ארוחת צהריים מלאה על הסיפון אחרי המסלול
+    הדרומי.
+  why_he: האפשרות לצולל המוסמך של הטיול — מפעילת ה-PADI הוותיקה בוויאטנם, פועלת מאז 1996,
+    ב-65 עד 85 דולר לצלילה, זול מאתרים מקבילים בתאילנד או באינדונזיה
 - name: Discover Scuba Diving for beginners
   area: An Thoi archipelago, southern Phu Quoc
-  what: A no-certification-required introduction to scuba, run one-on-one with an
-    instructor who controls depth, direction and equipment; divers go no deeper than
-    6 metres across two roughly 20-minute dives after a shallow-water briefing and
-    skills practice.
-  why: The option for the non-certified traveler to dive alongside the certified diver
-    on the same trip, rather than being left snorkeling
+  what: A no-certification-required introduction to scuba, run one-on-one with an instructor
+    who controls depth, direction and equipment; divers go no deeper than 6 metres across
+    two roughly 20-minute dives after a shallow-water briefing and skills practice.
+  why: The option for the non-certified traveler to dive alongside the certified diver on
+    the same trip, rather than being left snorkeling
   confidence: high
   geocode_query: Discover Scuba Diving, Phu Quoc, Vietnam
   sources:
   - https://divephuquoc.com/discover-scuba-diving
   - https://www.pelago.com/en-US/activity/puc6f7qxy-padi-discover-scuba-diving-for-beginners-phu-quoc/
+  name_he: צלילת היכרות למתחילים
+  area_he: ארכיפלג אן תוי, דרום פו קוק
+  what_he: היכרות עם צלילה שאינה דורשת הסמכה, אחד על אחד עם מדריך ששולט בעומק, בכיוון ובציוד.
+    הצוללים אינם יורדים מתחת לשישה מטרים, בשתי צלילות של כ-20 דקות אחרי תדריך ותרגול מיומנויות
+    במים רדודים.
+  why_he: האפשרות למטייל הלא-מוסמך לצלול לצד הצולל המוסמך באותה יציאה, במקום להישאר לשנורקל
 - name: Vinpearl Safari Phu Quoc
   area: Bai Dai, northwest Phu Quoc
-  what: Vietnam's largest wildlife conservation park, home to roughly 4,500 animals
-    across 200 species including Bengal tigers, African lions, giraffes and white
-    rhinos, viewable from a safari-style drive-through zone and walking areas.
-  why: The largest wildlife park in the country, and a full-day option that doesn't
-    require a beach or a boat
+  what: Vietnam's largest wildlife conservation park, home to roughly 4,500 animals across
+    200 species including Bengal tigers, African lions, giraffes and white rhinos, viewable
+    from a safari-style drive-through zone and walking areas.
+  why: The largest wildlife park in the country, and a full-day option that doesn't require
+    a beach or a boat
   confidence: high
   geocode_query: Vinpearl Safari Phu Quoc, Bai Dai, Vietnam
   sources:
@@ -165,15 +216,20 @@ attractions:
     lat: 10.3393964
     lng: 103.8950113
   location_precision: approximate
+  name_he: ספארי וינפרל
+  area_he: באי דאי, צפון-מערב פו קוק
+  what_he: פארק שימור החי הגדול בוויאטנם, ובו כ-4,500 בעלי חיים מ-200 מינים, כולל טיגריסים
+    בנגליים, אריות אפריקניים, ג'ירפות וקרנפים לבנים, לצפייה מאזור נסיעה בסגנון ספארי ומאזורי
+    הליכה.
+  why_he: פארק החי הגדול במדינה, ואפשרות ליום שלם שאינה דורשת חוף או סירה
 markets:
 - name: Phu Quoc Night Market (Dinh Cau)
   area: Duong Dong, Bach Dang street
-  what: A single-street night market where diners pick live fish, crab or squid from
-    tanks to be grilled or steamed to order, alongside stalls selling herring salad,
-    banh xeo pancakes and grilled scallops.
-  why: The island's main after-dark food destination since its 2016 merger with the
-    old Dinh Cau market, and the best single stop for trying local seafood specialties
-    in one place
+  what: A single-street night market where diners pick live fish, crab or squid from tanks
+    to be grilled or steamed to order, alongside stalls selling herring salad, banh xeo pancakes
+    and grilled scallops.
+  why: The island's main after-dark food destination since its 2016 merger with the old Dinh
+    Cau market, and the best single stop for trying local seafood specialties in one place
   confidence: high
   geocode_query: Phu Quoc Night Market, Duong Dong, Phu Quoc, Vietnam
   sources:
@@ -183,14 +239,20 @@ markets:
     lat: 10.3242259
     lng: 103.8581673
   location_precision: approximate
+  name_he: שוק הלילה דין קאו
+  area_he: דואונג דונג, רחוב באק דאנג
+  what_he: שוק לילה ברחוב אחד שבו הסועדים בוחרים דגים, סרטנים או דיונונים חיים מהבריכות כדי
+    שייצלו או יאודו לפי הזמנה, לצד דוכנים שמוכרים סלט הרינג, פנקייק באן שאו וצדפות צלויות.
+  why_he: יעד האוכל המרכזי של האי אחרי החשכה מאז המיזוג ב-2016 עם שוק דין קאו הישן, והעצירה
+    היחידה הטובה ביותר לטעום את מיוחדי פירות הים המקומיים במקום אחד
 logistics:
 - name: Grab and taxi from Phu Quoc International Airport
   area: Phu Quoc International Airport (PQC), about 10 km south of Duong Dong
-  what: Grab and metered taxis both operate from the terminal; a ride to the Long
-    Beach hotel strip takes about 10-15 minutes and costs roughly 100,000-200,000
-    VND, with Grab typically 10-20% cheaper than the metered taxi rate.
-  why: The airport sits close enough to the main hotel strip that a transfer is short
-    and cheap regardless of which resort is booked
+  what: Grab and metered taxis both operate from the terminal; a ride to the Long Beach hotel
+    strip takes about 10-15 minutes and costs roughly 100,000-200,000 VND, with Grab typically
+    10-20% cheaper than the metered taxi rate.
+  why: The airport sits close enough to the main hotel strip that a transfer is short and
+    cheap regardless of which resort is booked
   confidence: high
   geocode_query: Phu Quoc International Airport, Vietnam
   sources:
@@ -199,13 +261,20 @@ logistics:
   coords:
     lat: 10.1727084
     lng: 103.9921557
+  name_he: גראב ומונית משדה התעופה
+  area_he: שדה התעופה הבינלאומי פו קוק, כ-10 קילומטר מדרום לדואונג דונג
+  what_he: גראב ומוניות עם מונה פועלים שניהם מהטרמינל. נסיעה לרצועת המלונות של לונג ביץ' לוקחת
+    כ-10 עד 15 דקות ועולה בערך 100,000 עד 200,000 דונג, כשגראב זול בדרך כלל ב-10 עד 20 אחוז
+    ממחיר המונה.
+  why_he: שדה התעופה קרוב מספיק לרצועת המלונות הראשית כך שההסעה קצרה וזולה בלי קשר לריזורט
+    שהוזמן
 - name: Speedboat from the Mekong Delta (Ha Tien)
   area: Ha Tien to Bai Vong pier, Phu Quoc
-  what: Fast boats from Ha Tien on the Mekong Delta coast to Phu Quoc's Bai Vong pier
-    run 3-5 times daily between about 6am and 2pm, taking roughly 1.5 hours; slower
-    car ferries take about 3 hours on the same route.
-  why: Connects a Mekong Delta stop directly to Phu Quoc without backtracking through
-    Ho Chi Minh City for a flight
+  what: Fast boats from Ha Tien on the Mekong Delta coast to Phu Quoc's Bai Vong pier run
+    3-5 times daily between about 6am and 2pm, taking roughly 1.5 hours; slower car ferries
+    take about 3 hours on the same route.
+  why: Connects a Mekong Delta stop directly to Phu Quoc without backtracking through Ho Chi
+    Minh City for a flight
   confidence: high
   geocode_query: Bai Vong Ferry Terminal, Phu Quoc, Vietnam
   sources:
@@ -213,31 +282,48 @@ logistics:
   coords:
     lat: 10.1457488
     lng: 104.038743
+  name_he: סירה מהירה מהמקונג, הא טיין
+  area_he: מהא טיין למזח באי וונג, פו קוק
+  what_he: סירות מהירות מהא טיין שעל חוף דלתת המקונג אל מזח באי וונג בפו קוק יוצאות שלוש עד
+    חמש פעמים ביום בערך בין שש בבוקר לשתיים אחר הצהריים, ולוקחות כשעה וחצי. מעבורות מכוניות
+    איטיות יותר לוקחות כשלוש שעות באותו מסלול.
+  why_he: מחבר עצירה בדלתת המקונג ישירות לפו קוק בלי לחזור אחורה דרך סייגון לצורך טיסה
 restaurants:
 - name: Xin Chao Seafood Restaurant
   kind: vietnamese
   signal: traveler_recommended
   dish: Fresh seafood, sea view dining
   area: Duong Dong, 30 Thang 4 Street
-  what: An open-air seafood restaurant with tank-to-table dining overlooking the sea,
-    popular for sunset and evening meals.
-  why: One of the most consistently traveler-recommended seafood restaurants on the
-    island for its combination of view and quality
+  what: An open-air seafood restaurant with tank-to-table dining overlooking the sea, popular
+    for sunset and evening meals.
+  why: One of the most consistently traveler-recommended seafood restaurants on the island
+    for its combination of view and quality
   confidence: medium
   geocode_query: Xin Chao Seafood Restaurant, Duong Dong, Phu Quoc, Vietnam
   sources:
   - https://kampatour.com/phu-quoc-restaurants
+  name_he: שין צ'או
+  area_he: דואונג דונג, רחוב 30 באפריל
+  what_he: מסעדת פירות ים פתוחה שבה בוחרים מהבריכה אל השולחן, עם נוף לים, פופולרית לשקיעה
+    ולארוחות ערב.
+  why_he: ממסעדות פירות הים המומלצות ביותר באי באופן עקבי, בזכות השילוב של נוף ואיכות
 - name: Ra Khoi Seafood Restaurant
   kind: vietnamese
   signal: traveler_recommended
   dish: Fresh seafood bought directly from local fishermen
   area: Duong Dong
-  what: A no-frills local seafood restaurant sourcing its catch directly from fishermen
-    rather than a supplier, with tanks out front for picking your own fish, crab or
-    squid.
-  why: Cited repeatedly by travelers for genuine, unmarked-up seafood prices compared
-    to the tourist-strip restaurants nearby
+  what: A no-frills local seafood restaurant sourcing its catch directly from fishermen rather
+    than a supplier, with tanks out front for picking your own fish, crab or squid.
+  why: Cited repeatedly by travelers for genuine, unmarked-up seafood prices compared to the
+    tourist-strip restaurants nearby
   confidence: medium
   geocode_query: Ra Khoi Seafood Restaurant, Duong Dong, Phu Quoc, Vietnam
   sources:
   - https://kampatour.com/phu-quoc-restaurants
+  name_he: רה קוי
+  area_he: דואונג דונג
+  what_he: מסעדת פירות ים מקומית ללא יומרות, שרוכשת את השלל ישירות מהדייגים ולא מספק, עם בריכות
+    בחזית לבחירת הדג, הסרטן או הדיונון.
+  why_he: מצוטטת שוב ושוב ע"י מטיילים על מחירי פירות ים אמיתיים ולא מנופחים, בהשוואה למסעדות
+    רצועת התיירים לידה
+hebrew_complete: true

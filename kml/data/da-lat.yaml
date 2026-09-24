@@ -6,15 +6,21 @@ hotels:
   price_high: 258
   price_checked: '2026-08-16'
   area: Next to Xuan Huong Lake, city center
-  what: A 1922 French colonial hotel overlooking Xuan Huong Lake, with wood floors,
-    chandeliers, cast-iron bathtubs and a working fireplace in every room.
-  why: Da Lat's original grand hotel and its only heritage-grade 5-star, not a newly
-    self-rated property
+  what: A 1922 French colonial hotel overlooking Xuan Huong Lake, with wood floors, chandeliers,
+    cast-iron bathtubs and a working fireplace in every room.
+  why: Da Lat's original grand hotel and its only heritage-grade 5-star, not a newly self-rated
+    property
   confidence: high
   geocode_query: Dalat Palace Heritage Hotel, Da Lat, Vietnam
   sources:
   - https://www.tripadvisor.com/Hotel_Review-g293922-d299557-Reviews-Dalat_Palace_Heritage_Hotel-Da_Lat_Lam_Dong_Province.html
   - https://www.momondo.com/hotels/da-lat/Dalat-Palace-Heritage-Hotel.mhd7081.ksp
+  name_he: דה לאט פאלאס
+  area_he: ליד אגם שואן הואונג, מרכז העיר
+  what_he: מלון קולוניאלי צרפתי משנת 1922 שמשקיף על אגם שואן הואונג, עם רצפות עץ, נברשות,
+    אמבטיות יצוקות ואח פעילה בכל חדר.
+  why_he: המלון הגדול המקורי של דה לאט, וה-5 כוכבים היחיד בה בדרגת מורשת ולא נכס חדש שדירג
+    את עצמו
 - name: MerPerle Dalat Hotel
   tier: 5
   tier_official: false
@@ -22,10 +28,10 @@ hotels:
   price_high: 91
   price_checked: '2026-08-16'
   area: Next to Da Lat golf course
-  what: A large new hotel with an indoor pool, spa and its own attached winery, on
-    the edge of downtown next to Da Lat's golf course.
-  why: The highest-scoring self-declared 5-star in Da Lat, though several guests say
-    it falls short of a true 5-star standard
+  what: A large new hotel with an indoor pool, spa and its own attached winery, on the edge
+    of downtown next to Da Lat's golf course.
+  why: The highest-scoring self-declared 5-star in Da Lat, though several guests say it falls
+    short of a true 5-star standard
   confidence: medium
   geocode_query: MerPerle Dalat Hotel, Da Lat, Vietnam
   sources:
@@ -34,6 +40,11 @@ hotels:
   coords:
     lat: 11.9410283
     lng: 108.4583231
+  name_he: מרפרל
+  area_he: ליד מגרש הגולף של דה לאט
+  what_he: מלון חדש וגדול עם בריכה מקורה, ספא ויקב צמוד משלו, בקצה מרכז העיר ליד מגרש הגולף.
+  why_he: ה-5 כוכבים המוצהר-עצמית המדורג ביותר בדה לאט, אם כי כמה אורחים אומרים שהוא אינו
+    עומד בסטנדרט של 5 כוכבים אמיתי
 - name: Colline Dalat
   tier: 4
   tier_official: true
@@ -41,10 +52,10 @@ hotels:
   price_high: 76
   price_checked: '2026-08-16'
   area: Next to Da Lat night market
-  what: A 150-room modern hotel built directly onto the steps down to Da Lat's night
-    market, with a rooftop restaurant looking over the town.
-  why: Officially 4-star and zero steps from the night market; the master-spec's top
-    pick for Da Lat
+  what: A 150-room modern hotel built directly onto the steps down to Da Lat's night market,
+    with a rooftop restaurant looking over the town.
+  why: Officially 4-star and zero steps from the night market; the master-spec's top pick
+    for Da Lat
   confidence: high
   geocode_query: Colline Dalat Hotel, Da Lat, Vietnam
   sources:
@@ -53,6 +64,11 @@ hotels:
   coords:
     lat: 11.94397
     lng: 108.438126
+  name_he: קולין
+  area_he: ליד שוק הלילה של דה לאט
+  what_he: מלון מודרני של 150 חדרים שבנוי ממש על המדרגות היורדות אל שוק הלילה, עם מסעדת גג
+    שמשקיפה על העיר.
+  why_he: 4 כוכבים רשמיים ואפס צעדים משוק הלילה. הבחירה המובילה של המפרט לדה לאט
 - name: Terracotta Hotel & Resort Dalat
   tier: 4
   tier_official: false
@@ -60,8 +76,8 @@ hotels:
   price_high: 53
   price_checked: '2026-08-16'
   area: Lakeside, near Da Lat golf course
-  what: A spa hotel on the shore of a small private lake, with two restaurants, bike
-    rental and an adjoining golf course.
+  what: A spa hotel on the shore of a small private lake, with two restaurants, bike rental
+    and an adjoining golf course.
   why: A genuine lakeside 4-star property at close to 3-star prices
   confidence: medium
   geocode_query: Terracotta Hotel and Resort Dalat, Da Lat, Vietnam
@@ -72,6 +88,10 @@ hotels:
     lat: 11.894725
     lng: 108.4397193
   location_precision: approximate
+  name_he: טרקוטה
+  area_he: על שפת אגם, ליד מגרש הגולף
+  what_he: מלון ספא על חוף אגם פרטי קטן, עם שתי מסעדות, השכרת אופניים ומגרש גולף צמוד.
+  why_he: נכס 4 כוכבים אמיתי על שפת אגם, במחיר קרוב ל-3 כוכבים
 - name: TTC Hotel - Da Lat
   tier: 3
   tier_official: false
@@ -79,14 +99,18 @@ hotels:
   price_high: 53
   price_checked: '2026-08-16'
   area: Near Xuan Huong Lake, city center
-  what: A straightforward business hotel nine minutes' walk from Xuan Huong Lake,
-    with two restaurants and a small fitness room.
+  what: A straightforward business hotel nine minutes' walk from Xuan Huong Lake, with two
+    restaurants and a small fitness room.
   why: A dependable branded 3-star in the centre, not a self-rated guesthouse
   confidence: medium
   geocode_query: TTC Hotel Da Lat, Da Lat, Vietnam
   sources:
   - https://www.tripadvisor.com/Hotel_Review-g293922-d451005-Reviews-TTC_Hotel_Dalat-Da_Lat_Lam_Dong_Province.html
   - https://www.trip.com/hotels/dalat-hotel-detail-713949/ttc-hotel-premium-da-lat/
+  name_he: TTC
+  area_he: ליד אגם שואן הואונג, מרכז העיר
+  what_he: מלון עסקים פשוט, תשע דקות הליכה מאגם שואן הואונג, עם שתי מסעדות וחדר כושר קטן.
+  why_he: 3 כוכבים ממותגים ואמינים במרכז, ולא בית הארחה שדירג את עצמו
 - name: Le House Dalat
   tier: 3
   tier_official: false
@@ -94,21 +118,25 @@ hotels:
   price_high: 65
   price_checked: '2026-08-16'
   area: Near the city center
-  what: A small new boutique hotel close to the centre, with large clean rooms and
-    a breakfast menu that changes daily.
-  why: The best-reviewed budget-boutique option in Da Lat, though it carries no official
-    star rating
+  what: A small new boutique hotel close to the centre, with large clean rooms and a breakfast
+    menu that changes daily.
+  why: The best-reviewed budget-boutique option in Da Lat, though it carries no official star
+    rating
   confidence: medium
   geocode_query: Le House Dalat, Da Lat, Vietnam
   sources:
   - https://www.tripadvisor.com/Hotel_Review-g293922-d27137692-Reviews-Le_House_Dalat-Da_Lat_Lam_Dong_Province.html
   - https://www.booking.com/hotel/vn/le-house-dalat-thanh-pho-da-lat.html
+  name_he: לה האוס
+  area_he: סמוך למרכז העיר
+  what_he: מלון בוטיק חדש וקטן קרוב למרכז, עם חדרים גדולים ונקיים ותפריט ארוחת בוקר שמתחלף
+    מדי יום.
+  why_he: אפשרות הבוטיק התקציבית המדורגת ביותר בדה לאט, אם כי אין לה דירוג כוכבים רשמי
 must_see:
 - name: Crazy House (Hang Nga Guesthouse)
   area: Huynh Thuc Khang Street
-  what: A surreal building shaped like a giant banyan tree, designed by architect
-    Dang Viet Nga with tunnel staircases, mushroom-shaped rooms and almost no straight
-    lines anywhere.
+  what: A surreal building shaped like a giant banyan tree, designed by architect Dang Viet
+    Nga with tunnel staircases, mushroom-shaped rooms and almost no straight lines anywhere.
   why: Unlike anything else built in Vietnam, and walkable from the city centre
   confidence: high
   geocode_query: Crazy House Hang Nga Guesthouse, Da Lat, Vietnam
@@ -119,10 +147,15 @@ must_see:
     lat: 11.9345622
     lng: 108.4305116
   location_precision: approximate
+  name_he: הבית המשוגע
+  area_he: רחוב הויין תוק קאנג
+  what_he: מבנה סוריאליסטי בצורת עץ באניאן ענק, בתכנון האדריכלית דאנג ויאט נגה, עם מדרגות
+    במנהרות, חדרים בצורת פטריות וכמעט בלי קו ישר אחד.
+  why_he: לא דומה לשום דבר אחר שנבנה בוויאטנם, ובמרחק הליכה ממרכז העיר
 - name: Langbiang Mountain
   area: Lac Duong, ~12km north of the city
-  what: A 2,167m twin-peaked mountain reached by a bumpy 4.5km jeep track from its
-    base, with panoramic views over Da Lat's pine forests and valleys from the summit.
+  what: A 2,167m twin-peaked mountain reached by a bumpy 4.5km jeep track from its base, with
+    panoramic views over Da Lat's pine forests and valleys from the summit.
   why: The best viewpoint over the whole Da Lat plateau, and an easy half-day trip
   confidence: high
   geocode_query: Langbiang Mountain, Da Lat, Vietnam
@@ -132,12 +165,17 @@ must_see:
   coords:
     lat: 12.0472573
     lng: 108.4405826
+  name_he: הר לאנגביאנג
+  area_he: לאק דואונג, כ-12 קילומטר מצפון לעיר
+  what_he: הר דו-פסגתי בגובה 2,167 מטר, שמגיעים אליו במסלול ג'יפים משובש באורך 4.5 קילומטר
+    מהבסיס, ומהפסגה נשקף נוף פנורמי על יערות האורן והעמקים של דה לאט.
+  why_he: נקודת התצפית הטובה ביותר על כל רמת דה לאט, וטיול חצי יום קל
 - name: Xuan Huong Lake
   area: City center
-  what: A 40-hectare artificial lake built by French colonists in 1919 at the centre
-    of Da Lat, ringed by a walking path, pine trees and the old golf course.
-  why: Da Lat organises itself around this lake the way Hanoi organises itself around
-    Hoan Kiem
+  what: A 40-hectare artificial lake built by French colonists in 1919 at the centre of Da
+    Lat, ringed by a walking path, pine trees and the old golf course.
+  why: Da Lat organises itself around this lake the way Hanoi organises itself around Hoan
+    Kiem
   confidence: high
   geocode_query: Xuan Huong Lake, Da Lat, Vietnam
   sources:
@@ -146,14 +184,19 @@ must_see:
   coords:
     lat: 11.9450803
     lng: 108.4487222
+  name_he: אגם שואן הואונג
+  area_he: מרכז העיר
+  what_he: אגם מלאכותי בשטח 40 הקטאר שבנו המתיישבים הצרפתים ב-1919 במרכז דה לאט, מוקף שביל
+    הליכה, עצי אורן ומגרש הגולף הישן.
+  why_he: דה לאט מסודרת סביב האגם הזה בדיוק כפי שהאנוי מסודרת סביב הואן קיים
 attractions:
 - name: Datanla Waterfall Canyoning
   area: 7km south of the city
-  what: 'A guided descent through the Datanla waterfall gorge from a base camp at
-    the falls: rappelling down cliffs and a 30m waterfall, a zipline, a water slide
-    and a narrow rock chute nicknamed the ''washing machine''.'
-  why: Da Lat's real adventure-sport claim, and one of the few canyoning operations
-    anywhere in Vietnam
+  what: 'A guided descent through the Datanla waterfall gorge from a base camp at the falls:
+    rappelling down cliffs and a 30m waterfall, a zipline, a water slide and a narrow rock
+    chute nicknamed the ''washing machine''.'
+  why: Da Lat's real adventure-sport claim, and one of the few canyoning operations anywhere
+    in Vietnam
   confidence: high
   geocode_query: Datanla Waterfall, Da Lat, Vietnam
   sources:
@@ -162,24 +205,33 @@ attractions:
   coords:
     lat: 11.9011774
     lng: 108.4488444
+  name_he: קניונינג במפל דאטנלה
+  area_he: 7 קילומטר מדרום לעיר
+  what_he: 'ירידה מודרכת דרך ערוץ מפל דאטנלה ממחנה בסיס שליד המפל: גלישה בחבלים במורד צוקים
+    ומפל בגובה 30 מטר, אומגה, מגלשת מים ונקיק סלע צר שמכונה מכונת הכביסה.'
+  why_he: טענת ספורט ההרפתקה האמיתית של דה לאט, ואחת ממעט פעילויות קניונינג בכל ויאטנם
 - name: Datanla Alpine Coaster
   area: Datanla Waterfall, 7km south of the city
   what: A 2,400-metre gravity toboggan track through pine forest down toward the waterfall,
     with a handbrake so each rider controls their own speed.
-  why: The longest alpine coaster in Asia, and a gentler adrenaline option than the
-    canyoning next door
+  why: The longest alpine coaster in Asia, and a gentler adrenaline option than the canyoning
+    next door
   confidence: high
   geocode_query: Datanla Alpine Coaster, Da Lat, Vietnam
   sources:
   - https://www.tripadvisor.com/Attraction_Review-g293922-d2448851-Reviews-Datanla_Waterfall-Da_Lat_Lam_Dong_Province.html
   - https://ummigoeswhere.com/datanla-alpine-coaster-dalat/
+  name_he: רכבת ההרים דאטנלה
+  area_he: מפל דאטנלה, 7 קילומטר מדרום לעיר
+  what_he: מסלול מזחלת כבידה באורך 2,400 מטר דרך יער אורנים במורד אל המפל, עם בלם יד כך שכל
+    רוכב שולט במהירות שלו.
+  why_he: רכבת ההרים האלפינית הארוכה באסיה, ואפשרות אדרנלין עדינה יותר מהקניונינג שלידה
 - name: Tuyen Lam Lake SUP/Kayak and Clay Tunnel
   area: Tuyen Lam Lake, south of the city
-  what: A paddle by kayak or stand-up paddleboard across Tuyen Lam Lake's pine-fringed
-    water, usually combined with a stop at the Clay Tunnel, a walk-through open-air
-    clay sculpture near the Truc Lam monastery.
-  why: The quiet, uncrowded counterpart to the night market; nature and folk art in
-    one outing
+  what: A paddle by kayak or stand-up paddleboard across Tuyen Lam Lake's pine-fringed water,
+    usually combined with a stop at the Clay Tunnel, a walk-through open-air clay sculpture
+    near the Truc Lam monastery.
+  why: The quiet, uncrowded counterpart to the night market; nature and folk art in one outing
   confidence: medium
   geocode_query: Tuyen Lam Lake, Da Lat, Vietnam
   sources:
@@ -188,24 +240,34 @@ attractions:
   coords:
     lat: 11.8907954
     lng: 108.4250836
+  name_he: חתירה באגם טוין לאם ומנהרת החימר
+  area_he: אגם טוין לאם, מדרום לעיר
+  what_he: חתירה בקיאק או על סאפ על פני מימי אגם טוין לאם המוקפים אורנים, בדרך כלל בשילוב
+    עצירה במנהרת החימר — פיסול חימר פתוח שעוברים דרכו ברגל, ליד מנזר טרוק לאם.
+  why_he: המקבילה השקטה ונטולת הצפיפות לשוק הלילה. טבע ואמנות עממית ביציאה אחת
 - name: Easy Rider day tour from Da Lat
   area: City-wide, starts downtown
-  what: A full day riding pillion on a local guide's motorbike through Da Lat's flower
-    farms, a silk factory, a weasel-coffee plantation and back-road viewpoints most
-    tour buses never reach.
-  why: The consensus recommendation of the two agent proposals that researched this
-    leg, and the standard way to see rural Da Lat
+  what: A full day riding pillion on a local guide's motorbike through Da Lat's flower farms,
+    a silk factory, a weasel-coffee plantation and back-road viewpoints most tour buses never
+    reach.
+  why: The consensus recommendation of the two agent proposals that researched this leg, and
+    the standard way to see rural Da Lat
   confidence: high
   geocode_query: Dalat Easy Riders, Da Lat, Vietnam
   sources:
   - https://dalat-easyriders.com/
   - https://www.easyridersvietnam.org/tour/dalat-to-bmt-2-days/
+  name_he: סיור יום עם רוכב מקומי
+  area_he: ברחבי העיר, יוצא מהמרכז
+  what_he: יום שלם ברכיבה מאחורי מדריך מקומי על אופנוע, דרך חוות הפרחים של דה לאט, מפעל משי,
+    מטע קפה חמוס ונקודות תצפית בדרכי עפר שרוב אוטובוסי התיירים לא מגיעים אליהן.
+  why_he: ההמלצה המוסכמת של שתי הצעות הסוכנות שחקרו את הרגל הזו, והדרך הסטנדרטית לראות את
+    דה לאט הכפרית
 markets:
 - name: Da Lat Market (Cho Da Lat)
   area: City center, beside Xuan Huong Lake
-  what: The city's main covered market building on a hillside above Xuan Huong Lake,
-    selling fresh produce, dried flowers, hot street food and Da Lat's own coffee
-    and wine.
+  what: The city's main covered market building on a hillside above Xuan Huong Lake, selling
+    fresh produce, dried flowers, hot street food and Da Lat's own coffee and wine.
   why: The daytime anchor of Da Lat's market district, a few steps from the lake
   confidence: high
   geocode_query: Da Lat Market, Da Lat, Vietnam
@@ -215,13 +277,17 @@ markets:
   coords:
     lat: 11.9435196
     lng: 108.4372097
+  name_he: שוק דה לאט
+  area_he: מרכז העיר, לצד אגם שואן הואונג
+  what_he: בניין השוק המקורה הראשי של העיר על מדרון שמעל אגם שואן הואונג, שמוכר תוצרת טרייה,
+    פרחים מיובשים, אוכל רחוב חם, והקפה והיין של דה לאט עצמה.
+  why_he: עוגן היום של רובע השווקים בדה לאט, כמה צעדים מהאגם
 - name: Da Lat Night Market (Cho Am Phu)
   area: Steps below Da Lat Market, city center
-  what: The streets and steps below the market building come alive after 5pm with
-    food stalls, grilled rice paper, hot soy milk and fresh strawberries, plus clothing
-    and souvenir stalls.
-  why: Da Lat's evening centre of gravity, and where most of the specialty street
-    food listed here is actually eaten
+  what: The streets and steps below the market building come alive after 5pm with food stalls,
+    grilled rice paper, hot soy milk and fresh strawberries, plus clothing and souvenir stalls.
+  why: Da Lat's evening centre of gravity, and where most of the specialty street food listed
+    here is actually eaten
   confidence: high
   geocode_query: Dalat Night Market, Da Lat, Vietnam
   sources:
@@ -231,28 +297,44 @@ markets:
     lat: 11.9414964
     lng: 108.4372724
   location_precision: approximate
+  name_he: שוק הלילה
+  area_he: המדרגות שמתחת לשוק דה לאט, מרכז העיר
+  what_he: הרחובות והמדרגות שמתחת לבניין השוק מתעוררים אחרי חמש אחר הצהריים עם דוכני אוכל,
+    נייר אורז צלוי, חלב סויה חם ותותים טריים, לצד דוכני ביגוד ומזכרות.
+  why_he: מרכז הכובד הערבי של דה לאט, והמקום שבו באמת אוכלים את רוב אוכל הרחוב המיוחד שברשימה
+    הזו
 logistics:
 - name: Lien Khuong Airport (DLI) to city center
   area: Airport transfer
-  what: Lien Khuong Airport sits about 30km south of Da Lat; a taxi or private transfer
-    to the city centre takes roughly 40-50 minutes depending on traffic.
+  what: Lien Khuong Airport sits about 30km south of Da Lat; a taxi or private transfer to
+    the city centre takes roughly 40-50 minutes depending on traffic.
   why: Fixes the transfer time for the flight out of Da Lat at the end of this leg
   confidence: high
   geocode_query: Lien Khuong Airport, Da Lat, Vietnam
   sources:
   - https://vinpearl.com/en/da-lat-airport
   - https://www.geckoroutes.com/vietnam/dalat-airport/
+  name_he: משדה התעופה ליין קואונג למרכז העיר
+  area_he: הסעת שדה תעופה
+  what_he: שדה התעופה ליין קואונג נמצא כ-30 קילומטר מדרום לדה לאט. מונית או הסעה פרטית למרכז
+    העיר לוקחות כ-40 עד 50 דקות, תלוי בתנועה.
+  why_he: מקבע את זמן ההסעה לטיסה היוצאת מדה לאט בסוף הרגל הזו
 - name: Lak Lake to Da Lat road (National Highway 27)
   area: Route into the city from the north
-  what: 'The final leg of the easy-rider route: roughly 160km / 4 hours south from
-    Lak Lake on National Highway 27 through the Ta Dung area into Da Lat.'
-  why: Confirms the length of the second riding day for the route already locked into
-    the itinerary
+  what: 'The final leg of the easy-rider route: roughly 160km / 4 hours south from Lak Lake
+    on National Highway 27 through the Ta Dung area into Da Lat.'
+  why: Confirms the length of the second riding day for the route already locked into the
+    itinerary
   confidence: medium
   geocode_query: National Highway 27, Da Lat, Vietnam
   sources:
   - https://www.bestpricetravel.com/travel-guide/lak-lake.html
   - https://www.rome2rio.com/s/Buon-Ma-Thuot-Dak-Lak/%C3%90%C3%A0-L%E1%BA%A1t
+  name_he: הדרך מאגם לאק לדה לאט
+  area_he: המסלול אל העיר מצפון
+  what_he: 'הרגל האחרונה של מסלול הרוכבים: כ-160 קילומטר וארבע שעות דרומה מאגם לאק בכביש ארצי
+    27, דרך אזור טה דונג ואל דה לאט.'
+  why_he: מאשר את אורך יום הרכיבה השני במסלול שכבר ננעל בתוכנית
 street_food:
 - name: Banh Trang Nuong Da Lat Ngon Be Lun
   kind: vietnamese
@@ -260,39 +342,55 @@ street_food:
   area: 50 Pham Ngoc Thach, Ward 6
   what: A streetside grill stall cooking 'Da Lat pizza', rice paper toasted over charcoal
     and topped to order with egg, dried pork, scallion and chilli sauce.
-  why: One of the most consistently reviewed banh trang nuong stalls in a city that
-    treats the dish as a local specialty
+  why: One of the most consistently reviewed banh trang nuong stalls in a city that treats
+    the dish as a local specialty
   confidence: medium
-  geocode_query: Banh Trang Nuong Da Lat Ngon Be Lun, 50 Pham Ngoc Thach, Da Lat,
-    Vietnam
+  geocode_query: Banh Trang Nuong Da Lat Ngon Be Lun, 50 Pham Ngoc Thach, Da Lat, Vietnam
   sources:
   - https://www.tripadvisor.com/Restaurant_Review-g293922-d19089769-Reviews-Banh_Trang_Nuong_Da_Lat_Ngon_Be_Lun-Da_Lat_Lam_Dong_Province.html
   - https://extensionembed.wanderlog.com/list/geoCategory/83008/street-food
+  name_he: באן טראנג נואונג בה לון
+  area_he: רחוב פאם נגוק תאק 50, רובע 6
+  what_he: דוכן גריל ברחוב שמכין את פיצת דה לאט — נייר אורז שנצלה על גחלים ומעליו לפי הזמנה
+    ביצה, חזיר מיובש, בצל ירוק ורוטב צ'ילי.
+  why_he: מדוכני הבאן טראנג נואונג המדורגים באופן העקבי ביותר בעיר שמתייחסת למנה כאל מאכל
+    מקומי מיוחד
 - name: Artichoke tea (Tra Atiso) at Da Lat Market
   kind: vietnamese
   signal: local_media
   area: Da Lat Market, city center
-  what: Dried artichoke flower heads, grown on the plateau around Da Lat, sold loose
-    or bagged as a bitter herbal tea at stalls throughout Da Lat Market.
-  why: Da Lat grows most of Vietnam's artichoke crop; the tea is the plateau's signature
-    souvenir
+  what: Dried artichoke flower heads, grown on the plateau around Da Lat, sold loose or bagged
+    as a bitter herbal tea at stalls throughout Da Lat Market.
+  why: Da Lat grows most of Vietnam's artichoke crop; the tea is the plateau's signature souvenir
   confidence: medium
   geocode_query: Da Lat Market, Da Lat, Vietnam
   sources:
   - https://tamtrinhcoffee.com/da-lat-specialty-gifts/
   - https://www.expatolife.com/things-to-buy-shopping-da-lat-vietnam/
   is_dish: true
+  name_he: תה ארטישוק בשוק דה לאט
+  area_he: שוק דה לאט, מרכז העיר
+  what_he: ראשי פרחי ארטישוק מיובשים, שגדלים ברמה סביב דה לאט, ונמכרים בתפזורת או ארוזים כתה
+    צמחים מריר בדוכנים ברחבי שוק דה לאט.
+  why_he: בדה לאט גדל רוב יבול הארטישוק של ויאטנם, והתה הוא מזכרת החתימה של הרמה
 restaurants:
 - name: Ichigo Strawberry Farm
   kind: vietnamese
   signal: traveler_recommended
   area: ~20 minutes from the city center
-  what: A pick-your-own strawberry farm with a hillside café, where visitors pick
-    their own berries and can buy strawberry jam, jelly and wine on site.
-  why: Da Lat's cool climate produces sweeter, firmer strawberries than lowland Vietnam,
-    and this is one of the most-reviewed farms for picking them yourself
+  what: A pick-your-own strawberry farm with a hillside café, where visitors pick their own
+    berries and can buy strawberry jam, jelly and wine on site.
+  why: Da Lat's cool climate produces sweeter, firmer strawberries than lowland Vietnam, and
+    this is one of the most-reviewed farms for picking them yourself
   confidence: low
   geocode_query: Ichigo Strawberry Farm, Da Lat, Vietnam
   sources:
   - https://wanderlog.com/place/details/5149075/ichigo-strawberry-farm-%C4%91%C3%A0-l%E1%BA%A1t
   - https://inboundvietnam.com/top-5-must-visit-strawberry-farms-in-da-lat
+  name_he: חוות התותים איצ'יגו
+  area_he: כ-20 דקות ממרכז העיר
+  what_he: חוות תותים לקטיף עצמי עם בית קפה על המדרון, שבה המבקרים קוטפים בעצמם ואפשר לקנות
+    במקום ריבה, ג'לי ויין תותים.
+  why_he: האקלים הקריר של דה לאט מפיק תותים מתוקים ומוצקים יותר מאשר בשפלת ויאטנם, וזו אחת
+    החוות המדורגות ביותר לקטיף עצמי
+hebrew_complete: true
