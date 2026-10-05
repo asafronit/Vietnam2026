@@ -50,7 +50,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "GM Premium Hotel",
@@ -80,7 +81,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Aurora Premium - A Lifestyle Hotel",
@@ -110,7 +112,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "La Sinfonia del Rey Hotel & Spa",
@@ -139,7 +142,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Hanoi Amorita Boutique Hotel & Travel",
@@ -168,7 +172,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Hanoi La Storia Hotel",
@@ -197,7 +202,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         }
       ],
       "must_see": [
@@ -225,7 +231,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Temple of Literature",
@@ -251,7 +258,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Hoa Lo Prison Museum",
@@ -277,7 +285,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Imperial Citadel of Thang Long",
@@ -305,7 +314,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Ho Chi Minh Mausoleum Complex",
@@ -334,7 +344,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "attractions": [
@@ -362,7 +373,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "rain"
         },
         {
           "name": "Hanoi Train Street coffee shops",
@@ -388,7 +400,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "rain"
         },
         {
           "name": "Thang Long Water Puppet Theatre",
@@ -416,7 +429,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Vietnamese Women's Museum",
@@ -443,7 +457,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "St. Joseph's Cathedral",
@@ -470,7 +485,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "rain"
         },
         {
           "name": "Long Bien Bridge",
@@ -497,7 +513,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "rain"
         },
         {
           "name": "Hanoi Ceramic Mosaic Mural",
@@ -524,7 +541,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "rain"
         },
         {
           "name": "Phung Hung Mural Street",
@@ -551,7 +569,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "rain"
         },
         {
           "name": "Bat Trang Pottery Village",
@@ -578,7 +597,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "rain"
         },
         {
           "name": "Duong Lam Ancient Village",
@@ -605,7 +625,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "rain"
         }
       ],
       "food": [],
@@ -635,7 +656,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_selected",
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Pho Gia Truyen (Bat Dan)",
@@ -662,7 +684,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_bib",
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Pho Ga Nguyet",
@@ -689,7 +712,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_bib",
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Tuyet Bun Cha 34",
@@ -716,7 +740,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_bib",
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Banh Cuon Gia Truyen Thanh Van (Hang Ga)",
@@ -743,7 +768,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_bib",
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Pho Khoi Hoi",
@@ -770,7 +796,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_bib",
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Cafe Giang",
@@ -798,7 +825,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Bun Thang Ba Duc",
@@ -826,7 +854,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Pho Cuon Hung Ben",
@@ -853,7 +882,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Banh Tom Ho Tay",
@@ -880,7 +910,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "restaurants": [
@@ -908,7 +939,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_bib",
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Gia",
@@ -934,7 +966,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_star",
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Luk Lak",
@@ -961,7 +994,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_bib",
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Uu Dam Chay",
@@ -988,7 +1022,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_bib",
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         }
       ],
       "markets": [
@@ -1016,7 +1051,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Hanoi Weekend Night Market",
@@ -1042,7 +1078,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Hang Gai Silk Street",
@@ -1068,7 +1105,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         }
       ],
       "nightlife": [
@@ -1097,7 +1135,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Ta Hien Beer Street (Bia Hoi Junction)",
@@ -1124,7 +1163,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "rain"
         }
       ],
       "spa": [
@@ -1153,7 +1193,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Nap Spa",
@@ -1180,7 +1221,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         }
       ],
       "diving": [],
@@ -1210,7 +1252,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "contacts": [
@@ -1240,7 +1283,8 @@ const POI_DATA = {
           "signal": null,
           "video": null,
           "whatsapp": "+84947222598",
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Funny Travel - Vicky",
@@ -1268,7 +1312,8 @@ const POI_DATA = {
           "video": null,
           "whatsapp": "+84919481386",
           "email": "funnytravelvietnam@gmail.com",
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "ATT Asia Travel - Huong Giang",
@@ -1296,7 +1341,8 @@ const POI_DATA = {
           "video": null,
           "phone": "+84904160918",
           "email": "sale@attasiatravel.com",
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "VietBright Travel - Nancy",
@@ -1324,7 +1370,8 @@ const POI_DATA = {
           "video": null,
           "whatsapp": "+84968537258",
           "email": "info@vietbrighttravel.com",
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         }
       ]
     }
@@ -1381,7 +1428,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Yen Bien Luxury Hotel",
@@ -1410,7 +1458,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "De La Mont Hotel Ha Giang",
@@ -1439,7 +1488,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Silk River Hotel Ha Giang",
@@ -1468,7 +1518,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Phuc Lam Hotel",
@@ -1497,7 +1548,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         }
       ],
       "must_see": [
@@ -1525,7 +1577,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Lung Cu Flag Tower",
@@ -1551,7 +1604,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Dong Van Old Quarter",
@@ -1577,7 +1631,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "attractions": [
@@ -1605,7 +1660,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "rain"
         },
         {
           "name": "Nho Que River boat trip, Tu San Canyon",
@@ -1631,7 +1687,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "rain"
         },
         {
           "name": "Du Gia village and waterfall",
@@ -1657,7 +1714,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "rain"
         }
       ],
       "food": [],
@@ -1686,7 +1744,8 @@ const POI_DATA = {
           "isDish": true,
           "signal": "traveler_recommended",
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Thang co",
@@ -1712,7 +1771,8 @@ const POI_DATA = {
           "isDish": true,
           "signal": "traveler_recommended",
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "restaurants": [],
@@ -1741,7 +1801,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Meo Vac Sunday Market",
@@ -1767,7 +1828,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "nightlife": [],
@@ -1799,7 +1861,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "contacts": []
@@ -1856,7 +1919,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Pao's Sapa Leisure Hotel",
@@ -1885,7 +1949,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Pistachio Hotel Sapa",
@@ -1914,7 +1979,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Aliana Boutique Sapa Hotel & Spa",
@@ -1943,7 +2009,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Sapa Centre Hotel",
@@ -1972,7 +2039,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Ladybird Boutique Hotel Sapa",
@@ -2001,7 +2069,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         }
       ],
       "must_see": [
@@ -2029,7 +2098,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "wind"
         },
         {
           "name": "Cat Cat Village",
@@ -2055,7 +2125,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Sapa Stone Church and Sun Plaza",
@@ -2081,7 +2152,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "attractions": [
@@ -2109,7 +2181,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "rain"
         }
       ],
       "food": [],
@@ -2139,7 +2212,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "traveler_recommended",
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         }
       ],
       "markets": [
@@ -2167,7 +2241,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "nightlife": [],
@@ -2199,7 +2274,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "contacts": []
@@ -2257,7 +2333,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Dora Cruise",
@@ -2286,7 +2363,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Mon Cheri Cruise",
@@ -2315,7 +2393,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "La Pandora Cruise",
@@ -2344,7 +2423,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Hoang Giang Hotel",
@@ -2373,7 +2453,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Quang Tung Hotel",
@@ -2402,7 +2483,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         }
       ],
       "must_see": [
@@ -2430,7 +2512,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "sea"
         },
         {
           "name": "Cat Ba National Park",
@@ -2456,7 +2539,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "attractions": [
@@ -2485,7 +2569,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "sea"
         },
         {
           "name": "Trung Trang Cave",
@@ -2512,7 +2597,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "flood"
         }
       ],
       "food": [],
@@ -2542,7 +2628,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "traveler_recommended",
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         }
       ],
       "markets": [],
@@ -2574,7 +2661,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "contacts": []
@@ -2632,7 +2720,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Ninh Binh Legend Hotel",
@@ -2661,7 +2750,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Emeralda Resort Ninh Binh",
@@ -2690,7 +2780,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Ninh Binh Hidden Charm Hotel & Resort",
@@ -2719,7 +2810,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Lalita Tam Coc Resort & Spa",
@@ -2748,7 +2840,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "An's Eco Garden Resort",
@@ -2777,7 +2870,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         }
       ],
       "must_see": [
@@ -2807,7 +2901,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Tam Coc boat ride",
@@ -2835,7 +2930,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Mua Cave viewpoint (Hang Mua)",
@@ -2863,7 +2959,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "rain"
         }
       ],
       "attractions": [
@@ -2891,7 +2988,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "rain"
         },
         {
           "name": "Bai Dinh Pagoda",
@@ -2918,7 +3016,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "rain"
         }
       ],
       "food": [],
@@ -2947,7 +3046,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "traveler_recommended",
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "restaurants": [
@@ -2975,7 +3075,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "traveler_recommended",
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         }
       ],
       "markets": [
@@ -3003,7 +3104,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Ninh Binh Night Market",
@@ -3030,7 +3132,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "nightlife": [],
@@ -3062,7 +3165,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Lotus Train - Ninh Binh to Dong Hoi (night train)",
@@ -3089,7 +3193,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "contacts": []
@@ -3147,7 +3252,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Phong Nha Lake House Resort",
@@ -3177,7 +3283,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Phong Nha Farmstay",
@@ -3206,7 +3313,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         }
       ],
       "must_see": [
@@ -3235,7 +3343,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "flood"
         },
         {
           "name": "Paradise Cave",
@@ -3262,7 +3371,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "flood"
         }
       ],
       "attractions": [
@@ -3291,7 +3401,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "flood"
         },
         {
           "name": "Hang En Cave trek",
@@ -3317,7 +3428,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "flood"
         },
         {
           "name": "Tu Lan cave system",
@@ -3344,7 +3456,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "flood"
         },
         {
           "name": "Hang Tien cave day trek",
@@ -3370,7 +3483,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "flood"
         },
         {
           "name": "Dark Cave zipline and mud bath",
@@ -3397,7 +3511,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "flood"
         },
         {
           "name": "The Duck Stop",
@@ -3424,7 +3539,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "rain"
         },
         {
           "name": "Pub with Cold Beer",
@@ -3450,7 +3566,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "rain"
         }
       ],
       "food": [],
@@ -3479,7 +3596,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "traveler_recommended",
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "restaurants": [
@@ -3508,7 +3626,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "traveler_recommended",
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Ganesh Indian Restaurant",
@@ -3534,7 +3653,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "traveler_recommended",
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "The Villas Restaurant",
@@ -3560,7 +3680,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "traveler_recommended",
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         }
       ],
       "markets": [
@@ -3588,7 +3709,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "nightlife": [],
@@ -3620,7 +3742,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Dong Hoi railway station",
@@ -3646,7 +3769,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Private car to Hoi An via Vinh Moc Tunnels and Hai Van Pass",
@@ -3673,7 +3797,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "contacts": []
@@ -3731,7 +3856,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Meliá Vinpearl Hue",
@@ -3760,7 +3886,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Eldora Hotel",
@@ -3789,7 +3916,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Pilgrimage Village Boutique Resort & Spa",
@@ -3818,7 +3946,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Jade Scene Hotel",
@@ -3847,7 +3976,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Thanh Lich Hue Hotel",
@@ -3876,7 +4006,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         }
       ],
       "must_see": [
@@ -3905,7 +4036,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Khai Dinh Tomb",
@@ -3932,7 +4064,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Thien Mu Pagoda",
@@ -3959,7 +4092,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "attractions": [
@@ -3988,7 +4122,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "rain"
         },
         {
           "name": "Perfume River dragon boat cruise",
@@ -4015,7 +4150,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "rain"
         }
       ],
       "food": [],
@@ -4044,7 +4180,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "traveler_recommended",
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Com Hen Ba Den",
@@ -4071,7 +4208,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "traveler_recommended",
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "restaurants": [
@@ -4099,7 +4237,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "traveler_recommended",
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         }
       ],
       "markets": [
@@ -4128,7 +4267,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "nightlife": [],
@@ -4160,7 +4300,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Hai Van Pass - Hue to Da Nang / Hoi An",
@@ -4187,7 +4328,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "contacts": []
@@ -4244,7 +4386,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Almanity Hoi An Resort & Spa",
@@ -4273,7 +4416,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Silkotel Hoi An",
@@ -4302,7 +4446,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Lasenta Boutique Hotel Hoian",
@@ -4331,7 +4476,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Hoian Central Hotel",
@@ -4360,7 +4506,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Little Town Villa",
@@ -4389,7 +4536,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         }
       ],
       "must_see": [
@@ -4418,7 +4566,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Ba Na Hills and Golden Bridge",
@@ -4445,7 +4594,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "wind"
         }
       ],
       "attractions": [
@@ -4473,7 +4623,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "rain"
         },
         {
           "name": "An Bang Beach surf lesson",
@@ -4500,7 +4651,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "rain"
         },
         {
           "name": "Cam Thanh coconut forest basket boat ride",
@@ -4527,7 +4679,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "rain"
         }
       ],
       "food": [],
@@ -4557,7 +4710,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "traveler_recommended",
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Cao Lau Ba Le",
@@ -4583,7 +4737,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "traveler_recommended",
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Phu Hong (Bun Thit Nuong Phu Hong)",
@@ -4610,7 +4765,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_bib",
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "My Quang Sua Hong Van",
@@ -4637,7 +4793,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_bib",
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Banh Beo - Banh Dap",
@@ -4664,7 +4821,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_bib",
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Co Chu Nho",
@@ -4691,7 +4849,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_bib",
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "restaurants": [
@@ -4720,7 +4879,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "traveler_recommended",
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "La Maison 1888",
@@ -4747,7 +4907,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_star",
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Thia Go",
@@ -4774,7 +4935,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_bib",
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Be Ni 2",
@@ -4801,7 +4963,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_bib",
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Ngoc Chi",
@@ -4828,7 +4991,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_bib",
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         }
       ],
       "markets": [
@@ -4856,7 +5020,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Hoi An Night Market (Nguyen Hoang)",
@@ -4883,7 +5048,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "nightlife": [
@@ -4912,7 +5078,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "rain"
         },
         {
           "name": "Nguyen Hoang Night Market",
@@ -4939,7 +5106,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "rain"
         },
         {
           "name": "An Bang Beach bars",
@@ -4966,7 +5134,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "rain"
         }
       ],
       "spa": [
@@ -4995,7 +5164,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Ocean Spa Hoi An",
@@ -5022,7 +5192,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         }
       ],
       "diving": [
@@ -5053,7 +5224,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "sea"
         }
       ],
       "logistics": [
@@ -5082,7 +5254,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Hoi An Old Town vehicle restrictions",
@@ -5108,7 +5281,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "contacts": [
@@ -5138,7 +5312,8 @@ const POI_DATA = {
           "video": null,
           "whatsapp": "+84905486259",
           "email": "hoianwanderlust@gmail.com",
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         }
       ]
     }
@@ -5194,7 +5369,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Saigon Ban Me Hotel",
@@ -5223,7 +5399,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Dakruco Hotel",
@@ -5252,7 +5429,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         }
       ],
       "must_see": [
@@ -5281,7 +5459,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Ako Dhong Village",
@@ -5308,7 +5487,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Dray Nur Waterfall",
@@ -5335,7 +5515,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Yok Don National Park",
@@ -5362,7 +5543,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "attractions": [
@@ -5391,7 +5573,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "rain"
         }
       ],
       "food": [],
@@ -5422,7 +5605,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "local_media",
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Ga Nuong Com Lam (30/4)",
@@ -5449,7 +5633,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "traveler_recommended",
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         }
       ],
       "markets": [
@@ -5478,7 +5663,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "nightlife": [],
@@ -5510,7 +5696,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Buon Ma Thuot to Lak Lake road (National Highway 27)",
@@ -5537,7 +5724,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "contacts": []
@@ -5594,7 +5782,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Bao Dai Villa (Lak Lake)",
@@ -5623,7 +5812,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         }
       ],
       "must_see": [
@@ -5652,7 +5842,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Jun Village (Buon Jun)",
@@ -5679,7 +5870,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "attractions": [
@@ -5708,7 +5900,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "rain"
         }
       ],
       "food": [],
@@ -5739,7 +5932,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "traveler_recommended",
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         }
       ],
       "markets": [],
@@ -5772,7 +5966,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "contacts": []
@@ -5829,7 +6024,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "MerPerle Dalat Hotel",
@@ -5858,7 +6054,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Colline Dalat",
@@ -5887,7 +6084,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Terracotta Hotel & Resort Dalat",
@@ -5916,7 +6114,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "TTC Hotel - Da Lat",
@@ -5945,7 +6144,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Le House Dalat",
@@ -5974,7 +6174,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         }
       ],
       "must_see": [
@@ -6003,7 +6204,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Langbiang Mountain",
@@ -6030,7 +6232,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Xuan Huong Lake",
@@ -6057,7 +6260,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "attractions": [
@@ -6086,7 +6290,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "rain"
         },
         {
           "name": "Datanla Alpine Coaster",
@@ -6113,7 +6318,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "rain"
         },
         {
           "name": "Tuyen Lam Lake SUP/Kayak and Clay Tunnel",
@@ -6140,7 +6346,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "rain"
         },
         {
           "name": "Easy Rider day tour from Da Lat",
@@ -6167,7 +6374,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "rain"
         }
       ],
       "food": [],
@@ -6197,7 +6405,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "traveler_recommended",
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Artichoke tea (Tra Atiso) at Da Lat Market",
@@ -6224,7 +6433,8 @@ const POI_DATA = {
           "isDish": true,
           "signal": "local_media",
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "restaurants": [],
@@ -6254,7 +6464,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Da Lat Night Market (Cho Am Phu)",
@@ -6281,7 +6492,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "nightlife": [],
@@ -6313,7 +6525,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Lak Lake to Da Lat road (National Highway 27)",
@@ -6340,7 +6553,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "contacts": []
@@ -6397,7 +6611,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Hotel Des Arts Saigon - MGallery",
@@ -6426,7 +6641,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Liberty Central Saigon Riverside",
@@ -6455,7 +6671,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Sky Gem Hotel - Ben Thanh",
@@ -6484,7 +6701,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Silverland Central Hotel",
@@ -6513,7 +6731,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Bong Sen Hotel Saigon",
@@ -6542,7 +6761,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         }
       ],
       "must_see": [
@@ -6570,7 +6790,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Notre-Dame Cathedral Basilica of Saigon",
@@ -6596,7 +6817,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "attractions": [
@@ -6624,7 +6846,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "rain"
         },
         {
           "name": "War Remnants Museum",
@@ -6650,7 +6873,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "rain"
         }
       ],
       "food": [],
@@ -6679,7 +6903,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_bib",
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Bun Rieu Yen",
@@ -6705,7 +6930,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_bib",
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Banh Mi Huynh Hoa",
@@ -6732,7 +6958,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "traveler_recommended",
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Com Tam Ba Ghien",
@@ -6759,7 +6986,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_bib",
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Pho Phuong",
@@ -6786,7 +7014,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_bib",
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Bun Bo Hue 14B",
@@ -6813,7 +7042,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_bib",
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "restaurants": [
@@ -6842,7 +7072,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_star",
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "La Villa French Restaurant by Thierry Mounon",
@@ -6869,7 +7100,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_selected",
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Cuc Gach Quan",
@@ -6896,7 +7128,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_bib",
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Hum Garden",
@@ -6923,7 +7156,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_bib",
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Banh Xeo 46A",
@@ -6950,7 +7184,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_bib",
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         }
       ],
       "markets": [
@@ -6979,7 +7214,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Hai Thuong Lan Ong herbal medicine street",
@@ -7006,7 +7242,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "nightlife": [
@@ -7035,7 +7272,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Layla",
@@ -7062,7 +7300,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Stir",
@@ -7089,7 +7328,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         }
       ],
       "spa": [],
@@ -7120,7 +7360,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Terminal T3 is a separate building, not a gate",
@@ -7147,7 +7388,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "No airport metro link yet",
@@ -7174,7 +7416,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "contacts": []
@@ -7231,7 +7474,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Muong Thanh Luxury Can Tho Hotel",
@@ -7260,7 +7504,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Victoria Can Tho Resort",
@@ -7289,7 +7534,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Can Tho Ecolodge",
@@ -7318,7 +7564,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Bamboo Eco Village",
@@ -7347,7 +7594,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Mekong Silt Ecolodge",
@@ -7376,7 +7624,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         }
       ],
       "must_see": [
@@ -7406,7 +7655,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "attractions": [
@@ -7434,7 +7684,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "rain"
         },
         {
           "name": "Vinh Trang Pagoda",
@@ -7460,7 +7711,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "rain"
         }
       ],
       "food": [],
@@ -7490,7 +7742,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "traveler_recommended",
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Sao Hom Restaurant",
@@ -7516,7 +7769,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "traveler_recommended",
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         }
       ],
       "markets": [
@@ -7545,7 +7799,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "nightlife": [],
@@ -7576,7 +7831,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Speedboat from the Mekong Delta to Phu Quoc",
@@ -7602,7 +7858,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "contacts": []
@@ -7659,7 +7916,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Dusit Princess Moonrise Beach Resort",
@@ -7688,7 +7946,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "L'Azure Resort and Spa",
@@ -7717,7 +7976,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "AVS Hotel Phu Quoc",
@@ -7746,7 +8006,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Hung Vuong Resort",
@@ -7775,7 +8036,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Dao Ngoc Hotel",
@@ -7804,7 +8066,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         }
       ],
       "must_see": [
@@ -7833,7 +8096,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "wind"
         }
       ],
       "attractions": [
@@ -7862,7 +8126,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "rain"
         }
       ],
       "food": [],
@@ -7892,7 +8157,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "traveler_recommended",
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         },
         {
           "name": "Ra Khoi Seafood Restaurant",
@@ -7918,7 +8184,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "traveler_recommended",
           "video": null,
-          "weather": "low"
+          "weather": "low",
+          "limiter": "rain"
         }
       ],
       "markets": [
@@ -7947,7 +8214,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         }
       ],
       "nightlife": [],
@@ -7978,7 +8246,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "sea"
         },
         {
           "name": "Rainbow Divers fun dive, An Thoi archipelago",
@@ -8005,7 +8274,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "sea"
         },
         {
           "name": "Discover Scuba Diving for beginners",
@@ -8032,7 +8302,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "sea"
         },
         {
           "name": "Flipper Diving Club",
@@ -8059,7 +8330,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "sea"
         },
         {
           "name": "John's Tours - the quote on file",
@@ -8086,7 +8358,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "sea"
         },
         {
           "name": "Hon Thom (Pineapple Island) dive sites",
@@ -8113,7 +8386,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "sea"
         },
         {
           "name": "Hon Roi (Roi Island) dive sites",
@@ -8140,7 +8414,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "sea"
         },
         {
           "name": "Hon Dua (Coco Island) and the porcelain wreck",
@@ -8167,7 +8442,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "high"
+          "weather": "high",
+          "limiter": "sea"
         }
       ],
       "logistics": [
@@ -8196,7 +8472,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "rain"
         },
         {
           "name": "Speedboat from the Mekong Delta (Ha Tien)",
@@ -8222,7 +8499,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "weather": "medium"
+          "weather": "medium",
+          "limiter": "sea"
         }
       ],
       "contacts": []

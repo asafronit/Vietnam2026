@@ -14,6 +14,7 @@ from .schema import (
     CATEGORIES,
     Record,
     WEATHER_SENSITIVITY,
+    LIMITER_OF_CATEGORY,
     is_shippable,
     is_web_shippable,
     validate_hebrew,
@@ -234,6 +235,9 @@ def _record_to_web_json(rec: Record) -> dict:
     # Weather sensitivity travels with the record so the page never has to
     # guess it. The per-record override wins; otherwise the category default.
     data["weather"] = rec.weather or WEATHER_SENSITIVITY.get(rec.category, "medium")
+    # מה מגביל את הפעילות. גם זה נוסע עם הרשומה, מאותו טעם: הדף לא
+    # צריך לנחש, ומקור האמת אחד.
+    data["limiter"] = rec.limiter or LIMITER_OF_CATEGORY.get(rec.category, "rain")
     return data
 
 

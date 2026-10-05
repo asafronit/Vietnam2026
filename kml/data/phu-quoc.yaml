@@ -141,6 +141,7 @@ hotels:
     הלילה
 must_see:
 - name: Hon Thom Cable Car
+  limiter: wind
   area: An Thoi, southern Phu Quoc
   what: A three-cable gondola line running almost 8 km from the An Thoi coast over open sea
     to Hon Thom island, in 30-passenger cabins over a 15-minute ride, passing above two smaller
@@ -412,6 +413,7 @@ logistics:
   why_he: שדה התעופה קרוב מספיק לרצועת המלונות הראשית כך שההסעה קצרה וזולה בלי קשר לריזורט
     שהוזמן
 - name: Speedboat from the Mekong Delta (Ha Tien)
+  limiter: sea
   area: Ha Tien to Bai Vong pier, Phu Quoc
   what: Fast boats from Ha Tien on the Mekong Delta coast to Phu Quoc's Bai Vong pier run
     3-5 times daily between about 6am and 2pm, taking roughly 1.5 hours; slower car ferries

@@ -50,6 +50,15 @@ WEATHER_SENSITIVITY = {
 }
 SENSITIVITY_LEVELS = ("high", "medium", "low")
 
+# *מה* מגביל את הפעילות, לא *כמה*. `weather` אומר עד כמה הרשומה רגישה;
+# `limiter` אומר לאיזה גודל. גשם הוא ברירת המחדל ונכון לרוב הדברים, אבל
+# לא לכולם: צלילה מתבטלת על נחשול ורוח ולא על גשם — נמדד בחלון הטיול,
+# אן תוי על 0.57 מ' גל מול צ'אם על 1.53 — רכבל נסגר ברוח, ומערה נסגרת
+# בהצפה, כלומר בנפח ובמפלס ולא בהסתברות. בלי השדה הזה טאב הצלילה הציג
+# ציון גשם על יום שהים בו שטוח.
+LIMITERS = ("rain", "wind", "sea", "flood")
+LIMITER_OF_CATEGORY = {"diving": "sea"}
+
 # What the price buys. Without this a bare number is unreadable: 15 dollars
 # is cheap for a hotel night, ordinary for a dive, and absurd for a bowl of pho.
 PRICE_UNITS = ("per_night", "per_person", "per_dish", "entry", "per_hour", "free")
@@ -109,6 +118,9 @@ class Record:
     # דריסה ידנית של רגישות מזג האוויר, כשברירת המחדל של הקטגוריה שגויה
     # (מערה בקטגוריית attractions, שוק מקורה בקטגוריית markets).
     weather: str | None = None
+    # ברירת המחדל נגזרת מהקטגוריה (ראו LIMITER_OF_CATEGORY); הערך כאן
+    # דורס אותה לרשומה בודדת — רכבל בתוך must_see, מערה בתוך attractions.
+    limiter: str | None = None
     # attractions/must_see only (optional): a YouTube URL rendered as a
     # "Watch on YouTube" link. Not required, and not enforced as required
     # for those categories — a missing value falls back to a search link.
@@ -171,6 +183,9 @@ def validate_record(rec: Record) -> list[str]:
 
     if rec.weather is not None and rec.weather not in SENSITIVITY_LEVELS:
         errors.append(f"{where}: weather must be one of {SENSITIVITY_LEVELS}")
+
+    if rec.limiter is not None and rec.limiter not in LIMITERS:
+        errors.append(f"{where}: limiter must be one of {LIMITERS}")
 
     if rec.price_unit is not None and rec.price_unit not in PRICE_UNITS:
         errors.append(f"{where}: price_unit must be one of {PRICE_UNITS}")

@@ -132,6 +132,7 @@ hotels:
     שממשיכים ביבשה
 must_see:
 - name: Ha Long Bay limestone karsts
+  limiter: sea
   area: Ha Long Bay, Quang Ninh province
   what: Roughly 1,600 limestone islands and karst pillars rising from emerald-green water,
     many topped with vegetation and containing caves; a UNESCO World Heritage Site since 1994.
@@ -173,6 +174,7 @@ must_see:
     קאט בה שנמצא בסכנת הכחדה חמורה
 attractions:
 - name: Deep water soloing, Lan Ha Bay
+  limiter: sea
   area: Lan Ha Bay, off Cat Ba Island
   what: Free climbing (no ropes or harness) up short limestone cliff routes directly from
     a boat, falling into the sea when you lose your grip; typically a half-day trip combined
@@ -190,6 +192,7 @@ attractions:
     אוזלת. בדרך כלל טיול של חצי יום בשילוב קיאקים אל לגונות נסתרות.
   why_he: פעילות ההרפתקה המובחנת ביותר ברגל הזו של הטיול, וייחודית לקו החוף הגירי הזה
 - name: Trung Trang Cave
+  limiter: flood
   area: Cat Ba National Park, about 20-30 minutes from the port
   what: A 300-metre natural cave carved through a mountain in the middle of Cat Ba's largest
     valley, with stalactites and stalagmites reachable on a short easy walk.

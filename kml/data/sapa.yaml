@@ -139,6 +139,7 @@ hotels:
   why_he: 3 כוכבים רשמיים עם ביקורות חזקות ועקביות (8.9 עד 9.5) בכמה פלטפורמות הזמנה
 must_see:
 - name: Fansipan cable car and Muong Hoa mountain train
+  limiter: wind
   area: Sun Plaza, Sapa town, to Fansipan summit
   what: A combined mountain train (Sun Plaza to Muong Hoa station) and a 6.3km cable car climbing
     to near the summit of Fansipan, at 3,143m the highest peak in Indochina, with a pagoda

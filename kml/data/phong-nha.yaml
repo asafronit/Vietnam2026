@@ -75,6 +75,7 @@ hotels:
     המלונות ששתי הסוכנויות הסכימו עליהם
 must_see:
 - name: Phong Nha Cave boat trip
+  limiter: flood
   area: Phong Nha tourism centre, Son River
   what: A 30-minute wooden boat ride up the Son River into a lit, 1.5km-long show cave with
     an underground river running through it — the cave the whole town is named for.
@@ -91,6 +92,7 @@ must_see:
     שנהר תת-קרקעי זורם דרכה. זו המערה שהעיירה כולה קרויה על שמה.
   why_he: חוויית המערה הנגישה ביותר בפארק, והסיבה שפונג ניה קיימת כיעד מלכתחילה
 - name: Paradise Cave
+  limiter: flood
   area: Phong Nha-Ke Bang National Park
   what: A dry cave reached by a steep staircase and jungle path, then a kilometre of wooden
     walkway through a cavern hung with stalactites lit to look like an underground cathedral.
@@ -112,6 +114,7 @@ must_see:
   why_he: נקראת דרך קבע אחת המערות היפות בוויאטנם, ואפשר לעשות אותה בלי מדריך ובלי הזמנה מראש
 attractions:
 - name: Son Doong Cave Expedition
+  limiter: flood
   area: Deep in Phong Nha-Ke Bang National Park, multi-day trek from Km37
   what: A 4-day, 3-night expedition into the world's largest cave passage — big enough to
     hold a Manhattan block, with its own jungle and weather inside two collapsed dolines.
@@ -131,6 +134,7 @@ attractions:
   why_he: הסיבה שפונג ניה נמצאת על מפת עולם המערות בכלל. ההזמנה הקשה והיקרה ביותר באזור, ולכן
     צריך לסמן אותה מוקדם אם רוצים אותה
 - name: Hang En Cave trek
+  limiter: flood
   area: Phong Nha-Ke Bang National Park, Tu Lan area
   what: A 2-day, 1-night trek to the world's third-largest cave, camping on a sand bank inside
     the cave beside an underground river, with one of three giant skylights overhead.
@@ -147,6 +151,7 @@ attractions:
   why_he: אפשרות המערות הרצינית שלא דורשת את התקציב של סון דונג ולא הזמנה שנה מראש. מחנה מדברי
     אמיתי בתוך מערה
 - name: Tu Lan cave system
+  limiter: flood
   area: Tan Hoa commune, ~65km from Phong Nha town
   what: A network of wet caves and jungle valleys explored by wading and swimming through
     cave lakes between limestone chambers, run as tours from one day up to a 4-5 day expedition.
@@ -164,6 +169,7 @@ attractions:
   why_he: טווח הקושי הרחב ביותר מכל מוצרי המערות של פונג ניה — יום אחד של שחייה במערות, או
     כמה ימי משלחת ג'ונגל אמיתית, מאותו מפעיל
 - name: Hang Tien cave day trek
+  limiter: flood
   area: Phong Nha-Ke Bang National Park, Tu Lan area
   what: A one-day trek through jungle and a river-cut cave system, wading and swimming sections
     included, without the multi-day commitment of Tu Lan or Hang En.
@@ -180,6 +186,7 @@ attractions:
   why_he: האפשרות האמצעית בין מערת מסלול-עץ למשלחת רב-יומית. סומנה במחקר המאומת של הפרויקט
     למי שרוצה טרק אמיתי בלי הלילות הנוספים
 - name: Dark Cave zipline and mud bath
+  limiter: flood
   area: Chay River, Phong Nha-Ke Bang National Park
   what: A short zipline across the Chay River into a pitch-black cave, followed by a swim
     to a natural mud pool deep inside, then kayaking back down the river.
