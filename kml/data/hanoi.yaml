@@ -199,6 +199,60 @@ must_see:
     שהוחזקו בו בשנות ה-60 וה-70 בשם הילטון האנוי. בתצוגה גיליוטינה ותאי הכלא ששימשו לפעילי
     עצמאות ויאטנמים.
   why_he: מבט ישיר ובלתי מסונן על שתי התקופות — הקולוניאלית והמלחמה האמריקנית — בלב העיר המודרנית
+- name: Imperial Citadel of Thang Long
+  area: Ba Dinh, Hoang Dieu street
+  what: The excavated core of the royal citadel that was Vietnam's seat of power for about
+    thirteen centuries, with the Doan Mon gate, the Kinh Thien palace foundations and an
+    archaeological dig showing layers from the 7th century onward.
+  why: A UNESCO World Heritage site ten minutes from the Old Quarter. Closed on Mondays, which
+    rules out 26/10 and 23/11; the Friday and Saturday night tour does not fit either Hanoi stay
+  confidence: high
+  geocode_query: Imperial Citadel of Thang Long, Hoang Dieu, Ba Dinh, Hanoi, Vietnam
+  price_low: 3.8
+  price_unit: entry
+  price_checked: '2026-10-05'
+  sources:
+  - https://en.wikipedia.org/wiki/Imperial_Citadel_of_Th%C4%83ng_Long
+  - https://vinwonders.com/en/wonderpedia/news/imperial-citadel-of-thang-long/
+  coords:
+    lat: 21.0334391
+    lng: 105.83953
+  name_he: המצודה הקיסרית של תאנג לונג
+  area_he: בה דין, רחוב הואנג דיאו
+  what_he: לב המצודה המלכותית שהייתה מרכז השלטון של ויאטנם במשך כשלוש עשרה מאות שנה. שער
+    דואן מון, יסודות ארמון קין תיין וחפירה ארכיאולוגית שחושפת שכבות מהמאה השביעית ואילך.
+  why_he: אתר מורשת עולמית של אונסק"ו, עשר דקות מהרובע העתיק. סגור בימי שני, ולכן לא ב-26/10
+    וגם לא ב-23/11. סיור הלילה של שישי ושבת לא נופל על אף אחת משתי השהיות בהאנוי
+- name: Ho Chi Minh Mausoleum Complex
+  area: Ba Dinh Square
+  what: The granite mausoleum holding Ho Chi Minh's embalmed body, facing Ba Dinh Square where
+    independence was declared in 1945. The same complex holds his stilt house, the Presidential
+    Palace grounds and the One Pillar Pagoda, a small wooden shrine on a single stone column
+    in a lotus pond.
+  why: The mausoleum is closed for its annual maintenance from 4/9 to 2/11/2026, so the October
+    stay misses it. It reopens 3/11, mornings only and closed Mondays and Fridays, which leaves
+    the morning of 24/11 as the one window if the flight allows. Ba Dinh Square and the One
+    Pillar Pagoda stay open regardless
+  confidence: high
+  geocode_query: Ho Chi Minh Mausoleum, Hanoi
+  price_low: 0
+  price_unit: free
+  price_checked: '2026-10-05'
+  sources:
+  - https://en.sggp.org.vn/ho-chi-minh-mausoleum-to-close-for-restoration-from-september-4-post128741.html
+  - https://en.vietnamplus.vn/president-ho-chi-minh-mausoleum-to-be-closed-for-regular-maintenance-post288232.vnp
+  - https://hanoifreeprivatetourguide.com/one-pillar-pagoda-hanoi/
+  coords:
+    lat: 21.0367831
+    lng: 105.8346888
+  name_he: מתחם המאוזוליאום של הו צ'י מין
+  area_he: כיכר בה דין
+  what_he: מאוזוליאום הגרניט שבו מוצגת גופתו החנוטה של הו צ'י מין, מול כיכר בה דין שבה הוכרזה
+    העצמאות ב-1945. באותו מתחם גם בית הכלונסאות שלו, שטח ארמון הנשיאות ופגודת העמוד האחד,
+    מקדש עץ קטן שעומד על עמוד אבן יחיד בתוך בריכת לוטוס.
+  why_he: המאוזוליאום סגור לתחזוקה השנתית מ-4/9 עד 2/11/2026, ולכן השהות של אוקטובר מפספסת
+    אותו. הוא נפתח מחדש ב-3/11, רק בבקרים וסגור בימי שני ושישי, כך שהחלון היחיד הוא הבוקר
+    של 24/11, אם שעת הטיסה מאפשרת. הכיכר ופגודת העמוד האחד פתוחות בכל מקרה
 attractions:
 - name: Vietnam Museum of Ethnology
   area: Cau Giay, about 8km from the Old Quarter
@@ -236,6 +290,191 @@ attractions:
     וכולם מושכים את הכיסאות אל הקירות.
   why_he: חמש דקות מוזרות באמת ומצולמות, אם כי הגישה הודקה לשיטה שמנוהלת דרך בתי העסק אחרי
     סגירות בעבר מטעמי בטיחות קהל
+- name: Thang Long Water Puppet Theatre
+  area: Hoan Kiem, Dinh Tien Hoang street, north shore of the lake
+  what: A 50-minute show of wooden puppets performed on a pool of water by puppeteers hidden
+    behind a bamboo screen, with a live band playing traditional instruments. The form comes
+    from the flooded rice fields of the Red River delta.
+  why: A northern Vietnamese art that exists nowhere else, indoors and an hour long, which makes
+    it the natural plan for a rainy evening. Evening slots sell out two to three days ahead
+  confidence: high
+  geocode_query: Thang Long Water Puppet Theatre, Dinh Tien Hoang, Hanoi, Vietnam
+  weather: low
+  price_low: 3.8
+  price_high: 7.7
+  price_unit: entry
+  price_checked: '2026-10-05'
+  sources:
+  - https://vinwonders.com/en/wonderpedia/news/thang-long-water-puppet-theater-hanoi-enjoy-excellent-folk-art-of-vietnam/
+  - https://viet-go.com/en/attractions/thang-long-water-puppet-theatre-guide
+  coords:
+    lat: 21.0317043
+    lng: 105.853455
+  name_he: תיאטרון בובות המים תאנג לונג
+  area_he: הואן קיים, רחוב דין טיין הואנג, בגדה הצפונית של האגם
+  what_he: מופע של 50 דקות שבו בובות עץ מופעלות על בריכת מים בידי בובנאים שמסתתרים מאחורי
+    מסך במבוק, עם להקה חיה שמנגנת בכלים מסורתיים. האמנות נולדה בשדות האורז המוצפים של
+    דלתת הנהר האדום.
+  why_he: אמנות של צפון ויאטנם שלא קיימת בשום מקום אחר, בתוך אולם ובאורך שעה, ולכן התוכנית
+    הטבעית לערב גשום. ההופעות של הערב נמכרות יומיים-שלושה מראש
+- name: Vietnamese Women's Museum
+  area: Hoan Kiem, 36 Ly Thuong Kiet
+  what: Four floors on the role of women in Vietnamese family life, work, war and fashion, from
+    ethnic-minority wedding dress to the street vendors with shoulder poles, with English labels
+    throughout.
+  why: Consistently rated one of the best-curated museums in the city, cheap, indoors and a
+    short walk from Hoan Kiem Lake
+  confidence: high
+  geocode_query: Vietnamese Women's Museum, 36 Ly Thuong Kiet, Hanoi, Vietnam
+  weather: low
+  price_low: 1.5
+  price_unit: entry
+  price_checked: '2026-10-05'
+  sources:
+  - https://vietnamdiscovery.com/hanoi/attractions/vietnamese-womens-museum/
+  coords:
+    lat: 21.0233506
+    lng: 105.8515958
+  name_he: מוזיאון האישה הווייטנאמית
+  area_he: הואן קיים, לי תואנג קיאט 36
+  what_he: ארבע קומות על מקומן של נשים בחיי המשפחה, בעבודה, במלחמה ובאופנה בוויאטנם, משמלות
+    כלה של מיעוטים אתניים ועד רוכלות הרחוב עם מוט הכתפיים. שילוט באנגלית לאורך כל התצוגה.
+  why_he: נחשב שוב ושוב לאחד המוזיאונים הבנויים היטב בעיר. זול, מקורה, והליכה קצרה מאגם
+    הואן קיים
+- name: St. Joseph's Cathedral
+  area: Hoan Kiem, Nha Chung street
+  what: A neo-Gothic cathedral completed in 1886, modelled on Notre-Dame de Paris, its grey
+    twin towers standing over a small square lined with cafes.
+  why: Free, five minutes from the lake, and the square in front is where Hanoians sit on low
+    stools for lemon tea in the evening
+  confidence: high
+  geocode_query: St. Joseph's Cathedral, Nha Chung, Hanoi, Vietnam
+  price_low: 0
+  price_unit: free
+  price_checked: '2026-10-05'
+  sources:
+  - https://en.wikipedia.org/wiki/St._Joseph%27s_Cathedral,_Hanoi
+  coords:
+    lat: 21.0286483
+    lng: 105.8488566
+  location_precision: approximate
+  name_he: קתדרלת סנט ג'וזף
+  area_he: הואן קיים, רחוב נה צ'ונג
+  what_he: קתדרלה ניאו-גותית שהושלמה ב-1886 בהשראת נוטרדאם של פריז. שני מגדלים אפורים מעל
+    כיכר קטנה מוקפת בתי קפה.
+  why_he: הכניסה חינם, חמש דקות מהאגם, ובכיכר שמולה תושבי העיר יושבים בערב על שרפרפים נמוכים
+    ושותים תה לימון
+- name: Long Bien Bridge
+  area: Between the Old Quarter and Long Bien, over the Red River
+  what: A 1.7km steel cantilever bridge finished by the French in 1903, bombed repeatedly in
+    the American war and patched rather than replaced. Trains run down the middle and the outer
+    lanes carry only motorbikes, bicycles and pedestrians.
+  why: Free, and a walk out to the middle at sunset gives the widest view of the Red River and
+    the city. The Ceramic Mosaic Mural starts at its foot
+  confidence: high
+  geocode_query: Long Bien Bridge, Hanoi, Vietnam
+  price_low: 0
+  price_unit: free
+  price_checked: '2026-10-05'
+  sources:
+  - https://en.wikipedia.org/wiki/Long_Bi%C3%AAn_Bridge
+  coords:
+    lat: 21.0430652
+    lng: 105.8580334
+  name_he: גשר לונג ביין
+  area_he: בין הרובע העתיק ללונג ביין, מעל הנהר האדום
+  what_he: גשר פלדה באורך 1.7 קילומטר שהצרפתים השלימו ב-1903. הופצץ שוב ושוב במלחמה האמריקנית
+    ותוקן במקום שיוחלף. רכבות נוסעות באמצע, ובנתיבים החיצוניים עוברים רק אופנועים, אופניים
+    והולכי רגל.
+  why_he: חינם, והליכה עד אמצע הגשר בשקיעה נותנת את התצפית הרחבה ביותר על הנהר האדום ועל העיר.
+    ציור הקיר הקרמי מתחיל למרגלותיו
+- name: Hanoi Ceramic Mosaic Mural
+  area: Hong Ha street, along the Red River dike
+  what: A ceramic mosaic almost 4km long on the wall of the Red River dike, running from the foot
+    of Long Bien Bridge, made by local and foreign artists between 2007 and 2010 for the city's
+    thousandth birthday. It moves through Vietnamese history from the Dong Son drums to children's
+    drawings.
+  why: Holds the Guinness record as the largest ceramic mosaic in the world, costs nothing, and
+    pairs naturally with a walk over Long Bien Bridge
+  confidence: high
+  geocode_query: Hanoi Ceramic Mosaic Mural, Hong Ha, Hanoi, Vietnam
+  price_low: 0
+  price_unit: free
+  price_checked: '2026-10-05'
+  sources:
+  - https://en.wikipedia.org/wiki/Hanoi_Ceramic_Mosaic_Mural
+  name_he: ציור הקיר הקרמי של האנוי
+  area_he: רחוב הונג הה, לאורך סוללת הנהר האדום
+  what_he: פסיפס קרמיקה באורך כמעט 4 קילומטר על קיר סוללת הנהר האדום, שמתחיל למרגלות גשר לונג
+    ביין. אמנים מקומיים וזרים יצרו אותו בין 2007 ל-2010 לכבוד יום ההולדת האלף של העיר, והוא
+    עובר על ההיסטוריה של ויאטנם מתופי דונג סון ועד ציורי ילדים.
+  why_he: מחזיק בשיא גינס כפסיפס הקרמיקה הגדול בעולם, לא עולה כלום, ומשתלב באופן טבעי עם הליכה
+    על גשר לונג ביין
+- name: Phung Hung Mural Street
+  area: Old Quarter, Phung Hung street
+  what: The brick arches under the old railway viaduct on Phung Hung street, painted in 2017 by
+    Vietnamese and Korean artists with scenes of old Hanoi - the lantern stalls of Hang Ma at
+    Mid-Autumn, a street vendor, the Trang Tien department store.
+  why: A free open-air gallery on the same street as the train-street cafes, so the two fit in
+    one visit
+  confidence: high
+  geocode_query: Phung Hung, Hanoi
+  price_low: 0
+  price_unit: free
+  price_checked: '2026-10-05'
+  sources:
+  - https://vietnamnet.vn/en/phung-hung-mural-street-features-old-hanoi-E199459.html
+  coords:
+    lat: 21.0340272
+    lng: 105.8457157
+  location_precision: approximate
+  name_he: רחוב ציורי הקיר פונג הונג
+  area_he: הרובע העתיק, רחוב פונג הונג
+  what_he: קשתות הלבנים מתחת לגשר הרכבת הישן ברחוב פונג הונג, שאמנים ויאטנמים וקוריאנים ציירו
+    ב-2017 בסצנות מהאנוי של פעם, כמו דוכני הפנסים של האנג מה בחג אמצע הסתיו, רוכלת רחוב וחנות
+    הכלבו צ'אנג טיין.
+  why_he: גלריה פתוחה בחינם באותו רחוב של בתי הקפה על המסילה, כך ששניהם נכנסים בביקור אחד
+- name: Bat Trang Pottery Village
+  area: Gia Lam, about 13km south-east of the Old Quarter
+  what: A village that has made ceramics for over five hundred years, with a covered pottery market,
+    family kilns and walk-in workshops where you throw your own piece on a wheel.
+  why: A half-day trip within the city limits, free to enter. Bus 47A from Long Bien takes 30-40
+    minutes; a wheel session costs about 20,000 VND and firing a piece to take home a little more
+  confidence: high
+  geocode_query: Bat Trang, Hanoi
+  price_low: 0
+  price_unit: free
+  price_checked: '2026-10-05'
+  sources:
+  - https://vinpearl.com/en/bat-trang-pottery-village-experience-exciting-hands-on-pottery-making
+  coords:
+    lat: 20.9796328
+    lng: 105.9146403
+  name_he: כפר הקדרות באט צ'אנג
+  area_he: ז'יה לאם, כ-13 קילומטר דרום-מזרחית לרובע העתיק
+  what_he: כפר שמייצר קרמיקה כבר יותר מחמש מאות שנה, עם שוק כלי חרס מקורה, תנורים משפחתיים
+    וסדנאות פתוחות שבהן יוצרים כלי בעצמכם על אובניים.
+  why_he: טיול של חצי יום בתוך גבולות העיר, והכניסה חינם. אוטובוס 47A מלונג ביין נוסע 30 עד 40
+    דקות. סשן על האובניים עולה כ-20,000 דונג, ושריפת הכלי כדי לקחת אותו הביתה קצת יותר
+- name: Duong Lam Ancient Village
+  area: Son Tay, about 50km west of Hanoi
+  what: A village of laterite-stone houses, some several hundred years old, with a communal hall,
+    pagodas and brick lanes, recognised as a national heritage village and still lived in.
+  why: The calmest full-day escape from the city, and nearly free - entry is 20,000 VND. Around
+    1.5 hours each way by car
+  confidence: high
+  geocode_query: Duong Lam, Son Tay
+  price_low: 0.8
+  price_unit: entry
+  price_checked: '2026-10-05'
+  sources:
+  - https://en.wikipedia.org/wiki/%C4%90%C6%B0%E1%BB%9Dng_L%C3%A2m_Ancient_Village
+  name_he: הכפר העתיק דואנג לאם
+  area_he: סון טאי, כ-50 קילומטר מערבית להאנוי
+  what_he: כפר של בתים מאבן לטריט, חלקם בני כמה מאות שנים, עם בית קהילה, פגודות וסמטאות לבנים.
+    מוכרז ככפר מורשת לאומי ועדיין מאוכלס.
+  why_he: הבריחה השקטה ביותר מהעיר ליום שלם, וכמעט בחינם, הכניסה 20,000 דונג. כשעה וחצי לכל כיוון
+    ברכב
 markets:
 - name: Dong Xuan Market
   area: Old Quarter, 600m north of Hoan Kiem Lake
@@ -274,6 +513,26 @@ markets:
   what_he: מקטע של כמעט 3 קילומטר מרחובות הרובע העתיק שנסגרים לתנועה בערבי שישי, שבת וראשון
     ומתמלאים בדוכני ביגוד ומזכרות, עגלות אוכל רחוב והופעות רחוב מאולתרות.
   why_he: פועל רק שלושה ערבים בשבוע, ולכן שווה לתזמן אליו את השהות בהאנוי אם התאריכים מסתדרים
+- name: Hang Gai Silk Street
+  area: Old Quarter, Hang Gai street
+  what: A 300m street of more than a hundred shops selling silk scarves, embroidered clothing,
+    tailoring and lacquerware, on the old route from the river to the citadel's south gate.
+  why: The place to buy silk and have something tailored, a few minutes from Hoan Kiem Lake. Quality
+    varies widely from shop to shop, so compare before paying
+  confidence: high
+  geocode_query: Hang Gai street, Hoan Kiem, Hanoi, Vietnam
+  weather: low
+  sources:
+  - https://vinpearl.com/en/hanoi-silk-street
+  coords:
+    lat: 21.0323251
+    lng: 105.851018
+  name_he: רחוב המשי האנג גאי
+  area_he: הרובע העתיק, רחוב האנג גאי
+  what_he: רחוב באורך 300 מטר עם יותר ממאה חנויות של צעיפי משי, בגדים רקומים, תפירה לפי מידה
+    וכלי לכה, על הדרך העתיקה מהנהר אל השער הדרומי של המצודה.
+  why_he: המקום לקנות משי ולתפור משהו לפי מידה, דקות מאגם הואן קיים. האיכות משתנה מאוד בין
+    החנויות, אז כדאי להשוות לפני שמשלמים
 street_food:
 - name: Bun Cha Huong Lien
   kind: vietnamese
@@ -409,6 +668,109 @@ street_food:
     גורמנד במהדורה האחרונה.
   why_he: פו של מקומיים שהמדריך הגיע אליו רק לאחרונה, ולכן הוא עוד לא עוצב מחדש על ידי תנועת
     תיירים
+- name: Cafe Giang
+  kind: vietnamese
+  dish: Egg coffee
+  area: Old Quarter, 39 Nguyen Huu Huan, down an alley
+  what: The family cafe of Nguyen Van Giang, the Metropole hotel bartender who invented egg coffee
+    in the 1940s by whipping egg yolk with sugar in place of scarce milk. Run by his descendants
+    since 1946.
+  why: The original version of the drink every Hanoi list says not to miss. The entrance is a narrow
+    alley that is easy to walk past
+  confidence: high
+  geocode_query: Cafe Giang, 39 Nguyen Huu Huan, Hanoi, Vietnam
+  price_low: 1
+  price_high: 2
+  price_unit: per_dish
+  price_checked: '2026-10-05'
+  sources:
+  - https://cafegiang.vn/about-us/
+  - https://en.wikipedia.org/wiki/Egg_coffee
+  coords:
+    lat: 21.0342713
+    lng: 105.8544991
+  name_he: קפה ג'יאנג
+  area_he: הרובע העתיק, נגוין הוו הואן 39, בתוך סמטה
+  what_he: בית הקפה המשפחתי של נגוין ואן ג'יאנג, הברמן של מלון המטרופול שהמציא את קפה הביצה
+    בשנות ה-40, כשהקציף חלמון עם סוכר במקום חלב שהיה במחסור. צאצאיו מנהלים אותו מאז 1946.
+  why_he: הגרסה המקורית של המשקה שכל רשימה על האנוי אומרת לא לפספס. הכניסה היא סמטה צרה שקל
+    לעבור לידה בלי לשים לב
+- name: Bun Thang Ba Duc
+  kind: vietnamese
+  dish: Bun thang
+  area: Old Quarter, 48 Cau Go
+  what: An evening-only shop that has served bun thang for over thirty years - a clear chicken
+    broth over thin rice noodles topped with shredded chicken, strips of egg omelette and pork
+    sausage, a dish built from many small preparations.
+  why: Bun thang is a Hanoi dish rarely found elsewhere, and this is one of the long-running addresses
+    for it, 300m from the lake. Open roughly 16:00 to 23:00
+  confidence: medium
+  geocode_query: Cau Go, Hanoi
+  price_low: 2.3
+  price_high: 3.1
+  price_unit: per_dish
+  price_checked: '2026-10-05'
+  sources:
+  - https://www.tripadvisor.com/Restaurant_Review-g293924-d8845163-Reviews-Bun_Thang_Ba_Duc-Hanoi.html
+  - https://antoanthucpham.hanoi.gov.vn/bun-thang-ba-duc-giu-tron-net-tinh-te-cua-mon-an-cau-ky-bac-nhat-ha-thanh-239260410103331394.htm
+  coords:
+    lat: 21.032057
+    lng: 105.8521518
+  location_precision: approximate
+  name_he: בון תאנג בה דוק
+  area_he: הרובע העתיק, קאו גו 48
+  what_he: חנות שפתוחה רק בערב ומגישה בון תאנג כבר יותר משלושים שנה. מרק עוף צלול מעל אטריות
+    אורז דקות, עם עוף מפורק, רצועות חביתה ונקניק חזיר, מנה שבנויה מהרבה הכנות קטנות.
+  why_he: בון תאנג היא מנה האנואית שכמעט לא מוצאים במקום אחר, וזו אחת הכתובות הוותיקות שלה,
+    300 מטר מהאגם. פתוח בערך מ-16:00 עד 23:00
+- name: Pho Cuon Hung Ben
+  kind: vietnamese
+  dish: Pho cuon
+  area: Truc Bach, 118 Tran Vu
+  what: Fresh sheets of uncut pho noodle rolled around stir-fried beef and herbs and dipped in sweet
+    fish sauce. The dish was invented on the Ngu Xa peninsula of Truc Bach Lake, and Hung Ben is
+    one of its oldest shops, since moved from 33 Ngu Xa to a larger room on Tran Vu.
+  why: Pho cuon is a Hanoi-only dish, and the shop sits by Truc Bach Lake, two minutes from the
+    shrimp-cake stall on Thanh Nien
+  confidence: medium
+  geocode_query: Pho Cuon Hung Ben, 118 Tran Vu, Truc Bach, Hanoi, Vietnam
+  sources:
+  - https://www.foody.vn/ha-noi/pho-cuon-hung-ben-118-tran-vu
+  - https://riviu.vn/pho-cuon-hung-ben
+  coords:
+    lat: 21.0459439
+    lng: 105.8408929
+  location_precision: approximate
+  name_he: פו קואון הונג בן
+  area_he: צ'וק באך, צ'אן וו 118
+  what_he: יריעות טריות של אטריות פו שלא נחתכו, מגולגלות סביב בקר מוקפץ ועשבי תיבול וטבולות
+    ברוטב דגים מתוק. המנה נולדה בחצי האי נגו שה שבאגם צ'וק באך, והונג בן היא מהחנויות הוותיקות
+    שלה. עברה מנגו שה 33 לחלל גדול יותר ברחוב צ'אן וו.
+  why_he: פו קואון היא מנה שקיימת רק בהאנוי, והחנות יושבת ליד אגם צ'וק באך, שתי דקות מדוכן
+    עוגיות השרימפס ברחוב תאן נייאן
+- name: Banh Tom Ho Tay
+  kind: vietnamese
+  dish: Banh tom
+  area: Truc Bach, 1 Thanh Nien, between West Lake and Truc Bach Lake
+  what: A lakeside restaurant known for one dish, crisp fritters of sweet potato topped with whole
+    shrimp, eaten wrapped in lettuce and herbs with a sour dipping sauce.
+  why: The address CNN called the one food to try in Hanoi, on the road between the two lakes
+    where it is best eaten at sunset. Expect tourist prices and simple service
+  confidence: medium
+  geocode_query: Banh Tom Ho Tay, 1 Thanh Nien, Hanoi, Vietnam
+  sources:
+  - https://www.cnn.com/travel/article/shrimp-cakes-hanoi-vietnam
+  - https://www.tripadvisor.com/Restaurant_Review-g293924-d2687040-Reviews-Banh_tom_Ho_Tay-Hanoi.html
+  coords:
+    lat: 21.0473212
+    lng: 105.8376261
+  location_precision: approximate
+  name_he: באן טום הו טאי
+  area_he: צ'וק באך, תאן נייאן 1, בין האגם המערבי לאגם צ'וק באך
+  what_he: מסעדה על שפת האגם שמוכרת בזכות מנה אחת, לביבות פריכות של בטטה עם שרימפס שלם מעל,
+    שאוכלים עטופות בחסה ועשבי תיבול עם רוטב טבילה חמוץ.
+  why_he: הכתובת ש-CNN הגדירה כמאכל האחד שחייבים לטעום בהאנוי, על הכביש שבין שני האגמים, ושם
+    הכי טוב לאכול אותה בשקיעה. צפו למחירי תיירים ולשירות פשוט
 restaurants:
 - name: Cha Ca Thang Long
   kind: vietnamese

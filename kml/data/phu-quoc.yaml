@@ -161,7 +161,33 @@ must_see:
     ל-30 נוסעים ובנסיעה של רבע שעה, מעל שני איים קטנים יותר בדרך.
   why_he: שיא גינס לרכבל תלת-כבלי חוצה-ים הארוך בעולם, והדרך שבה רוב המבקרים מגיעים לפארק
     סאן וורלד שבהון תום
-attractions:
+diving:
+- name: An Thoi archipelago - the dive area
+  area: Southern Phu Quoc, reached from An Thoi town
+  what: Twelve islands off the southern tip with roughly seventeen named dive sites. The
+    reef comes in two layers - hard coral in the shallows, soft coral below about 7 metres -
+    and the life is small rather than big - reef fish, nudibranchs, cuttlefish, crabs. Average
+    depth across the sites is about 8 metres and the deepest reaches 35. Boats usually moor
+    in shallow, sheltered water and the crew picks the day's two sites by sea state rather
+    than by schedule.
+  why: The one place on this itinerary where diving actually works in late November. The
+    season runs November to April, visibility reaches 15-20 metres from late November, and
+    the northeast monsoon that shuts the north and east of the island leaves the south calm
+  confidence: high
+  geocode_query: An Thoi Archipelago, Phu Quoc, Vietnam
+  sources:
+  - https://localvietnam.com/phu-quoc/diving-in-phu-quoc/
+  - https://phuquocdivezone.com/dive-sites-phu-quoc/
+  name_he: ארכיפלג אן תוי — אזור הצלילה
+  area_he: דרום פו קוק, יוצאים מהעיירה אן תוי
+  what_he: 'שנים-עשר איים מול הקצה הדרומי, עם כשבעה-עשר אתרי צלילה נקובים בשם. השונית בנויה
+    בשתי שכבות — אלמוג קשה במים הרדודים, אלמוג רך מתחת לכשבעה מטרים — והחיים שם קטנים ולא
+    גדולים: דגי שונית, נודיברנכים, דיונונים, סרטנים. העומק הממוצע בין האתרים הוא כשמונה
+    מטרים והעמוק שבהם מגיע ל-35. הסירות עוגנות בדרך כלל במים רדודים ומוגנים, והצוות בוחר
+    את שני אתרי היום לפי מצב הים ולא לפי לוח זמנים.'
+  why_he: המקום היחיד במסלול הזה שבו צלילה באמת עובדת בסוף נובמבר. העונה נמשכת מנובמבר עד
+    אפריל, הראות מגיעה ל-15 עד 20 מטר מסוף נובמבר, והמונסון הצפון-מזרחי שסוגר את הצפון
+    והמזרח של האי משאיר את הדרום רגוע
 - name: Rainbow Divers fun dive, An Thoi archipelago
   area: An Thoi, southern Phu Quoc
   what: A twin-deck dive boat trip from Vietnam's longest-established PADI dive centre to
@@ -204,6 +230,119 @@ attractions:
     הצוללים אינם יורדים מתחת לשישה מטרים, בשתי צלילות של כ-20 דקות אחרי תדריך ותרגול מיומנויות
     במים רדודים.
   why_he: האפשרות למטייל הלא-מוסמך לצלול לצד הצולל המוסמך באותה יציאה, במקום להישאר לשנורקל
+- name: Flipper Diving Club
+  area: Duong Dong, Phu Quoc
+  what: A PADI centre running smaller groups than the larger outfits, with instructors from
+    several countries. It holds 4.5 out of 5 from more than 670 reviews and ranks second of
+    seventy-five tours and activities in Duong Dong.
+  why: The alternative to the island's biggest operator, and the one reviewers reach for
+    when they want a small boat rather than a full one. More reviews than any other dive
+    centre here, which makes the rating worth something
+  confidence: high
+  geocode_query: Flipper Diving Club, Duong Dong, Phu Quoc, Vietnam
+  sources:
+  - https://www.tripadvisor.com/Attraction_Review-g1184679-d2087153-Reviews-Flipper_Diving_Club-Duong_Dong_Phu_Quoc_Island_Kien_Giang_Province.html
+  - https://www.flipperdiving.com/phu-quoc-dive-spots/
+  name_he: מועדון הצלילה פליפר
+  area_he: דואונג דונג, פו קוק
+  what_he: מרכז PADI שמפעיל קבוצות קטנות יותר מהמפעילות הגדולות, עם מדריכים מכמה מדינות.
+    מדורג 4.5 מתוך 5 מיותר מ-670 ביקורות, ובמקום השני מתוך שבעים וחמישה סיורים ופעילויות
+    בדואונג דונג.
+  why_he: החלופה למפעילה הגדולה של האי, וזו שמבקרים פונים אליה כשרוצים סירה קטנה ולא מלאה.
+    יותר ביקורות מכל מרכז צלילה אחר כאן, מה שהופך את הדירוג למשמעותי
+- name: John's Tours - the quote on file
+  area: Southern Phu Quoc, An Thoi; hotel pickup included
+  what: A direct dive club, not booked through an agency, which sent a detailed written
+    quote - 110 USD per person for two dives of about 45-50 minutes, covering gear, a dive
+    master, hotel pickup and return, water, fruit and lunch on the boat. Soft drinks and
+    beer are extra and served after the dives. Payment is to the guide on the boat in cash,
+    by Vietnamese bank transfer, or by card through OnePay with a 3 percent fee. For an
+    uncertified diver it runs Discover Scuba one-to-one, 6 metres maximum, about 25 minutes
+    a dive, age 10 and up, barred for heart, lung or blood-pressure conditions and pregnancy.
+  why: The only quoted price in this tab, and it sits inside the normal Phu Quoc range of
+    90 to 130 USD for two fun dives. Two things are still open - the club has not given a
+    phone number or website, and the quote prices a certified diver, not the Discover Scuba
+    slot, so that figure needs asking for. Note also that two agencies already offered An
+    Thoi diving inside their packages, so check you are not buying the same day twice
+  confidence: high
+  price_low: 110
+  price_unit: per_person
+  price_checked: '2026-06-30'
+  geocode_query: An Thoi harbour, Phu Quoc, Vietnam
+  sources:
+  - https://localvietnam.com/phu-quoc/diving-in-phu-quoc/
+  name_he: 'ג''ונס טורס — ההצעה שבתיק'
+  area_he: דרום פו קוק, אן תוי; כולל איסוף מהמלון
+  what_he: 'מועדון צלילה ישיר, לא דרך סוכנות, ששלח הצעה מפורטת בכתב: 110 דולר לאדם לשתי
+    צלילות של כ-45 עד 50 דקות, הכולל ציוד, דייב מאסטר, איסוף והחזרה מהמלון, מים, פירות
+    וארוחת צהריים על הסירה. משקאות קלים ובירה בתוספת ומוגשים אחרי הצלילות. התשלום למדריך
+    על הסירה במזומן, בהעברה בנקאית ויאטנמית, או בכרטיס דרך OnePay בתוספת שלושה אחוזים.
+    לצולל לא מוסמך הוא מפעיל צלילת היכרות אחד על אחד, עד שישה מטרים, כ-25 דקות לצלילה,
+    מגיל עשר, ואסור במחלות לב, ריאות או לחץ דם ובהריון.'
+  why_he: 'המחיר הנקוב היחיד בטאב הזה, והוא יושב בתוך הטווח הרגיל בפו קוק של 90 עד 130 דולר
+    לשתי צלילות הנאה. שני דברים עדיין פתוחים — המועדון לא נתן טלפון או אתר, וההצעה מתמחרת
+    צולל מוסמך ולא את מקום צלילת ההיכרות, ולכן את המספר ההוא צריך לבקש. לידיעה גם: שתי
+    סוכנויות כבר הציעו צלילה באן תוי בתוך החבילות שלהן, לכן לבדוק שלא קונים את אותו יום פעמיים'
+- name: Hon Thom (Pineapple Island) dive sites
+  area: An Thoi archipelago, below the cable car
+  what: Two separate sites on the same island. North Pineapple Point reaches about 18 metres
+    over a rocky bottom carrying a large colony of whip corals, with cuttlefish and reef
+    fish. South Pineapple Point drops to 35 metres and is the deepest dive in Phu Quoc.
+  why: The north site is the better-value dive here for a PADI Open Water diver - its
+    18-metre bottom is exactly the Open Water limit, so the whole site is in range. The
+    south site is not - 35 metres needs Advanced, and no amount of good visibility changes it
+  confidence: medium
+  geocode_query: Hon Thom, An Thoi, Phu Quoc, Vietnam
+  sources:
+  - https://www.flipperdiving.com/phu-quoc-dive-spots/
+  - https://phuquocdivezone.com/dive-sites-phu-quoc/
+  name_he: אתרי הצלילה בהון תום (אי האננס)
+  area_he: ארכיפלג אן תוי, מתחת לרכבל
+  what_he: שני אתרים נפרדים על אותו אי. נקודת האננס הצפונית מגיעה לכ-18 מטר על קרקעית סלעית
+    שנושאת מושבה גדולה של אלמוגי שוט, עם דיונונים ודגי שונית. נקודת האננס הדרומית צוללת
+    ל-35 מטר והיא הצלילה העמוקה ביותר בפו קוק.
+  why_he: 'האתר הצפוני הוא הצלילה המשתלמת כאן לצולל Open Water — קרקעית 18 המטרים שלו היא
+    בדיוק גבול ה-Open Water, ולכן כל האתר בטווח. הדרומי לא: 35 מטר דורשים Advanced, ושום
+    ראות טובה לא משנה את זה'
+- name: Hon Roi (Roi Island) dive sites
+  area: An Thoi archipelago, between the shore and an offshore pearl farm
+  what: Roi East sits in the channel between the island shore and a pearl farm, with a
+    maximum depth of about 10 metres. Roi East and Roi South are the calmest water in the
+    archipelago, with varied coral, cuttlefish and glass shrimp.
+  why: The right site for a first-ever dive. Ten metres maximum, sheltered water and small
+    life to look at closely - which is what a Discover Scuba slot capped at 6 metres
+    actually needs, rather than depth it cannot use
+  confidence: medium
+  geocode_query: Hon Roi, An Thoi, Phu Quoc, Vietnam
+  sources:
+  - https://www.flipperdiving.com/phu-quoc-dive-spots/
+  - https://phuquocdivezone.com/dive-sites-phu-quoc/
+  name_he: אתרי הצלילה בהון רוי (אי רוי)
+  area_he: ארכיפלג אן תוי, בין החוף לחוות פנינים בלב ים
+  what_he: רוי מזרח יושב בתעלה שבין חוף האי לחוות פנינים, בעומק מקסימלי של כעשרה מטרים. רוי
+    מזרח ורוי דרום הם המים הרגועים ביותר בארכיפלג, עם אלמוגים מגוונים, דיונונים ושרימפס זכוכית.
+  why_he: האתר הנכון לצלילה ראשונה בחיים. עשרה מטרים מקסימום, מים מוגנים וחיים קטנים להסתכל
+    עליהם מקרוב — וזה בדיוק מה שמקום של צלילת היכרות שתקרתה שישה מטרים באמת צריך, ולא עומק
+    שאינו יכול להשתמש בו
+- name: Hon Dua (Coco Island) and the porcelain wreck
+  area: An Thoi archipelago, the island closest to An Thoi town
+  what: The nearest island to An Thoi town, which makes it the shortest boat ride in the
+    archipelago. Divers off its western shore report pieces of antique porcelain scattered
+    around a sunken ship.
+  why: The one site here with something other than reef to look at, and the closest to port -
+    which matters on a day the sea turns and the boat needs a short run home
+  confidence: medium
+  geocode_query: Hon Dua, An Thoi, Phu Quoc, Vietnam
+  sources:
+  - https://saigontourism.com.vn/a-guide-to-diving-the-phu-quoc-islands/
+  - https://phuquocdivezone.com/dive-sites-phu-quoc/
+  name_he: הון דואה (אי הקוקוס) והספינה עם החרסינה
+  area_he: ארכיפלג אן תוי, האי הקרוב ביותר לעיירה אן תוי
+  what_he: האי הקרוב ביותר לעיירה אן תוי, ולכן נסיעת הסירה הקצרה ביותר בארכיפלג. צוללים מול
+    חופו המערבי מדווחים על רסיסי חרסינה עתיקה פזורים סביב ספינה טרופה.
+  why_he: האתר היחיד כאן שיש בו משהו מלבד שונית להסתכל עליו, והקרוב ביותר לנמל — מה שחשוב
+    ביום שהים מתהפך והסירה צריכה נסיעה קצרה הביתה
+attractions:
 - name: Vinpearl Safari Phu Quoc
   area: Bai Dai, northwest Phu Quoc
   what: Vietnam's largest wildlife conservation park, home to roughly 4,500 animals across

@@ -15,6 +15,13 @@ CATEGORIES = (
     "markets",
     "nightlife",
     "spa",
+    # Diving is split out of `attractions` rather than left inside it because
+    # the decisions are different in kind: a dive site is chosen by depth and
+    # certification, a club by affiliation and group size, and the whole
+    # activity is governed by a sea state that closes it for months at a
+    # time. Cham Island is the proof -- it sat in `attractions` reading like
+    # a day trip you could book any time, and it is shut for half the year.
+    "diving",
     "logistics",
     # People rather than places: the agent who booked the trip, the dive club,
     # the fixer who handles the visa. They belong in a field guide for the same
@@ -35,6 +42,9 @@ WEATHER_SENSITIVITY = {
     "hotels": "low",
     "nightlife": "low",
     "spa": "low",
+    # The most weather-bound category in the pool. Not just rain: wind drives
+    # the swell, swell kills visibility, and an operator cancels the day.
+    "diving": "high",
     "logistics": "medium",
     "contacts": "low",
 }

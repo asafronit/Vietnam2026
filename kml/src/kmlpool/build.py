@@ -30,6 +30,7 @@ CATEGORY_LABELS = {
     "markets": "Markets & Shopping",
     "nightlife": "Nightlife",
     "spa": "Spa & Massage",
+    "diving": "Diving",
     "logistics": "Logistics",
     "contacts": "Contacts",
 }

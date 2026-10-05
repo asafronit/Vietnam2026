@@ -9,14 +9,15 @@ const POI_DATA = {
     "color": "#e6194b",
     "counts": {
       "hotels": 6,
-      "must_see": 3,
-      "attractions": 2,
+      "must_see": 5,
+      "attractions": 10,
       "food": 0,
-      "street_food": 6,
+      "street_food": 10,
       "restaurants": 4,
-      "markets": 2,
+      "markets": 3,
       "nightlife": 2,
       "spa": 2,
+      "diving": 0,
       "logistics": 1,
       "contacts": 4
     },
@@ -277,6 +278,63 @@ const POI_DATA = {
           "signal": null,
           "video": null,
           "weather": "medium"
+        },
+        {
+          "name": "Imperial Citadel of Thang Long",
+          "area": "Ba Dinh, Hoang Dieu street",
+          "what": "The excavated core of the royal citadel that was Vietnam's seat of power for about thirteen centuries, with the Doan Mon gate, the Kinh Thien palace foundations and an archaeological dig showing layers from the 7th century onward.",
+          "why": "A UNESCO World Heritage site ten minutes from the Old Quarter. Closed on Mondays, which rules out 26/10 and 23/11; the Friday and Saturday night tour does not fit either Hanoi stay",
+          "lat": 21.0334391,
+          "lng": 105.83953,
+          "approx": false,
+          "sources": [
+            "https://en.wikipedia.org/wiki/Imperial_Citadel_of_Th%C4%83ng_Long",
+            "https://vinwonders.com/en/wonderpedia/news/imperial-citadel-of-thang-long/"
+          ],
+          "tier": null,
+          "nameHe": "המצודה הקיסרית של תאנג לונג",
+          "areaHe": "בה דין, רחוב הואנג דיאו",
+          "whatHe": "לב המצודה המלכותית שהייתה מרכז השלטון של ויאטנם במשך כשלוש עשרה מאות שנה. שער דואן מון, יסודות ארמון קין תיין וחפירה ארכיאולוגית שחושפת שכבות מהמאה השביעית ואילך.",
+          "whyHe": "אתר מורשת עולמית של אונסק\"ו, עשר דקות מהרובע העתיק. סגור בימי שני, ולכן לא ב-26/10 וגם לא ב-23/11. סיור הלילה של שישי ושבת לא נופל על אף אחת משתי השהיות בהאנוי",
+          "priceUnit": "entry",
+          "priceLow": 3.8,
+          "priceHigh": null,
+          "priceChecked": "2026-10-05",
+          "avoid": false,
+          "kind": null,
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "weather": "medium"
+        },
+        {
+          "name": "Ho Chi Minh Mausoleum Complex",
+          "area": "Ba Dinh Square",
+          "what": "The granite mausoleum holding Ho Chi Minh's embalmed body, facing Ba Dinh Square where independence was declared in 1945. The same complex holds his stilt house, the Presidential Palace grounds and the One Pillar Pagoda, a small wooden shrine on a single stone column in a lotus pond.",
+          "why": "The mausoleum is closed for its annual maintenance from 4/9 to 2/11/2026, so the October stay misses it. It reopens 3/11, mornings only and closed Mondays and Fridays, which leaves the morning of 24/11 as the one window if the flight allows. Ba Dinh Square and the One Pillar Pagoda stay open regardless",
+          "lat": 21.0367831,
+          "lng": 105.8346888,
+          "approx": false,
+          "sources": [
+            "https://en.sggp.org.vn/ho-chi-minh-mausoleum-to-close-for-restoration-from-september-4-post128741.html",
+            "https://en.vietnamplus.vn/president-ho-chi-minh-mausoleum-to-be-closed-for-regular-maintenance-post288232.vnp",
+            "https://hanoifreeprivatetourguide.com/one-pillar-pagoda-hanoi/"
+          ],
+          "tier": null,
+          "nameHe": "מתחם המאוזוליאום של הו צ'י מין",
+          "areaHe": "כיכר בה דין",
+          "whatHe": "מאוזוליאום הגרניט שבו מוצגת גופתו החנוטה של הו צ'י מין, מול כיכר בה דין שבה הוכרזה העצמאות ב-1945. באותו מתחם גם בית הכלונסאות שלו, שטח ארמון הנשיאות ופגודת העמוד האחד, מקדש עץ קטן שעומד על עמוד אבן יחיד בתוך בריכת לוטוס.",
+          "whyHe": "המאוזוליאום סגור לתחזוקה השנתית מ-4/9 עד 2/11/2026, ולכן השהות של אוקטובר מפספסת אותו. הוא נפתח מחדש ב-3/11, רק בבקרים וסגור בימי שני ושישי, כך שהחלון היחיד הוא הבוקר של 24/11, אם שעת הטיסה מאפשרת. הכיכר ופגודת העמוד האחד פתוחות בכל מקרה",
+          "priceUnit": "free",
+          "priceLow": 0,
+          "priceHigh": null,
+          "priceChecked": "2026-10-05",
+          "avoid": false,
+          "kind": null,
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "weather": "medium"
         }
       ],
       "attractions": [
@@ -325,6 +383,223 @@ const POI_DATA = {
           "priceUnit": null,
           "priceLow": null,
           "priceHigh": null,
+          "avoid": false,
+          "kind": null,
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "weather": "high"
+        },
+        {
+          "name": "Thang Long Water Puppet Theatre",
+          "area": "Hoan Kiem, Dinh Tien Hoang street, north shore of the lake",
+          "what": "A 50-minute show of wooden puppets performed on a pool of water by puppeteers hidden behind a bamboo screen, with a live band playing traditional instruments. The form comes from the flooded rice fields of the Red River delta.",
+          "why": "A northern Vietnamese art that exists nowhere else, indoors and an hour long, which makes it the natural plan for a rainy evening. Evening slots sell out two to three days ahead",
+          "lat": 21.0317043,
+          "lng": 105.853455,
+          "approx": false,
+          "sources": [
+            "https://vinwonders.com/en/wonderpedia/news/thang-long-water-puppet-theater-hanoi-enjoy-excellent-folk-art-of-vietnam/",
+            "https://viet-go.com/en/attractions/thang-long-water-puppet-theatre-guide"
+          ],
+          "tier": null,
+          "nameHe": "תיאטרון בובות המים תאנג לונג",
+          "areaHe": "הואן קיים, רחוב דין טיין הואנג, בגדה הצפונית של האגם",
+          "whatHe": "מופע של 50 דקות שבו בובות עץ מופעלות על בריכת מים בידי בובנאים שמסתתרים מאחורי מסך במבוק, עם להקה חיה שמנגנת בכלים מסורתיים. האמנות נולדה בשדות האורז המוצפים של דלתת הנהר האדום.",
+          "whyHe": "אמנות של צפון ויאטנם שלא קיימת בשום מקום אחר, בתוך אולם ובאורך שעה, ולכן התוכנית הטבעית לערב גשום. ההופעות של הערב נמכרות יומיים-שלושה מראש",
+          "priceUnit": "entry",
+          "priceLow": 3.8,
+          "priceHigh": 7.7,
+          "priceChecked": "2026-10-05",
+          "avoid": false,
+          "kind": null,
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "weather": "low"
+        },
+        {
+          "name": "Vietnamese Women's Museum",
+          "area": "Hoan Kiem, 36 Ly Thuong Kiet",
+          "what": "Four floors on the role of women in Vietnamese family life, work, war and fashion, from ethnic-minority wedding dress to the street vendors with shoulder poles, with English labels throughout.",
+          "why": "Consistently rated one of the best-curated museums in the city, cheap, indoors and a short walk from Hoan Kiem Lake",
+          "lat": 21.0233506,
+          "lng": 105.8515958,
+          "approx": false,
+          "sources": [
+            "https://vietnamdiscovery.com/hanoi/attractions/vietnamese-womens-museum/"
+          ],
+          "tier": null,
+          "nameHe": "מוזיאון האישה הווייטנאמית",
+          "areaHe": "הואן קיים, לי תואנג קיאט 36",
+          "whatHe": "ארבע קומות על מקומן של נשים בחיי המשפחה, בעבודה, במלחמה ובאופנה בוויאטנם, משמלות כלה של מיעוטים אתניים ועד רוכלות הרחוב עם מוט הכתפיים. שילוט באנגלית לאורך כל התצוגה.",
+          "whyHe": "נחשב שוב ושוב לאחד המוזיאונים הבנויים היטב בעיר. זול, מקורה, והליכה קצרה מאגם הואן קיים",
+          "priceUnit": "entry",
+          "priceLow": 1.5,
+          "priceHigh": null,
+          "priceChecked": "2026-10-05",
+          "avoid": false,
+          "kind": null,
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "weather": "low"
+        },
+        {
+          "name": "St. Joseph's Cathedral",
+          "area": "Hoan Kiem, Nha Chung street",
+          "what": "A neo-Gothic cathedral completed in 1886, modelled on Notre-Dame de Paris, its grey twin towers standing over a small square lined with cafes.",
+          "why": "Free, five minutes from the lake, and the square in front is where Hanoians sit on low stools for lemon tea in the evening",
+          "lat": 21.0286483,
+          "lng": 105.8488566,
+          "approx": true,
+          "sources": [
+            "https://en.wikipedia.org/wiki/St._Joseph%27s_Cathedral,_Hanoi"
+          ],
+          "tier": null,
+          "nameHe": "קתדרלת סנט ג'וזף",
+          "areaHe": "הואן קיים, רחוב נה צ'ונג",
+          "whatHe": "קתדרלה ניאו-גותית שהושלמה ב-1886 בהשראת נוטרדאם של פריז. שני מגדלים אפורים מעל כיכר קטנה מוקפת בתי קפה.",
+          "whyHe": "הכניסה חינם, חמש דקות מהאגם, ובכיכר שמולה תושבי העיר יושבים בערב על שרפרפים נמוכים ושותים תה לימון",
+          "priceUnit": "free",
+          "priceLow": 0,
+          "priceHigh": null,
+          "priceChecked": "2026-10-05",
+          "avoid": false,
+          "kind": null,
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "weather": "high"
+        },
+        {
+          "name": "Long Bien Bridge",
+          "area": "Between the Old Quarter and Long Bien, over the Red River",
+          "what": "A 1.7km steel cantilever bridge finished by the French in 1903, bombed repeatedly in the American war and patched rather than replaced. Trains run down the middle and the outer lanes carry only motorbikes, bicycles and pedestrians.",
+          "why": "Free, and a walk out to the middle at sunset gives the widest view of the Red River and the city. The Ceramic Mosaic Mural starts at its foot",
+          "lat": 21.0430652,
+          "lng": 105.8580334,
+          "approx": false,
+          "sources": [
+            "https://en.wikipedia.org/wiki/Long_Bi%C3%AAn_Bridge"
+          ],
+          "tier": null,
+          "nameHe": "גשר לונג ביין",
+          "areaHe": "בין הרובע העתיק ללונג ביין, מעל הנהר האדום",
+          "whatHe": "גשר פלדה באורך 1.7 קילומטר שהצרפתים השלימו ב-1903. הופצץ שוב ושוב במלחמה האמריקנית ותוקן במקום שיוחלף. רכבות נוסעות באמצע, ובנתיבים החיצוניים עוברים רק אופנועים, אופניים והולכי רגל.",
+          "whyHe": "חינם, והליכה עד אמצע הגשר בשקיעה נותנת את התצפית הרחבה ביותר על הנהר האדום ועל העיר. ציור הקיר הקרמי מתחיל למרגלותיו",
+          "priceUnit": "free",
+          "priceLow": 0,
+          "priceHigh": null,
+          "priceChecked": "2026-10-05",
+          "avoid": false,
+          "kind": null,
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "weather": "high"
+        },
+        {
+          "name": "Hanoi Ceramic Mosaic Mural",
+          "area": "Hong Ha street, along the Red River dike",
+          "what": "A ceramic mosaic almost 4km long on the wall of the Red River dike, running from the foot of Long Bien Bridge, made by local and foreign artists between 2007 and 2010 for the city's thousandth birthday. It moves through Vietnamese history from the Dong Son drums to children's drawings.",
+          "why": "Holds the Guinness record as the largest ceramic mosaic in the world, costs nothing, and pairs naturally with a walk over Long Bien Bridge",
+          "lat": null,
+          "lng": null,
+          "approx": false,
+          "sources": [
+            "https://en.wikipedia.org/wiki/Hanoi_Ceramic_Mosaic_Mural"
+          ],
+          "tier": null,
+          "nameHe": "ציור הקיר הקרמי של האנוי",
+          "areaHe": "רחוב הונג הה, לאורך סוללת הנהר האדום",
+          "whatHe": "פסיפס קרמיקה באורך כמעט 4 קילומטר על קיר סוללת הנהר האדום, שמתחיל למרגלות גשר לונג ביין. אמנים מקומיים וזרים יצרו אותו בין 2007 ל-2010 לכבוד יום ההולדת האלף של העיר, והוא עובר על ההיסטוריה של ויאטנם מתופי דונג סון ועד ציורי ילדים.",
+          "whyHe": "מחזיק בשיא גינס כפסיפס הקרמיקה הגדול בעולם, לא עולה כלום, ומשתלב באופן טבעי עם הליכה על גשר לונג ביין",
+          "priceUnit": "free",
+          "priceLow": 0,
+          "priceHigh": null,
+          "priceChecked": "2026-10-05",
+          "avoid": false,
+          "kind": null,
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "weather": "high"
+        },
+        {
+          "name": "Phung Hung Mural Street",
+          "area": "Old Quarter, Phung Hung street",
+          "what": "The brick arches under the old railway viaduct on Phung Hung street, painted in 2017 by Vietnamese and Korean artists with scenes of old Hanoi - the lantern stalls of Hang Ma at Mid-Autumn, a street vendor, the Trang Tien department store.",
+          "why": "A free open-air gallery on the same street as the train-street cafes, so the two fit in one visit",
+          "lat": 21.0340272,
+          "lng": 105.8457157,
+          "approx": true,
+          "sources": [
+            "https://vietnamnet.vn/en/phung-hung-mural-street-features-old-hanoi-E199459.html"
+          ],
+          "tier": null,
+          "nameHe": "רחוב ציורי הקיר פונג הונג",
+          "areaHe": "הרובע העתיק, רחוב פונג הונג",
+          "whatHe": "קשתות הלבנים מתחת לגשר הרכבת הישן ברחוב פונג הונג, שאמנים ויאטנמים וקוריאנים ציירו ב-2017 בסצנות מהאנוי של פעם, כמו דוכני הפנסים של האנג מה בחג אמצע הסתיו, רוכלת רחוב וחנות הכלבו צ'אנג טיין.",
+          "whyHe": "גלריה פתוחה בחינם באותו רחוב של בתי הקפה על המסילה, כך ששניהם נכנסים בביקור אחד",
+          "priceUnit": "free",
+          "priceLow": 0,
+          "priceHigh": null,
+          "priceChecked": "2026-10-05",
+          "avoid": false,
+          "kind": null,
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "weather": "high"
+        },
+        {
+          "name": "Bat Trang Pottery Village",
+          "area": "Gia Lam, about 13km south-east of the Old Quarter",
+          "what": "A village that has made ceramics for over five hundred years, with a covered pottery market, family kilns and walk-in workshops where you throw your own piece on a wheel.",
+          "why": "A half-day trip within the city limits, free to enter. Bus 47A from Long Bien takes 30-40 minutes; a wheel session costs about 20,000 VND and firing a piece to take home a little more",
+          "lat": 20.9796328,
+          "lng": 105.9146403,
+          "approx": false,
+          "sources": [
+            "https://vinpearl.com/en/bat-trang-pottery-village-experience-exciting-hands-on-pottery-making"
+          ],
+          "tier": null,
+          "nameHe": "כפר הקדרות באט צ'אנג",
+          "areaHe": "ז'יה לאם, כ-13 קילומטר דרום-מזרחית לרובע העתיק",
+          "whatHe": "כפר שמייצר קרמיקה כבר יותר מחמש מאות שנה, עם שוק כלי חרס מקורה, תנורים משפחתיים וסדנאות פתוחות שבהן יוצרים כלי בעצמכם על אובניים.",
+          "whyHe": "טיול של חצי יום בתוך גבולות העיר, והכניסה חינם. אוטובוס 47A מלונג ביין נוסע 30 עד 40 דקות. סשן על האובניים עולה כ-20,000 דונג, ושריפת הכלי כדי לקחת אותו הביתה קצת יותר",
+          "priceUnit": "free",
+          "priceLow": 0,
+          "priceHigh": null,
+          "priceChecked": "2026-10-05",
+          "avoid": false,
+          "kind": null,
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "weather": "high"
+        },
+        {
+          "name": "Duong Lam Ancient Village",
+          "area": "Son Tay, about 50km west of Hanoi",
+          "what": "A village of laterite-stone houses, some several hundred years old, with a communal hall, pagodas and brick lanes, recognised as a national heritage village and still lived in.",
+          "why": "The calmest full-day escape from the city, and nearly free - entry is 20,000 VND. Around 1.5 hours each way by car",
+          "lat": null,
+          "lng": null,
+          "approx": false,
+          "sources": [
+            "https://en.wikipedia.org/wiki/%C4%90%C6%B0%E1%BB%9Dng_L%C3%A2m_Ancient_Village"
+          ],
+          "tier": null,
+          "nameHe": "הכפר העתיק דואנג לאם",
+          "areaHe": "סון טאי, כ-50 קילומטר מערבית להאנוי",
+          "whatHe": "כפר של בתים מאבן לטריט, חלקם בני כמה מאות שנים, עם בית קהילה, פגודות וסמטאות לבנים. מוכרז ככפר מורשת לאומי ועדיין מאוכלס.",
+          "whyHe": "הבריחה השקטה ביותר מהעיר ליום שלם, וכמעט בחינם, הכניסה 20,000 דונג. כשעה וחצי לכל כיוון ברכב",
+          "priceUnit": "entry",
+          "priceLow": 0.8,
+          "priceHigh": null,
+          "priceChecked": "2026-10-05",
           "avoid": false,
           "kind": null,
           "isDish": false,
@@ -496,6 +771,116 @@ const POI_DATA = {
           "signal": "michelin_bib",
           "video": null,
           "weather": "medium"
+        },
+        {
+          "name": "Cafe Giang",
+          "area": "Old Quarter, 39 Nguyen Huu Huan, down an alley",
+          "what": "The family cafe of Nguyen Van Giang, the Metropole hotel bartender who invented egg coffee in the 1940s by whipping egg yolk with sugar in place of scarce milk. Run by his descendants since 1946.",
+          "why": "The original version of the drink every Hanoi list says not to miss. The entrance is a narrow alley that is easy to walk past",
+          "lat": 21.0342713,
+          "lng": 105.8544991,
+          "approx": false,
+          "sources": [
+            "https://cafegiang.vn/about-us/",
+            "https://en.wikipedia.org/wiki/Egg_coffee"
+          ],
+          "tier": null,
+          "nameHe": "קפה ג'יאנג",
+          "areaHe": "הרובע העתיק, נגוין הוו הואן 39, בתוך סמטה",
+          "whatHe": "בית הקפה המשפחתי של נגוין ואן ג'יאנג, הברמן של מלון המטרופול שהמציא את קפה הביצה בשנות ה-40, כשהקציף חלמון עם סוכר במקום חלב שהיה במחסור. צאצאיו מנהלים אותו מאז 1946.",
+          "whyHe": "הגרסה המקורית של המשקה שכל רשימה על האנוי אומרת לא לפספס. הכניסה היא סמטה צרה שקל לעבור לידה בלי לשים לב",
+          "priceUnit": "per_dish",
+          "priceLow": 1,
+          "priceHigh": 2,
+          "priceChecked": "2026-10-05",
+          "avoid": false,
+          "kind": "vietnamese",
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "weather": "medium"
+        },
+        {
+          "name": "Bun Thang Ba Duc",
+          "area": "Old Quarter, 48 Cau Go",
+          "what": "An evening-only shop that has served bun thang for over thirty years - a clear chicken broth over thin rice noodles topped with shredded chicken, strips of egg omelette and pork sausage, a dish built from many small preparations.",
+          "why": "Bun thang is a Hanoi dish rarely found elsewhere, and this is one of the long-running addresses for it, 300m from the lake. Open roughly 16:00 to 23:00",
+          "lat": 21.032057,
+          "lng": 105.8521518,
+          "approx": true,
+          "sources": [
+            "https://www.tripadvisor.com/Restaurant_Review-g293924-d8845163-Reviews-Bun_Thang_Ba_Duc-Hanoi.html",
+            "https://antoanthucpham.hanoi.gov.vn/bun-thang-ba-duc-giu-tron-net-tinh-te-cua-mon-an-cau-ky-bac-nhat-ha-thanh-239260410103331394.htm"
+          ],
+          "tier": null,
+          "nameHe": "בון תאנג בה דוק",
+          "areaHe": "הרובע העתיק, קאו גו 48",
+          "whatHe": "חנות שפתוחה רק בערב ומגישה בון תאנג כבר יותר משלושים שנה. מרק עוף צלול מעל אטריות אורז דקות, עם עוף מפורק, רצועות חביתה ונקניק חזיר, מנה שבנויה מהרבה הכנות קטנות.",
+          "whyHe": "בון תאנג היא מנה האנואית שכמעט לא מוצאים במקום אחר, וזו אחת הכתובות הוותיקות שלה, 300 מטר מהאגם. פתוח בערך מ-16:00 עד 23:00",
+          "priceUnit": "per_dish",
+          "priceLow": 2.3,
+          "priceHigh": 3.1,
+          "priceChecked": "2026-10-05",
+          "avoid": false,
+          "kind": "vietnamese",
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "weather": "medium"
+        },
+        {
+          "name": "Pho Cuon Hung Ben",
+          "area": "Truc Bach, 118 Tran Vu",
+          "what": "Fresh sheets of uncut pho noodle rolled around stir-fried beef and herbs and dipped in sweet fish sauce. The dish was invented on the Ngu Xa peninsula of Truc Bach Lake, and Hung Ben is one of its oldest shops, since moved from 33 Ngu Xa to a larger room on Tran Vu.",
+          "why": "Pho cuon is a Hanoi-only dish, and the shop sits by Truc Bach Lake, two minutes from the shrimp-cake stall on Thanh Nien",
+          "lat": 21.0459439,
+          "lng": 105.8408929,
+          "approx": true,
+          "sources": [
+            "https://www.foody.vn/ha-noi/pho-cuon-hung-ben-118-tran-vu",
+            "https://riviu.vn/pho-cuon-hung-ben"
+          ],
+          "tier": null,
+          "nameHe": "פו קואון הונג בן",
+          "areaHe": "צ'וק באך, צ'אן וו 118",
+          "whatHe": "יריעות טריות של אטריות פו שלא נחתכו, מגולגלות סביב בקר מוקפץ ועשבי תיבול וטבולות ברוטב דגים מתוק. המנה נולדה בחצי האי נגו שה שבאגם צ'וק באך, והונג בן היא מהחנויות הוותיקות שלה. עברה מנגו שה 33 לחלל גדול יותר ברחוב צ'אן וו.",
+          "whyHe": "פו קואון היא מנה שקיימת רק בהאנוי, והחנות יושבת ליד אגם צ'וק באך, שתי דקות מדוכן עוגיות השרימפס ברחוב תאן נייאן",
+          "priceUnit": null,
+          "priceLow": null,
+          "priceHigh": null,
+          "avoid": false,
+          "kind": "vietnamese",
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "weather": "medium"
+        },
+        {
+          "name": "Banh Tom Ho Tay",
+          "area": "Truc Bach, 1 Thanh Nien, between West Lake and Truc Bach Lake",
+          "what": "A lakeside restaurant known for one dish, crisp fritters of sweet potato topped with whole shrimp, eaten wrapped in lettuce and herbs with a sour dipping sauce.",
+          "why": "The address CNN called the one food to try in Hanoi, on the road between the two lakes where it is best eaten at sunset. Expect tourist prices and simple service",
+          "lat": 21.0473212,
+          "lng": 105.8376261,
+          "approx": true,
+          "sources": [
+            "https://www.cnn.com/travel/article/shrimp-cakes-hanoi-vietnam",
+            "https://www.tripadvisor.com/Restaurant_Review-g293924-d2687040-Reviews-Banh_tom_Ho_Tay-Hanoi.html"
+          ],
+          "tier": null,
+          "nameHe": "באן טום הו טאי",
+          "areaHe": "צ'וק באך, תאן נייאן 1, בין האגם המערבי לאגם צ'וק באך",
+          "whatHe": "מסעדה על שפת האגם שמוכרת בזכות מנה אחת, לביבות פריכות של בטטה עם שרימפס שלם מעל, שאוכלים עטופות בחסה ועשבי תיבול עם רוטב טבילה חמוץ.",
+          "whyHe": "הכתובת ש-CNN הגדירה כמאכל האחד שחייבים לטעום בהאנוי, על הכביש שבין שני האגמים, ושם הכי טוב לאכול אותה בשקיעה. צפו למחירי תיירים ולשירות פשוט",
+          "priceUnit": null,
+          "priceLow": null,
+          "priceHigh": null,
+          "avoid": false,
+          "kind": "vietnamese",
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "weather": "medium"
         }
       ],
       "restaurants": [
@@ -658,6 +1043,32 @@ const POI_DATA = {
           "signal": null,
           "video": null,
           "weather": "medium"
+        },
+        {
+          "name": "Hang Gai Silk Street",
+          "area": "Old Quarter, Hang Gai street",
+          "what": "A 300m street of more than a hundred shops selling silk scarves, embroidered clothing, tailoring and lacquerware, on the old route from the river to the citadel's south gate.",
+          "why": "The place to buy silk and have something tailored, a few minutes from Hoan Kiem Lake. Quality varies widely from shop to shop, so compare before paying",
+          "lat": 21.0323251,
+          "lng": 105.851018,
+          "approx": false,
+          "sources": [
+            "https://vinpearl.com/en/hanoi-silk-street"
+          ],
+          "tier": null,
+          "nameHe": "רחוב המשי האנג גאי",
+          "areaHe": "הרובע העתיק, רחוב האנג גאי",
+          "whatHe": "רחוב באורך 300 מטר עם יותר ממאה חנויות של צעיפי משי, בגדים רקומים, תפירה לפי מידה וכלי לכה, על הדרך העתיקה מהנהר אל השער הדרומי של המצודה.",
+          "whyHe": "המקום לקנות משי ולתפור משהו לפי מידה, דקות מאגם הואן קיים. האיכות משתנה מאוד בין החנויות, אז כדאי להשוות לפני שמשלמים",
+          "priceUnit": null,
+          "priceLow": null,
+          "priceHigh": null,
+          "avoid": false,
+          "kind": null,
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "weather": "low"
         }
       ],
       "nightlife": [
@@ -772,6 +1183,7 @@ const POI_DATA = {
           "weather": "low"
         }
       ],
+      "diving": [],
       "logistics": [
         {
           "name": "Noi Bai Airport to Old Quarter transfer",
@@ -935,6 +1347,7 @@ const POI_DATA = {
       "markets": 2,
       "nightlife": 0,
       "spa": 0,
+      "diving": 0,
       "logistics": 1,
       "contacts": 0
     },
@@ -1359,6 +1772,7 @@ const POI_DATA = {
       ],
       "nightlife": [],
       "spa": [],
+      "diving": [],
       "logistics": [
         {
           "name": "Border Area Entry Permit for the Ha Giang loop",
@@ -1409,6 +1823,7 @@ const POI_DATA = {
       "markets": 1,
       "nightlife": 0,
       "spa": 0,
+      "diving": 0,
       "logistics": 1,
       "contacts": 0
     },
@@ -1757,6 +2172,7 @@ const POI_DATA = {
       ],
       "nightlife": [],
       "spa": [],
+      "diving": [],
       "logistics": [
         {
           "name": "Hanoi to Sapa transfer options",
@@ -1807,6 +2223,7 @@ const POI_DATA = {
       "markets": 0,
       "nightlife": 0,
       "spa": 0,
+      "diving": 0,
       "logistics": 1,
       "contacts": 0
     },
@@ -2131,6 +2548,7 @@ const POI_DATA = {
       "markets": [],
       "nightlife": [],
       "spa": [],
+      "diving": [],
       "logistics": [
         {
           "name": "Hanoi to Tuan Chau Harbour transfer",
@@ -2180,6 +2598,7 @@ const POI_DATA = {
       "markets": 2,
       "nightlife": 0,
       "spa": 0,
+      "diving": 0,
       "logistics": 2,
       "contacts": 0
     },
@@ -2616,6 +3035,7 @@ const POI_DATA = {
       ],
       "nightlife": [],
       "spa": [],
+      "diving": [],
       "logistics": [
         {
           "name": "Ninh Binh to Hanoi (train and road)",
@@ -2693,6 +3113,7 @@ const POI_DATA = {
       "markets": 1,
       "nightlife": 0,
       "spa": 0,
+      "diving": 0,
       "logistics": 3,
       "contacts": 0
     },
@@ -3172,6 +3593,7 @@ const POI_DATA = {
       ],
       "nightlife": [],
       "spa": [],
+      "diving": [],
       "logistics": [
         {
           "name": "Dong Hoi Airport transfer",
@@ -3275,6 +3697,7 @@ const POI_DATA = {
       "markets": 1,
       "nightlife": 0,
       "spa": 0,
+      "diving": 0,
       "logistics": 2,
       "contacts": 0
     },
@@ -3710,6 +4133,7 @@ const POI_DATA = {
       ],
       "nightlife": [],
       "spa": [],
+      "diving": [],
       "logistics": [
         {
           "name": "Phu Bai Airport to Hue city center",
@@ -3780,13 +4204,14 @@ const POI_DATA = {
     "counts": {
       "hotels": 6,
       "must_see": 2,
-      "attractions": 4,
+      "attractions": 3,
       "food": 0,
       "street_food": 6,
       "restaurants": 5,
       "markets": 2,
       "nightlife": 3,
       "spa": 2,
+      "diving": 1,
       "logistics": 2,
       "contacts": 1
     },
@@ -4071,35 +4496,6 @@ const POI_DATA = {
           "priceLow": null,
           "priceHigh": null,
           "avoid": false,
-          "kind": null,
-          "isDish": false,
-          "signal": null,
-          "video": null,
-          "weather": "high"
-        },
-        {
-          "name": "Cham Island snorkeling / diving day trip",
-          "area": "Cu Lao Cham, ~15-20 minutes by speedboat from Cua Dai",
-          "what": "A cluster of eight granite islands and a UNESCO Biosphere Reserve offshore from Hoi An, with coral reefs reachable by snorkeling from the surface or diving to around 6 metres or more. The diving season runs March to September. From about October the northeast monsoon makes the crossing unreliable, the Hoi An dive centres close, and boat services are suspended for days at a time.",
-          "why": "Out of season for this trip. The dates fall squarely inside the monsoon shutdown, so treat any operator still selling it for late October or November as selling weather they cannot deliver. The reef diving for these dates is An Thoi in the south of Phu Quoc, where November is the start of the best window",
-          "lat": null,
-          "lng": null,
-          "approx": false,
-          "sources": [
-            "https://www.yourvietnamtravel.com/cham-island-snorkeling",
-            "https://divehoian.com/hoi-an-diving-and-snorkelling-trips/",
-            "https://hoiandaytrip.com/cham-island-diving/",
-            "https://hoiandaytrip.com/cham-island-weather-by-month/"
-          ],
-          "tier": null,
-          "nameHe": "שנורקלינג וצלילה באיי צ'אם",
-          "areaHe": "קו לאו צ'אם, כ-15 עד 20 דקות בסירה מהירה מקואה דאי",
-          "whatHe": "אשכול של שמונה איי גרניט ושמורת ביוספרה של אונסק\"ו מול חופי הוי אן, עם שוניות אלמוגים שנגישות בשנורקלינג מהפנים או בצלילה לעומק של כשישה מטרים ומעלה. עונת הצלילה נמשכת ממרץ עד ספטמבר. מאוקטובר בערך המונסון הצפון-מזרחי הופך את המעבר ללא אמין, מרכזי הצלילה בהוי אן נסגרים, ושירותי הסירות מושבתים לימים שלמים.",
-          "whyHe": "מחוץ לעונה עבור הטיול הזה. התאריכים נופלים בדיוק בתוך ההשבתה של המונסון, ולכן מפעיל שעדיין מוכר את זה לסוף אוקטובר או לנובמבר מוכר מזג אוויר שאינו יכול לספק. צלילת השונית לתאריכים האלה היא אן תוי בדרום פו קוק, שם נובמבר פותח את החלון הטוב ביותר",
-          "priceUnit": null,
-          "priceLow": null,
-          "priceHigh": null,
-          "avoid": true,
           "kind": null,
           "isDish": false,
           "signal": null,
@@ -4629,6 +5025,37 @@ const POI_DATA = {
           "weather": "low"
         }
       ],
+      "diving": [
+        {
+          "name": "Cham Island snorkeling / diving day trip",
+          "area": "Cu Lao Cham, ~15-20 minutes by speedboat from Cua Dai",
+          "what": "A cluster of eight granite islands and a UNESCO Biosphere Reserve offshore from Hoi An, with coral reefs reachable by snorkeling from the surface or diving to around 6 metres or more. The diving season runs March to September. From about October the northeast monsoon makes the crossing unreliable, the Hoi An dive centres close, and boat services are suspended for days at a time.",
+          "why": "Out of season for this trip. The dates fall squarely inside the monsoon shutdown, so treat any operator still selling it for late October or November as selling weather they cannot deliver. The reef diving for these dates is An Thoi in the south of Phu Quoc, where November is the start of the best window",
+          "lat": null,
+          "lng": null,
+          "approx": false,
+          "sources": [
+            "https://www.yourvietnamtravel.com/cham-island-snorkeling",
+            "https://divehoian.com/hoi-an-diving-and-snorkelling-trips/",
+            "https://hoiandaytrip.com/cham-island-diving/",
+            "https://hoiandaytrip.com/cham-island-weather-by-month/"
+          ],
+          "tier": null,
+          "nameHe": "שנורקלינג וצלילה באיי צ'אם",
+          "areaHe": "קו לאו צ'אם, כ-15 עד 20 דקות בסירה מהירה מקואה דאי",
+          "whatHe": "אשכול של שמונה איי גרניט ושמורת ביוספרה של אונסק\"ו מול חופי הוי אן, עם שוניות אלמוגים שנגישות בשנורקלינג מהפנים או בצלילה לעומק של כשישה מטרים ומעלה. עונת הצלילה נמשכת ממרץ עד ספטמבר. מאוקטובר בערך המונסון הצפון-מזרחי הופך את המעבר ללא אמין, מרכזי הצלילה בהוי אן נסגרים, ושירותי הסירות מושבתים לימים שלמים.",
+          "whyHe": "מחוץ לעונה עבור הטיול הזה. התאריכים נופלים בדיוק בתוך ההשבתה של המונסון, ולכן מפעיל שעדיין מוכר את זה לסוף אוקטובר או לנובמבר מוכר מזג אוויר שאינו יכול לספק. צלילת השונית לתאריכים האלה היא אן תוי בדרום פו קוק, שם נובמבר פותח את החלון הטוב ביותר",
+          "priceUnit": null,
+          "priceLow": null,
+          "priceHigh": null,
+          "avoid": true,
+          "kind": null,
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "weather": "high"
+        }
+      ],
       "logistics": [
         {
           "name": "Da Nang Airport to Hoi An",
@@ -4734,6 +5161,7 @@ const POI_DATA = {
       "markets": 1,
       "nightlife": 0,
       "spa": 0,
+      "diving": 0,
       "logistics": 2,
       "contacts": 0
     },
@@ -5055,6 +5483,7 @@ const POI_DATA = {
       ],
       "nightlife": [],
       "spa": [],
+      "diving": [],
       "logistics": [
         {
           "name": "Da Nang - Buon Ma Thuot flight (VN1911)",
@@ -5132,6 +5561,7 @@ const POI_DATA = {
       "markets": 0,
       "nightlife": 0,
       "spa": 0,
+      "diving": 0,
       "logistics": 1,
       "contacts": 0
     },
@@ -5315,6 +5745,7 @@ const POI_DATA = {
       "markets": [],
       "nightlife": [],
       "spa": [],
+      "diving": [],
       "logistics": [
         {
           "name": "Getting to Lak Tented Camp",
@@ -5365,6 +5796,7 @@ const POI_DATA = {
       "markets": 2,
       "nightlife": 0,
       "spa": 0,
+      "diving": 0,
       "logistics": 2,
       "contacts": 0
     },
@@ -5854,6 +6286,7 @@ const POI_DATA = {
       ],
       "nightlife": [],
       "spa": [],
+      "diving": [],
       "logistics": [
         {
           "name": "Lien Khuong Airport (DLI) to city center",
@@ -5931,6 +6364,7 @@ const POI_DATA = {
       "markets": 2,
       "nightlife": 3,
       "spa": 0,
+      "diving": 0,
       "logistics": 3,
       "contacts": 0
     },
@@ -6659,6 +7093,7 @@ const POI_DATA = {
         }
       ],
       "spa": [],
+      "diving": [],
       "logistics": [
         {
           "name": "Grab from Tan Son Nhat Airport",
@@ -6763,6 +7198,7 @@ const POI_DATA = {
       "markets": 1,
       "nightlife": 0,
       "spa": 0,
+      "diving": 0,
       "logistics": 2,
       "contacts": 0
     },
@@ -7114,6 +7550,7 @@ const POI_DATA = {
       ],
       "nightlife": [],
       "spa": [],
+      "diving": [],
       "logistics": [
         {
           "name": "Bus from Ho Chi Minh City to Can Tho",
@@ -7182,13 +7619,14 @@ const POI_DATA = {
     "counts": {
       "hotels": 6,
       "must_see": 1,
-      "attractions": 3,
+      "attractions": 1,
       "food": 0,
       "street_food": 0,
       "restaurants": 2,
       "markets": 1,
       "nightlife": 0,
       "spa": 0,
+      "diving": 8,
       "logistics": 2,
       "contacts": 0
     },
@@ -7400,60 +7838,6 @@ const POI_DATA = {
       ],
       "attractions": [
         {
-          "name": "Rainbow Divers fun dive, An Thoi archipelago",
-          "area": "An Thoi, southern Phu Quoc",
-          "what": "A twin-deck dive boat trip from Vietnam's longest-established PADI dive centre to reef sites in the An Thoi islands, groups capped at 4 divers per guide, with a full lunch served on board after the southern route.",
-          "why": "The certified-diver option for the trip's PADI Open Water diver - Vietnam's oldest PADI operation, running since 1996, at $65-85 per dive, cheaper than equivalent sites in Thailand or Indonesia. The timing is right - the An Thoi season runs November to April, visibility reaches 15-20 metres from late November, and the southern sites average about 8 metres, which sits well inside the 18-metre Open Water limit",
-          "lat": null,
-          "lng": null,
-          "approx": false,
-          "sources": [
-            "https://www.divevietnam.com/dive-centres/phu-quoc-island/",
-            "https://www.tripadvisor.com/Attraction_Review-g1184679-d1818391-Reviews-Rainbow_Divers-Duong_Dong_Phu_Quoc_Island_Kien_Giang_Province.html"
-          ],
-          "tier": null,
-          "nameHe": "צלילת הנאה עם ריינבו דייברס",
-          "areaHe": "אן תוי, דרום פו קוק",
-          "whatHe": "יציאה בסירת צלילה דו-סיפונית ממרכז הצלילה PADI הוותיק בוויאטנם אל אתרי שונית באיי אן תוי, בקבוצות של עד ארבעה צוללים למדריך, עם ארוחת צהריים מלאה על הסיפון אחרי המסלול הדרומי.",
-          "whyHe": "האפשרות לצולל המוסמך של הטיול — מפעילת ה-PADI הוותיקה בוויאטנם, פועלת מאז 1996, ב-65 עד 85 דולר לצלילה, זול מאתרים מקבילים בתאילנד או באינדונזיה. התזמון מדויק — עונת אן תוי נמשכת מנובמבר עד אפריל, הראות מגיעה ל-15 עד 20 מטר מסוף נובמבר, והאתרים הדרומיים בעומק ממוצע של כשמונה מטרים — הרבה בתוך גבול 18 המטרים של Open Water",
-          "priceUnit": null,
-          "priceLow": null,
-          "priceHigh": null,
-          "avoid": false,
-          "kind": null,
-          "isDish": false,
-          "signal": null,
-          "video": null,
-          "weather": "high"
-        },
-        {
-          "name": "Discover Scuba Diving for beginners",
-          "area": "An Thoi archipelago, southern Phu Quoc",
-          "what": "A no-certification-required introduction to scuba, run one-on-one with an instructor who controls depth, direction and equipment; divers go no deeper than 6 metres across two roughly 20-minute dives after a shallow-water briefing and skills practice.",
-          "why": "The option for the non-certified traveler to dive alongside the certified diver on the same trip, rather than being left snorkeling",
-          "lat": null,
-          "lng": null,
-          "approx": false,
-          "sources": [
-            "https://divephuquoc.com/discover-scuba-diving",
-            "https://www.pelago.com/en-US/activity/puc6f7qxy-padi-discover-scuba-diving-for-beginners-phu-quoc/"
-          ],
-          "tier": null,
-          "nameHe": "צלילת היכרות למתחילים",
-          "areaHe": "ארכיפלג אן תוי, דרום פו קוק",
-          "whatHe": "היכרות עם צלילה שאינה דורשת הסמכה, אחד על אחד עם מדריך ששולט בעומק, בכיוון ובציוד. הצוללים אינם יורדים מתחת לשישה מטרים, בשתי צלילות של כ-20 דקות אחרי תדריך ותרגול מיומנויות במים רדודים.",
-          "whyHe": "האפשרות למטייל הלא-מוסמך לצלול לצד הצולל המוסמך באותה יציאה, במקום להישאר לשנורקל",
-          "priceUnit": null,
-          "priceLow": null,
-          "priceHigh": null,
-          "avoid": false,
-          "kind": null,
-          "isDish": false,
-          "signal": null,
-          "video": null,
-          "weather": "high"
-        },
-        {
           "name": "Vinpearl Safari Phu Quoc",
           "area": "Bai Dai, northwest Phu Quoc",
           "what": "Vietnam's largest wildlife conservation park, home to roughly 4,500 animals across 200 species including Bengal tigers, African lions, giraffes and white rhinos, viewable from a safari-style drive-through zone and walking areas.",
@@ -7568,6 +7952,224 @@ const POI_DATA = {
       ],
       "nightlife": [],
       "spa": [],
+      "diving": [
+        {
+          "name": "An Thoi archipelago - the dive area",
+          "area": "Southern Phu Quoc, reached from An Thoi town",
+          "what": "Twelve islands off the southern tip with roughly seventeen named dive sites. The reef comes in two layers - hard coral in the shallows, soft coral below about 7 metres - and the life is small rather than big - reef fish, nudibranchs, cuttlefish, crabs. Average depth across the sites is about 8 metres and the deepest reaches 35. Boats usually moor in shallow, sheltered water and the crew picks the day's two sites by sea state rather than by schedule.",
+          "why": "The one place on this itinerary where diving actually works in late November. The season runs November to April, visibility reaches 15-20 metres from late November, and the northeast monsoon that shuts the north and east of the island leaves the south calm",
+          "lat": null,
+          "lng": null,
+          "approx": false,
+          "sources": [
+            "https://localvietnam.com/phu-quoc/diving-in-phu-quoc/",
+            "https://phuquocdivezone.com/dive-sites-phu-quoc/"
+          ],
+          "tier": null,
+          "nameHe": "ארכיפלג אן תוי — אזור הצלילה",
+          "areaHe": "דרום פו קוק, יוצאים מהעיירה אן תוי",
+          "whatHe": "שנים-עשר איים מול הקצה הדרומי, עם כשבעה-עשר אתרי צלילה נקובים בשם. השונית בנויה בשתי שכבות — אלמוג קשה במים הרדודים, אלמוג רך מתחת לכשבעה מטרים — והחיים שם קטנים ולא גדולים: דגי שונית, נודיברנכים, דיונונים, סרטנים. העומק הממוצע בין האתרים הוא כשמונה מטרים והעמוק שבהם מגיע ל-35. הסירות עוגנות בדרך כלל במים רדודים ומוגנים, והצוות בוחר את שני אתרי היום לפי מצב הים ולא לפי לוח זמנים.",
+          "whyHe": "המקום היחיד במסלול הזה שבו צלילה באמת עובדת בסוף נובמבר. העונה נמשכת מנובמבר עד אפריל, הראות מגיעה ל-15 עד 20 מטר מסוף נובמבר, והמונסון הצפון-מזרחי שסוגר את הצפון והמזרח של האי משאיר את הדרום רגוע",
+          "priceUnit": null,
+          "priceLow": null,
+          "priceHigh": null,
+          "avoid": false,
+          "kind": null,
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "weather": "high"
+        },
+        {
+          "name": "Rainbow Divers fun dive, An Thoi archipelago",
+          "area": "An Thoi, southern Phu Quoc",
+          "what": "A twin-deck dive boat trip from Vietnam's longest-established PADI dive centre to reef sites in the An Thoi islands, groups capped at 4 divers per guide, with a full lunch served on board after the southern route.",
+          "why": "The certified-diver option for the trip's PADI Open Water diver - Vietnam's oldest PADI operation, running since 1996, at $65-85 per dive, cheaper than equivalent sites in Thailand or Indonesia. The timing is right - the An Thoi season runs November to April, visibility reaches 15-20 metres from late November, and the southern sites average about 8 metres, which sits well inside the 18-metre Open Water limit",
+          "lat": null,
+          "lng": null,
+          "approx": false,
+          "sources": [
+            "https://www.divevietnam.com/dive-centres/phu-quoc-island/",
+            "https://www.tripadvisor.com/Attraction_Review-g1184679-d1818391-Reviews-Rainbow_Divers-Duong_Dong_Phu_Quoc_Island_Kien_Giang_Province.html"
+          ],
+          "tier": null,
+          "nameHe": "צלילת הנאה עם ריינבו דייברס",
+          "areaHe": "אן תוי, דרום פו קוק",
+          "whatHe": "יציאה בסירת צלילה דו-סיפונית ממרכז הצלילה PADI הוותיק בוויאטנם אל אתרי שונית באיי אן תוי, בקבוצות של עד ארבעה צוללים למדריך, עם ארוחת צהריים מלאה על הסיפון אחרי המסלול הדרומי.",
+          "whyHe": "האפשרות לצולל המוסמך של הטיול — מפעילת ה-PADI הוותיקה בוויאטנם, פועלת מאז 1996, ב-65 עד 85 דולר לצלילה, זול מאתרים מקבילים בתאילנד או באינדונזיה. התזמון מדויק — עונת אן תוי נמשכת מנובמבר עד אפריל, הראות מגיעה ל-15 עד 20 מטר מסוף נובמבר, והאתרים הדרומיים בעומק ממוצע של כשמונה מטרים — הרבה בתוך גבול 18 המטרים של Open Water",
+          "priceUnit": null,
+          "priceLow": null,
+          "priceHigh": null,
+          "avoid": false,
+          "kind": null,
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "weather": "high"
+        },
+        {
+          "name": "Discover Scuba Diving for beginners",
+          "area": "An Thoi archipelago, southern Phu Quoc",
+          "what": "A no-certification-required introduction to scuba, run one-on-one with an instructor who controls depth, direction and equipment; divers go no deeper than 6 metres across two roughly 20-minute dives after a shallow-water briefing and skills practice.",
+          "why": "The option for the non-certified traveler to dive alongside the certified diver on the same trip, rather than being left snorkeling",
+          "lat": null,
+          "lng": null,
+          "approx": false,
+          "sources": [
+            "https://divephuquoc.com/discover-scuba-diving",
+            "https://www.pelago.com/en-US/activity/puc6f7qxy-padi-discover-scuba-diving-for-beginners-phu-quoc/"
+          ],
+          "tier": null,
+          "nameHe": "צלילת היכרות למתחילים",
+          "areaHe": "ארכיפלג אן תוי, דרום פו קוק",
+          "whatHe": "היכרות עם צלילה שאינה דורשת הסמכה, אחד על אחד עם מדריך ששולט בעומק, בכיוון ובציוד. הצוללים אינם יורדים מתחת לשישה מטרים, בשתי צלילות של כ-20 דקות אחרי תדריך ותרגול מיומנויות במים רדודים.",
+          "whyHe": "האפשרות למטייל הלא-מוסמך לצלול לצד הצולל המוסמך באותה יציאה, במקום להישאר לשנורקל",
+          "priceUnit": null,
+          "priceLow": null,
+          "priceHigh": null,
+          "avoid": false,
+          "kind": null,
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "weather": "high"
+        },
+        {
+          "name": "Flipper Diving Club",
+          "area": "Duong Dong, Phu Quoc",
+          "what": "A PADI centre running smaller groups than the larger outfits, with instructors from several countries. It holds 4.5 out of 5 from more than 670 reviews and ranks second of seventy-five tours and activities in Duong Dong.",
+          "why": "The alternative to the island's biggest operator, and the one reviewers reach for when they want a small boat rather than a full one. More reviews than any other dive centre here, which makes the rating worth something",
+          "lat": null,
+          "lng": null,
+          "approx": false,
+          "sources": [
+            "https://www.tripadvisor.com/Attraction_Review-g1184679-d2087153-Reviews-Flipper_Diving_Club-Duong_Dong_Phu_Quoc_Island_Kien_Giang_Province.html",
+            "https://www.flipperdiving.com/phu-quoc-dive-spots/"
+          ],
+          "tier": null,
+          "nameHe": "מועדון הצלילה פליפר",
+          "areaHe": "דואונג דונג, פו קוק",
+          "whatHe": "מרכז PADI שמפעיל קבוצות קטנות יותר מהמפעילות הגדולות, עם מדריכים מכמה מדינות. מדורג 4.5 מתוך 5 מיותר מ-670 ביקורות, ובמקום השני מתוך שבעים וחמישה סיורים ופעילויות בדואונג דונג.",
+          "whyHe": "החלופה למפעילה הגדולה של האי, וזו שמבקרים פונים אליה כשרוצים סירה קטנה ולא מלאה. יותר ביקורות מכל מרכז צלילה אחר כאן, מה שהופך את הדירוג למשמעותי",
+          "priceUnit": null,
+          "priceLow": null,
+          "priceHigh": null,
+          "avoid": false,
+          "kind": null,
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "weather": "high"
+        },
+        {
+          "name": "John's Tours - the quote on file",
+          "area": "Southern Phu Quoc, An Thoi; hotel pickup included",
+          "what": "A direct dive club, not booked through an agency, which sent a detailed written quote - 110 USD per person for two dives of about 45-50 minutes, covering gear, a dive master, hotel pickup and return, water, fruit and lunch on the boat. Soft drinks and beer are extra and served after the dives. Payment is to the guide on the boat in cash, by Vietnamese bank transfer, or by card through OnePay with a 3 percent fee. For an uncertified diver it runs Discover Scuba one-to-one, 6 metres maximum, about 25 minutes a dive, age 10 and up, barred for heart, lung or blood-pressure conditions and pregnancy.",
+          "why": "The only quoted price in this tab, and it sits inside the normal Phu Quoc range of 90 to 130 USD for two fun dives. Two things are still open - the club has not given a phone number or website, and the quote prices a certified diver, not the Discover Scuba slot, so that figure needs asking for. Note also that two agencies already offered An Thoi diving inside their packages, so check you are not buying the same day twice",
+          "lat": null,
+          "lng": null,
+          "approx": false,
+          "sources": [
+            "https://localvietnam.com/phu-quoc/diving-in-phu-quoc/"
+          ],
+          "tier": null,
+          "nameHe": "ג'ונס טורס — ההצעה שבתיק",
+          "areaHe": "דרום פו קוק, אן תוי; כולל איסוף מהמלון",
+          "whatHe": "מועדון צלילה ישיר, לא דרך סוכנות, ששלח הצעה מפורטת בכתב: 110 דולר לאדם לשתי צלילות של כ-45 עד 50 דקות, הכולל ציוד, דייב מאסטר, איסוף והחזרה מהמלון, מים, פירות וארוחת צהריים על הסירה. משקאות קלים ובירה בתוספת ומוגשים אחרי הצלילות. התשלום למדריך על הסירה במזומן, בהעברה בנקאית ויאטנמית, או בכרטיס דרך OnePay בתוספת שלושה אחוזים. לצולל לא מוסמך הוא מפעיל צלילת היכרות אחד על אחד, עד שישה מטרים, כ-25 דקות לצלילה, מגיל עשר, ואסור במחלות לב, ריאות או לחץ דם ובהריון.",
+          "whyHe": "המחיר הנקוב היחיד בטאב הזה, והוא יושב בתוך הטווח הרגיל בפו קוק של 90 עד 130 דולר לשתי צלילות הנאה. שני דברים עדיין פתוחים — המועדון לא נתן טלפון או אתר, וההצעה מתמחרת צולל מוסמך ולא את מקום צלילת ההיכרות, ולכן את המספר ההוא צריך לבקש. לידיעה גם: שתי סוכנויות כבר הציעו צלילה באן תוי בתוך החבילות שלהן, לכן לבדוק שלא קונים את אותו יום פעמיים",
+          "priceUnit": "per_person",
+          "priceLow": 110,
+          "priceHigh": null,
+          "priceChecked": "2026-06-30",
+          "avoid": false,
+          "kind": null,
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "weather": "high"
+        },
+        {
+          "name": "Hon Thom (Pineapple Island) dive sites",
+          "area": "An Thoi archipelago, below the cable car",
+          "what": "Two separate sites on the same island. North Pineapple Point reaches about 18 metres over a rocky bottom carrying a large colony of whip corals, with cuttlefish and reef fish. South Pineapple Point drops to 35 metres and is the deepest dive in Phu Quoc.",
+          "why": "The north site is the better-value dive here for a PADI Open Water diver - its 18-metre bottom is exactly the Open Water limit, so the whole site is in range. The south site is not - 35 metres needs Advanced, and no amount of good visibility changes it",
+          "lat": null,
+          "lng": null,
+          "approx": false,
+          "sources": [
+            "https://www.flipperdiving.com/phu-quoc-dive-spots/",
+            "https://phuquocdivezone.com/dive-sites-phu-quoc/"
+          ],
+          "tier": null,
+          "nameHe": "אתרי הצלילה בהון תום (אי האננס)",
+          "areaHe": "ארכיפלג אן תוי, מתחת לרכבל",
+          "whatHe": "שני אתרים נפרדים על אותו אי. נקודת האננס הצפונית מגיעה לכ-18 מטר על קרקעית סלעית שנושאת מושבה גדולה של אלמוגי שוט, עם דיונונים ודגי שונית. נקודת האננס הדרומית צוללת ל-35 מטר והיא הצלילה העמוקה ביותר בפו קוק.",
+          "whyHe": "האתר הצפוני הוא הצלילה המשתלמת כאן לצולל Open Water — קרקעית 18 המטרים שלו היא בדיוק גבול ה-Open Water, ולכן כל האתר בטווח. הדרומי לא: 35 מטר דורשים Advanced, ושום ראות טובה לא משנה את זה",
+          "priceUnit": null,
+          "priceLow": null,
+          "priceHigh": null,
+          "avoid": false,
+          "kind": null,
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "weather": "high"
+        },
+        {
+          "name": "Hon Roi (Roi Island) dive sites",
+          "area": "An Thoi archipelago, between the shore and an offshore pearl farm",
+          "what": "Roi East sits in the channel between the island shore and a pearl farm, with a maximum depth of about 10 metres. Roi East and Roi South are the calmest water in the archipelago, with varied coral, cuttlefish and glass shrimp.",
+          "why": "The right site for a first-ever dive. Ten metres maximum, sheltered water and small life to look at closely - which is what a Discover Scuba slot capped at 6 metres actually needs, rather than depth it cannot use",
+          "lat": null,
+          "lng": null,
+          "approx": false,
+          "sources": [
+            "https://www.flipperdiving.com/phu-quoc-dive-spots/",
+            "https://phuquocdivezone.com/dive-sites-phu-quoc/"
+          ],
+          "tier": null,
+          "nameHe": "אתרי הצלילה בהון רוי (אי רוי)",
+          "areaHe": "ארכיפלג אן תוי, בין החוף לחוות פנינים בלב ים",
+          "whatHe": "רוי מזרח יושב בתעלה שבין חוף האי לחוות פנינים, בעומק מקסימלי של כעשרה מטרים. רוי מזרח ורוי דרום הם המים הרגועים ביותר בארכיפלג, עם אלמוגים מגוונים, דיונונים ושרימפס זכוכית.",
+          "whyHe": "האתר הנכון לצלילה ראשונה בחיים. עשרה מטרים מקסימום, מים מוגנים וחיים קטנים להסתכל עליהם מקרוב — וזה בדיוק מה שמקום של צלילת היכרות שתקרתה שישה מטרים באמת צריך, ולא עומק שאינו יכול להשתמש בו",
+          "priceUnit": null,
+          "priceLow": null,
+          "priceHigh": null,
+          "avoid": false,
+          "kind": null,
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "weather": "high"
+        },
+        {
+          "name": "Hon Dua (Coco Island) and the porcelain wreck",
+          "area": "An Thoi archipelago, the island closest to An Thoi town",
+          "what": "The nearest island to An Thoi town, which makes it the shortest boat ride in the archipelago. Divers off its western shore report pieces of antique porcelain scattered around a sunken ship.",
+          "why": "The one site here with something other than reef to look at, and the closest to port - which matters on a day the sea turns and the boat needs a short run home",
+          "lat": null,
+          "lng": null,
+          "approx": false,
+          "sources": [
+            "https://saigontourism.com.vn/a-guide-to-diving-the-phu-quoc-islands/",
+            "https://phuquocdivezone.com/dive-sites-phu-quoc/"
+          ],
+          "tier": null,
+          "nameHe": "הון דואה (אי הקוקוס) והספינה עם החרסינה",
+          "areaHe": "ארכיפלג אן תוי, האי הקרוב ביותר לעיירה אן תוי",
+          "whatHe": "האי הקרוב ביותר לעיירה אן תוי, ולכן נסיעת הסירה הקצרה ביותר בארכיפלג. צוללים מול חופו המערבי מדווחים על רסיסי חרסינה עתיקה פזורים סביב ספינה טרופה.",
+          "whyHe": "האתר היחיד כאן שיש בו משהו מלבד שונית להסתכל עליו, והקרוב ביותר לנמל — מה שחשוב ביום שהים מתהפך והסירה צריכה נסיעה קצרה הביתה",
+          "priceUnit": null,
+          "priceLow": null,
+          "priceHigh": null,
+          "avoid": false,
+          "kind": null,
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "weather": "high"
+        }
+      ],
       "logistics": [
         {
           "name": "Grab and taxi from Phu Quoc International Airport",

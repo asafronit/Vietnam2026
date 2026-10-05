@@ -36,6 +36,7 @@ ICON_HREFS: dict[str, str] = {
     "markets":     f"{_SHAPES}/shopping.png",
     "nightlife":   f"{_SHAPES}/bars.png",
     "spa":         f"{_SHAPES}/parks.png",
+    "diving":      f"{_SHAPES}/swimming.png",
     "logistics":   f"{_SHAPES}/airports.png",
     # Contacts never reach the KML — a person has no coordinates, so the
     # record is never shippable and the layer is dropped as empty. The entry
