@@ -7,6 +7,7 @@ note_he: כשש שעות דרך ההרים, בכביש בלבד. יש וואן �
 options:
 - mode: limousine_van
   operator: Bang Phan
+  op_lang: vi
   board:
     name: Bang Phan office
     address: 100 Tran Phu, Ha Giang
@@ -16,6 +17,7 @@ options:
     name: Sapa centre drop-off
     address: 599 Dien Bien Phu, Sapa
   departures: '09:00 (free hotel pickup in Ha Giang city from 08:30)'
+  departures_he: "09:00 (איסוף חינם מהמלון בעיר הא זיאנג מ-08:30)"
   duration_min: 360
   duration_max: 390
   price_low: 15
@@ -47,12 +49,14 @@ options:
   confidence: high
 - mode: sleeper_bus
   operator: Quang Nghi
+  op_lang: vi
   board:
     name: Quang Nghi bus office (Nha Xe Quang Nghi)
     address: 60 Minh Khai, Ha Giang
     lat: 22.8187313
     lng: 104.9853533
   departures: Check with the operator; morning and evening services run
+  departures_he: "לברר מול המפעיל; יש קווים בבוקר ובערב"
   duration_min: 360
   duration_max: 420
   price_low: 300000

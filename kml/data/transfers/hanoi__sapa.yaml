@@ -21,6 +21,7 @@ options:
     lat: 22.4922679
     lng: 103.9783871
   departures: SP1 21:35, arrives Lao Cai 05:15; bus 01 to Sapa every 20-30 min from about 05:20
+  departures_he: "SP1 21:35, הגעה ללאו קאי 05:15; אוטובוס 01 לסאפה כל 20-30 דקות מבערך 05:20"
   duration_min: 520
   duration_max: 570
   price_low: 490000
@@ -64,6 +65,7 @@ options:
     lat: 22.4922679
     lng: 103.9783871
   departures: 21:35 (on SP1), arrives Lao Cai 05:15
+  departures_he: "21:35 (על SP1), הגעה ללאו קאי 05:15"
   duration_min: 460
   duration_max: 520
   price_low: 35
@@ -100,6 +102,7 @@ options:
     lat: 21.0275697
     lng: 105.8581148
   departures: 07:00 (28-seat limousine), 15:00 (15-seat limousine)
+  departures_he: "07:00 (לימוזינה של 28 מקומות), 15:00 (לימוזינה של 15 מקומות)"
   duration_min: 330
   duration_max: 360
   price_low: 16
@@ -138,6 +141,7 @@ options:
     lat: 21.0275697
     lng: 105.8581148
   departures: '22:00'
+  departures_he: "22:00"
   duration_min: 330
   duration_max: 360
   price_low: 450000
@@ -176,6 +180,7 @@ options:
     address: Any hotel in Hanoi
     pickup_hotel: true
   departures: Any time, agreed when booking
+  departures_he: "מתי שרוצים, בתיאום בעת ההזמנה"
   duration_min: 300
   duration_max: 330
   price_low: 105

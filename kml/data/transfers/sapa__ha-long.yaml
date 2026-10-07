@@ -14,6 +14,7 @@ options:
     lat: 22.3352035
     lng: 103.8422543
   departures: Morning departure; Halong-to-Sapa runs at about 11:30
+  departures_he: "יציאה בבוקר; בכיוון ההפוך, מהא לונג לסאפה, יוצאים בערך ב-11:30"
   duration_min: 480
   duration_max: 510
   price_low: 32
@@ -47,6 +48,7 @@ options:
     address: Any hotel in Sapa
     pickup_hotel: true
   departures: Any time, agreed when booking
+  departures_he: "מתי שרוצים, בתיאום בעת ההזמנה"
   duration_min: 420
   duration_max: 480
   price_low: 160

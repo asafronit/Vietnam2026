@@ -38,6 +38,8 @@ def _option(**overrides) -> dict:
             "lng": 105.85,
         },
         "departures": "07:00, 22:00",
+        "departures_he": "07:00, 22:00",
+        "op_lang": "en",
         "duration_min": 330,
         "duration_max": 360,
         "price_low": 450000,
@@ -123,6 +125,10 @@ def test_option_is_mapped_to_camel_case_with_nested_board(tmp_path, monkeypatch)
         "pickupHotel": False,
         "lat": 21.03,
         "lng": 105.85,
+        # The language the stop is written in, defaulting to en. The page sets
+        # it as a lang attribute, so a Hebrew screen reader does not voice an
+        # English sentence with Vietnamese phonemes.
+        "lang": "en",
     }
     assert opt["alight"] is None
     assert opt["durationMin"] == 330
@@ -143,7 +149,7 @@ def test_exported_option_has_exactly_the_contract_keys(tmp_path, monkeypatch):
     """Explicit mapping: a future model field must not leak into the page."""
     data = _run_ok(tmp_path, monkeypatch, {"hanoi__sapa.yaml": _transfer()})
     assert set(data[0]["options"][0]) == {
-        "mode", "operator", "board", "alight", "departures",
+        "mode", "operator", "opLang", "board", "alight", "departures", "departuresHe",
         "durationMin", "durationMax", "priceLow", "priceHigh", "currency",
         "priceUnit", "bookLinks", "pros", "prosHe", "cons", "consHe",
         "tips", "tipsHe", "sources", "checked", "confidence",
@@ -242,6 +248,10 @@ INVALID_CASES = {
     "tips_without_hebrew": (_set("opt.tips_he", _DELETE), "tips_he"),
     "note_without_hebrew": (_set("note", "Book early."), "note_he"),
     "missing_operator": (_set("opt.operator", " "), "operator"),
+    # 09-02: Hebrew departures are mandatory whenever departures exist,
+    # and op_lang is a closed set so the page can trust it as a lang attribute.
+    "departures_without_hebrew": (_set("opt.departures_he", _DELETE), "departures_he"),
+    "bad_op_lang": (_set("opt.op_lang", "fr"), "op_lang"),
 }
 
 
@@ -367,3 +377,29 @@ def test_yaml_syntax_error_is_invalid_not_a_traceback(tmp_path, monkeypatch, cap
     assert "broken__file.yaml" in err
     assert "YAML" in err
     assert not (out_dir / "transfers-data.js").exists()
+
+
+# --- 09-02: departures_he and op_lang ------------------------------------
+
+
+def test_departures_he_and_op_lang_are_exported(tmp_path, monkeypatch):
+    opt = _option(departures="Daily 16:10", departures_he="כל יום 16:10", op_lang="vi")
+    data = _run_ok(tmp_path, monkeypatch, {"hanoi__sapa.yaml": _transfer(options=[opt])})
+    o = data[0]["options"][0]
+    assert o["departuresHe"] == "כל יום 16:10"
+    assert o["opLang"] == "vi"
+
+
+def test_missing_op_lang_defaults_to_en(tmp_path, monkeypatch):
+    opt = _option()
+    del opt["op_lang"]
+    data = _run_ok(tmp_path, monkeypatch, {"hanoi__sapa.yaml": _transfer(options=[opt])})
+    assert data[0]["options"][0]["opLang"] == "en"
+
+
+def test_no_departures_needs_no_hebrew_twin(tmp_path, monkeypatch):
+    opt = _option()
+    del opt["departures"]
+    del opt["departures_he"]
+    data = _run_ok(tmp_path, monkeypatch, {"hanoi__sapa.yaml": _transfer(options=[opt])})
+    assert data[0]["options"][0]["departuresHe"] is None

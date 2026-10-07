@@ -13,6 +13,7 @@ options:
     address: Bai Chay and Tuan Chau hotels, Tuan Chau harbour
     pickup_hotel: true
   departures: Pickup 11:40-12:15, arrives Ninh Binh 16:00-16:30
+  departures_he: "איסוף 11:40-12:15, הגעה לנין בין 16:00-16:30"
   duration_min: 210
   duration_max: 270
   price_low: 15
@@ -46,6 +47,7 @@ options:
     address: Any hotel or pier in Ha Long
     pickup_hotel: true
   departures: Any time, agreed when booking
+  departures_he: "מתי שרוצים, בתיאום בעת ההזמנה"
   duration_min: 180
   duration_max: 210
   price_low: 75

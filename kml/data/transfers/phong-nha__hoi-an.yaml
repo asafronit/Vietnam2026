@@ -13,6 +13,7 @@ options:
     address: Any hotel in Phong Nha
     pickup_hotel: true
   departures: Any time, agreed when booking; a full day with stops
+  departures_he: "מתי שרוצים, בתיאום בעת ההזמנה; יום שלם עם עצירות"
   duration_min: 360
   duration_max: 600
   price_low: 3600000
@@ -44,6 +45,7 @@ options:
   confidence: high
 - mode: sleeper_bus
   operator: Hung Thanh
+  op_lang: vi
   board:
     name: Hung Thanh bus office, Phong Nha town centre
     address: Phong Nha town centre, Quang Binh
@@ -55,6 +57,7 @@ options:
     lat: 15.8928214
     lng: 108.3199058
   departures: 04:00, 09:00
+  departures_he: "04:00, 09:00"
   duration_min: 420
   duration_max: 480
   price_low: 16

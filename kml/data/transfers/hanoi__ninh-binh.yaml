@@ -18,6 +18,7 @@ options:
     lat: 20.2420352
     lng: 105.9745791
   departures: About 6 a day, e.g. SE7 06:00, SE9 13:00, SE3 19:20, SE11 21:25, SE1 21:45
+  departures_he: "כ-6 ביום, למשל SE7 06:00, SE9 13:00, SE3 19:20, SE11 21:25, SE1 21:45"
   duration_min: 130
   duration_max: 150
   price_low: 93000
@@ -51,6 +52,7 @@ options:
     address: Hanoi Old Quarter hotels
     pickup_hotel: true
   departures: Many through the day
+  departures_he: "הרבה יציאות במהלך היום"
   duration_min: 90
   duration_max: 150
   price_low: 155000
@@ -82,6 +84,7 @@ options:
     address: Any hotel in Hanoi
     pickup_hotel: true
   departures: Any time, agreed when booking
+  departures_he: "מתי שרוצים, בתיאום בעת ההזמנה"
   duration_min: 90
   duration_max: 120
   price_low: 35

@@ -19,6 +19,7 @@ options:
     lat: 10.8112056
     lng: 106.6535671
   departures: 07:40, 11:35 and 18:55 daily
+  departures_he: "07:40, 11:35 ו-18:55, כל יום"
   duration_min: 55
   duration_max: 55
   price_low: 35
@@ -49,6 +50,7 @@ options:
   confidence: high
 - mode: sleeper_bus
   operator: Futa (Phuong Trang)
+  op_lang: vi
   board:
     name: Da Lat Interprovincial Bus Station
     address: 1 To Hien Thanh, Da Lat
@@ -60,6 +62,7 @@ options:
     lat: 10.7401271
     lng: 106.6194006
   departures: Roughly hourly, 06:00-23:00
+  departures_he: "בערך כל שעה, 06:00-23:00"
   duration_min: 420
   duration_max: 480
   price_low: 280000
@@ -91,6 +94,7 @@ options:
     address: Any hotel in Da Lat
     pickup_hotel: true
   departures: Any time, agreed when booking
+  departures_he: "מתי שרוצים, בתיאום בעת ההזמנה"
   duration_min: 330
   duration_max: 360
   price_low: 125

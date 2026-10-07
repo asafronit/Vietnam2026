@@ -8,6 +8,7 @@ note_he: כ-210 ק"מ, ארבע שעות. אין טיסה - המקומות קר�
 options:
 - mode: sleeper_bus
   operator: Hung Thanh
+  op_lang: vi
   board:
     name: Hung Thanh bus office, Phong Nha town centre
     address: Phong Nha town centre, Quang Binh
@@ -19,6 +20,7 @@ options:
     lat: 16.468691
     lng: 107.5937098
   departures: 04:00, 09:00, 19:00
+  departures_he: "04:00, 09:00, 19:00"
   duration_min: 240
   duration_max: 300
   price_low: 14
@@ -58,6 +60,7 @@ options:
     lat: 16.4564476
     lng: 107.5780522
   departures: Trains about every 2 hours through the day
+  departures_he: "רכבות בערך כל שעתיים במהלך היום"
   duration_min: 270
   duration_max: 330
   price_low: 6
@@ -91,6 +94,7 @@ options:
     address: Any hotel in Phong Nha
     pickup_hotel: true
   departures: Any time, agreed when booking
+  departures_he: "מתי שרוצים, בתיאום בעת ההזמנה"
   duration_min: 240
   duration_max: 300
   price_low: 2300000

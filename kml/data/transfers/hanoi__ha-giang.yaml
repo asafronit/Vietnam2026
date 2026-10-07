@@ -14,6 +14,7 @@ options:
     lat: 21.0280235
     lng: 105.7784787
   departures: Night buses 20:00-23:00; a few day departures from 07:00
+  departures_he: "אוטובוסי לילה 20:00-23:00; כמה יציאות יום מ-07:00"
   duration_min: 360
   duration_max: 480
   price_low: 200000
@@ -53,6 +54,7 @@ options:
     address: Hanoi Old Quarter hotels
     pickup_hotel: true
   departures: Evening departures, typically 20:00-22:00
+  departures_he: "יציאות ערב, בדרך כלל 20:00-22:00"
   duration_min: 360
   duration_max: 420
   price_low: 400000
@@ -87,6 +89,7 @@ options:
     address: Hanoi Old Quarter hotels
     pickup_hotel: true
   departures: Day departures, from about 07:00
+  departures_he: "יציאות יום, מבערך 07:00"
   duration_min: 360
   duration_max: 420
   price_low: 450000
@@ -114,6 +117,7 @@ options:
     address: Any hotel in Hanoi
     pickup_hotel: true
   departures: Any time, agreed when booking
+  departures_he: "מתי שרוצים, בתיאום בעת ההזמנה"
   duration_min: 360
   duration_max: 420
   price_low: 119

@@ -13,6 +13,7 @@ options:
     address: Lien Son, Lak
     pickup_hotel: true
   departures: Morning departure; a full day with stops at waterfalls and farms
+  departures_he: "יציאה בבוקר; יום שלם עם עצירות במפלים ובחוות"
   duration_min: 240
   duration_max: 480
   price_low: 75
@@ -46,6 +47,7 @@ options:
     address: Lien Son, Lak
     pickup_hotel: true
   departures: Any time, agreed when booking
+  departures_he: "מתי שרוצים, בתיאום בעת ההזמנה"
   duration_min: 240
   duration_max: 270
   price_low: 2300000
@@ -83,6 +85,7 @@ options:
     lat: 11.9268818
     lng: 108.4455138
   departures: Several a day from Buon Ma Thuot; ask the operator when it passes Lien Son
+  departures_he: "כמה ביום מבואון מה טואוט; לשאול את המפעיל מתי הוא עובר בליאן סון"
   duration_min: 240
   duration_max: 300
   price_low: 230000

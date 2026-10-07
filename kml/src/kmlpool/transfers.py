@@ -39,6 +39,10 @@ CURRENCIES = ("VND", "USD")
 # either as per person would make it look four times as expensive.
 TRANSFER_PRICE_UNITS = ("per_person", "per_vehicle", "per_cabin")
 CONFIDENCE_LEVELS = ("high", "medium", "low")
+# The language an operator's name is written in. It becomes the lang attribute
+# on the page, so a Hebrew screen reader voices "Hung Thanh" with Vietnamese
+# phonemes instead of Hebrew ones. Declared per option, never guessed.
+OP_LANGS = ("vi", "en")
 
 _ISO_DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
@@ -60,6 +64,13 @@ class Stop:
     # Grab button (grab:// drop_off_lat/lng, plus the address to paste).
     lat: float | None = None
     lng: float | None = None
+    # השפה שבה הכתובת ושם נקודת העלייה כתובים, בדיוק כמו op_lang למפעיל.
+    # ברירת המחדל en ולא vi, וזו החלטה מכוונת: המחרוזות האלה הן ברובן
+    # אנגלית עם שם מקום ויאטנמי בתוכה — "Dak Lak bus company yard (route
+    # 12 terminus)", "Tan Son Nhat Airport, Terminal T3 (domestic)" — ולכן
+    # תג vi גורף היה מצווה על קורא מסך עברי להגות משפט אנגלי שלם בפונמות
+    # ויאטנמיות. תג en על טוקן ויאטנמי בודד הוא פגיעה קטנה בהרבה.
+    lang: str = "en"
 
 
 @dataclass
@@ -70,6 +81,8 @@ class TransferOption:
     confidence: str
     alight: Stop | None = None
     departures: str = ""
+    departures_he: str | None = None
+    op_lang: str = "en"
     duration_min: int | None = None
     duration_max: int | None = None
     price_low: float | None = None
@@ -138,6 +151,7 @@ def _stop(raw) -> Stop | None:
         pickup_hotel=bool(raw.get("pickup_hotel", False)),
         lat=raw.get("lat"),
         lng=raw.get("lng"),
+        lang=str(raw.get("lang", "en") or "en"),
     )
 
 
@@ -221,6 +235,8 @@ def _validate_board(where: str, board: Stop | None) -> list[str]:
     errors: list[str] = []
     if not board.name.strip():
         errors.append(f"{where}: board.name is empty")
+    if board.lang not in OP_LANGS:
+        errors.append(f"{where}: board.lang must be one of {OP_LANGS}")
     if not board.pickup_hotel:
         if not board.address.strip():
             errors.append(f"{where}: board.address is empty (or set pickup_hotel: true)")
@@ -251,6 +267,8 @@ def _validate_option(where: str, opt: TransferOption) -> list[str]:
         errors.append(f"{where}: mode must be one of {MODES}")
     if not (opt.operator or "").strip():
         errors.append(f"{where}: operator is empty")
+    if opt.op_lang not in OP_LANGS:
+        errors.append(f"{where}: op_lang must be one of {OP_LANGS}")
     if opt.confidence not in CONFIDENCE_LEVELS:
         errors.append(f"{where}: confidence must be one of {CONFIDENCE_LEVELS}")
 
@@ -289,6 +307,8 @@ def _validate_option(where: str, opt: TransferOption) -> list[str]:
 
     errors.extend(_validate_hebrew_list(where, "pros_he", opt.pros, opt.pros_he))
     errors.extend(_validate_hebrew_list(where, "cons_he", opt.cons, opt.cons_he))
+    if (opt.departures or "").strip() and not (opt.departures_he or "").strip():
+        errors.append(f"{where}: departures needs departures_he")
     if (opt.tips or "").strip() and not (opt.tips_he or "").strip():
         errors.append(f"{where}: tips needs tips_he")
     return errors
@@ -328,6 +348,7 @@ def _stop_to_web_json(stop: Stop | None) -> dict | None:
         "pickupHotel": stop.pickup_hotel,
         "lat": stop.lat,
         "lng": stop.lng,
+        "lang": stop.lang,
     }
 
 
@@ -338,9 +359,11 @@ def _option_to_web_json(opt: TransferOption) -> dict:
     return {
         "mode": opt.mode,
         "operator": opt.operator,
+        "opLang": opt.op_lang,
         "board": _stop_to_web_json(opt.board),
         "alight": _stop_to_web_json(opt.alight),
         "departures": opt.departures,
+        "departuresHe": opt.departures_he,
         "durationMin": opt.duration_min,
         "durationMax": opt.duration_max,
         "priceLow": opt.price_low,

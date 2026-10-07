@@ -19,6 +19,7 @@ options:
     lat: 10.005344
     lng: 105.7713117
   departures: Frequent through the day
+  departures_he: "תכוף לאורך היום"
   duration_min: 180
   duration_max: 270
   price_low: 165000
@@ -53,6 +54,7 @@ options:
     address: Any hotel in Ho Chi Minh City
     pickup_hotel: true
   departures: Any time
+  departures_he: "מתי שרוצים"
   duration_min: 180
   duration_max: 210
   price_low: 1900000

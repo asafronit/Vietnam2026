@@ -17,6 +17,7 @@ options:
     name: Phu Quoc International Airport (PQC)
     address: Duong To, Phu Quoc
   departures: VN8075 16:10, arrives 17:10 - daily
+  departures_he: "VN8075 16:10, נחיתה 17:10 - כל יום"
   duration_min: 60
   duration_max: 60
   price_low: 47
@@ -56,6 +57,7 @@ options:
     lat: 10.1498952
     lng: 104.0374008
   departures: Buses to Ha Tien through the morning; speedboats about 06:10, 10:15 and 13:15 (last boat mid-afternoon)
+  departures_he: "אוטובוסים לחה טיאן לאורך הבוקר; ספינות מהירות בערך ב-06:10, 10:15 ו-13:15 (האחרונה אחר הצהריים)"
   duration_min: 390
   duration_max: 480
   price_low: 460000

@@ -19,6 +19,7 @@ options:
     lat: 12.6668723
     lng: 108.1199878
   departures: VN1911 13:20, arrives 14:25 - Tuesday, Thursday and Saturday
+  departures_he: "VN1911 13:20, נחיתה 14:25 - בימי ג', ה' ו-ש'"
   duration_min: 65
   duration_max: 65
   price_low: 48
@@ -58,6 +59,7 @@ options:
     lat: 16.05501
     lng: 108.1733575
   departures: Many buses from about 11:30 to 23:10
+  departures_he: "הרבה אוטובוסים, מבערך 11:30 עד 23:10"
   duration_min: 660
   duration_max: 720
   price_low: 450000

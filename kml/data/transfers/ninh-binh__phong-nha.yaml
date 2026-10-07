@@ -18,6 +18,7 @@ options:
     lat: 17.6113791
     lng: 106.3069337
   departures: 19:00, 19:30, 20:30, 21:00, 21:30, 23:00 (pickup about an hour earlier)
+  departures_he: "19:00, 19:30, 20:30, 21:00, 21:30, 23:00 (איסוף כשעה קודם)"
   duration_min: 390
   duration_max: 420
   price_low: 29
@@ -57,6 +58,7 @@ options:
     lat: 17.4689199
     lng: 106.5997285
   departures: SE19 22:02, arrives Dong Hoi 06:25
+  departures_he: "SE19 22:02, הגעה לדונג הוי 06:25"
   duration_min: 503
   duration_max: 600
   price_low: 1950000
@@ -102,6 +104,7 @@ options:
     lat: 17.4689199
     lng: 106.5997285
   departures: SE3 21:34 (arr. 05:38), SE19 22:02, SE1 23:28 (arr. 07:53)
+  departures_he: "SE3 21:34 (הגעה 05:38), SE19 22:02, SE1 23:28 (הגעה 07:53)"
   duration_min: 480
   duration_max: 600
   price_low: 340000
@@ -135,6 +138,7 @@ options:
     address: Any hotel in Ninh Binh or Tam Coc
     pickup_hotel: true
   departures: Any time, agreed when booking
+  departures_he: "מתי שרוצים, בתיאום בעת ההזמנה"
   duration_min: 420
   duration_max: 480
   price_low: 215

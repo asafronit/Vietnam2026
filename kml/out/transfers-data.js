@@ -9,21 +9,25 @@ const TRANSFERS_DATA = [
       {
         "mode": "private_car",
         "operator": "Private transfer (arranged by the camp or a driver)",
+        "opLang": "en",
         "board": {
           "name": "Pickup at your hotel or the airport",
           "address": "Buon Ma Thuot hotels or Buon Ma Thuot Airport",
           "pickupHotel": true,
           "lat": null,
-          "lng": null
+          "lng": null,
+          "lang": "en"
         },
         "alight": {
           "name": "Lak Tented Camp pier, Lien Son",
           "address": "Au Co lakeside road, Lien Son, Lak",
           "pickupHotel": false,
           "lat": 12.409379,
-          "lng": 108.1738224
+          "lng": 108.1738224,
+          "lang": "en"
         },
         "departures": "Any time",
+        "departuresHe": "מתי שרוצים",
         "durationMin": 60,
         "durationMax": 90,
         "priceLow": 550000,
@@ -60,21 +64,25 @@ const TRANSFERS_DATA = [
       {
         "mode": "bus",
         "operator": "Public bus route 12 (Buon Ma Thuot - Lak)",
+        "opLang": "en",
         "board": {
           "name": "Dak Lak bus company yard (route 12 terminus)",
           "address": "38 Y On, Buon Ma Thuot",
           "pickupHotel": false,
           "lat": 12.6651646,
-          "lng": 108.0357835
+          "lng": 108.0357835,
+          "lang": "en"
         },
         "alight": {
           "name": "Lak post office stop / Dak Lieng junction, Lien Son",
           "address": "National Highway 27, Lien Son, Lak",
           "pickupHotel": false,
           "lat": 12.410047,
-          "lng": 108.1784393
+          "lng": 108.1784393,
+          "lang": "en"
         },
         "departures": "Every 15 minutes, 05:30-19:00",
+        "departuresHe": "כל 15 דקות, 05:30-19:00",
         "durationMin": 75,
         "durationMax": 90,
         "priceLow": 25000,
@@ -116,21 +124,25 @@ const TRANSFERS_DATA = [
       {
         "mode": "flight",
         "operator": "Vietnam Airlines (VN1381 / VN1383 / VN1387)",
+        "opLang": "en",
         "board": {
           "name": "Lien Khuong International Airport (DLI)",
           "address": "Lien Khuong, Hiep Thanh, Lam Dong",
           "pickupHotel": false,
           "lat": 11.7504279,
-          "lng": 108.3611709
+          "lng": 108.3611709,
+          "lang": "en"
         },
         "alight": {
           "name": "Tan Son Nhat Airport, Terminal T3 (domestic)",
           "address": "Tan Son Nhat, Ho Chi Minh City",
           "pickupHotel": false,
           "lat": 10.8112056,
-          "lng": 106.6535671
+          "lng": 106.6535671,
+          "lang": "en"
         },
         "departures": "07:40, 11:35 and 18:55 daily",
+        "departuresHe": "07:40, 11:35 ו-18:55, כל יום",
         "durationMin": 55,
         "durationMax": 55,
         "priceLow": 35,
@@ -169,21 +181,25 @@ const TRANSFERS_DATA = [
       {
         "mode": "sleeper_bus",
         "operator": "Futa (Phuong Trang)",
+        "opLang": "vi",
         "board": {
           "name": "Da Lat Interprovincial Bus Station",
           "address": "1 To Hien Thanh, Da Lat",
           "pickupHotel": false,
           "lat": 11.9268818,
-          "lng": 108.4455138
+          "lng": 108.4455138,
+          "lang": "en"
         },
         "alight": {
           "name": "Mien Tay Bus Station (Saigon)",
           "address": "Kinh Duong Vuong, An Lac, Ho Chi Minh City",
           "pickupHotel": false,
           "lat": 10.7401271,
-          "lng": 106.6194006
+          "lng": 106.6194006,
+          "lang": "en"
         },
         "departures": "Roughly hourly, 06:00-23:00",
+        "departuresHe": "בערך כל שעה, 06:00-23:00",
         "durationMin": 420,
         "durationMax": 480,
         "priceLow": 280000,
@@ -220,15 +236,18 @@ const TRANSFERS_DATA = [
       {
         "mode": "private_car",
         "operator": "Private driver (A21 Tours and others)",
+        "opLang": "en",
         "board": {
           "name": "Pickup at your hotel",
           "address": "Any hotel in Da Lat",
           "pickupHotel": true,
           "lat": null,
-          "lng": null
+          "lng": null,
+          "lang": "en"
         },
         "alight": null,
         "departures": "Any time, agreed when booking",
+        "departuresHe": "מתי שרוצים, בתיאום בעת ההזמנה",
         "durationMin": 330,
         "durationMax": 360,
         "priceLow": 125,
@@ -274,21 +293,25 @@ const TRANSFERS_DATA = [
       {
         "mode": "limousine_van",
         "operator": "Bang Phan",
+        "opLang": "vi",
         "board": {
           "name": "Bang Phan office",
           "address": "100 Tran Phu, Ha Giang",
           "pickupHotel": false,
           "lat": 22.8297615,
-          "lng": 104.9878831
+          "lng": 104.9878831,
+          "lang": "en"
         },
         "alight": {
           "name": "Sapa centre drop-off",
           "address": "599 Dien Bien Phu, Sapa",
           "pickupHotel": false,
           "lat": null,
-          "lng": null
+          "lng": null,
+          "lang": "en"
         },
         "departures": "09:00 (free hotel pickup in Ha Giang city from 08:30)",
+        "departuresHe": "09:00 (איסוף חינם מהמלון בעיר הא זיאנג מ-08:30)",
         "durationMin": 360,
         "durationMax": 390,
         "priceLow": 15,
@@ -329,15 +352,18 @@ const TRANSFERS_DATA = [
       {
         "mode": "sleeper_bus",
         "operator": "Quang Nghi",
+        "opLang": "vi",
         "board": {
           "name": "Quang Nghi bus office (Nha Xe Quang Nghi)",
           "address": "60 Minh Khai, Ha Giang",
           "pickupHotel": false,
           "lat": 22.8187313,
-          "lng": 104.9853533
+          "lng": 104.9853533,
+          "lang": "en"
         },
         "alight": null,
         "departures": "Check with the operator; morning and evening services run",
+        "departuresHe": "לברר מול המפעיל; יש קווים בבוקר ובערב",
         "durationMin": 360,
         "durationMax": 420,
         "priceLow": 300000,
@@ -385,15 +411,18 @@ const TRANSFERS_DATA = [
       {
         "mode": "limousine_van",
         "operator": "Halong-Ninh Binh daily limousine (A21 Tours and others)",
+        "opLang": "en",
         "board": {
           "name": "Pickup at your hotel or cruise pier",
           "address": "Bai Chay and Tuan Chau hotels, Tuan Chau harbour",
           "pickupHotel": true,
           "lat": null,
-          "lng": null
+          "lng": null,
+          "lang": "en"
         },
         "alight": null,
         "departures": "Pickup 11:40-12:15, arrives Ninh Binh 16:00-16:30",
+        "departuresHe": "איסוף 11:40-12:15, הגעה לנין בין 16:00-16:30",
         "durationMin": 210,
         "durationMax": 270,
         "priceLow": 15,
@@ -432,15 +461,18 @@ const TRANSFERS_DATA = [
       {
         "mode": "private_car",
         "operator": "Private driver (transfer companies)",
+        "opLang": "en",
         "board": {
           "name": "Pickup at your hotel or cruise pier",
           "address": "Any hotel or pier in Ha Long",
           "pickupHotel": true,
           "lat": null,
-          "lng": null
+          "lng": null,
+          "lang": "en"
         },
         "alight": null,
         "departures": "Any time, agreed when booking",
+        "departuresHe": "מתי שרוצים, בתיאום בעת ההזמנה",
         "durationMin": 180,
         "durationMax": 210,
         "priceLow": 75,
@@ -488,15 +520,18 @@ const TRANSFERS_DATA = [
       {
         "mode": "sleeper_bus",
         "operator": "VIP sleeper buses (Bang Phan, Quang Nghi, Cau Me and others)",
+        "opLang": "en",
         "board": {
           "name": "My Dinh Bus Station (Ben xe My Dinh)",
           "address": "20 Pham Hung, My Dinh 2, Nam Tu Liem, Hanoi",
           "pickupHotel": false,
           "lat": 21.0280235,
-          "lng": 105.7784787
+          "lng": 105.7784787,
+          "lang": "en"
         },
         "alight": null,
         "departures": "Night buses 20:00-23:00; a few day departures from 07:00",
+        "departuresHe": "אוטובוסי לילה 20:00-23:00; כמה יציאות יום מ-07:00",
         "durationMin": 360,
         "durationMax": 480,
         "priceLow": 200000,
@@ -537,15 +572,18 @@ const TRANSFERS_DATA = [
       {
         "mode": "sleeper_bus",
         "operator": "Cabin sleeper buses (Inter Bus Lines, Ha Giang Express and others)",
+        "opLang": "en",
         "board": {
           "name": "Pickup at your Old Quarter hotel",
           "address": "Hanoi Old Quarter hotels",
           "pickupHotel": true,
           "lat": null,
-          "lng": null
+          "lng": null,
+          "lang": "en"
         },
         "alight": null,
         "departures": "Evening departures, typically 20:00-22:00",
+        "departuresHe": "יציאות ערב, בדרך כלל 20:00-22:00",
         "durationMin": 360,
         "durationMax": 420,
         "priceLow": 400000,
@@ -581,15 +619,18 @@ const TRANSFERS_DATA = [
       {
         "mode": "limousine_van",
         "operator": "Limousine vans (several operators)",
+        "opLang": "en",
         "board": {
           "name": "Pickup at your Old Quarter hotel",
           "address": "Hanoi Old Quarter hotels",
           "pickupHotel": true,
           "lat": null,
-          "lng": null
+          "lng": null,
+          "lang": "en"
         },
         "alight": null,
         "departures": "Day departures, from about 07:00",
+        "departuresHe": "יציאות יום, מבערך 07:00",
         "durationMin": 360,
         "durationMax": 420,
         "priceLow": 450000,
@@ -622,15 +663,18 @@ const TRANSFERS_DATA = [
       {
         "mode": "private_car",
         "operator": "Private driver (transfer companies)",
+        "opLang": "en",
         "board": {
           "name": "Pickup at your hotel",
           "address": "Any hotel in Hanoi",
           "pickupHotel": true,
           "lat": null,
-          "lng": null
+          "lng": null,
+          "lang": "en"
         },
         "alight": null,
         "departures": "Any time, agreed when booking",
+        "departuresHe": "מתי שרוצים, בתיאום בעת ההזמנה",
         "durationMin": 360,
         "durationMax": 420,
         "priceLow": 119,
@@ -678,21 +722,25 @@ const TRANSFERS_DATA = [
       {
         "mode": "limousine_van",
         "operator": "Limousine shuttles (Hoang Phu, Ha Long Travel, Trung Thanh and others)",
+        "opLang": "en",
         "board": {
           "name": "Pickup at your Old Quarter hotel",
           "address": "Hanoi Old Quarter hotels",
           "pickupHotel": true,
           "lat": null,
-          "lng": null
+          "lng": null,
+          "lang": "en"
         },
         "alight": {
           "name": "Tuan Chau harbour or your Ha Long hotel",
           "address": "Tuan Chau / Bai Chay, Ha Long",
           "pickupHotel": false,
           "lat": null,
-          "lng": null
+          "lng": null,
+          "lang": "en"
         },
         "departures": "Morning pickups around 08:00-09:00, timed to cruise boarding; later runs through the day",
+        "departuresHe": "איסוף בבוקר בסביבות 08:00-09:00, מתוזמן לעלייה לשייט; עוד הסעות במהלך היום",
         "durationMin": 150,
         "durationMax": 180,
         "priceLow": 180000,
@@ -726,21 +774,25 @@ const TRANSFERS_DATA = [
       {
         "mode": "bus",
         "operator": "Public buses (Kumho Viet Thanh and others)",
+        "opLang": "en",
         "board": {
           "name": "Gia Lam Bus Station (Ben xe Gia Lam)",
           "address": "9 Ngo Gia Kham, Long Bien, Hanoi",
           "pickupHotel": false,
           "lat": 21.0485414,
-          "lng": 105.8789776
+          "lng": 105.8789776,
+          "lang": "en"
         },
         "alight": {
           "name": "Bai Chay Bus Station",
           "address": "National Road 18, Bai Chay, Ha Long",
           "pickupHotel": false,
           "lat": 20.9729964,
-          "lng": 107.0137223
+          "lng": 107.0137223,
+          "lang": "en"
         },
         "departures": "Frequent, about 05:30-17:30",
+        "departuresHe": "תכוף, בערך 05:30-17:30",
         "durationMin": 180,
         "durationMax": 240,
         "priceLow": 120000,
@@ -774,15 +826,18 @@ const TRANSFERS_DATA = [
       {
         "mode": "private_car",
         "operator": "Private driver (transfer companies)",
+        "opLang": "en",
         "board": {
           "name": "Pickup at your hotel",
           "address": "Any hotel in Hanoi",
           "pickupHotel": true,
           "lat": null,
-          "lng": null
+          "lng": null,
+          "lang": "en"
         },
         "alight": null,
         "departures": "Any time, agreed when booking",
+        "departuresHe": "מתי שרוצים, בתיאום בעת ההזמנה",
         "durationMin": 150,
         "durationMax": 150,
         "priceLow": 1600000,
@@ -824,21 +879,25 @@ const TRANSFERS_DATA = [
       {
         "mode": "train",
         "operator": "Vietnam Railways (SE trains)",
+        "opLang": "en",
         "board": {
           "name": "Hanoi Railway Station (Ga Ha Noi)",
           "address": "120 Le Duan, Van Mieu - Quoc Tu Giam, Hanoi",
           "pickupHotel": false,
           "lat": 21.0242336,
-          "lng": 105.8410067
+          "lng": 105.8410067,
+          "lang": "en"
         },
         "alight": {
           "name": "Ninh Binh Railway Station",
           "address": "1 Hoang Dieu, Ninh Binh",
           "pickupHotel": false,
           "lat": 20.2420352,
-          "lng": 105.9745791
+          "lng": 105.9745791,
+          "lang": "en"
         },
         "departures": "About 6 a day, e.g. SE7 06:00, SE9 13:00, SE3 19:20, SE11 21:25, SE1 21:45",
+        "departuresHe": "כ-6 ביום, למשל SE7 06:00, SE9 13:00, SE3 19:20, SE11 21:25, SE1 21:45",
         "durationMin": 130,
         "durationMax": 150,
         "priceLow": 93000,
@@ -877,15 +936,18 @@ const TRANSFERS_DATA = [
       {
         "mode": "limousine_van",
         "operator": "Limousine vans (Trang An Limousine, Binh Minh, X.E Vietnam)",
+        "opLang": "en",
         "board": {
           "name": "Pickup at your Old Quarter hotel",
           "address": "Hanoi Old Quarter hotels",
           "pickupHotel": true,
           "lat": null,
-          "lng": null
+          "lng": null,
+          "lang": "en"
         },
         "alight": null,
         "departures": "Many through the day",
+        "departuresHe": "הרבה יציאות במהלך היום",
         "durationMin": 90,
         "durationMax": 150,
         "priceLow": 155000,
@@ -924,15 +986,18 @@ const TRANSFERS_DATA = [
       {
         "mode": "private_car",
         "operator": "Private driver (transfer companies)",
+        "opLang": "en",
         "board": {
           "name": "Pickup at your hotel",
           "address": "Any hotel in Hanoi",
           "pickupHotel": true,
           "lat": null,
-          "lng": null
+          "lng": null,
+          "lang": "en"
         },
         "alight": null,
         "departures": "Any time, agreed when booking",
+        "departuresHe": "מתי שרוצים, בתיאום בעת ההזמנה",
         "durationMin": 90,
         "durationMax": 120,
         "priceLow": 35,
@@ -974,21 +1039,25 @@ const TRANSFERS_DATA = [
       {
         "mode": "combo",
         "operator": "Vietnam Railways (SP1) + Lao Cai bus 01",
+        "opLang": "en",
         "board": {
           "name": "Hanoi Railway Station (Ga Ha Noi)",
           "address": "120 Le Duan, Van Mieu - Quoc Tu Giam, Hanoi",
           "pickupHotel": false,
           "lat": 21.0242336,
-          "lng": 105.8410067
+          "lng": 105.8410067,
+          "lang": "en"
         },
         "alight": {
           "name": "Lao Cai Railway Station",
           "address": "Khanh Yen, Lao Cai",
           "pickupHotel": false,
           "lat": 22.4922679,
-          "lng": 103.9783871
+          "lng": 103.9783871,
+          "lang": "en"
         },
         "departures": "SP1 21:35, arrives Lao Cai 05:15; bus 01 to Sapa every 20-30 min from about 05:20",
+        "departuresHe": "SP1 21:35, הגעה ללאו קאי 05:15; אוטובוס 01 לסאפה כל 20-30 דקות מבערך 05:20",
         "durationMin": 520,
         "durationMax": 570,
         "priceLow": 490000,
@@ -1029,21 +1098,25 @@ const TRANSFERS_DATA = [
       {
         "mode": "sleeper_train",
         "operator": "Fanxipan Express (private carriage on SP1)",
+        "opLang": "en",
         "board": {
           "name": "Hanoi Railway Station, A side (Ga Ha Noi)",
           "address": "120 Le Duan, Van Mieu - Quoc Tu Giam, Hanoi",
           "pickupHotel": false,
           "lat": 21.0242336,
-          "lng": 105.8410067
+          "lng": 105.8410067,
+          "lang": "en"
         },
         "alight": {
           "name": "Lao Cai Railway Station",
           "address": "Khanh Yen, Lao Cai",
           "pickupHotel": false,
           "lat": 22.4922679,
-          "lng": 103.9783871
+          "lng": 103.9783871,
+          "lang": "en"
         },
         "departures": "21:35 (on SP1), arrives Lao Cai 05:15",
+        "departuresHe": "21:35 (על SP1), הגעה ללאו קאי 05:15",
         "durationMin": 460,
         "durationMax": 520,
         "priceLow": 35,
@@ -1079,15 +1152,18 @@ const TRANSFERS_DATA = [
       {
         "mode": "limousine_van",
         "operator": "Sapa Express",
+        "opLang": "en",
         "board": {
           "name": "Sapa Express office",
           "address": "204 Tran Quang Khai, Hoan Kiem, Hanoi",
           "pickupHotel": false,
           "lat": 21.0275697,
-          "lng": 105.8581148
+          "lng": 105.8581148,
+          "lang": "en"
         },
         "alight": null,
         "departures": "07:00 (28-seat limousine), 15:00 (15-seat limousine)",
+        "departuresHe": "07:00 (לימוזינה של 28 מקומות), 15:00 (לימוזינה של 15 מקומות)",
         "durationMin": 330,
         "durationMax": 360,
         "priceLow": 16,
@@ -1128,15 +1204,18 @@ const TRANSFERS_DATA = [
       {
         "mode": "sleeper_bus",
         "operator": "Sapa Express (VIP cabin bus)",
+        "opLang": "en",
         "board": {
           "name": "Sapa Express office",
           "address": "204 Tran Quang Khai, Hoan Kiem, Hanoi",
           "pickupHotel": false,
           "lat": 21.0275697,
-          "lng": 105.8581148
+          "lng": 105.8581148,
+          "lang": "en"
         },
         "alight": null,
         "departures": "22:00",
+        "departuresHe": "22:00",
         "durationMin": 330,
         "durationMax": 360,
         "priceLow": 450000,
@@ -1178,15 +1257,18 @@ const TRANSFERS_DATA = [
       {
         "mode": "private_car",
         "operator": "Private driver (via agent or transfer company)",
+        "opLang": "en",
         "board": {
           "name": "Pickup at your hotel",
           "address": "Any hotel in Hanoi",
           "pickupHotel": true,
           "lat": null,
-          "lng": null
+          "lng": null,
+          "lang": "en"
         },
         "alight": null,
         "departures": "Any time, agreed when booking",
+        "departuresHe": "מתי שרוצים, בתיאום בעת ההזמנה",
         "durationMin": 300,
         "durationMax": 330,
         "priceLow": 105,
@@ -1234,21 +1316,25 @@ const TRANSFERS_DATA = [
       {
         "mode": "flight",
         "operator": "Vietnam Airlines (VN1911)",
+        "opLang": "en",
         "board": {
           "name": "Da Nang International Airport (DAD)",
           "address": "Phan Thanh, Thanh Khe, Da Nang",
           "pickupHotel": false,
           "lat": 16.0425792,
-          "lng": 108.1971613
+          "lng": 108.1971613,
+          "lang": "en"
         },
         "alight": {
           "name": "Buon Ma Thuot Airport (BMV)",
           "address": "Nguyen Luong Bang, Buon Ma Thuot",
           "pickupHotel": false,
           "lat": 12.6668723,
-          "lng": 108.1199878
+          "lng": 108.1199878,
+          "lang": "en"
         },
         "departures": "VN1911 13:20, arrives 14:25 - Tuesday, Thursday and Saturday",
+        "departuresHe": "VN1911 13:20, נחיתה 14:25 - בימי ג', ה' ו-ש'",
         "durationMin": 65,
         "durationMax": 65,
         "priceLow": 48,
@@ -1290,15 +1376,18 @@ const TRANSFERS_DATA = [
       {
         "mode": "sleeper_bus",
         "operator": "Sleeper and cabin buses (Cao Nguyen Limousine, Hoang Phat and others)",
+        "opLang": "en",
         "board": {
           "name": "Da Nang Central Bus Station (Ben xe Trung tam Da Nang)",
           "address": "Vu Trong Hoang, An Khe, Da Nang",
           "pickupHotel": false,
           "lat": 16.05501,
-          "lng": 108.1733575
+          "lng": 108.1733575,
+          "lang": "en"
         },
         "alight": null,
         "departures": "Many buses from about 11:30 to 23:10",
+        "departuresHe": "הרבה אוטובוסים, מבערך 11:30 עד 23:10",
         "durationMin": 660,
         "durationMax": 720,
         "priceLow": 450000,
@@ -1346,15 +1435,18 @@ const TRANSFERS_DATA = [
       {
         "mode": "limousine_van",
         "operator": "A21 Tours",
+        "opLang": "en",
         "board": {
           "name": "A21 meeting point (or pickup in central Hue)",
           "address": "35 Ben Nghe, Hue",
           "pickupHotel": false,
           "lat": 16.4659406,
-          "lng": 107.5946252
+          "lng": 107.5946252,
+          "lang": "en"
         },
         "alight": null,
         "departures": "07:00, 10:00, 12:00, 14:00, 16:00, 18:00",
+        "departuresHe": "07:00, 10:00, 12:00, 14:00, 16:00, 18:00",
         "durationMin": 210,
         "durationMax": 240,
         "priceLow": 18,
@@ -1393,21 +1485,25 @@ const TRANSFERS_DATA = [
       {
         "mode": "combo",
         "operator": "Vietnam Railways (Hue - Da Nang) + Grab to Hoi An",
+        "opLang": "en",
         "board": {
           "name": "Hue Railway Station",
           "address": "2 Bui Thi Xuan, Hue",
           "pickupHotel": false,
           "lat": 16.4564476,
-          "lng": 107.5780522
+          "lng": 107.5780522,
+          "lang": "en"
         },
         "alight": {
           "name": "Da Nang Railway Station",
           "address": "791 Hai Phong, Da Nang",
           "pickupHotel": false,
           "lat": 16.0715831,
-          "lng": 108.2092693
+          "lng": 108.2092693,
+          "lang": "en"
         },
         "departures": "Several trains a day, plus the Hue-Da Nang heritage train",
+        "departuresHe": "כמה רכבות ביום, ובנוסף רכבת המורשת הואה-דה נאנג",
         "durationMin": 190,
         "durationMax": 230,
         "priceLow": 83000,
@@ -1445,15 +1541,18 @@ const TRANSFERS_DATA = [
       {
         "mode": "private_car",
         "operator": "Private driver via the Hai Van Pass (A21 Tours and others)",
+        "opLang": "en",
         "board": {
           "name": "Pickup at your hotel",
           "address": "Any hotel in Hue",
           "pickupHotel": true,
           "lat": null,
-          "lng": null
+          "lng": null,
+          "lang": "en"
         },
         "alight": null,
         "departures": "Any time; a half day with stops",
+        "departuresHe": "מתי שרוצים; חצי יום עם עצירות",
         "durationMin": 180,
         "durationMax": 300,
         "priceLow": 55,
@@ -1491,15 +1590,18 @@ const TRANSFERS_DATA = [
       {
         "mode": "combo",
         "operator": "Easy rider (motorbike with a driver; Mr Vu Easy Rider and others)",
+        "opLang": "en",
         "board": {
           "name": "Pickup at your hotel",
           "address": "Any hotel in Hue",
           "pickupHotel": true,
           "lat": null,
-          "lng": null
+          "lng": null,
+          "lang": "en"
         },
         "alight": null,
         "departures": "Morning departure, about 08:00-09:00; luggage goes by car or van",
+        "departuresHe": "יציאה בבוקר, בסביבות 08:00-09:00; המזוודות נוסעות ברכב או בוואן",
         "durationMin": 360,
         "durationMax": 420,
         "priceLow": 50,
@@ -1546,15 +1648,18 @@ const TRANSFERS_DATA = [
       {
         "mode": "combo",
         "operator": "Easy rider (Easy Riders Vietnam and others)",
+        "opLang": "en",
         "board": {
           "name": "Pickup at your hotel or camp",
           "address": "Lien Son, Lak",
           "pickupHotel": true,
           "lat": null,
-          "lng": null
+          "lng": null,
+          "lang": "en"
         },
         "alight": null,
         "departures": "Morning departure; a full day with stops at waterfalls and farms",
+        "departuresHe": "יציאה בבוקר; יום שלם עם עצירות במפלים ובחוות",
         "durationMin": 240,
         "durationMax": 480,
         "priceLow": 75,
@@ -1591,15 +1696,18 @@ const TRANSFERS_DATA = [
       {
         "mode": "private_car",
         "operator": "Private driver",
+        "opLang": "en",
         "board": {
           "name": "Pickup at your hotel or camp",
           "address": "Lien Son, Lak",
           "pickupHotel": true,
           "lat": null,
-          "lng": null
+          "lng": null,
+          "lang": "en"
         },
         "alight": null,
         "departures": "Any time, agreed when booking",
+        "departuresHe": "מתי שרוצים, בתיאום בעת ההזמנה",
         "durationMin": 240,
         "durationMax": 270,
         "priceLow": 2300000,
@@ -1636,21 +1744,25 @@ const TRANSFERS_DATA = [
       {
         "mode": "bus",
         "operator": "Buon Ma Thuot - Da Lat buses (Phuc Hai and others) passing Lien Son",
+        "opLang": "en",
         "board": {
           "name": "National Highway 27 in Lien Son (by arrangement)",
           "address": "Lak district square, Lien Son, Lak",
           "pickupHotel": false,
           "lat": 12.410047,
-          "lng": 108.1784393
+          "lng": 108.1784393,
+          "lang": "en"
         },
         "alight": {
           "name": "Da Lat Interprovincial Bus Station",
           "address": "1 To Hien Thanh, Da Lat",
           "pickupHotel": false,
           "lat": 11.9268818,
-          "lng": 108.4455138
+          "lng": 108.4455138,
+          "lang": "en"
         },
         "departures": "Several a day from Buon Ma Thuot; ask the operator when it passes Lien Son",
+        "departuresHe": "כמה ביום מבואון מה טואוט; לשאול את המפעיל מתי הוא עובר בליאן סון",
         "durationMin": 240,
         "durationMax": 300,
         "priceLow": 230000,
@@ -1696,21 +1808,25 @@ const TRANSFERS_DATA = [
       {
         "mode": "flight",
         "operator": "Vietnam Airlines (VN8075)",
+        "opLang": "en",
         "board": {
           "name": "Can Tho International Airport (VCA)",
           "address": "Thoi An Dong, Binh Thuy, Can Tho",
           "pickupHotel": false,
           "lat": 10.0829341,
-          "lng": 105.7120894
+          "lng": 105.7120894,
+          "lang": "en"
         },
         "alight": {
           "name": "Phu Quoc International Airport (PQC)",
           "address": "Duong To, Phu Quoc",
           "pickupHotel": false,
           "lat": null,
-          "lng": null
+          "lng": null,
+          "lang": "en"
         },
         "departures": "VN8075 16:10, arrives 17:10 - daily",
+        "departuresHe": "VN8075 16:10, נחיתה 17:10 - כל יום",
         "durationMin": 60,
         "durationMax": 60,
         "priceLow": 47,
@@ -1749,21 +1865,25 @@ const TRANSFERS_DATA = [
       {
         "mode": "combo",
         "operator": "Bus to Ha Tien + Superdong speedboat",
+        "opLang": "en",
         "board": {
           "name": "Can Tho Central Bus Station",
           "address": "Tran Hoang Na, Cai Rang, Can Tho",
           "pickupHotel": false,
           "lat": 10.005344,
-          "lng": 105.7713117
+          "lng": 105.7713117,
+          "lang": "en"
         },
         "alight": {
           "name": "Bai Vong pier, Phu Quoc",
           "address": "Bai Vong, Ham Ninh, Phu Quoc",
           "pickupHotel": false,
           "lat": 10.1498952,
-          "lng": 104.0374008
+          "lng": 104.0374008,
+          "lang": "en"
         },
         "departures": "Buses to Ha Tien through the morning; speedboats about 06:10, 10:15 and 13:15 (last boat mid-afternoon)",
+        "departuresHe": "אוטובוסים לחה טיאן לאורך הבוקר; ספינות מהירות בערך ב-06:10, 10:15 ו-13:15 (האחרונה אחר הצהריים)",
         "durationMin": 390,
         "durationMax": 480,
         "priceLow": 460000,
@@ -1814,21 +1934,25 @@ const TRANSFERS_DATA = [
       {
         "mode": "sleeper_bus",
         "operator": "HK Buslines / B8 Open Bus (VIP cabin bus)",
+        "opLang": "en",
         "board": {
           "name": "Pickup at your hotel in Tam Coc or Ninh Binh city",
           "address": "Tam Coc centre and Ninh Binh city hotels",
           "pickupHotel": true,
           "lat": null,
-          "lng": null
+          "lng": null,
+          "lang": "en"
         },
         "alight": {
           "name": "Phong Nha centre bus stop",
           "address": "Phong Nha town centre",
           "pickupHotel": false,
           "lat": 17.6113791,
-          "lng": 106.3069337
+          "lng": 106.3069337,
+          "lang": "en"
         },
         "departures": "19:00, 19:30, 20:30, 21:00, 21:30, 23:00 (pickup about an hour earlier)",
+        "departuresHe": "19:00, 19:30, 20:30, 21:00, 21:30, 23:00 (איסוף כשעה קודם)",
         "durationMin": 390,
         "durationMax": 420,
         "priceLow": 29,
@@ -1867,21 +1991,25 @@ const TRANSFERS_DATA = [
       {
         "mode": "sleeper_train",
         "operator": "Lotus Train (private carriage on SE19)",
+        "opLang": "en",
         "board": {
           "name": "Ninh Binh Railway Station",
           "address": "1 Hoang Dieu, Ninh Binh",
           "pickupHotel": false,
           "lat": 20.2420352,
-          "lng": 105.9745791
+          "lng": 105.9745791,
+          "lang": "en"
         },
         "alight": {
           "name": "Dong Hoi Railway Station",
           "address": "Thuan Ly, Dong Hoi",
           "pickupHotel": false,
           "lat": 17.4689199,
-          "lng": 106.5997285
+          "lng": 106.5997285,
+          "lang": "en"
         },
         "departures": "SE19 22:02, arrives Dong Hoi 06:25",
+        "departuresHe": "SE19 22:02, הגעה לדונג הוי 06:25",
         "durationMin": 503,
         "durationMax": 600,
         "priceLow": 1950000,
@@ -1923,21 +2051,25 @@ const TRANSFERS_DATA = [
       {
         "mode": "sleeper_train",
         "operator": "Vietnam Railways (SE3 / SE19 / SE1)",
+        "opLang": "en",
         "board": {
           "name": "Ninh Binh Railway Station",
           "address": "1 Hoang Dieu, Ninh Binh",
           "pickupHotel": false,
           "lat": 20.2420352,
-          "lng": 105.9745791
+          "lng": 105.9745791,
+          "lang": "en"
         },
         "alight": {
           "name": "Dong Hoi Railway Station",
           "address": "Thuan Ly, Dong Hoi",
           "pickupHotel": false,
           "lat": 17.4689199,
-          "lng": 106.5997285
+          "lng": 106.5997285,
+          "lang": "en"
         },
         "departures": "SE3 21:34 (arr. 05:38), SE19 22:02, SE1 23:28 (arr. 07:53)",
+        "departuresHe": "SE3 21:34 (הגעה 05:38), SE19 22:02, SE1 23:28 (הגעה 07:53)",
         "durationMin": 480,
         "durationMax": 600,
         "priceLow": 340000,
@@ -1976,15 +2108,18 @@ const TRANSFERS_DATA = [
       {
         "mode": "private_car",
         "operator": "Private driver (transfer companies)",
+        "opLang": "en",
         "board": {
           "name": "Pickup at your hotel",
           "address": "Any hotel in Ninh Binh or Tam Coc",
           "pickupHotel": true,
           "lat": null,
-          "lng": null
+          "lng": null,
+          "lang": "en"
         },
         "alight": null,
         "departures": "Any time, agreed when booking",
+        "departuresHe": "מתי שרוצים, בתיאום בעת ההזמנה",
         "durationMin": 420,
         "durationMax": 480,
         "priceLow": 215,
@@ -2030,15 +2165,18 @@ const TRANSFERS_DATA = [
       {
         "mode": "private_car",
         "operator": "Private driver (Culture Pham Travel and others)",
+        "opLang": "en",
         "board": {
           "name": "Pickup at your hotel",
           "address": "Any hotel in Phong Nha",
           "pickupHotel": true,
           "lat": null,
-          "lng": null
+          "lng": null,
+          "lang": "en"
         },
         "alight": null,
         "departures": "Any time, agreed when booking; a full day with stops",
+        "departuresHe": "מתי שרוצים, בתיאום בעת ההזמנה; יום שלם עם עצירות",
         "durationMin": 360,
         "durationMax": 600,
         "priceLow": 3600000,
@@ -2078,21 +2216,25 @@ const TRANSFERS_DATA = [
       {
         "mode": "sleeper_bus",
         "operator": "Hung Thanh",
+        "opLang": "vi",
         "board": {
           "name": "Hung Thanh bus office, Phong Nha town centre",
           "address": "Phong Nha town centre, Quang Binh",
           "pickupHotel": false,
           "lat": 17.6113791,
-          "lng": 106.3069337
+          "lng": 106.3069337,
+          "lang": "en"
         },
         "alight": {
           "name": "Hoi An drop-off",
           "address": "105 Ton Duc Thang, Hoi An",
           "pickupHotel": false,
           "lat": 15.8928214,
-          "lng": 108.3199058
+          "lng": 108.3199058,
+          "lang": "en"
         },
         "departures": "04:00, 09:00",
+        "departuresHe": "04:00, 09:00",
         "durationMin": 420,
         "durationMax": 480,
         "priceLow": 16,
@@ -2138,21 +2280,25 @@ const TRANSFERS_DATA = [
       {
         "mode": "sleeper_bus",
         "operator": "Hung Thanh",
+        "opLang": "vi",
         "board": {
           "name": "Hung Thanh bus office, Phong Nha town centre",
           "address": "Phong Nha town centre, Quang Binh",
           "pickupHotel": false,
           "lat": 17.6113791,
-          "lng": 106.3069337
+          "lng": 106.3069337,
+          "lang": "en"
         },
         "alight": {
           "name": "Hue city centre drop-off",
           "address": "7 Doi Cung, Hue",
           "pickupHotel": false,
           "lat": 16.468691,
-          "lng": 107.5937098
+          "lng": 107.5937098,
+          "lang": "en"
         },
         "departures": "04:00, 09:00, 19:00",
+        "departuresHe": "04:00, 09:00, 19:00",
         "durationMin": 240,
         "durationMax": 300,
         "priceLow": 14,
@@ -2191,21 +2337,25 @@ const TRANSFERS_DATA = [
       {
         "mode": "combo",
         "operator": "Bus B4 or taxi to Dong Hoi + Vietnam Railways",
+        "opLang": "en",
         "board": {
           "name": "Dong Hoi Railway Station",
           "address": "Thuan Ly, Dong Hoi",
           "pickupHotel": false,
           "lat": 17.4689199,
-          "lng": 106.5997285
+          "lng": 106.5997285,
+          "lang": "en"
         },
         "alight": {
           "name": "Hue Railway Station",
           "address": "2 Bui Thi Xuan, Hue",
           "pickupHotel": false,
           "lat": 16.4564476,
-          "lng": 107.5780522
+          "lng": 107.5780522,
+          "lang": "en"
         },
         "departures": "Trains about every 2 hours through the day",
+        "departuresHe": "רכבות בערך כל שעתיים במהלך היום",
         "durationMin": 270,
         "durationMax": 330,
         "priceLow": 6,
@@ -2242,15 +2392,18 @@ const TRANSFERS_DATA = [
       {
         "mode": "private_car",
         "operator": "Private driver (Phong Nha Locals and others)",
+        "opLang": "en",
         "board": {
           "name": "Pickup at your hotel",
           "address": "Any hotel in Phong Nha",
           "pickupHotel": true,
           "lat": null,
-          "lng": null
+          "lng": null,
+          "lang": "en"
         },
         "alight": null,
         "departures": "Any time, agreed when booking",
+        "departuresHe": "מתי שרוצים, בתיאום בעת ההזמנה",
         "durationMin": 240,
         "durationMax": 300,
         "priceLow": 2300000,
@@ -2298,21 +2451,25 @@ const TRANSFERS_DATA = [
       {
         "mode": "bus",
         "operator": "Futa (Phuong Trang) and others",
+        "opLang": "en",
         "board": {
           "name": "Mien Tay Bus Station",
           "address": "Kinh Duong Vuong, An Lac, Ho Chi Minh City",
           "pickupHotel": false,
           "lat": 10.7401271,
-          "lng": 106.6194006
+          "lng": 106.6194006,
+          "lang": "en"
         },
         "alight": {
           "name": "Can Tho Central Bus Station",
           "address": "Tran Hoang Na, Cai Rang, Can Tho",
           "pickupHotel": false,
           "lat": 10.005344,
-          "lng": 105.7713117
+          "lng": 105.7713117,
+          "lang": "en"
         },
         "departures": "Frequent through the day",
+        "departuresHe": "תכוף לאורך היום",
         "durationMin": 180,
         "durationMax": 270,
         "priceLow": 165000,
@@ -2350,15 +2507,18 @@ const TRANSFERS_DATA = [
       {
         "mode": "private_car",
         "operator": "Private taxi or driver",
+        "opLang": "en",
         "board": {
           "name": "Pickup at your hotel",
           "address": "Any hotel in Ho Chi Minh City",
           "pickupHotel": true,
           "lat": null,
-          "lng": null
+          "lng": null,
+          "lang": "en"
         },
         "alight": null,
         "departures": "Any time",
+        "departuresHe": "מתי שרוצים",
         "durationMin": 180,
         "durationMax": 210,
         "priceLow": 1900000,
@@ -2398,21 +2558,25 @@ const TRANSFERS_DATA = [
       {
         "mode": "flight",
         "operator": "Vietnam Airlines, Sun PhuQuoc Airways, Vietravel Airlines",
+        "opLang": "en",
         "board": {
           "name": "Tan Son Nhat Airport, Terminal T3 (domestic)",
           "address": "Tan Son Nhat, Ho Chi Minh City",
           "pickupHotel": false,
           "lat": 10.8112056,
-          "lng": 106.6535671
+          "lng": 106.6535671,
+          "lang": "en"
         },
         "alight": {
           "name": "Phu Quoc International Airport (PQC)",
           "address": "Duong To, Phu Quoc",
           "pickupHotel": false,
           "lat": null,
-          "lng": null
+          "lng": null,
+          "lang": "en"
         },
         "departures": "About 16 nonstop flights a day, from 05:40 to 20:40",
+        "departuresHe": "כ-16 טיסות ישירות ביום, מ-05:40 עד 20:40",
         "durationMin": 60,
         "durationMax": 65,
         "priceLow": 28,
@@ -2460,21 +2624,25 @@ const TRANSFERS_DATA = [
       {
         "mode": "combo",
         "operator": "Bus to Rach Gia + Superdong speedboat (Phuong Trang, Kumho Samco combo tickets)",
+        "opLang": "en",
         "board": {
           "name": "Mien Tay Bus Station",
           "address": "Kinh Duong Vuong, An Lac, Ho Chi Minh City",
           "pickupHotel": false,
           "lat": 10.7401271,
-          "lng": 106.6194006
+          "lng": 106.6194006,
+          "lang": "en"
         },
         "alight": {
           "name": "Bai Vong pier, Phu Quoc",
           "address": "Bai Vong, Ham Ninh, Phu Quoc",
           "pickupHotel": false,
           "lat": 10.1498952,
-          "lng": 104.0374008
+          "lng": 104.0374008,
+          "lang": "en"
         },
         "departures": "Overnight buses to reach the morning boats; Superdong from Rach Gia about 07:00, 08:10, 10:30, 13:10",
+        "departuresHe": "אוטובוסי לילה שמגיעים לספינות הבוקר; Superdong מרץ' זיא בערך ב-07:00, 08:10, 10:30, 13:10",
         "durationMin": 540,
         "durationMax": 720,
         "priceLow": 400000,
@@ -2520,15 +2688,18 @@ const TRANSFERS_DATA = [
       {
         "mode": "limousine_van",
         "operator": "A21 Tours (through van via Hanoi)",
+        "opLang": "en",
         "board": {
           "name": "Sapa Stone Church (Our Lady of the Rosary)",
           "address": "Ham Rong, Sapa",
           "pickupHotel": false,
           "lat": 22.3352035,
-          "lng": 103.8422543
+          "lng": 103.8422543,
+          "lang": "en"
         },
         "alight": null,
         "departures": "Morning departure; Halong-to-Sapa runs at about 11:30",
+        "departuresHe": "יציאה בבוקר; בכיוון ההפוך, מהא לונג לסאפה, יוצאים בערך ב-11:30",
         "durationMin": 480,
         "durationMax": 510,
         "priceLow": 32,
@@ -2567,15 +2738,18 @@ const TRANSFERS_DATA = [
       {
         "mode": "private_car",
         "operator": "Private driver (transfer companies)",
+        "opLang": "en",
         "board": {
           "name": "Pickup at your hotel",
           "address": "Any hotel in Sapa",
           "pickupHotel": true,
           "lat": null,
-          "lng": null
+          "lng": null,
+          "lang": "en"
         },
         "alight": null,
         "departures": "Any time, agreed when booking",
+        "departuresHe": "מתי שרוצים, בתיאום בעת ההזמנה",
         "durationMin": 420,
         "durationMax": 480,
         "priceLow": 160,

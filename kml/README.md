@@ -53,8 +53,10 @@ nothing is written):
   may not be lower. `currency` is VND or USD, quoted as found -- the site
   converts. `price_unit` is per_person, per_vehicle or per_cabin.
 - At least one source and a `checked` ISO date per option.
-- Hebrew is mandatory: `pros_he`/`cons_he` item for item, `tips_he` and
-  `note_he` whenever the English exists.
+- Hebrew is mandatory: `pros_he`/`cons_he` item for item, `departures_he`,
+  `tips_he` and `note_he` whenever the English exists.
+- `op_lang` is `vi` or `en` (default `en`): the language the operator's name
+  is written in. It becomes the `lang` attribute on the page.
 - `book_links` is a list of `{name, url}`, one per company that sells the
   trip (a flight route gets one per airline); every url is https.
 - Vietjet is never offered: an operator or booking link naming it fails.

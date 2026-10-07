@@ -17,6 +17,7 @@ options:
     name: Phu Quoc International Airport (PQC)
     address: Duong To, Phu Quoc
   departures: About 16 nonstop flights a day, from 05:40 to 20:40
+  departures_he: "כ-16 טיסות ישירות ביום, מ-05:40 עד 20:40"
   duration_min: 60
   duration_max: 65
   price_low: 28
@@ -63,6 +64,7 @@ options:
     lat: 10.1498952
     lng: 104.0374008
   departures: Overnight buses to reach the morning boats; Superdong from Rach Gia about 07:00, 08:10, 10:30, 13:10
+  departures_he: "אוטובוסי לילה שמגיעים לספינות הבוקר; Superdong מרץ' זיא בערך ב-07:00, 08:10, 10:30, 13:10"
   duration_min: 540
   duration_max: 720
   price_low: 400000

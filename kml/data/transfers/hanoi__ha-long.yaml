@@ -16,6 +16,7 @@ options:
     name: Tuan Chau harbour or your Ha Long hotel
     address: Tuan Chau / Bai Chay, Ha Long
   departures: Morning pickups around 08:00-09:00, timed to cruise boarding; later runs through the day
+  departures_he: "איסוף בבוקר בסביבות 08:00-09:00, מתוזמן לעלייה לשייט; עוד הסעות במהלך היום"
   duration_min: 150
   duration_max: 180
   price_low: 180000
@@ -53,6 +54,7 @@ options:
     lat: 20.9729964
     lng: 107.0137223
   departures: Frequent, about 05:30-17:30
+  departures_he: "תכוף, בערך 05:30-17:30"
   duration_min: 180
   duration_max: 240
   price_low: 120000
@@ -85,6 +87,7 @@ options:
     address: Any hotel in Hanoi
     pickup_hotel: true
   departures: Any time, agreed when booking
+  departures_he: "מתי שרוצים, בתיאום בעת ההזמנה"
   duration_min: 150
   duration_max: 150
   price_low: 1600000
