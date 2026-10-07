@@ -1,0 +1,81 @@
+from: buon-ma-thuot
+to: lak-lake
+reverse_ok: true
+note: About 50 km south on National Highway 27, crossing the Lac Thien pass - an hour to an hour and a half.
+  No flight or train. Lak Tented Camp is reached by a 10-minute boat from the pier in Lien Son town.
+note_he: כ-50 ק"מ דרומה בכביש 27, דרך מעבר לאק טיין - שעה עד שעה וחצי. אין טיסה ואין רכבת. ל-Lak Tented
+  Camp מגיעים בסירה של 10 דקות מהמזח בעיירה ליאן סון.
+options:
+- mode: private_car
+  operator: Private transfer (arranged by the camp or a driver)
+  board:
+    name: Pickup at your hotel or the airport
+    address: Buon Ma Thuot hotels or Buon Ma Thuot Airport
+    pickup_hotel: true
+  alight:
+    name: Lak Tented Camp pier, Lien Son
+    address: Au Co lakeside road, Lien Son, Lak
+    lat: 12.409379
+    lng: 108.1738224
+  departures: Any time
+  duration_min: 60
+  duration_max: 90
+  price_low: 550000
+  price_high: 700000
+  currency: VND
+  price_unit: per_vehicle
+  book_links:
+  - name: Lak Tented Camp
+    url: https://www.laktentedcamp.com/how-to-travel-to-lak/
+  pros:
+  - Straight to the pier, cheap for a whole car
+  cons:
+  - Has to be booked; no taxi rank in Lien Son for the way back
+  pros_he:
+  - ישר למזח, זול לרכב שלם
+  cons_he:
+  - צריך להזמין מראש; בליאן סון אין תחנת מוניות לדרך חזרה
+  tips: The price is per 5-7 seat car. A Grab from Buon Ma Thuot works on the way out; book the return in advance.
+  tips_he: המחיר לרכב של 5-7 מקומות. Grab מבואון מה טואוט עובד בהלוך; את החזור להזמין מראש.
+  sources:
+  - https://www.laktentedcamp.com/how-to-travel-to-lak/
+  - https://www.aroundtheworld360.com/distance/buon-ma-thuot_vn/lak_vn/
+  checked: '2026-10-07'
+  confidence: high
+- mode: bus
+  operator: Public bus route 12 (Buon Ma Thuot - Lak)
+  board:
+    name: Dak Lak bus company yard (route 12 terminus)
+    address: 38 Y On, Buon Ma Thuot
+    lat: 12.6651646
+    lng: 108.0357835
+  alight:
+    name: Lak post office stop / Dak Lieng junction, Lien Son
+    address: National Highway 27, Lien Son, Lak
+    lat: 12.410047
+    lng: 108.1784393
+  departures: Every 15 minutes, 05:30-19:00
+  duration_min: 75
+  duration_max: 90
+  price_low: 25000
+  price_high: 35000
+  currency: VND
+  price_unit: per_person
+  pros:
+  - Very cheap and frequent
+  cons:
+  - A local bus with luggage on your lap; the pier is a short walk or ride from the stop
+  pros_he:
+  - זול מאוד ותכוף
+  cons_he:
+  - אוטובוס מקומי עם המזוודה על הברכיים; המזח במרחק הליכה קצרה או נסיעה מהתחנה
+  tips: Ask for the Lak post office stop (Buu dien Lak). The fare range is from an older source; the air-conditioned
+    bus is the higher price.
+  tips_he: לבקש את תחנת הדואר של לאק (Buu dien Lak). טווח המחיר ממקור ישן יותר; האוטובוס הממוזג הוא המחיר
+    הגבוה.
+  sources:
+  - https://blog.vexere.com/xe-buyt-dak-lak/
+  - https://www.laktentedcamp.com/how-to-travel-to-lak/
+  - https://www.travelfish.org/transport/vietnam/central_highlands/dak_lak/buon_ma_thuot/all
+  checked: '2026-10-07'
+  confidence: medium

@@ -1,0 +1,74 @@
+from: ha-long
+to: ninh-binh
+reverse_ok: true
+note: About 3.5-4 hours by expressway, road only. The daily shuttle is timed to collect people coming
+  off the cruises around noon.
+note_he: כ-3.5-4 שעות בכביש המהיר, בכביש בלבד. ההסעה היומית מתוזמנת לאסוף את מי שיורד מהשייט
+  בסביבות הצהריים.
+options:
+- mode: limousine_van
+  operator: Halong-Ninh Binh daily limousine (A21 Tours and others)
+  board:
+    name: Pickup at your hotel or cruise pier
+    address: Bai Chay and Tuan Chau hotels, Tuan Chau harbour
+    pickup_hotel: true
+  departures: Pickup 11:40-12:15, arrives Ninh Binh 16:00-16:30
+  duration_min: 210
+  duration_max: 270
+  price_low: 15
+  price_high: 20
+  currency: USD
+  price_unit: per_person
+  book_links:
+  - name: A21 Tours
+    url: https://a21tours.com/ticket/halong-to-ninh-binh-limousine-van
+  pros:
+  - Collects you straight off the boat
+  - Drops at hotels in Tam Coc, Trang An and Ninh Binh city
+  cons:
+  - One departure a day, around noon
+  pros_he:
+  - אוסף ישר מהסירה
+  - מוריד במלונות בטאם קוק, טראנג אן והעיר נין בין
+  cons_he:
+  - יציאה אחת ביום, בסביבות הצהריים
+  tips: Hon Gai pickups and drop-offs in Bai Dinh, Van Long or Thung Nham cost about $10 extra per group.
+  tips_he: איסוף מהון גאי והורדה בביי דין, ואן לונג או טונג נהאם עולים בערך $10 נוספים לקבוצה.
+  sources:
+  - https://a21tours.com/ticket/halong-to-ninh-binh-limousine-van
+  - https://www.viator.com/tours/Ha-Long-Bay/Shutte-Bus-from-Tuan-Chau-port-Halong-to-Tam-Coc-Ninh-Binh/d22692-102255P26
+  checked: '2026-10-07'
+  confidence: high
+- mode: private_car
+  operator: Private driver (transfer companies)
+  board:
+    name: Pickup at your hotel or cruise pier
+    address: Any hotel or pier in Ha Long
+    pickup_hotel: true
+  departures: Any time, agreed when booking
+  duration_min: 180
+  duration_max: 210
+  price_low: 75
+  price_high: 85
+  currency: USD
+  price_unit: per_vehicle
+  book_links:
+  - name: A21 Tours private car
+    url: https://a21tours.com/ticket/halong-ninh-binh-private-car
+  pros:
+  - Leaves when the cruise actually docks, not at a fixed hour
+  - Split between two it is barely more than the shuttle
+  cons:
+  - More than the shuttle for a solo traveller
+  pros_he:
+  - יוצאים כשהשייט באמת עוגן, לא בשעה קבועה
+  - בחלוקה לשניים זה בקושי יותר מההסעה
+  cons_he:
+  - יותר מההסעה למטייל יחיד
+  tips: About $75 for a 4-seater and $85 for a 7-seater; a 9-seat limousine van is about $120.
+  tips_he: בערך $75 לרכב של 4 מקומות ו-$85 לרכב של 7; וואן לימוזינה של 9 מקומות בערך $120.
+  sources:
+  - https://vivuhalong.com/en/transfer/halong-to-ninh-binh-private-car-transfer/
+  - https://a21tours.com/ticket/halong-ninh-binh-private-car
+  checked: '2026-10-07'
+  confidence: medium

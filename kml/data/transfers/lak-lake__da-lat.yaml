@@ -1,0 +1,111 @@
+from: lak-lake
+to: da-lat
+reverse_ok: true
+note: About 160 km on National Highway 27 through the Ta Dung area, about 4 hours. No flight or train.
+  This is the classic easy-rider leg; there is no tourist van from Lak itself.
+note_he: כ-160 ק"מ בכביש 27 דרך אזור טה דונג, כארבע שעות. אין טיסה ואין רכבת. זה הקטע הקלאסי לאיזי ריידר;
+  מלאק עצמה אין וואן תיירים.
+options:
+- mode: combo
+  operator: Easy rider (Easy Riders Vietnam and others)
+  board:
+    name: Pickup at your hotel or camp
+    address: Lien Son, Lak
+    pickup_hotel: true
+  departures: Morning departure; a full day with stops at waterfalls and farms
+  duration_min: 240
+  duration_max: 480
+  price_low: 75
+  price_high: 75
+  currency: USD
+  price_unit: per_person
+  book_links:
+  - name: Easy Riders Vietnam
+    url: https://easyriders-vietnam.com/tour/easy-rider-buon-ma-thuot-to-da-lat-2-days/
+  pros:
+  - The highland road at bike pace, with a guide and stops
+  cons:
+  - Weather dependent; a long day in the saddle
+  pros_he:
+  - כביש הרמות בקצב של אופנוע, עם מדריך ועצירות
+  cons_he:
+  - תלוי מזג אוויר; יום ארוך על האוכף
+  tips: $75 is the per-day rate; the full Buon Ma Thuot - Lak - Da Lat trip runs two days from $140. Ask
+    about sending luggage ahead.
+  tips_he: $75 זה המחיר ליום; כל הדרך מבואון מה טואוט דרך לאק לדה לאט נמשכת יומיים, מ-$140. לשאול על שליחת
+    המזוודות מראש.
+  sources:
+  - https://easyriders-vietnam.com/tour/easy-rider-buon-ma-thuot-to-da-lat-2-days/
+  - https://www.bestpricetravel.com/travel-guide/lak-lake.html
+  checked: '2026-10-07'
+  confidence: medium
+- mode: private_car
+  operator: Private driver
+  board:
+    name: Pickup at your hotel or camp
+    address: Lien Son, Lak
+    pickup_hotel: true
+  departures: Any time, agreed when booking
+  duration_min: 240
+  duration_max: 270
+  price_low: 2300000
+  price_high: 3800000
+  currency: VND
+  price_unit: per_vehicle
+  book_links:
+  - name: Nha Trang Private Car
+    url: https://nhatrangprivatecar.com/da-lat-to-buon-ma-thuot-dak-lak-by-private-car/
+  pros:
+  - Door to door, luggage in the boot
+  cons:
+  - Priced for the whole Da Lat - Buon Ma Thuot run; Lak is on the way, so negotiate
+  pros_he:
+  - מדלת לדלת, המזוודות בבגאז'
+  cons_he:
+  - התמחור הוא לכל הדרך דה לאט - בואון מה טואוט; לאק בדרך, אז כדאי להתמקח
+  tips: 2.3 million VND is a 4-seat sedan, 3.8 million a 16-seat van.
+  tips_he: 2.3 מיליון דונג זה סדאן של 4 מקומות, 3.8 מיליון וואן של 16.
+  sources:
+  - https://nhatrangprivatecar.com/da-lat-to-buon-ma-thuot-dak-lak-by-private-car/
+  - https://www.rome2rio.com/s/Buon-Ma-Thuot-Dak-Lak/%C3%90%C3%A0-L%E1%BA%A1t
+  checked: '2026-10-07'
+  confidence: medium
+- mode: bus
+  operator: Buon Ma Thuot - Da Lat buses (Phuc Hai and others) passing Lien Son
+  board:
+    name: National Highway 27 in Lien Son (by arrangement)
+    address: Lak district square, Lien Son, Lak
+    lat: 12.410047
+    lng: 108.1784393
+  alight:
+    name: Da Lat Interprovincial Bus Station
+    address: 1 To Hien Thanh, Da Lat
+    lat: 11.9268818
+    lng: 108.4455138
+  departures: Several a day from Buon Ma Thuot; ask the operator when it passes Lien Son
+  duration_min: 240
+  duration_max: 300
+  price_low: 230000
+  price_high: 270000
+  currency: VND
+  price_unit: per_person
+  book_links:
+  - name: Vexere
+    url: https://vexere.com/en-US/limousine-bus-ticket-booking-from-buon-ma-thuot-dak-lak-to-da-lat-lam-dong-2143t23991.html
+  pros:
+  - The cheap way, on a bus that already runs this road
+  cons:
+  - Boarding mid-route needs a phone call to the operator, ideally through your hotel
+  pros_he:
+  - הדרך הזולה, באוטובוס שכבר נוסע בכביש הזה
+  cons_he:
+  - עלייה באמצע הדרך דורשת טלפון למפעיל, עדיף דרך המלון
+  tips: The fare is the full Buon Ma Thuot - Da Lat ticket. Buses coming from Da Lat do stop in Lien Son,
+    so the reverse direction is easier.
+  tips_he: המחיר הוא לכרטיס המלא מבואון מה טואוט לדה לאט. אוטובוסים שבאים מדה לאט כן עוצרים בליאן סון,
+    כך שבכיוון ההפוך זה קל יותר.
+  sources:
+  - https://vexere.com/en-US/limousine-bus-ticket-booking-from-buon-ma-thuot-dak-lak-to-da-lat-lam-dong-2143t23991.html
+  - https://www.laktentedcamp.com/how-to-travel-to-lak/
+  checked: '2026-10-07'
+  confidence: medium

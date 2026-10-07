@@ -212,25 +212,6 @@ attractions:
   what_he: מערה טבעית באורך 300 מטר החצובה דרך הר בלב העמק הגדול בקאט בה, עם נטיפים וזקיפים
     שמגיעים אליהם בהליכה קצרה וקלה.
   why_he: עצירת מערה מהירה וללא מאמץ שמשתלבת במסלול השייט לצד הקיאקים, בלי להקדיש לה יום שלם
-logistics:
-- name: Hanoi to Tuan Chau Harbour transfer
-  area: Hanoi Old Quarter to Tuan Chau Harbour, Ha Long
-  what: The standard route to the cruise departure point is a 2.5-3 hour limousine bus or
-    private car, usually picked up from the hotel in the Old Quarter around 8-9am; the cheaper
-    local/public bus takes 3-4 hours with more stops.
-  why: Almost every overnight cruise bundles this transfer into the booking, but it's worth
-    confirming the pickup time and point in writing beforehand
-  confidence: high
-  geocode_query: Tuan Chau Harbour, Ha Long, Vietnam
-  sources:
-  - https://bhayacruises.com/blog/get-from-hanoi-to-halong-bay/
-  name_he: הסעה מהאנוי לנמל טואן צ'או
-  area_he: מהרובע העתיק בהאנוי לנמל טואן צ'או, הא לונג
-  what_he: הדרך הרגילה לנקודת היציאה של השייט היא אוטובוס לימוזין או רכב פרטי, שתיים וחצי
-    עד שלוש שעות, בדרך כלל באיסוף מהמלון ברובע העתיק סביב שמונה עד תשע בבוקר. האוטובוס הציבורי
-    הזול יותר לוקח שלוש עד ארבע שעות עם יותר עצירות.
-  why_he: כמעט כל שייט לילה כולל את ההסעה בהזמנה, אבל שווה לאשר בכתב מראש את שעת האיסוף ואת
-    נקודת האיסוף
 restaurants:
 - name: Vien Duong Restaurant
   kind: vietnamese

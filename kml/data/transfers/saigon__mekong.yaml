@@ -1,0 +1,75 @@
+from: saigon
+to: mekong
+reverse_ok: true
+note: About 170 km to Can Tho, 3-4.5 hours. No flight - too close. Most buses leave from Mien Tay station
+  on the west side of Saigon.
+note_he: כ-170 ק"מ לקאן טו, 3-4.5 שעות. אין טיסה - קרוב מדי. רוב האוטובוסים יוצאים מתחנת מיין טאי בצד המערבי
+  של סייגון.
+options:
+- mode: bus
+  operator: Futa (Phuong Trang) and others
+  board:
+    name: Mien Tay Bus Station
+    address: Kinh Duong Vuong, An Lac, Ho Chi Minh City
+    lat: 10.7401271
+    lng: 106.6194006
+  alight:
+    name: Can Tho Central Bus Station
+    address: Tran Hoang Na, Cai Rang, Can Tho
+    lat: 10.005344
+    lng: 105.7713117
+  departures: Frequent through the day
+  duration_min: 180
+  duration_max: 270
+  price_low: 165000
+  price_high: 230000
+  currency: VND
+  price_unit: per_person
+  book_links:
+  - name: Futa Bus
+    url: https://futabus.vn
+  pros:
+  - Cheap and frequent; Futa's buses are the standard on this road
+  cons:
+  - Mien Tay is 30-45 minutes from District 1, and Can Tho station is out of town too
+  pros_he:
+  - זול ותכוף; האוטובוסים של Futa הם הסטנדרט בכביש הזה
+  cons_he:
+  - מיין טאי נמצאת 30-45 דקות ממחוז 1, וגם התחנה בקאן טו מחוץ לעיר
+  tips: Door to door, with the rides to and from the stations, plan on about 5 hours. A taxi from Can Tho bus
+    station to Ninh Kieu wharf takes 15-20 minutes.
+  tips_he: מדלת לדלת, כולל הנסיעות לתחנות וממנהן, כדאי לתכנן כחמש שעות. מונית מתחנת האוטובוסים בקאן טו לרציף
+    נין קיאו לוקחת 15-20 דקות.
+  sources:
+  - https://www.mekongzigzag.com/bus-ho-chi-minh-to-can-tho
+  - https://vemekong.com/guide-to-can-tho-floating-markets/
+  - https://vinpearl.com/en/ho-chi-minh-city-to-can-tho-bus-all-you-need-to-know
+  checked: '2026-10-07'
+  confidence: high
+- mode: private_car
+  operator: Private taxi or driver
+  board:
+    name: Pickup at your hotel
+    address: Any hotel in Ho Chi Minh City
+    pickup_hotel: true
+  departures: Any time
+  duration_min: 180
+  duration_max: 210
+  price_low: 1900000
+  price_high: 2000000
+  currency: VND
+  price_unit: per_vehicle
+  pros:
+  - Straight to the hotel or the wharf, no station transfers at either end
+  cons:
+  - About ten times the bus fare per person for two travellers
+  pros_he:
+  - ישר למלון או לרציף, בלי העברות לתחנות בשני הצדדים
+  cons_he:
+  - בערך פי עשרה ממחיר האוטובוס לאדם, לשני נוסעים
+  tips: 1.9 million VND for a 4-seat car, 2 million for a 7-seater.
+  tips_he: 1.9 מיליון דונג לרכב של 4 מקומות, 2 מיליון לרכב של 7.
+  sources:
+  - https://www.mekongzigzag.com/bus-ho-chi-minh-to-can-tho
+  checked: '2026-10-07'
+  confidence: medium

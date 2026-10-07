@@ -1,0 +1,79 @@
+from: ha-giang
+to: sapa
+reverse_ok: true
+note: About 6 hours across the mountains, road only. There is a direct van - no need to go back
+  through Hanoi.
+note_he: כשש שעות דרך ההרים, בכביש בלבד. יש וואן ישיר - אין צורך לחזור דרך האנוי.
+options:
+- mode: limousine_van
+  operator: Bang Phan
+  board:
+    name: Bang Phan office
+    address: 100 Tran Phu, Ha Giang
+    lat: 22.8297615
+    lng: 104.9878831
+  alight:
+    name: Sapa centre drop-off
+    address: 599 Dien Bien Phu, Sapa
+  departures: '09:00 (free hotel pickup in Ha Giang city from 08:30)'
+  duration_min: 360
+  duration_max: 390
+  price_low: 15
+  price_high: 20
+  currency: USD
+  price_unit: per_person
+  book_links:
+  - name: Bang Phan via A21 Tours
+    url: https://a21tours.com/ticket/ha-giang-to-sapa-limousine-bus
+  pros:
+  - Direct, in daylight, with hotel pickup in Ha Giang city
+  - Small 13-seat van with reclining seats
+  cons:
+  - One departure a day
+  - A full day of mountain switchbacks
+  pros_he:
+  - ישיר, באור יום, עם איסוף מהמלון בעיר הא זיאנג
+  - וואן קטן של 13 מקומות עם מושבים נשכבים
+  cons_he:
+  - יציאה אחת ביום
+  - יום שלם של סרפנטינות בהרים
+  tips: Outside the city-centre pickup zone you board at the office on Tran Phu. Drop-off is in central
+    Sapa or at your hotel.
+  tips_he: מחוץ לאזור האיסוף במרכז העיר עולים במשרד ברחוב Tran Phu. ההורדה במרכז סאפה או במלון.
+  sources:
+  - https://a21tours.com/ticket/ha-giang-to-sapa-limousine-bus
+  - https://www.redbus.vn/en/bus-tickets/routes/ha-giang-to-sa-pa
+  checked: '2026-10-07'
+  confidence: high
+- mode: sleeper_bus
+  operator: Quang Nghi
+  board:
+    name: Quang Nghi bus office (Nha Xe Quang Nghi)
+    address: 60 Minh Khai, Ha Giang
+    lat: 22.8187313
+    lng: 104.9853533
+  departures: Check with the operator; morning and evening services run
+  duration_min: 360
+  duration_max: 420
+  price_low: 300000
+  price_high: 360000
+  currency: VND
+  price_unit: per_person
+  book_links:
+  - name: redBus
+    url: https://www.redbus.vn/en/bus-tickets/routes/ha-giang-to-sa-pa
+  pros:
+  - A second operator if the van is full
+  - Lie-flat berths
+  cons:
+  - Timetable is less clear than the van's; confirm a day ahead
+  pros_he:
+  - מפעיל נוסף אם הוואן מלא
+  - מיטות שנפתחות עד הסוף
+  cons_he:
+  - לוח הזמנים פחות ברור מזה של הוואן; לאשר יום לפני
+  sources:
+  - https://www.redbus.vn/en/bus-tickets/routes/ha-giang-to-sa-pa
+  - https://fullmoontravelasia.com/bus-ha-giang-to-sapa-730/
+  checked: '2026-10-07'
+  confidence: medium

@@ -1,0 +1,144 @@
+from: hanoi
+to: ha-giang
+reverse_ok: true
+note: About 300 km, road only - Ha Giang has no airport and no railway. Most buses leave at night
+  and arrive before dawn.
+note_he: כ-300 ק"מ, בכביש בלבד - בהא זיאנג אין שדה תעופה ואין רכבת. רוב האוטובוסים יוצאים בלילה
+  ומגיעים לפני הזריחה.
+options:
+- mode: sleeper_bus
+  operator: VIP sleeper buses (Bang Phan, Quang Nghi, Cau Me and others)
+  board:
+    name: My Dinh Bus Station (Ben xe My Dinh)
+    address: 20 Pham Hung, My Dinh 2, Nam Tu Liem, Hanoi
+    lat: 21.0280235
+    lng: 105.7784787
+  departures: Night buses 20:00-23:00; a few day departures from 07:00
+  duration_min: 360
+  duration_max: 480
+  price_low: 200000
+  price_high: 350000
+  currency: VND
+  price_unit: per_person
+  book_links:
+  - name: Vexere
+    url: https://vexere.com/en-US/sleeper-bus-ticket-booking-from-hanoi-to-ha-giang-124t1221.html
+  pros:
+  - The cheapest way there, and many departures
+  - Sleeps through the trip
+  cons:
+  - My Dinh is 30-40 minutes west of the Old Quarter
+  - The early buses land at 3:30-4:30 in the morning
+  pros_he:
+  - הדרך הזולה ביותר, והרבה יציאות
+  - ישנים את הנסיעה
+  cons_he:
+  - מיי דין נמצאת 30-40 דקות מערבית לרובע העתיק
+  - האוטובוסים המוקדמים נוחתים ב-3:30-4:30 לפנות בוקר
+  tips: 200,000-280,000 VND bought at the station, 250,000-350,000 through a hotel or agency.
+    Old Quarter pickup can be added for 30,000-50,000 VND. Take a late bus (22:00-23:00) to arrive
+    at a sane hour.
+  tips_he: 200,000-280,000 דונג בקנייה בתחנה, 250,000-350,000 דרך מלון או סוכנות. אפשר להוסיף
+    איסוף מהרובע העתיק ב-30,000-50,000 דונג. כדאי לקחת אוטובוס מאוחר (22:00-23:00) כדי להגיע
+    בשעה סבירה.
+  sources:
+  - https://looptrails.com/guide/ha-giang-bus-schedule-2026/
+  - https://vexere.com/en-US/sleeper-bus-ticket-booking-from-hanoi-to-ha-giang-124t1221.html
+  checked: '2026-10-07'
+  confidence: high
+- mode: sleeper_bus
+  operator: Cabin sleeper buses (Inter Bus Lines, Ha Giang Express and others)
+  board:
+    name: Pickup at your Old Quarter hotel
+    address: Hanoi Old Quarter hotels
+    pickup_hotel: true
+  departures: Evening departures, typically 20:00-22:00
+  duration_min: 360
+  duration_max: 420
+  price_low: 400000
+  price_high: 550000
+  currency: VND
+  price_unit: per_person
+  pros:
+  - A closed cabin with a curtain instead of an open bunk
+  - Picked up at the hotel, no ride out to My Dinh
+  cons:
+  - About double the open-bunk fare
+  - Still a night on a mountain road
+  pros_he:
+  - תא סגור עם וילון במקום דרגש פתוח
+  - איסוף מהמלון, בלי נסיעה למיי דין
+  cons_he:
+  - בערך כפול ממחיר הדרגש הפתוח
+  - עדיין לילה על כביש הררי
+  tips: The price is for a shared cabin. Inter Bus Lines and Ha Giang Express are the names travellers
+    recommend most often.
+  tips_he: המחיר הוא לתא משותף. Inter Bus Lines ו-Ha Giang Express הם השמות שמטיילים ממליצים עליהם
+    הכי הרבה.
+  sources:
+  - https://looptrails.com/guide/ha-giang-bus-schedule-2026/
+  - https://www.tripadvisor.in/AttractionProductReview-g293924-d20353990-Ha_Giang_Hanoi_Express_Transfer_Sleeper_Bus_or_Limousine_Bus-Hanoi.html
+  checked: '2026-10-07'
+  confidence: medium
+- mode: limousine_van
+  operator: Limousine vans (several operators)
+  board:
+    name: Pickup at your Old Quarter hotel
+    address: Hanoi Old Quarter hotels
+    pickup_hotel: true
+  departures: Day departures, from about 07:00
+  duration_min: 360
+  duration_max: 420
+  price_low: 450000
+  price_high: 600000
+  currency: VND
+  price_unit: per_person
+  pros:
+  - Arrives in daylight, ready for the loop the next morning
+  - Reclining seats in a small van, fewer stops
+  cons:
+  - Uses up a day of the trip
+  pros_he:
+  - מגיעים באור יום, מוכנים ללופ בבוקר שאחרי
+  - מושבים נשכבים בוואן קטן, פחות עצירות
+  cons_he:
+  - מבזבז יום מהטיול
+  sources:
+  - https://looptrails.com/guide/ha-giang-bus-schedule-2026/
+  checked: '2026-10-07'
+  confidence: medium
+- mode: private_car
+  operator: Private driver (transfer companies)
+  board:
+    name: Pickup at your hotel
+    address: Any hotel in Hanoi
+    pickup_hotel: true
+  departures: Any time, agreed when booking
+  duration_min: 360
+  duration_max: 420
+  price_low: 119
+  price_high: 180
+  currency: USD
+  price_unit: per_vehicle
+  book_links:
+  - name: A21 Tours private car
+    url: https://a21tours.com/ticket/hanoi_hagiang_private_car
+  pros:
+  - Door to door, at your own hour
+  - Split between three it costs about as much as a cabin bus each
+  cons:
+  - The most expensive option for one or two people
+  pros_he:
+  - מדלת לדלת, בשעה שלכם
+  - בחלוקה לשלושה זה יוצא לכל אחד בערך כמו אוטובוס תאים
+  cons_he:
+  - האפשרות היקרה ביותר לאחד או שניים
+  tips: $119-158 is a 4-seat car (up to 3 passengers); bigger vans cost more. Pickup and drop-off at
+    the hotel are usually included.
+  tips_he: $119-158 זה רכב של 4 מקומות (עד 3 נוסעים); וואנים גדולים יותר עולים יותר. איסוף והורדה
+    במלון בדרך כלל כלולים.
+  sources:
+  - https://a21tours.com/ticket/hanoi_hagiang_private_car
+  - https://looptrails.com/guide/private-car-hanoi-to-ha-giang-transfer/
+  checked: '2026-10-07'
+  confidence: medium

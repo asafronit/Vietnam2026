@@ -230,30 +230,6 @@ markets:
     ולא במסורת המקורית.
   why_he: שווה לראות בדיוק כמו שהוא — פיסת תרבות מקומית חיה שעוצבה מחדש כמופע שבועי, ולא המנהג
     העממי שהשם עדיין מבטיח
-logistics:
-- name: Hanoi to Sapa transfer options
-  area: Hanoi to Sapa town
-  what: Two practical ways to cover the roughly 300km/6 hours - an overnight sleeper train
-    from Hanoi to Lao Cai followed by a 45-60 minute shuttle up to Sapa, or a direct day or
-    overnight limousine van/sleeper bus (5.5-6 hours, roughly 300,000-660,000 VND depending
-    on seat class).
-  why: The overnight train turns a dead travel day into a night's sleep, but only the van/bus
-    goes door-to-door into Sapa town itself
-  confidence: high
-  geocode_query: Sapa bus station, Sapa, Vietnam
-  sources:
-  - https://a21tours.com/sapa-sleeper-bus-vs-limousine-van
-  - https://visit-sapa.com/en/blog/hanoi-sapa-bus-limousine
-  coords:
-    lat: 22.3399787
-    lng: 103.8485698
-  name_he: דרכי הגעה מהאנוי לסאפה
-  area_he: מהאנוי לעיירה סאפה
-  what_he: 'שתי דרכים מעשיות לכסות את כ-300 הקילומטר ושש השעות: רכבת לילה מהאנוי ללאו קאי
-    ואחריה הסעה של 45 עד 60 דקות במעלה ההר לסאפה, או ואן לימוזין או אוטובוס מיטות ישיר ביום
-    או בלילה — חמש וחצי עד שש שעות, בערך 300,000 עד 660,000 דונג לפי דרגת המושב.'
-  why_he: רכבת הלילה הופכת יום נסיעה מבוזבז ללילה של שינה, אבל רק הוואן או האוטובוס מגיעים
-    מדלת לדלת אל תוך העיירה סאפה עצמה
 restaurants:
 - name: Thang Co A Quynh
   kind: vietnamese

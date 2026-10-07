@@ -295,48 +295,6 @@ markets:
     צעיפי רקמה, בגדים ומזכרות מכפרי המלאכה שבסביבה, כמו ואן לאם.
   why_he: המקבילה הערבית לשיט של שעות היום, והמקום הנוח ביותר לטעום אוכל רחוב אחרי
     יום על המים
-logistics:
-- name: Ninh Binh to Hanoi (train and road)
-  area: Regional transfer
-  what: Ninh Binh's train station sits centrally in the city; five daily trains run
-    to Hanoi's main station on Le Duan Street in about 2 hours, or a private car takes
-    roughly the same time by road.
-  why: Fixes the practical transfer time between Ninh Binh and the trip's Hanoi anchor
-  confidence: high
-  geocode_query: Ninh Binh Railway Station, Ninh Binh, Vietnam
-  sources:
-  - https://oxalisadventure.com/hanoi-to-ninh-binh-best-transport-options/
-  - https://a21tours.com/ninh-binh-city-to-hanoi-transfer
-  coords:
-    lat: 20.2421142
-    lng: 105.9746207
-  name_he: מנין בין אל האנוי — רכבת וכביש
-  area_he: מעבר אזורי
-  what_he: תחנת הרכבת של נין בין יושבת במרכז העיר; חמש רכבות ביום מגיעות לתחנה הראשית
-    של האנוי ברחוב לה דואן בכשעתיים, ורכב פרטי לוקח בערך אותו זמן בכביש.
-  why_he: מקבע את זמן המעבר המעשי בין נין בין לבין עוגן האנוי של הטיול
-- name: Lotus Train - Ninh Binh to Dong Hoi (night train)
-  area: Ninh Binh Railway Station, departure point
-  what: A privately refurbished overnight sleeper carriage (2-berth or 4-berth cabins,
-    Vietnam Railways track) departing Ninh Binh around 22:00 and arriving Dong Hoi
-    around 06:00, with onboard wifi, snacks and breakfast.
-  why: Turns the long road transfer south toward Phong Nha into a night's sleep instead
-    of a lost travel day
-  confidence: medium
-  geocode_query: Ninh Binh Railway Station, Ninh Binh, Vietnam
-  sources:
-  - https://lotustrain.vn/ninh-binh-to-dong-hoi-lotus-express
-  - https://violetexpresstrain.com/ninh-binh-dong-hoi-on-lotus-train-se19.html
-  coords:
-    lat: 20.2421142
-    lng: 105.9746207
-  name_he: רכבת לוטוס — מנין בין אל דונג הוי
-  area_he: תחנת הרכבת נין בין, נקודת היציאה
-  what_he: קרון שינה לילי משופץ בבעלות פרטית (תאים לשניים או לארבעה, על מסילת רכבות
-    וייטנאם) שיוצא מנין בין סביב 22:00 ומגיע לדונג הוי סביב 06:00, עם אינטרנט אלחוטי,
-    חטיפים וארוחת בוקר.
-  why_he: הופך את המעבר הארוך בכביש דרומה לכיוון פונג ניה ללילה של שינה במקום ליום
-    נסיעה אבוד
 hebrew_complete: true
 restaurants:
 - name: Duc De Restaurant

@@ -234,45 +234,6 @@ markets:
   what_he: שוק לילה בשני רחובות במרחק הליכה קצר ממזח נין קייאו, מחולק בין רחבת מזון שמוכרת
     שיפודים צלויים, מרקים מתוקים ומיץ קנה סוכר, לבין צד קניות של ביגוד זול וחולצות מודפסות.
   why_he: ההמשך הטבעי לטיול ערב על הנהר, והכי שוקק וקריר בין שבע וחצי לתשע וחצי בערב
-logistics:
-- name: Bus from Ho Chi Minh City to Can Tho
-  area: Ho Chi Minh City to Can Tho, roughly 170 km
-  what: A sleeper coach (commonly the Futa/Phuong Trang line) covers the route in about 3
-    hours of driving, though the door-to-door trip including rest stops and pickup/drop-off
-    typically runs closer to 5 hours; a taxi from the Can Tho bus station to Ninh Kieu Wharf
-    adds about 15 minutes.
-  why: The standard overland option between the two, and the reason a Mekong stop is usually
-    built around an overnight rather than a rushed day trip
-  confidence: medium
-  geocode_query: Can Tho bus station, Can Tho, Vietnam
-  sources:
-  - https://vemekong.com/guide-to-can-tho-floating-markets/
-  coords:
-    lat: 10.0243445
-    lng: 105.7615442
-  name_he: אוטובוס מסייגון לקאן טו
-  area_he: מסייגון לקאן טו, כ-170 קילומטר
-  what_he: אוטובוס מיטות, בדרך כלל של פוטה או פואונג טראנג, עושה את המסלול בכשלוש שעות נהיגה,
-    אבל הנסיעה מדלת לדלת כולל עצירות ואיסוף והורדה נמשכת בדרך כלל קרוב לחמש שעות. מונית מתחנת
-    האוטובוס בקאן טו למזח נין קייאו מוסיפה כרבע שעה.
-  why_he: האפשרות היבשתית הסטנדרטית בין השתיים, והסיבה שעצירת מקונג נבנית בדרך כלל סביב לינה
-    ולא כטיול יום דחוס
-- name: Speedboat from the Mekong Delta to Phu Quoc
-  area: Ha Tien, Kien Giang province
-  what: Fast boats from Ha Tien to Phu Quoc's Bai Vong pier run 3-5 times daily between roughly
-    6am and 2pm, taking about 1.5 hours; car ferries from the same pier take about 3 hours
-    and cost slightly less.
-  why: Lets a Mekong-to-Phu Quoc leg skip a backtrack to Ho Chi Minh City for a flight
-  confidence: high
-  geocode_query: Ha Tien ferry terminal, Kien Giang, Vietnam
-  sources:
-  - https://www.vietnamcoracle.com/phu-quoc-island-ferry-times/
-  name_he: סירה מהירה מהמקונג לפו קוק
-  area_he: הא טיין, מחוז קיין ז'יאנג
-  what_he: סירות מהירות מהא טיין למזח באי וונג בפו קוק יוצאות שלוש עד חמש פעמים ביום בערך
-    בין שש בבוקר לשתיים אחר הצהריים, ולוקחות כשעה וחצי. מעבורות מכוניות מאותו מזח לוקחות כשלוש
-    שעות ועולות מעט פחות.
-  why_he: מאפשר לרגל מקונג–פו קוק לדלג על חזרה לסייגון לצורך טיסה
 restaurants:
 - name: Lua Nep
   kind: vietnamese

@@ -22,12 +22,20 @@ from .schema import (
     validate_record,
 )
 from .style import PLACE_COLORS
+from .transfers import (
+    check_transfer_keys,
+    load_transfers,
+    transfer_to_web_json,
+    validate_transfers,
+)
 from .verify import verify_kml, verify_within_radius
 
 DATA_DIR = "data"
 OUT_DIR = "out"
 OUT_FILE = "vietnam-2026-pool.kml"
 WEB_OUT_FILE = "poi-data.js"
+TRANSFERS_DIR = "transfers"            # under DATA_DIR
+TRANSFERS_OUT_FILE = "transfers-data.js"
 CACHE = "cache/nominatim.json"
 
 
@@ -149,6 +157,15 @@ def _validate_all(places: list, records: dict[str, list[Record]]) -> list[str]:
                 load_hebrew_flag(os.path.join(DATA_DIR, f"{place.id}.yaml")),
             )
         )
+    # Transfers gate both outputs too: a broken transfer file is a broken
+    # dataset, whichever command happens to notice it first.
+    problems.extend(check_transfer_keys(os.path.join(DATA_DIR, TRANSFERS_DIR)))
+    problems.extend(
+        validate_transfers(
+            load_transfers(os.path.join(DATA_DIR, TRANSFERS_DIR)),
+            {place.id for place in places},
+        )
+    )
     return problems
 
 
@@ -281,6 +298,19 @@ def cmd_web() -> int:
 
     total = sum(len(recs) for place_data in data.values() for recs in place_data["poi"].values())
     print(f"built {target} ({total} records across {len(places)} places)")
+
+    # Written even when empty, so the site can always load the file.
+    transfers = [
+        shipped
+        for t in load_transfers(os.path.join(DATA_DIR, TRANSFERS_DIR))
+        if (shipped := transfer_to_web_json(t)) is not None
+    ]
+    transfers_target = os.path.join(OUT_DIR, TRANSFERS_OUT_FILE)
+    payload = json.dumps(transfers, indent=2, ensure_ascii=False)
+    with open(transfers_target, "w", encoding="utf-8") as fh:
+        fh.write(f"const TRANSFERS_DATA = {payload};\n")
+    options = sum(len(t["options"]) for t in transfers)
+    print(f"built {transfers_target} ({len(transfers)} transfers, {options} options)")
     return 0
 
 

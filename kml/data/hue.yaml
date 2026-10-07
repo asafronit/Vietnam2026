@@ -281,26 +281,6 @@ logistics:
   what_he: שדה התעופה הבינלאומי פו באי נמצא כ-15 קילומטר מדרום להואה. מונית או רכב פרטי למרכז
     העיר לוקחים 20 עד 30 דקות ועולים בערך 250,000 עד 300,000 דונג, כעשרה עד שנים עשר דולר.
   why_he: מקבע את זמן ההסעה לטיסה ישירה אל הואה או ממנה, במקום דרך דה נאנג
-- name: Hai Van Pass - Hue to Da Nang / Hoi An
-  area: Route south out of Hue
-  what: A 21km mountain pass reaching 500m above sea level on the Thua Thien Hue / Da Nang
-    provincial border, driven by private car, motorbike or hired 'easy rider'; the pass itself
-    takes about 45 minutes, with Da Nang city roughly 30 minutes beyond it and Hoi An about
-    90 minutes from the summit.
-  why: The scenic overland alternative to flying or the flat coastal train, and how the master-spec's
-    cheap Hue day-trip from Hoi An is physically done
-  confidence: high
-  geocode_query: Hai Van Pass, Thua Thien Hue, Vietnam
-  sources:
-  - https://vietnamstory.in/hai-van-pass/
-  - https://www.uncovervietnam.com/hai-van-pass-route/
-  name_he: מעבר האי ואן, מהואה לדה נאנג והוי אן
-  area_he: המסלול דרומה מהואה
-  what_he: מעבר הרים באורך 21 קילומטר שמגיע ל-500 מטר מעל פני הים על גבול המחוזות, ונוסעים
-    בו ברכב פרטי, באופנוע או עם רוכב מקומי. המעבר עצמו לוקח כ-45 דקות, דה נאנג כחצי שעה אחריו,
-    והוי אן כשעה וחצי מהפסגה.
-  why_he: החלופה היבשתית והנופית לטיסה או לרכבת החוף השטוחה, וכך מתבצע בפועל טיול היום הזול
-    להואה מהוי אן שבמפרט
 street_food:
 - name: Bun Bo Hue Ba Gai
   kind: vietnamese

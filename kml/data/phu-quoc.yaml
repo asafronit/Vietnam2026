@@ -412,27 +412,6 @@ logistics:
     ממחיר המונה.
   why_he: שדה התעופה קרוב מספיק לרצועת המלונות הראשית כך שההסעה קצרה וזולה בלי קשר לריזורט
     שהוזמן
-- name: Speedboat from the Mekong Delta (Ha Tien)
-  limiter: sea
-  area: Ha Tien to Bai Vong pier, Phu Quoc
-  what: Fast boats from Ha Tien on the Mekong Delta coast to Phu Quoc's Bai Vong pier run
-    3-5 times daily between about 6am and 2pm, taking roughly 1.5 hours; slower car ferries
-    take about 3 hours on the same route.
-  why: Connects a Mekong Delta stop directly to Phu Quoc without backtracking through Ho Chi
-    Minh City for a flight
-  confidence: high
-  geocode_query: Bai Vong Ferry Terminal, Phu Quoc, Vietnam
-  sources:
-  - https://www.vietnamcoracle.com/phu-quoc-island-ferry-times/
-  coords:
-    lat: 10.1457488
-    lng: 104.038743
-  name_he: סירה מהירה מהמקונג, הא טיין
-  area_he: מהא טיין למזח באי וונג, פו קוק
-  what_he: סירות מהירות מהא טיין שעל חוף דלתת המקונג אל מזח באי וונג בפו קוק יוצאות שלוש עד
-    חמש פעמים ביום בערך בין שש בבוקר לשתיים אחר הצהריים, ולוקחות כשעה וחצי. מעבורות מכוניות
-    איטיות יותר לוקחות כשלוש שעות באותו מסלול.
-  why_he: מחבר עצירה בדלתת המקונג ישירות לפו קוק בלי לחזור אחורה דרך סייגון לצורך טיסה
 restaurants:
 - name: Xin Chao Seafood Restaurant
   kind: vietnamese

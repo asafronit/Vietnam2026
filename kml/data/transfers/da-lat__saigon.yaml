@@ -1,0 +1,117 @@
+from: da-lat
+to: saigon
+reverse_ok: true
+note: About 310 km down from the highlands. A 55-minute flight against 6-8 hours on the road. Only Vietnam
+  Airlines flies the route nonstop, three times a day.
+note_he: כ-310 ק"מ במורד הרמות. טיסה של 55 דקות מול 6-8 שעות בכביש. רק Vietnam Airlines טסה בקו בלי עצירה,
+  שלוש פעמים ביום.
+options:
+- mode: flight
+  operator: Vietnam Airlines (VN1381 / VN1383 / VN1387)
+  board:
+    name: Lien Khuong International Airport (DLI)
+    address: Lien Khuong, Hiep Thanh, Lam Dong
+    lat: 11.7504279
+    lng: 108.3611709
+  alight:
+    name: Tan Son Nhat Airport, Terminal T3 (domestic)
+    address: Tan Son Nhat, Ho Chi Minh City
+    lat: 10.8112056
+    lng: 106.6535671
+  departures: 07:40, 11:35 and 18:55 daily
+  duration_min: 55
+  duration_max: 55
+  price_low: 35
+  price_high: 74
+  currency: USD
+  price_unit: per_person
+  book_links:
+  - name: Vietnam Airlines
+    url: https://www.vietnamairlines.com/en-vn/flights-from-da-lat-to-ho-chi-minh-city
+  pros:
+  - Under an hour, three times a day
+  - Cheaper than the private car for one or two people
+  cons:
+  - The airport is 30 km from Da Lat, 40-50 minutes by taxi
+  pros_he:
+  - פחות משעה, שלוש פעמים ביום
+  - זול מהרכב הפרטי לאחד או שניים
+  cons_he:
+  - שדה התעופה נמצא 30 ק"מ מדה לאט, 40-50 דקות במונית
+  tips: Fares are economy as shown for 12 and 15 November 2026; the morning flight is usually the cheapest. It
+    lands at T3, the domestic terminal.
+  tips_he: המחירים למחלקת תיירים כפי שהוצגו ל-12 ול-15 בנובמבר 2026; טיסת הבוקר בדרך כלל הזולה ביותר. הנחיתה
+    ב-T3, טרמינל הפנים.
+  sources:
+  - https://www.google.com/travel/flights?q=Flights%20from%20DLI%20to%20SGN%20on%202026-11-12&curr=USD
+  - https://www.vietnamairlines.com/en-vn/flights-from-da-lat-to-ho-chi-minh-city
+  checked: '2026-10-07'
+  confidence: high
+- mode: sleeper_bus
+  operator: Futa (Phuong Trang)
+  board:
+    name: Da Lat Interprovincial Bus Station
+    address: 1 To Hien Thanh, Da Lat
+    lat: 11.9268818
+    lng: 108.4455138
+  alight:
+    name: Mien Tay Bus Station (Saigon)
+    address: Kinh Duong Vuong, An Lac, Ho Chi Minh City
+    lat: 10.7401271
+    lng: 106.6194006
+  departures: Roughly hourly, 06:00-23:00
+  duration_min: 420
+  duration_max: 480
+  price_low: 280000
+  price_high: 350000
+  currency: VND
+  price_unit: per_person
+  book_links:
+  - name: Futa Bus
+    url: https://futabus.vn
+  pros:
+  - Cheap and very frequent, day or night
+  cons:
+  - 7-8 hours, and it ends at Mien Tay station on the far west side of Saigon
+  pros_he:
+  - זול ותכוף מאוד, ביום ובלילה
+  cons_he:
+  - 7-8 שעות, והוא מסתיים בתחנת מיין טאי בקצה המערבי של סייגון
+  tips: Thanh Buoi runs newer cabin buses on the same road for 300,000-380,000 VND and drops closer to the centre.
+  tips_he: Thanh Buoi מפעילה אוטובוסי תאים חדשים יותר באותו כביש ב-300,000-380,000 דונג, ומורידה קרוב יותר למרכז.
+  sources:
+  - https://www.vietnamtourism.com/en/getting-to-da-lat-flights-buses-and-the-sleeper-coach-routes
+  - https://www.checkmybus.com/da-lat/ho-chi-minh
+  checked: '2026-10-07'
+  confidence: high
+- mode: private_car
+  operator: Private driver (A21 Tours and others)
+  board:
+    name: Pickup at your hotel
+    address: Any hotel in Da Lat
+    pickup_hotel: true
+  departures: Any time, agreed when booking
+  duration_min: 330
+  duration_max: 360
+  price_low: 125
+  price_high: 235
+  currency: USD
+  price_unit: per_vehicle
+  book_links:
+  - name: A21 Tours private car
+    url: https://a21tours.com/ticket/da-lat-ho-chi-minh-private-car
+  pros:
+  - Hotel to hotel, with stops on the pass if wanted
+  cons:
+  - Several times the flight for a small group
+  pros_he:
+  - ממלון למלון, עם עצירות במעבר אם רוצים
+  cons_he:
+  - פי כמה מהטיסה לקבוצה קטנה
+  tips: $125 is a sedan (3 passengers), $135 an SUV, $235 a 9-seat limousine van.
+  tips_he: $125 זה סדאן (3 נוסעים), $135 רכב שטח, $235 וואן לימוזינה של 9 מקומות.
+  sources:
+  - https://a21tours.com/ticket/da-lat-ho-chi-minh-private-car
+  - https://a21tours.com/ticket/ho-chi-minh-da-lat-private-car
+  checked: '2026-10-07'
+  confidence: high

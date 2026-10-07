@@ -1,0 +1,104 @@
+from: hanoi
+to: ninh-binh
+reverse_ok: true
+note: About 95 km, under 2.5 hours by any option. No flight. The train and the limousine van take about
+  the same time.
+note_he: כ-95 ק"מ, פחות מ-2.5 שעות בכל אפשרות. אין טיסה. הרכבת והוואן לוקחים בערך אותו זמן.
+options:
+- mode: train
+  operator: Vietnam Railways (SE trains)
+  board:
+    name: Hanoi Railway Station (Ga Ha Noi)
+    address: 120 Le Duan, Van Mieu - Quoc Tu Giam, Hanoi
+    lat: 21.0242336
+    lng: 105.8410067
+  alight:
+    name: Ninh Binh Railway Station
+    address: 1 Hoang Dieu, Ninh Binh
+    lat: 20.2420352
+    lng: 105.9745791
+  departures: About 6 a day, e.g. SE7 06:00, SE9 13:00, SE3 19:20, SE11 21:25, SE1 21:45
+  duration_min: 130
+  duration_max: 150
+  price_low: 93000
+  price_high: 350000
+  currency: VND
+  price_unit: per_person
+  book_links:
+  - name: Vietnam Railways (DSVN)
+    url: https://dsvn.vn
+  pros:
+  - Cheap, no traffic, a seat by the window over the rice fields
+  - Central station at both ends
+  cons:
+  - Ninh Binh station is in the city; Tam Coc is another 15-20 minutes
+  pros_he:
+  - זול, בלי פקקים, מושב ליד החלון מעל שדות האורז
+  - תחנה מרכזית בשני הצדדים
+  cons_he:
+  - תחנת נין בין נמצאת בעיר; לטאם קוק עוד 15-20 דקות
+  tips: 93,000 VND is a soft seat; a berth costs up to 350,000. The morning SE7 makes a good day trip.
+  tips_he: 93,000 דונג זה מושב רך; מיטה עולה עד 350,000. ה-SE7 של הבוקר מתאים ליום טיול.
+  sources:
+  - https://vexere.com/vn/trains/from-hanoi-to-ninh-binh-ninh-binh.24.534.en
+  - https://north-vietnam.com/how-to-get-from-hanoi-to-ninh-binh/
+  checked: '2026-10-07'
+  confidence: high
+- mode: limousine_van
+  operator: Limousine vans (Trang An Limousine, Binh Minh, X.E Vietnam)
+  board:
+    name: Pickup at your Old Quarter hotel
+    address: Hanoi Old Quarter hotels
+    pickup_hotel: true
+  departures: Many through the day
+  duration_min: 90
+  duration_max: 150
+  price_low: 155000
+  price_high: 170000
+  currency: VND
+  price_unit: per_person
+  book_links:
+  - name: Vexere
+    url: https://vexere.com/en-US/limousine-bus-ticket-booking-from-ha-noi-to-ninh-binh-ninh-binh-124t24761.html
+  pros:
+  - Hotel to hotel, straight to Tam Coc or Trang An
+  - Frequent departures
+  cons:
+  - Old Quarter pickups add time before the road even starts
+  pros_he:
+  - ממלון למלון, ישר לטאם קוק או לטראנג אן
+  - יציאות תכופות
+  cons_he:
+  - האיסופים ברובע העתיק מוסיפים זמן עוד לפני שיוצאים לכביש
+  sources:
+  - https://vexere.com/en-US/limousine-bus-ticket-booking-from-ha-noi-to-ninh-binh-ninh-binh-124t24761.html
+  - https://north-vietnam.com/how-to-get-from-hanoi-to-ninh-binh/
+  checked: '2026-10-07'
+  confidence: high
+- mode: private_car
+  operator: Private driver (transfer companies)
+  board:
+    name: Pickup at your hotel
+    address: Any hotel in Hanoi
+    pickup_hotel: true
+  departures: Any time, agreed when booking
+  duration_min: 90
+  duration_max: 120
+  price_low: 35
+  price_high: 170
+  currency: USD
+  price_unit: per_vehicle
+  pros:
+  - Fastest, and can stop at Hoa Lu or Bai Dinh on the way
+  cons:
+  - Wide price range by vehicle size; agree the price up front
+  pros_he:
+  - הכי מהיר, ואפשר לעצור בהואה לו או בביי דין בדרך
+  cons_he:
+  - טווח מחירים רחב לפי גודל הרכב; לסגור מחיר מראש
+  sources:
+  - https://north-vietnam.com/how-to-get-from-hanoi-to-ninh-binh/
+  - https://oxalisadventure.com/hanoi-to-ninh-binh-best-transport-options/
+  - https://a21tours.com/ninh-binh-city-to-hanoi-transfer
+  checked: '2026-10-07'
+  confidence: medium

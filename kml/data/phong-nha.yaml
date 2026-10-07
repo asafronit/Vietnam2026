@@ -299,23 +299,6 @@ logistics:
   what_he: תחנת הרכבת הקרובה ביותר לפונג ניה על הקו צפון-דרום, ומשם המשך לפונג ניה באוטובוס
     מקומי (קו B4, כשעה וחצי), במונית או ברכב פרטי.
   why_he: כך רכבת הלילה מנין בין באמת מגיעה לפונג ניה — אין תחנה בעיירה עצמה
-- name: Private car to Hoi An via Vinh Moc Tunnels and Hai Van Pass
-  area: Route south from Phong Nha to Hoi An/Da Nang
-  what: A full-day private car transfer south that stops at the Vinh Moc tunnels (a real wartime
-    underground village) and crosses the Hai Van Pass, arriving in Hoi An by evening.
-  why: Turns an otherwise dead transfer day into two more stops, and is the route the project's
-    own vetted research settled on over the train
-  confidence: high
-  geocode_query: Vinh Moc Tunnels, Vinh Linh, Quang Tri, Vietnam
-  sources:
-  - https://www.getyourguide.com/en-gb/da-nang-l939/hoi-an-private-car-to-phong-nha-with-sightseeing-stops-t892548/
-  - https://www.tripadvisor.com/AttractionProductReview-g298082-d20307049-Hoi_An_to_Phong_Nha_by_Private_Car_via_Vinh_Moc_Tunnels-Hoi_An_Quang_Nam_Province.html
-  name_he: רכב פרטי להוי אן דרך מנהרות וין מוק ומעבר האי ואן
-  area_he: המסלול דרומה מפונג ניה להוי אן ודה נאנג
-  what_he: העברה ברכב פרטי ליום שלם דרומה, שעוצרת במנהרות וין מוק — כפר תת-קרקעי אמיתי מימי
-    המלחמה — וחוצה את מעבר האי ואן, ומגיעה להוי אן עד הערב.
-  why_he: הופכת יום נסיעה מבוזבז לשתי עצירות נוספות, וזה המסלול שהמחקר המאומת של הפרויקט העדיף
-    על פני הרכבת
 restaurants:
 - name: The Rice House Phong Nha
   kind: vietnamese

@@ -1,0 +1,109 @@
+from: hanoi
+to: ha-long
+reverse_ok: true
+note: About 160-180 km, 2.5-3 hours on the expressway. No flight and no practical train; the Hanoi-Ha
+  Long seaplane stopped in April 2026.
+note_he: כ-160-180 ק"מ, 2.5-3 שעות בכביש המהיר. אין טיסה ואין רכבת מעשית; המטוס הימי מהאנוי להא
+  לונג הפסיק לפעול באפריל 2026.
+options:
+- mode: limousine_van
+  operator: Limousine shuttles (Hoang Phu, Ha Long Travel, Trung Thanh and others)
+  board:
+    name: Pickup at your Old Quarter hotel
+    address: Hanoi Old Quarter hotels
+    pickup_hotel: true
+  alight:
+    name: Tuan Chau harbour or your Ha Long hotel
+    address: Tuan Chau / Bai Chay, Ha Long
+  departures: Morning pickups around 08:00-09:00, timed to cruise boarding; later runs through the day
+  duration_min: 150
+  duration_max: 180
+  price_low: 180000
+  price_high: 300000
+  currency: VND
+  price_unit: per_person
+  pros:
+  - Hotel to cruise pier in one ride
+  - Cheap for the comfort
+  cons:
+  - Pickups run late in Old Quarter traffic; leave a margin before boarding
+  pros_he:
+  - מהמלון עד מזח השייט בנסיעה אחת
+  - זול ביחס לנוחות
+  cons_he:
+  - האיסופים מתעכבים בפקקי הרובע העתיק; להשאיר מרווח לפני העלייה לסירה
+  tips: Most cruises sell their own shuttle at a similar price - check what the cruise includes before
+    booking separately.
+  tips_he: רוב חברות השייט מוכרות הסעה משלהן במחיר דומה - לבדוק מה כלול בשייט לפני שמזמינים בנפרד.
+  sources:
+  - https://bhayacruises.com/blog/get-from-hanoi-to-halong-bay/
+  - https://north-vietnam.com/hanoi-to-ha-long-bay-bus-schedule-timetable/
+  checked: '2026-10-07'
+  confidence: high
+- mode: bus
+  operator: Public buses (Kumho Viet Thanh and others)
+  board:
+    name: Gia Lam Bus Station (Ben xe Gia Lam)
+    address: 9 Ngo Gia Kham, Long Bien, Hanoi
+    lat: 21.0485414
+    lng: 105.8789776
+  alight:
+    name: Bai Chay Bus Station
+    address: National Road 18, Bai Chay, Ha Long
+    lat: 20.9729964
+    lng: 107.0137223
+  departures: Frequent, about 05:30-17:30
+  duration_min: 180
+  duration_max: 240
+  price_low: 120000
+  price_high: 250000
+  currency: VND
+  price_unit: per_person
+  pros:
+  - Cheapest, runs all day
+  cons:
+  - Ends at Bai Chay bus station, a taxi away from the cruise piers
+  - More stops, up to 4 hours
+  pros_he:
+  - הכי זול, ופועל כל היום
+  cons_he:
+  - מסתיים בתחנת האוטובוסים ביי צ'אי, נסיעת מונית ממזחי השייט
+  - יותר עצירות, עד 4 שעות
+  tips: Buses also leave from My Dinh (20 Pham Hung), but Gia Lam is closer to the Old Quarter and on
+    the right side of the river.
+  tips_he: אוטובוסים יוצאים גם ממיי דין (20 Pham Hung), אבל גיה לאם קרובה יותר לרובע העתיק ונמצאת
+    בצד הנכון של הנהר.
+  sources:
+  - https://bhayacruises.com/blog/get-from-hanoi-to-halong-bay/
+  - https://north-vietnam.com/hanoi-to-ha-long-bay-bus-schedule-timetable/
+  checked: '2026-10-07'
+  confidence: high
+- mode: private_car
+  operator: Private driver (transfer companies)
+  board:
+    name: Pickup at your hotel
+    address: Any hotel in Hanoi
+    pickup_hotel: true
+  departures: Any time, agreed when booking
+  duration_min: 150
+  duration_max: 150
+  price_low: 1600000
+  price_high: 1900000
+  currency: VND
+  price_unit: per_vehicle
+  pros:
+  - Fastest door to door, about 2.5 hours
+  - No waiting for other passengers' pickups
+  cons:
+  - Ten times the shuttle fare for one person
+  pros_he:
+  - הכי מהיר מדלת לדלת, כ-2.5 שעות
+  - בלי לחכות לאיסוף של נוסעים אחרים
+  cons_he:
+  - פי עשרה ממחיר ההסעה לאדם אחד
+  tips: A round trip runs 2.4-5 million VND.
+  tips_he: הלוך-חזור עולה 2.4-5 מיליון דונג.
+  sources:
+  - https://bhayacruises.com/blog/get-from-hanoi-to-halong-bay/
+  checked: '2026-10-07'
+  confidence: medium

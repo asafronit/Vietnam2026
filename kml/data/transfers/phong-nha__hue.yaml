@@ -1,0 +1,121 @@
+from: phong-nha
+to: hue
+reverse_ok: true
+note: About 210 km, 4 hours. No flight - the two are too close. The train runs from Dong Hoi, 45 km from
+  Phong Nha, so the bus or a car is simpler.
+note_he: כ-210 ק"מ, ארבע שעות. אין טיסה - המקומות קרובים מדי. הרכבת יוצאת מדונג הוי, 45 ק"מ מפונג נה,
+  ולכן אוטובוס או רכב פשוטים יותר.
+options:
+- mode: sleeper_bus
+  operator: Hung Thanh
+  board:
+    name: Hung Thanh bus office, Phong Nha town centre
+    address: Phong Nha town centre, Quang Binh
+    lat: 17.6113791
+    lng: 106.3069337
+  alight:
+    name: Hue city centre drop-off
+    address: 7 Doi Cung, Hue
+    lat: 16.468691
+    lng: 107.5937098
+  departures: 04:00, 09:00, 19:00
+  duration_min: 240
+  duration_max: 300
+  price_low: 14
+  price_high: 16
+  currency: USD
+  price_unit: per_person
+  book_links:
+  - name: Full Moon Travel
+    url: https://fullmoontravelasia.com/phong-nha-to-hue-bus-ticket/
+  pros:
+  - Three departures a day, straight into central Hue
+  - Cheap
+  cons:
+  - The 04:00 bus means a very early start
+  pros_he:
+  - שלוש יציאות ביום, ישר למרכז הואה
+  - זול
+  cons_he:
+  - האוטובוס של 04:00 פירושו השכמה מוקדמת מאוד
+  tips: Be at the office 20 minutes before departure. The 09:00 bus arrives in Hue around lunchtime.
+  tips_he: להגיע למשרד 20 דקות לפני היציאה. האוטובוס של 09:00 מגיע להואה בסביבות הצהריים.
+  sources:
+  - https://fullmoontravelasia.com/phong-nha-to-hue-bus-ticket/
+  - https://www.redbus.vn/en/bus-tickets/routes/phong-nha-to-hue
+  checked: '2026-10-07'
+  confidence: high
+- mode: combo
+  operator: Bus B4 or taxi to Dong Hoi + Vietnam Railways
+  board:
+    name: Dong Hoi Railway Station
+    address: Thuan Ly, Dong Hoi
+    lat: 17.4689199
+    lng: 106.5997285
+  alight:
+    name: Hue Railway Station
+    address: 2 Bui Thi Xuan, Hue
+    lat: 16.4564476
+    lng: 107.5780522
+  departures: Trains about every 2 hours through the day
+  duration_min: 270
+  duration_max: 330
+  price_low: 6
+  price_high: 21
+  currency: USD
+  price_unit: per_person
+  book_links:
+  - name: Vietnam Railways (DSVN)
+    url: https://dsvn.vn
+  pros:
+  - No mountain road, and a window seat along the coast
+  cons:
+  - Two legs - first 45 km back to Dong Hoi
+  pros_he:
+  - בלי כביש הררי, ומושב ליד החלון לאורך החוף
+  cons_he:
+  - שני קטעים - קודם 45 ק"מ חזרה לדונג הוי
+  tips: The fare is the train only (about 3 hours). Add bus B4 to Dong Hoi, about 50,000 VND and 90 minutes,
+    or a taxi for 450,000-550,000 VND.
+  tips_he: המחיר הוא לרכבת בלבד (כשלוש שעות). צריך להוסיף אוטובוס B4 לדונג הוי, כ-50,000 דונג ו-90 דקות,
+    או מונית ב-450,000-550,000 דונג.
+  sources:
+  - https://vexere.com/vn/trains/from-dong-hoi-quang-binh-to-hue-thua-thien-hue.568.705.en
+  - https://www.vietnamtourism.com/en/dong-hoi-to-phong-nha-the-complete-transport-guide-for-2026
+  checked: '2026-10-07'
+  confidence: medium
+- mode: private_car
+  operator: Private driver (Phong Nha Locals and others)
+  board:
+    name: Pickup at your hotel
+    address: Any hotel in Phong Nha
+    pickup_hotel: true
+  departures: Any time, agreed when booking
+  duration_min: 240
+  duration_max: 300
+  price_low: 2300000
+  price_high: 3000000
+  currency: VND
+  price_unit: per_vehicle
+  book_links:
+  - name: Phong Nha Locals
+    url: https://phongnhalocals.com/package/phong-nha-to-hue-private-car/
+  pros:
+  - Can stop at the DMZ on the way - Hien Luong Bridge, Vinh Moc tunnels
+  - Payment on arrival, no deposit
+  cons:
+  - Several times the bus fare
+  pros_he:
+  - אפשר לעצור באזור המפורז בדרך - גשר הייאן לואנג, מנהרות וין מוק
+  - תשלום בהגעה, בלי מקדמה
+  cons_he:
+  - פי כמה ממחיר האוטובוס
+  tips: 2.3 million VND is a sedan (3 passengers), 2.5 million an SUV, 3 million a minivan. Vinh Moc entry
+    is about $10 extra.
+  tips_he: 2.3 מיליון דונג זה סדאן (3 נוסעים), 2.5 מיליון רכב שטח, 3 מיליון מיניוואן. הכניסה לווין מוק
+    בערך $10 נוספים.
+  sources:
+  - https://phongnhalocals.com/package/phong-nha-to-hue-private-car/
+  - https://vietnamvacation.com.vn/phong-nha-to-hue/
+  checked: '2026-10-07'
+  confidence: high

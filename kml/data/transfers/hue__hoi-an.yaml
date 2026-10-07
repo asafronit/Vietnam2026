@@ -1,0 +1,146 @@
+from: hue
+to: hoi-an
+reverse_ok: true
+note: About 130 km, 3-4 hours. No flight. Buses and trains take the tunnel or the coast; only a car or a
+  motorbike goes over the Hai Van Pass itself (21 km, up to 500 m), which is the reason to choose them.
+note_he: כ-130 ק"מ, 3-4 שעות. אין טיסה. אוטובוסים ורכבות עוברים במנהרה או לאורך החוף; רק רכב או אופנוע
+  עולים על מעבר האי ואן עצמו (21 ק"מ, עד 500 מ'), וזו הסיבה לבחור בהם.
+options:
+- mode: limousine_van
+  operator: A21 Tours
+  board:
+    name: A21 meeting point (or pickup in central Hue)
+    address: 35 Ben Nghe, Hue
+    lat: 16.4659406
+    lng: 107.5946252
+  departures: 07:00, 10:00, 12:00, 14:00, 16:00, 18:00
+  duration_min: 210
+  duration_max: 240
+  price_low: 18
+  price_high: 20
+  currency: USD
+  price_unit: per_person
+  book_links:
+  - name: A21 Tours
+    url: https://a21tours.com/ticket/hue-hoi-an-limousine-transfer
+  pros:
+  - Six departures, hotel pickup in central Hue, drop-off in Hoi An
+  cons:
+  - Changes vehicle at an office in Da Nang
+  - Goes through the tunnel, not over the pass
+  pros_he:
+  - שש יציאות, איסוף מהמלון במרכז הואה והורדה בהוי אן
+  cons_he:
+  - מחליפים רכב במשרד בדה נאנג
+  - עובר במנהרה, לא מעל המעבר
+  tips: $18 is a regular seat, $20 a VIP seat; a private 9-seat van is $115.
+  tips_he: $18 זה מושב רגיל, $20 מושב VIP; וואן פרטי של 9 מקומות עולה $115.
+  sources:
+  - https://a21tours.com/ticket/hue-hoi-an-limousine-transfer
+  - https://vexere.com/en-US/limousine-bus-ticket-booking-from-hue-thua-thien-hue-to-hoi-an-quang-nam-2647t25221.html
+  checked: '2026-10-07'
+  confidence: high
+- mode: combo
+  operator: Vietnam Railways (Hue - Da Nang) + Grab to Hoi An
+  board:
+    name: Hue Railway Station
+    address: 2 Bui Thi Xuan, Hue
+    lat: 16.4564476
+    lng: 107.5780522
+  alight:
+    name: Da Nang Railway Station
+    address: 791 Hai Phong, Da Nang
+    lat: 16.0715831
+    lng: 108.2092693
+  departures: Several trains a day, plus the Hue-Da Nang heritage train
+  duration_min: 190
+  duration_max: 230
+  price_low: 83000
+  price_high: 300000
+  currency: VND
+  price_unit: per_person
+  book_links:
+  - name: Vietnam Railways (DSVN)
+    url: https://dsvn.vn
+  pros:
+  - The coastal line around the pass is one of the prettiest rail stretches in Vietnam
+  cons:
+  - Stops in Da Nang; Hoi An is another 30-40 minutes by Grab
+  pros_he:
+  - קו החוף סביב המעבר הוא מקטעי הרכבת היפים בווייטנאם
+  cons_he:
+  - עוצרת בדה נאנג; להוי אן עוד 30-40 דקות ב-Grab
+  tips: The fare is the train only, about 2.5 hours. The heritage train costs 180,000 VND on weekdays and
+    210,000 at weekends. Grab from Da Nang to Hoi An is about 250,000-400,000 VND.
+  tips_he: המחיר הוא לרכבת בלבד, כשעתיים וחצי. רכבת המורשת עולה 180,000 דונג באמצע השבוע ו-210,000 בסופי
+    שבוע. Grab מדה נאנג להוי אן בערך 250,000-400,000 דונג.
+  sources:
+  - https://vexere.com/vn/trains/from-hue-thua-thien-hue-to-da-nang.705.15.en
+  - https://phongnhalocals.com/hue-to-da-nang-tourist-train/
+  - https://unmappedasia.com/da-nang-airport-to-hoi-an/
+  checked: '2026-10-07'
+  confidence: medium
+- mode: private_car
+  operator: Private driver via the Hai Van Pass (A21 Tours and others)
+  board:
+    name: Pickup at your hotel
+    address: Any hotel in Hue
+    pickup_hotel: true
+  departures: Any time; a half day with stops
+  duration_min: 180
+  duration_max: 300
+  price_low: 55
+  price_high: 80
+  currency: USD
+  price_unit: per_vehicle
+  book_links:
+  - name: A21 Tours scenic car
+    url: https://a21tours.com/ticket/hoi-an-to-hue-scenic-car
+  pros:
+  - Over the Hai Van Pass with stops at the top, Lang Co beach and Marble Mountains
+  cons:
+  - More than the van for one or two people
+  pros_he:
+  - מעל מעבר האי ואן, עם עצירות בפסגה, בחוף לאנג קו ובהרי השיש
+  cons_he:
+  - יותר מהוואן לאחד או שניים
+  tips: About $55-65 for a 4-seat sedan and $65-80 for a 7-seat SUV.
+  tips_he: בערך $55-65 לסדאן של 4 מקומות ו-$65-80 לרכב שטח של 7.
+  sources:
+  - https://explorevietnam.com.vn/hoi-an/hoi-an-to-hue-by-private-car/
+  - https://a21tours.com/ticket/hoi-an-to-hue-scenic-car
+  - https://vietnamstory.in/hai-van-pass/
+  checked: '2026-10-07'
+  confidence: medium
+- mode: combo
+  operator: Easy rider (motorbike with a driver; Mr Vu Easy Rider and others)
+  board:
+    name: Pickup at your hotel
+    address: Any hotel in Hue
+    pickup_hotel: true
+  departures: Morning departure, about 08:00-09:00; luggage goes by car or van
+  duration_min: 360
+  duration_max: 420
+  price_low: 50
+  price_high: 63
+  currency: USD
+  price_unit: per_person
+  book_links:
+  - name: Mr Vu Easy Rider
+    url: https://mrvueasyrider.com/package/easy-rider-hue-to-hoi-an-1-day-tour/
+  pros:
+  - The pass on the back of a bike, with a local driver and stops on the way
+  cons:
+  - A full day in the open air - weather dependent, and November is the rainy season here
+  pros_he:
+  - המעבר על אופנוע, עם נהג מקומי ועצירות בדרך
+  cons_he:
+  - יום שלם באוויר הפתוח - תלוי מזג אוויר, ונובמבר הוא עונת הגשמים כאן
+  tips: The driver rides, you sit behind. Ask whether the price includes sending the big luggage ahead.
+  tips_he: הנהג רוכב ואתם יושבים מאחור. לשאול אם המחיר כולל שליחת המזוודות מראש.
+  sources:
+  - https://mrvueasyrider.com/package/easy-rider-hue-to-hoi-an-1-day-tour/
+  - https://inbetweentravels.com/hai-van-pass-by-easy-rider/
+  - https://www.uncovervietnam.com/hai-van-pass-route/
+  checked: '2026-10-07'
+  confidence: medium

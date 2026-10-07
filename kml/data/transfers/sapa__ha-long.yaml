@@ -1,0 +1,76 @@
+from: sapa
+to: ha-long
+reverse_ok: true
+note: About 8 hours, road only. Even the "direct" van changes at a Hanoi office halfway, so the
+  realistic choice is a through van or a private car.
+note_he: כשמונה שעות, בכביש בלבד. גם הוואן "הישיר" עוצר במשרד בהאנוי באמצע הדרך, כך שהבחירה
+  המעשית היא וואן המשך או רכב פרטי.
+options:
+- mode: limousine_van
+  operator: A21 Tours (through van via Hanoi)
+  board:
+    name: Sapa Stone Church (Our Lady of the Rosary)
+    address: Ham Rong, Sapa
+    lat: 22.3352035
+    lng: 103.8422543
+  departures: Morning departure; Halong-to-Sapa runs at about 11:30
+  duration_min: 480
+  duration_max: 510
+  price_low: 32
+  price_high: 32
+  currency: USD
+  price_unit: per_person
+  book_links:
+  - name: A21 Tours
+    url: https://a21tours.com/ticket/halong-to-sapa-limousine-van
+  pros:
+  - One booking all the way to your hotel or cruise pier in Ha Long
+  - Hotel pickup in Sapa instead of the church, on request
+  cons:
+  - A full day in a van with a stop in Hanoi
+  pros_he:
+  - הזמנה אחת עד המלון או מזח השייט בהא לונג
+  - איסוף מהמלון בסאפה במקום מהכנסייה, לפי בקשה
+  cons_he:
+  - יום שלם בוואן עם עצירה בהאנוי
+  tips: The church is the default meeting point. 9-10 seat limousine van with wifi.
+  tips_he: הכנסייה היא נקודת המפגש הקבועה. וואן לימוזינה של 9-10 מקומות עם wifi.
+  sources:
+  - https://a21tours.com/ticket/halong-to-sapa-limousine-van
+  - https://booking.baolau.com/en/s/sapa/ha-long
+  checked: '2026-10-07'
+  confidence: high
+- mode: private_car
+  operator: Private driver (transfer companies)
+  board:
+    name: Pickup at your hotel
+    address: Any hotel in Sapa
+    pickup_hotel: true
+  departures: Any time, agreed when booking
+  duration_min: 420
+  duration_max: 480
+  price_low: 160
+  price_high: 245
+  currency: USD
+  price_unit: per_vehicle
+  book_links:
+  - name: A21 Tours private car
+    url: https://a21tours.com/ticket/sapa-to-halong-private-car-transfer
+  pros:
+  - Skips the Hanoi change, straight to the pier
+  - Can be timed to a cruise check-in
+  cons:
+  - Expensive for one or two people
+  pros_he:
+  - בלי ההחלפה בהאנוי, ישר למזח
+  - אפשר לתזמן לצ'ק-אין של השייט
+  cons_he:
+  - יקר לאחד או שניים
+  tips: About $160-215 for a 4-seat car and $245 for a 7-seater; a 9-seat limousine van runs close to
+    $390.
+  tips_he: בערך $160-215 לרכב של 4 מקומות ו-$245 לרכב של 7; וואן לימוזינה של 9 מקומות מתקרב ל-$390.
+  sources:
+  - https://a21tours.com/ticket/sapa-to-halong-private-car-transfer
+  - https://www.bestpricetravel.com/travel-guide/sapa-to-halong-bay-2287.html
+  checked: '2026-10-07'
+  confidence: medium

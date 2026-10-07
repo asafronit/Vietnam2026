@@ -1,0 +1,87 @@
+from: mekong
+to: phu-quoc
+reverse_ok: true
+note: Two real ways onto the island from the delta - one daily flight from Can Tho, or a bus to Ha Tien on
+  the coast and a speedboat across. Car ferries take about twice as long as the speedboat.
+note_he: שתי דרכים אמיתיות להגיע לאי מהדלתא - טיסה יומית אחת מקאן טו, או אוטובוס לחה טיאן שעל החוף וספינה
+  מהירה משם. מעבורות רכב לוקחות בערך פי שניים מהספינה המהירה.
+options:
+- mode: flight
+  operator: Vietnam Airlines (VN8075)
+  board:
+    name: Can Tho International Airport (VCA)
+    address: Thoi An Dong, Binh Thuy, Can Tho
+    lat: 10.0829341
+    lng: 105.7120894
+  alight:
+    name: Phu Quoc International Airport (PQC)
+    address: Duong To, Phu Quoc
+  departures: VN8075 16:10, arrives 17:10 - daily
+  duration_min: 60
+  duration_max: 60
+  price_low: 47
+  price_high: 74
+  currency: USD
+  price_unit: per_person
+  book_links:
+  - name: Vietnam Airlines
+    url: https://www.vietnamairlines.com/en-vn/flights-from-can-tho-to-phu-quoc
+  pros:
+  - One hour instead of most of a day
+  - Runs every day
+  cons:
+  - A single late-afternoon flight; a small ATR turboprop with tighter baggage rules
+  pros_he:
+  - שעה אחת במקום רוב היום
+  - פועלת כל יום
+  cons_he:
+  - טיסה אחת בלבד, אחר הצהריים; מטוס טורבו-פרופ קטן (ATR) עם כללי מטען מחמירים יותר
+  tips: Fares are economy as shown for 15-18 November 2026. No other airline flies the route nonstop.
+  tips_he: המחירים למחלקת תיירים כפי שהוצגו ל-15-18 בנובמבר 2026. אף חברה אחרת לא טסה בקו בלי עצירה.
+  sources:
+  - https://www.google.com/travel/flights?q=Flights%20from%20VCA%20to%20PQC%20on%202026-11-18&curr=USD
+  - https://www.vietnamairlines.com/en-vn/flights-from-can-tho-to-phu-quoc
+  checked: '2026-10-07'
+  confidence: high
+- mode: combo
+  operator: Bus to Ha Tien + Superdong speedboat
+  board:
+    name: Can Tho Central Bus Station
+    address: Tran Hoang Na, Cai Rang, Can Tho
+    lat: 10.005344
+    lng: 105.7713117
+  alight:
+    name: Bai Vong pier, Phu Quoc
+    address: Bai Vong, Ham Ninh, Phu Quoc
+    lat: 10.1498952
+    lng: 104.0374008
+  departures: Buses to Ha Tien through the morning; speedboats about 06:10, 10:15 and 13:15 (last boat mid-afternoon)
+  duration_min: 390
+  duration_max: 480
+  price_low: 460000
+  price_high: 460000
+  currency: VND
+  price_unit: per_person
+  book_links:
+  - name: Vexere (bus to Ha Tien)
+    url: https://vexere.com/en-US/sleeper-bus-ticket-booking-from-can-tho-to-ha-tien-kien-giang-113t23691.html
+  - name: A21 Tours ferry guide
+    url: https://a21tours.com/ferry-to-phu-quoc
+  pros:
+  - Sea crossing instead of a flight, with a stop in Ha Tien on the way
+  cons:
+  - The whole day; miss the last boat and you sleep in Ha Tien
+  pros_he:
+  - חציית ים במקום טיסה, עם עצירה בחה טיאן בדרך
+  cons_he:
+  - כל היום; מי שמפספס את הספינה האחרונה ישן בחה טיאן
+  tips: 460,000 VND is the sum of the sleeper bus to Ha Tien (230,000, about 4.5 hours) and the Superdong adult
+    ticket (230,000, about 1.5 hours). The bus station and the pier in Ha Tien are about 1 km apart.
+  tips_he: 460,000 דונג זה סכום אוטובוס השינה לחה טיאן (230,000, כ-4.5 שעות) וכרטיס מבוגר ב-Superdong (230,000,
+    כשעה וחצי). תחנת האוטובוסים והמזח בחה טיאן במרחק כקילומטר זה מזה.
+  sources:
+  - https://vexere.com/en-US/sleeper-bus-ticket-booking-from-can-tho-to-ha-tien-kien-giang-113t23691.html
+  - https://kk2trip.com/en/superdong-phu-quoc-ferry-schedule-ticket-prices-more/
+  - https://www.vietnamcoracle.com/phu-quoc-island-ferry-times/
+  checked: '2026-10-07'
+  confidence: medium

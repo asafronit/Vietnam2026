@@ -1,0 +1,206 @@
+from: hanoi
+to: sapa
+reverse_ok: true
+note: About 320 km. Every option reaches Sapa town except the train, which stops at Lao Cai,
+  38 km below, and needs a bus or car for the last hour. There is no flight - Sapa has no airport
+  (a 2022 groundbreaking, still no investor in 2026).
+note_he: כ-320 ק"מ. כל האפשרויות מגיעות עד העיירה סאפה, חוץ מהרכבת, שעוצרת בלאו קאי, 38 ק"מ
+  למטה, ומשם צריך עוד שעה באוטובוס או ברכב. אין טיסה - לסאפה אין שדה תעופה (טקס אבן פינה
+  ב-2022, ועד 2026 לא נמצא משקיע).
+options:
+- mode: combo
+  operator: Vietnam Railways (SP1) + Lao Cai bus 01
+  board:
+    name: Hanoi Railway Station (Ga Ha Noi)
+    address: 120 Le Duan, Van Mieu - Quoc Tu Giam, Hanoi
+    lat: 21.0242336
+    lng: 105.8410067
+  alight:
+    name: Lao Cai Railway Station
+    address: Khanh Yen, Lao Cai
+    lat: 22.4922679
+    lng: 103.9783871
+  departures: SP1 21:35, arrives Lao Cai 05:15; bus 01 to Sapa every 20-30 min from about 05:20
+  duration_min: 520
+  duration_max: 570
+  price_low: 490000
+  price_high: 560000
+  currency: VND
+  price_unit: per_person
+  book_links:
+  - name: Vietnam Railways (DSVN)
+    url: https://dsvn.vn
+  pros:
+  - The cheapest way to sleep through the trip
+  - A real bed and a train, not a mountain road at night
+  cons:
+  - Stops at Lao Cai, so there is a second leg at 5 in the morning
+  - State-railway sleepers book out early on weekends
+  pros_he:
+  - הדרך הזולה ביותר לישון את כל הנסיעה
+  - מיטה אמיתית ברכבת, לא כביש הררי בלילה
+  cons_he:
+  - עוצרת בלאו קאי, כך שבחמש בבוקר יש עוד קטע נסיעה
+  - קרונות השינה של רכבות המדינה נגמרים מוקדם בסופי שבוע
+  tips: The fare is a lower soft-sleeper berth. Bus 01 waits outside Lao Cai station; a shared
+    minivan costs 40,000-100,000 VND instead.
+  tips_he: המחיר הוא למיטה תחתונה בתא רך. אוטובוס 01 עומד מחוץ לתחנת לאו קאי; מיניוואן משותף עולה
+    במקומו 40,000-100,000 דונג.
+  sources:
+  - https://www.seat61.com/Vietnam.htm
+  - https://north-vietnam.com/lao-cai-to-sapa-local-bus-taxi/
+  checked: '2026-10-06'
+  confidence: medium
+- mode: sleeper_train
+  operator: Fanxipan Express (private carriage on SP1)
+  board:
+    name: Hanoi Railway Station, A side (Ga Ha Noi)
+    address: 120 Le Duan, Van Mieu - Quoc Tu Giam, Hanoi
+    lat: 21.0242336
+    lng: 105.8410067
+  alight:
+    name: Lao Cai Railway Station
+    address: Khanh Yen, Lao Cai
+    lat: 22.4922679
+    lng: 103.9783871
+  departures: 21:35 (on SP1), arrives Lao Cai 05:15
+  duration_min: 460
+  duration_max: 520
+  price_low: 35
+  price_high: 80
+  currency: USD
+  price_unit: per_person
+  pros:
+  - A quieter, tourist-only carriage with a cabin door that locks
+  - A 2-berth cabin makes it a private room on rails
+  cons:
+  - About double the state-railway fare for the same train
+  - Still ends at Lao Cai, so you add the last hour to Sapa
+  pros_he:
+  - קרון שקט יותר, לתיירים בלבד, עם דלת תא שננעלת
+  - תא של שתי מיטות הופך את הנסיעה לחדר פרטי על פסים
+  cons_he:
+  - בערך כפול ממחיר רכבות המדינה, על אותה רכבת
+  - גם היא מסתיימת בלאו קאי, ומוסיפים את השעה האחרונה לסאפה
+  tips: $35-40 is a berth in a shared 4-berth cabin, $65-80 a berth in a 2-berth cabin. Some
+    private carriages (Sapaly, Orient Express) board from the B side on Tran Quy Cap street
+    instead, behind the station; check the ticket.
+  tips_he: $35-40 זה מיטה בתא משותף של ארבע, $65-80 מיטה בתא של שתיים. חלק מהקרונות הפרטיים
+    (Sapaly, Orient Express) עולים דווקא מצד B, ברחוב Tran Quy Cap שמאחורי התחנה; לבדוק בכרטיס.
+  sources:
+  - https://www.seat61.com/Vietnam.htm
+  - https://blog.vexere.com/en/best-sleeper-train-from-hanoi-to-sapa/
+  checked: '2026-10-06'
+  confidence: high
+- mode: limousine_van
+  operator: Sapa Express
+  board:
+    name: Sapa Express office
+    address: 204 Tran Quang Khai, Hoan Kiem, Hanoi
+    lat: 21.0275697
+    lng: 105.8581148
+  departures: 07:00 (28-seat limousine), 15:00 (15-seat limousine)
+  duration_min: 330
+  duration_max: 360
+  price_low: 16
+  price_high: 20
+  currency: USD
+  price_unit: per_person
+  book_links:
+  - name: Sapa Express via A21 Tours
+    url: https://a21tours.com/ticket/sapa-express-bus
+  pros:
+  - Door to door into Sapa town, no second leg
+  - Free pickup from Old Quarter hotels
+  cons:
+  - Spends the day on the road instead of the night
+  - Seats, not beds; the last stretch climbs switchbacks
+  pros_he:
+  - מדלת לדלת עד העיירה סאפה, בלי קטע נוסף
+  - איסוף חינם ממלונות ברובע העתיק
+  cons_he:
+  - מבזבז יום על הכביש במקום לילה
+  - מושבים ולא מיטות; הקטע האחרון מטפס בסרפנטינות
+  tips: Outside the Old Quarter pickup zone you board at the office on Tran Quang Khai. The
+    expressway run has two rest stops.
+  tips_he: מחוץ לאזור האיסוף של הרובע העתיק עולים במשרד ברחוב Tran Quang Khai. בדרך המהירה יש
+    שתי עצירות מנוחה.
+  sources:
+  - https://a21tours.com/ticket/sapa-express-bus
+  - https://blog.vexere.com/en/hanoi-to-sapa-bus/
+  checked: '2026-10-06'
+  confidence: high
+- mode: sleeper_bus
+  operator: Sapa Express (VIP cabin bus)
+  board:
+    name: Sapa Express office
+    address: 204 Tran Quang Khai, Hoan Kiem, Hanoi
+    lat: 21.0275697
+    lng: 105.8581148
+  departures: '22:00'
+  duration_min: 330
+  duration_max: 360
+  price_low: 450000
+  price_high: 600000
+  currency: VND
+  price_unit: per_person
+  book_links:
+  - name: Sapa Express via A21 Tours
+    url: https://a21tours.com/ticket/sapa-express-bus
+  pros:
+  - Sleeps through the trip and still lands in Sapa town itself
+  - A closed cabin rather than an open bunk
+  cons:
+  - Arrives around 4 in the morning, before check-in
+  - A bus on a mountain road; light sleepers will feel it
+  pros_he:
+  - ישנים את הנסיעה ובכל זאת נוחתים בתוך העיירה סאפה
+  - תא סגור ולא דרגש פתוח
+  cons_he:
+  - מגיע בסביבות ארבע לפני הבוקר, לפני הצ'ק-אין
+  - אוטובוס על כביש הררי; מי שישן קל ירגיש את זה
+  tips: Standard open-bunk sleeper buses on the same road cost 270,000-370,000 VND. Ask the
+    hotel in Sapa about an early check-in or a place to wait.
+  tips_he: אוטובוסי שינה רגילים, עם דרגשים פתוחים, עולים באותו כביש 270,000-370,000 דונג. כדאי
+    לשאול את המלון בסאפה על צ'ק-אין מוקדם או על מקום לחכות בו.
+  sources:
+  - https://a21tours.com/ticket/sapa-express-bus
+  - https://www.vietnamtourism.com/en/hanoi-to-sapa-in-2026-trains-buses-costs-compared
+  - https://visit-sapa.com/en/blog/hanoi-sapa-bus-limousine
+  checked: '2026-10-06'
+  confidence: medium
+- mode: private_car
+  operator: Private driver (via agent or transfer company)
+  board:
+    name: Pickup at your hotel
+    address: Any hotel in Hanoi
+    pickup_hotel: true
+  departures: Any time, agreed when booking
+  duration_min: 300
+  duration_max: 330
+  price_low: 105
+  price_high: 180
+  currency: USD
+  price_unit: per_vehicle
+  book_links:
+  - name: A21 Tours private car
+    url: https://a21tours.com/ticket/private-car-hanoi-sapa
+  pros:
+  - Fastest door to door, leaves when you want
+  - Room to stop at viewpoints on the climb
+  cons:
+  - The most expensive option unless split between three or four people
+  pros_he:
+  - הכי מהיר מדלת לדלת, ויוצאים מתי שרוצים
+  - אפשר לעצור בנקודות תצפית בעלייה
+  cons_he:
+  - האפשרות היקרה ביותר, אלא אם מתחלקים בשלושה או ארבעה
+  tips: $105-135 is a 4-5 seat car; a 7-seat SUV runs about $120-180 and a 9-seat limousine
+    van about $195. Fuel, tolls and the driver are included.
+  tips_he: $105-135 זה רכב של 4-5 מקומות; רכב שטח של 7 מקומות עולה בערך $120-180, וואן לימוזינה
+    של 9 מקומות בערך $195. דלק, אגרות והנהג כלולים.
+  sources:
+  - https://a21tours.com/ticket/private-car-hanoi-sapa
+  - https://www.bestpricetravel.com/travel-guide/hanoi-to-sapa-private-car-2555.html
+  checked: '2026-10-06'
+  confidence: medium

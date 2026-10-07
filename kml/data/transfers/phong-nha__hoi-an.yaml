@@ -1,0 +1,81 @@
+from: phong-nha
+to: hoi-an
+reverse_ok: true
+note: About 340-380 km, skipping Hue. No flight on this pair; the nearest airports are Dong Hoi and Da Nang.
+  The private car turns the day into sightseeing along the DMZ and over the Hai Van Pass.
+note_he: כ-340-380 ק"מ, בדילוג על הואה. אין טיסה בזוג הזה; שדות התעופה הקרובים הם דונג הוי ודה נאנג.
+  הרכב הפרטי הופך את היום לסיור לאורך האזור המפורז ומעל מעבר האי ואן.
+options:
+- mode: private_car
+  operator: Private driver (Culture Pham Travel and others)
+  board:
+    name: Pickup at your hotel
+    address: Any hotel in Phong Nha
+    pickup_hotel: true
+  departures: Any time, agreed when booking; a full day with stops
+  duration_min: 360
+  duration_max: 600
+  price_low: 3600000
+  price_high: 4600000
+  currency: VND
+  price_unit: per_vehicle
+  book_links:
+  - name: Culture Pham Travel
+    url: https://culturephamtravel.com/car-rentals/phong-nha-to-hoi-an-by-private-car/
+  pros:
+  - Vinh Moc tunnels, Hue and the Hai Van Pass in one day, no bus
+  - Departure time and stops are yours to choose
+  cons:
+  - A long day; with stops it easily runs 9-10 hours
+  pros_he:
+  - מנהרות וין מוק, הואה ומעבר האי ואן ביום אחד, בלי אוטובוס
+  - שעת היציאה והעצירות לבחירתכם
+  cons_he:
+  - יום ארוך; עם עצירות זה מגיע בקלות ל-9-10 שעות
+  tips: 3.6 million VND is a sedan (2 passengers), 4 million an SUV, 4.6 million a minivan. Driving time is
+    about 6 hours without stops. Vinh Moc entry is about $10 and the Hue citadel about $11, not included.
+  tips_he: 3.6 מיליון דונג זה סדאן (2 נוסעים), 4 מיליון רכב שטח, 4.6 מיליון מיניוואן. זמן הנהיגה כשש שעות
+    בלי עצירות. הכניסה לווין מוק בערך $10 ולמצודה בהואה בערך $11, לא כלולות.
+  sources:
+  - https://culturephamtravel.com/car-rentals/phong-nha-to-hoi-an-by-private-car/
+  - https://www.tripadvisor.com/AttractionProductReview-g298082-d20307049-Hoi_An_to_Phong_Nha_by_Private_Car_via_Vinh_Moc_Tunnels-Hoi_An_Quang_Nam_Province.html
+  - https://www.getyourguide.com/en-gb/da-nang-l939/hoi-an-private-car-to-phong-nha-with-sightseeing-stops-t892548/
+  checked: '2026-10-07'
+  confidence: high
+- mode: sleeper_bus
+  operator: Hung Thanh
+  board:
+    name: Hung Thanh bus office, Phong Nha town centre
+    address: Phong Nha town centre, Quang Binh
+    lat: 17.6113791
+    lng: 106.3069337
+  alight:
+    name: Hoi An drop-off
+    address: 105 Ton Duc Thang, Hoi An
+    lat: 15.8928214
+    lng: 108.3199058
+  departures: 04:00, 09:00
+  duration_min: 420
+  duration_max: 480
+  price_low: 16
+  price_high: 16
+  currency: USD
+  price_unit: per_person
+  book_links:
+  - name: Full Moon Travel
+    url: https://fullmoontravelasia.com/bus-phong-nha-to-hoi-an-400/
+  pros:
+  - Straight through to Hoi An for a fraction of the car
+  cons:
+  - 7-8 hours on a bus, no stops to see anything
+  pros_he:
+  - ישר עד הוי אן בשבריר ממחיר הרכב
+  cons_he:
+  - 7-8 שעות באוטובוס, בלי עצירות לראות משהו
+  tips: Check in at the office 20 minutes early.
+  tips_he: להגיע למשרד 20 דקות מוקדם.
+  sources:
+  - https://fullmoontravelasia.com/bus-phong-nha-to-hoi-an-400/
+  - https://vexere.com/en-US/sleeper-bus-ticket-booking-from-phong-nha-quang-binh-to-hoi-an-quang-nam-2114261t25221.html
+  checked: '2026-10-07'
+  confidence: high

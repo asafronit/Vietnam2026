@@ -1,0 +1,161 @@
+from: ninh-binh
+to: phong-nha
+reverse_ok: true
+note: About 7 hours overnight. Ninh Binh has no airport; the train stops at Dong Hoi, 45 km from Phong
+  Nha. Flying means going back to Hanoi for a flight to Dong Hoi.
+note_he: כשבע שעות בלילה. בנין בין אין שדה תעופה; הרכבת עוצרת בדונג הוי, 45 ק"מ מפונג נה. טיסה
+  פירושה לחזור להאנוי ולטוס משם לדונג הוי.
+options:
+- mode: sleeper_bus
+  operator: HK Buslines / B8 Open Bus (VIP cabin bus)
+  board:
+    name: Pickup at your hotel in Tam Coc or Ninh Binh city
+    address: Tam Coc centre and Ninh Binh city hotels
+    pickup_hotel: true
+  alight:
+    name: Phong Nha centre bus stop
+    address: Phong Nha town centre
+    lat: 17.6113791
+    lng: 106.3069337
+  departures: 19:00, 19:30, 20:30, 21:00, 21:30, 23:00 (pickup about an hour earlier)
+  duration_min: 390
+  duration_max: 420
+  price_low: 29
+  price_high: 33
+  currency: USD
+  price_unit: per_person
+  book_links:
+  - name: A21 Tours
+    url: https://a21tours.com/ticket/ninh-binh-phong-nha-sleeping-bus
+  pros:
+  - Goes all the way into Phong Nha, no second leg
+  - New cabin bus with curtains and lie-flat beds
+  cons:
+  - Arrives in the small hours
+  pros_he:
+  - מגיע עד פונג נה, בלי קטע נוסף
+  - אוטובוס תאים חדש עם וילונות ומיטות שנפתחות עד הסוף
+  cons_he:
+  - מגיע בשעות הקטנות של הלילה
+  tips: $29 is an upper berth, $33 a lower one. Ask the hotel in Phong Nha about an early check-in.
+  tips_he: $29 זה מיטה עליונה, $33 תחתונה. כדאי לשאול את המלון בפונג נה על צ'ק-אין מוקדם.
+  sources:
+  - https://a21tours.com/ticket/ninh-binh-phong-nha-sleeping-bus
+  - https://vexere.com/en-US/sleeper-bus-ticket-booking-from-ninh-binh-to-phong-nha-quang-binh-142t21142611.html
+  checked: '2026-10-07'
+  confidence: high
+- mode: sleeper_train
+  operator: Lotus Train (private carriage on SE19)
+  board:
+    name: Ninh Binh Railway Station
+    address: 1 Hoang Dieu, Ninh Binh
+    lat: 20.2420352
+    lng: 105.9745791
+  alight:
+    name: Dong Hoi Railway Station
+    address: Thuan Ly, Dong Hoi
+    lat: 17.4689199
+    lng: 106.5997285
+  departures: SE19 22:02, arrives Dong Hoi 06:25
+  duration_min: 503
+  duration_max: 600
+  price_low: 1950000
+  price_high: 3900000
+  currency: VND
+  price_unit: per_person
+  book_links:
+  - name: Lotus Train
+    url: https://lotustrain.vn/ninh-binh-to-dong-hoi-lotus-express
+  pros:
+  - A real bed on rails, breakfast and wifi on board
+  - The VIP cabin is a private room for two
+  cons:
+  - Stops at Dong Hoi, so add the last 45 km to Phong Nha
+  - Several times the price of the cabin bus
+  pros_he:
+  - מיטה אמיתית על פסים, ארוחת בוקר ו-wifi ברכבת
+  - תא ה-VIP הוא חדר פרטי לשניים
+  cons_he:
+  - עוצרת בדונג הוי, ומוסיפים את 45 הק"מ האחרונים לפונג נה
+  - פי כמה ממחיר אוטובוס התאים
+  tips: 1.95 million VND is a berth in a 4-berth cabin; the VIP 2-berth cabin needs both tickets bought
+    even for one traveller. From Dong Hoi, bus B4 (about 50,000 VND, hourly) or a taxi (450,000-550,000)
+    to Phong Nha.
+  tips_he: 1.95 מיליון דונג זה מיטה בתא של ארבע; בתא VIP של שתיים צריך לקנות את שני הכרטיסים גם
+    לנוסע יחיד. מדונג הוי לפונג נה יש אוטובוס B4 (כ-50,000 דונג, כל שעה), או מונית (450,000-550,000).
+  sources:
+  - https://lotustrain.vn/ninh-binh-to-dong-hoi-lotus-express
+  - https://violetexpresstrain.com/ninh-binh-dong-hoi-on-lotus-train-se19.html
+  - https://www.vietnamtourism.com/en/dong-hoi-to-phong-nha-the-complete-transport-guide-for-2026
+  checked: '2026-10-07'
+  confidence: high
+- mode: sleeper_train
+  operator: Vietnam Railways (SE3 / SE19 / SE1)
+  board:
+    name: Ninh Binh Railway Station
+    address: 1 Hoang Dieu, Ninh Binh
+    lat: 20.2420352
+    lng: 105.9745791
+  alight:
+    name: Dong Hoi Railway Station
+    address: Thuan Ly, Dong Hoi
+    lat: 17.4689199
+    lng: 106.5997285
+  departures: SE3 21:34 (arr. 05:38), SE19 22:02, SE1 23:28 (arr. 07:53)
+  duration_min: 480
+  duration_max: 600
+  price_low: 340000
+  price_high: 745000
+  currency: VND
+  price_unit: per_person
+  book_links:
+  - name: Vietnam Railways (DSVN)
+    url: https://dsvn.vn
+  pros:
+  - The same train for a fraction of the private-carriage price
+  cons:
+  - Stops at Dong Hoi like every train
+  - The cheap end of the range is a seat, not a bed
+  pros_he:
+  - אותה רכבת בשבריר ממחיר הקרון הפרטי
+  cons_he:
+  - עוצרת בדונג הוי כמו כל רכבת
+  - הקצה הזול של הטווח הוא מושב, לא מיטה
+  tips: For a night train book a soft-sleeper berth, toward the top of the range.
+  tips_he: לרכבת לילה כדאי להזמין מיטה בתא רך, בקצה העליון של הטווח.
+  sources:
+  - https://vexere.com/vn/trains/from-ninh-binh-ninh-binh-to-dong-hoi-quang-binh.534.568.en
+  - https://vietnam-railway.com/train/route/train-from-ninh-binh-to-dong-hoi
+  checked: '2026-10-07'
+  confidence: medium
+- mode: private_car
+  operator: Private driver (transfer companies)
+  board:
+    name: Pickup at your hotel
+    address: Any hotel in Ninh Binh or Tam Coc
+    pickup_hotel: true
+  departures: Any time, agreed when booking
+  duration_min: 420
+  duration_max: 480
+  price_low: 215
+  price_high: 297
+  currency: USD
+  price_unit: per_vehicle
+  book_links:
+  - name: A21 Tours private car
+    url: https://a21tours.com/ticket/ninh-binh-to-phong-nha-private-car
+  pros:
+  - A day trip down the coast instead of a night on a bus
+  cons:
+  - The most expensive option by far
+  pros_he:
+  - נסיעת יום לאורך החוף במקום לילה באוטובוס
+  cons_he:
+  - האפשרות היקרה ביותר, בפער גדול
+  tips: About $215 for a sedan and $250 for a 7-seat SUV; larger vans $335-365.
+  tips_he: בערך $215 לרכב סדאן ו-$250 לרכב שטח של 7 מקומות; וואנים גדולים יותר $335-365.
+  sources:
+  - https://a21tours.com/ticket/ninh-binh-to-phong-nha-private-car
+  - https://hoianprivatetaxi.com/car-rentals/ninh-binh-to-phong-nha/
+  checked: '2026-10-07'
+  confidence: medium

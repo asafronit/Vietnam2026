@@ -180,42 +180,6 @@ markets:
   what_he: השוק המקורה הראשי של העיר, עם דוכנים עמוסים בפולי קפה קלויים וירוקים, פלפל שחור,
     קקאו, אגוזי מקדמיה ודבש שנאסף מיערות הרמה סביב.
   why_he: המקום לקנות קפה ישר מהמקור ולא במחירי שדה תעופה מנופחים
-logistics:
-- name: Da Nang - Buon Ma Thuot flight (VN1911)
-  area: Route into the highlands leg
-  what: 'The only practical way into this leg of the route: a roughly 65-minute Vietnam Airlines
-    flight from Da Nang, operated on selected days of the week rather than daily.'
-  why: The whole route depends on this flight existing on the chosen date; it must be checked
-    against the calendar before booking, not assumed
-  confidence: medium
-  geocode_query: Buon Ma Thuot Airport, Vietnam
-  sources:
-  - https://www.vietnamairlines.com/en-vn/flights-from-da-nang-to-buon-ma-thuot
-  - https://www.flightaware.com/live/flight/HVN1911
-  coords:
-    lat: 12.6668723
-    lng: 108.1199878
-  name_he: טיסה מדה נאנג לבואן מה תואט
-  area_he: המסלול אל רגל הרמות
-  what_he: 'הדרך המעשית היחידה להיכנס לרגל הזו של המסלול: טיסה של כ-65 דקות של ויאטנם איירליינס
-    מדה נאנג, שמופעלת בימים נבחרים בשבוע ולא מדי יום.'
-  why_he: כל המסלול תלוי בקיום הטיסה הזו בתאריך הנבחר. חייבים לבדוק אותה מול לוח השנה לפני
-    ההזמנה, ולא להניח
-- name: Buon Ma Thuot to Lak Lake road (National Highway 27)
-  area: Route south out of the city
-  what: A roughly 50km, 1.5-hour drive south from Buon Ma Thuot on National Highway 27, crossing
-    Lac Thien Pass, the first leg of the Buon Ma Thuot - Lak - Da Lat easy-rider route.
-  why: Confirms the length of the first riding day for the route already locked into the itinerary
-  confidence: medium
-  geocode_query: National Highway 27, Buon Ma Thuot, Vietnam
-  sources:
-  - https://www.aroundtheworld360.com/distance/buon-ma-thuot_vn/lak_vn/
-  - https://www.travelfish.org/sight_profile/vietnam/central_highlands/dak_lak/buon_ma_thuot/672
-  name_he: הדרך מבואן מה תואט לאגם לאק
-  area_he: המסלול דרומה מהעיר
-  what_he: נסיעה של כ-50 קילומטר ושעה וחצי דרומה מבואן מה תואט בכביש הארצי 27, דרך מעבר לאק
-    תיין. זו רגל הרכיבה הראשונה במסלול בואן מה תואט–לאק–דה לאט.
-  why_he: מאשר את אורך יום הרכיבה הראשון במסלול שכבר ננעל בתוכנית
 restaurants:
 - name: Soul Specialty Coffee - BMT
   kind: vietnamese

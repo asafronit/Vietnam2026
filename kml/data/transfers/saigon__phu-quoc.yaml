@@ -1,0 +1,91 @@
+from: saigon
+to: phu-quoc
+reverse_ok: true
+note: One hour by air, with about 16 nonstop flights a day from three airlines, all from Terminal T3. The
+  overland route by bus and boat takes 9-12 hours and only makes sense as a deliberate choice.
+note_he: שעה בטיסה, עם כ-16 טיסות ישירות ביום של שלוש חברות, כולן מטרמינל T3. הדרך היבשתית באוטובוס וספינה
+  לוקחת 9-12 שעות, והיא הגיונית רק כבחירה מכוונת.
+options:
+- mode: flight
+  operator: Vietnam Airlines, Sun PhuQuoc Airways, Vietravel Airlines
+  board:
+    name: Tan Son Nhat Airport, Terminal T3 (domestic)
+    address: Tan Son Nhat, Ho Chi Minh City
+    lat: 10.8112056
+    lng: 106.6535671
+  alight:
+    name: Phu Quoc International Airport (PQC)
+    address: Duong To, Phu Quoc
+  departures: About 16 nonstop flights a day, from 05:40 to 20:40
+  duration_min: 60
+  duration_max: 65
+  price_low: 28
+  price_high: 56
+  currency: USD
+  price_unit: per_person
+  book_links:
+  - name: Vietnam Airlines
+    url: https://www.vietnamairlines.com/en-vn/flights-from-ho-chi-minh-city-to-phu-quoc
+  - name: Sun PhuQuoc Airways
+    url: https://www.sunphuquocairways.com/vn/en
+  - name: Vietravel Airlines
+    url: https://www.vietravelairlines.com/
+  pros:
+  - A flight almost every hour, cheap
+  - Phu Quoc airport is 10-15 minutes from the Long Beach hotels
+  cons:
+  - T3 is a separate building from the international terminals - give the airport ride a margin
+  pros_he:
+  - טיסה כמעט כל שעה, וזול
+  - שדה התעופה בפו קוק נמצא 10-15 דקות ממלונות לונג ביץ'
+  cons_he:
+  - T3 הוא בניין נפרד מהטרמינלים הבינלאומיים - להשאיר מרווח בנסיעה לשדה
+  tips: Fares are economy as shown for 18 November 2026 - Vietravel from about $28, Vietnam Airlines $31-56, Sun
+    PhuQuoc Airways $34-45. Sun PhuQuoc Airways checks in at counters 32-39 in T3, Vietravel at 25-31.
+  tips_he: המחירים למחלקת תיירים כפי שהוצגו ל-18 בנובמבר 2026 - Vietravel מכ-$28, Vietnam Airlines $31-56, Sun
+    PhuQuoc Airways $34-45. ב-T3, הצ'ק-אין של Sun PhuQuoc Airways בדלפקים 32-39 ושל Vietravel ב-25-31.
+  sources:
+  - https://www.google.com/travel/flights?q=Flights%20from%20SGN%20to%20PQC%20on%202026-11-18&curr=USD
+  - https://en.sggp.org.vn/airlines-fully-shift-operations-to-tan-son-nhat-airports-terminal-t3-post119782.html
+  - https://www.ivivu.com/blog/2025/08/cap-nhat-cac-hang-bay-duoc-khai-thac-tai-nha-ga-t3-hien-nay/
+  checked: '2026-10-07'
+  confidence: high
+- mode: combo
+  operator: Bus to Rach Gia + Superdong speedboat (Phuong Trang, Kumho Samco combo tickets)
+  board:
+    name: Mien Tay Bus Station
+    address: Kinh Duong Vuong, An Lac, Ho Chi Minh City
+    lat: 10.7401271
+    lng: 106.6194006
+  alight:
+    name: Bai Vong pier, Phu Quoc
+    address: Bai Vong, Ham Ninh, Phu Quoc
+    lat: 10.1498952
+    lng: 104.0374008
+  departures: Overnight buses to reach the morning boats; Superdong from Rach Gia about 07:00, 08:10, 10:30, 13:10
+  duration_min: 540
+  duration_max: 720
+  price_low: 400000
+  price_high: 875000
+  currency: VND
+  price_unit: per_person
+  book_links:
+  - name: A21 Tours ferry guide
+    url: https://a21tours.com/ferry-to-phu-quoc
+  pros:
+  - Overland and by sea, if you want to see the delta on the way
+  cons:
+  - 9-12 hours against a one-hour flight that costs about the same
+  pros_he:
+  - ביבשה ובים, למי שרוצה לראות את הדלתא בדרך
+  cons_he:
+  - 9-12 שעות מול טיסה של שעה שעולה בערך אותו דבר
+  tips: Combo tickets cover the bus and the boat. The Rach Gia boat alone is 330,000 VND for an adult and takes
+    about 2.5 hours.
+  tips_he: כרטיסי השילוב כוללים את האוטובוס ואת הספינה. הספינה מרץ' זיא לבדה עולה 330,000 דונג למבוגר ולוקחת
+    כשעתיים וחצי.
+  sources:
+  - https://north-vietnam.com/how-to-get-from-ho-chi-minh-city-to-phu-quoc/
+  - https://kk2trip.com/en/superdong-phu-quoc-ferry-schedule-ticket-prices-more/
+  checked: '2026-10-07'
+  confidence: medium

@@ -319,22 +319,6 @@ logistics:
   what_he: שדה התעופה ליין קואונג נמצא כ-30 קילומטר מדרום לדה לאט. מונית או הסעה פרטית למרכז
     העיר לוקחות כ-40 עד 50 דקות, תלוי בתנועה.
   why_he: מקבע את זמן ההסעה לטיסה היוצאת מדה לאט בסוף הרגל הזו
-- name: Lak Lake to Da Lat road (National Highway 27)
-  area: Route into the city from the north
-  what: 'The final leg of the easy-rider route: roughly 160km / 4 hours south from Lak Lake
-    on National Highway 27 through the Ta Dung area into Da Lat.'
-  why: Confirms the length of the second riding day for the route already locked into the
-    itinerary
-  confidence: medium
-  geocode_query: National Highway 27, Da Lat, Vietnam
-  sources:
-  - https://www.bestpricetravel.com/travel-guide/lak-lake.html
-  - https://www.rome2rio.com/s/Buon-Ma-Thuot-Dak-Lak/%C3%90%C3%A0-L%E1%BA%A1t
-  name_he: הדרך מאגם לאק לדה לאט
-  area_he: המסלול אל העיר מצפון
-  what_he: 'הרגל האחרונה של מסלול הרוכבים: כ-160 קילומטר וארבע שעות דרומה מאגם לאק בכביש ארצי
-    27, דרך אזור טה דונג ואל דה לאט.'
-  why_he: מאשר את אורך יום הרכיבה השני במסלול שכבר ננעל בתוכנית
 street_food:
 - name: Banh Trang Nuong Da Lat Ngon Be Lun
   kind: vietnamese
