@@ -83,12 +83,30 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-mekong-diving">
+      <IconStyle>
+        <color>ff000080</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/swimming.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-mekong-logistics">
       <IconStyle>
         <color>ff000080</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-mekong-contacts">
+      <IconStyle>
+        <color>ff000080</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -188,7 +206,7 @@
       <Placemark>
         <name>Cai Rang Floating Market</name>
         <styleUrl>#s-mekong-must_see</styleUrl>
-        <description><![CDATA[<b>Mekong and Can Tho</b> &middot; Cai Rang, about 6 km southwest of central Can Tho<br/><br/>A river market of roughly 200-300 local trading boats and produce barges, each hanging a sample of its goods from a tall pole so buyers can spot it from the water. It runs from before sunrise and is essentially over as a wholesale market by mid-morning.<br/><b>Why it's here:</b> The largest and most authentic floating market left in the delta, but only if timed for its real dawn trading hours, not a mid-morning visit<br/><a href="https://vemekong.com/guide-to-can-tho-floating-markets/">source 1</a> &middot; <a href="https://www.travelfish.org/sight_profile/vietnam/mekong_delta/can_tho/can_tho/2496">source 2</a><br/><a href="https://www.youtube.com/results?search_query=Cai+Rang+Floating+Market+Mekong+and+Can+Tho+Vietnam" style="color:#cc0000;font-weight:700">Search YouTube</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.0023957,105.7443925&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.0023957, 105.7443925]]></description>
+        <description><![CDATA[<b>Mekong and Can Tho</b> &middot; Cai Rang, about 6 km southwest of central Can Tho<br/><br/>A river market where trading boats hang a sample of their goods from a tall pole so buyers spot it from the water. It is shrinking fast - around 400 boats at its 1990s peak, roughly 200 registered today, and reports of as few as 40 actually trading on a good morning as roads replaced the river. Tour boats now outnumber traders. It runs from before sunrise and is over as a wholesale market by mid-morning.<br/><b>Why it's here:</b> Still the largest floating market left in the delta, but go for what it is now rather than the photographs - and only at dawn. Touts and price gouging were reported through 2026. Phong Dien, upstream, sits on a channel too narrow for the big tour boats and keeps more real trading<br/><a href="https://vemekong.com/guide-to-can-tho-floating-markets/">source 1</a> &middot; <a href="https://www.aljazeera.com/features/2025/2/28/vietnams-floating-markets-face-uncertain-future-as-life-moves-onshore">source 2</a> &middot; <a href="https://news.tuoitre.vn/are-business-and-management-practices-sinking-cai-rang-floating-market-in-vietnam-103260224205542246.htm">source 3</a><br/><a href="https://www.youtube.com/results?search_query=Cai+Rang+Floating+Market+Mekong+and+Can+Tho+Vietnam" style="color:#cc0000;font-weight:700">Search YouTube</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.0023957,105.7443925&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.0023957, 105.7443925]]></description>
         <Point>
           <coordinates>105.7443925,10.0023957,0</coordinates>
         </Point>
@@ -229,17 +247,6 @@
         <description><![CDATA[<b>Mekong and Can Tho</b> &middot; Ninh Kieu riverside, Can Tho, inside the old Nha Long market building<br/><br/>A restaurant set inside a restored early-1900s riverside market hall, with open river views and a menu of southern Vietnamese home cooking.<br/><b>Why it's here:</b> A local guide recommendation for a proper sit-down dinner, in one of Can Tho's most distinctive dining buildings<br/><a href="https://vinwonders.com/en/wonderpedia/news/can-tho-restaurants/">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.0313789,105.7882653&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.0313789, 105.7882653]]></description>
         <Point>
           <coordinates>105.7882653,10.0313789,0</coordinates>
-        </Point>
-      </Placemark>
-    </Folder>
-    <Folder>
-      <name>Logistics</name>
-      <Placemark>
-        <name>Bus from Ho Chi Minh City to Can Tho</name>
-        <styleUrl>#s-mekong-logistics</styleUrl>
-        <description><![CDATA[<b>Mekong and Can Tho</b> &middot; Ho Chi Minh City to Can Tho, roughly 170 km<br/><br/>A sleeper coach (commonly the Futa/Phuong Trang line) covers the route in about 3 hours of driving, though the door-to-door trip including rest stops and pickup/drop-off typically runs closer to 5 hours; a taxi from the Can Tho bus station to Ninh Kieu Wharf adds about 15 minutes.<br/><b>Why it's here:</b> The standard overland option between the two, and the reason a Mekong stop is usually built around an overnight rather than a rushed day trip<br/><a href="https://vemekong.com/guide-to-can-tho-floating-markets/">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.0243445,105.7615442&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.0243445, 105.7615442]]></description>
-        <Point>
-          <coordinates>105.7615442,10.0243445,0</coordinates>
         </Point>
       </Placemark>
     </Folder>

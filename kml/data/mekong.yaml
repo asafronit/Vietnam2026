@@ -6,9 +6,9 @@ hotels:
   price_high: 200
   price_checked: '2026-08-16'
   area: Ninh Kieu, riverside
-  what: The tallest international hotel in the Mekong Delta, on the Can Tho riverfront near
-    Ninh Kieu Pier and the night market, formerly branded as Vinpearl Hotel Can Tho before
-    its rebrand under Marriott.
+  what: The tallest international hotel in the Mekong Delta, on the Can Tho riverfront
+    near Ninh Kieu Pier and the night market, formerly branded as Vinpearl Hotel Can
+    Tho before its rebrand under Marriott.
   why: The only internationally-chained 5-star in the Mekong Delta, confirmed by multiple
     independent sources as officially rated
   confidence: high
@@ -21,10 +21,10 @@ hotels:
     lng: 105.7744816
   name_he: שרתון קאן טו
   area_he: נין קייאו, על הנהר
-  what_he: המלון הבינלאומי הגבוה ביותר בדלתת המקונג, על חזית הנהר של קאן טו ליד מזח נין קייאו
-    ושוק הלילה. נקרא בעבר וינפרל קאן טו לפני המיתוג מחדש תחת מריוט.
-  why_he: ה-5 כוכבים היחיד של רשת בינלאומית בדלתת המקונג, ומאושר כמדורג רשמית בכמה מקורות
-    עצמאיים
+  what_he: המלון הבינלאומי הגבוה ביותר בדלתת המקונג, על חזית הנהר של קאן טו ליד מזח
+    נין קייאו ושוק הלילה. נקרא בעבר וינפרל קאן טו לפני המיתוג מחדש תחת מריוט.
+  why_he: ה-5 כוכבים היחיד של רשת בינלאומית בדלתת המקונג, ומאושר כמדורג רשמית בכמה
+    מקורות עצמאיים
 - name: Muong Thanh Luxury Can Tho Hotel
   tier: 5
   tier_official: false
@@ -32,10 +32,10 @@ hotels:
   price_high: 168
   price_checked: '2026-08-16'
   area: Ninh Kieu
-  what: A tower hotel branded "5-star luxury" by the domestic Muong Thanh chain, with a rooftop
-    bar, pool and gym overlooking the Can Tho river.
-  why: Cheapest 5-star-branded option in the delta, though guest reviews note the rooms feel
-    dated relative to the star claim
+  what: A tower hotel branded "5-star luxury" by the domestic Muong Thanh chain, with
+    a rooftop bar, pool and gym overlooking the Can Tho river.
+  why: Cheapest 5-star-branded option in the delta, though guest reviews note the
+    rooms feel dated relative to the star claim
   confidence: medium
   geocode_query: Muong Thanh Luxury Can Tho Hotel, Can Tho, Vietnam
   sources:
@@ -43,10 +43,10 @@ hotels:
   - https://www.booking.com/hotel/vn/muong-thanh-can-tho.html
   name_he: מואונג תאן לוקסרי קאן טו
   area_he: נין קייאו
-  what_he: מלון מגדל שממותג כיוקרה 5 כוכבים ע"י הרשת המקומית מואונג תאן, עם בר גג, בריכה וחדר
-    כושר שמשקיפים על נהר קאן טו.
-  why_he: אפשרות ה-5 כוכבים הזולה ביותר בדלתה, אם כי ביקורות האורחים מציינות שהחדרים מרגישים
-    מיושנים ביחס לטענת הכוכבים
+  what_he: מלון מגדל שממותג כיוקרה 5 כוכבים ע"י הרשת המקומית מואונג תאן, עם בר גג,
+    בריכה וחדר כושר שמשקיפים על נהר קאן טו.
+  why_he: אפשרות ה-5 כוכבים הזולה ביותר בדלתה, אם כי ביקורות האורחים מציינות שהחדרים
+    מרגישים מיושנים ביחס לטענת הכוכבים
 - name: Victoria Can Tho Resort
   tier: 4
   tier_official: true
@@ -54,8 +54,9 @@ hotels:
   price_high: 95
   price_checked: '2026-08-16'
   area: Riverside, Cai Khe islet
-  what: A colonial-style riverside resort from the established Victoria hotels chain, with
-    a pool overlooking the Can Tho River and its own daily Mekong boat tours for guests.
+  what: A colonial-style riverside resort from the established Victoria hotels chain,
+    with a pool overlooking the Can Tho River and its own daily Mekong boat tours
+    for guests.
   why: The delta's best-regarded conventional resort chain, officially rated and consistently
     praised over the larger conference hotels in town
   confidence: high
@@ -68,10 +69,10 @@ hotels:
     lng: 105.7930514
   name_he: ויקטוריה קאן טו
   area_he: על הנהר, האי קאי קה
-  what_he: ריזורט בסגנון קולוניאלי על הנהר מרשת המלונות הוותיקה ויקטוריה, עם בריכה שמשקיפה
-    על נהר קאן טו וסיורי סירה יומיים משלו במקונג לאורחים.
-  why_he: רשת הריזורטים הקונבנציונלית המוערכת ביותר בדלתה, מדורגת רשמית ומשובחת דרך קבע על
-    פני מלונות הכנסים הגדולים בעיר
+  what_he: ריזורט בסגנון קולוניאלי על הנהר מרשת המלונות הוותיקה ויקטוריה, עם בריכה
+    שמשקיפה על נהר קאן טו וסיורי סירה יומיים משלו במקונג לאורחים.
+  why_he: רשת הריזורטים הקונבנציונלית המוערכת ביותר בדלתה, מדורגת רשמית ומשובחת דרך
+    קבע על פני מלונות הכנסים הגדולים בעיר
 - name: Can Tho Ecolodge
   tier: 4
   tier_official: false
@@ -79,11 +80,11 @@ hotels:
   price_high: 82
   price_checked: '2026-08-16'
   area: Cai Rang, Ba Lang River
-  what: A thatched-house eco-resort on the Ba Lang River outside town, with a pool, garden
-    and bar, built around responsibly showcasing the surrounding delta rather than a conventional
-    hotel tower.
-  why: The most resort-like eco-lodge option in the area, ranked third of Can Tho's specialty
-    lodging with consistently strong reviews
+  what: A thatched-house eco-resort on the Ba Lang River outside town, with a pool,
+    garden and bar, built around responsibly showcasing the surrounding delta rather
+    than a conventional hotel tower.
+  why: The most resort-like eco-lodge option in the area, ranked third of Can Tho's
+    specialty lodging with consistently strong reviews
   confidence: medium
   geocode_query: Can Tho Ecolodge, Cai Rang, Can Tho, Vietnam
   sources:
@@ -94,10 +95,10 @@ hotels:
     lng: 105.7414525
   name_he: אקולודג' קאן טו
   area_he: קאי ראנג, נהר בה לאנג
-  what_he: אקו-ריזורט של בתי קש על נהר בה לאנג מחוץ לעיר, עם בריכה, גן ובר, בנוי סביב הצגה
-    אחראית של הדלתה סביבו ולא כמגדל מלון רגיל.
-  why_he: אפשרות האקו-לודג' הדומה ביותר לריזורט באזור, מדורגת שלישית באכסניות המיוחדות של
-    קאן טו עם ביקורות חזקות באופן עקבי
+  what_he: אקו-ריזורט של בתי קש על נהר בה לאנג מחוץ לעיר, עם בריכה, גן ובר, בנוי סביב
+    הצגה אחראית של הדלתה סביבו ולא כמגדל מלון רגיל.
+  why_he: אפשרות האקו-לודג' הדומה ביותר לריזורט באזור, מדורגת שלישית באכסניות המיוחדות
+    של קאן טו עם ביקורות חזקות באופן עקבי
 - name: Bamboo Eco Village
   tier: 3
   tier_official: true
@@ -105,10 +106,10 @@ hotels:
   price_high: 56
   price_checked: '2026-08-16'
   area: Can Tho outskirts
-  what: A small officially 3-star eco-hotel with a garden, pool and bicycles for guests, built
-    around orchard and canal surroundings rather than a town-centre location.
-  why: Officially rated 3-star with unusually strong reviews for the tier, praised repeatedly
-    for the garden and pool
+  what: A small officially 3-star eco-hotel with a garden, pool and bicycles for guests,
+    built around orchard and canal surroundings rather than a town-centre location.
+  why: Officially rated 3-star with unusually strong reviews for the tier, praised
+    repeatedly for the garden and pool
   confidence: medium
   geocode_query: Bamboo Eco Village, Can Tho, Vietnam
   sources:
@@ -119,8 +120,8 @@ hotels:
     lng: 105.7054798
   name_he: במבו אקו וילג'
   area_he: פרברי קאן טו
-  what_he: מלון אקולוגי קטן עם 3 כוכבים רשמיים, עם גן, בריכה ואופניים לאורחים, בנוי בסביבת
-    מטעים ותעלות ולא במרכז העיר.
+  what_he: מלון אקולוגי קטן עם 3 כוכבים רשמיים, עם גן, בריכה ואופניים לאורחים, בנוי
+    בסביבת מטעים ותעלות ולא במרכז העיר.
   why_he: 3 כוכבים רשמיים עם ביקורות חזקות במיוחד לדרגה, ומשובח שוב ושוב על הגן והבריכה
 - name: Mekong Silt Ecolodge
   tier: 3
@@ -129,10 +130,10 @@ hotels:
   price_high: 62
   price_checked: '2026-08-16'
   area: My Khanh, about 30 minutes from central Can Tho
-  what: A homestay-style ecolodge in a quiet rural area outside the city, with garden cottages,
-    a pool and staff-led tours to off-the-beaten-track parts of the delta.
-  why: Consistently praised for genuinely local, off-tourist-track tours rather than the standard
-    packaged canal-boat circuit
+  what: A homestay-style ecolodge in a quiet rural area outside the city, with garden
+    cottages, a pool and staff-led tours to off-the-beaten-track parts of the delta.
+  why: Consistently praised for genuinely local, off-tourist-track tours rather than
+    the standard packaged canal-boat circuit
   confidence: medium
   geocode_query: Mekong Silt Ecolodge, My Khanh, Can Tho, Vietnam
   sources:
@@ -140,22 +141,22 @@ hotels:
   - https://www.booking.com/hotel/vn/mekong-silt-ecolodge.html
   name_he: מקונג סילט אקולודג'
   area_he: מיי קאן, כחצי שעה ממרכז קאן טו
-  what_he: אקו-לודג' בסגנון הומסטיי באזור כפרי שקט מחוץ לעיר, עם בקתות גן, בריכה וסיורים בהובלת
-    הצוות אל חלקים לא שגרתיים של הדלתה.
-  why_he: משובח דרך קבע על סיורים מקומיים אמיתיים מחוץ למסלול התיירים, ולא על מעגל סירות התעלות
-    הארוז הסטנדרטי
+  what_he: אקו-לודג' בסגנון הומסטיי באזור כפרי שקט מחוץ לעיר, עם בקתות גן, בריכה וסיורים
+    בהובלת הצוות אל חלקים לא שגרתיים של הדלתה.
+  why_he: משובח דרך קבע על סיורים מקומיים אמיתיים מחוץ למסלול התיירים, ולא על מעגל
+    סירות התעלות הארוז הסטנדרטי
 must_see:
 - name: Cai Rang Floating Market
   area: Cai Rang, about 6 km southwest of central Can Tho
-  what: A river market where trading boats hang a sample of their goods from a tall pole so
-    buyers spot it from the water. It is shrinking fast - around 400 boats at its 1990s peak,
-    roughly 200 registered today, and reports of as few as 40 actually trading on a good
-    morning as roads replaced the river. Tour boats now outnumber traders. It runs from before
-    sunrise and is over as a wholesale market by mid-morning.
-  why: Still the largest floating market left in the delta, but go for what it is now rather
-    than the photographs - and only at dawn. Touts and price gouging were reported through
-    2026. Phong Dien, upstream, sits on a channel too narrow for the big tour boats and keeps
-    more real trading
+  what: A river market where trading boats hang a sample of their goods from a tall
+    pole so buyers spot it from the water. It is shrinking fast - around 400 boats
+    at its 1990s peak, roughly 200 registered today, and reports of as few as 40 actually
+    trading on a good morning as roads replaced the river. Tour boats now outnumber
+    traders. It runs from before sunrise and is over as a wholesale market by mid-morning.
+  why: Still the largest floating market left in the delta, but go for what it is
+    now rather than the photographs - and only at dawn. Touts and price gouging were
+    reported through 2026. Phong Dien, upstream, sits on a channel too narrow for
+    the big tour boats and keeps more real trading
   confidence: high
   geocode_query: Cai Rang Floating Market, Can Tho, Vietnam
   sources:
@@ -167,21 +168,26 @@ must_see:
     lng: 105.7443925
   name_he: השוק הצף קאי ראנג
   area_he: קאי ראנג, כ-6 קילומטר מדרום-מערב למרכז קאן טו
-  what_he: שוק נהר שבו סירות המסחר תולות דוגמה מסחורתן על מוט גבוה כדי שקונים יזהו אותן מהמים.
-    הוא מצטמק במהירות — כ-400 סירות בשיא שנות ה-90, כ-200 רשומות היום, ודיווחים על 40 בלבד
-    שסוחרות בפועל בבוקר טוב, אחרי שהכבישים החליפו את הנהר. סירות התיירים כבר רבות מהסוחרות.
-    פועל מלפני הזריחה, וכשוק סיטונאי נגמר עד אמצע הבוקר.
-  why_he: עדיין השוק הצף הגדול ביותר שנותר בדלתה, אבל ללכת אליו לפי מה שהוא היום ולא לפי
-    התצלומים — ורק עם שחר. במהלך 2026 דווחו נגישה אגרסיבית והפקעת מחירים. פונג דיין, במעלה
-    הזרם, יושב על תעלה צרה מדי לסירות התיירים הגדולות ושומר על מסחר אמיתי יותר
+  what_he: שוק נהר שבו סירות המסחר תולות דוגמה מסחורתן על מוט גבוה כדי שקונים יזהו
+    אותן מהמים. הוא מצטמק במהירות — כ-400 סירות בשיא שנות ה-90, כ-200 רשומות היום,
+    ודיווחים על 40 בלבד שסוחרות בפועל בבוקר טוב, אחרי שהכבישים החליפו את הנהר. סירות
+    התיירים כבר רבות מהסוחרות. פועל מלפני הזריחה, וכשוק סיטונאי נגמר עד אמצע הבוקר.
+  why_he: עדיין השוק הצף הגדול ביותר שנותר בדלתה, אבל ללכת אליו לפי מה שהוא היום ולא
+    לפי התצלומים — ורק עם שחר. במהלך 2026 דווחו נגישה אגרסיבית והפקעת מחירים. פונג
+    דיין, במעלה הזרם, יושב על תעלה צרה מדי לסירות התיירים הגדולות ושומר על מסחר אמיתי
+    יותר
+  hours: Boats gather from 02:00-03:00 and the market peaks 04:00-06:00; be on the
+    water by 05:00
+  hours_he: הסירות מתכנסות מ-02:00-03:00 והשוק בשיאו בין 04:00 ל-06:00; כדאי להיות
+    על המים עד 05:00
 attractions:
 - name: My Tho and Ben Tre coconut candy village
   area: My Tho and Ben Tre provinces, upper Mekong Delta
-  what: A river-island circuit reached by motorboat and narrow-canal sampan (a small wooden
-    boat rowed by a boatman in a conical hat), stopping at a small workshop where coconut
-    milk is hand-cooked and cut into candy while still warm.
-  why: The classic, gentler alternative to Can Tho for a single-day Mekong visit, and the
-    standard way to see hand-made coconut candy production
+  what: A river-island circuit reached by motorboat and narrow-canal sampan (a small
+    wooden boat rowed by a boatman in a conical hat), stopping at a small workshop
+    where coconut milk is hand-cooked and cut into candy while still warm.
+  why: The classic, gentler alternative to Can Tho for a single-day Mekong visit,
+    and the standard way to see hand-made coconut candy production
   confidence: high
   geocode_query: Ben Tre coconut candy village, Ben Tre, Vietnam
   sources:
@@ -192,18 +198,18 @@ attractions:
   location_precision: approximate
   name_he: מיי טו ובן טרה, כפר ממתקי הקוקוס
   area_he: מחוזות מיי טו ובן טרה, צפון דלתת המקונג
-  what_he: מעגל איי נהר שמגיעים אליו בסירת מנוע ובסמפן — סירת עץ קטנה שמשייט בה שייט בכובע
-    חרוטי — בתעלות צרות, עם עצירה בבית מלאכה קטן שבו חלב קוקוס מבושל ביד ונחתך לממתק בעודו
-    חם.
-  why_he: החלופה הקלאסית והעדינה יותר לקאן טו לביקור מקונג של יום אחד, והדרך הסטנדרטית לראות
-    ייצור ממתקי קוקוס בעבודת יד
+  what_he: מעגל איי נהר שמגיעים אליו בסירת מנוע ובסמפן — סירת עץ קטנה שמשייט בה שייט
+    בכובע חרוטי — בתעלות צרות, עם עצירה בבית מלאכה קטן שבו חלב קוקוס מבושל ביד ונחתך
+    לממתק בעודו חם.
+  why_he: החלופה הקלאסית והעדינה יותר לקאן טו לביקור מקונג של יום אחד, והדרך הסטנדרטית
+    לראות ייצור ממתקי קוקוס בעבודת יד
 - name: Vinh Trang Pagoda
   area: My Tho
-  what: A 19th-century Buddhist pagoda recognised as a national historical relic, blending
-    Vietnamese, Khmer and French architectural styles with a large reclining Buddha statue
-    in its grounds.
-  why: The most architecturally distinct temple in the delta, mixing three building traditions
-    in one compound
+  what: A 19th-century Buddhist pagoda recognised as a national historical relic,
+    blending Vietnamese, Khmer and French architectural styles with a large reclining
+    Buddha statue in its grounds.
+  why: The most architecturally distinct temple in the delta, mixing three building
+    traditions in one compound
   confidence: high
   geocode_query: Vinh Trang Pagoda, My Tho, Vietnam
   sources:
@@ -219,11 +225,11 @@ attractions:
 markets:
 - name: Ninh Kieu Night Market
   area: Ninh Kieu, Phan Boi Chau and Phan Chau Trinh streets
-  what: A two-street night market a short walk from Ninh Kieu Wharf, split between a food
-    court selling grilled skewers, sweet soups and sugarcane juice, and a shopping side of
-    cheap clothing and printed T-shirts.
-  why: The natural evening follow-on to a riverside stroll, busiest and coolest from around
-    7:30-9:30pm
+  what: A two-street night market a short walk from Ninh Kieu Wharf, split between
+    a food court selling grilled skewers, sweet soups and sugarcane juice, and a shopping
+    side of cheap clothing and printed T-shirts.
+  why: The natural evening follow-on to a riverside stroll, busiest and coolest from
+    around 7:30-9:30pm
   confidence: high
   geocode_query: Ninh Kieu Night Market, Can Tho, Vietnam
   sources:
@@ -231,8 +237,9 @@ markets:
   - https://www.originvietnam.com/destinations/ninh-kieu-night-market/
   name_he: שוק הלילה נין קייאו
   area_he: נין קייאו, רחובות פאן בוי צ'או ופאן צ'או טרין
-  what_he: שוק לילה בשני רחובות במרחק הליכה קצר ממזח נין קייאו, מחולק בין רחבת מזון שמוכרת
-    שיפודים צלויים, מרקים מתוקים ומיץ קנה סוכר, לבין צד קניות של ביגוד זול וחולצות מודפסות.
+  what_he: שוק לילה בשני רחובות במרחק הליכה קצר ממזח נין קייאו, מחולק בין רחבת מזון
+    שמוכרת שיפודים צלויים, מרקים מתוקים ומיץ קנה סוכר, לבין צד קניות של ביגוד זול
+    וחולצות מודפסות.
   why_he: ההמשך הטבעי לטיול ערב על הנהר, והכי שוקק וקריר בין שבע וחצי לתשע וחצי בערב
 restaurants:
 - name: Lua Nep
@@ -240,11 +247,11 @@ restaurants:
   signal: traveler_recommended
   dish: Deep-fried elephant ear fish
   area: Ninh Kieu riverside, Can Tho
-  what: A riverside restaurant serving the delta's signature elephant ear fish, fried whole
-    and served upright so the flesh is rolled into rice paper with herbs and pickles at the
-    table.
-  why: Repeatedly singled out by recent travelers for this specific dish, the Mekong Delta's
-    most iconic
+  what: A riverside restaurant serving the delta's signature elephant ear fish, fried
+    whole and served upright so the flesh is rolled into rice paper with herbs and
+    pickles at the table.
+  why: Repeatedly singled out by recent travelers for this specific dish, the Mekong
+    Delta's most iconic
   confidence: medium
   geocode_query: Lua Nep restaurant, Can Tho, Vietnam
   sources:
@@ -254,18 +261,19 @@ restaurants:
     lng: 105.7947956
   name_he: לואה נפ
   area_he: חזית הנהר נין קייאו, קאן טו
-  what_he: 'מסעדה על הנהר שמגישה את דג אוזן הפיל, מנת החתימה של הדלתה: מטוגן שלם ומוגש זקוף,
-    כך שהבשר מגולגל לתוך נייר אורז עם עשבים וכבושים ליד השולחן.'
-  why_he: צוינה שוב ושוב ע"י מטיילים לאחרונה דווקא למנה הזו, המזוהה ביותר עם דלתת המקונג
+  what_he: 'מסעדה על הנהר שמגישה את דג אוזן הפיל, מנת החתימה של הדלתה: מטוגן שלם ומוגש
+    זקוף, כך שהבשר מגולגל לתוך נייר אורז עם עשבים וכבושים ליד השולחן.'
+  why_he: צוינה שוב ושוב ע"י מטיילים לאחרונה דווקא למנה הזו, המזוהה ביותר עם דלתת
+    המקונג
 - name: Sao Hom Restaurant
   kind: vietnamese
   signal: traveler_recommended
   dish: Garlic fried rice, Mekong-style spring rolls
   area: Ninh Kieu riverside, Can Tho, inside the old Nha Long market building
-  what: A restaurant set inside a restored early-1900s riverside market hall, with open river
-    views and a menu of southern Vietnamese home cooking.
-  why: A local guide recommendation for a proper sit-down dinner, in one of Can Tho's most
-    distinctive dining buildings
+  what: A restaurant set inside a restored early-1900s riverside market hall, with
+    open river views and a menu of southern Vietnamese home cooking.
+  why: A local guide recommendation for a proper sit-down dinner, in one of Can Tho's
+    most distinctive dining buildings
   confidence: medium
   geocode_query: Sao Hom Restaurant, Ninh Kieu, Can Tho, Vietnam
   sources:
@@ -275,8 +283,8 @@ restaurants:
     lng: 105.7882653
   name_he: סאו הום
   area_he: חזית הנהר נין קייאו, קאן טו, בתוך בניין השוק הישן
-  what_he: מסעדה בתוך אולם שוק משוחזר מתחילת המאה ה-20 על הנהר, עם נוף פתוח למים ותפריט של
-    בישול בית דרום-ויאטנמי.
-  why_he: המלצה של מדריך מקומי לארוחת ערב אמיתית לשבת בה, באחד מבנייני האוכל המובחנים ביותר
-    בקאן טו
+  what_he: מסעדה בתוך אולם שוק משוחזר מתחילת המאה ה-20 על הנהר, עם נוף פתוח למים ותפריט
+    של בישול בית דרום-ויאטנמי.
+  why_he: המלצה של מדריך מקומי לארוחת ערב אמיתית לשבת בה, באחד מבנייני האוכל המובחנים
+    ביותר בקאן טו
 hebrew_complete: true

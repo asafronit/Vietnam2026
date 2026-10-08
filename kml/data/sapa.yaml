@@ -8,8 +8,8 @@ hotels:
   area: Sapa town, above Sun Plaza
   what: A 152-room hillside resort with an indoor pool, full-service spa and two restaurants,
     one of the largest true luxury properties in Sapa town.
-  why: Officially 5-star and the highest-rated large luxury property in Sapa; priced far below
-    Hanoi/HCMC 5-stars
+  why: Officially 5-star and the highest-rated large luxury property in Sapa; priced
+    far below Hanoi/HCMC 5-stars
   confidence: high
   geocode_query: Silk Path Grand Sapa Resort and Spa, Sapa, Vietnam
   sources:
@@ -17,10 +17,10 @@ hotels:
   - https://www.orbitz.com/Sa-Pa-Hotels-Silk-Path-Grand-Resort-Spa-Sapa.h19674739.Hotel-Information
   name_he: סילק פאת' גרנד
   area_he: העיירה סאפה, מעל סאן פלאזה
-  what_he: ריזורט של 152 חדרים על המדרון, עם בריכה מקורה, ספא מלא ושתי מסעדות. אחד מנכסי היוקרה
-    האמיתיים הגדולים בסאפה.
-  why_he: 5 כוכבים רשמיים, ונכס היוקרה הגדול המדורג ביותר בסאפה. מתומחר הרבה מתחת ל-5 הכוכבים
-    של האנוי וסייגון
+  what_he: ריזורט של 152 חדרים על המדרון, עם בריכה מקורה, ספא מלא ושתי מסעדות. אחד
+    מנכסי היוקרה האמיתיים הגדולים בסאפה.
+  why_he: 5 כוכבים רשמיים, ונכס היוקרה הגדול המדורג ביותר בסאפה. מתומחר הרבה מתחת
+    ל-5 הכוכבים של האנוי וסייגון
 - name: Pao's Sapa Leisure Hotel
   tier: 5
   tier_official: true
@@ -28,12 +28,12 @@ hotels:
   price_high: 180
   price_checked: '2026-08-16'
   area: Sapa town hillside, Muong Hoa Valley view
-  what: A 223-room resort built into the hillside with terrace views over the Muong Hoa rice-terrace
-    valley and Fansipan, run by CTX Holdings.
-  why: 'Ranked #3 of 180+ Sapa hotels on Tripadvisor and independently confirmed as officially
-    5-star; note that several reviewers say the room quality feels closer to a solid 3-star
-    by Western standards, so treat the rating as location- and facility-driven rather than
-    a guarantee of finish quality'
+  what: A 223-room resort built into the hillside with terrace views over the Muong
+    Hoa rice-terrace valley and Fansipan, run by CTX Holdings.
+  why: 'Ranked #3 of 180+ Sapa hotels on Tripadvisor and independently confirmed as
+    officially 5-star; note that several reviewers say the room quality feels closer
+    to a solid 3-star by Western standards, so treat the rating as location- and facility-driven
+    rather than a guarantee of finish quality'
   confidence: medium
   geocode_query: Pao's Sapa Leisure Hotel, Sapa, Vietnam
   sources:
@@ -44,11 +44,11 @@ hotels:
     lng: 103.8466396
   name_he: פאו'ס סאפה
   area_he: מדרון העיירה סאפה, נוף לעמק מואונג הואה
-  what_he: ריזורט של 223 חדרים הבנוי לתוך המדרון, עם מרפסות שמשקיפות על מדרגות האורז של עמק
-    מואונג הואה ועל פאנסיפאן, בניהול CTX.
-  why_he: מדורג שלישי מתוך יותר מ-180 מלונות בסאפה בטריפאדוויזר, ואומת באופן עצמאי כ-5 כוכבים
-    רשמיים. שימו לב שכמה מבקרים אומרים שאיכות החדר מרגישה קרובה יותר ל-3 כוכבים במונחים מערביים
-    — כלומר הדירוג נובע מהמיקום ומהמתקנים ולא מרמת הגימור
+  what_he: ריזורט של 223 חדרים הבנוי לתוך המדרון, עם מרפסות שמשקיפות על מדרגות האורז
+    של עמק מואונג הואה ועל פאנסיפאן, בניהול CTX.
+  why_he: מדורג שלישי מתוך יותר מ-180 מלונות בסאפה בטריפאדוויזר, ואומת באופן עצמאי
+    כ-5 כוכבים רשמיים. שימו לב שכמה מבקרים אומרים שאיכות החדר מרגישה קרובה יותר ל-3
+    כוכבים במונחים מערביים — כלומר הדירוג נובע מהמיקום ומהמתקנים ולא מרמת הגימור
 - name: Pistachio Hotel Sapa
   tier: 4
   tier_official: true
@@ -56,10 +56,10 @@ hotels:
   price_high: 180
   price_checked: '2026-08-16'
   area: Sapa town, near Fansipan Legend cable car station
-  what: A 4-star hotel with Sapa's highest rooftop infinity pool (seasonal) next to the Fansi
-    Sky Bar, looking out over Fansipan and the Muong Hoa Valley.
-  why: The best-reviewed straightforward 4-star in town, and the master-spec upgrade pick
-    over the mould-flagged Bamboo Sapa
+  what: A 4-star hotel with Sapa's highest rooftop infinity pool (seasonal) next to
+    the Fansi Sky Bar, looking out over Fansipan and the Muong Hoa Valley.
+  why: The best-reviewed straightforward 4-star in town, and the master-spec upgrade
+    pick over the mould-flagged Bamboo Sapa
   confidence: high
   geocode_query: Pistachio Hotel Sapa, Sapa, Vietnam
   sources:
@@ -67,10 +67,10 @@ hotels:
   - https://www.readytotrip.com/hotels/Vietnam/Lao%20Cai/Sa%20Pa/pistachio-hotel-sapa/
   name_he: פיסטשיו
   area_he: העיירה סאפה, ליד תחנת הרכבל פאנסיפאן
-  what_he: מלון 4 כוכבים עם בריכת האינסוף הגבוהה בסאפה על הגג, עונתית, לצד בר השמיים, במבט
-    אל פאנסיפאן ואל עמק מואונג הואה.
-  why_he: ה-4 כוכבים הפשוט המדורג ביותר בעיירה, והבחירה לשדרוג במפרט במקום במבו סאפה שסומן
-    בבעיות עובש
+  what_he: מלון 4 כוכבים עם בריכת האינסוף הגבוהה בסאפה על הגג, עונתית, לצד בר השמיים,
+    במבט אל פאנסיפאן ואל עמק מואונג הואה.
+  why_he: ה-4 כוכבים הפשוט המדורג ביותר בעיירה, והבחירה לשדרוג במפרט במקום במבו סאפה
+    שסומן בבעיות עובש
 - name: Aliana Boutique Sapa Hotel & Spa
   tier: 4
   tier_official: false
@@ -78,11 +78,11 @@ hotels:
   price_high: 120
   price_checked: '2026-08-16'
   area: Sapa town
-  what: A boutique hotel with a heated pool, spa and mountain-view rooms, previously traded
-    as Aira Boutique Sapa Hotel & Spa.
-  why: 'Ranked #9 of 188 Sapa hotels with a very high review volume; some platforms round
-    its self-described "4.5-star" positioning up to 5, so treat the star figure as boutique
-    marketing rather than an official grade'
+  what: A boutique hotel with a heated pool, spa and mountain-view rooms, previously
+    traded as Aira Boutique Sapa Hotel & Spa.
+  why: 'Ranked #9 of 188 Sapa hotels with a very high review volume; some platforms
+    round its self-described "4.5-star" positioning up to 5, so treat the star figure
+    as boutique marketing rather than an official grade'
   confidence: medium
   geocode_query: Aliana Boutique Sapa Hotel and Spa, Sapa, Vietnam
   sources:
@@ -90,10 +90,11 @@ hotels:
   - https://asiamystika.com/blog/aliana-boutique-sapa-hotel-and-spa
   name_he: אליאנה בוטיק
   area_he: העיירה סאפה
-  what_he: מלון בוטיק עם בריכה מחוממת, ספא וחדרים עם נוף להרים. פעל בעבר בשם Aira Boutique.
-  why_he: מדורג תשיעי מתוך 188 מלונות בסאפה עם נפח ביקורות גבוה מאוד. חלק מהפלטפורמות מעגלות
-    את מיצובו העצמי כ-4.5 כוכבים ל-5, ולכן יש להתייחס למספר הכוכבים כשיווק בוטיק ולא כדירוג
-    רשמי
+  what_he: מלון בוטיק עם בריכה מחוממת, ספא וחדרים עם נוף להרים. פעל בעבר בשם Aira
+    Boutique.
+  why_he: מדורג תשיעי מתוך 188 מלונות בסאפה עם נפח ביקורות גבוה מאוד. חלק מהפלטפורמות
+    מעגלות את מיצובו העצמי כ-4.5 כוכבים ל-5, ולכן יש להתייחס למספר הכוכבים כשיווק
+    בוטיק ולא כדירוג רשמי
 - name: Sapa Centre Hotel
   tier: 3
   tier_official: true
@@ -101,10 +102,10 @@ hotels:
   price_high: 55
   price_checked: '2026-08-16'
   area: Sapa town, 20m from Sun Plaza
-  what: A small central hotel a few steps from Sun Plaza, the town's main square, with clean
-    simple rooms and an on-site restaurant and bar.
-  why: Officially 3-star with an unusually high review score (9.4-9.5) for its price point
-    and the most central location on this list
+  what: A small central hotel a few steps from Sun Plaza, the town's main square,
+    with clean simple rooms and an on-site restaurant and bar.
+  why: Officially 3-star with an unusually high review score (9.4-9.5) for its price
+    point and the most central location on this list
   confidence: high
   geocode_query: Sapa Centre Hotel, Sapa, Vietnam
   sources:
@@ -112,10 +113,10 @@ hotels:
   - https://www.hotelscombined.com/Hotel/Sapa_Centre_Hotel.htm
   name_he: סאפה סנטר
   area_he: העיירה סאפה, 20 מטר מסאן פלאזה
-  what_he: מלון מרכזי קטן, כמה צעדים מסאן פלאזה שהיא הכיכר הראשית של העיירה, עם חדרים נקיים
-    ופשוטים ומסעדה ובר במקום.
-  why_he: 3 כוכבים רשמיים עם ציון ביקורות גבוה במיוחד (9.4 עד 9.5) ביחס למחיר, והמיקום המרכזי
-    ביותר ברשימה הזו
+  what_he: מלון מרכזי קטן, כמה צעדים מסאן פלאזה שהיא הכיכר הראשית של העיירה, עם חדרים
+    נקיים ופשוטים ומסעדה ובר במקום.
+  why_he: 3 כוכבים רשמיים עם ציון ביקורות גבוה במיוחד (9.4 עד 9.5) ביחס למחיר, והמיקום
+    המרכזי ביותר ברשימה הזו
 - name: Ladybird Boutique Hotel Sapa
   tier: 3
   tier_official: true
@@ -123,10 +124,10 @@ hotels:
   price_high: 55
   price_checked: '2026-08-16'
   area: Sapa town, near Ham Rong Flower Garden and Sapa railway station
-  what: A small hotel near the Ham Rong Flower Garden with a lounge bar and sundeck, and rooms
-    looking toward Sapa station and Fansipan.
-  why: Officially 3-star with strong, consistent reviews (8.9-9.5) across multiple booking
-    platforms
+  what: A small hotel near the Ham Rong Flower Garden with a lounge bar and sundeck,
+    and rooms looking toward Sapa station and Fansipan.
+  why: Officially 3-star with strong, consistent reviews (8.9-9.5) across multiple
+    booking platforms
   confidence: high
   geocode_query: Ladybird Boutique Hotel, Sapa, Vietnam
   sources:
@@ -134,18 +135,18 @@ hotels:
   - https://www.hotelscombined.com/Hotel/Ladybird_Sapa_Hotel.htm
   name_he: ליידיבירד בוטיק
   area_he: העיירה סאפה, ליד גן הפרחים האם רונג ותחנת הרכבת
-  what_he: מלון קטן ליד גן הפרחים האם רונג, עם בר טרקלין ומרפסת שמש, וחדרים שפונים אל תחנת
-    סאפה ואל פאנסיפאן.
+  what_he: מלון קטן ליד גן הפרחים האם רונג, עם בר טרקלין ומרפסת שמש, וחדרים שפונים
+    אל תחנת סאפה ואל פאנסיפאן.
   why_he: 3 כוכבים רשמיים עם ביקורות חזקות ועקביות (8.9 עד 9.5) בכמה פלטפורמות הזמנה
 must_see:
 - name: Fansipan cable car and Muong Hoa mountain train
   limiter: wind
   area: Sun Plaza, Sapa town, to Fansipan summit
-  what: A combined mountain train (Sun Plaza to Muong Hoa station) and a 6.3km cable car climbing
-    to near the summit of Fansipan, at 3,143m the highest peak in Indochina, with a pagoda
-    complex at the top station.
-  why: The easiest way to stand on the "Roof of Indochina" without a multi-day trek, and the
-    combo ticket includes both legs
+  what: A combined mountain train (Sun Plaza to Muong Hoa station) and a 6.3km cable
+    car climbing to near the summit of Fansipan, at 3,143m the highest peak in Indochina,
+    with a pagoda complex at the top station.
+  why: The easiest way to stand on the "Roof of Indochina" without a multi-day trek,
+    and the combo ticket includes both legs
   confidence: high
   geocode_query: Fansipan Legend Cable Car station, Sapa, Vietnam
   sources:
@@ -156,17 +157,22 @@ must_see:
   location_precision: approximate
   name_he: רכבל פאנסיפאן ורכבת ההרים מואונג הואה
   area_he: מסאן פלאזה שבעיירה סאפה אל פסגת פאנסיפאן
-  what_he: שילוב של רכבת הרים מסאן פלאזה לתחנת מואונג הואה, ואחריה רכבל באורך 6.3 קילומטר
-    שמטפס עד סמוך לפסגת פאנסיפאן — 3,143 מטר, הפסגה הגבוהה בהודו-סין — עם מתחם פגודות בתחנה
-    העליונה.
-  why_he: הדרך הקלה ביותר לעמוד על גג הודו-סין בלי טרק של כמה ימים, והכרטיס המשולב כולל את
-    שני המקטעים
+  what_he: שילוב של רכבת הרים מסאן פלאזה לתחנת מואונג הואה, ואחריה רכבל באורך 6.3
+    קילומטר שמטפס עד סמוך לפסגת פאנסיפאן — 3,143 מטר, הפסגה הגבוהה בהודו-סין — עם
+    מתחם פגודות בתחנה העליונה.
+  why_he: הדרך הקלה ביותר לעמוד על גג הודו-סין בלי טרק של כמה ימים, והכרטיס המשולב
+    כולל את שני המקטעים
+  hours: About 07:30-17:00; the last ascent to the summit is around 15:00, and the
+    schedule shifts with weather
+  hours_he: בסביבות 07:30-17:00; העלייה האחרונה לפסגה סביב 15:00, והלוח משתנה לפי
+    מזג האוויר
 - name: Cat Cat Village
   area: San Sa Ho commune, about 3km from Sapa town
-  what: A Black H'mong village at the entrance to the Muong Hoa Valley, founded in the mid-19th
-    century, with three streams meeting at Cat Cat waterfall and two chain footbridges crossing
-    it.
-  why: The most accessible ethnic-minority village from Sapa town, walkable in an afternoon
+  what: A Black H'mong village at the entrance to the Muong Hoa Valley, founded in
+    the mid-19th century, with three streams meeting at Cat Cat waterfall and two
+    chain footbridges crossing it.
+  why: The most accessible ethnic-minority village from Sapa town, walkable in an
+    afternoon
   confidence: high
   geocode_query: Cat Cat Village, Sapa, Vietnam
   sources:
@@ -176,70 +182,73 @@ must_see:
     lng: 103.8340516
   name_he: הכפר קאט קאט
   area_he: סאן סה הו, כ-3 קילומטר מהעיירה סאפה
-  what_he: כפר של המונג השחורים בכניסה לעמק מואונג הואה, שנוסד באמצע המאה ה-19, ובו שלושה
-    נחלים שנפגשים במפל קאט קאט ושני גשרי שרשרת להולכי רגל שחוצים אותו.
+  what_he: כפר של המונג השחורים בכניסה לעמק מואונג הואה, שנוסד באמצע המאה ה-19, ובו
+    שלושה נחלים שנפגשים במפל קאט קאט ושני גשרי שרשרת להולכי רגל שחוצים אותו.
   why_he: כפר המיעוטים הנגיש ביותר מהעיירה סאפה, ואפשר להקיף אותו ברגל בחצי יום
 - name: Sapa Stone Church and Sun Plaza
   area: Central Sapa town
-  what: A Roman-Gothic stone church built in 1926-1935 at the foot of Ham Rong mountain, facing
-    the paved square (Sun Plaza) that functions as the town's social centre and the starting
-    point for the mountain train.
-  why: The literal centre of Sapa town and the anchor point for the Saturday night market
+  what: A Roman-Gothic stone church built in 1926-1935 at the foot of Ham Rong mountain,
+    facing the paved square (Sun Plaza) that functions as the town's social centre
+    and the starting point for the mountain train.
+  why: The literal centre of Sapa town and the anchor point for the Saturday night
+    market
   confidence: high
   geocode_query: Sapa Stone Church, Sapa, Vietnam
   sources:
   - https://en.wikipedia.org/wiki/Sa_Pa
   name_he: כנסיית האבן וסאן פלאזה
   area_he: מרכז העיירה סאפה
-  what_he: כנסיית אבן בסגנון רומי-גותי שנבנתה בין 1926 ל-1935 למרגלות הר האם רונג, ופונה אל
-    הכיכר המרוצפת שמתפקדת כמרכז החברתי של העיירה ונקודת המוצא של רכבת ההרים.
+  what_he: כנסיית אבן בסגנון רומי-גותי שנבנתה בין 1926 ל-1935 למרגלות הר האם רונג,
+    ופונה אל הכיכר המרוצפת שמתפקדת כמרכז החברתי של העיירה ונקודת המוצא של רכבת ההרים.
   why_he: המרכז המילולי של העיירה סאפה, ונקודת העוגן של שוק הלילה של שבת
 attractions:
 - name: Black H'mong village trek, Muong Hoa Valley
   area: Muong Hoa Valley, villages south of Sapa town (Lao Chai, Ta Van)
-  what: A half- or full-day guided walk on dirt paths through terraced rice fields and H'mong/Dao
-    villages in the valley below Sapa, usually led by a local Hmong or Dao woman guide.
-  why: The most substantive way to see the terrace landscape and meet local families rather
-    than just photograph the valley from a viewpoint
+  what: A half- or full-day guided walk on dirt paths through terraced rice fields
+    and H'mong/Dao villages in the valley below Sapa, usually led by a local Hmong
+    or Dao woman guide.
+  why: The most substantive way to see the terrace landscape and meet local families
+    rather than just photograph the valley from a viewpoint
   confidence: high
   geocode_query: Muong Hoa Valley trekking trailhead, Sapa, Vietnam
   sources:
   - https://www.ethosspirit.com/sapa-trekking-ethical-tours
   name_he: טרק בכפרי ההמונג השחורים, עמק מואונג הואה
   area_he: עמק מואונג הואה, הכפרים מדרום לסאפה
-  what_he: הליכה מודרכת של חצי יום או יום שלם בשבילי עפר בין מדרגות אורז וכפרי המונג ודאו
-    בעמק שמתחת לסאפה, בדרך כלל בהובלת מדריכה מקומית מבנות המונג או הדאו.
-  why_he: הדרך המהותית ביותר לראות את נוף המדרגות ולפגוש משפחות מקומיות, ולא רק לצלם את העמק
-    מנקודת תצפית
+  what_he: הליכה מודרכת של חצי יום או יום שלם בשבילי עפר בין מדרגות אורז וכפרי המונג
+    ודאו בעמק שמתחת לסאפה, בדרך כלל בהובלת מדריכה מקומית מבנות המונג או הדאו.
+  why_he: הדרך המהותית ביותר לראות את נוף המדרגות ולפגוש משפחות מקומיות, ולא רק לצלם
+    את העמק מנקודת תצפית
 markets:
 - name: Sapa Love Market
   area: Central square, in front of Sapa Stone Church
-  what: A Saturday-evening gathering in the town square where ethnic-minority performers sing
-    and dance; historically a courtship custom where young people from different villages
-    met, now largely a staged tourism performance rather than the original tradition.
-  why: Worth seeing for what it is honestly — a living piece of local culture that has been
-    reshaped into a weekly show, not the folk custom the name still advertises
+  what: A Saturday-evening gathering in the town square where ethnic-minority performers
+    sing and dance; historically a courtship custom where young people from different
+    villages met, now largely a staged tourism performance rather than the original
+    tradition.
+  why: Worth seeing for what it is honestly — a living piece of local culture that
+    has been reshaped into a weekly show, not the folk custom the name still advertises
   confidence: medium
   geocode_query: Sapa Stone Church square, Sapa, Vietnam
   sources:
   - https://www.ethosspirit.com/sapa-love-market
   name_he: שוק האהבה
   area_he: הכיכר המרכזית, מול כנסיית האבן
-  what_he: התכנסות בערבי שבת בכיכר העיירה, שבה מבצעים מבני המיעוטים שרים ורוקדים. היסטורית
-    זה היה מנהג חיזור שבו נפגשו צעירים מכפרים שונים, וכיום מדובר ברובו במופע תיירותי מבוים
-    ולא במסורת המקורית.
-  why_he: שווה לראות בדיוק כמו שהוא — פיסת תרבות מקומית חיה שעוצבה מחדש כמופע שבועי, ולא המנהג
-    העממי שהשם עדיין מבטיח
+  what_he: התכנסות בערבי שבת בכיכר העיירה, שבה מבצעים מבני המיעוטים שרים ורוקדים.
+    היסטורית זה היה מנהג חיזור שבו נפגשו צעירים מכפרים שונים, וכיום מדובר ברובו במופע
+    תיירותי מבוים ולא במסורת המקורית.
+  why_he: שווה לראות בדיוק כמו שהוא — פיסת תרבות מקומית חיה שעוצבה מחדש כמופע שבועי,
+    ולא המנהג העממי שהשם עדיין מבטיח
 restaurants:
 - name: Thang Co A Quynh
   kind: vietnamese
   signal: traveler_recommended
   dish: Thang co (horse stew)
   area: 15 Thach Son Street, Sapa town
-  what: A long-running local restaurant serving thang co, the H'mong horse-meat and offal
-    stew simmered with highland herbs, alongside other mountain specialities.
-  why: The most consistently recommended address in Sapa for this specific regional dish,
-    with an established following on Tripadvisor and local guides alike
+  what: A long-running local restaurant serving thang co, the H'mong horse-meat and
+    offal stew simmered with highland herbs, alongside other mountain specialities.
+  why: The most consistently recommended address in Sapa for this specific regional
+    dish, with an established following on Tripadvisor and local guides alike
   confidence: medium
   geocode_query: Thang Co A Quynh Restaurant, Thach Son Street, Sapa, Vietnam
   sources:
@@ -250,8 +259,49 @@ restaurants:
   location_precision: approximate
   name_he: תאנג קו א קווין
   area_he: רחוב תאק סון 15, העיירה סאפה
-  what_he: מסעדה מקומית ותיקה שמגישה תאנג קו — נזיד ההמונג מבשר סוס ומאיברים פנימיים, מבושל
-    עם עשבי ההרים — לצד מנות הרים אחרות.
+  what_he: מסעדה מקומית ותיקה שמגישה תאנג קו — נזיד ההמונג מבשר סוס ומאיברים פנימיים,
+    מבושל עם עשבי ההרים — לצד מנות הרים אחרות.
   why_he: הכתובת המומלצת ביותר בסאפה למנה האזורית הזו, עם קהל מבוסס בטריפאדוויזר ובמדריכים
     המקומיים כאחד
 hebrew_complete: true
+spa:
+- name: Nuages Spa
+  area: 7th floor, Hotel de la Coupole, 1 Hoang Lien, Sapa town
+  what: The spa inside the de la Coupole hotel, whose signature treatment is the Red
+    Dao herbal bath - a 30-minute soak in a wooden tub of mountain herbs, taken before
+    or after a massage.
+  why: The herbal bath is the one treatment in Sapa with no equivalent anywhere else
+    on this trip, and it is aimed squarely at legs that have just walked the Muong
+    Hoa valley
+  confidence: high
+  geocode_query: Hotel de la Coupole MGallery, Hoang Lien, Sapa, Vietnam
+  sources:
+  - https://mgallery.accor.com/en/hotels/A5V2/wellness-spa.html
+  - https://wanderlog.com/place/details/1729717
+  price_low: 27.0
+  price_unit: per_person
+  price_checked: '2026-10-08'
+  hours: 09:00-21:00 daily
+  hours_he: 09:00-21:00 כל יום
+  name_he: נואז' ספא
+  area_he: קומה 7, מלון דה לה קופול, 1 הואנג ליין, סאפה
+  what_he: הספא שבתוך מלון דה לה קופול, שהטיפול המזוהה איתו הוא האמבט הצמחי של בני
+    הדאו האדום — שלושים דקות באמבט עץ של צמחי הר, לפני עיסוי או אחריו.
+  why_he: האמבט הצמחי הוא הטיפול היחיד בסאפה שאין לו מקבילה באף תחנה אחרת בטיול, והוא
+    מכוון בדיוק לרגליים שסיימו ללכת בעמק מואנג הואה
+- name: Relax Massage and Spa Sapa
+  area: Sapa town centre
+  what: A town-centre massage house offering traditional Sapa massage, hot stone work
+    and the Red Dao herbal bath, at street prices rather than hotel prices.
+  why: The cheaper way to the same herbal bath, and the reviews single out genuinely
+    strong hands for deep tissue, which is what aching calves need
+  confidence: medium
+  geocode_query: Relax Massage and Spa, Sapa, Lao Cai, Vietnam
+  sources:
+  - https://wanderlog.com/place/details/8410093/relax-massage--spa-sapa
+  name_he: רילקס מסאז׳ וספא סאפה
+  area_he: מרכז העיר סאפה
+  what_he: בית עיסוי במרכז העיר שמציע עיסוי סאפה מסורתי, עבודת אבנים חמות ואמבט צמחי
+    של בני הדאו האדום, במחירי רחוב ולא במחירי מלון.
+  why_he: הדרך הזולה להגיע לאותו אמבט צמחי, והביקורות מציינות ידיים חזקות באמת לרקמות
+    עמוקות — וזה מה ששוקיים כואבות צריכות

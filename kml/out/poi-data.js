@@ -258,6 +258,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "08:00-17:00 (Nov-Mar); 07:30-17:30 Apr-Oct",
+          "hoursHe": "08:00-17:00 בחורף; 07:30-17:30 מאפריל עד אוקטובר",
           "weather": "medium",
           "limiter": "rain"
         },
@@ -285,6 +287,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "08:00-17:00 daily",
+          "hoursHe": "08:00-17:00 כל יום",
           "weather": "medium",
           "limiter": "rain"
         },
@@ -314,6 +318,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "08:00-17:00, closed Monday",
+          "hoursHe": "08:00-17:00, סגור ביום שני",
           "weather": "medium",
           "limiter": "rain"
         },
@@ -344,6 +350,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "08:00-11:00 (Sat to 11:30), closed Monday and Friday. Mausoleum itself shut for restoration until 2 Nov 2026, reopens 3 Nov; the square, stilt house and One Pillar Pagoda stay open",
+          "hoursHe": "08:00-11:00 (בשבת עד 11:30), סגור בימים שני ושישי. המאוזוליאום עצמו סגור לשיפוץ עד 2 בנובמבר 2026 ונפתח ב-3 בנובמבר; הכיכר, בית העמודים ופגודת העמוד האחד פתוחים",
           "weather": "medium",
           "limiter": "rain"
         }
@@ -373,6 +381,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "08:30-17:30, closed Monday",
+          "hoursHe": "08:30-17:30, סגור ביום שני",
           "weather": "high",
           "limiter": "rain"
         },
@@ -429,6 +439,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "Shows at 16:10, 17:20 and 18:30; about 50 minutes, no interval",
+          "hoursHe": "הצגות ב-16:10, ב-17:20 וב-18:30; כ-50 דקות, בלי הפסקה",
           "weather": "low",
           "limiter": "rain"
         },
@@ -457,6 +469,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "08:00-17:00 daily",
+          "hoursHe": "08:00-17:00 כל יום",
           "weather": "low",
           "limiter": "rain"
         },
@@ -551,7 +565,7 @@ const POI_DATA = {
           "why": "A free open-air gallery on the same street as the train-street cafes, so the two fit in one visit",
           "lat": 21.0340272,
           "lng": 105.8457157,
-          "approx": true,
+          "approx": false,
           "sources": [
             "https://vietnamnet.vn/en/phung-hung-mural-street-features-old-hanoi-E199459.html"
           ],
@@ -835,7 +849,7 @@ const POI_DATA = {
           "why": "Bun thang is a Hanoi dish rarely found elsewhere, and this is one of the long-running addresses for it, 300m from the lake. Open roughly 16:00 to 23:00",
           "lat": 21.032057,
           "lng": 105.8521518,
-          "approx": true,
+          "approx": false,
           "sources": [
             "https://www.tripadvisor.com/Restaurant_Review-g293924-d8845163-Reviews-Bun_Thang_Ba_Duc-Hanoi.html",
             "https://antoanthucpham.hanoi.gov.vn/bun-thang-ba-duc-giu-tron-net-tinh-te-cua-mon-an-cau-ky-bac-nhat-ha-thanh-239260410103331394.htm"
@@ -1051,6 +1065,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "06:00-18:00 daily",
+          "hoursHe": "06:00-18:00 כל יום",
           "weather": "medium",
           "limiter": "rain"
         },
@@ -1078,6 +1094,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "Friday to Sunday only, stalls from 18:30, busiest 19:30-22:00",
+          "hoursHe": "שישי עד ראשון בלבד, דוכנים מ-18:30, השיא בין 19:30 ל-22:00",
           "weather": "medium",
           "limiter": "rain"
         },
@@ -1801,6 +1819,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "Sundays only, 05:00-12:00, busiest 06:00-10:00",
+          "hoursHe": "בימי ראשון בלבד, 05:00-12:00, השיא בין 06:00 ל-10:00",
           "weather": "medium",
           "limiter": "rain"
         },
@@ -1828,6 +1848,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "Sundays only, from 04:00-05:00 until early afternoon, peak 06:00-07:00",
+          "hoursHe": "בימי ראשון בלבד, מ-04:00-05:00 עד אחר הצהריים המוקדם, השיא בין 06:00 ל-07:00",
           "weather": "medium",
           "limiter": "rain"
         }
@@ -1885,7 +1907,7 @@ const POI_DATA = {
       "restaurants": 1,
       "markets": 1,
       "nightlife": 0,
-      "spa": 0,
+      "spa": 2,
       "diving": 0,
       "logistics": 0,
       "contacts": 0
@@ -2098,6 +2120,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "About 07:30-17:00; the last ascent to the summit is around 15:00, and the schedule shifts with weather",
+          "hoursHe": "בסביבות 07:30-17:00; העלייה האחרונה לפסגה סביב 15:00, והלוח משתנה לפי מזג האוויר",
           "weather": "medium",
           "limiter": "wind"
         },
@@ -2246,7 +2270,66 @@ const POI_DATA = {
         }
       ],
       "nightlife": [],
-      "spa": [],
+      "spa": [
+        {
+          "name": "Nuages Spa",
+          "area": "7th floor, Hotel de la Coupole, 1 Hoang Lien, Sapa town",
+          "what": "The spa inside the de la Coupole hotel, whose signature treatment is the Red Dao herbal bath - a 30-minute soak in a wooden tub of mountain herbs, taken before or after a massage.",
+          "why": "The herbal bath is the one treatment in Sapa with no equivalent anywhere else on this trip, and it is aimed squarely at legs that have just walked the Muong Hoa valley",
+          "lat": null,
+          "lng": null,
+          "approx": false,
+          "sources": [
+            "https://mgallery.accor.com/en/hotels/A5V2/wellness-spa.html",
+            "https://wanderlog.com/place/details/1729717"
+          ],
+          "tier": null,
+          "nameHe": "נואז' ספא",
+          "areaHe": "קומה 7, מלון דה לה קופול, 1 הואנג ליין, סאפה",
+          "whatHe": "הספא שבתוך מלון דה לה קופול, שהטיפול המזוהה איתו הוא האמבט הצמחי של בני הדאו האדום — שלושים דקות באמבט עץ של צמחי הר, לפני עיסוי או אחריו.",
+          "whyHe": "האמבט הצמחי הוא הטיפול היחיד בסאפה שאין לו מקבילה באף תחנה אחרת בטיול, והוא מכוון בדיוק לרגליים שסיימו ללכת בעמק מואנג הואה",
+          "priceUnit": "per_person",
+          "priceLow": 27.0,
+          "priceHigh": null,
+          "priceChecked": "2026-10-08",
+          "avoid": false,
+          "kind": null,
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "hours": "09:00-21:00 daily",
+          "hoursHe": "09:00-21:00 כל יום",
+          "weather": "low",
+          "limiter": "rain"
+        },
+        {
+          "name": "Relax Massage and Spa Sapa",
+          "area": "Sapa town centre",
+          "what": "A town-centre massage house offering traditional Sapa massage, hot stone work and the Red Dao herbal bath, at street prices rather than hotel prices.",
+          "why": "The cheaper way to the same herbal bath, and the reviews single out genuinely strong hands for deep tissue, which is what aching calves need",
+          "lat": null,
+          "lng": null,
+          "approx": false,
+          "sources": [
+            "https://wanderlog.com/place/details/8410093/relax-massage--spa-sapa"
+          ],
+          "tier": null,
+          "nameHe": "רילקס מסאז׳ וספא סאפה",
+          "areaHe": "מרכז העיר סאפה",
+          "whatHe": "בית עיסוי במרכז העיר שמציע עיסוי סאפה מסורתי, עבודת אבנים חמות ואמבט צמחי של בני הדאו האדום, במחירי רחוב ולא במחירי מלון.",
+          "whyHe": "הדרך הזולה להגיע לאותו אמבט צמחי, והביקורות מציינות ידיים חזקות באמת לרקמות עמוקות — וזה מה ששוקיים כואבות צריכות",
+          "priceUnit": null,
+          "priceLow": null,
+          "priceHigh": null,
+          "avoid": false,
+          "kind": null,
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "weather": "low",
+          "limiter": "rain"
+        }
+      ],
       "diving": [],
       "logistics": [],
       "contacts": []
@@ -2844,6 +2927,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "07:00-16:30 from October to December; 06:00-16:45 April to September",
+          "hoursHe": "07:00-16:30 מאוקטובר עד דצמבר; 06:00-16:45 מאפריל עד ספטמבר",
           "weather": "medium",
           "limiter": "rain"
         },
@@ -2873,6 +2958,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "08:30-18:30 daily",
+          "hoursHe": "08:30-18:30 כל יום",
           "weather": "medium",
           "limiter": "rain"
         },
@@ -2902,6 +2989,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "06:00-19:00 daily",
+          "hoursHe": "06:00-19:00 כל יום",
           "weather": "high",
           "limiter": "rain"
         }
@@ -3229,6 +3318,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "Last boat leaves at 16:30; arrive before 15:00 so the visit is not rushed",
+          "hoursHe": "הסירה האחרונה יוצאת ב-16:30; כדאי להגיע לפני 15:00 כדי לא לרוץ",
           "weather": "medium",
           "limiter": "flood"
         },
@@ -3257,6 +3348,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "07:30-16:30, last entry 16:30",
+          "hoursHe": "07:30-16:30, כניסה אחרונה ב-16:30",
           "weather": "medium",
           "limiter": "flood"
         }
@@ -3679,7 +3772,7 @@ const POI_DATA = {
       "restaurants": 1,
       "markets": 1,
       "nightlife": 0,
-      "spa": 0,
+      "spa": 1,
       "diving": 0,
       "logistics": 1,
       "contacts": 0
@@ -3894,6 +3987,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "07:00-17:00 in the rainy season; 06:30-17:30 in the dry",
+          "hoursHe": "07:00-17:00 בעונת הגשמים; 06:30-17:30 בעונה היבשה",
           "weather": "medium",
           "limiter": "rain"
         },
@@ -3922,6 +4017,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "07:00-17:30 daily",
+          "hoursHe": "07:00-17:30 כל יום",
           "weather": "medium",
           "limiter": "rain"
         },
@@ -3950,6 +4047,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "07:00-20:00 daily, free",
+          "hoursHe": "07:00-20:00 כל יום, בחינם",
           "weather": "medium",
           "limiter": "rain"
         }
@@ -3980,6 +4079,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "06:30-18:00 daily",
+          "hoursHe": "06:30-18:00 כל יום",
           "weather": "high",
           "limiter": "rain"
         },
@@ -4130,7 +4231,36 @@ const POI_DATA = {
         }
       ],
       "nightlife": [],
-      "spa": [],
+      "spa": [
+        {
+          "name": "Moonshine Spa",
+          "area": "20 Pham Ngu Lao, Phu Hoi ward",
+          "what": "A five-room spa in the hotel strip south of the river, with couples rooms, a jacuzzi and a salt scrub alongside the usual deep tissue, hot stone and Thai menu.",
+          "why": "Hue is two days of walking open-air tombs and a citadel in November rain, and this is the best-reviewed place in town to put the legs back together afterwards",
+          "lat": null,
+          "lng": null,
+          "approx": false,
+          "sources": [
+            "https://wanderlog.com/place/details/10381016"
+          ],
+          "tier": null,
+          "nameHe": "מונשיין ספא",
+          "areaHe": "20 פאם נגו לאו, שכונת פו הוי",
+          "whatHe": "ספא בן חמישה חדרים ברצועת המלונות שדרומית לנהר, עם חדרים לזוגות, ג׳קוזי ופילינג מלח לצד תפריט הרקמות העמוקות, האבנים החמות והתאילנדי.",
+          "whyHe": "הואה היא שני ימים של הליכה בקברים פתוחים ובמצודה תחת גשם נובמבר, וזה המקום עם הביקורות הטובות בעיר להרכיב בו את הרגליים מחדש",
+          "priceUnit": "per_hour",
+          "priceLow": 17.0,
+          "priceHigh": null,
+          "priceChecked": "2026-10-08",
+          "avoid": false,
+          "kind": null,
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "weather": "low",
+          "limiter": "rain"
+        }
+      ],
       "diving": [],
       "logistics": [
         {
@@ -4396,6 +4526,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "Ticket booths 07:30 to about 20:00; the heritage houses and assembly halls themselves 08:30-18:00",
+          "hoursHe": "דלפקי הכרטיסים 07:30 עד סביבות 20:00; הבתים ההיסטוריים ואולמות האספה עצמם 08:30-18:00",
           "weather": "medium",
           "limiter": "rain"
         },
@@ -4424,6 +4556,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "08:00-22:00; last cable car down at 22:00",
+          "hoursHe": "08:00-22:00; הרכבל האחרון למטה ב-22:00",
           "weather": "medium",
           "limiter": "wind"
         }
@@ -4453,6 +4587,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "07:00-17:30 daily, lift included",
+          "hoursHe": "07:00-17:30 כל יום, כולל המעלית",
           "weather": "high",
           "limiter": "rain"
         },
@@ -4850,6 +4986,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "06:00-22:00; the food hall is busiest 07:00-14:00",
+          "hoursHe": "06:00-22:00; אולם האוכל בשיאו בין 07:00 ל-14:00",
           "weather": "medium",
           "limiter": "rain"
         },
@@ -4878,6 +5016,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "17:00-23:00, busiest 19:00-21:00",
+          "hoursHe": "17:00-23:00, השיא בין 19:00 ל-21:00",
           "weather": "medium",
           "limiter": "rain"
         }
@@ -5289,6 +5429,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "08:00-17:00 daily",
+          "hoursHe": "08:00-17:00 כל יום",
           "weather": "medium",
           "limiter": "rain"
         },
@@ -5762,8 +5904,8 @@ const POI_DATA = {
       "street_food": 2,
       "restaurants": 0,
       "markets": 2,
-      "nightlife": 0,
-      "spa": 0,
+      "nightlife": 2,
+      "spa": 1,
       "diving": 0,
       "logistics": 1,
       "contacts": 0
@@ -5977,6 +6119,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "08:30-19:00 daily",
+          "hoursHe": "08:30-19:00 כל יום",
           "weather": "medium",
           "limiter": "rain"
         },
@@ -6265,12 +6409,100 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "From about 17:00; the Nguyen Thi Minh Khai stalls run 18:00-23:00",
+          "hoursHe": "מסביבות 17:00; הדוכנים ב-Nguyen Thi Minh Khai פועלים 18:00-23:00",
           "weather": "medium",
           "limiter": "rain"
         }
       ],
-      "nightlife": [],
-      "spa": [],
+      "nightlife": [
+        {
+          "name": "Maze Bar (100 Roofs Cafe)",
+          "area": "Da Lat city centre, among the shop-houses",
+          "what": "A bar built as a labyrinth: five floors of small rooms, dark passages and spiral staircases wound through a shop-house, serving locally brewed beer. A cafe by day.",
+          "why": "The most distinctive room in Da Lat with nothing like it elsewhere on the route - the building itself is the attraction, and the acoustic sets run Thursday to Saturday",
+          "lat": 11.9446106,
+          "lng": 108.4375604,
+          "approx": true,
+          "sources": [
+            "https://theculturetrip.com/asia/vietnam/articles/the-8-best-bars-in-dalat-vietnam",
+            "https://dalat.app/blog/guides/da-lat-nightlife-bars-live-music-guide"
+          ],
+          "tier": null,
+          "nameHe": "מייז בר (בית הקפה 100 גגות)",
+          "areaHe": "מרכז העיר דה לאט, בין בתי החנויות",
+          "whatHe": "בר שבנוי כמבוך: חמש קומות של חדרים קטנים, מסדרונות אפלים וגרמי מדרגות מתפתלים שמשתרגים בתוך בית חנות, עם בירה מקומית. בית קפה בשעות היום.",
+          "whyHe": "החדר המובהק ביותר בדה לאט ואין לו דומה בשאר המסלול — הבניין עצמו הוא האטרקציה, וההופעות האקוסטיות רצות מחמישי עד שבת",
+          "priceUnit": null,
+          "priceLow": null,
+          "priceHigh": null,
+          "avoid": false,
+          "kind": null,
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "hours": "Live sets Thursday to Saturday, 20:00 to midnight; cover 50,000-100,000 VND",
+          "hoursHe": "הופעות חיות מחמישי עד שבת, 20:00 עד חצות; דמי כניסה 50,000-100,000 דונג",
+          "weather": "low",
+          "limiter": "rain"
+        },
+        {
+          "name": "Larry's Bar",
+          "area": "Dalat Palace hotel, Tran Phu",
+          "what": "The cellar bar of the colonial-era Dalat Palace hotel, with a long cocktail list and live music, in a stone-walled room under the lobby.",
+          "why": "The quiet alternative on a cold highland night, and the only bar on the route that sits inside a 1920s hotel",
+          "lat": null,
+          "lng": null,
+          "approx": false,
+          "sources": [
+            "https://theculturetrip.com/asia/vietnam/articles/the-8-best-bars-in-dalat-vietnam"
+          ],
+          "tier": null,
+          "nameHe": "הבר של לארי",
+          "areaHe": "מלון דה לאט פאלאס, טראן פו",
+          "whatHe": "בר המרתף של מלון דה לאט פאלאס מתקופת הקולוניה, עם רשימת קוקטיילים ארוכה ומוזיקה חיה, בחדר עם קירות אבן מתחת ללובי.",
+          "whyHe": "החלופה השקטה בלילה קר ברמה, והבר היחיד במסלול שיושב בתוך מלון משנות העשרים",
+          "priceUnit": null,
+          "priceLow": null,
+          "priceHigh": null,
+          "avoid": false,
+          "kind": null,
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "weather": "low",
+          "limiter": "rain"
+        }
+      ],
+      "spa": [
+        {
+          "name": "Charm Spa Grand Da Lat",
+          "area": "Da Lat city centre",
+          "what": "The Da Lat branch of a Vietnamese spa chain, running full-length body treatments in a hotel-grade setting rather than a shopfront.",
+          "why": "Da Lat is where the canyoning and the Easy Rider day land, and this is the one place in town reviewed consistently as a proper spa rather than a quick foot rub",
+          "lat": null,
+          "lng": null,
+          "approx": false,
+          "sources": [
+            "https://uk.trip.com/things-to-do/experiences/dalat-spa-massage"
+          ],
+          "tier": null,
+          "nameHe": "צ׳ארם ספא גרנד דה לאט",
+          "areaHe": "מרכז העיר דה לאט",
+          "whatHe": "הסניף הדה-לאטי של רשת ספא ויאטנמית, שמריצה טיפולי גוף מלאים במסגרת של מלון ולא של חלון ראווה.",
+          "whyHe": "דה לאט היא התחנה שבה נוחתים הקניונינג ויום האופנועים, וזה המקום היחיד בעיר שמקבל ביקורות עקביות כספא אמיתי ולא כשפשוף רגליים זריז",
+          "priceUnit": null,
+          "priceLow": null,
+          "priceHigh": null,
+          "avoid": false,
+          "kind": null,
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "weather": "low",
+          "limiter": "rain"
+        }
+      ],
       "diving": [],
       "logistics": [
         {
@@ -6322,7 +6554,7 @@ const POI_DATA = {
       "restaurants": 5,
       "markets": 2,
       "nightlife": 3,
-      "spa": 0,
+      "spa": 2,
       "diving": 0,
       "logistics": 3,
       "contacts": 0
@@ -6535,6 +6767,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "08:00-16:30 daily",
+          "hoursHe": "08:00-16:30 כל יום",
           "weather": "medium",
           "limiter": "rain"
         },
@@ -6591,6 +6825,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "07:00-17:00 daily",
+          "hoursHe": "07:00-17:00 כל יום",
           "weather": "high",
           "limiter": "rain"
         },
@@ -6618,6 +6854,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "07:30-17:30 daily",
+          "hoursHe": "07:30-17:30 כל יום",
           "weather": "high",
           "limiter": "rain"
         }
@@ -6959,6 +7197,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "06:00-18:00 for the indoor hall; the street stalls outside run later",
+          "hoursHe": "06:00-18:00 באולם המקורה; הדוכנים ברחוב שמסביב ממשיכים אחר כך",
           "weather": "medium",
           "limiter": "rain"
         },
@@ -7077,7 +7317,63 @@ const POI_DATA = {
           "limiter": "rain"
         }
       ],
-      "spa": [],
+      "spa": [
+        {
+          "name": "Temple Leaf Spa",
+          "area": "Hai Ba Trung, District 1",
+          "what": "A stand-alone spa with its own training school, a sauna complex with infrared, Himalayan salt and snow rooms, and treatments done to hotel-spa standard.",
+          "why": "Ranked first among the city's spas, and the staff all come through its own school, which is why the service is consistent rather than luck of the draw",
+          "lat": null,
+          "lng": null,
+          "approx": false,
+          "sources": [
+            "https://wanderlog.com/place/details/856913/temple-leaf-spa",
+            "https://localvietnam.com/ho-chi-minh-city/massage-spa-in-ho-chi-minh-city/"
+          ],
+          "tier": null,
+          "nameHe": "טמפל ליף ספא",
+          "areaHe": "האי בא טרונג, מחוז 1",
+          "whatHe": "ספא עצמאי עם בית ספר הכשרה משלו, מתחם סאונה שכולל חדרי אינפרא-אדום, מלח הימלאיה ושלג, וטיפולים ברמה של ספא מלון.",
+          "whyHe": "מדורג ראשון בין הספא של העיר, וכל הצוות עובר דרך בית הספר שלו — ולכן השירות עקבי ולא הגרלה",
+          "priceUnit": null,
+          "priceLow": null,
+          "priceHigh": null,
+          "avoid": false,
+          "kind": null,
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "weather": "low",
+          "limiter": "rain"
+        },
+        {
+          "name": "Noir Spa",
+          "area": "District 1",
+          "what": "A spa whose therapists are blind, working in dim light or in complete sensory darkness, with tea and panna cotta afterwards. The sister project of the Noir restaurant.",
+          "why": "Not a gimmick but a different sense of touch entirely, and the kind of thing that stays with you longer than the massage does",
+          "lat": null,
+          "lng": null,
+          "approx": false,
+          "sources": [
+            "https://www.klook.com/activity/31994-noir-spa-dark-experience-ho-chi-minh-city/"
+          ],
+          "tier": null,
+          "nameHe": "נואר ספא",
+          "areaHe": "מחוז 1",
+          "whatHe": "ספא שהמטפלים בו עיוורים, ועובדים באור עמום או בחשכה חושית מלאה, ובסוף תה ופאנה קוטה. פרויקט אחות של מסעדת נואר.",
+          "whyHe": "לא גימיק אלא חוש מגע אחר לגמרי, ומהדברים שנשארים איתך יותר מהעיסוי עצמו",
+          "priceUnit": null,
+          "priceLow": null,
+          "priceHigh": null,
+          "avoid": false,
+          "kind": null,
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "weather": "low",
+          "limiter": "rain"
+        }
+      ],
       "diving": [],
       "logistics": [
         {
@@ -7400,6 +7696,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "Boats gather from 02:00-03:00 and the market peaks 04:00-06:00; be on the water by 05:00",
+          "hoursHe": "הסירות מתכנסות מ-02:00-03:00 והשוק בשיאו בין 04:00 ל-06:00; כדאי להיות על המים עד 05:00",
           "weather": "medium",
           "limiter": "rain"
         }
@@ -7571,8 +7869,8 @@ const POI_DATA = {
       "street_food": 0,
       "restaurants": 2,
       "markets": 1,
-      "nightlife": 0,
-      "spa": 0,
+      "nightlife": 1,
+      "spa": 2,
       "diving": 8,
       "logistics": 1,
       "contacts": 0
@@ -7786,6 +8084,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "09:00-17:00, with the cars stopped between 12:00 and 13:00",
+          "hoursHe": "09:00-17:00, והקרונות עוצרים בין 12:00 ל-13:00",
           "weather": "medium",
           "limiter": "wind"
         }
@@ -7816,6 +8116,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "09:00-16:00 daily",
+          "hoursHe": "09:00-16:00 כל יום",
           "weather": "high",
           "limiter": "rain"
         }
@@ -7904,12 +8206,104 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "From about 17:00 until midnight, daily",
+          "hoursHe": "מסביבות 17:00 עד חצות, כל יום",
           "weather": "medium",
           "limiter": "rain"
         }
       ],
-      "nightlife": [],
-      "spa": [],
+      "nightlife": [
+        {
+          "name": "Sunset Town night street",
+          "area": "An Thoi, southern tip of the island",
+          "what": "A purpose-built Mediterranean-style seafront quarter: a food street, beachfront bars, the Kiss Bridge, large evening shows and a nightly five-minute firework display.",
+          "why": "The only organised night out on the island, and also where the An Thoi dive boats leave from - so the dive day and the evening are the same trip south",
+          "lat": 10.0294252,
+          "lng": 104.0083142,
+          "approx": false,
+          "sources": [
+            "https://visitphuquoc.com.vn/en/explore-the-nightlife-at-sunset-town-9843",
+            "https://localvietnam.com/phu-quoc/nightlife-in-phu-quoc/"
+          ],
+          "tier": null,
+          "nameHe": "רחוב הלילה של סאנסט טאון",
+          "areaHe": "אן תוי, הקצה הדרומי של האי",
+          "whatHe": "רובע חוף בנוי מראש בסגנון מדיטרני: רחוב אוכל, ברים על החול, גשר הנשיקה, מופעי ערב גדולים ומטח זיקוקים של חמש דקות כל לילה.",
+          "whyHe": "היציאה המסודרת היחידה באי, וזה גם המקום שממנו יוצאות סירות הצלילה לאן תוי — כך שיום הצלילה והערב הם אותה נסיעה דרומה",
+          "priceUnit": null,
+          "priceLow": null,
+          "priceHigh": null,
+          "avoid": false,
+          "kind": null,
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "hours": "Fireworks at 21:30, about five minutes; the bars and food street run from late afternoon",
+          "hoursHe": "זיקוקים ב-21:30, כחמש דקות; הברים ורחוב האוכל פועלים מאחר הצהריים",
+          "weather": "low",
+          "limiter": "rain"
+        }
+      ],
+      "spa": [
+        {
+          "name": "Phu Quoc Day Spa",
+          "area": "Duong Dong",
+          "what": "The island's most-reviewed salon. Every session opens with a herbal foot soak and closes with tea and fruit; the signature is a two-hour hot stone and full-body treatment.",
+          "why": "The island is the last stop before the flight home, and this is where the sunburn and the boat days get undone - book away from 19:00-21:00, when it backs up",
+          "lat": 10.2001711,
+          "lng": 103.9646577,
+          "approx": false,
+          "sources": [
+            "https://vietnamspot.ru/en/blog/phu-quoc-spa"
+          ],
+          "tier": null,
+          "nameHe": "פו קוק דיי ספא",
+          "areaHe": "דואונג דונג",
+          "whatHe": "הסלון עם הכי הרבה ביקורות באי. כל טיפול נפתח בהשריית רגליים בצמחים ונסגר בתה ופירות; הטיפול המזוהה הוא שעתיים של אבנים חמות ועיסוי גוף מלא.",
+          "whyHe": "האי הוא התחנה האחרונה לפני הטיסה הביתה, וכאן מפרקים את הכוויות ואת ימי הסירה — כדאי לקבוע מחוץ ל-19:00-21:00, שבהן נוצר תור",
+          "priceUnit": "per_person",
+          "priceLow": 23.0,
+          "priceHigh": null,
+          "priceChecked": "2026-10-08",
+          "avoid": false,
+          "kind": null,
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "weather": "low",
+          "limiter": "rain"
+        },
+        {
+          "name": "Cocobox Spa",
+          "area": "Central Duong Dong",
+          "what": "A central Duong Dong spa doing Swedish, Thai, deep tissue and hot stone work, with a private couples room.",
+          "why": "Open until late, which matters on an island where the dive boats get back in the afternoon and dinner is at sunset",
+          "lat": null,
+          "lng": null,
+          "approx": false,
+          "sources": [
+            "https://vietnamspot.ru/en/blog/phu-quoc-spa"
+          ],
+          "tier": null,
+          "nameHe": "קוקובוקס ספא",
+          "areaHe": "מרכז דואונג דונג",
+          "whatHe": "ספא במרכז דואונג דונג שעושה עיסוי שוודי, תאילנדי, רקמות עמוקות ואבנים חמות, עם חדר זוגי פרטי.",
+          "whyHe": "פתוח עד שעה מאוחרת, וזה משנה באי שבו סירות הצלילה חוזרות אחר הצהריים והארוחה היא בשקיעה",
+          "priceUnit": "per_hour",
+          "priceLow": 12.0,
+          "priceHigh": null,
+          "priceChecked": "2026-10-08",
+          "avoid": false,
+          "kind": null,
+          "isDish": false,
+          "signal": null,
+          "video": null,
+          "hours": "09:00-22:00 daily",
+          "hoursHe": "09:00-22:00 כל יום",
+          "weather": "low",
+          "limiter": "rain"
+        }
+      ],
       "diving": [
         {
           "name": "An Thoi archipelago - the dive area",
@@ -8028,9 +8422,9 @@ const POI_DATA = {
           "area": "Southern Phu Quoc, An Thoi; hotel pickup included",
           "what": "A direct dive club, not booked through an agency, which sent a detailed written quote - 110 USD per person for two dives of about 45-50 minutes, covering gear, a dive master, hotel pickup and return, water, fruit and lunch on the boat. Soft drinks and beer are extra and served after the dives. Payment is to the guide on the boat in cash, by Vietnamese bank transfer, or by card through OnePay with a 3 percent fee. For an uncertified diver it runs Discover Scuba one-to-one, 6 metres maximum, about 25 minutes a dive, age 10 and up, barred for heart, lung or blood-pressure conditions and pregnancy.",
           "why": "The only quoted price in this tab, and it sits inside the normal Phu Quoc range of 90 to 130 USD for two fun dives. Two things are still open - the club has not given a phone number or website, and the quote prices a certified diver, not the Discover Scuba slot, so that figure needs asking for. Note also that two agencies already offered An Thoi diving inside their packages, so check you are not buying the same day twice",
-          "lat": null,
-          "lng": null,
-          "approx": false,
+          "lat": 10.1942845,
+          "lng": 103.9674837,
+          "approx": true,
           "sources": [
             "https://localvietnam.com/phu-quoc/diving-in-phu-quoc/"
           ],
@@ -8056,8 +8450,8 @@ const POI_DATA = {
           "area": "An Thoi archipelago, below the cable car",
           "what": "Two separate sites on the same island. North Pineapple Point reaches about 18 metres over a rocky bottom carrying a large colony of whip corals, with cuttlefish and reef fish. South Pineapple Point drops to 35 metres and is the deepest dive in Phu Quoc.",
           "why": "The north site is the better-value dive here for a PADI Open Water diver - its 18-metre bottom is exactly the Open Water limit, so the whole site is in range. The south site is not - 35 metres needs Advanced, and no amount of good visibility changes it",
-          "lat": null,
-          "lng": null,
+          "lat": 9.9920077,
+          "lng": 104.0124425,
           "approx": false,
           "sources": [
             "https://www.flipperdiving.com/phu-quoc-dive-spots/",
@@ -8112,9 +8506,9 @@ const POI_DATA = {
           "area": "An Thoi archipelago, the island closest to An Thoi town",
           "what": "The nearest island to An Thoi town, which makes it the shortest boat ride in the archipelago. Divers off its western shore report pieces of antique porcelain scattered around a sunken ship.",
           "why": "The one site here with something other than reef to look at, and the closest to port - which matters on a day the sea turns and the boat needs a short run home",
-          "lat": null,
-          "lng": null,
-          "approx": false,
+          "lat": 9.996007,
+          "lng": 104.0104165,
+          "approx": true,
           "sources": [
             "https://saigontourism.com.vn/a-guide-to-diving-the-phu-quoc-islands/",
             "https://phuquocdivezone.com/dive-sites-phu-quoc/"

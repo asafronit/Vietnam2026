@@ -83,12 +83,30 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-hoi-an-diving">
+      <IconStyle>
+        <color>ffe632f0</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/swimming.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-hoi-an-logistics">
       <IconStyle>
         <color>ffe632f0</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hoi-an-contacts">
+      <IconStyle>
+        <color>ffe632f0</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -258,7 +276,7 @@
       <Placemark>
         <name>Co Chu Nho</name>
         <styleUrl>#s-hoi-an-street_food</styleUrl>
-        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; Da Nang<br/><br/>A small Da Nang street-food shop that entered the Bib Gourmand list in the most recent selection.<br/><b>Why it's here:</b> One of only three new Da Nang entries in the 2026 guide, so it has not yet been found by the tour groups<br/><a href="https://guide.michelin.com/vn/en/da-nang-region/da-nang_2984390/restaurant/co-chu-nho">source 1</a> &middot; <a href="https://guide.michelin.com/us/en/da-nang-region/restaurants/bib-gourmand">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.0461704,108.2454747&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 16.0461704, 108.2454747]]></description>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; Da Nang<br/><br/>A small Da Nang street-food shop that entered the Bib Gourmand list in the most recent selection.<br/><b>Why it's here:</b> A Bib Gourmand that sits away from the riverfront circuit, so it has not been reshaped by tour-group traffic the way the central addresses have<br/><a href="https://guide.michelin.com/vn/en/da-nang-region/da-nang_2984390/restaurant/co-chu-nho">source 1</a> &middot; <a href="https://guide.michelin.com/us/en/da-nang-region/restaurants/bib-gourmand">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.0461704,108.2454747&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 16.0461704, 108.2454747]]></description>
         <Point>
           <coordinates>108.2454747,16.0461704,0</coordinates>
         </Point>

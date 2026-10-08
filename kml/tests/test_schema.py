@@ -3,6 +3,7 @@ from kmlpool.schema import (
     validate_record,
     validate_hotels,
     validate_hebrew,
+    is_placeless,
     is_shippable,
 )
 
@@ -212,3 +213,84 @@ def test_records_the_web_pool_drops_are_not_counted():
     """A low-confidence record never renders, so it cannot leave a visible hole."""
     dropped = he_rec(confidence="low")
     assert validate_hebrew("hanoi", [dropped], declared_complete=True) == []
+
+
+# ---------- hours ----------
+# Partial coverage is the design: most records carry no hours, and the page
+# simply omits the row. What these pin down is that a value, when present,
+# cannot be nonsense or untranslated.
+
+
+def test_hours_on_a_venue_is_accepted():
+    assert validate_record(food(hours="10:30-14:30", hours_he="10:30-14:30")) == []
+
+
+def test_hours_on_a_dish_is_rejected():
+    errs = validate_record(food(is_dish=True, hours="10:30-14:30", hours_he="10:30-14:30"))
+    assert any("hours do not apply" in e for e in errs)
+
+
+def test_hours_on_a_contact_is_rejected():
+    rec = Record(
+        name="Kelly", category="contacts", area="Remote",
+        what="The contact handling the e-visa application.",
+        why="The named human for the one document the trip needs",
+        confidence="medium", sources=["https://example.com/a"],
+        whatsapp="+84947222598", hours="09:00-17:00", hours_he="09:00-17:00",
+    )
+    errs = validate_record(rec)
+    assert any("hours do not apply" in e for e in errs)
+
+
+def test_blank_hours_is_rejected():
+    errs = validate_record(food(hours="   ", hours_he="x"))
+    assert any("hours is empty" in e for e in errs)
+
+
+def test_hours_he_without_hours_is_rejected():
+    errs = validate_record(food(hours_he="10:30-14:30"))
+    assert any("hours_he without hours" in e for e in errs)
+
+
+def test_hebrew_complete_requires_hours_he_when_hours_are_set():
+    rec = food(what_he="מסעדה", why_he="מישלין", hours="10:30-14:30")
+    errs = validate_hebrew("hanoi", [rec], True)
+    assert any("hours_he" in e for e in errs)
+
+
+def test_hebrew_complete_ignores_hours_he_when_there_are_no_hours():
+    rec = food(what_he="מסעדה", why_he="מישלין")
+    assert validate_hebrew("hanoi", [rec], True) == []
+
+
+def test_hebrew_complete_passes_with_both_hours_and_twin():
+    rec = food(what_he="מסעדה", why_he="מישלין", hours="10:30-14:30", hours_he="10:30-14:30")
+    assert validate_hebrew("hanoi", [rec], True) == []
+
+
+# ---------- placeless ----------
+# validate_record and cmd_geocode each had their own idea of this and drifted:
+# the first contact in the pool was handed a pin in Hanoi, and that pin pushed
+# the pooled KML to an eleventh layer, one over what My Maps accepts.
+
+
+def test_dish_is_placeless():
+    assert is_placeless(food(is_dish=True))
+
+
+def test_contact_is_placeless():
+    rec = Record(
+        name="Kelly", category="contacts", area="Works remotely",
+        what="The contact handling the e-visa application.",
+        why="The named human for the one document the trip needs",
+        confidence="medium", sources=["https://example.com/a"], whatsapp="+84947222598",
+    )
+    assert is_placeless(rec)
+
+
+def test_ordinary_venue_is_not_placeless():
+    assert not is_placeless(food())
+
+
+def test_placeless_record_may_omit_geocode_query():
+    assert validate_record(food(is_dish=True, geocode_query="")) == []

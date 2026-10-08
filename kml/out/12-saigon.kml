@@ -83,12 +83,30 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-saigon-diving">
+      <IconStyle>
+        <color>ff750000</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/swimming.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-saigon-logistics">
       <IconStyle>
         <color>ff750000</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-saigon-contacts">
+      <IconStyle>
+        <color>ff750000</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -289,9 +307,17 @@
         </Point>
       </Placemark>
       <Placemark>
+        <name>Terminal T3 is a separate building, not a gate</name>
+        <styleUrl>#s-saigon-logistics</styleUrl>
+        <description><![CDATA[<b>Ho Chi Minh City</b> &middot; Tan Son Nhat International Airport (SGN)<br/><br/>T3 opened in April 2025 and handles domestic flights only. There is no internal connection to T1 and T2 - moving between them means leaving the airport and going 3.3 to 3.8 km on public roads, 15 to 20 minutes by shuttle bus and longer in traffic. Vietnam Airlines domestic departures use T3; international departures stay at T2.<br/><b>Why it's here:</b> The single easiest way to miss a flight here. A domestic leg connecting to or from an international one is not a walk between gates - budget an hour on the ground, not fifteen minutes, and confirm which terminal the ticket says<br/><a href="https://www.traveloka.com/en-au/explore/tips/ho-chi-minh-city-airport-tan-son-nhat-airport-terminal-3/542434">source 1</a> &middot; <a href="https://authentiktravel.com/tan-son-nhat-t3-terminal">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.8179793,106.6562645&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.8179793, 106.6562645]]></description>
+        <Point>
+          <coordinates>106.6562645,10.8179793,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
         <name>No airport metro link yet</name>
         <styleUrl>#s-saigon-logistics</styleUrl>
-        <description><![CDATA[<b>Ho Chi Minh City</b> &middot; Tan Son Nhat International Airport (SGN)<br/><br/>Saigon's first metro line (Line 1, Ben Thanh-Suoi Tien) opened in December 2024, but no metro or rail line reaches the airport; a dedicated airport link is not expected until around 2030.<br/><b>Why it's here:</b> Rules out the metro as an airport option, which travelers researching the new 2024 line sometimes assume is already connected<br/><a href="https://aifly.one/2026/03/ho-chi-minh-city-tan-son-nhat-airport-guide/">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.8179793,106.6562645&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.8179793, 106.6562645]]></description>
+        <description><![CDATA[<b>Ho Chi Minh City</b> &middot; Tan Son Nhat International Airport (SGN)<br/><br/>Saigon's first metro line (Line 1, Ben Thanh-Suoi Tien) opened in December 2024, but no metro or rail line reaches the airport; a dedicated airport link is not expected until around 2030. Two underground stations serving all three terminals are planned on the Tan Son Nhat-Phu Huu line, still unbuilt. Long Thanh, the new airport out in Dong Nai, does not open commercially until 1 December 2026.<br/><b>Why it's here:</b> Rules out the metro as an airport option, which travelers researching the new 2024 line sometimes assume is already connected - and rules out Long Thanh for this trip<br/><a href="https://aifly.one/2026/03/ho-chi-minh-city-tan-son-nhat-airport-guide/">source 1</a> &middot; <a href="https://e.vnexpress.net/news/news/traffic/ho-chi-minh-city-unveils-underground-metro-stations-to-link-all-3-tan-son-nhat-airport-terminals-5102103.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.8179793,106.6562645&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.8179793, 106.6562645]]></description>
         <Point>
           <coordinates>106.6562645,10.8179793,0</coordinates>
         </Point>

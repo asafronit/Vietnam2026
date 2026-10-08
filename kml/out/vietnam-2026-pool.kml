@@ -83,12 +83,30 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-hanoi-diving">
+      <IconStyle>
+        <color>ff4b19e6</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/swimming.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-hanoi-logistics">
       <IconStyle>
         <color>ff4b19e6</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hanoi-contacts">
+      <IconStyle>
+        <color>ff4b19e6</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -209,12 +227,30 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-ha-giang-diving">
+      <IconStyle>
+        <color>ff3182f5</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/swimming.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-ha-giang-logistics">
       <IconStyle>
         <color>ff3182f5</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-giang-contacts">
+      <IconStyle>
+        <color>ff3182f5</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -335,12 +371,30 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-sapa-diving">
+      <IconStyle>
+        <color>ff19e1ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/swimming.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-sapa-logistics">
       <IconStyle>
         <color>ff19e1ff</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-sapa-contacts">
+      <IconStyle>
+        <color>ff19e1ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -461,12 +515,30 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-ha-long-diving">
+      <IconStyle>
+        <color>ff4bb43c</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/swimming.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-ha-long-logistics">
       <IconStyle>
         <color>ff4bb43c</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ha-long-contacts">
+      <IconStyle>
+        <color>ff4bb43c</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -587,12 +659,30 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-ninh-binh-diving">
+      <IconStyle>
+        <color>fff4d442</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/swimming.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-ninh-binh-logistics">
       <IconStyle>
         <color>fff4d442</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ninh-binh-contacts">
+      <IconStyle>
+        <color>fff4d442</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -713,12 +803,30 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-phong-nha-diving">
+      <IconStyle>
+        <color>ffd86343</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/swimming.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-phong-nha-logistics">
       <IconStyle>
         <color>ffd86343</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-phong-nha-contacts">
+      <IconStyle>
+        <color>ffd86343</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -839,12 +947,30 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-hue-diving">
+      <IconStyle>
+        <color>ffb41e91</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/swimming.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-hue-logistics">
       <IconStyle>
         <color>ffb41e91</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hue-contacts">
+      <IconStyle>
+        <color>ffb41e91</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -965,12 +1091,30 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-hoi-an-diving">
+      <IconStyle>
+        <color>ffe632f0</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/swimming.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-hoi-an-logistics">
       <IconStyle>
         <color>ffe632f0</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hoi-an-contacts">
+      <IconStyle>
+        <color>ffe632f0</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -1091,12 +1235,30 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-buon-ma-thuot-diving">
+      <IconStyle>
+        <color>ff24639a</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/swimming.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-buon-ma-thuot-logistics">
       <IconStyle>
         <color>ff24639a</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-buon-ma-thuot-contacts">
+      <IconStyle>
+        <color>ff24639a</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -1217,12 +1379,30 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-lak-lake-diving">
+      <IconStyle>
+        <color>ff008080</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/swimming.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-lak-lake-logistics">
       <IconStyle>
         <color>ff008080</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-lak-lake-contacts">
+      <IconStyle>
+        <color>ff008080</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -1343,12 +1523,30 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-da-lat-diving">
+      <IconStyle>
+        <color>ff909946</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/swimming.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-da-lat-logistics">
       <IconStyle>
         <color>ff909946</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-da-lat-contacts">
+      <IconStyle>
+        <color>ff909946</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -1469,12 +1667,30 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-saigon-diving">
+      <IconStyle>
+        <color>ff750000</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/swimming.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-saigon-logistics">
       <IconStyle>
         <color>ff750000</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-saigon-contacts">
+      <IconStyle>
+        <color>ff750000</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -1595,12 +1811,30 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-mekong-diving">
+      <IconStyle>
+        <color>ff000080</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/swimming.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-mekong-logistics">
       <IconStyle>
         <color>ff000080</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-mekong-contacts">
+      <IconStyle>
+        <color>ff000080</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -1721,12 +1955,30 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-phu-quoc-diving">
+      <IconStyle>
+        <color>ffa9a9a9</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/swimming.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-phu-quoc-logistics">
       <IconStyle>
         <color>ffa9a9a9</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-phu-quoc-contacts">
+      <IconStyle>
+        <color>ffa9a9a9</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -2181,6 +2433,22 @@
         </Point>
       </Placemark>
       <Placemark>
+        <name>Imperial Citadel of Thang Long</name>
+        <styleUrl>#s-hanoi-must_see</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Ba Dinh, Hoang Dieu street<br/><br/>The excavated core of the royal citadel that was Vietnam's seat of power for about thirteen centuries, with the Doan Mon gate, the Kinh Thien palace foundations and an archaeological dig showing layers from the 7th century onward.<br/><b>Why it's here:</b> A UNESCO World Heritage site ten minutes from the Old Quarter. Closed on Mondays, which rules out 26/10 and 23/11; the Friday and Saturday night tour does not fit either Hanoi stay<br/><a href="https://en.wikipedia.org/wiki/Imperial_Citadel_of_Th%C4%83ng_Long">source 1</a> &middot; <a href="https://vinwonders.com/en/wonderpedia/news/imperial-citadel-of-thang-long/">source 2</a><br/><a href="https://www.youtube.com/results?search_query=Imperial+Citadel+of+Thang+Long+Hanoi+Vietnam" style="color:#cc0000;font-weight:700">Search YouTube</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0334391,105.83953&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0334391, 105.83953]]></description>
+        <Point>
+          <coordinates>105.83953,21.0334391,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ho Chi Minh Mausoleum Complex</name>
+        <styleUrl>#s-hanoi-must_see</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Ba Dinh Square<br/><br/>The granite mausoleum holding Ho Chi Minh's embalmed body, facing Ba Dinh Square where independence was declared in 1945. The same complex holds his stilt house, the Presidential Palace grounds and the One Pillar Pagoda, a small wooden shrine on a single stone column in a lotus pond.<br/><b>Why it's here:</b> The mausoleum is closed for its annual maintenance from 4/9 to 2/11/2026, so the October stay misses it. It reopens 3/11, mornings only and closed Mondays and Fridays, which leaves the morning of 24/11 as the one window if the flight allows. Ba Dinh Square and the One Pillar Pagoda stay open regardless<br/><a href="https://en.sggp.org.vn/ho-chi-minh-mausoleum-to-close-for-restoration-from-september-4-post128741.html">source 1</a> &middot; <a href="https://en.vietnamplus.vn/president-ho-chi-minh-mausoleum-to-be-closed-for-regular-maintenance-post288232.vnp">source 2</a> &middot; <a href="https://hanoifreeprivatetourguide.com/one-pillar-pagoda-hanoi/">source 3</a><br/><a href="https://www.youtube.com/results?search_query=Ho+Chi+Minh+Mausoleum+Complex+Hanoi+Vietnam" style="color:#cc0000;font-weight:700">Search YouTube</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0367831,105.8346888&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0367831, 105.8346888]]></description>
+        <Point>
+          <coordinates>105.8346888,21.0367831,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
         <name>Ma Pi Leng Pass</name>
         <styleUrl>#s-ha-giang-must_see</styleUrl>
         <description><![CDATA[<b>Ha Giang</b> &middot; National Road 4C, between Dong Van and Meo Vac<br/><i>Approximate location — search the name in Maps</i><br/><br/>A 20km stretch of road called the "Happiness Road", carved into a sheer limestone cliff face at over 2,000m, hugging the mountainside with a straight drop of hundreds of metres to the turquoise Nho Que River below.<br/><b>Why it's here:</b> One of Vietnam's "Four Great Passes" and the single most photographed stretch of the entire Ha Giang loop<br/><a href="https://en.wikipedia.org/wiki/M%C3%A3_P%C3%AD_L%C3%A8ng_Pass">source 1</a><br/><a href="https://www.youtube.com/results?search_query=Ma+Pi+Leng+Pass+Ha+Giang+Vietnam" style="color:#cc0000;font-weight:700">Search YouTube</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=23.2419571,105.3979217&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 23.2419571, 105.3979217]]></description>
@@ -2343,7 +2611,7 @@
       <Placemark>
         <name>Cai Rang Floating Market</name>
         <styleUrl>#s-mekong-must_see</styleUrl>
-        <description><![CDATA[<b>Mekong and Can Tho</b> &middot; Cai Rang, about 6 km southwest of central Can Tho<br/><br/>A river market of roughly 200-300 local trading boats and produce barges, each hanging a sample of its goods from a tall pole so buyers can spot it from the water. It runs from before sunrise and is essentially over as a wholesale market by mid-morning.<br/><b>Why it's here:</b> The largest and most authentic floating market left in the delta, but only if timed for its real dawn trading hours, not a mid-morning visit<br/><a href="https://vemekong.com/guide-to-can-tho-floating-markets/">source 1</a> &middot; <a href="https://www.travelfish.org/sight_profile/vietnam/mekong_delta/can_tho/can_tho/2496">source 2</a><br/><a href="https://www.youtube.com/results?search_query=Cai+Rang+Floating+Market+Mekong+and+Can+Tho+Vietnam" style="color:#cc0000;font-weight:700">Search YouTube</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.0023957,105.7443925&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.0023957, 105.7443925]]></description>
+        <description><![CDATA[<b>Mekong and Can Tho</b> &middot; Cai Rang, about 6 km southwest of central Can Tho<br/><br/>A river market where trading boats hang a sample of their goods from a tall pole so buyers spot it from the water. It is shrinking fast - around 400 boats at its 1990s peak, roughly 200 registered today, and reports of as few as 40 actually trading on a good morning as roads replaced the river. Tour boats now outnumber traders. It runs from before sunrise and is over as a wholesale market by mid-morning.<br/><b>Why it's here:</b> Still the largest floating market left in the delta, but go for what it is now rather than the photographs - and only at dawn. Touts and price gouging were reported through 2026. Phong Dien, upstream, sits on a channel too narrow for the big tour boats and keeps more real trading<br/><a href="https://vemekong.com/guide-to-can-tho-floating-markets/">source 1</a> &middot; <a href="https://www.aljazeera.com/features/2025/2/28/vietnams-floating-markets-face-uncertain-future-as-life-moves-onshore">source 2</a> &middot; <a href="https://news.tuoitre.vn/are-business-and-management-practices-sinking-cai-rang-floating-market-in-vietnam-103260224205542246.htm">source 3</a><br/><a href="https://www.youtube.com/results?search_query=Cai+Rang+Floating+Market+Mekong+and+Can+Tho+Vietnam" style="color:#cc0000;font-weight:700">Search YouTube</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.0023957,105.7443925&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.0023957, 105.7443925]]></description>
         <Point>
           <coordinates>105.7443925,10.0023957,0</coordinates>
         </Point>
@@ -2365,6 +2633,54 @@
         <description><![CDATA[<b>Hanoi</b> &middot; Cau Giay, about 8km from the Old Quarter<br/><br/>An open-air and indoor museum on the 54 officially recognised ethnic groups of Vietnam, with full-size reconstructed stilt houses and tombs in the garden and 15,000+ artifacts inside.<br/><b>Why it's here:</b> The single best introduction to the hill-tribe cultures the trip later passes through in Sapa and Ha Giang<br/><a href="https://en.wikipedia.org/wiki/Vietnam_Museum_of_Ethnology">source 1</a><br/><a href="https://www.youtube.com/results?search_query=Vietnam+Museum+of+Ethnology+Hanoi+Vietnam" style="color:#cc0000;font-weight:700">Search YouTube</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0400774,105.7988403&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0400774, 105.7988403]]></description>
         <Point>
           <coordinates>105.7988403,21.0400774,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thang Long Water Puppet Theatre</name>
+        <styleUrl>#s-hanoi-attractions</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Hoan Kiem, Dinh Tien Hoang street, north shore of the lake<br/><br/>A 50-minute show of wooden puppets performed on a pool of water by puppeteers hidden behind a bamboo screen, with a live band playing traditional instruments. The form comes from the flooded rice fields of the Red River delta.<br/><b>Why it's here:</b> A northern Vietnamese art that exists nowhere else, indoors and an hour long, which makes it the natural plan for a rainy evening. Evening slots sell out two to three days ahead<br/><a href="https://vinwonders.com/en/wonderpedia/news/thang-long-water-puppet-theater-hanoi-enjoy-excellent-folk-art-of-vietnam/">source 1</a> &middot; <a href="https://viet-go.com/en/attractions/thang-long-water-puppet-theatre-guide">source 2</a><br/><a href="https://www.youtube.com/results?search_query=Thang+Long+Water+Puppet+Theatre+Hanoi+Vietnam" style="color:#cc0000;font-weight:700">Search YouTube</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0317043,105.853455&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0317043, 105.853455]]></description>
+        <Point>
+          <coordinates>105.853455,21.0317043,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vietnamese Women's Museum</name>
+        <styleUrl>#s-hanoi-attractions</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Hoan Kiem, 36 Ly Thuong Kiet<br/><br/>Four floors on the role of women in Vietnamese family life, work, war and fashion, from ethnic-minority wedding dress to the street vendors with shoulder poles, with English labels throughout.<br/><b>Why it's here:</b> Consistently rated one of the best-curated museums in the city, cheap, indoors and a short walk from Hoan Kiem Lake<br/><a href="https://vietnamdiscovery.com/hanoi/attractions/vietnamese-womens-museum/">source 1</a><br/><a href="https://www.youtube.com/results?search_query=Vietnamese+Women%27s+Museum+Hanoi+Vietnam" style="color:#cc0000;font-weight:700">Search YouTube</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0233506,105.8515958&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0233506, 105.8515958]]></description>
+        <Point>
+          <coordinates>105.8515958,21.0233506,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Joseph's Cathedral</name>
+        <styleUrl>#s-hanoi-attractions</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Hoan Kiem, Nha Chung street<br/><i>Approximate location — search the name in Maps</i><br/><br/>A neo-Gothic cathedral completed in 1886, modelled on Notre-Dame de Paris, its grey twin towers standing over a small square lined with cafes.<br/><b>Why it's here:</b> Free, five minutes from the lake, and the square in front is where Hanoians sit on low stools for lemon tea in the evening<br/><a href="https://en.wikipedia.org/wiki/St._Joseph%27s_Cathedral,_Hanoi">source 1</a><br/><a href="https://www.youtube.com/results?search_query=St.+Joseph%27s+Cathedral+Hanoi+Vietnam" style="color:#cc0000;font-weight:700">Search YouTube</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0286483,105.8488566&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0286483, 105.8488566]]></description>
+        <Point>
+          <coordinates>105.8488566,21.0286483,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Long Bien Bridge</name>
+        <styleUrl>#s-hanoi-attractions</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Between the Old Quarter and Long Bien, over the Red River<br/><br/>A 1.7km steel cantilever bridge finished by the French in 1903, bombed repeatedly in the American war and patched rather than replaced. Trains run down the middle and the outer lanes carry only motorbikes, bicycles and pedestrians.<br/><b>Why it's here:</b> Free, and a walk out to the middle at sunset gives the widest view of the Red River and the city. The Ceramic Mosaic Mural starts at its foot<br/><a href="https://en.wikipedia.org/wiki/Long_Bi%C3%AAn_Bridge">source 1</a><br/><a href="https://www.youtube.com/results?search_query=Long+Bien+Bridge+Hanoi+Vietnam" style="color:#cc0000;font-weight:700">Search YouTube</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0430652,105.8580334&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0430652, 105.8580334]]></description>
+        <Point>
+          <coordinates>105.8580334,21.0430652,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Phung Hung Mural Street</name>
+        <styleUrl>#s-hanoi-attractions</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Old Quarter, Phung Hung street<br/><br/>The brick arches under the old railway viaduct on Phung Hung street, painted in 2017 by Vietnamese and Korean artists with scenes of old Hanoi - the lantern stalls of Hang Ma at Mid-Autumn, a street vendor, the Trang Tien department store.<br/><b>Why it's here:</b> A free open-air gallery on the same street as the train-street cafes, so the two fit in one visit<br/><a href="https://vietnamnet.vn/en/phung-hung-mural-street-features-old-hanoi-E199459.html">source 1</a><br/><a href="https://www.youtube.com/results?search_query=Phung+Hung+Mural+Street+Hanoi+Vietnam" style="color:#cc0000;font-weight:700">Search YouTube</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0340272,105.8457157&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0340272, 105.8457157]]></description>
+        <Point>
+          <coordinates>105.8457157,21.0340272,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bat Trang Pottery Village</name>
+        <styleUrl>#s-hanoi-attractions</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Gia Lam, about 13km south-east of the Old Quarter<br/><br/>A village that has made ceramics for over five hundred years, with a covered pottery market, family kilns and walk-in workshops where you throw your own piece on a wheel.<br/><b>Why it's here:</b> A half-day trip within the city limits, free to enter. Bus 47A from Long Bien takes 30-40 minutes; a wheel session costs about 20,000 VND and firing a piece to take home a little more<br/><a href="https://vinpearl.com/en/bat-trang-pottery-village-experience-exciting-hands-on-pottery-making">source 1</a><br/><a href="https://www.youtube.com/results?search_query=Bat+Trang+Pottery+Village+Hanoi+Vietnam" style="color:#cc0000;font-weight:700">Search YouTube</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=20.9796328,105.9146403&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 20.9796328, 105.9146403]]></description>
+        <Point>
+          <coordinates>105.9146403,20.9796328,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
@@ -2517,7 +2833,7 @@
       <Placemark>
         <name>Bun Cha Huong Lien</name>
         <styleUrl>#s-hanoi-street_food</styleUrl>
-        <description><![CDATA[<b>Hanoi</b> &middot; Hai Ba Trung<br/><br/>A plain three-storey shop that has grilled pork patties over charcoal since the 1990s, served in a bowl of broth with noodles and herbs.<br/><b>Why it's here:</b> Michelin Bib Gourmand, and the dish Hanoi is best known for<br/><a href="https://guide.michelin.com/vn/en/ha-noi-municipality/hanoi/restaurants">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0180504,105.8538843&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0180504, 105.8538843]]></description>
+        <description><![CDATA[<b>Hanoi</b> &middot; Hai Ba Trung<br/><br/>A plain three-storey shop that has grilled pork patties over charcoal since the 1990s, served in a bowl of broth with noodles and herbs. Obama and Anthony Bourdain ate here in 2016 and the shop has traded on it since - prices rose, the plastic stools became chairs, and the queue is now mostly visitors.<br/><b>Why it's here:</b> The Obama shop, and worth it only if that is the point - it sits in the Michelin Guide selection but carries no Bib Gourmand, and locals rate the sauce and the marinade below what it was. Better bun cha is two streets away<br/><a href="https://guide.michelin.com/vn/en/ha-noi-municipality/hanoi/restaurant/bun-cha-huong-lien">source 1</a> &middot; <a href="https://deeptravelmag.com/is-the-obama-bun-cha-huong-lien-in-hanoi-worth-it-a-local-tells-all/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0180504,105.8538843&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0180504, 105.8538843]]></description>
         <Point>
           <coordinates>105.8538843,21.0180504,0</coordinates>
         </Point>
@@ -2544,6 +2860,38 @@
         <description><![CDATA[<b>Hanoi</b> &middot; Hang Ga Street, Hoan Kiem<br/><br/>Rice batter steamed into paper-thin sheets to order over a cloth-covered pot, rolled around minced pork and wood-ear mushroom, eaten with fish sauce and fried shallot.<br/><b>Why it's here:</b> A breakfast dish you have to watch being made, and the Old Quarter's Bib Gourmand address for it<br/><a href="https://guide.michelin.com/en/vn/ha-noi/ha-noi_2974158/restaurants/bib-gourmand">source 1</a> &middot; <a href="https://guide.michelin.com/en/ha-noi/ha-noi_2974158/restaurant/banh-cuon-gia-truyen-thanh-van-hang-ga-street">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0360528,105.8471707&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0360528, 105.8471707]]></description>
         <Point>
           <coordinates>105.8471707,21.0360528,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cafe Giang</name>
+        <styleUrl>#s-hanoi-street_food</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Old Quarter, 39 Nguyen Huu Huan, down an alley<br/><br/>The family cafe of Nguyen Van Giang, the Metropole hotel bartender who invented egg coffee in the 1940s by whipping egg yolk with sugar in place of scarce milk. Run by his descendants since 1946.<br/><b>Why it's here:</b> The original version of the drink every Hanoi list says not to miss. The entrance is a narrow alley that is easy to walk past<br/><a href="https://cafegiang.vn/about-us/">source 1</a> &middot; <a href="https://en.wikipedia.org/wiki/Egg_coffee">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0342713,105.8544991&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0342713, 105.8544991]]></description>
+        <Point>
+          <coordinates>105.8544991,21.0342713,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bun Thang Ba Duc</name>
+        <styleUrl>#s-hanoi-street_food</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Old Quarter, 48 Cau Go<br/><br/>An evening-only shop that has served bun thang for over thirty years - a clear chicken broth over thin rice noodles topped with shredded chicken, strips of egg omelette and pork sausage, a dish built from many small preparations.<br/><b>Why it's here:</b> Bun thang is a Hanoi dish rarely found elsewhere, and this is one of the long-running addresses for it, 300m from the lake. Open roughly 16:00 to 23:00<br/><a href="https://www.tripadvisor.com/Restaurant_Review-g293924-d8845163-Reviews-Bun_Thang_Ba_Duc-Hanoi.html">source 1</a> &middot; <a href="https://antoanthucpham.hanoi.gov.vn/bun-thang-ba-duc-giu-tron-net-tinh-te-cua-mon-an-cau-ky-bac-nhat-ha-thanh-239260410103331394.htm">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.032057,105.8521518&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.032057, 105.8521518]]></description>
+        <Point>
+          <coordinates>105.8521518,21.032057,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pho Cuon Hung Ben</name>
+        <styleUrl>#s-hanoi-street_food</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Truc Bach, 118 Tran Vu<br/><i>Approximate location — search the name in Maps</i><br/><br/>Fresh sheets of uncut pho noodle rolled around stir-fried beef and herbs and dipped in sweet fish sauce. The dish was invented on the Ngu Xa peninsula of Truc Bach Lake, and Hung Ben is one of its oldest shops, since moved from 33 Ngu Xa to a larger room on Tran Vu.<br/><b>Why it's here:</b> Pho cuon is a Hanoi-only dish, and the shop sits by Truc Bach Lake, two minutes from the shrimp-cake stall on Thanh Nien<br/><a href="https://www.foody.vn/ha-noi/pho-cuon-hung-ben-118-tran-vu">source 1</a> &middot; <a href="https://riviu.vn/pho-cuon-hung-ben">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0459439,105.8408929&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0459439, 105.8408929]]></description>
+        <Point>
+          <coordinates>105.8408929,21.0459439,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Banh Tom Ho Tay</name>
+        <styleUrl>#s-hanoi-street_food</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Truc Bach, 1 Thanh Nien, between West Lake and Truc Bach Lake<br/><i>Approximate location — search the name in Maps</i><br/><br/>A lakeside restaurant known for one dish, crisp fritters of sweet potato topped with whole shrimp, eaten wrapped in lettuce and herbs with a sour dipping sauce.<br/><b>Why it's here:</b> The address CNN called the one food to try in Hanoi, on the road between the two lakes where it is best eaten at sunset. Expect tourist prices and simple service<br/><a href="https://www.cnn.com/travel/article/shrimp-cakes-hanoi-vietnam">source 1</a> &middot; <a href="https://www.tripadvisor.com/Restaurant_Review-g293924-d2687040-Reviews-Banh_tom_Ho_Tay-Hanoi.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0473212,105.8376261&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0473212, 105.8376261]]></description>
+        <Point>
+          <coordinates>105.8376261,21.0473212,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
@@ -2653,7 +3001,7 @@
       <Placemark>
         <name>Co Chu Nho</name>
         <styleUrl>#s-hoi-an-street_food</styleUrl>
-        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; Da Nang<br/><br/>A small Da Nang street-food shop that entered the Bib Gourmand list in the most recent selection.<br/><b>Why it's here:</b> One of only three new Da Nang entries in the 2026 guide, so it has not yet been found by the tour groups<br/><a href="https://guide.michelin.com/vn/en/da-nang-region/da-nang_2984390/restaurant/co-chu-nho">source 1</a> &middot; <a href="https://guide.michelin.com/us/en/da-nang-region/restaurants/bib-gourmand">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.0461704,108.2454747&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 16.0461704, 108.2454747]]></description>
+        <description><![CDATA[<b>Hoi An and Da Nang</b> &middot; Da Nang<br/><br/>A small Da Nang street-food shop that entered the Bib Gourmand list in the most recent selection.<br/><b>Why it's here:</b> A Bib Gourmand that sits away from the riverfront circuit, so it has not been reshaped by tour-group traffic the way the central addresses have<br/><a href="https://guide.michelin.com/vn/en/da-nang-region/da-nang_2984390/restaurant/co-chu-nho">source 1</a> &middot; <a href="https://guide.michelin.com/us/en/da-nang-region/restaurants/bib-gourmand">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=16.0461704,108.2454747&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 16.0461704, 108.2454747]]></description>
         <Point>
           <coordinates>108.2454747,16.0461704,0</coordinates>
         </Point>
@@ -2782,6 +3130,14 @@
         </Point>
       </Placemark>
       <Placemark>
+        <name>Hang Gai Silk Street</name>
+        <styleUrl>#s-hanoi-markets</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Old Quarter, Hang Gai street<br/><br/>A 300m street of more than a hundred shops selling silk scarves, embroidered clothing, tailoring and lacquerware, on the old route from the river to the citadel's south gate.<br/><b>Why it's here:</b> The place to buy silk and have something tailored, a few minutes from Hoan Kiem Lake. Quality varies widely from shop to shop, so compare before paying<br/><a href="https://vinpearl.com/en/hanoi-silk-street">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0323251,105.851018&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0323251, 105.851018]]></description>
+        <Point>
+          <coordinates>105.851018,21.0323251,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
         <name>Cho Rong (Rong Market)</name>
         <styleUrl>#s-ninh-binh-markets</styleUrl>
         <description><![CDATA[<b>Ninh Binh</b> &middot; 71 Van Giang Street, Thanh Binh Ward<br/><i>Approximate location — search the name in Maps</i><br/><br/>Ninh Binh city's main traditional market, spread across a three-story building and open-air stalls, selling household goods, textiles and a fresh-produce section with rice, fish, mountain goat meat and Kim Son rice wine.<br/><b>Why it's here:</b> The everyday market locals actually shop at, as opposed to the tourist-facing night market<br/><a href="https://hanoiexploretravel.com/things-to-do-ninh-binh/rong-market">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=20.2561711,105.9776166&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 20.2561711, 105.9776166]]></description>
@@ -2857,11 +3213,27 @@
         </Point>
       </Placemark>
       <Placemark>
+        <name>Maze Bar (100 Roofs Cafe)</name>
+        <styleUrl>#s-da-lat-nightlife</styleUrl>
+        <description><![CDATA[<b>Da Lat</b> &middot; Da Lat city centre, among the shop-houses<br/><i>Approximate location — search the name in Maps</i><br/><br/>A bar built as a labyrinth: five floors of small rooms, dark passages and spiral staircases wound through a shop-house, serving locally brewed beer. A cafe by day.<br/><b>Why it's here:</b> The most distinctive room in Da Lat with nothing like it elsewhere on the route - the building itself is the attraction, and the acoustic sets run Thursday to Saturday<br/><a href="https://theculturetrip.com/asia/vietnam/articles/the-8-best-bars-in-dalat-vietnam">source 1</a> &middot; <a href="https://dalat.app/blog/guides/da-lat-nightlife-bars-live-music-guide">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=11.9446106,108.4375604&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 11.9446106, 108.4375604]]></description>
+        <Point>
+          <coordinates>108.4375604,11.9446106,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
         <name>Layla</name>
         <styleUrl>#s-saigon-nightlife</styleUrl>
         <description><![CDATA[<b>Ho Chi Minh City</b> &middot; Dong Du Street, District 1<br/><i>Approximate location — search the name in Maps</i><br/><br/>A bar spread across the upper floors of a colonial-era apartment block, with an eleven-metre bar in the main room and neighbouring flats converted into a pool room, lounges and a smoking terrace.<br/><b>Why it's here:</b> The clearest example of Saigon's converted-apartment-block bar culture, which exists nowhere else in the country<br/><a href="https://www.asia-bars.com/2026/03/top-12-highly-rated-cocktail-bars-hcmc-vietnam-2026/">source 1</a> &middot; <a href="https://www.tripadvisor.com/Attractions-g293925-Activities-c20-t99-Ho_Chi_Minh_City.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.775022,106.7031275&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.775022, 106.7031275]]></description>
         <Point>
           <coordinates>106.7031275,10.775022,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sunset Town night street</name>
+        <styleUrl>#s-phu-quoc-nightlife</styleUrl>
+        <description><![CDATA[<b>Phu Quoc</b> &middot; An Thoi, southern tip of the island<br/><br/>A purpose-built Mediterranean-style seafront quarter: a food street, beachfront bars, the Kiss Bridge, large evening shows and a nightly five-minute firework display.<br/><b>Why it's here:</b> The only organised night out on the island, and also where the An Thoi dive boats leave from - so the dive day and the evening are the same trip south<br/><a href="https://visitphuquoc.com.vn/en/explore-the-nightlife-at-sunset-town-9843">source 1</a> &middot; <a href="https://localvietnam.com/phu-quoc/nightlife-in-phu-quoc/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.0294252,104.0083142&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.0294252, 104.0083142]]></description>
+        <Point>
+          <coordinates>104.0083142,10.0294252,0</coordinates>
         </Point>
       </Placemark>
     </Folder>
@@ -2891,6 +3263,41 @@
           <coordinates>108.3402428,15.9129019,0</coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>Phu Quoc Day Spa</name>
+        <styleUrl>#s-phu-quoc-spa</styleUrl>
+        <description><![CDATA[<b>Phu Quoc</b> &middot; Duong Dong<br/><br/>The island's most-reviewed salon. Every session opens with a herbal foot soak and closes with tea and fruit; the signature is a two-hour hot stone and full-body treatment.<br/><b>Why it's here:</b> The island is the last stop before the flight home, and this is where the sunburn and the boat days get undone - book away from 19:00-21:00, when it backs up<br/><a href="https://vietnamspot.ru/en/blog/phu-quoc-spa">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.2001711,103.9646577&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.2001711, 103.9646577]]></description>
+        <Point>
+          <coordinates>103.9646577,10.2001711,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Diving</name>
+      <Placemark>
+        <name>John's Tours - the quote on file</name>
+        <styleUrl>#s-phu-quoc-diving</styleUrl>
+        <description><![CDATA[<b>Phu Quoc</b> &middot; Southern Phu Quoc, An Thoi; hotel pickup included<br/><i>Approximate location — search the name in Maps</i><br/><br/>A direct dive club, not booked through an agency, which sent a detailed written quote - 110 USD per person for two dives of about 45-50 minutes, covering gear, a dive master, hotel pickup and return, water, fruit and lunch on the boat. Soft drinks and beer are extra and served after the dives. Payment is to the guide on the boat in cash, by Vietnamese bank transfer, or by card through OnePay with a 3 percent fee. For an uncertified diver it runs Discover Scuba one-to-one, 6 metres maximum, about 25 minutes a dive, age 10 and up, barred for heart, lung or blood-pressure conditions and pregnancy.<br/><b>Why it's here:</b> The only quoted price in this tab, and it sits inside the normal Phu Quoc range of 90 to 130 USD for two fun dives. Two things are still open - the club has not given a phone number or website, and the quote prices a certified diver, not the Discover Scuba slot, so that figure needs asking for. Note also that two agencies already offered An Thoi diving inside their packages, so check you are not buying the same day twice<br/><a href="https://localvietnam.com/phu-quoc/diving-in-phu-quoc/">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.1942845,103.9674837&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.1942845, 103.9674837]]></description>
+        <Point>
+          <coordinates>103.9674837,10.1942845,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hon Thom (Pineapple Island) dive sites</name>
+        <styleUrl>#s-phu-quoc-diving</styleUrl>
+        <description><![CDATA[<b>Phu Quoc</b> &middot; An Thoi archipelago, below the cable car<br/><br/>Two separate sites on the same island. North Pineapple Point reaches about 18 metres over a rocky bottom carrying a large colony of whip corals, with cuttlefish and reef fish. South Pineapple Point drops to 35 metres and is the deepest dive in Phu Quoc.<br/><b>Why it's here:</b> The north site is the better-value dive here for a PADI Open Water diver - its 18-metre bottom is exactly the Open Water limit, so the whole site is in range. The south site is not - 35 metres needs Advanced, and no amount of good visibility changes it<br/><a href="https://www.flipperdiving.com/phu-quoc-dive-spots/">source 1</a> &middot; <a href="https://phuquocdivezone.com/dive-sites-phu-quoc/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=9.9920077,104.0124425&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 9.9920077, 104.0124425]]></description>
+        <Point>
+          <coordinates>104.0124425,9.9920077,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hon Dua (Coco Island) and the porcelain wreck</name>
+        <styleUrl>#s-phu-quoc-diving</styleUrl>
+        <description><![CDATA[<b>Phu Quoc</b> &middot; An Thoi archipelago, the island closest to An Thoi town<br/><i>Approximate location — search the name in Maps</i><br/><br/>The nearest island to An Thoi town, which makes it the shortest boat ride in the archipelago. Divers off its western shore report pieces of antique porcelain scattered around a sunken ship.<br/><b>Why it's here:</b> The one site here with something other than reef to look at, and the closest to port - which matters on a day the sea turns and the boat needs a short run home<br/><a href="https://saigontourism.com.vn/a-guide-to-diving-the-phu-quoc-islands/">source 1</a> &middot; <a href="https://phuquocdivezone.com/dive-sites-phu-quoc/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=9.996007,104.0104165&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 9.996007, 104.0104165]]></description>
+        <Point>
+          <coordinates>104.0104165,9.996007,0</coordinates>
+        </Point>
+      </Placemark>
     </Folder>
     <Folder>
       <name>Logistics</name>
@@ -2900,30 +3307,6 @@
         <description><![CDATA[<b>Hanoi</b> &middot; Noi Bai International Airport to Hoan Kiem<br/><br/>The airport sits about 27-30km north of the Old Quarter; a metered taxi or pre-booked private transfer takes 30-40 minutes off-peak (up to 90 in traffic) and costs roughly 300,000-350,000 VND, while a Grab typically comes in cheaper at around 240,000-250,000 VND plus tolls.<br/><b>Why it's here:</b> The first and last transfer of the whole trip, and the one most worth pre-booking to skip the arrivals-hall taxi touts<br/><a href="https://eternalarrival.com/grab-at-hanoi-airport-noi-bai/">source 1</a> &middot; <a href="https://unchartedlens.com/routes/vietnam/hanoi-airport-to-city-transport-comparison/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.2188925,105.8044596&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.2188925, 105.8044596]]></description>
         <Point>
           <coordinates>105.8044596,21.2188925,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Hanoi to Sapa transfer options</name>
-        <styleUrl>#s-sapa-logistics</styleUrl>
-        <description><![CDATA[<b>Sapa</b> &middot; Hanoi to Sapa town<br/><br/>Two practical ways to cover the roughly 300km/6 hours - an overnight sleeper train from Hanoi to Lao Cai followed by a 45-60 minute shuttle up to Sapa, or a direct day or overnight limousine van/sleeper bus (5.5-6 hours, roughly 300,000-660,000 VND depending on seat class).<br/><b>Why it's here:</b> The overnight train turns a dead travel day into a night's sleep, but only the van/bus goes door-to-door into Sapa town itself<br/><a href="https://a21tours.com/sapa-sleeper-bus-vs-limousine-van">source 1</a> &middot; <a href="https://visit-sapa.com/en/blog/hanoi-sapa-bus-limousine">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=22.3399787,103.8485698&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 22.3399787, 103.8485698]]></description>
-        <Point>
-          <coordinates>103.8485698,22.3399787,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Ninh Binh to Hanoi (train and road)</name>
-        <styleUrl>#s-ninh-binh-logistics</styleUrl>
-        <description><![CDATA[<b>Ninh Binh</b> &middot; Regional transfer<br/><br/>Ninh Binh's train station sits centrally in the city; five daily trains run to Hanoi's main station on Le Duan Street in about 2 hours, or a private car takes roughly the same time by road.<br/><b>Why it's here:</b> Fixes the practical transfer time between Ninh Binh and the trip's Hanoi anchor<br/><a href="https://oxalisadventure.com/hanoi-to-ninh-binh-best-transport-options/">source 1</a> &middot; <a href="https://a21tours.com/ninh-binh-city-to-hanoi-transfer">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=20.2421142,105.9746207&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 20.2421142, 105.9746207]]></description>
-        <Point>
-          <coordinates>105.9746207,20.2421142,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Lotus Train - Ninh Binh to Dong Hoi (night train)</name>
-        <styleUrl>#s-ninh-binh-logistics</styleUrl>
-        <description><![CDATA[<b>Ninh Binh</b> &middot; Ninh Binh Railway Station, departure point<br/><br/>A privately refurbished overnight sleeper carriage (2-berth or 4-berth cabins, Vietnam Railways track) departing Ninh Binh around 22:00 and arriving Dong Hoi around 06:00, with onboard wifi, snacks and breakfast.<br/><b>Why it's here:</b> Turns the long road transfer south toward Phong Nha into a night's sleep instead of a lost travel day<br/><a href="https://lotustrain.vn/ninh-binh-to-dong-hoi-lotus-express">source 1</a> &middot; <a href="https://violetexpresstrain.com/ninh-binh-dong-hoi-on-lotus-train-se19.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=20.2421142,105.9746207&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 20.2421142, 105.9746207]]></description>
-        <Point>
-          <coordinates>105.9746207,20.2421142,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
@@ -2951,14 +3334,6 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>Da Nang - Buon Ma Thuot flight (VN1911)</name>
-        <styleUrl>#s-buon-ma-thuot-logistics</styleUrl>
-        <description><![CDATA[<b>Buon Ma Thuot</b> &middot; Route into the highlands leg<br/><br/>The only practical way into this leg of the route: a roughly 65-minute Vietnam Airlines flight from Da Nang, operated on selected days of the week rather than daily.<br/><b>Why it's here:</b> The whole route depends on this flight existing on the chosen date; it must be checked against the calendar before booking, not assumed<br/><a href="https://www.vietnamairlines.com/en-vn/flights-from-da-nang-to-buon-ma-thuot">source 1</a> &middot; <a href="https://www.flightaware.com/live/flight/HVN1911">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=12.6668723,108.1199878&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 12.6668723, 108.1199878]]></description>
-        <Point>
-          <coordinates>108.1199878,12.6668723,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>Grab from Tan Son Nhat Airport</name>
         <styleUrl>#s-saigon-logistics</styleUrl>
         <description><![CDATA[<b>Ho Chi Minh City</b> &middot; Tan Son Nhat International Airport (SGN)<br/><br/>Ride-hailing pickup for Grab cars is outside the arrivals hall, past the metered-taxi rank; a ride to District 1 takes 25-50 minutes depending on traffic and costs roughly 110,000-250,000 VND.<br/><b>Why it's here:</b> Cheaper and more predictable than the taxi rank, with a fixed upfront fare shown before booking<br/><a href="https://blog.gettransfer.com/from-ho-chi-minh-city-airport-to-the-city-center-taxi-grab-more/">source 1</a> &middot; <a href="https://www.grab.com/global/airport-rides/tan-son-nhat-international-airport/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.8179793,106.6562645&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.8179793, 106.6562645]]></description>
@@ -2967,19 +3342,19 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>No airport metro link yet</name>
+        <name>Terminal T3 is a separate building, not a gate</name>
         <styleUrl>#s-saigon-logistics</styleUrl>
-        <description><![CDATA[<b>Ho Chi Minh City</b> &middot; Tan Son Nhat International Airport (SGN)<br/><br/>Saigon's first metro line (Line 1, Ben Thanh-Suoi Tien) opened in December 2024, but no metro or rail line reaches the airport; a dedicated airport link is not expected until around 2030.<br/><b>Why it's here:</b> Rules out the metro as an airport option, which travelers researching the new 2024 line sometimes assume is already connected<br/><a href="https://aifly.one/2026/03/ho-chi-minh-city-tan-son-nhat-airport-guide/">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.8179793,106.6562645&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.8179793, 106.6562645]]></description>
+        <description><![CDATA[<b>Ho Chi Minh City</b> &middot; Tan Son Nhat International Airport (SGN)<br/><br/>T3 opened in April 2025 and handles domestic flights only. There is no internal connection to T1 and T2 - moving between them means leaving the airport and going 3.3 to 3.8 km on public roads, 15 to 20 minutes by shuttle bus and longer in traffic. Vietnam Airlines domestic departures use T3; international departures stay at T2.<br/><b>Why it's here:</b> The single easiest way to miss a flight here. A domestic leg connecting to or from an international one is not a walk between gates - budget an hour on the ground, not fifteen minutes, and confirm which terminal the ticket says<br/><a href="https://www.traveloka.com/en-au/explore/tips/ho-chi-minh-city-airport-tan-son-nhat-airport-terminal-3/542434">source 1</a> &middot; <a href="https://authentiktravel.com/tan-son-nhat-t3-terminal">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.8179793,106.6562645&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.8179793, 106.6562645]]></description>
         <Point>
           <coordinates>106.6562645,10.8179793,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>Bus from Ho Chi Minh City to Can Tho</name>
-        <styleUrl>#s-mekong-logistics</styleUrl>
-        <description><![CDATA[<b>Mekong and Can Tho</b> &middot; Ho Chi Minh City to Can Tho, roughly 170 km<br/><br/>A sleeper coach (commonly the Futa/Phuong Trang line) covers the route in about 3 hours of driving, though the door-to-door trip including rest stops and pickup/drop-off typically runs closer to 5 hours; a taxi from the Can Tho bus station to Ninh Kieu Wharf adds about 15 minutes.<br/><b>Why it's here:</b> The standard overland option between the two, and the reason a Mekong stop is usually built around an overnight rather than a rushed day trip<br/><a href="https://vemekong.com/guide-to-can-tho-floating-markets/">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.0243445,105.7615442&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.0243445, 105.7615442]]></description>
+        <name>No airport metro link yet</name>
+        <styleUrl>#s-saigon-logistics</styleUrl>
+        <description><![CDATA[<b>Ho Chi Minh City</b> &middot; Tan Son Nhat International Airport (SGN)<br/><br/>Saigon's first metro line (Line 1, Ben Thanh-Suoi Tien) opened in December 2024, but no metro or rail line reaches the airport; a dedicated airport link is not expected until around 2030. Two underground stations serving all three terminals are planned on the Tan Son Nhat-Phu Huu line, still unbuilt. Long Thanh, the new airport out in Dong Nai, does not open commercially until 1 December 2026.<br/><b>Why it's here:</b> Rules out the metro as an airport option, which travelers researching the new 2024 line sometimes assume is already connected - and rules out Long Thanh for this trip<br/><a href="https://aifly.one/2026/03/ho-chi-minh-city-tan-son-nhat-airport-guide/">source 1</a> &middot; <a href="https://e.vnexpress.net/news/news/traffic/ho-chi-minh-city-unveils-underground-metro-stations-to-link-all-3-tan-son-nhat-airport-terminals-5102103.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.8179793,106.6562645&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.8179793, 106.6562645]]></description>
         <Point>
-          <coordinates>105.7615442,10.0243445,0</coordinates>
+          <coordinates>106.6562645,10.8179793,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
@@ -2988,14 +3363,6 @@
         <description><![CDATA[<b>Phu Quoc</b> &middot; Phu Quoc International Airport (PQC), about 10 km south of Duong Dong<br/><br/>Grab and metered taxis both operate from the terminal; a ride to the Long Beach hotel strip takes about 10-15 minutes and costs roughly 100,000-200,000 VND, with Grab typically 10-20% cheaper than the metered taxi rate.<br/><b>Why it's here:</b> The airport sits close enough to the main hotel strip that a transfer is short and cheap regardless of which resort is booked<br/><a href="https://www.airporttransferportal.com/airport-guides/pqc/cost-to-city">source 1</a> &middot; <a href="https://www.grab.com/global/airport-rides/phu-quoc-international-airport/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.1727084,103.9921557&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.1727084, 103.9921557]]></description>
         <Point>
           <coordinates>103.9921557,10.1727084,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Speedboat from the Mekong Delta (Ha Tien)</name>
-        <styleUrl>#s-phu-quoc-logistics</styleUrl>
-        <description><![CDATA[<b>Phu Quoc</b> &middot; Ha Tien to Bai Vong pier, Phu Quoc<br/><br/>Fast boats from Ha Tien on the Mekong Delta coast to Phu Quoc's Bai Vong pier run 3-5 times daily between about 6am and 2pm, taking roughly 1.5 hours; slower car ferries take about 3 hours on the same route.<br/><b>Why it's here:</b> Connects a Mekong Delta stop directly to Phu Quoc without backtracking through Ho Chi Minh City for a flight<br/><a href="https://www.vietnamcoracle.com/phu-quoc-island-ferry-times/">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.1457488,104.038743&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.1457488, 104.038743]]></description>
-        <Point>
-          <coordinates>104.038743,10.1457488,0</coordinates>
         </Point>
       </Placemark>
     </Folder>

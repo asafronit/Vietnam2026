@@ -7,10 +7,11 @@ hotels:
   price_checked: '2026-08-16'
   area: Ha Giang City centre
   what: A 151-room international-brand hotel opened as Ha Giang's first Marriott property,
-    with an indoor four-season pool, spa, gym and a rooftop bar overlooking the city and surrounding
-    mountains.
-  why: The only hotel in Ha Giang province officially awarded 5-star status by the Vietnam
-    National Authority of Tourism, and the natural start/end point for the loop
+    with an indoor four-season pool, spa, gym and a rooftop bar overlooking the city
+    and surrounding mountains.
+  why: The only hotel in Ha Giang province officially awarded 5-star status by the
+    Vietnam National Authority of Tourism, and the natural start/end point for the
+    loop
   confidence: high
   geocode_query: Four Points by Sheraton Ha Giang, Ha Giang City, Vietnam
   sources:
@@ -19,10 +20,10 @@ hotels:
   - https://www.marriott.com/en-us/hotels/hanhp-four-points-ha-giang/overview/
   name_he: פור פוינטס ביי שרתון
   area_he: מרכז העיר הא ז'יאנג
-  what_he: מלון של 151 חדרים ברשת בינלאומית, הנכס הראשון של מריוט בהא ז'יאנג, עם בריכה מקורה
-    לכל העונות, ספא, חדר כושר ובר גג שמשקיף על העיר וההרים סביבה.
-  why_he: המלון היחיד במחוז הא ז'יאנג שקיבל 5 כוכבים רשמיים מרשות התיירות הלאומית של ויאטנם,
-    ונקודת ההתחלה והסיום הטבעית של הלולאה
+  what_he: מלון של 151 חדרים ברשת בינלאומית, הנכס הראשון של מריוט בהא ז'יאנג, עם בריכה
+    מקורה לכל העונות, ספא, חדר כושר ובר גג שמשקיף על העיר וההרים סביבה.
+  why_he: המלון היחיד במחוז הא ז'יאנג שקיבל 5 כוכבים רשמיים מרשות התיירות הלאומית
+    של ויאטנם, ונקודת ההתחלה והסיום הטבעית של הלולאה
 - name: Yen Bien Luxury Hotel
   tier: 4
   tier_official: true
@@ -30,8 +31,8 @@ hotels:
   price_high: 65
   price_checked: '2026-08-16'
   area: Ha Giang City, on the Lo river
-  what: A 125-room hotel with large windows facing the city or mountains, an outdoor seasonal
-    pool and a fitness centre, popular as a pre- or post-loop base.
+  what: A 125-room hotel with large windows facing the city or mountains, an outdoor
+    seasonal pool and a fitness centre, popular as a pre- or post-loop base.
   why: Officially rated 4-star, with an unusually high review score for a provincial-capital
     hotel
   confidence: high
@@ -41,8 +42,8 @@ hotels:
   - https://www.tripadvisor.com/Hotel_Review-g1544599-d23300625-Reviews-Yen_Bien_Luxury_Hotel_Wedding-Ha_Giang_Ha_Giang_Province.html
   name_he: יין ביין לוקסרי
   area_he: העיר הא ז'יאנג, על נהר לו
-  what_he: מלון של 125 חדרים עם חלונות גדולים אל העיר או אל ההרים, בריכה חיצונית עונתית וחדר
-    כושר. פופולרי כבסיס לפני הלולאה או אחריה.
+  what_he: מלון של 125 חדרים עם חלונות גדולים אל העיר או אל ההרים, בריכה חיצונית עונתית
+    וחדר כושר. פופולרי כבסיס לפני הלולאה או אחריה.
   why_he: דירוג 4 כוכבים רשמי, עם ציון ביקורות גבוה במיוחד למלון בבירת מחוז
 - name: De La Mont Hotel Ha Giang
   tier: 4
@@ -51,10 +52,11 @@ hotels:
   price_high: 39
   price_checked: '2026-08-16'
   area: Ha Giang City, near the Km 0 milestone
-  what: A newly built 50-room hotel a short walk from the Ha Giang Km 0 milestone where most
-    loop tours start, with private-balcony rooms, a rooftop sky bar and an outdoor pool.
-  why: Officially rated 4-star and priced well under the luxury-tier hotels, with consistently
-    strong early reviews
+  what: A newly built 50-room hotel a short walk from the Ha Giang Km 0 milestone
+    where most loop tours start, with private-balcony rooms, a rooftop sky bar and
+    an outdoor pool.
+  why: Officially rated 4-star and priced well under the luxury-tier hotels, with
+    consistently strong early reviews
   confidence: medium
   geocode_query: De La Mont Hotel Ha Giang, Ha Giang City, Vietnam
   sources:
@@ -62,10 +64,10 @@ hotels:
   - https://www.traveloka.com/en-en/hotel/vietnam/de-la-mont-hotel-ha-giang-9000007871420
   name_he: דה לה מון
   area_he: העיר הא ז'יאנג, ליד אבן הקילומטר 0
-  what_he: מלון חדש של 50 חדרים במרחק הליכה קצר מאבן הקילומטר 0 של הא ז'יאנג, שממנה יוצאים
-    רוב סיורי הלולאה. חדרים עם מרפסת פרטית, סקיי-בר על הגג ובריכה חיצונית.
-  why_he: דירוג 4 כוכבים רשמי במחיר נמוך בהרבה ממלונות שכבת היוקרה, עם ביקורות ראשונות חזקות
-    באופן עקבי
+  what_he: מלון חדש של 50 חדרים במרחק הליכה קצר מאבן הקילומטר 0 של הא ז'יאנג, שממנה
+    יוצאים רוב סיורי הלולאה. חדרים עם מרפסת פרטית, סקיי-בר על הגג ובריכה חיצונית.
+  why_he: דירוג 4 כוכבים רשמי במחיר נמוך בהרבה ממלונות שכבת היוקרה, עם ביקורות ראשונות
+    חזקות באופן עקבי
 - name: Silk River Hotel Ha Giang
   tier: 3
   tier_official: true
@@ -73,11 +75,11 @@ hotels:
   price_high: 42
   price_checked: '2026-08-16'
   area: Ha Giang City, Nguyen Trai street
-  what: A garden hotel on the main street through Ha Giang City, with air-conditioned rooms,
-    a restaurant and bar, popular with loop riders needing a bike-adjacent place to leave
-    gear.
-  why: Officially rated 3-star, genuinely cheap, and consistently well reviewed by loop riders
-    specifically
+  what: A garden hotel on the main street through Ha Giang City, with air-conditioned
+    rooms, a restaurant and bar, popular with loop riders needing a bike-adjacent
+    place to leave gear.
+  why: Officially rated 3-star, genuinely cheap, and consistently well reviewed by
+    loop riders specifically
   confidence: high
   geocode_query: Silk River Hotel Ha Giang, Nguyen Trai, Ha Giang City, Vietnam
   sources:
@@ -85,9 +87,10 @@ hotels:
   - https://www.booking.com/hotel/vn/silk-river-ha-giang-ha-giang.html
   name_he: סילק ריבר
   area_he: העיר הא ז'יאנג, רחוב נגוין טראי
-  what_he: מלון גן ברחוב הראשי של העיר הא ז'יאנג, עם חדרים ממוזגים, מסעדה ובר. פופולרי בקרב
-    רוכבי הלולאה שצריכים מקום צמוד לאופנוע להשאיר בו ציוד.
-  why_he: דירוג 3 כוכבים רשמי, זול באמת, ומקבל ביקורות טובות באופן עקבי דווקא מרוכבי הלולאה
+  what_he: מלון גן ברחוב הראשי של העיר הא ז'יאנג, עם חדרים ממוזגים, מסעדה ובר. פופולרי
+    בקרב רוכבי הלולאה שצריכים מקום צמוד לאופנוע להשאיר בו ציוד.
+  why_he: דירוג 3 כוכבים רשמי, זול באמת, ומקבל ביקורות טובות באופן עקבי דווקא מרוכבי
+    הלולאה
 - name: Phuc Lam Hotel
   tier: 3
   tier_official: true
@@ -95,10 +98,10 @@ hotels:
   price_high: 40
   price_checked: '2026-08-16'
   area: Ha Giang City
-  what: A new, plainly built hotel in Ha Giang City with unusually large rooms for the price,
-    a garden terrace and bar.
-  why: Officially rated 3-star and the cheapest of the credibly-sourced Ha Giang hotels, with
-    strong recent review scores
+  what: A new, plainly built hotel in Ha Giang City with unusually large rooms for
+    the price, a garden terrace and bar.
+  why: Officially rated 3-star and the cheapest of the credibly-sourced Ha Giang hotels,
+    with strong recent review scores
   confidence: medium
   geocode_query: Phuc Lam Hotel, Ha Giang City, Vietnam
   sources:
@@ -106,18 +109,18 @@ hotels:
   - https://www.booking.com/hotel/vn/phuc-lam-thanh-pho-ha-giang.html
   name_he: פוק לאם
   area_he: העיר הא ז'יאנג
-  what_he: מלון חדש ופשוט בבנייה בעיר הא ז'יאנג, עם חדרים גדולים במיוחד ביחס למחיר, מרפסת
-    גן ובר.
-  why_he: דירוג 3 כוכבים רשמי, והזול מבין מלונות הא ז'יאנג שהמקורות שלהם אמינים, עם ציוני
-    ביקורות חזקים לאחרונה
+  what_he: מלון חדש ופשוט בבנייה בעיר הא ז'יאנג, עם חדרים גדולים במיוחד ביחס למחיר,
+    מרפסת גן ובר.
+  why_he: דירוג 3 כוכבים רשמי, והזול מבין מלונות הא ז'יאנג שהמקורות שלהם אמינים, עם
+    ציוני ביקורות חזקים לאחרונה
 must_see:
 - name: Ma Pi Leng Pass
   area: National Road 4C, between Dong Van and Meo Vac
   what: A 20km stretch of road called the "Happiness Road", carved into a sheer limestone
-    cliff face at over 2,000m, hugging the mountainside with a straight drop of hundreds of
-    metres to the turquoise Nho Que River below.
-  why: One of Vietnam's "Four Great Passes" and the single most photographed stretch of the
-    entire Ha Giang loop
+    cliff face at over 2,000m, hugging the mountainside with a straight drop of hundreds
+    of metres to the turquoise Nho Que River below.
+  why: One of Vietnam's "Four Great Passes" and the single most photographed stretch
+    of the entire Ha Giang loop
   confidence: high
   geocode_query: Ma Pi Leng Pass viewpoint, Meo Vac, Ha Giang, Vietnam
   sources:
@@ -128,15 +131,17 @@ must_see:
   location_precision: approximate
   name_he: מעבר מה פי לנג
   area_he: כביש ארצי 4C, בין דונג ואן למאו ואק
-  what_he: מקטע של 20 קילומטר מכביש שנקרא דרך האושר, חצוב בקיר סלע גיר תלול בגובה של מעל 2,000
-    מטר, נצמד למדרון עם צניחה ישרה של מאות מטרים אל נהר נו קווה הטורקיז שמתחת.
+  what_he: מקטע של 20 קילומטר מכביש שנקרא דרך האושר, חצוב בקיר סלע גיר תלול בגובה
+    של מעל 2,000 מטר, נצמד למדרון עם צניחה ישרה של מאות מטרים אל נהר נו קווה הטורקיז
+    שמתחת.
   why_he: אחד מארבעת המעברים הגדולים של ויאטנם, והמקטע המצולם ביותר בכל לולאת הא ז'יאנג
 - name: Lung Cu Flag Tower
   area: Lung Cu commune, Dong Van district
-  what: A 34.85m octagonal tower on a peak near Vietnam's northernmost point, flying a red
-    flag with a yellow star that covers 54 square metres, one for each recognised ethnic group.
-    Reached by roughly 280-800 stone steps depending on where you park.
-  why: The symbolic "top of Vietnam" and a standard end-goal of the loop's northern leg
+  what: A 34.85m octagonal tower on a peak near Vietnam's northernmost point, flying
+    a red flag with a yellow star that covers 54 square metres, one for each recognised
+    ethnic group. Reached by roughly 280-800 stone steps depending on where you park.
+  why: The symbolic "top of Vietnam" and a standard end-goal of the loop's northern
+    leg
   confidence: high
   geocode_query: Lung Cu Flag Tower, Dong Van, Ha Giang, Vietnam
   sources:
@@ -147,35 +152,35 @@ must_see:
   location_precision: approximate
   name_he: מגדל הדגל לונג קו
   area_he: לונג קו, מחוז דונג ואן
-  what_he: מגדל מתומן בגובה 34.85 מטר על פסגה סמוך לנקודה הצפונית ביותר של ויאטנם, ומעליו
-    דגל אדום עם כוכב צהוב בשטח 54 מטר רבוע — אחד לכל קבוצה אתנית מוכרת. מגיעים אליו בכ-280
-    עד 800 מדרגות אבן, תלוי היכן חונים.
+  what_he: מגדל מתומן בגובה 34.85 מטר על פסגה סמוך לנקודה הצפונית ביותר של ויאטנם,
+    ומעליו דגל אדום עם כוכב צהוב בשטח 54 מטר רבוע — אחד לכל קבוצה אתנית מוכרת. מגיעים
+    אליו בכ-280 עד 800 מדרגות אבן, תלוי היכן חונים.
   why_he: ראש ויאטנם הסמלי, ויעד הסיום המקובל של הרגל הצפונית של הלולאה
 - name: Dong Van Old Quarter
   area: Dong Van town
-  what: A cluster of around 40 century-old houses with yellow clay walls, wooden frames and
-    tiled roofs, built as a French colonial-era trading post at 1,000-1,600m in the middle
-    of the karst plateau.
-  why: The loop's most atmospheric overnight town, and the base for the Sunday market and
-    Lung Cu day trip
+  what: A cluster of around 40 century-old houses with yellow clay walls, wooden frames
+    and tiled roofs, built as a French colonial-era trading post at 1,000-1,600m in
+    the middle of the karst plateau.
+  why: The loop's most atmospheric overnight town, and the base for the Sunday market
+    and Lung Cu day trip
   confidence: high
   geocode_query: Dong Van Old Quarter, Dong Van, Ha Giang, Vietnam
   sources:
   - https://en.wikivoyage.org/wiki/Dong_Van
   name_he: הרובע העתיק של דונג ואן
   area_he: העיירה דונג ואן
-  what_he: מקבץ של כארבעים בתים בני מאה שנה עם קירות חימר צהובים, שלדי עץ וגגות רעפים, שנבנו
-    כתחנת מסחר בתקופה הקולוניאלית הצרפתית בגובה 1,000 עד 1,600 מטר בלב רמת הקארסט.
-  why_he: עיירת הלינה עם האווירה הטובה ביותר בלולאה, והבסיס לשוק יום ראשון ולטיול היום ללונג
-    קו
+  what_he: מקבץ של כארבעים בתים בני מאה שנה עם קירות חימר צהובים, שלדי עץ וגגות רעפים,
+    שנבנו כתחנת מסחר בתקופה הקולוניאלית הצרפתית בגובה 1,000 עד 1,600 מטר בלב רמת הקארסט.
+  why_he: עיירת הלינה עם האווירה הטובה ביותר בלולאה, והבסיס לשוק יום ראשון ולטיול
+    היום ללונג קו
 attractions:
 - name: Ha Giang Loop (self-drive or easy-rider motorbike route)
   area: Circuit from Ha Giang City through Quan Ba, Yen Minh, Dong Van, Meo Vac
-  what: A roughly 350-400km loop of mountain roads through the Dong Van Karst Plateau Geopark,
-    ridden over 3-4 days either as the driver (own or rented manual motorbike) or as a passenger
-    behind a local "easy rider" guide.
-  why: The reason this region is on the route at all — hairpin passes, terraced valleys and
-    H'mong villages are only reachable this way
+  what: A roughly 350-400km loop of mountain roads through the Dong Van Karst Plateau
+    Geopark, ridden over 3-4 days either as the driver (own or rented manual motorbike)
+    or as a passenger behind a local "easy rider" guide.
+  why: The reason this region is on the route at all — hairpin passes, terraced valleys
+    and H'mong villages are only reachable this way
   confidence: high
   geocode_query: Ha Giang Loop start point, Ha Giang City, Vietnam
   sources:
@@ -186,34 +191,34 @@ attractions:
   location_precision: approximate
   name_he: לולאת הא ז'יאנג
   area_he: מעגל מהעיר הא ז'יאנג דרך קוואן בה, יין מין, דונג ואן ומאו ואק
-  what_he: לולאה של כ-350 עד 400 קילומטר של כבישי הרים דרך גיאופארק רמת הקארסט דונג ואן, שרוכבים
-    אותה בשלושה עד ארבעה ימים — או כנהג על אופנוע ידני משלך או שכור, או כנוסע מאחורי מדריך
-    מקומי.
-  why_he: הסיבה שהאזור הזה נמצא במסלול בכלל. מעברי סיכות השיער, עמקי המדרגות וכפרי ההמונג
-    נגישים רק כך
+  what_he: לולאה של כ-350 עד 400 קילומטר של כבישי הרים דרך גיאופארק רמת הקארסט דונג
+    ואן, שרוכבים אותה בשלושה עד ארבעה ימים — או כנהג על אופנוע ידני משלך או שכור,
+    או כנוסע מאחורי מדריך מקומי.
+  why_he: הסיבה שהאזור הזה נמצא במסלול בכלל. מעברי סיכות השיער, עמקי המדרגות וכפרי
+    ההמונג נגישים רק כך
 - name: Nho Que River boat trip, Tu San Canyon
   area: Xin Cai / Ta Lang wharf, below Ma Pi Leng Pass
-  what: A roughly 30-minute boat ride on the emerald-green Nho Que River, gliding beneath
-    the towering rock walls of Tu San Canyon, reached by a side road 5-7km past the Ma Pi
-    Leng viewpoint.
-  why: A sit-down, water-level view of the same canyon the road looks down into from above,
-    and a break from riding
+  what: A roughly 30-minute boat ride on the emerald-green Nho Que River, gliding
+    beneath the towering rock walls of Tu San Canyon, reached by a side road 5-7km
+    past the Ma Pi Leng viewpoint.
+  why: A sit-down, water-level view of the same canyon the road looks down into from
+    above, and a break from riding
   confidence: high
   geocode_query: Nho Que River boat pier, Xin Cai, Meo Vac, Ha Giang, Vietnam
   sources:
   - https://oxalisadventure.com/nho-que-river/
   name_he: שייט בנהר נו קווה, קניון טו סאן
   area_he: מזח שין קאי / טה לאנג, מתחת למעבר מה פי לנג
-  what_he: שייט של כחצי שעה על נהר נו קווה הירוק-אזמרגד, מחליק מתחת לקירות הסלע המתנשאים של
-    קניון טו סאן. מגיעים בדרך צדדית 5 עד 7 קילומטר אחרי נקודת התצפית של מה פי לנג.
+  what_he: שייט של כחצי שעה על נהר נו קווה הירוק-אזמרגד, מחליק מתחת לקירות הסלע המתנשאים
+    של קניון טו סאן. מגיעים בדרך צדדית 5 עד 7 קילומטר אחרי נקודת התצפית של מה פי לנג.
   why_he: מבט מגובה המים על אותו קניון שהכביש משקיף אליו מלמעלה, והפסקה מהרכיבה
 - name: Du Gia village and waterfall
   area: Du Gia commune, about 70km from Ha Giang City
-  what: A Tay ethnic village of wooden stilt houses in a rice-field valley, with a swimmable
-    turquoise-pooled waterfall a short walk away; usually reached only by motorbike or car
-    since there is no direct bus.
-  why: The loop's quiet counterpoint to Dong Van/Meo Vac — a slower, greener detour with a
-    place to swim
+  what: A Tay ethnic village of wooden stilt houses in a rice-field valley, with a
+    swimmable turquoise-pooled waterfall a short walk away; usually reached only by
+    motorbike or car since there is no direct bus.
+  why: The loop's quiet counterpoint to Dong Van/Meo Vac — a slower, greener detour
+    with a place to swim
   confidence: medium
   geocode_query: Du Gia waterfall, Du Gia, Ha Giang, Vietnam
   sources:
@@ -224,58 +229,65 @@ attractions:
   location_precision: approximate
   name_he: הכפר והמפל דו ז'יה
   area_he: דו ז'יה, כ-70 קילומטר מהעיר הא ז'יאנג
-  what_he: כפר של בני טאי ובו בתי כלונסאות מעץ בעמק של שדות אורז, ובמרחק הליכה קצרה מפל עם
-    בריכה טורקיזית שאפשר לשחות בה. בדרך כלל מגיעים רק באופנוע או ברכב, כי אין קו אוטובוס ישיר.
-  why_he: המשקל הנגדי השקט של הלולאה מול דונג ואן ומאו ואק — עיקוף איטי וירוק יותר, עם מקום
-    לשחות בו
+  what_he: כפר של בני טאי ובו בתי כלונסאות מעץ בעמק של שדות אורז, ובמרחק הליכה קצרה
+    מפל עם בריכה טורקיזית שאפשר לשחות בה. בדרך כלל מגיעים רק באופנוע או ברכב, כי אין
+    קו אוטובוס ישיר.
+  why_he: המשקל הנגדי השקט של הלולאה מול דונג ואן ומאו ואק — עיקוף איטי וירוק יותר,
+    עם מקום לשחות בו
 markets:
 - name: Dong Van Sunday Market
   area: Dong Van Old Quarter
-  what: A weekly Sunday-morning market where H'mong, Tay, Dao, Nung and Lo Lo traders from
-    the surrounding mountains sell produce, livestock, textiles and handicrafts in the streets
-    around the old quarter.
-  why: The most accessible of the region's ethnic markets, held right where most loop itineraries
-    already overnight
+  what: A weekly Sunday-morning market where H'mong, Tay, Dao, Nung and Lo Lo traders
+    from the surrounding mountains sell produce, livestock, textiles and handicrafts
+    in the streets around the old quarter.
+  why: The most accessible of the region's ethnic markets, held right where most loop
+    itineraries already overnight
   confidence: high
   geocode_query: Dong Van Market, Dong Van, Ha Giang, Vietnam
   sources:
   - https://seniworld.com/dong-van-market/
   name_he: שוק יום ראשון בדונג ואן
   area_he: הרובע העתיק של דונג ואן
-  what_he: שוק שבועי בבוקר יום ראשון, שבו סוחרים מבני המונג, טאי, דאו, נונג ולו לו מההרים
-    סביב מוכרים תוצרת, בעלי חיים, טקסטיל ומלאכת יד ברחובות סביב הרובע העתיק.
-  why_he: הנגיש מבין השווקים האתניים של האזור, ומתקיים בדיוק במקום שבו רוב מסלולי הלולאה כבר
-    לנים
+  what_he: שוק שבועי בבוקר יום ראשון, שבו סוחרים מבני המונג, טאי, דאו, נונג ולו לו
+    מההרים סביב מוכרים תוצרת, בעלי חיים, טקסטיל ומלאכת יד ברחובות סביב הרובע העתיק.
+  why_he: הנגיש מבין השווקים האתניים של האזור, ומתקיים בדיוק במקום שבו רוב מסלולי
+    הלולאה כבר לנים
+  hours: Sundays only, 05:00-12:00, busiest 06:00-10:00
+  hours_he: בימי ראשון בלבד, 05:00-12:00, השיא בין 06:00 ל-10:00
 - name: Meo Vac Sunday Market
   area: Meo Vac town centre
-  what: A weekly market from roughly 4am to 4pm where 17 ethnic minority groups trade produce
-    and livestock; the cattle-and-buffalo trading area is the market's best-known section.
-  why: Larger and more livestock-focused than Dong Van's market, and sits at the loop's most
-    dramatic overnight stop below Ma Pi Leng
+  what: A weekly market from roughly 4am to 4pm where 17 ethnic minority groups trade
+    produce and livestock; the cattle-and-buffalo trading area is the market's best-known
+    section.
+  why: Larger and more livestock-focused than Dong Van's market, and sits at the loop's
+    most dramatic overnight stop below Ma Pi Leng
   confidence: high
   geocode_query: Meo Vac Market, Meo Vac, Ha Giang, Vietnam
   sources:
   - https://www.colorfuljourneys.com/articles/visit-meo-vac-market-ha-giang
   name_he: שוק יום ראשון במאו ואק
   area_he: מרכז העיירה מאו ואק
-  what_he: שוק שבועי מארבע לפנות בוקר ועד ארבע אחר הצהריים, שבו 17 קבוצות מיעוט אתני סוחרות
-    בתוצרת ובבעלי חיים. אזור המסחר בבקר ובתאואים הוא החלק המוכר ביותר שלו.
-  why_he: גדול יותר וממוקד יותר בבעלי חיים משוק דונג ואן, ויושב בתחנת הלינה הדרמטית ביותר
-    של הלולאה, מתחת למה פי לנג
+  what_he: שוק שבועי מארבע לפנות בוקר ועד ארבע אחר הצהריים, שבו 17 קבוצות מיעוט אתני
+    סוחרות בתוצרת ובבעלי חיים. אזור המסחר בבקר ובתאואים הוא החלק המוכר ביותר שלו.
+  why_he: גדול יותר וממוקד יותר בבעלי חיים משוק דונג ואן, ויושב בתחנת הלינה הדרמטית
+    ביותר של הלולאה, מתחת למה פי לנג
+  hours: Sundays only, from 04:00-05:00 until early afternoon, peak 06:00-07:00
+  hours_he: בימי ראשון בלבד, מ-04:00-05:00 עד אחר הצהריים המוקדם, השיא בין 06:00 ל-07:00
 logistics:
 - name: Border Area Entry Permit for the Ha Giang loop
   area: Quan Ba, Yen Minh, Dong Van and Meo Vac districts
-  what: A permit required for foreign travellers entering these border districts, costing
-    260,000 VND (about $10) and checked at checkpoints and hotel registration; most easy-rider
-    and tour operators arrange it as part of the booking, or it can be obtained at the
-    provincial immigration office in Ha Giang City. Riding yourself needs a second document
-    the permit does not cover - a physical International Driving Permit under the 1968 Vienna
-    Convention, endorsed for category A. Note the province itself was merged into Tuyen Quang
-    in the July 2025 reorganisation, so the issuing office may be named differently.
-  why: Not optional, and enforcement tightened sharply from June 2026. Riding without it
-    carries a 500,000 to 2,000,000 VND fine and a turn-around back to the city. Confirm with
-    whichever operator books the loop before departure, and bring the IDP from home - it
-    cannot be issued in Vietnam
+  what: A permit required for foreign travellers entering these border districts,
+    costing 260,000 VND (about $10) and checked at checkpoints and hotel registration;
+    most easy-rider and tour operators arrange it as part of the booking, or it can
+    be obtained at the provincial immigration office in Ha Giang City. Riding yourself
+    needs a second document the permit does not cover - a physical International Driving
+    Permit under the 1968 Vienna Convention, endorsed for category A. Note the province
+    itself was merged into Tuyen Quang in the July 2025 reorganisation, so the issuing
+    office may be named differently.
+  why: Not optional, and enforcement tightened sharply from June 2026. Riding without
+    it carries a 500,000 to 2,000,000 VND fine and a turn-around back to the city.
+    Confirm with whichever operator books the loop before departure, and bring the
+    IDP from home - it cannot be issued in Vietnam
   confidence: medium
   geocode_query: Ha Giang City Immigration Office, Vietnam
   sources:
@@ -283,24 +295,25 @@ logistics:
   - https://www.timeout.com/asia/news/ha-giang-loop-permits-what-travellers-need-to-know-before-riding-vietnams-famous-mountain-route-061426
   name_he: היתר כניסה לאזור הגבול
   area_he: מחוזות קוואן בה, יין מין, דונג ואן ומאו ואק
-  what_he: היתר הנדרש מנוסעים זרים שנכנסים למחוזות הגבול האלה. עולה 260,000 דונג, כעשרה דולר,
-    ונבדק במחסומים וברישום במלון. רוב מפעילי הסיורים מסדירים אותו כחלק מההזמנה, ואפשר גם
-    להוציא אותו במשרד ההגירה המחוזי בעיר הא ז'יאנג. מי שרוכב בעצמו צריך מסמך שני שההיתר
-    אינו מכסה — רישיון נהיגה בינלאומי פיזי לפי אמנת וינה 1968, עם סיווג A. לידיעה — המחוז
-    עצמו מוזג לתוך טואן קוואנג בארגון מחדש של יולי 2025, ולכן שם המשרד המנפיק עשוי להשתנות.
-  why_he: אינו רשות, והאכיפה התהדקה בחדות מיוני 2026. רכיבה בלעדיו גוררת קנס של 500,000 עד
-    2,000,000 דונג והחזרה לעיר. לאשר מול המפעיל שמזמין את הלולאה לפני היציאה, ולהביא את
-    הרישיון הבינלאומי מהבית — אי אפשר להנפיק אותו בווייטנאם
+  what_he: היתר הנדרש מנוסעים זרים שנכנסים למחוזות הגבול האלה. עולה 260,000 דונג,
+    כעשרה דולר, ונבדק במחסומים וברישום במלון. רוב מפעילי הסיורים מסדירים אותו כחלק
+    מההזמנה, ואפשר גם להוציא אותו במשרד ההגירה המחוזי בעיר הא ז'יאנג. מי שרוכב בעצמו
+    צריך מסמך שני שההיתר אינו מכסה — רישיון נהיגה בינלאומי פיזי לפי אמנת וינה 1968,
+    עם סיווג A. לידיעה — המחוז עצמו מוזג לתוך טואן קוואנג בארגון מחדש של יולי 2025,
+    ולכן שם המשרד המנפיק עשוי להשתנות.
+  why_he: אינו רשות, והאכיפה התהדקה בחדות מיוני 2026. רכיבה בלעדיו גוררת קנס של 500,000
+    עד 2,000,000 דונג והחזרה לעיר. לאשר מול המפעיל שמזמין את הלולאה לפני היציאה, ולהביא
+    את הרישיון הבינלאומי מהבית — אי אפשר להנפיק אותו בווייטנאם
 street_food:
 - name: Ha Giang-style banh cuon (in broth)
   kind: vietnamese
   signal: traveler_recommended
   dish: Banh cuon
   area: Ha Giang City, Ly Tu Trong street, and Dong Van market stalls
-  what: Steamed rice-flour rolls filled with minced pork and wood-ear mushroom, served not
-    with the usual dipping fish sauce but floating in a hot pork-bone broth.
-  why: A distinct regional variant of a dish found nationwide, and one of the cheapest hot
-    meals on the loop
+  what: Steamed rice-flour rolls filled with minced pork and wood-ear mushroom, served
+    not with the usual dipping fish sauce but floating in a hot pork-bone broth.
+  why: A distinct regional variant of a dish found nationwide, and one of the cheapest
+    hot meals on the loop
   confidence: medium
   geocode_query: Ly Tu Trong street food stalls, Ha Giang City, Vietnam
   sources:
@@ -308,19 +321,20 @@ street_food:
   is_dish: true
   name_he: באן קואון בסגנון הא ז'יאנג
   area_he: העיר הא ז'יאנג, רחוב לי טו טרונג, ודוכני שוק דונג ואן
-  what_he: גלילי קמח אורז מאודים במילוי בשר חזיר טחון ופטריות אוזן-עץ, שמוגשים לא עם רוטב
-    הדגים המקובל לטבילה אלא צפים במרק חם של עצמות חזיר.
-  why_he: וריאנט אזורי מובחן של מנה שקיימת בכל הארץ, ואחת הארוחות החמות הזולות ביותר בלולאה
+  what_he: גלילי קמח אורז מאודים במילוי בשר חזיר טחון ופטריות אוזן-עץ, שמוגשים לא
+    עם רוטב הדגים המקובל לטבילה אלא צפים במרק חם של עצמות חזיר.
+  why_he: וריאנט אזורי מובחן של מנה שקיימת בכל הארץ, ואחת הארוחות החמות הזולות ביותר
+    בלולאה
 - name: Thang co
   kind: vietnamese
   signal: traveler_recommended
   dish: Thang co (H'mong offal and meat stew)
   area: Dong Van, Meo Vac and Lung Cu markets
-  what: A H'mong stew of horse, beef or goat meat and offal, simmered for hours with a spice
-    mix of around a dozen ingredients into a dark, strongly-flavoured broth, traditionally
-    ladled from a communal pot at market.
-  why: The signature dish of the loop's Sunday markets, and about as far from lowland Vietnamese
-    cooking as the food on this trip gets
+  what: A H'mong stew of horse, beef or goat meat and offal, simmered for hours with
+    a spice mix of around a dozen ingredients into a dark, strongly-flavoured broth,
+    traditionally ladled from a communal pot at market.
+  why: The signature dish of the loop's Sunday markets, and about as far from lowland
+    Vietnamese cooking as the food on this trip gets
   confidence: medium
   geocode_query: Dong Van Market, Ha Giang, Vietnam
   sources:
@@ -328,8 +342,8 @@ street_food:
   is_dish: true
   name_he: תאנג קו
   area_he: שווקי דונג ואן, מאו ואק ולונג קו
-  what_he: נזיד המונג מבשר סוס, בקר או עז ומהאיברים הפנימיים, שמבושל שעות עם תערובת של כתריסר
-    תבלינים למרק כהה וחזק בטעמו, ונמזג באופן מסורתי מסיר משותף בשוק.
-  why_he: מנת החתימה של שוקי יום ראשון בלולאה, והרחוקה ביותר מהבישול הוויאטנמי של השפלה מכל
-    מה שיש בטיול הזה
+  what_he: נזיד המונג מבשר סוס, בקר או עז ומהאיברים הפנימיים, שמבושל שעות עם תערובת
+    של כתריסר תבלינים למרק כהה וחזק בטעמו, ונמזג באופן מסורתי מסיר משותף בשוק.
+  why_he: מנת החתימה של שוקי יום ראשון בלולאה, והרחוקה ביותר מהבישול הוויאטנמי של
+    השפלה מכל מה שיש בטיול הזה
 hebrew_complete: true

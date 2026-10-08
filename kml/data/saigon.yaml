@@ -6,9 +6,10 @@ hotels:
   price_high: 251
   price_checked: '2026-08-16'
   area: District 1, near Ben Thanh Market
-  what: A 5-star boutique tower a two-minute walk from Ben Thanh Market, with a rooftop pool
-    and bar looking over the District 1 skyline.
-  why: Best rated boutique 5-star in the four agent proposals, and closest to Ben Thanh
+  what: A 5-star boutique tower a two-minute walk from Ben Thanh Market, with a rooftop
+    pool and bar looking over the District 1 skyline.
+  why: Best rated boutique 5-star in the four agent proposals, and closest to Ben
+    Thanh
   confidence: high
   geocode_query: La Siesta Premium Saigon, Ho Chi Minh City, Vietnam
   sources:
@@ -16,9 +17,10 @@ hotels:
   - https://www.tripadvisor.com/Hotel_Review-g293925-d25442757-Reviews-La_Siesta_Premium_Saigon-Ho_Chi_Minh_City.html
   name_he: לה סייסטה פרימיום
   area_he: מחוז 1, ליד שוק בן תאן
-  what_he: מגדל בוטיק 5 כוכבים, שתי דקות הליכה משוק בן תאן, עם בריכה ובר על הגג שמשקיפים על
-    קו הרקיע של מחוז 1.
-  why_he: ה-5 כוכבים הבוטיקי המדורג ביותר מבין ארבע הצעות הסוכנויות, והקרוב ביותר לבן תאן
+  what_he: מגדל בוטיק 5 כוכבים, שתי דקות הליכה משוק בן תאן, עם בריכה ובר על הגג שמשקיפים
+    על קו הרקיע של מחוז 1.
+  why_he: ה-5 כוכבים הבוטיקי המדורג ביותר מבין ארבע הצעות הסוכנויות, והקרוב ביותר
+    לבן תאן
 - name: Hotel Des Arts Saigon - MGallery
   tier: 5
   tier_official: true
@@ -26,8 +28,9 @@ hotels:
   price_high: 396
   price_checked: '2026-08-16'
   area: District 1, near Notre-Dame Cathedral
-  what: A 5-star Art Deco-era building restored as an Accor MGallery hotel, with 168 rooms,
-    a rooftop infinity pool and a French colonial facade a short walk from Notre-Dame Cathedral.
+  what: A 5-star Art Deco-era building restored as an Accor MGallery hotel, with 168
+    rooms, a rooftop infinity pool and a French colonial facade a short walk from
+    Notre-Dame Cathedral.
   why: Accor-chain 5-star with an officially assigned rating, mentioned as an alternative
     in the project's own vetted hotel research
   confidence: high
@@ -41,10 +44,10 @@ hotels:
   location_precision: approximate
   name_he: הוטל דז ארט, MGallery
   area_he: מחוז 1, ליד קתדרלת נוטרדאם
-  what_he: בניין בסגנון אר-דקו ששוחזר כמלון 5 כוכבים של אקור MGallery, עם 168 חדרים, בריכת
-    אינסוף על הגג וחזית קולוניאלית צרפתית, במרחק הליכה קצר מקתדרלת נוטרדאם.
-  why_he: 5 כוכבים של רשת אקור עם דירוג שהוענק רשמית, ומוזכר כחלופה במחקר המלונות המאומת של
-    הפרויקט
+  what_he: בניין בסגנון אר-דקו ששוחזר כמלון 5 כוכבים של אקור MGallery, עם 168 חדרים,
+    בריכת אינסוף על הגג וחזית קולוניאלית צרפתית, במרחק הליכה קצר מקתדרלת נוטרדאם.
+  why_he: 5 כוכבים של רשת אקור עם דירוג שהוענק רשמית, ומוזכר כחלופה במחקר המלונות
+    המאומת של הפרויקט
 - name: Liberty Central Saigon Riverside
   tier: 4
   tier_official: true
@@ -54,8 +57,8 @@ hotels:
   area: District 1, riverside near Ben Nghe Canal
   what: A modern 4-star tower a few blocks from the Saigon River, part of the established
     Liberty Central mid-scale chain, with a rooftop pool and gym.
-  why: Reliable mid-scale chain rating at roughly half the price of the 5-star picks, with
-    consistent 4-star classification across booking platforms
+  why: Reliable mid-scale chain rating at roughly half the price of the 5-star picks,
+    with consistent 4-star classification across booking platforms
   confidence: high
   geocode_query: Liberty Central Saigon Riverside Hotel, Ho Chi Minh City, Vietnam
   sources:
@@ -63,10 +66,10 @@ hotels:
   - https://www.agoda.com/en-ca/liberty-central-saigon-riverside-hotel/hotel/ho-chi-minh-city-vn.html
   name_he: ליברטי סנטרל ריברסייד
   area_he: מחוז 1, על הנהר ליד תעלת בן נגה
-  what_he: מגדל 4 כוכבים מודרני כמה בלוקים מנהר סייגון, חלק מרשת הביניים הוותיקה ליברטי סנטרל,
-    עם בריכת גג וחדר כושר.
-  why_he: דירוג אמין של רשת ביניים בכמחצית ממחיר בחירות ה-5 כוכבים, עם סיווג 4 כוכבים עקבי
-    בכל פלטפורמות ההזמנה
+  what_he: מגדל 4 כוכבים מודרני כמה בלוקים מנהר סייגון, חלק מרשת הביניים הוותיקה ליברטי
+    סנטרל, עם בריכת גג וחדר כושר.
+  why_he: דירוג אמין של רשת ביניים בכמחצית ממחיר בחירות ה-5 כוכבים, עם סיווג 4 כוכבים
+    עקבי בכל פלטפורמות ההזמנה
 - name: Sky Gem Hotel - Ben Thanh
   tier: 4
   tier_official: false
@@ -74,10 +77,10 @@ hotels:
   price_high: 45
   price_checked: '2026-08-16'
   area: District 1, near Ben Thanh Market
-  what: A small independent tower hotel a few minutes' walk from Ben Thanh Market, self-classified
-    as 4-star, with smoke-free rooms and a rooftop terrace.
-  why: Cited by an independent agent proposal as its 4-star pick, and the cheapest hotel in
-    the pool with a genuine 4-star self-rating
+  what: A small independent tower hotel a few minutes' walk from Ben Thanh Market,
+    self-classified as 4-star, with smoke-free rooms and a rooftop terrace.
+  why: Cited by an independent agent proposal as its 4-star pick, and the cheapest
+    hotel in the pool with a genuine 4-star self-rating
   confidence: medium
   geocode_query: Sky Gem Hotel Ben Thanh, Ho Chi Minh City, Vietnam
   sources:
@@ -85,10 +88,10 @@ hotels:
   - https://www.trip.com/hotels/ho-chi-minh-city-hotel-detail-2192606/sky-gem-hotel-ben-thanh/
   name_he: סקיי ג'ם
   area_he: מחוז 1, ליד שוק בן תאן
-  what_he: מלון מגדל עצמאי וקטן, כמה דקות הליכה משוק בן תאן, שמסווג את עצמו כ-4 כוכבים, עם
-    חדרים נטולי עישון ומרפסת גג.
-  why_he: צוין בהצעת סוכנות עצמאית כבחירת ה-4 כוכבים שלה, והמלון הזול במאגר עם דירוג עצמי
-    אמיתי של 4 כוכבים
+  what_he: מלון מגדל עצמאי וקטן, כמה דקות הליכה משוק בן תאן, שמסווג את עצמו כ-4 כוכבים,
+    עם חדרים נטולי עישון ומרפסת גג.
+  why_he: צוין בהצעת סוכנות עצמאית כבחירת ה-4 כוכבים שלה, והמלון הזול במאגר עם דירוג
+    עצמי אמיתי של 4 כוכבים
 - name: Silverland Central Hotel
   tier: 3
   tier_official: true
@@ -96,10 +99,11 @@ hotels:
   price_high: 188
   price_checked: '2026-08-16'
   area: District 1, near Ben Thanh Market
-  what: A 101-room officially-rated 3-star boutique hotel a short walk from Ben Thanh Market,
-    part of the long-running Silverland hotel group, with a rooftop bar called OMG.
-  why: Officially classified 3-star (not self-declared) with a decade of top-ten 3-star rankings
-    in the city
+  what: A 101-room officially-rated 3-star boutique hotel a short walk from Ben Thanh
+    Market, part of the long-running Silverland hotel group, with a rooftop bar called
+    OMG.
+  why: Officially classified 3-star (not self-declared) with a decade of top-ten 3-star
+    rankings in the city
   confidence: high
   geocode_query: Silverland Central Hotel, Ho Chi Minh City, Vietnam
   sources:
@@ -110,9 +114,10 @@ hotels:
     lng: 106.6972524
   name_he: סילברלנד סנטרל
   area_he: מחוז 1, ליד שוק בן תאן
-  what_he: מלון בוטיק של 101 חדרים עם 3 כוכבים רשמיים, במרחק הליכה קצר משוק בן תאן, חלק מקבוצת
-    המלונות הוותיקה סילברלנד, עם בר גג בשם OMG.
-  why_he: מסווג רשמית 3 כוכבים ולא מוצהר עצמית, עם עשור של דירוגי עשירייה פותחת בקטגוריה בעיר
+  what_he: מלון בוטיק של 101 חדרים עם 3 כוכבים רשמיים, במרחק הליכה קצר משוק בן תאן,
+    חלק מקבוצת המלונות הוותיקה סילברלנד, עם בר גג בשם OMG.
+  why_he: מסווג רשמית 3 כוכבים ולא מוצהר עצמית, עם עשור של דירוגי עשירייה פותחת בקטגוריה
+    בעיר
 - name: Bong Sen Hotel Saigon
   tier: 3
   tier_official: true
@@ -120,10 +125,10 @@ hotels:
   price_high: 94
   price_checked: '2026-08-16'
   area: District 1, Dong Khoi Street
-  what: A 120-room 3-star hotel on Dong Khoi, the city's main shopping street, with three
-    restaurants and a small fitness center.
-  why: Officially rated 3-star on the same street as the 5-star picks, at a fraction of the
-    price
+  what: A 120-room 3-star hotel on Dong Khoi, the city's main shopping street, with
+    three restaurants and a small fitness center.
+  why: Officially rated 3-star on the same street as the 5-star picks, at a fraction
+    of the price
   confidence: high
   geocode_query: Bong Sen Hotel Saigon, Dong Khoi, Ho Chi Minh City, Vietnam
   sources:
@@ -134,17 +139,17 @@ hotels:
     lng: 106.7038852
   name_he: בונג סן
   area_he: מחוז 1, רחוב דונג קוי
-  what_he: מלון 3 כוכבים של 120 חדרים ברחוב דונג קוי, רחוב הקניות הראשי של העיר, עם שלוש מסעדות
-    וחדר כושר קטן.
+  what_he: מלון 3 כוכבים של 120 חדרים ברחוב דונג קוי, רחוב הקניות הראשי של העיר, עם
+    שלוש מסעדות וחדר כושר קטן.
   why_he: 3 כוכבים רשמיים באותו רחוב שבו נמצאות בחירות ה-5 כוכבים, בשבריר מהמחיר
 must_see:
 - name: Reunification Palace
   area: District 1
-  what: A 1960s modernist government building where a North Vietnamese tank crashed through
-    the gates on 30 April 1975. The war rooms, radio room and presidential quarters are preserved
-    as they were that day.
-  why: The single physical location where the Vietnam War's ending is preserved in place,
-    not just described
+  what: A 1960s modernist government building where a North Vietnamese tank crashed
+    through the gates on 30 April 1975. The war rooms, radio room and presidential
+    quarters are preserved as they were that day.
+  why: The single physical location where the Vietnam War's ending is preserved in
+    place, not just described
   confidence: high
   geocode_query: Reunification Palace, Ho Chi Minh City, Vietnam
   sources:
@@ -154,39 +159,41 @@ must_see:
     lng: 106.695488
   name_he: ארמון האיחוד
   area_he: מחוז 1
-  what_he: מבנה ממשלתי מודרניסטי משנות ה-60 שטנק צפון-ויאטנמי פרץ דרך שעריו ב-30 באפריל 1975.
-    חדרי המלחמה, חדר הרדיו ומגורי הנשיא משומרים כפי שהיו באותו יום.
+  what_he: מבנה ממשלתי מודרניסטי משנות ה-60 שטנק צפון-ויאטנמי פרץ דרך שעריו ב-30 באפריל
+    1975. חדרי המלחמה, חדר הרדיו ומגורי הנשיא משומרים כפי שהיו באותו יום.
   why_he: המקום הפיזי היחיד שבו סיום מלחמת ויאטנם משומר במקומו, ולא רק מתואר
+  hours: 08:00-16:30 daily
+  hours_he: 08:00-16:30 כל יום
 - name: Notre-Dame Cathedral Basilica of Saigon
   area: District 1
-  what: A twin-towered red-brick cathedral built by French colonists in the 1880s from bricks
-    imported from Marseille. It has been under scaffolded restoration since July 2017; the
-    2027 target has since slipped further, and scaffolding and hoardings still limit access.
-    The front square remains open and Mass is still held. Two gold-plated crosses went back
-    on the towers in March 2026.
-  why: The city's best-known colonial landmark - but expect a building wrapped in scaffolding,
-    not the postcard. The square and the Central Post Office beside it are the reason to stand
-    there
+  what: A twin-towered red-brick cathedral built by French colonists in the 1880s
+    from bricks imported from Marseille. It has been under scaffolded restoration
+    since July 2017; the 2027 target has since slipped further, and scaffolding and
+    hoardings still limit access. The front square remains open and Mass is still
+    held. Two gold-plated crosses went back on the towers in March 2026.
+  why: The city's best-known colonial landmark - but expect a building wrapped in
+    scaffolding, not the postcard. The square and the Central Post Office beside it
+    are the reason to stand there
   confidence: high
   geocode_query: Notre-Dame Cathedral Basilica of Saigon, Ho Chi Minh City, Vietnam
   sources:
   - https://saigoneer.com/saigon-news/25698-saigon-extends-notre-dame-cathedral-renovation-by-4-years-to-2027
   name_he: קתדרלת נוטרדאם
   area_he: מחוז 1
-  what_he: קתדרלת לבנים אדומות עם שני מגדלים, שבנו המתיישבים הצרפתים בשנות ה-80 של המאה ה-19
-    מלבנים שיובאו ממרסיי. בשיפוץ בפיגומים מאז יולי 2017; יעד 2027 נדחה מאז עוד, ופיגומים
-    וגדרות עדיין מגבילים את הגישה. הכיכר שלפניה פתוחה והמיסה עדיין נערכת. שני צלבים מצופי
-    זהב הוחזרו למגדלים במרץ 2026.
-  why_he: האתר הקולוניאלי המוכר ביותר בעיר — אבל לצפות לבניין עטוף פיגומים ולא לגלויה. הכיכר
-    ובניין הדואר המרכזי שלצידה הם הסיבה לעמוד שם
+  what_he: קתדרלת לבנים אדומות עם שני מגדלים, שבנו המתיישבים הצרפתים בשנות ה-80 של
+    המאה ה-19 מלבנים שיובאו ממרסיי. בשיפוץ בפיגומים מאז יולי 2017; יעד 2027 נדחה מאז
+    עוד, ופיגומים וגדרות עדיין מגבילים את הגישה. הכיכר שלפניה פתוחה והמיסה עדיין נערכת.
+    שני צלבים מצופי זהב הוחזרו למגדלים במרץ 2026.
+  why_he: האתר הקולוניאלי המוכר ביותר בעיר — אבל לצפות לבניין עטוף פיגומים ולא לגלויה.
+    הכיכר ובניין הדואר המרכזי שלצידה הם הסיבה לעמוד שם
 attractions:
 - name: Cu Chi Tunnels
   area: Cu Chi District, about 1.5 hours from central Saigon
-  what: A preserved section of the more than 120 km of hand-dug underground tunnel network
-    used by Viet Cong fighters, with widened crawl-through sections, hidden trapdoor entrances
-    and reconstructed underground rooms.
-  why: The signature half-day trip from Saigon, and one of the few places in Vietnam you physically
-    enter the war rather than just read about it
+  what: A preserved section of the more than 120 km of hand-dug underground tunnel
+    network used by Viet Cong fighters, with widened crawl-through sections, hidden
+    trapdoor entrances and reconstructed underground rooms.
+  why: The signature half-day trip from Saigon, and one of the few places in Vietnam
+    you physically enter the war rather than just read about it
   confidence: high
   geocode_query: Cu Chi Tunnels, Ho Chi Minh City, Vietnam
   sources:
@@ -196,15 +203,18 @@ attractions:
     lng: 106.5291244
   name_he: מנהרות קו צ'י
   area_he: מחוז קו צ'י, כשעה וחצי ממרכז סייגון
-  what_he: מקטע משומר מרשת מנהרות תת-קרקעית באורך למעלה מ-120 קילומטר שנחפרה ביד ושימשה את
-    לוחמי הוייטקונג, עם קטעי זחילה שהורחבו, כניסות דלת-מלכודת מוסתרות וחדרים תת-קרקעיים משוחזרים.
-  why_he: טיול חצי היום המזוהה של סייגון, ואחד המקומות המעטים בוויאטנם שנכנסים בהם פיזית אל
-    תוך המלחמה במקום רק לקרוא עליה
+  what_he: מקטע משומר מרשת מנהרות תת-קרקעית באורך למעלה מ-120 קילומטר שנחפרה ביד ושימשה
+    את לוחמי הוייטקונג, עם קטעי זחילה שהורחבו, כניסות דלת-מלכודת מוסתרות וחדרים תת-קרקעיים
+    משוחזרים.
+  why_he: טיול חצי היום המזוהה של סייגון, ואחד המקומות המעטים בוויאטנם שנכנסים בהם
+    פיזית אל תוך המלחמה במקום רק לקרוא עליה
+  hours: 07:00-17:00 daily
+  hours_he: 07:00-17:00 כל יום
 - name: War Remnants Museum
   area: District 3
-  what: A three-storey museum housing over 20,000 artifacts, photographs and military hardware
-    across nine permanent exhibitions on the Vietnam War and its aftermath, including an outdoor
-    yard of captured US tanks and aircraft.
+  what: A three-storey museum housing over 20,000 artifacts, photographs and military
+    hardware across nine permanent exhibitions on the Vietnam War and its aftermath,
+    including an outdoor yard of captured US tanks and aircraft.
   why: The most direct, unfiltered account of the war from the Vietnamese side, consistently
     rated the city's top museum
   confidence: high
@@ -216,10 +226,13 @@ attractions:
     lng: 106.6922806
   name_he: מוזיאון שרידי המלחמה
   area_he: מחוז 3
-  what_he: מוזיאון בן שלוש קומות ובו למעלה מ-20,000 פריטים, תצלומים וציוד צבאי בתשע תערוכות
-    קבע על מלחמת ויאטנם ותוצאותיה, כולל חצר חיצונית של טנקים ומטוסים אמריקניים שנתפסו.
-  why_he: התיאור הישיר והבלתי מסונן ביותר של המלחמה מהצד הוויאטנמי, ומדורג דרך קבע כמוזיאון
-    המוביל בעיר
+  what_he: מוזיאון בן שלוש קומות ובו למעלה מ-20,000 פריטים, תצלומים וציוד צבאי בתשע
+    תערוכות קבע על מלחמת ויאטנם ותוצאותיה, כולל חצר חיצונית של טנקים ומטוסים אמריקניים
+    שנתפסו.
+  why_he: התיאור הישיר והבלתי מסונן ביותר של המלחמה מהצד הוויאטנמי, ומדורג דרך קבע
+    כמוזיאון המוביל בעיר
+  hours: 07:30-17:30 daily
+  hours_he: 07:30-17:30 כל יום
 street_food:
 - name: Banh Canh Cua Ba Ba
   kind: vietnamese
@@ -228,43 +241,45 @@ street_food:
   area: Cho Quan Ward, District 5
   what: A tiny shop down an alley serving a single dish, a vivid orange crab and rice-noodle
     soup, from indoor and outdoor plastic-stool seating.
-  why: Michelin Bib Gourmand, and the kind of one-dish alley shop Saigon street food is built
-    on
+  why: Michelin Bib Gourmand, and the kind of one-dish alley shop Saigon street food
+    is built on
   confidence: high
   geocode_query: Banh Canh Cua Ba Ba, Nguyen Bieu, Ho Chi Minh City, Vietnam
   sources:
   - https://guide.michelin.com/at/en/ho-chi-minh/ho-chi-minh_2978179/restaurant/banh-canh-cua-ba-ba
   name_he: באן קאן קואה בה בה
   area_he: צ'ו קוואן, מחוז 5
-  what_he: 'חנות זעירה בסמטה שמגישה מנה אחת בלבד: מרק סרטנים ואטריות אורז בכתום עז, בישיבה
-    על שרפרפי פלסטיק בפנים ובחוץ.'
-  why_he: ביב גורמנד של מישלן, וסוג חנות הסמטה של מנה אחת שאוכל הרחוב של סייגון בנוי עליו
+  what_he: 'חנות זעירה בסמטה שמגישה מנה אחת בלבד: מרק סרטנים ואטריות אורז בכתום עז,
+    בישיבה על שרפרפי פלסטיק בפנים ובחוץ.'
+  why_he: ביב גורמנד של מישלן, וסוג חנות הסמטה של מנה אחת שאוכל הרחוב של סייגון בנוי
+    עליו
 - name: Bun Rieu Yen
   kind: vietnamese
   signal: michelin_bib
   dish: Bun rieu (tomato and crab noodle soup)
   area: Tan Son Hoa Ward
-  what: A family-run corner eatery, indoor and outdoor seating, serving the only Bib Gourmand-listed
-    version of bun rieu in the city.
-  why: Michelin Bib Gourmand, the sole representative of this dish on the guide's Saigon list
+  what: A family-run corner eatery, indoor and outdoor seating, serving the only Bib
+    Gourmand-listed version of bun rieu in the city.
+  why: Michelin Bib Gourmand, the sole representative of this dish on the guide's
+    Saigon list
   confidence: high
   geocode_query: Bun Rieu Yen, Truong Sa, Ho Chi Minh City, Vietnam
   sources:
   - https://guide.michelin.com/sg/en/ho-chi-minh/ho-chi-minh_2978179/restaurant/bun-rieu-yen
   name_he: בון רייאו יין
   area_he: טאן סון הואה
-  what_he: מסעדת פינה משפחתית, בישיבה בפנים ובחוץ, שמגישה את הגרסה היחידה של בון רייאו בעיר
-    שמופיעה בביב גורמנד.
+  what_he: מסעדת פינה משפחתית, בישיבה בפנים ובחוץ, שמגישה את הגרסה היחידה של בון רייאו
+    בעיר שמופיעה בביב גורמנד.
   why_he: ביב גורמנד של מישלן, והנציגה היחידה של המנה הזו ברשימת סייגון של המדריך
 - name: Banh Mi Huynh Hoa
   kind: vietnamese
   signal: traveler_recommended
   dish: Banh mi
   area: District 1
-  what: A takeaway counter open since 1989 with a permanent line out front, packing a baguette
-    with five cold cuts, pate, butter and pickles.
-  why: Widely cited as the single most-loaded, most-recommended banh mi in the city, voted
-    Travelers' Top Pick at the 2024 Flavors Awards
+  what: A takeaway counter open since 1989 with a permanent line out front, packing
+    a baguette with five cold cuts, pate, butter and pickles.
+  why: Widely cited as the single most-loaded, most-recommended banh mi in the city,
+    voted Travelers' Top Pick at the 2024 Flavors Awards
   confidence: high
   geocode_query: Banh Mi Huynh Hoa, Ly Tu Trong, Ho Chi Minh City, Vietnam
   sources:
@@ -276,20 +291,20 @@ street_food:
   location_precision: approximate
   name_he: באן מי הווין הואה
   area_he: מחוז 1
-  what_he: דלפק טייק-אווי שפתוח מאז 1989 ותור קבוע לפניו, שדוחס לתוך באגט חמישה סוגי נקניק,
-    פטה, חמאה וכבושים.
-  why_he: מצוטט רבות כבאן מי העמוס והמומלץ ביותר בעיר, ונבחר לבחירת המטיילים בטקס Flavors
-    Awards 2024
+  what_he: דלפק טייק-אווי שפתוח מאז 1989 ותור קבוע לפניו, שדוחס לתוך באגט חמישה סוגי
+    נקניק, פטה, חמאה וכבושים.
+  why_he: מצוטט רבות כבאן מי העמוס והמומלץ ביותר בעיר, ונבחר לבחירת המטיילים בטקס
+    Flavors Awards 2024
 - name: Com Tam Ba Ghien
   kind: vietnamese
   signal: michelin_bib
   dish: Com tam (broken rice with grilled pork chop)
   area: Phu Nhuan District
-  what: A broken-rice shop whose pork chop overhangs the plate, grilled over charcoal and
-    served with the shredded pork skin, steamed egg loaf and fish sauce that make up a proper
-    com tam.
-  why: Com tam is Saigon's own dish rather than a Hanoi import, and this is the Bib Gourmand
-    address for it
+  what: A broken-rice shop whose pork chop overhangs the plate, grilled over charcoal
+    and served with the shredded pork skin, steamed egg loaf and fish sauce that make
+    up a proper com tam.
+  why: Com tam is Saigon's own dish rather than a Hanoi import, and this is the Bib
+    Gourmand address for it
   confidence: medium
   geocode_query: Com Tam Ba Ghien, Phu Nhuan, Ho Chi Minh City, Vietnam
   sources:
@@ -297,18 +312,18 @@ street_food:
   - https://www.tripadvisor.com/Restaurants-g293925-Ho_Chi_Minh_City.html
   name_he: קום טאם בה ז'יין
   area_he: מחוז פו נואן
-  what_he: חנות אורז שבור שצלע החזיר שלה חורגת מעבר לצלחת, נצלית על גחלים ומוגשת עם עור חזיר
-    קצוץ, כיכר ביצה מאודה ורוטב דגים — כל מה שמרכיב קום טאם כהלכה.
+  what_he: חנות אורז שבור שצלע החזיר שלה חורגת מעבר לצלחת, נצלית על גחלים ומוגשת עם
+    עור חזיר קצוץ, כיכר ביצה מאודה ורוטב דגים — כל מה שמרכיב קום טאם כהלכה.
   why_he: קום טאם היא מנה של סייגון עצמה ולא יבוא מהאנוי, וזו הכתובת שלה עם הביב גורמנד
 - name: Pho Phuong
   kind: vietnamese
   signal: michelin_bib
   dish: Pho bo, southern style
   area: District 3
-  what: A southern pho counter, sweeter and more herb-heavy than the Hanoi version, served
-    with the plate of bean sprouts, basil and lime that the north leaves off.
-  why: Eating this after Hanoi's pho is the fastest way to taste how far apart the two halves
-    of the country actually are
+  what: A southern pho counter, sweeter and more herb-heavy than the Hanoi version,
+    served with the plate of bean sprouts, basil and lime that the north leaves off.
+  why: Eating this after Hanoi's pho is the fastest way to taste how far apart the
+    two halves of the country actually are
   confidence: medium
   geocode_query: Pho Phuong, District 3, Ho Chi Minh City, Vietnam
   sources:
@@ -319,19 +334,19 @@ street_food:
     lng: 106.7007331
   name_he: פו פואונג
   area_he: מחוז 3
-  what_he: דלפק פו דרומי, מתוק יותר ועתיר עשבים יותר מהגרסה של האנוי, שמוגש עם צלחת הנבטים,
-    הבזיליקום והליים שהצפון מוותר עליה.
-  why_he: לאכול את זה אחרי הפו של האנוי הוא הדרך המהירה ביותר לטעום כמה רחוקים שני חצאי המדינה
-    זה מזה
+  what_he: דלפק פו דרומי, מתוק יותר ועתיר עשבים יותר מהגרסה של האנוי, שמוגש עם צלחת
+    הנבטים, הבזיליקום והליים שהצפון מוותר עליה.
+  why_he: לאכול את זה אחרי הפו של האנוי הוא הדרך המהירה ביותר לטעום כמה רחוקים שני
+    חצאי המדינה זה מזה
 - name: Bun Bo Hue 14B
   kind: vietnamese
   signal: michelin_bib
   dish: Bun bo Hue (spicy beef and lemongrass noodle soup)
   area: District 1
-  what: A shop serving the central-Vietnamese lemongrass-and-chilli beef noodle soup, thicker
-    round noodles and a far hotter broth than pho.
-  why: A chance to eat Hue's signature dish properly even if the weather in Hue itself does
-    not cooperate
+  what: A shop serving the central-Vietnamese lemongrass-and-chilli beef noodle soup,
+    thicker round noodles and a far hotter broth than pho.
+  why: A chance to eat Hue's signature dish properly even if the weather in Hue itself
+    does not cooperate
   confidence: medium
   geocode_query: Bun Bo Hue 14B, District 1, Ho Chi Minh City, Vietnam
   sources:
@@ -339,18 +354,19 @@ street_food:
   - https://www.tripadvisor.com/Restaurants-g293925-Ho_Chi_Minh_City.html
   name_he: בון בו הואה 14B
   area_he: מחוז 1
-  what_he: חנות שמגישה את מרק אטריות הבקר של מרכז ויאטנם, על בסיס למון גראס וצ'ילי, עם אטריות
-    עגולות ועבות יותר ומרק חריף בהרבה מפו.
-  why_he: הזדמנות לאכול את מנת החתימה של הואה כמו שצריך, גם אם מזג האוויר בהואה עצמה לא משתף
-    פעולה
+  what_he: חנות שמגישה את מרק אטריות הבקר של מרכז ויאטנם, על בסיס למון גראס וצ'ילי,
+    עם אטריות עגולות ועבות יותר ומרק חריף בהרבה מפו.
+  why_he: הזדמנות לאכול את מנת החתימה של הואה כמו שצריך, גם אם מזג האוויר בהואה עצמה
+    לא משתף פעולה
 restaurants:
 - name: Anan Saigon
   kind: vietnamese
   signal: michelin_star
   dish: Modern Vietnamese street food
   area: District 1, Cho Cu (Old Market)
-  what: A restaurant built inside a former wet-market stall on Ton That Dam Street, where
-    chef Peter Cuong Franklin runs street-food recipes through French fine-dining technique.
+  what: A restaurant built inside a former wet-market stall on Ton That Dam Street,
+    where chef Peter Cuong Franklin runs street-food recipes through French fine-dining
+    technique.
   why: One Michelin Star, held since 2023, and the clearest example of Saigon's fine-dining
     scene built on its own street food
   confidence: high
@@ -363,20 +379,20 @@ restaurants:
     lng: 106.7029748
   name_he: אנאן סייגון
   area_he: מחוז 1, השוק הישן
-  what_he: מסעדה שנבנתה בתוך דוכן של שוק רטוב לשעבר ברחוב טון תאט דאם, שבה השף פיטר קואונג
-    פרנקלין מעביר מתכוני אוכל רחוב דרך טכניקה של פיין דיינינג צרפתי.
-  why_he: כוכב מישלן אחד מאז 2023, והדוגמה הברורה ביותר לסצנת הפיין דיינינג של סייגון שנבנתה
-    על אוכל הרחוב שלה עצמה
+  what_he: מסעדה שנבנתה בתוך דוכן של שוק רטוב לשעבר ברחוב טון תאט דאם, שבה השף פיטר
+    קואונג פרנקלין מעביר מתכוני אוכל רחוב דרך טכניקה של פיין דיינינג צרפתי.
+  why_he: כוכב מישלן אחד מאז 2023, והדוגמה הברורה ביותר לסצנת הפיין דיינינג של סייגון
+    שנבנתה על אוכל הרחוב שלה עצמה
 - name: La Villa French Restaurant by Thierry Mounon
   kind: international
   signal: michelin_selected
   dish: Classic French cuisine
   area: Thao Dien, Thu Duc City
-  what: An 11-table colonial-villa dining room run by French chef Thierry Mounon and his wife,
-    serving haute cuisine from southwestern France with starched linen, a cheese trolley and
-    a full wine cellar.
-  why: Michelin Selected, and Saigon's clearest example of its serious international fine-dining
-    scene beyond Vietnamese food
+  what: An 11-table colonial-villa dining room run by French chef Thierry Mounon and
+    his wife, serving haute cuisine from southwestern France with starched linen,
+    a cheese trolley and a full wine cellar.
+  why: Michelin Selected, and Saigon's clearest example of its serious international
+    fine-dining scene beyond Vietnamese food
   confidence: high
   geocode_query: La Villa French Restaurant, Thao Dien, Ho Chi Minh City, Vietnam
   sources:
@@ -384,20 +400,21 @@ restaurants:
   - https://thedotmagazine.com/the-best-french-restaurants-in-ho-chi-minh-city/
   name_he: לה וילה
   area_he: תאו דיין, תו דוק
-  what_he: חדר אוכל בווילה קולוניאלית עם 11 שולחנות, בניהול השף הצרפתי תיירי מונון ואשתו,
-    שמגיש מטבח גבוה מדרום-מערב צרפת, עם מפות מעומלנות, עגלת גבינות ומרתף יין מלא.
-  why_he: נבחרת מישלן, והדוגמה הברורה ביותר בסייגון לסצנת פיין דיינינג בינלאומית רצינית מעבר
-    לאוכל ויאטנמי
+  what_he: חדר אוכל בווילה קולוניאלית עם 11 שולחנות, בניהול השף הצרפתי תיירי מונון
+    ואשתו, שמגיש מטבח גבוה מדרום-מערב צרפת, עם מפות מעומלנות, עגלת גבינות ומרתף יין
+    מלא.
+  why_he: נבחרת מישלן, והדוגמה הברורה ביותר בסייגון לסצנת פיין דיינינג בינלאומית רצינית
+    מעבר לאוכל ויאטנמי
 - name: Cuc Gach Quan
   kind: vietnamese
   signal: michelin_bib
   dish: Home-style Vietnamese
   area: District 1
-  what: An architect-converted old house serving the kind of everyday Vietnamese home cooking
-    - braises, clay pots, simple greens - that restaurants usually skip, across several small
-    rooms and a courtyard.
-  why: Bib Gourmand, and the answer to a week of noodle counters when what you want is a table,
-    a fan and a long dinner
+  what: An architect-converted old house serving the kind of everyday Vietnamese home
+    cooking - braises, clay pots, simple greens - that restaurants usually skip, across
+    several small rooms and a courtyard.
+  why: Bib Gourmand, and the answer to a week of noodle counters when what you want
+    is a table, a fan and a long dinner
   confidence: medium
   geocode_query: Cuc Gach Quan, District 1, Ho Chi Minh City, Vietnam
   sources:
@@ -409,19 +426,19 @@ restaurants:
   location_precision: approximate
   name_he: קוק גאק קוואן
   area_he: מחוז 1
-  what_he: בית ישן שאדריכל הסב, ומגיש בדיוק את בישול הבית הוויאטנמי היומיומי שמסעדות בדרך
-    כלל מדלגות עליו — תבשילים, סירי חימר וירק פשוט — בכמה חדרים קטנים ובחצר.
-  why_he: ביב גורמנד, והתשובה לשבוע של דלפקי אטריות כשמה שרוצים הוא שולחן, מאוורר וארוחת ערב
-    ארוכה
+  what_he: בית ישן שאדריכל הסב, ומגיש בדיוק את בישול הבית הוויאטנמי היומיומי שמסעדות
+    בדרך כלל מדלגות עליו — תבשילים, סירי חימר וירק פשוט — בכמה חדרים קטנים ובחצר.
+  why_he: ביב גורמנד, והתשובה לשבוע של דלפקי אטריות כשמה שרוצים הוא שולחן, מאוורר
+    וארוחת ערב ארוכה
 - name: Hum Garden
   kind: vietnamese
   signal: michelin_bib
   dish: Vegetarian Vietnamese
   area: District 1
-  what: A garden restaurant serving plated vegetarian Vietnamese food - lotus, tofu, mushroom
-    and herb dishes - in a quiet courtyard away from the traffic.
-  why: Saigon's Bib Gourmand vegetarian address, and one of the few genuinely calm dining
-    rooms in District 1
+  what: A garden restaurant serving plated vegetarian Vietnamese food - lotus, tofu,
+    mushroom and herb dishes - in a quiet courtyard away from the traffic.
+  why: Saigon's Bib Gourmand vegetarian address, and one of the few genuinely calm
+    dining rooms in District 1
   confidence: medium
   geocode_query: Hum Garden, District 1, Ho Chi Minh City, Vietnam
   sources:
@@ -433,17 +450,17 @@ restaurants:
   location_precision: approximate
   name_he: האם גארדן
   area_he: מחוז 1
-  what_he: מסעדת גן שמגישה אוכל ויאטנמי צמחוני מוגש בצלחות — מנות לוטוס, טופו, פטריות ועשבים
-    — בחצר שקטה הרחק מהתנועה.
-  why_he: כתובת הביב גורמנד הצמחונית של סייגון, ואחד מחדרי האוכל הרגועים באמת המעטים במחוז
-    1
+  what_he: מסעדת גן שמגישה אוכל ויאטנמי צמחוני מוגש בצלחות — מנות לוטוס, טופו, פטריות
+    ועשבים — בחצר שקטה הרחק מהתנועה.
+  why_he: כתובת הביב גורמנד הצמחונית של סייגון, ואחד מחדרי האוכל הרגועים באמת המעטים
+    במחוז 1
 - name: Banh Xeo 46A
   kind: vietnamese
   signal: michelin_bib
   dish: Banh xeo (sizzling turmeric crepe)
   area: District 1
-  what: A long-running shop turning out large turmeric-yellow rice crepes filled with pork,
-    prawn and bean sprouts, wrapped at the table in mustard leaf and herbs.
+  what: A long-running shop turning out large turmeric-yellow rice crepes filled with
+    pork, prawn and bean sprouts, wrapped at the table in mustard leaf and herbs.
   why: Bib Gourmand, and the southern dish that is most fun to eat with your hands
   confidence: medium
   geocode_query: Banh Xeo 46A, Dinh Cong Trang, District 1, Ho Chi Minh City, Vietnam
@@ -456,17 +473,17 @@ restaurants:
   location_precision: approximate
   name_he: באן שאו 46A
   area_he: מחוז 1
-  what_he: חנות ותיקה שמוציאה קרפ אורז גדולים בצבע כורכום במילוי חזיר, שרימפס ונבטים, שנעטפים
-    ליד השולחן בעלה חרדל ובעשבים.
+  what_he: חנות ותיקה שמוציאה קרפ אורז גדולים בצבע כורכום במילוי חזיר, שרימפס ונבטים,
+    שנעטפים ליד השולחן בעלה חרדל ובעשבים.
   why_he: ביב גורמנד, והמנה הדרומית שהכי כיף לאכול עם הידיים
 markets:
 - name: Ben Thanh Market
   area: District 1
-  what: A covered market of nearly 1,450 stalls under a French-built 1914 clock-tower facade,
-    selling everything from produce and dried goods to clothing, souvenirs and a food court,
-    spilling into a street-food night market outside after dark.
-  why: The city's oldest and largest market, and the default orientation point for District
-    1
+  what: A covered market of nearly 1,450 stalls under a French-built 1914 clock-tower
+    facade, selling everything from produce and dried goods to clothing, souvenirs
+    and a food court, spilling into a street-food night market outside after dark.
+  why: The city's oldest and largest market, and the default orientation point for
+    District 1
   confidence: high
   geocode_query: Ben Thanh Market, Ho Chi Minh City, Vietnam
   sources:
@@ -477,17 +494,19 @@ markets:
     lng: 106.6980365
   name_he: שוק בן תאן
   area_he: מחוז 1
-  what_he: שוק מקורה של כמעט 1,450 דוכנים מתחת לחזית מגדל שעון שבנו הצרפתים ב-1914, שמוכר
-    הכול מתוצרת ומוצרים יבשים ועד ביגוד, מזכרות ורחבת מזון, ונשפך החוצה לשוק לילה של אוכל
-    רחוב אחרי החשכה.
+  what_he: שוק מקורה של כמעט 1,450 דוכנים מתחת לחזית מגדל שעון שבנו הצרפתים ב-1914,
+    שמוכר הכול מתוצרת ומוצרים יבשים ועד ביגוד, מזכרות ורחבת מזון, ונשפך החוצה לשוק
+    לילה של אוכל רחוב אחרי החשכה.
   why_he: השוק הוותיק והגדול ביותר בעיר, ונקודת ההתמצאות המובנת מאליה של מחוז 1
+  hours: 06:00-18:00 for the indoor hall; the street stalls outside run later
+  hours_he: 06:00-18:00 באולם המקורה; הדוכנים ברחוב שמסביב ממשיכים אחר כך
 - name: Hai Thuong Lan Ong herbal medicine street
   area: District 5, Cho Lon
-  what: The city's oldest traditional-medicine quarter - sixty to eighty shops along one street,
-    sacks and jars of dried roots, bark and herbs, named after the founder of Vietnamese traditional
-    medicine.
-  why: A working trade street rather than a tourist market, and the strongest smell you will
-    meet in Vietnam
+  what: The city's oldest traditional-medicine quarter - sixty to eighty shops along
+    one street, sacks and jars of dried roots, bark and herbs, named after the founder
+    of Vietnamese traditional medicine.
+  why: A working trade street rather than a tourist market, and the strongest smell
+    you will meet in Vietnam
   confidence: medium
   weather: medium
   geocode_query: Hai Thuong Lan Ong Street, District 5, Ho Chi Minh City, Vietnam
@@ -496,17 +515,18 @@ markets:
   - https://travelsense.asia/vietnamese-traditional-medicine-a-quick-note-for-wellness-travellers/
   name_he: רחוב הרפואה הסינית האי תואונג לאן אונג
   area_he: מחוז 5, צ'ו לון
-  what_he: רובע הרפואה המסורתית הוותיק בעיר — שישים עד שמונים חנויות לאורך רחוב אחד, שקים
-    וצנצנות של שורשים, קליפות ועשבים מיובשים, קרוי על שם מייסד הרפואה המסורתית הוויאטנמית.
+  what_he: רובע הרפואה המסורתית הוותיק בעיר — שישים עד שמונים חנויות לאורך רחוב אחד,
+    שקים וצנצנות של שורשים, קליפות ועשבים מיובשים, קרוי על שם מייסד הרפואה המסורתית
+    הוויאטנמית.
   why_he: רחוב מסחר עובד ולא שוק תיירים, והריח החזק ביותר שתפגוש בוויאטנם
 logistics:
 - name: Grab from Tan Son Nhat Airport
   area: Tan Son Nhat International Airport (SGN)
   what: Ride-hailing pickup for Grab cars is outside the arrivals hall, past the metered-taxi
-    rank; a ride to District 1 takes 25-50 minutes depending on traffic and costs roughly
-    110,000-250,000 VND.
-  why: Cheaper and more predictable than the taxi rank, with a fixed upfront fare shown before
-    booking
+    rank; a ride to District 1 takes 25-50 minutes depending on traffic and costs
+    roughly 110,000-250,000 VND.
+  why: Cheaper and more predictable than the taxi rank, with a fixed upfront fare
+    shown before booking
   confidence: high
   geocode_query: Tan Son Nhat International Airport, Ho Chi Minh City, Vietnam
   sources:
@@ -517,20 +537,22 @@ logistics:
     lng: 106.6562645
   name_he: גראב משדה התעופה טאן סון נהאט
   area_he: שדה התעופה הבינלאומי טאן סון נהאט
-  what_he: איסוף של גראב נמצא מחוץ לאולם הנוסעים, אחרי תחנת המוניות עם המונה. נסיעה למחוז
-    1 לוקחת 25 עד 50 דקות תלוי בתנועה ועולה בערך 110,000 עד 250,000 דונג.
+  what_he: איסוף של גראב נמצא מחוץ לאולם הנוסעים, אחרי תחנת המוניות עם המונה. נסיעה
+    למחוז 1 לוקחת 25 עד 50 דקות תלוי בתנועה ועולה בערך 110,000 עד 250,000 דונג.
   why_he: זול וצפוי יותר מתחנת המוניות, עם מחיר קבוע שמוצג לפני ההזמנה
 - name: Terminal T3 is a separate building, not a gate
   area: Tan Son Nhat International Airport (SGN)
   what: T3 opened in April 2025 and handles domestic flights only. There is no internal
-    connection to T1 and T2 - moving between them means leaving the airport and going 3.3 to
-    3.8 km on public roads, 15 to 20 minutes by shuttle bus and longer in traffic. Vietnam
-    Airlines domestic departures use T3; international departures stay at T2.
-  why: The single easiest way to miss a flight here. A domestic leg connecting to or from an
-    international one is not a walk between gates - budget an hour on the ground, not fifteen
-    minutes, and confirm which terminal the ticket says
+    connection to T1 and T2 - moving between them means leaving the airport and going
+    3.3 to 3.8 km on public roads, 15 to 20 minutes by shuttle bus and longer in traffic.
+    Vietnam Airlines domestic departures use T3; international departures stay at
+    T2.
+  why: The single easiest way to miss a flight here. A domestic leg connecting to
+    or from an international one is not a walk between gates - budget an hour on the
+    ground, not fifteen minutes, and confirm which terminal the ticket says
   confidence: high
-  geocode_query: Tan Son Nhat International Airport Terminal 3, Ho Chi Minh City, Vietnam
+  geocode_query: Tan Son Nhat International Airport Terminal 3, Ho Chi Minh City,
+    Vietnam
   sources:
   - https://www.traveloka.com/en-au/explore/tips/ho-chi-minh-city-airport-tan-son-nhat-airport-terminal-3/542434
   - https://authentiktravel.com/tan-son-nhat-t3-terminal
@@ -539,21 +561,22 @@ logistics:
     lng: 106.6562645
   name_he: טרמינל T3 הוא בניין נפרד, לא שער
   area_he: שדה התעופה הבינלאומי טאן סון נהאט
-  what_he: 'T3 נפתח באפריל 2025 ומשרת טיסות פנים בלבד. אין בינו לבין T1 ו-T2 שום מעבר פנימי:
-    מעבר ביניהם מחייב לצאת מהשדה ולנסוע 3.3 עד 3.8 קילומטר בכבישים ציבוריים, 15 עד 20 דקות
-    בשאטל ויותר בפקקים. טיסות הפנים של ויטנאם איירליינס יוצאות מ-T3; היציאה הבינלאומית
-    נשארת ב-T2.'
-  why_he: הדרך הקלה ביותר לפספס כאן טיסה. חיבור בין קטע פנים-ארצי לבינלאומי אינו הליכה בין
-    שערים — לתקצב שעה על הקרקע ולא רבע שעה, ולוודא איזה טרמינל רשום על הכרטיס
+  what_he: 'T3 נפתח באפריל 2025 ומשרת טיסות פנים בלבד. אין בינו לבין T1 ו-T2 שום מעבר
+    פנימי: מעבר ביניהם מחייב לצאת מהשדה ולנסוע 3.3 עד 3.8 קילומטר בכבישים ציבוריים,
+    15 עד 20 דקות בשאטל ויותר בפקקים. טיסות הפנים של ויטנאם איירליינס יוצאות מ-T3;
+    היציאה הבינלאומית נשארת ב-T2.'
+  why_he: הדרך הקלה ביותר לפספס כאן טיסה. חיבור בין קטע פנים-ארצי לבינלאומי אינו הליכה
+    בין שערים — לתקצב שעה על הקרקע ולא רבע שעה, ולוודא איזה טרמינל רשום על הכרטיס
 - name: No airport metro link yet
   area: Tan Son Nhat International Airport (SGN)
-  what: Saigon's first metro line (Line 1, Ben Thanh-Suoi Tien) opened in December 2024, but
-    no metro or rail line reaches the airport; a dedicated airport link is not expected until
-    around 2030. Two underground stations serving all three terminals are planned on the
-    Tan Son Nhat-Phu Huu line, still unbuilt. Long Thanh, the new airport out in Dong Nai,
-    does not open commercially until 1 December 2026.
-  why: Rules out the metro as an airport option, which travelers researching the new 2024
-    line sometimes assume is already connected - and rules out Long Thanh for this trip
+  what: Saigon's first metro line (Line 1, Ben Thanh-Suoi Tien) opened in December
+    2024, but no metro or rail line reaches the airport; a dedicated airport link
+    is not expected until around 2030. Two underground stations serving all three
+    terminals are planned on the Tan Son Nhat-Phu Huu line, still unbuilt. Long Thanh,
+    the new airport out in Dong Nai, does not open commercially until 1 December 2026.
+  why: Rules out the metro as an airport option, which travelers researching the new
+    2024 line sometimes assume is already connected - and rules out Long Thanh for
+    this trip
   confidence: medium
   geocode_query: Tan Son Nhat International Airport, Ho Chi Minh City, Vietnam
   sources:
@@ -564,19 +587,20 @@ logistics:
     lng: 106.6562645
   name_he: אין עדיין קו מטרו לשדה התעופה
   area_he: שדה התעופה הבינלאומי טאן סון נהאט
-  what_he: קו המטרו הראשון של סייגון, קו 1 מבן תאן לסואוי טיין, נפתח בדצמבר 2024, אבל שום
-    קו מטרו או רכבת אינו מגיע לשדה התעופה. חיבור ייעודי לשדה אינו צפוי לפני 2030 בערך. שתי
-    תחנות תת-קרקעיות שישרתו את שלושת הטרמינלים מתוכננות על הקו מטאן סון נהאט לפו הו, וטרם
-    נבנו. לונג תאן, שדה התעופה החדש בדונג נאי, נפתח מסחרית רק ב-1 בדצמבר 2026.
-  why_he: פוסל את המטרו כאפשרות לשדה התעופה, מה שנוסעים שקוראים על הקו החדש מ-2024 לפעמים
-    מניחים שכבר קיים — ופוסל את לונג תאן לטיול הזה
+  what_he: קו המטרו הראשון של סייגון, קו 1 מבן תאן לסואוי טיין, נפתח בדצמבר 2024,
+    אבל שום קו מטרו או רכבת אינו מגיע לשדה התעופה. חיבור ייעודי לשדה אינו צפוי לפני
+    2030 בערך. שתי תחנות תת-קרקעיות שישרתו את שלושת הטרמינלים מתוכננות על הקו מטאן
+    סון נהאט לפו הו, וטרם נבנו. לונג תאן, שדה התעופה החדש בדונג נאי, נפתח מסחרית רק
+    ב-1 בדצמבר 2026.
+  why_he: פוסל את המטרו כאפשרות לשדה התעופה, מה שנוסעים שקוראים על הקו החדש מ-2024
+    לפעמים מניחים שכבר קיים — ופוסל את לונג תאן לטיול הזה
 nightlife:
 - name: The Enigma Mansion
   area: District 1
   what: A cocktail bar staged as a mansion of connected rooms, each with its own character,
     where the drinks list is built as a narrative rather than a menu.
-  why: Number 55 on Asia's 50 Best Bars 2026 and the biggest climber on the whole list, up
-    38 places in a year
+  why: Number 55 on Asia's 50 Best Bars 2026 and the biggest climber on the whole
+    list, up 38 places in a year
   confidence: medium
   geocode_query: The Enigma Mansion, District 1, Ho Chi Minh City, Vietnam
   sources:
@@ -584,17 +608,17 @@ nightlife:
   - https://www.asia-bars.com/2026/03/top-12-highly-rated-cocktail-bars-hcmc-vietnam-2026/
   name_he: אניגמה מנשן
   area_he: מחוז 1
-  what_he: בר קוקטיילים שמבוים כאחוזה של חדרים מחוברים, לכל אחד אופי משלו, ורשימת המשקאות
-    בנויה כסיפור ולא כתפריט.
-  why_he: מקום 55 ברשימת 50 הברים הטובים באסיה לשנת 2026, והמטפס הגדול ביותר בכל הרשימה —
-    38 מקומות בשנה
+  what_he: בר קוקטיילים שמבוים כאחוזה של חדרים מחוברים, לכל אחד אופי משלו, ורשימת
+    המשקאות בנויה כסיפור ולא כתפריט.
+  why_he: מקום 55 ברשימת 50 הברים הטובים באסיה לשנת 2026, והמטפס הגדול ביותר בכל הרשימה
+    — 38 מקומות בשנה
 - name: Layla
   area: Dong Du Street, District 1
-  what: A bar spread across the upper floors of a colonial-era apartment block, with an eleven-metre
-    bar in the main room and neighbouring flats converted into a pool room, lounges and a
-    smoking terrace.
-  why: The clearest example of Saigon's converted-apartment-block bar culture, which exists
-    nowhere else in the country
+  what: A bar spread across the upper floors of a colonial-era apartment block, with
+    an eleven-metre bar in the main room and neighbouring flats converted into a pool
+    room, lounges and a smoking terrace.
+  why: The clearest example of Saigon's converted-apartment-block bar culture, which
+    exists nowhere else in the country
   confidence: medium
   geocode_query: Layla Eatery and Bar, Dong Du, District 1, Ho Chi Minh City, Vietnam
   sources:
@@ -606,16 +630,16 @@ nightlife:
   location_precision: approximate
   name_he: ליילה
   area_he: רחוב דונג דו, מחוז 1
-  what_he: בר שפרוס על הקומות העליונות של בניין דירות מהתקופה הקולוניאלית, עם בר באורך אחד
-    עשר מטר בחדר הראשי ודירות שכנות שהוסבו לחדר ביליארד, טרקלינים ומרפסת עישון.
-  why_he: הדוגמה הברורה ביותר לתרבות ברי בנייני-הדירות המוסבים של סייגון, שאינה קיימת בשום
-    מקום אחר במדינה
+  what_he: בר שפרוס על הקומות העליונות של בניין דירות מהתקופה הקולוניאלית, עם בר באורך
+    אחד עשר מטר בחדר הראשי ודירות שכנות שהוסבו לחדר ביליארד, טרקלינים ומרפסת עישון.
+  why_he: הדוגמה הברורה ביותר לתרבות ברי בנייני-הדירות המוסבים של סייגון, שאינה קיימת
+    בשום מקום אחר במדינה
 - name: Stir
   area: Overlooking Ben Thanh Market, District 1
-  what: A hidden first-floor apartment bar looking down on Ben Thanh Market, serving modern
-    cocktails in a deliberately nostalgic Vietnamese room.
-  why: Number 85 on Asia's 50 Best Bars 2026, and the view over the market at night is the
-    reason to pick it over the others
+  what: A hidden first-floor apartment bar looking down on Ben Thanh Market, serving
+    modern cocktails in a deliberately nostalgic Vietnamese room.
+  why: Number 85 on Asia's 50 Best Bars 2026, and the view over the market at night
+    is the reason to pick it over the others
   confidence: medium
   geocode_query: Stir Bar, Ben Thanh, District 1, Ho Chi Minh City, Vietnam
   sources:
@@ -623,8 +647,42 @@ nightlife:
   - https://www.asia-bars.com/2026/03/top-12-highly-rated-cocktail-bars-hcmc-vietnam-2026/
   name_he: סטיר
   area_he: מול שוק בן תאן, מחוז 1
-  what_he: בר דירה נסתר בקומה הראשונה שמשקיף מלמעלה על שוק בן תאן, ומגיש קוקטיילים מודרניים
-    בחדר ויאטנמי נוסטלגי במכוון.
-  why_he: מקום 85 ברשימת 50 הברים הטובים באסיה לשנת 2026, והנוף על השוק בלילה הוא הסיבה לבחור
-    בו על פני האחרים
+  what_he: בר דירה נסתר בקומה הראשונה שמשקיף מלמעלה על שוק בן תאן, ומגיש קוקטיילים
+    מודרניים בחדר ויאטנמי נוסטלגי במכוון.
+  why_he: מקום 85 ברשימת 50 הברים הטובים באסיה לשנת 2026, והנוף על השוק בלילה הוא
+    הסיבה לבחור בו על פני האחרים
 hebrew_complete: true
+spa:
+- name: Temple Leaf Spa
+  area: Hai Ba Trung, District 1
+  what: A stand-alone spa with its own training school, a sauna complex with infrared,
+    Himalayan salt and snow rooms, and treatments done to hotel-spa standard.
+  why: Ranked first among the city's spas, and the staff all come through its own
+    school, which is why the service is consistent rather than luck of the draw
+  confidence: high
+  geocode_query: Temple Leaf Spa, Hai Ba Trung, District 1, Ho Chi Minh City, Vietnam
+  sources:
+  - https://wanderlog.com/place/details/856913/temple-leaf-spa
+  - https://localvietnam.com/ho-chi-minh-city/massage-spa-in-ho-chi-minh-city/
+  name_he: טמפל ליף ספא
+  area_he: האי בא טרונג, מחוז 1
+  what_he: ספא עצמאי עם בית ספר הכשרה משלו, מתחם סאונה שכולל חדרי אינפרא-אדום, מלח
+    הימלאיה ושלג, וטיפולים ברמה של ספא מלון.
+  why_he: מדורג ראשון בין הספא של העיר, וכל הצוות עובר דרך בית הספר שלו — ולכן השירות
+    עקבי ולא הגרלה
+- name: Noir Spa
+  area: District 1
+  what: A spa whose therapists are blind, working in dim light or in complete sensory
+    darkness, with tea and panna cotta afterwards. The sister project of the Noir
+    restaurant.
+  why: Not a gimmick but a different sense of touch entirely, and the kind of thing
+    that stays with you longer than the massage does
+  confidence: medium
+  geocode_query: Noir Spa, District 1, Ho Chi Minh City, Vietnam
+  sources:
+  - https://www.klook.com/activity/31994-noir-spa-dark-experience-ho-chi-minh-city/
+  name_he: נואר ספא
+  area_he: מחוז 1
+  what_he: ספא שהמטפלים בו עיוורים, ועובדים באור עמום או בחשכה חושית מלאה, ובסוף תה
+    ופאנה קוטה. פרויקט אחות של מסעדת נואר.
+  why_he: לא גימיק אלא חוש מגע אחר לגמרי, ומהדברים שנשארים איתך יותר מהעיסוי עצמו

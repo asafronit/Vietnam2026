@@ -83,12 +83,30 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-sapa-diving">
+      <IconStyle>
+        <color>ff19e1ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/swimming.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-sapa-logistics">
       <IconStyle>
         <color>ff19e1ff</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-sapa-contacts">
+      <IconStyle>
+        <color>ff19e1ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -186,17 +204,6 @@
         <description><![CDATA[<b>Sapa</b> &middot; 15 Thach Son Street, Sapa town<br/><i>Approximate location — search the name in Maps</i><br/><br/>A long-running local restaurant serving thang co, the H'mong horse-meat and offal stew simmered with highland herbs, alongside other mountain specialities.<br/><b>Why it's here:</b> The most consistently recommended address in Sapa for this specific regional dish, with an established following on Tripadvisor and local guides alike<br/><a href="https://www.tripadvisor.com/Restaurant_Review-g311304-d12951605-Reviews-Thang_Co_A_Quynh_Restaurant-Sapa_Lao_Cai_Province.html">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=22.3360931,103.8445752&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 22.3360931, 103.8445752]]></description>
         <Point>
           <coordinates>103.8445752,22.3360931,0</coordinates>
-        </Point>
-      </Placemark>
-    </Folder>
-    <Folder>
-      <name>Logistics</name>
-      <Placemark>
-        <name>Hanoi to Sapa transfer options</name>
-        <styleUrl>#s-sapa-logistics</styleUrl>
-        <description><![CDATA[<b>Sapa</b> &middot; Hanoi to Sapa town<br/><br/>Two practical ways to cover the roughly 300km/6 hours - an overnight sleeper train from Hanoi to Lao Cai followed by a 45-60 minute shuttle up to Sapa, or a direct day or overnight limousine van/sleeper bus (5.5-6 hours, roughly 300,000-660,000 VND depending on seat class).<br/><b>Why it's here:</b> The overnight train turns a dead travel day into a night's sleep, but only the van/bus goes door-to-door into Sapa town itself<br/><a href="https://a21tours.com/sapa-sleeper-bus-vs-limousine-van">source 1</a> &middot; <a href="https://visit-sapa.com/en/blog/hanoi-sapa-bus-limousine">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=22.3399787,103.8485698&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 22.3399787, 103.8485698]]></description>
-        <Point>
-          <coordinates>103.8485698,22.3399787,0</coordinates>
         </Point>
       </Placemark>
     </Folder>

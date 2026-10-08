@@ -83,12 +83,30 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-phu-quoc-diving">
+      <IconStyle>
+        <color>ffa9a9a9</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/swimming.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-phu-quoc-logistics">
       <IconStyle>
         <color>ffa9a9a9</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-phu-quoc-contacts">
+      <IconStyle>
+        <color>ffa9a9a9</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -209,6 +227,55 @@
       </Placemark>
     </Folder>
     <Folder>
+      <name>Nightlife</name>
+      <Placemark>
+        <name>Sunset Town night street</name>
+        <styleUrl>#s-phu-quoc-nightlife</styleUrl>
+        <description><![CDATA[<b>Phu Quoc</b> &middot; An Thoi, southern tip of the island<br/><br/>A purpose-built Mediterranean-style seafront quarter: a food street, beachfront bars, the Kiss Bridge, large evening shows and a nightly five-minute firework display.<br/><b>Why it's here:</b> The only organised night out on the island, and also where the An Thoi dive boats leave from - so the dive day and the evening are the same trip south<br/><a href="https://visitphuquoc.com.vn/en/explore-the-nightlife-at-sunset-town-9843">source 1</a> &middot; <a href="https://localvietnam.com/phu-quoc/nightlife-in-phu-quoc/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.0294252,104.0083142&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.0294252, 104.0083142]]></description>
+        <Point>
+          <coordinates>104.0083142,10.0294252,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Spa &amp; Massage</name>
+      <Placemark>
+        <name>Phu Quoc Day Spa</name>
+        <styleUrl>#s-phu-quoc-spa</styleUrl>
+        <description><![CDATA[<b>Phu Quoc</b> &middot; Duong Dong<br/><br/>The island's most-reviewed salon. Every session opens with a herbal foot soak and closes with tea and fruit; the signature is a two-hour hot stone and full-body treatment.<br/><b>Why it's here:</b> The island is the last stop before the flight home, and this is where the sunburn and the boat days get undone - book away from 19:00-21:00, when it backs up<br/><a href="https://vietnamspot.ru/en/blog/phu-quoc-spa">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.2001711,103.9646577&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.2001711, 103.9646577]]></description>
+        <Point>
+          <coordinates>103.9646577,10.2001711,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Diving</name>
+      <Placemark>
+        <name>John's Tours - the quote on file</name>
+        <styleUrl>#s-phu-quoc-diving</styleUrl>
+        <description><![CDATA[<b>Phu Quoc</b> &middot; Southern Phu Quoc, An Thoi; hotel pickup included<br/><i>Approximate location — search the name in Maps</i><br/><br/>A direct dive club, not booked through an agency, which sent a detailed written quote - 110 USD per person for two dives of about 45-50 minutes, covering gear, a dive master, hotel pickup and return, water, fruit and lunch on the boat. Soft drinks and beer are extra and served after the dives. Payment is to the guide on the boat in cash, by Vietnamese bank transfer, or by card through OnePay with a 3 percent fee. For an uncertified diver it runs Discover Scuba one-to-one, 6 metres maximum, about 25 minutes a dive, age 10 and up, barred for heart, lung or blood-pressure conditions and pregnancy.<br/><b>Why it's here:</b> The only quoted price in this tab, and it sits inside the normal Phu Quoc range of 90 to 130 USD for two fun dives. Two things are still open - the club has not given a phone number or website, and the quote prices a certified diver, not the Discover Scuba slot, so that figure needs asking for. Note also that two agencies already offered An Thoi diving inside their packages, so check you are not buying the same day twice<br/><a href="https://localvietnam.com/phu-quoc/diving-in-phu-quoc/">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.1942845,103.9674837&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.1942845, 103.9674837]]></description>
+        <Point>
+          <coordinates>103.9674837,10.1942845,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hon Thom (Pineapple Island) dive sites</name>
+        <styleUrl>#s-phu-quoc-diving</styleUrl>
+        <description><![CDATA[<b>Phu Quoc</b> &middot; An Thoi archipelago, below the cable car<br/><br/>Two separate sites on the same island. North Pineapple Point reaches about 18 metres over a rocky bottom carrying a large colony of whip corals, with cuttlefish and reef fish. South Pineapple Point drops to 35 metres and is the deepest dive in Phu Quoc.<br/><b>Why it's here:</b> The north site is the better-value dive here for a PADI Open Water diver - its 18-metre bottom is exactly the Open Water limit, so the whole site is in range. The south site is not - 35 metres needs Advanced, and no amount of good visibility changes it<br/><a href="https://www.flipperdiving.com/phu-quoc-dive-spots/">source 1</a> &middot; <a href="https://phuquocdivezone.com/dive-sites-phu-quoc/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=9.9920077,104.0124425&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 9.9920077, 104.0124425]]></description>
+        <Point>
+          <coordinates>104.0124425,9.9920077,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hon Dua (Coco Island) and the porcelain wreck</name>
+        <styleUrl>#s-phu-quoc-diving</styleUrl>
+        <description><![CDATA[<b>Phu Quoc</b> &middot; An Thoi archipelago, the island closest to An Thoi town<br/><i>Approximate location — search the name in Maps</i><br/><br/>The nearest island to An Thoi town, which makes it the shortest boat ride in the archipelago. Divers off its western shore report pieces of antique porcelain scattered around a sunken ship.<br/><b>Why it's here:</b> The one site here with something other than reef to look at, and the closest to port - which matters on a day the sea turns and the boat needs a short run home<br/><a href="https://saigontourism.com.vn/a-guide-to-diving-the-phu-quoc-islands/">source 1</a> &middot; <a href="https://phuquocdivezone.com/dive-sites-phu-quoc/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=9.996007,104.0104165&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 9.996007, 104.0104165]]></description>
+        <Point>
+          <coordinates>104.0104165,9.996007,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
       <name>Logistics</name>
       <Placemark>
         <name>Grab and taxi from Phu Quoc International Airport</name>
@@ -216,14 +283,6 @@
         <description><![CDATA[<b>Phu Quoc</b> &middot; Phu Quoc International Airport (PQC), about 10 km south of Duong Dong<br/><br/>Grab and metered taxis both operate from the terminal; a ride to the Long Beach hotel strip takes about 10-15 minutes and costs roughly 100,000-200,000 VND, with Grab typically 10-20% cheaper than the metered taxi rate.<br/><b>Why it's here:</b> The airport sits close enough to the main hotel strip that a transfer is short and cheap regardless of which resort is booked<br/><a href="https://www.airporttransferportal.com/airport-guides/pqc/cost-to-city">source 1</a> &middot; <a href="https://www.grab.com/global/airport-rides/phu-quoc-international-airport/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.1727084,103.9921557&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.1727084, 103.9921557]]></description>
         <Point>
           <coordinates>103.9921557,10.1727084,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Speedboat from the Mekong Delta (Ha Tien)</name>
-        <styleUrl>#s-phu-quoc-logistics</styleUrl>
-        <description><![CDATA[<b>Phu Quoc</b> &middot; Ha Tien to Bai Vong pier, Phu Quoc<br/><br/>Fast boats from Ha Tien on the Mekong Delta coast to Phu Quoc's Bai Vong pier run 3-5 times daily between about 6am and 2pm, taking roughly 1.5 hours; slower car ferries take about 3 hours on the same route.<br/><b>Why it's here:</b> Connects a Mekong Delta stop directly to Phu Quoc without backtracking through Ho Chi Minh City for a flight<br/><a href="https://www.vietnamcoracle.com/phu-quoc-island-ferry-times/">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=10.1457488,104.038743&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 10.1457488, 104.038743]]></description>
-        <Point>
-          <coordinates>104.038743,10.1457488,0</coordinates>
         </Point>
       </Placemark>
     </Folder>

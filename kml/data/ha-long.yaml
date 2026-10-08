@@ -6,10 +6,12 @@ hotels:
   price_high: 400
   price_checked: '2026-08-16'
   area: Ha Long Bay / Lan Ha Bay overnight cruise, departing Tuan Chau
-  what: A newly launched (November 2025) 5-deck cruise ship with 32 cabins, balconies, sea
-    views and an elevator, sailing an overnight route through the bay's limestone karsts.
-  why: The route's chosen overnight-cruise pick — newest fleet in the bay, and the most detailed
-    itinerary (kayaking, sunset cooking class, Trung Trang cave stop) of the options compared
+  what: A newly launched (November 2025) 5-deck cruise ship with 32 cabins, balconies,
+    sea views and an elevator, sailing an overnight route through the bay's limestone
+    karsts.
+  why: The route's chosen overnight-cruise pick — newest fleet in the bay, and the
+    most detailed itinerary (kayaking, sunset cooking class, Trung Trang cave stop)
+    of the options compared
   confidence: medium
   geocode_query: Aqua Luxury Cruise, Tuan Chau Harbour, Ha Long, Vietnam
   sources:
@@ -18,10 +20,10 @@ hotels:
   - https://www.tripadvisor.com/Attraction_Review-g14776299-d33264304-Reviews-Aqua_Luxury_Cruise-Ha_Long_City_H_Long_Bay_Quang_Ninh_Province.html
   name_he: אקווה לוקסרי קרוז
   area_he: שייט לילה במפרץ הא לונג ולאן הא, יוצא מטואן צ'או
-  what_he: ספינת שייט בת חמישה סיפונים שהושקה בנובמבר 2025, עם 32 תאים, מרפסות, נוף לים ומעלית,
-    בשייט לילה בין עמודי הגיר של המפרץ.
-  why_he: 'בחירת שייט הלילה של המסלול — הצי החדש ביותר במפרץ, והמסלול המפורט ביותר מבין ההצעות
-    שהושוו: קיאקים, סדנת בישול בשקיעה ועצירה במערת טרונג טראנג'
+  what_he: ספינת שייט בת חמישה סיפונים שהושקה בנובמבר 2025, עם 32 תאים, מרפסות, נוף
+    לים ומעלית, בשייט לילה בין עמודי הגיר של המפרץ.
+  why_he: 'בחירת שייט הלילה של המסלול — הצי החדש ביותר במפרץ, והמסלול המפורט ביותר
+    מבין ההצעות שהושוו: קיאקים, סדנת בישול בשקיעה ועצירה במערת טרונג טראנג'
 - name: Dora Cruise
   tier: 5
   tier_official: false
@@ -29,10 +31,11 @@ hotels:
   price_high: 265
   price_checked: '2026-08-16'
   area: Ha Long / Lan Ha Bay overnight cruise
-  what: An overnight cruise ship marketed under the product name "Dora Cruise Luxury 5 Star",
-    with spacious cabins, sea-view balconies and a set multi-course dinner menu.
-  why: The alternative overnight cruise pick, and the standing upgrade offer from an earlier,
-    lower-rated boat in this same operator family
+  what: An overnight cruise ship marketed under the product name "Dora Cruise Luxury
+    5 Star", with spacious cabins, sea-view balconies and a set multi-course dinner
+    menu.
+  why: The alternative overnight cruise pick, and the standing upgrade offer from
+    an earlier, lower-rated boat in this same operator family
   confidence: medium
   geocode_query: Dora Cruise, Tuan Chau Harbour, Ha Long, Vietnam
   sources:
@@ -40,10 +43,10 @@ hotels:
   - https://www.torntackies.com/dora-cruise-review/
   name_he: דורה קרוז
   area_he: שייט לילה במפרץ הא לונג ולאן הא
-  what_he: ספינת שייט לילה שמשווקת תחת השם Dora Cruise Luxury 5 Star, עם תאים מרווחים, מרפסות
-    עם נוף לים ותפריט ערב קבוע רב-מנתי.
-  why_he: בחירת שייט הלילה החלופית, וההצעה הקבועה לשדרוג מספינה קודמת ומדורגת נמוך יותר באותה
-    משפחת מפעילים
+  what_he: ספינת שייט לילה שמשווקת תחת השם Dora Cruise Luxury 5 Star, עם תאים מרווחים,
+    מרפסות עם נוף לים ותפריט ערב קבוע רב-מנתי.
+  why_he: בחירת שייט הלילה החלופית, וההצעה הקבועה לשדרוג מספינה קודמת ומדורגת נמוך
+    יותר באותה משפחת מפעילים
 - name: Mon Cheri Cruise
   tier: 4
   tier_official: false
@@ -51,10 +54,11 @@ hotels:
   price_high: 230
   price_checked: '2026-08-16'
   area: Lan Ha Bay overnight cruise
-  what: A 42-cabin cruise line with two ships, every cabin with a private balcony, sailing
-    Lan Ha and Ha Long Bay with kayaking, night squid fishing and an outdoor jacuzzi.
-  why: Consistently well reviewed on Lan Ha Bay routes and priced below the two 5-star options
-    for a similar cabin standard
+  what: A 42-cabin cruise line with two ships, every cabin with a private balcony,
+    sailing Lan Ha and Ha Long Bay with kayaking, night squid fishing and an outdoor
+    jacuzzi.
+  why: Consistently well reviewed on Lan Ha Bay routes and priced below the two 5-star
+    options for a similar cabin standard
   confidence: medium
   geocode_query: Mon Cheri Cruise, Tuan Chau Harbour, Ha Long, Vietnam
   sources:
@@ -62,10 +66,10 @@ hotels:
   - https://www.bestpricetravel.com/halong-bay-cruises/mon-cheri-cruise.html
   name_he: מון שרי קרוז
   area_he: שייט לילה במפרץ לאן הא
-  what_he: קו שייט של 42 תאים בשתי ספינות, כל תא עם מרפסת פרטית, שמפליג בלאן הא ובהא לונג
-    עם קיאקים, דיג דיונונים בלילה וג'קוזי חיצוני.
-  why_he: מקבל ביקורות טובות באופן עקבי במסלולי לאן הא, ומתומחר מתחת לשתי אפשרויות 5 הכוכבים
-    ברמת תא דומה
+  what_he: קו שייט של 42 תאים בשתי ספינות, כל תא עם מרפסת פרטית, שמפליג בלאן הא ובהא
+    לונג עם קיאקים, דיג דיונונים בלילה וג'קוזי חיצוני.
+  why_he: מקבל ביקורות טובות באופן עקבי במסלולי לאן הא, ומתומחר מתחת לשתי אפשרויות
+    5 הכוכבים ברמת תא דומה
 - name: La Pandora Cruise
   tier: 4
   tier_official: true
@@ -73,10 +77,10 @@ hotels:
   price_high: 200
   price_checked: '2026-08-16'
   area: Ha Long Bay overnight cruise
-  what: A 52-metre cruise ship with balcony cabins sailing a standard Ha Long Bay overnight
-    route with cave and viewpoint stops.
-  why: Rated a standard, dependable 4-star by independent cross-checking rather than the inflated
-    star-marketing common on this route
+  what: A 52-metre cruise ship with balcony cabins sailing a standard Ha Long Bay
+    overnight route with cave and viewpoint stops.
+  why: Rated a standard, dependable 4-star by independent cross-checking rather than
+    the inflated star-marketing common on this route
   confidence: medium
   geocode_query: La Pandora Cruise, Tuan Chau Harbour, Ha Long, Vietnam
   sources:
@@ -84,10 +88,10 @@ hotels:
   - https://www.agoda.com/la-pandora-cruise/hotel/halong-vn.html
   name_he: לה פנדורה קרוז
   area_he: שייט לילה במפרץ הא לונג
-  what_he: ספינה באורך 52 מטר עם תאי מרפסת, שמפליגה במסלול לילה סטנדרטי במפרץ הא לונג עם עצירות
-    במערות ובנקודות תצפית.
-  why_he: מדורגת 4 כוכבים סטנדרטיים ואמינים לפי הצלבה עצמאית, ולא לפי שיווק הכוכבים המנופח
-    שרווח במסלול הזה
+  what_he: ספינה באורך 52 מטר עם תאי מרפסת, שמפליגה במסלול לילה סטנדרטי במפרץ הא לונג
+    עם עצירות במערות ובנקודות תצפית.
+  why_he: מדורגת 4 כוכבים סטנדרטיים ואמינים לפי הצלבה עצמאית, ולא לפי שיווק הכוכבים
+    המנופח שרווח במסלול הזה
 - name: Hoang Giang Hotel
   tier: 3
   tier_official: true
@@ -95,9 +99,10 @@ hotels:
   price_high: 67
   price_checked: '2026-08-16'
   area: Cat Ba town
-  what: A land-based budget hotel in Cat Ba town, useful as a base for a Cat Ba National Park
-    / Lan Ha Bay extension outside the cruise nights.
-  why: Officially rated 3-star and consistently listed among Cat Ba's cheapest reliable options
+  what: A land-based budget hotel in Cat Ba town, useful as a base for a Cat Ba National
+    Park / Lan Ha Bay extension outside the cruise nights.
+  why: Officially rated 3-star and consistently listed among Cat Ba's cheapest reliable
+    options
   confidence: medium
   geocode_query: Hoang Giang Hotel, Cat Ba town, Vietnam
   sources:
@@ -105,9 +110,10 @@ hotels:
   - https://catba.tours/accommodation/hoang-giang-cat-ba-hotel/
   name_he: הואנג ז'יאנג
   area_he: העיירה קאט בה
-  what_he: מלון תקציבי על היבשה בעיירה קאט בה, שימושי כבסיס להרחבה לפארק הלאומי קאט בה ולמפרץ
-    לאן הא מחוץ ללילות השייט.
-  why_he: דירוג 3 כוכבים רשמי, ומופיע באופן עקבי בין האפשרויות האמינות הזולות בקאט בה
+  what_he: מלון תקציבי על היבשה בעיירה קאט בה, שימושי כבסיס להרחבה לפארק הלאומי קאט
+    בה ולמפרץ לאן הא מחוץ ללילות השייט.
+  why_he: דירוג 3 כוכבים רשמי, ומופיע באופן עקבי בין האפשרויות האמינות הזולות בקאט
+    בה
 - name: Quang Tung Hotel
   tier: 3
   tier_official: true
@@ -115,10 +121,10 @@ hotels:
   price_high: 100
   price_checked: '2026-08-16'
   area: Cat Ba town centre
-  what: An 83-room hotel in the centre of Cat Ba town with air conditioning, free WiFi throughout,
-    and balcony rooms in some categories.
-  why: Self-classified and independently listed as 3-star, with a strong track record of arranging
-    onward transfers for guests continuing overland
+  what: An 83-room hotel in the centre of Cat Ba town with air conditioning, free
+    WiFi throughout, and balcony rooms in some categories.
+  why: Self-classified and independently listed as 3-star, with a strong track record
+    of arranging onward transfers for guests continuing overland
   confidence: medium
   geocode_query: Quang Tung Hotel, Cat Ba town, Vietnam
   sources:
@@ -126,18 +132,19 @@ hotels:
   - https://www.expedia.com/Hai-Phong-Hotels-QUANG-TUNG-HOTEL.h30099570.Hotel-Information
   name_he: קוואנג טונג
   area_he: מרכז העיירה קאט בה
-  what_he: מלון של 83 חדרים במרכז העיירה קאט בה, עם מיזוג, אינטרנט אלחוטי חופשי בכל המלון,
-    וחדרים עם מרפסת בחלק מהקטגוריות.
-  why_he: מסווג עצמית ומופיע גם באופן עצמאי כ-3 כוכבים, עם רקורד חזק בסידור הסעות המשך לאורחים
-    שממשיכים ביבשה
+  what_he: מלון של 83 חדרים במרכז העיירה קאט בה, עם מיזוג, אינטרנט אלחוטי חופשי בכל
+    המלון, וחדרים עם מרפסת בחלק מהקטגוריות.
+  why_he: מסווג עצמית ומופיע גם באופן עצמאי כ-3 כוכבים, עם רקורד חזק בסידור הסעות
+    המשך לאורחים שממשיכים ביבשה
 must_see:
 - name: Ha Long Bay limestone karsts
   limiter: sea
   area: Ha Long Bay, Quang Ninh province
-  what: Roughly 1,600 limestone islands and karst pillars rising from emerald-green water,
-    many topped with vegetation and containing caves; a UNESCO World Heritage Site since 1994.
-  why: The reason this leg of the trip exists — best seen slowly, from the deck of an overnight
-    boat
+  what: Roughly 1,600 limestone islands and karst pillars rising from emerald-green
+    water, many topped with vegetation and containing caves; a UNESCO World Heritage
+    Site since 1994.
+  why: The reason this leg of the trip exists — best seen slowly, from the deck of
+    an overnight boat
   confidence: high
   geocode_query: Ha Long Bay, Vietnam
   sources:
@@ -147,16 +154,17 @@ must_see:
     lng: 107.0682782
   name_he: עמודי הגיר של מפרץ הא לונג
   area_he: מפרץ הא לונג, מחוז קוואנג נין
-  what_he: כ-1,600 איי גיר ועמודי קארסט שמתרוממים ממים ירוקי אזמרגד, רבים מהם מכוסי צמחייה
-    ובתוכם מערות. אתר מורשת עולמית של אונסק"ו מאז 1994.
-  why_he: הסיבה שהרגל הזו של הטיול קיימת. הכי טוב לראות אותה לאט, מסיפון של ספינת לילה
+  what_he: כ-1,600 איי גיר ועמודי קארסט שמתרוממים ממים ירוקי אזמרגד, רבים מהם מכוסי
+    צמחייה ובתוכם מערות. אתר מורשת עולמית של אונסק"ו מאז 1994.
+  why_he: הסיבה שהרגל הזו של הטיול קיימת. הכי טוב לראות אותה לאט, מסיפון של ספינת
+    לילה
 - name: Cat Ba National Park
   area: Central Cat Ba Island
-  what: A national park covering most of Cat Ba Island's interior, protecting tropical limestone
-    forest, wetlands and mangroves; part of the joint Ha Long Bay-Cat Ba Archipelago UNESCO
-    World Heritage Site and a UNESCO Biosphere Reserve since 2004.
-  why: The forested, trekkable counterpart to the bay's boat-only islands, and home to the
-    critically endangered Cat Ba langur
+  what: A national park covering most of Cat Ba Island's interior, protecting tropical
+    limestone forest, wetlands and mangroves; part of the joint Ha Long Bay-Cat Ba
+    Archipelago UNESCO World Heritage Site and a UNESCO Biosphere Reserve since 2004.
+  why: The forested, trekkable counterpart to the bay's boat-only islands, and home
+    to the critically endangered Cat Ba langur
   confidence: high
   geocode_query: Cat Ba National Park, Cat Ba Island, Vietnam
   sources:
@@ -168,19 +176,19 @@ must_see:
   name_he: הפארק הלאומי קאט בה
   area_he: מרכז האי קאט בה
   what_he: פארק לאומי שמכסה את רוב פנים האי קאט בה ומגן על יער גיר טרופי, ביצות ומנגרובים.
-    חלק מאתר המורשת העולמית המשותף של הא לונג וארכיפלג קאט בה, ושמורת ביוספרה של אונסק"ו מאז
-    2004.
-  why_he: המקבילה המיוערת וברת ההליכה לאיים שמגיעים אליהם רק בסירה, וביתו של קוף הלנגור של
-    קאט בה שנמצא בסכנת הכחדה חמורה
+    חלק מאתר המורשת העולמית המשותף של הא לונג וארכיפלג קאט בה, ושמורת ביוספרה של אונסק"ו
+    מאז 2004.
+  why_he: המקבילה המיוערת וברת ההליכה לאיים שמגיעים אליהם רק בסירה, וביתו של קוף הלנגור
+    של קאט בה שנמצא בסכנת הכחדה חמורה
 attractions:
 - name: Deep water soloing, Lan Ha Bay
   limiter: sea
   area: Lan Ha Bay, off Cat Ba Island
-  what: Free climbing (no ropes or harness) up short limestone cliff routes directly from
-    a boat, falling into the sea when you lose your grip; typically a half-day trip combined
-    with kayaking into hidden lagoons.
-  why: The single most distinctive adventure activity on this leg of the trip, and specific
-    to this limestone coastline
+  what: Free climbing (no ropes or harness) up short limestone cliff routes directly
+    from a boat, falling into the sea when you lose your grip; typically a half-day
+    trip combined with kayaking into hidden lagoons.
+  why: The single most distinctive adventure activity on this leg of the trip, and
+    specific to this limestone coastline
   confidence: high
   geocode_query: Deep water soloing Lan Ha Bay, Cat Ba, Vietnam
   sources:
@@ -188,14 +196,15 @@ attractions:
   - https://www.catbaventures.com/cat-ba-tours/a-half-day-deep-water-soloing-in-lan-ha-bay-cat-ba-4-hours.html
   name_he: טיפוס סולו מעל מים, מפרץ לאן הא
   area_he: מפרץ לאן הא, מול האי קאט בה
-  what_he: טיפוס חופשי בלי חבלים ובלי רתמה על מסלולי גיר קצרים היישר מהסירה, ונפילה לים כשהאחיזה
-    אוזלת. בדרך כלל טיול של חצי יום בשילוב קיאקים אל לגונות נסתרות.
-  why_he: פעילות ההרפתקה המובחנת ביותר ברגל הזו של הטיול, וייחודית לקו החוף הגירי הזה
+  what_he: טיפוס חופשי בלי חבלים ובלי רתמה על מסלולי גיר קצרים היישר מהסירה, ונפילה
+    לים כשהאחיזה אוזלת. בדרך כלל טיול של חצי יום בשילוב קיאקים אל לגונות נסתרות.
+  why_he: פעילות ההרפתקה המובחנת ביותר ברגל הזו של הטיול, וייחודית לקו החוף הגירי
+    הזה
 - name: Trung Trang Cave
   limiter: flood
   area: Cat Ba National Park, about 20-30 minutes from the port
-  what: A 300-metre natural cave carved through a mountain in the middle of Cat Ba's largest
-    valley, with stalactites and stalagmites reachable on a short easy walk.
+  what: A 300-metre natural cave carved through a mountain in the middle of Cat Ba's
+    largest valley, with stalactites and stalagmites reachable on a short easy walk.
   why: A quick, low-effort cave stop that fits into a cruise itinerary alongside kayaking,
     without needing a dedicated caving day
   confidence: high
@@ -209,17 +218,18 @@ attractions:
   location_precision: approximate
   name_he: מערת טרונג טראנג
   area_he: הפארק הלאומי קאט בה, כ-20 עד 30 דקות מהנמל
-  what_he: מערה טבעית באורך 300 מטר החצובה דרך הר בלב העמק הגדול בקאט בה, עם נטיפים וזקיפים
-    שמגיעים אליהם בהליכה קצרה וקלה.
-  why_he: עצירת מערה מהירה וללא מאמץ שמשתלבת במסלול השייט לצד הקיאקים, בלי להקדיש לה יום שלם
+  what_he: מערה טבעית באורך 300 מטר החצובה דרך הר בלב העמק הגדול בקאט בה, עם נטיפים
+    וזקיפים שמגיעים אליהם בהליכה קצרה וקלה.
+  why_he: עצירת מערה מהירה וללא מאמץ שמשתלבת במסלול השייט לצד הקיאקים, בלי להקדיש
+    לה יום שלם
 restaurants:
 - name: Vien Duong Restaurant
   kind: vietnamese
   signal: traveler_recommended
   dish: Fresh tank seafood
   area: 12-19 Nui Ngoc, Cat Ba town
-  what: A seafood restaurant where the catch is chosen live from tanks at the door and cooked
-    to order, typically 200,000-500,000 VND per person.
+  what: A seafood restaurant where the catch is chosen live from tanks at the door
+    and cooked to order, typically 200,000-500,000 VND per person.
   why: The most consistently named seafood address in current Cat Ba dining guides
   confidence: medium
   geocode_query: Vien Duong Restaurant, Nui Ngoc, Cat Ba town, Vietnam
@@ -227,7 +237,7 @@ restaurants:
   - https://catbagreentrail.com/cat-ba-review/
   name_he: ויין דואונג
   area_he: רחוב נוי נגוק 12-19, העיירה קאט בה
-  what_he: מסעדת פירות ים שבה בוחרים את השלל חי מהבריכות שבכניסה והוא מבושל לפי הזמנה. בדרך
-    כלל 200,000 עד 500,000 דונג לאדם.
+  what_he: מסעדת פירות ים שבה בוחרים את השלל חי מהבריכות שבכניסה והוא מבושל לפי הזמנה.
+    בדרך כלל 200,000 עד 500,000 דונג לאדם.
   why_he: כתובת פירות הים שחוזרת באופן העקבי ביותר במדריכי האוכל העדכניים של קאט בה
 hebrew_complete: true

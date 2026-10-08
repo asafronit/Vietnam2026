@@ -83,12 +83,30 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-buon-ma-thuot-diving">
+      <IconStyle>
+        <color>ff24639a</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/swimming.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-buon-ma-thuot-logistics">
       <IconStyle>
         <color>ff24639a</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-buon-ma-thuot-contacts">
+      <IconStyle>
+        <color>ff24639a</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -194,17 +212,6 @@
         <description><![CDATA[<b>Buon Ma Thuot</b> &middot; City center, near Victory Monument<br/><br/>The city's main covered market, stalls piled with roasted and green coffee beans, black pepper, cacao, macadamia nuts and honey harvested from the surrounding highland forests.<br/><b>Why it's here:</b> The place to buy coffee straight from the source rather than at inflated airport prices<br/><a href="https://www.frommers.com/destinations/buon-ma-thuot/shopping/overview">source 1</a> &middot; <a href="https://vinpearl.com/en/buon-ma-thuot-vietnam-a-comprehensive-travel-guide">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=12.6805026,108.042465&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 12.6805026, 108.042465]]></description>
         <Point>
           <coordinates>108.042465,12.6805026,0</coordinates>
-        </Point>
-      </Placemark>
-    </Folder>
-    <Folder>
-      <name>Logistics</name>
-      <Placemark>
-        <name>Da Nang - Buon Ma Thuot flight (VN1911)</name>
-        <styleUrl>#s-buon-ma-thuot-logistics</styleUrl>
-        <description><![CDATA[<b>Buon Ma Thuot</b> &middot; Route into the highlands leg<br/><br/>The only practical way into this leg of the route: a roughly 65-minute Vietnam Airlines flight from Da Nang, operated on selected days of the week rather than daily.<br/><b>Why it's here:</b> The whole route depends on this flight existing on the chosen date; it must be checked against the calendar before booking, not assumed<br/><a href="https://www.vietnamairlines.com/en-vn/flights-from-da-nang-to-buon-ma-thuot">source 1</a> &middot; <a href="https://www.flightaware.com/live/flight/HVN1911">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=12.6668723,108.1199878&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 12.6668723, 108.1199878]]></description>
-        <Point>
-          <coordinates>108.1199878,12.6668723,0</coordinates>
         </Point>
       </Placemark>
     </Folder>

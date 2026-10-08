@@ -125,6 +125,13 @@ class Record:
     # "Watch on YouTube" link. Not required, and not enforced as required
     # for those categories — a missing value falls back to a search link.
     video: str | None = None
+    # שעות פתיחה כמחרוזת חופשית, עם תאום עברי. לא טווח מובנה בכוונה:
+    # המציאות בשטח היא "08:00-17:00, סגור ביום שני", דוכן שפותח 10:30
+    # ונגמר ב-14:30, ושוק שמתפרק ב-09:00 — ומודל שמנסה לתפוס את זה
+    # בשדות נפרדים או משקר או דורש שדה חדש לכל חריג. הכיסוי חלקי
+    # במכוון: רשומה בלי שעות פשוט לא מרנדרת את השורה.
+    hours: str | None = None
+    hours_he: str | None = None
     # filled by the geocode stage
     lat: float | None = None
     lng: float | None = None
@@ -149,6 +156,23 @@ def _normalized_for_sameness_check(text: str) -> str:
     return _TRAILING_PUNCTUATION_RE.sub("", text.strip()).casefold()
 
 
+def is_placeless(rec: Record) -> bool:
+    """A record that has no address, so geocoding it can only lie.
+
+    A dish is not somewhere; neither is a person who works remotely. Sending
+    either to the geocoder produces a miss or a pin on a city centre it has no
+    connection to, and the pin is worse than the miss because it looks right.
+
+    Lives here and not in cli.py because *two* callers need it and they drifted:
+    validate_record waived geocode_query for both kinds, while cmd_geocode
+    skipped only dishes -- so the first contact record added to the pool
+    (Kelly, who the YAML says "works remotely") was handed a pin in Hanoi on
+    the next geocode run, and that pin pushed the pooled KML to an eleventh
+    layer, one over what My Maps accepts.
+    """
+    return rec.is_dish or rec.category == "contacts"
+
+
 def validate_record(rec: Record) -> list[str]:
     errors: list[str] = []
     where = f"{rec.category}/{rec.name}"
@@ -165,11 +189,7 @@ def validate_record(rec: Record) -> list[str]:
         errors.append(f"{where}: why must not restate what")
     if not rec.area.strip():
         errors.append(f"{where}: area is empty")
-    # A dish has no address, and neither does a person: geocoding either one
-    # produces a pin in a city centre that lies about where the thing is.
-    # Both skip the geocoder and stay out of the review queue.
-    _placeless = rec.is_dish or rec.category == "contacts"
-    if not _placeless and not rec.geocode_query.strip():
+    if not is_placeless(rec) and not rec.geocode_query.strip():
         errors.append(f"{where}: geocode_query is empty")
     if rec.is_dish and rec.category not in ("food", "street_food", "restaurants"):
         errors.append(f"{where}: is_dish only applies to food categories")
@@ -186,6 +206,17 @@ def validate_record(rec: Record) -> list[str]:
 
     if rec.limiter is not None and rec.limiter not in LIMITERS:
         errors.append(f"{where}: limiter must be one of {LIMITERS}")
+
+    # מנה אינה נפתחת ואינה נסגרת, ואיש קשר אינו מקום. שעות על אחד מהם
+    # הן סימן ששדה מולא בקטגוריה הלא נכונה.
+    if rec.hours is not None and (rec.is_dish or rec.category == "contacts"):
+        errors.append(f"{where}: hours do not apply to a dish or a contact")
+    if rec.hours is not None and not rec.hours.strip():
+        errors.append(f"{where}: hours is empty")
+    # תאום בלי מקור הוא תאום שאף אחד לא יראה: הדף קורא hoursHe רק אחרי
+    # שהוא מצא hours.
+    if rec.hours_he is not None and rec.hours is None:
+        errors.append(f"{where}: hours_he without hours")
 
     if rec.price_unit is not None and rec.price_unit not in PRICE_UNITS:
         errors.append(f"{where}: price_unit must be one of {PRICE_UNITS}")
@@ -269,6 +300,11 @@ def validate_hebrew(
             for field, value in (("what_he", rec.what_he), ("why_he", rec.why_he))
             if not (value or "").strip()
         ]
+        # hours_he נדרש רק כשיש hours. מקום בלי שעות אינו חור בתרגום --
+        # הכיסוי של השדה חלקי במכוון -- אבל שעות שנוספו לתחנה מתורגמת
+        # בלי תאום הן בדיוק הנסיגה השקטה שהדגל הזה קיים כדי לתפוס.
+        if rec.hours and not (rec.hours_he or "").strip():
+            missing.append("hours_he")
         if missing:
             errors.append(
                 f"{place_id}/{rec.category}/{rec.name}: declared hebrew_complete "

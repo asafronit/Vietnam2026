@@ -83,12 +83,30 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-da-lat-diving">
+      <IconStyle>
+        <color>ff909946</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/swimming.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-da-lat-logistics">
       <IconStyle>
         <color>ff909946</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-da-lat-contacts">
+      <IconStyle>
+        <color>ff909946</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -237,6 +255,17 @@
         <description><![CDATA[<b>Da Lat</b> &middot; Steps below Da Lat Market, city center<br/><i>Approximate location — search the name in Maps</i><br/><br/>The streets and steps below the market building come alive after 5pm with food stalls, grilled rice paper, hot soy milk and fresh strawberries, plus clothing and souvenir stalls.<br/><b>Why it's here:</b> Da Lat's evening centre of gravity, and where most of the specialty street food listed here is actually eaten<br/><a href="https://vinpearl.com/en/da-lat-night-market">source 1</a> &middot; <a href="https://www.vietnamtourism.org.vn/travel-guide/destination-in-vietnam/da-lat%E2%80%99s-night-market.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=11.9414964,108.4372724&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 11.9414964, 108.4372724]]></description>
         <Point>
           <coordinates>108.4372724,11.9414964,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Nightlife</name>
+      <Placemark>
+        <name>Maze Bar (100 Roofs Cafe)</name>
+        <styleUrl>#s-da-lat-nightlife</styleUrl>
+        <description><![CDATA[<b>Da Lat</b> &middot; Da Lat city centre, among the shop-houses<br/><i>Approximate location — search the name in Maps</i><br/><br/>A bar built as a labyrinth: five floors of small rooms, dark passages and spiral staircases wound through a shop-house, serving locally brewed beer. A cafe by day.<br/><b>Why it's here:</b> The most distinctive room in Da Lat with nothing like it elsewhere on the route - the building itself is the attraction, and the acoustic sets run Thursday to Saturday<br/><a href="https://theculturetrip.com/asia/vietnam/articles/the-8-best-bars-in-dalat-vietnam">source 1</a> &middot; <a href="https://dalat.app/blog/guides/da-lat-nightlife-bars-live-music-guide">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=11.9446106,108.4375604&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 11.9446106, 108.4375604]]></description>
+        <Point>
+          <coordinates>108.4375604,11.9446106,0</coordinates>
         </Point>
       </Placemark>
     </Folder>

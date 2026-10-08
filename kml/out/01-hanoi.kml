@@ -83,12 +83,30 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-hanoi-diving">
+      <IconStyle>
+        <color>ff4b19e6</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/swimming.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-hanoi-logistics">
       <IconStyle>
         <color>ff4b19e6</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-hanoi-contacts">
+      <IconStyle>
+        <color>ff4b19e6</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -209,6 +227,22 @@
           <coordinates>105.8465093,21.0254222,0</coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>Imperial Citadel of Thang Long</name>
+        <styleUrl>#s-hanoi-must_see</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Ba Dinh, Hoang Dieu street<br/><br/>The excavated core of the royal citadel that was Vietnam's seat of power for about thirteen centuries, with the Doan Mon gate, the Kinh Thien palace foundations and an archaeological dig showing layers from the 7th century onward.<br/><b>Why it's here:</b> A UNESCO World Heritage site ten minutes from the Old Quarter. Closed on Mondays, which rules out 26/10 and 23/11; the Friday and Saturday night tour does not fit either Hanoi stay<br/><a href="https://en.wikipedia.org/wiki/Imperial_Citadel_of_Th%C4%83ng_Long">source 1</a> &middot; <a href="https://vinwonders.com/en/wonderpedia/news/imperial-citadel-of-thang-long/">source 2</a><br/><a href="https://www.youtube.com/results?search_query=Imperial+Citadel+of+Thang+Long+Hanoi+Vietnam" style="color:#cc0000;font-weight:700">Search YouTube</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0334391,105.83953&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0334391, 105.83953]]></description>
+        <Point>
+          <coordinates>105.83953,21.0334391,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ho Chi Minh Mausoleum Complex</name>
+        <styleUrl>#s-hanoi-must_see</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Ba Dinh Square<br/><br/>The granite mausoleum holding Ho Chi Minh's embalmed body, facing Ba Dinh Square where independence was declared in 1945. The same complex holds his stilt house, the Presidential Palace grounds and the One Pillar Pagoda, a small wooden shrine on a single stone column in a lotus pond.<br/><b>Why it's here:</b> The mausoleum is closed for its annual maintenance from 4/9 to 2/11/2026, so the October stay misses it. It reopens 3/11, mornings only and closed Mondays and Fridays, which leaves the morning of 24/11 as the one window if the flight allows. Ba Dinh Square and the One Pillar Pagoda stay open regardless<br/><a href="https://en.sggp.org.vn/ho-chi-minh-mausoleum-to-close-for-restoration-from-september-4-post128741.html">source 1</a> &middot; <a href="https://en.vietnamplus.vn/president-ho-chi-minh-mausoleum-to-be-closed-for-regular-maintenance-post288232.vnp">source 2</a> &middot; <a href="https://hanoifreeprivatetourguide.com/one-pillar-pagoda-hanoi/">source 3</a><br/><a href="https://www.youtube.com/results?search_query=Ho+Chi+Minh+Mausoleum+Complex+Hanoi+Vietnam" style="color:#cc0000;font-weight:700">Search YouTube</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0367831,105.8346888&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0367831, 105.8346888]]></description>
+        <Point>
+          <coordinates>105.8346888,21.0367831,0</coordinates>
+        </Point>
+      </Placemark>
     </Folder>
     <Folder>
       <name>Attractions &amp; Experiences</name>
@@ -220,13 +254,61 @@
           <coordinates>105.7988403,21.0400774,0</coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>Thang Long Water Puppet Theatre</name>
+        <styleUrl>#s-hanoi-attractions</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Hoan Kiem, Dinh Tien Hoang street, north shore of the lake<br/><br/>A 50-minute show of wooden puppets performed on a pool of water by puppeteers hidden behind a bamboo screen, with a live band playing traditional instruments. The form comes from the flooded rice fields of the Red River delta.<br/><b>Why it's here:</b> A northern Vietnamese art that exists nowhere else, indoors and an hour long, which makes it the natural plan for a rainy evening. Evening slots sell out two to three days ahead<br/><a href="https://vinwonders.com/en/wonderpedia/news/thang-long-water-puppet-theater-hanoi-enjoy-excellent-folk-art-of-vietnam/">source 1</a> &middot; <a href="https://viet-go.com/en/attractions/thang-long-water-puppet-theatre-guide">source 2</a><br/><a href="https://www.youtube.com/results?search_query=Thang+Long+Water+Puppet+Theatre+Hanoi+Vietnam" style="color:#cc0000;font-weight:700">Search YouTube</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0317043,105.853455&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0317043, 105.853455]]></description>
+        <Point>
+          <coordinates>105.853455,21.0317043,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vietnamese Women's Museum</name>
+        <styleUrl>#s-hanoi-attractions</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Hoan Kiem, 36 Ly Thuong Kiet<br/><br/>Four floors on the role of women in Vietnamese family life, work, war and fashion, from ethnic-minority wedding dress to the street vendors with shoulder poles, with English labels throughout.<br/><b>Why it's here:</b> Consistently rated one of the best-curated museums in the city, cheap, indoors and a short walk from Hoan Kiem Lake<br/><a href="https://vietnamdiscovery.com/hanoi/attractions/vietnamese-womens-museum/">source 1</a><br/><a href="https://www.youtube.com/results?search_query=Vietnamese+Women%27s+Museum+Hanoi+Vietnam" style="color:#cc0000;font-weight:700">Search YouTube</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0233506,105.8515958&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0233506, 105.8515958]]></description>
+        <Point>
+          <coordinates>105.8515958,21.0233506,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Joseph's Cathedral</name>
+        <styleUrl>#s-hanoi-attractions</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Hoan Kiem, Nha Chung street<br/><i>Approximate location — search the name in Maps</i><br/><br/>A neo-Gothic cathedral completed in 1886, modelled on Notre-Dame de Paris, its grey twin towers standing over a small square lined with cafes.<br/><b>Why it's here:</b> Free, five minutes from the lake, and the square in front is where Hanoians sit on low stools for lemon tea in the evening<br/><a href="https://en.wikipedia.org/wiki/St._Joseph%27s_Cathedral,_Hanoi">source 1</a><br/><a href="https://www.youtube.com/results?search_query=St.+Joseph%27s+Cathedral+Hanoi+Vietnam" style="color:#cc0000;font-weight:700">Search YouTube</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0286483,105.8488566&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0286483, 105.8488566]]></description>
+        <Point>
+          <coordinates>105.8488566,21.0286483,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Long Bien Bridge</name>
+        <styleUrl>#s-hanoi-attractions</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Between the Old Quarter and Long Bien, over the Red River<br/><br/>A 1.7km steel cantilever bridge finished by the French in 1903, bombed repeatedly in the American war and patched rather than replaced. Trains run down the middle and the outer lanes carry only motorbikes, bicycles and pedestrians.<br/><b>Why it's here:</b> Free, and a walk out to the middle at sunset gives the widest view of the Red River and the city. The Ceramic Mosaic Mural starts at its foot<br/><a href="https://en.wikipedia.org/wiki/Long_Bi%C3%AAn_Bridge">source 1</a><br/><a href="https://www.youtube.com/results?search_query=Long+Bien+Bridge+Hanoi+Vietnam" style="color:#cc0000;font-weight:700">Search YouTube</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0430652,105.8580334&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0430652, 105.8580334]]></description>
+        <Point>
+          <coordinates>105.8580334,21.0430652,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Phung Hung Mural Street</name>
+        <styleUrl>#s-hanoi-attractions</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Old Quarter, Phung Hung street<br/><br/>The brick arches under the old railway viaduct on Phung Hung street, painted in 2017 by Vietnamese and Korean artists with scenes of old Hanoi - the lantern stalls of Hang Ma at Mid-Autumn, a street vendor, the Trang Tien department store.<br/><b>Why it's here:</b> A free open-air gallery on the same street as the train-street cafes, so the two fit in one visit<br/><a href="https://vietnamnet.vn/en/phung-hung-mural-street-features-old-hanoi-E199459.html">source 1</a><br/><a href="https://www.youtube.com/results?search_query=Phung+Hung+Mural+Street+Hanoi+Vietnam" style="color:#cc0000;font-weight:700">Search YouTube</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0340272,105.8457157&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0340272, 105.8457157]]></description>
+        <Point>
+          <coordinates>105.8457157,21.0340272,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bat Trang Pottery Village</name>
+        <styleUrl>#s-hanoi-attractions</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Gia Lam, about 13km south-east of the Old Quarter<br/><br/>A village that has made ceramics for over five hundred years, with a covered pottery market, family kilns and walk-in workshops where you throw your own piece on a wheel.<br/><b>Why it's here:</b> A half-day trip within the city limits, free to enter. Bus 47A from Long Bien takes 30-40 minutes; a wheel session costs about 20,000 VND and firing a piece to take home a little more<br/><a href="https://vinpearl.com/en/bat-trang-pottery-village-experience-exciting-hands-on-pottery-making">source 1</a><br/><a href="https://www.youtube.com/results?search_query=Bat+Trang+Pottery+Village+Hanoi+Vietnam" style="color:#cc0000;font-weight:700">Search YouTube</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=20.9796328,105.9146403&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 20.9796328, 105.9146403]]></description>
+        <Point>
+          <coordinates>105.9146403,20.9796328,0</coordinates>
+        </Point>
+      </Placemark>
     </Folder>
     <Folder>
       <name>Food</name>
       <Placemark>
         <name>Bun Cha Huong Lien</name>
         <styleUrl>#s-hanoi-street_food</styleUrl>
-        <description><![CDATA[<b>Hanoi</b> &middot; Hai Ba Trung<br/><br/>A plain three-storey shop that has grilled pork patties over charcoal since the 1990s, served in a bowl of broth with noodles and herbs.<br/><b>Why it's here:</b> Michelin Bib Gourmand, and the dish Hanoi is best known for<br/><a href="https://guide.michelin.com/vn/en/ha-noi-municipality/hanoi/restaurants">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0180504,105.8538843&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0180504, 105.8538843]]></description>
+        <description><![CDATA[<b>Hanoi</b> &middot; Hai Ba Trung<br/><br/>A plain three-storey shop that has grilled pork patties over charcoal since the 1990s, served in a bowl of broth with noodles and herbs. Obama and Anthony Bourdain ate here in 2016 and the shop has traded on it since - prices rose, the plastic stools became chairs, and the queue is now mostly visitors.<br/><b>Why it's here:</b> The Obama shop, and worth it only if that is the point - it sits in the Michelin Guide selection but carries no Bib Gourmand, and locals rate the sauce and the marinade below what it was. Better bun cha is two streets away<br/><a href="https://guide.michelin.com/vn/en/ha-noi-municipality/hanoi/restaurant/bun-cha-huong-lien">source 1</a> &middot; <a href="https://deeptravelmag.com/is-the-obama-bun-cha-huong-lien-in-hanoi-worth-it-a-local-tells-all/">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0180504,105.8538843&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0180504, 105.8538843]]></description>
         <Point>
           <coordinates>105.8538843,21.0180504,0</coordinates>
         </Point>
@@ -253,6 +335,38 @@
         <description><![CDATA[<b>Hanoi</b> &middot; Hang Ga Street, Hoan Kiem<br/><br/>Rice batter steamed into paper-thin sheets to order over a cloth-covered pot, rolled around minced pork and wood-ear mushroom, eaten with fish sauce and fried shallot.<br/><b>Why it's here:</b> A breakfast dish you have to watch being made, and the Old Quarter's Bib Gourmand address for it<br/><a href="https://guide.michelin.com/en/vn/ha-noi/ha-noi_2974158/restaurants/bib-gourmand">source 1</a> &middot; <a href="https://guide.michelin.com/en/ha-noi/ha-noi_2974158/restaurant/banh-cuon-gia-truyen-thanh-van-hang-ga-street">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0360528,105.8471707&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0360528, 105.8471707]]></description>
         <Point>
           <coordinates>105.8471707,21.0360528,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cafe Giang</name>
+        <styleUrl>#s-hanoi-street_food</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Old Quarter, 39 Nguyen Huu Huan, down an alley<br/><br/>The family cafe of Nguyen Van Giang, the Metropole hotel bartender who invented egg coffee in the 1940s by whipping egg yolk with sugar in place of scarce milk. Run by his descendants since 1946.<br/><b>Why it's here:</b> The original version of the drink every Hanoi list says not to miss. The entrance is a narrow alley that is easy to walk past<br/><a href="https://cafegiang.vn/about-us/">source 1</a> &middot; <a href="https://en.wikipedia.org/wiki/Egg_coffee">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0342713,105.8544991&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0342713, 105.8544991]]></description>
+        <Point>
+          <coordinates>105.8544991,21.0342713,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bun Thang Ba Duc</name>
+        <styleUrl>#s-hanoi-street_food</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Old Quarter, 48 Cau Go<br/><br/>An evening-only shop that has served bun thang for over thirty years - a clear chicken broth over thin rice noodles topped with shredded chicken, strips of egg omelette and pork sausage, a dish built from many small preparations.<br/><b>Why it's here:</b> Bun thang is a Hanoi dish rarely found elsewhere, and this is one of the long-running addresses for it, 300m from the lake. Open roughly 16:00 to 23:00<br/><a href="https://www.tripadvisor.com/Restaurant_Review-g293924-d8845163-Reviews-Bun_Thang_Ba_Duc-Hanoi.html">source 1</a> &middot; <a href="https://antoanthucpham.hanoi.gov.vn/bun-thang-ba-duc-giu-tron-net-tinh-te-cua-mon-an-cau-ky-bac-nhat-ha-thanh-239260410103331394.htm">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.032057,105.8521518&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.032057, 105.8521518]]></description>
+        <Point>
+          <coordinates>105.8521518,21.032057,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pho Cuon Hung Ben</name>
+        <styleUrl>#s-hanoi-street_food</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Truc Bach, 118 Tran Vu<br/><i>Approximate location — search the name in Maps</i><br/><br/>Fresh sheets of uncut pho noodle rolled around stir-fried beef and herbs and dipped in sweet fish sauce. The dish was invented on the Ngu Xa peninsula of Truc Bach Lake, and Hung Ben is one of its oldest shops, since moved from 33 Ngu Xa to a larger room on Tran Vu.<br/><b>Why it's here:</b> Pho cuon is a Hanoi-only dish, and the shop sits by Truc Bach Lake, two minutes from the shrimp-cake stall on Thanh Nien<br/><a href="https://www.foody.vn/ha-noi/pho-cuon-hung-ben-118-tran-vu">source 1</a> &middot; <a href="https://riviu.vn/pho-cuon-hung-ben">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0459439,105.8408929&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0459439, 105.8408929]]></description>
+        <Point>
+          <coordinates>105.8408929,21.0459439,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Banh Tom Ho Tay</name>
+        <styleUrl>#s-hanoi-street_food</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Truc Bach, 1 Thanh Nien, between West Lake and Truc Bach Lake<br/><i>Approximate location — search the name in Maps</i><br/><br/>A lakeside restaurant known for one dish, crisp fritters of sweet potato topped with whole shrimp, eaten wrapped in lettuce and herbs with a sour dipping sauce.<br/><b>Why it's here:</b> The address CNN called the one food to try in Hanoi, on the road between the two lakes where it is best eaten at sunset. Expect tourist prices and simple service<br/><a href="https://www.cnn.com/travel/article/shrimp-cakes-hanoi-vietnam">source 1</a> &middot; <a href="https://www.tripadvisor.com/Restaurant_Review-g293924-d2687040-Reviews-Banh_tom_Ho_Tay-Hanoi.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0473212,105.8376261&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0473212, 105.8376261]]></description>
+        <Point>
+          <coordinates>105.8376261,21.0473212,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
@@ -304,6 +418,14 @@
         <description><![CDATA[<b>Hanoi</b> &middot; Old Quarter, Hang Dao / Hang Ngang / Hang Luoc streets<br/><br/>A near-3km stretch of Old Quarter streets closed to traffic on Friday, Saturday and Sunday evenings and filled with clothing and souvenir stalls, street food carts, and impromptu street performances.<br/><b>Why it's here:</b> Only runs three nights a week, so it is worth timing the Hanoi stay around if the dates line up<br/><a href="https://vinpearl.com/en/hanoi-weekend-night-market">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0335078,105.8509571&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0335078, 105.8509571]]></description>
         <Point>
           <coordinates>105.8509571,21.0335078,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hang Gai Silk Street</name>
+        <styleUrl>#s-hanoi-markets</styleUrl>
+        <description><![CDATA[<b>Hanoi</b> &middot; Old Quarter, Hang Gai street<br/><br/>A 300m street of more than a hundred shops selling silk scarves, embroidered clothing, tailoring and lacquerware, on the old route from the river to the citadel's south gate.<br/><b>Why it's here:</b> The place to buy silk and have something tailored, a few minutes from Hoan Kiem Lake. Quality varies widely from shop to shop, so compare before paying<br/><a href="https://vinpearl.com/en/hanoi-silk-street">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=21.0323251,105.851018&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 21.0323251, 105.851018]]></description>
+        <Point>
+          <coordinates>105.851018,21.0323251,0</coordinates>
         </Point>
       </Placemark>
     </Folder>

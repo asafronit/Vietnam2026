@@ -6,11 +6,12 @@ hotels:
   price_high: 51
   price_checked: '2026-08-16'
   area: Hung Trach, ~2km from Phong Nha riverside town
-  what: A small hillside villa property set among paddy fields with an outdoor pool and views
-    of the karst limestone mountains, a short ride from the national park visitor centre.
-  why: The clearest 4-star classification found within the 30km radius of Phong Nha; TripAdvisor's
-    own blurb calls it "3-star" while Trip.com and Hotel.info both list it as 4-star, so treat
-    the tier as self-declared.
+  what: A small hillside villa property set among paddy fields with an outdoor pool
+    and views of the karst limestone mountains, a short ride from the national park
+    visitor centre.
+  why: The clearest 4-star classification found within the 30km radius of Phong Nha;
+    TripAdvisor's own blurb calls it "3-star" while Trip.com and Hotel.info both list
+    it as 4-star, so treat the tier as self-declared.
   confidence: medium
   geocode_query: Karst Villas Phong Nha, Hung Trach, Bo Trach, Quang Binh, Vietnam
   sources:
@@ -19,10 +20,11 @@ hotels:
   - https://www.tripadvisor.com/Hotel_Review-g15296817-d18178823-Reviews-Karst_Villas_Phong_Nha-Hung_Trach_Quang_Binh_Province.html
   name_he: קארסט וילות
   area_he: הונג טראק, כ-2 קילומטר מהעיירה שעל הנהר
-  what_he: נכס קטן של וילות על מדרון בין שדות אורז, עם בריכה חיצונית ונוף להרי הגיר. נסיעה
-    קצרה ממרכז המבקרים של הפארק הלאומי.
+  what_he: נכס קטן של וילות על מדרון בין שדות אורז, עם בריכה חיצונית ונוף להרי הגיר.
+    נסיעה קצרה ממרכז המבקרים של הפארק הלאומי.
   why_he: הסיווג הברור ביותר של 4 כוכבים שנמצא ברדיוס 30 הקילומטר של פונג ניה. טריפאדוויזר
-    מתאר אותו כ-3 כוכבים בעוד Trip.com ו-Hotel.info מציגים 4 — כלומר הדרגה מוצהרת עצמית
+    מתאר אותו כ-3 כוכבים בעוד Trip.com ו-Hotel.info מציגים 4 — כלומר הדרגה מוצהרת
+    עצמית
 - name: Phong Nha Lake House Resort
   tier: 3
   tier_official: false
@@ -30,8 +32,9 @@ hotels:
   price_high: 62
   price_checked: '2026-08-16'
   area: Hung Trach, on Dong Suon Lake
-  what: A family-run resort of villas, apartments and lakeside bungalows built into a hillside
-    above a small freshwater lake, with a pool, kayaks and a restaurant looking over the water.
+  what: A family-run resort of villas, apartments and lakeside bungalows built into
+    a hillside above a small freshwater lake, with a pool, kayaks and a restaurant
+    looking over the water.
   why: The top pick in the project's own vetted research (two independent agent proposals
     converged on it, Agoda 9.7); Kayak lists it as 3-star.
   confidence: high
@@ -42,10 +45,10 @@ hotels:
   - https://www.tripadvisor.com/Hotel_Review-g15296817-d4354810-Reviews-Phong_Nha_Lake_House_Resort-Hung_Trach_Quang_Binh_Province.html
   name_he: לייק האוס ריזורט
   area_he: הונג טראק, על אגם דונג סואון
-  what_he: ריזורט משפחתי של וילות, דירות ובקתות על שפת אגם מים מתוקים קטן, בנוי לתוך מדרון,
-    עם בריכה, קיאקים ומסעדה שמשקיפה על המים.
-  why_he: 'הבחירה המובילה במחקר המאומת של הפרויקט: שתי הצעות סוכנות עצמאיות התכנסו אליו, ואגודה
-    נותנת 9.7. קייאק מציג אותו כ-3 כוכבים'
+  what_he: ריזורט משפחתי של וילות, דירות ובקתות על שפת אגם מים מתוקים קטן, בנוי לתוך
+    מדרון, עם בריכה, קיאקים ומסעדה שמשקיפה על המים.
+  why_he: 'הבחירה המובילה במחקר המאומת של הפרויקט: שתי הצעות סוכנות עצמאיות התכנסו
+    אליו, ואגודה נותנת 9.7. קייאק מציג אותו כ-3 כוכבים'
 - name: Phong Nha Farmstay
   tier: 3
   tier_official: false
@@ -53,11 +56,11 @@ hotels:
   price_high: 34
   price_checked: '2026-08-16'
   area: Cu Nam, ~10km from Phong Nha town
-  what: The original farmstay of the area — simple rooms and a pool set among rice fields
-    and grazing buffalo, run by an Australian-Vietnamese family with a restaurant and tour
-    desk on site.
-  why: 'TripAdvisor''s #1-ranked property in the national park (1,500+ reviews) and one of
-    the two hotels the project''s own agents agreed on.'
+  what: The original farmstay of the area — simple rooms and a pool set among rice
+    fields and grazing buffalo, run by an Australian-Vietnamese family with a restaurant
+    and tour desk on site.
+  why: 'TripAdvisor''s #1-ranked property in the national park (1,500+ reviews) and
+    one of the two hotels the project''s own agents agreed on.'
   confidence: high
   geocode_query: Phong Nha Farmstay, Cu Nam, Bo Trach, Quang Binh, Vietnam
   sources:
@@ -69,18 +72,19 @@ hotels:
   location_precision: approximate
   name_he: פארמסטיי
   area_he: קו נאם, כ-10 קילומטר מהעיירה פונג ניה
-  what_he: הפארמסטיי המקורי של האזור — חדרים פשוטים ובריכה בין שדות אורז ותאואים רועים, בניהול
-    משפחה אוסטרלית-ויאטנמית, עם מסעדה ודלפק סיורים במקום.
-  why_he: הנכס המדורג ראשון בטריפאדוויזר בפארק הלאומי עם למעלה מ-1,500 ביקורות, ואחד משני
-    המלונות ששתי הסוכנויות הסכימו עליהם
+  what_he: הפארמסטיי המקורי של האזור — חדרים פשוטים ובריכה בין שדות אורז ותאואים רועים,
+    בניהול משפחה אוסטרלית-ויאטנמית, עם מסעדה ודלפק סיורים במקום.
+  why_he: הנכס המדורג ראשון בטריפאדוויזר בפארק הלאומי עם למעלה מ-1,500 ביקורות, ואחד
+    משני המלונות ששתי הסוכנויות הסכימו עליהם
 must_see:
 - name: Phong Nha Cave boat trip
   limiter: flood
   area: Phong Nha tourism centre, Son River
-  what: A 30-minute wooden boat ride up the Son River into a lit, 1.5km-long show cave with
-    an underground river running through it — the cave the whole town is named for.
-  why: The single most accessible cave experience in the park, and the reason Phong Nha exists
-    as a destination at all
+  what: A 30-minute wooden boat ride up the Son River into a lit, 1.5km-long show
+    cave with an underground river running through it — the cave the whole town is
+    named for.
+  why: The single most accessible cave experience in the park, and the reason Phong
+    Nha exists as a destination at all
   confidence: high
   geocode_query: Phong Nha Cave boat station, Son Trach, Quang Binh, Vietnam
   sources:
@@ -88,16 +92,19 @@ must_see:
   - https://www.lonelyplanet.com/vietnam/north-central-vietnam/phong-nha-cave/attractions/phong-nha-cave-boat-trip/a/poi-sig/1390925/357910
   name_he: שייט למערת פונג ניה
   area_he: מרכז התיירות של פונג ניה, נהר סון
-  what_he: שייט של חצי שעה בסירת עץ במעלה נהר סון אל תוך מערת תצוגה מוארת באורך קילומטר וחצי,
-    שנהר תת-קרקעי זורם דרכה. זו המערה שהעיירה כולה קרויה על שמה.
+  what_he: שייט של חצי שעה בסירת עץ במעלה נהר סון אל תוך מערת תצוגה מוארת באורך קילומטר
+    וחצי, שנהר תת-קרקעי זורם דרכה. זו המערה שהעיירה כולה קרויה על שמה.
   why_he: חוויית המערה הנגישה ביותר בפארק, והסיבה שפונג ניה קיימת כיעד מלכתחילה
+  hours: Last boat leaves at 16:30; arrive before 15:00 so the visit is not rushed
+  hours_he: הסירה האחרונה יוצאת ב-16:30; כדאי להגיע לפני 15:00 כדי לא לרוץ
 - name: Paradise Cave
   limiter: flood
   area: Phong Nha-Ke Bang National Park
-  what: A dry cave reached by a steep staircase and jungle path, then a kilometre of wooden
-    walkway through a cavern hung with stalactites lit to look like an underground cathedral.
-  why: Regularly named one of the most beautiful caves in Vietnam, and doable without a guide
-    or booking ahead
+  what: A dry cave reached by a steep staircase and jungle path, then a kilometre
+    of wooden walkway through a cavern hung with stalactites lit to look like an underground
+    cathedral.
+  why: Regularly named one of the most beautiful caves in Vietnam, and doable without
+    a guide or booking ahead
   confidence: high
   geocode_query: Paradise Cave, Phong Nha-Ke Bang National Park, Quang Binh, Vietnam
   sources:
@@ -109,18 +116,22 @@ must_see:
   location_precision: approximate
   name_he: מערת גן העדן
   area_he: הפארק הלאומי פונג ניה-קה באנג
-  what_he: מערה יבשה שמגיעים אליה במדרגות תלולות ובשביל ג'ונגל, ואז קילומטר של מסלול עץ דרך
-    אולם שנטיפיו מוארים כך שייראה כמו קתדרלה תת-קרקעית.
-  why_he: נקראת דרך קבע אחת המערות היפות בוויאטנם, ואפשר לעשות אותה בלי מדריך ובלי הזמנה מראש
+  what_he: מערה יבשה שמגיעים אליה במדרגות תלולות ובשביל ג'ונגל, ואז קילומטר של מסלול
+    עץ דרך אולם שנטיפיו מוארים כך שייראה כמו קתדרלה תת-קרקעית.
+  why_he: נקראת דרך קבע אחת המערות היפות בוויאטנם, ואפשר לעשות אותה בלי מדריך ובלי
+    הזמנה מראש
+  hours: 07:30-16:30, last entry 16:30
+  hours_he: 07:30-16:30, כניסה אחרונה ב-16:30
 attractions:
 - name: Son Doong Cave Expedition
   limiter: flood
   area: Deep in Phong Nha-Ke Bang National Park, multi-day trek from Km37
-  what: A 4-day, 3-night expedition into the world's largest cave passage — big enough to
-    hold a Manhattan block, with its own jungle and weather inside two collapsed dolines.
-    Porters carry gear; nights are spent camping on the cave floor.
-  why: The reason Phong Nha is on the caving world's map at all; the single hardest and most
-    expensive booking in the area, so it needs to be flagged early if it's wanted
+  what: A 4-day, 3-night expedition into the world's largest cave passage — big enough
+    to hold a Manhattan block, with its own jungle and weather inside two collapsed
+    dolines. Porters carry gear; nights are spent camping on the cave floor.
+  why: The reason Phong Nha is on the caving world's map at all; the single hardest
+    and most expensive booking in the area, so it needs to be flagged early if it's
+    wanted
   confidence: high
   geocode_query: Son Doong Cave, Phong Nha-Ke Bang National Park, Quang Binh, Vietnam
   sources:
@@ -128,35 +139,38 @@ attractions:
   - https://sondoongcave.info/exploration/how-to-get-to-son-doong-cave/
   name_he: משלחת מערת סון דונג
   area_he: עמוק בפארק הלאומי, טרק רב-יומי מקילומטר 37
-  what_he: משלחת של ארבעה ימים ושלושה לילות אל מעבר המערה הגדול בעולם — גדול מספיק להכיל בלוק
-    במנהטן, עם ג'ונגל ומזג אוויר משלו בתוך שתי בליעות שקרסו. סבלים נושאים את הציוד, והלילות
-    עוברים במחנה על רצפת המערה.
-  why_he: הסיבה שפונג ניה נמצאת על מפת עולם המערות בכלל. ההזמנה הקשה והיקרה ביותר באזור, ולכן
-    צריך לסמן אותה מוקדם אם רוצים אותה
+  what_he: משלחת של ארבעה ימים ושלושה לילות אל מעבר המערה הגדול בעולם — גדול מספיק
+    להכיל בלוק במנהטן, עם ג'ונגל ומזג אוויר משלו בתוך שתי בליעות שקרסו. סבלים נושאים
+    את הציוד, והלילות עוברים במחנה על רצפת המערה.
+  why_he: הסיבה שפונג ניה נמצאת על מפת עולם המערות בכלל. ההזמנה הקשה והיקרה ביותר
+    באזור, ולכן צריך לסמן אותה מוקדם אם רוצים אותה
 - name: Hang En Cave trek
   limiter: flood
   area: Phong Nha-Ke Bang National Park, Tu Lan area
-  what: A 2-day, 1-night trek to the world's third-largest cave, camping on a sand bank inside
-    the cave beside an underground river, with one of three giant skylights overhead.
-  why: The serious-caving option that doesn't require Son Doong's budget or year-ahead booking;
-    a genuine wilderness camp inside a cave
+  what: A 2-day, 1-night trek to the world's third-largest cave, camping on a sand
+    bank inside the cave beside an underground river, with one of three giant skylights
+    overhead.
+  why: The serious-caving option that doesn't require Son Doong's budget or year-ahead
+    booking; a genuine wilderness camp inside a cave
   confidence: high
   geocode_query: Hang En Cave, Phong Nha-Ke Bang National Park, Quang Binh, Vietnam
   sources:
   - https://oxalisadventure.com/tour/hang-en-adventure-cave-camp/
   name_he: טרק מערת האנג אן
   area_he: הפארק הלאומי, אזור טו לאן
-  what_he: טרק של יומיים ולילה אחד אל המערה השלישית בגודלה בעולם, עם לינה על גדת חול בתוך
-    המערה לצד נהר תת-קרקעי, מתחת לאחד משלושה צוהרי ענק.
-  why_he: אפשרות המערות הרצינית שלא דורשת את התקציב של סון דונג ולא הזמנה שנה מראש. מחנה מדברי
-    אמיתי בתוך מערה
+  what_he: טרק של יומיים ולילה אחד אל המערה השלישית בגודלה בעולם, עם לינה על גדת חול
+    בתוך המערה לצד נהר תת-קרקעי, מתחת לאחד משלושה צוהרי ענק.
+  why_he: אפשרות המערות הרצינית שלא דורשת את התקציב של סון דונג ולא הזמנה שנה מראש.
+    מחנה מדברי אמיתי בתוך מערה
 - name: Tu Lan cave system
   limiter: flood
   area: Tan Hoa commune, ~65km from Phong Nha town
-  what: A network of wet caves and jungle valleys explored by wading and swimming through
-    cave lakes between limestone chambers, run as tours from one day up to a 4-5 day expedition.
-  why: The widest range of difficulty of any Phong Nha cave product — a single day of swimming
-    through caves, or several days of genuine jungle expedition, from the same operator
+  what: A network of wet caves and jungle valleys explored by wading and swimming
+    through cave lakes between limestone chambers, run as tours from one day up to
+    a 4-5 day expedition.
+  why: The widest range of difficulty of any Phong Nha cave product — a single day
+    of swimming through caves, or several days of genuine jungle expedition, from
+    the same operator
   confidence: high
   geocode_query: Tu Lan cave system, Tan Hoa, Minh Hoa, Quang Binh, Vietnam
   sources:
@@ -164,36 +178,38 @@ attractions:
   - https://oxalisadventure.com/tour/tu-lan-1-day-experience/
   name_he: מערכת המערות טו לאן
   area_he: טאן הואה, כ-65 קילומטר מהעיירה פונג ניה
-  what_he: רשת של מערות רטובות ועמקי ג'ונגל שחוקרים בהליכה במים ובשחייה דרך אגמי מערה בין
-    אולמות גיר, כסיורים שנמשכים מיום אחד ועד משלחת של ארבעה עד חמישה ימים.
-  why_he: טווח הקושי הרחב ביותר מכל מוצרי המערות של פונג ניה — יום אחד של שחייה במערות, או
-    כמה ימי משלחת ג'ונגל אמיתית, מאותו מפעיל
+  what_he: רשת של מערות רטובות ועמקי ג'ונגל שחוקרים בהליכה במים ובשחייה דרך אגמי מערה
+    בין אולמות גיר, כסיורים שנמשכים מיום אחד ועד משלחת של ארבעה עד חמישה ימים.
+  why_he: טווח הקושי הרחב ביותר מכל מוצרי המערות של פונג ניה — יום אחד של שחייה במערות,
+    או כמה ימי משלחת ג'ונגל אמיתית, מאותו מפעיל
 - name: Hang Tien cave day trek
   limiter: flood
   area: Phong Nha-Ke Bang National Park, Tu Lan area
-  what: A one-day trek through jungle and a river-cut cave system, wading and swimming sections
-    included, without the multi-day commitment of Tu Lan or Hang En.
-  why: The middle option between a boardwalk cave and a multi-day expedition; flagged in the
-    project's own vetted research for anyone who wants a proper trek without the extra nights
+  what: A one-day trek through jungle and a river-cut cave system, wading and swimming
+    sections included, without the multi-day commitment of Tu Lan or Hang En.
+  why: The middle option between a boardwalk cave and a multi-day expedition; flagged
+    in the project's own vetted research for anyone who wants a proper trek without
+    the extra nights
   confidence: high
   geocode_query: Hang Tien Cave, Tan Hoa, Minh Hoa, Quang Binh, Vietnam
   sources:
   - https://oxalisadventure.com/tour/hang-tien-1-day-discovery/
   name_he: טרק יום למערת האנג טיין
   area_he: הפארק הלאומי, אזור טו לאן
-  what_he: טרק של יום אחד דרך ג'ונגל ומערכת מערות שנהר חצב, כולל קטעי הליכה במים ושחייה, בלי
-    המחויבות הרב-יומית של טו לאן או האנג אן.
-  why_he: האפשרות האמצעית בין מערת מסלול-עץ למשלחת רב-יומית. סומנה במחקר המאומת של הפרויקט
-    למי שרוצה טרק אמיתי בלי הלילות הנוספים
+  what_he: טרק של יום אחד דרך ג'ונגל ומערכת מערות שנהר חצב, כולל קטעי הליכה במים ושחייה,
+    בלי המחויבות הרב-יומית של טו לאן או האנג אן.
+  why_he: האפשרות האמצעית בין מערת מסלול-עץ למשלחת רב-יומית. סומנה במחקר המאומת של
+    הפרויקט למי שרוצה טרק אמיתי בלי הלילות הנוספים
 - name: Dark Cave zipline and mud bath
   limiter: flood
   area: Chay River, Phong Nha-Ke Bang National Park
-  what: A short zipline across the Chay River into a pitch-black cave, followed by a swim
-    to a natural mud pool deep inside, then kayaking back down the river.
-  why: The easiest adrenaline activity in Phong Nha — half a day, no fitness test, and the
-    one every family and backpacker group does
+  what: A short zipline across the Chay River into a pitch-black cave, followed by
+    a swim to a natural mud pool deep inside, then kayaking back down the river.
+  why: The easiest adrenaline activity in Phong Nha — half a day, no fitness test,
+    and the one every family and backpacker group does
   confidence: high
-  geocode_query: Dark Cave Chay River, Phong Nha-Ke Bang National Park, Quang Binh, Vietnam
+  geocode_query: Dark Cave Chay River, Phong Nha-Ke Bang National Park, Quang Binh,
+    Vietnam
   sources:
   - https://www.getyourguide.com/phong-nha-l176859/phong-nha-cave-exploration-and-zipline-dark-cave-tour-t511831/
   - https://junglebosstours.com/explorer/tourism-blog/dark-cave-phong-nha
@@ -203,16 +219,16 @@ attractions:
   location_precision: approximate
   name_he: אומגה ומרחץ בוץ במערה האפלה
   area_he: נהר צ'אי, הפארק הלאומי
-  what_he: אומגה קצרה מעל נהר צ'אי אל תוך מערה חשוכה לחלוטין, ואז שחייה אל בריכת בוץ טבעית
-    עמוק בפנים, וחזרה בקיאקים במורד הנהר.
-  why_he: פעילות האדרנלין הקלה ביותר בפונג ניה — חצי יום, בלי מבחן כושר, וזו שכל משפחה וכל
-    קבוצת תרמילאים עושה
+  what_he: אומגה קצרה מעל נהר צ'אי אל תוך מערה חשוכה לחלוטין, ואז שחייה אל בריכת בוץ
+    טבעית עמוק בפנים, וחזרה בקיאקים במורד הנהר.
+  why_he: פעילות האדרנלין הקלה ביותר בפונג ניה — חצי יום, בלי מבחן כושר, וזו שכל משפחה
+    וכל קבוצת תרמילאים עושה
 - name: The Duck Stop
   area: Bong Lai Valley, ~10km from Phong Nha town
-  what: A small working duck farm where visitors feed and walk a flock of ducks along the
-    paddy dikes, with a buffalo ride and a drink included.
-  why: 'TripAdvisor''s #1-ranked Phong Nha attraction and the easiest, lightest thing to do
-    on a rest day between caves'
+  what: A small working duck farm where visitors feed and walk a flock of ducks along
+    the paddy dikes, with a buffalo ride and a drink included.
+  why: 'TripAdvisor''s #1-ranked Phong Nha attraction and the easiest, lightest thing
+    to do on a rest day between caves'
   confidence: medium
   geocode_query: The Duck Stop, Bong Lai Valley, Phong Nha, Quang Binh, Vietnam
   sources:
@@ -224,16 +240,16 @@ attractions:
   location_precision: approximate
   name_he: תחנת הברווזים
   area_he: עמק בונג לאי, כ-10 קילומטר מהעיירה
-  what_he: חוות ברווזים פעילה וקטנה שבה מאכילים להקת ברווזים והולכים איתה על סוללות שדות האורז,
-    כולל רכיבה על תאו ומשקה.
-  why_he: האטרקציה המדורגת ראשונה בפונג ניה בטריפאדוויזר, והדבר הקל והנעים ביותר לעשות ביום
-    מנוחה בין מערות
+  what_he: חוות ברווזים פעילה וקטנה שבה מאכילים להקת ברווזים והולכים איתה על סוללות
+    שדות האורז, כולל רכיבה על תאו ומשקה.
+  why_he: האטרקציה המדורגת ראשונה בפונג ניה בטריפאדוויזר, והדבר הקל והנעים ביותר לעשות
+    ביום מנוחה בין מערות
 - name: Pub with Cold Beer
   area: Bong Lai Valley, near the Rao Con River
-  what: A rustic family farm-bar down a country lane where you pick a live chicken from the
-    garden and it's grilled to order, eaten in hammocks by the river.
-  why: The best-known stop on the Bong Lai Valley motorbike loop and a genuinely local, unstaged
-    meal
+  what: A rustic family farm-bar down a country lane where you pick a live chicken
+    from the garden and it's grilled to order, eaten in hammocks by the river.
+  why: The best-known stop on the Bong Lai Valley motorbike loop and a genuinely local,
+    unstaged meal
   confidence: medium
   geocode_query: Pub with Cold Beer, Bong Lai Valley, Phong Nha, Quang Binh, Vietnam
   sources:
@@ -244,15 +260,16 @@ attractions:
   location_precision: approximate
   name_he: הפאב עם הבירה הקרה
   area_he: עמק בונג לאי, ליד נהר ראו קון
-  what_he: בר-חווה כפרי בסוף דרך עפר, שבו בוחרים תרנגולת חיה מהגינה והיא נצלית לפי הזמנה ונאכלת
-    בערסלים ליד הנהר.
-  why_he: העצירה המוכרת ביותר בלולאת האופנועים של עמק בונג לאי, וארוחה מקומית אמיתית שאינה
-    מבוימת
+  what_he: בר-חווה כפרי בסוף דרך עפר, שבו בוחרים תרנגולת חיה מהגינה והיא נצלית לפי
+    הזמנה ונאכלת בערסלים ליד הנהר.
+  why_he: העצירה המוכרת ביותר בלולאת האופנועים של עמק בונג לאי, וארוחה מקומית אמיתית
+    שאינה מבוימת
 markets:
 - name: Son Trach Market
   area: Son Trach (Phong Nha town centre), by the Phong Nha-Ke Bang tourist centre
-  what: A small daily produce market where farmers and traders sell fresh vegetables, fruit
-    and river fish from the surrounding villages, busiest in the very early morning.
+  what: A small daily produce market where farmers and traders sell fresh vegetables,
+    fruit and river fish from the surrounding villages, busiest in the very early
+    morning.
   why: The only real local market in a town otherwise built for tourism, and the clearest
     window into everyday Phong Nha life
   confidence: medium
@@ -261,18 +278,18 @@ markets:
   - https://pickbestplaces.com/vietnam/phong-nha/local-markets
   name_he: שוק סון טראק
   area_he: סון טראק, מרכז העיירה פונג ניה, ליד מרכז התיירים
-  what_he: שוק תוצרת יומי קטן שבו חקלאים וסוחרים מוכרים ירקות, פירות ודגי נהר מהכפרים סביב.
-    הכי שוקק מוקדם מאוד בבוקר.
-  why_he: השוק המקומי האמיתי היחיד בעיירה שנבנתה כולה לתיירות, והחלון הברור ביותר לחיי היום-יום
-    בפונג ניה
+  what_he: שוק תוצרת יומי קטן שבו חקלאים וסוחרים מוכרים ירקות, פירות ודגי נהר מהכפרים
+    סביב. הכי שוקק מוקדם מאוד בבוקר.
+  why_he: השוק המקומי האמיתי היחיד בעיירה שנבנתה כולה לתיירות, והחלון הברור ביותר
+    לחיי היום-יום בפונג ניה
 logistics:
 - name: Dong Hoi Airport transfer
   area: Dong Hoi, ~45km / ~1 hour from Phong Nha
-  what: Phong Nha's nearest airport, served by domestic flights to Hanoi and Ho Chi Minh City;
-    there is no airport bus, only pre-booked private transfer or metered taxi for the hour-long
-    drive into Phong Nha.
-  why: The fastest way in or out of Phong Nha, and the one where arriving without a pre-booked
-    transfer means an expensive on-the-spot taxi
+  what: Phong Nha's nearest airport, served by domestic flights to Hanoi and Ho Chi
+    Minh City; there is no airport bus, only pre-booked private transfer or metered
+    taxi for the hour-long drive into Phong Nha.
+  why: The fastest way in or out of Phong Nha, and the one where arriving without
+    a pre-booked transfer means an expensive on-the-spot taxi
   confidence: high
   geocode_query: Dong Hoi Airport, Dong Hoi, Quang Binh, Vietnam
   sources:
@@ -280,34 +297,34 @@ logistics:
   - https://www.vietnamtourism.com/en/dong-hoi-to-phong-nha-the-complete-transport-guide-for-2026-2
   name_he: הסעה משדה התעופה דונג הוי
   area_he: דונג הוי, כ-45 קילומטר וכשעה מפונג ניה
-  what_he: שדה התעופה הקרוב ביותר לפונג ניה, עם טיסות פנים להאנוי ולסייגון. אין אוטובוס שדה
-    — רק הסעה פרטית מוזמנת מראש או מונית עם מונה לנסיעה בת השעה.
-  why_he: הדרך המהירה ביותר להיכנס לפונג ניה או לצאת ממנה, וזו שבה הגעה בלי הסעה מוזמנת מראש
-    פירושה מונית יקרה במקום
+  what_he: שדה התעופה הקרוב ביותר לפונג ניה, עם טיסות פנים להאנוי ולסייגון. אין אוטובוס
+    שדה — רק הסעה פרטית מוזמנת מראש או מונית עם מונה לנסיעה בת השעה.
+  why_he: הדרך המהירה ביותר להיכנס לפונג ניה או לצאת ממנה, וזו שבה הגעה בלי הסעה מוזמנת
+    מראש פירושה מונית יקרה במקום
 - name: Dong Hoi railway station
   area: Dong Hoi, ~44km from Phong Nha
-  what: The nearest train station to Phong Nha on the North-South line, connected onward to
-    Phong Nha by local bus (B4, ~90 minutes), taxi or private car.
-  why: How the overnight "Lotus" sleeper train from Ninh Binh actually arrives at Phong Nha
-    — there is no station in Phong Nha town itself
+  what: The nearest train station to Phong Nha on the North-South line, connected
+    onward to Phong Nha by local bus (B4, ~90 minutes), taxi or private car.
+  why: How the overnight "Lotus" sleeper train from Ninh Binh actually arrives at
+    Phong Nha — there is no station in Phong Nha town itself
   confidence: high
   geocode_query: Dong Hoi Railway Station, Dong Hoi, Quang Binh, Vietnam
   sources:
   - https://junglebosstours.com/explorer/tourism-blog/phong-nha-train-station-guide
   name_he: תחנת הרכבת דונג הוי
   area_he: דונג הוי, כ-44 קילומטר מפונג ניה
-  what_he: תחנת הרכבת הקרובה ביותר לפונג ניה על הקו צפון-דרום, ומשם המשך לפונג ניה באוטובוס
-    מקומי (קו B4, כשעה וחצי), במונית או ברכב פרטי.
+  what_he: תחנת הרכבת הקרובה ביותר לפונג ניה על הקו צפון-דרום, ומשם המשך לפונג ניה
+    באוטובוס מקומי (קו B4, כשעה וחצי), במונית או ברכב פרטי.
   why_he: כך רכבת הלילה מנין בין באמת מגיעה לפונג ניה — אין תחנה בעיירה עצמה
 restaurants:
 - name: The Rice House Phong Nha
   kind: vietnamese
   signal: traveler_recommended
   area: Phong Nha town centre
-  what: A bamboo-built restaurant with low lighting serving refined regional dishes such as
-    bo la lot (beef wrapped in betel leaf) and braised eggplant.
-  why: The strongest reviewed sit-down Vietnamese dinner in town (Google 4.9/1,358, TripAdvisor
-    5.0/91) and a step up from the backpacker-strip kitchens
+  what: A bamboo-built restaurant with low lighting serving refined regional dishes
+    such as bo la lot (beef wrapped in betel leaf) and braised eggplant.
+  why: The strongest reviewed sit-down Vietnamese dinner in town (Google 4.9/1,358,
+    TripAdvisor 5.0/91) and a step up from the backpacker-strip kitchens
   confidence: high
   geocode_query: The Rice House Phong Nha, Son Trach, Quang Binh, Vietnam
   sources:
@@ -315,63 +332,64 @@ restaurants:
   - https://junglebosstours.com/explorer/tourism-blog/phong-nha-restaurants
   name_he: בית האורז
   area_he: מרכז העיירה פונג ניה
-  what_he: מסעדה בנויה במבוק עם תאורה נמוכה, שמגישה מנות אזוריות מוקפדות כמו בו לה לוט — בקר
-    עטוף בעלה בטל — וחציל מבושל.
-  why_he: ארוחת הערב הוויאטנמית המדורגת ביותר בעיירה (גוגל 4.9 מ-1,358, טריפאדוויזר 5.0 מ-91),
-    ומדרגה מעל מטבחי רצועת התרמילאים
+  what_he: מסעדה בנויה במבוק עם תאורה נמוכה, שמגישה מנות אזוריות מוקפדות כמו בו לה
+    לוט — בקר עטוף בעלה בטל — וחציל מבושל.
+  why_he: ארוחת הערב הוויאטנמית המדורגת ביותר בעיירה (גוגל 4.9 מ-1,358, טריפאדוויזר
+    5.0 מ-91), ומדרגה מעל מטבחי רצועת התרמילאים
 - name: Ganesh Indian Restaurant
   kind: international
   signal: traveler_recommended
   area: Phong Nha town centre
-  what: A small Indian restaurant with tandoori and curry dishes cooked to order, set inside
-    a dining room decorated in Indian style.
-  why: Properly spiced Indian food in a rural Vietnamese caving town is genuinely unusual,
-    and it is consistently the top-rated non-Vietnamese kitchen in town
+  what: A small Indian restaurant with tandoori and curry dishes cooked to order,
+    set inside a dining room decorated in Indian style.
+  why: Properly spiced Indian food in a rural Vietnamese caving town is genuinely
+    unusual, and it is consistently the top-rated non-Vietnamese kitchen in town
   confidence: medium
   geocode_query: Ganesh Indian Restaurant, Son Trach, Phong Nha, Quang Binh, Vietnam
   sources:
   - https://junglebosstours.com/explorer/tourism-blog/phong-nha-restaurants
   name_he: גנש
   area_he: מרכז העיירה פונג ניה
-  what_he: מסעדה הודית קטנה עם מנות טנדורי וקארי שמבושלות לפי הזמנה, בחדר אוכל מעוצב בסגנון
-    הודי.
-  why_he: אוכל הודי מתובל כראוי בעיירת מערות כפרית בוויאטנם הוא דבר חריג באמת, והמטבח הלא-ויאטנמי
-    המדורג ביותר בעיירה באופן עקבי
+  what_he: מסעדה הודית קטנה עם מנות טנדורי וקארי שמבושלות לפי הזמנה, בחדר אוכל מעוצב
+    בסגנון הודי.
+  why_he: אוכל הודי מתובל כראוי בעיירת מערות כפרית בוויאטנם הוא דבר חריג באמת, והמטבח
+    הלא-ויאטנמי המדורג ביותר בעיירה באופן עקבי
 - name: The Villas Restaurant
   kind: international
   signal: traveler_recommended
   area: Phong Nha riverside, attached to Victory Road Villas
-  what: An open-sided riverside restaurant with karst-mountain views serving imported steaks
-    and pasta on a full Western menu.
-  why: The closest thing Phong Nha has to a proper fine-dining Western dinner, for the night
-    you don't want another bowl of pho
+  what: An open-sided riverside restaurant with karst-mountain views serving imported
+    steaks and pasta on a full Western menu.
+  why: The closest thing Phong Nha has to a proper fine-dining Western dinner, for
+    the night you don't want another bowl of pho
   confidence: medium
   geocode_query: The Villas Restaurant, Phong Nha, Bo Trach, Quang Binh, Vietnam
   sources:
   - https://junglebosstours.com/explorer/tourism-blog/phong-nha-restaurants
   name_he: מסעדת הווילות
   area_he: על הנהר בפונג ניה, צמוד ל-Victory Road Villas
-  what_he: מסעדה פתוחת-צדדים על הנהר עם נוף להרי הקארסט, שמגישה סטייקים מיובאים ופסטה בתפריט
-    מערבי מלא.
-  why_he: הדבר הקרוב ביותר לארוחת ערב מערבית משובחת שיש בפונג ניה, לערב שבו לא רוצים עוד קערת
-    פו
+  what_he: מסעדה פתוחת-צדדים על הנהר עם נוף להרי הקארסט, שמגישה סטייקים מיובאים ופסטה
+    בתפריט מערבי מלא.
+  why_he: הדבר הקרוב ביותר לארוחת ערב מערבית משובחת שיש בפונג ניה, לערב שבו לא רוצים
+    עוד קערת פו
 street_food:
 - name: Ha Chinh Grilled Chicken
   kind: vietnamese
   signal: traveler_recommended
   area: Rice paddies outside Phong Nha town
-  what: An unmarked rice-paddy grilled-chicken stall — crispy-skinned chicken grilled whole,
-    served with a chilli-and-"cheo" salt dip, stir-fried vermicelli and sticky rice.
-  why: A rustic, locals-only alternative to the tourist-strip restaurants, with a perfect
-    Google rating from over a hundred reviews
+  what: An unmarked rice-paddy grilled-chicken stall — crispy-skinned chicken grilled
+    whole, served with a chilli-and-"cheo" salt dip, stir-fried vermicelli and sticky
+    rice.
+  why: A rustic, locals-only alternative to the tourist-strip restaurants, with a
+    perfect Google rating from over a hundred reviews
   confidence: medium
   geocode_query: Quan Ga Nuong Chinh Ha, Phong Nha, Bo Trach, Quang Binh, Vietnam
   sources:
   - https://junglebosstours.com/explorer/tourism-blog/phong-nha-restaurants
   name_he: הא צ'ין, עוף על הגריל
   area_he: שדות האורז מחוץ לעיירה פונג ניה
-  what_he: דוכן עוף צלוי בשדות אורז בלי שלט — עוף שלם בעור פריך, מוגש עם מלח צ'ילי וצ'או לטבילה,
-    אטריות מוקפצות ואורז דביק.
-  why_he: חלופה כפרית של מקומיים בלבד למסעדות רצועת התיירים, עם דירוג גוגל מושלם מלמעלה ממאה
-    ביקורות
+  what_he: דוכן עוף צלוי בשדות אורז בלי שלט — עוף שלם בעור פריך, מוגש עם מלח צ'ילי
+    וצ'או לטבילה, אטריות מוקפצות ואורז דביק.
+  why_he: חלופה כפרית של מקומיים בלבד למסעדות רצועת התיירים, עם דירוג גוגל מושלם מלמעלה
+    ממאה ביקורות
 hebrew_complete: true

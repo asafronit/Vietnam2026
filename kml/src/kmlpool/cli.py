@@ -15,6 +15,7 @@ from .schema import (
     Record,
     WEATHER_SENSITIVITY,
     LIMITER_OF_CATEGORY,
+    is_placeless,
     is_shippable,
     is_web_shippable,
     validate_hebrew,
@@ -97,10 +98,11 @@ def cmd_geocode() -> int:
     rejected = []
     for place in places:
         for rec in records[place.id]:
-            # A dish has no address. Sending it to the geocoder produces either
-            # a miss or a pin on a city centre it has no connection to, and
-            # either way it lands in the review queue as unfixable noise.
-            if rec.is_dish:
+            # Dishes and contacts have no address; see is_placeless. Sending
+            # one to the geocoder produces either a miss or a pin on a city
+            # centre it has no connection to, and either way it has no business
+            # in the review queue.
+            if is_placeless(rec):
                 continue
             result = geo.resolve(rec, place)
             if result.accepted:
@@ -209,7 +211,7 @@ def _record_to_web_json(rec: Record) -> dict:
     `tier`, `priceLow`, `priceHigh`, `avoid`, `kind`, `signal` and `video`
     are always emitted (as null when unset) so the page never has to test
     for key existence. Every other optional key (`tierOfficial`,
-    `priceChecked`) is omitted entirely when unset.
+    `priceChecked`, `hours`, `hoursHe`) is omitted entirely when unset.
     """
     data: dict = {
         "name": rec.name,
@@ -243,6 +245,13 @@ def _record_to_web_json(rec: Record) -> dict:
     data["isDish"] = rec.is_dish
     data["signal"] = rec.signal
     data["video"] = rec.video
+    # שעות פתיחה נוסעות רק כשהן קיימות. הכיסוי חלקי במכוון, ומפתח שלא
+    # נשלח הוא איך שהדף יודע לא לרנדר שורה ריקה -- לעולם לא null, כי
+    # "שעות: null" על כרטיס הוא גרוע מאין שורה בכלל.
+    if rec.hours:
+        data["hours"] = rec.hours
+    if rec.hours_he:
+        data["hoursHe"] = rec.hours_he
     # Contact routes ship only when present. The page renders whatsapp as the
     # purple action the link convention reserves for reaching a person; the
     # other two are plain tel: and mailto: links.

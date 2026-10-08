@@ -83,12 +83,30 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="s-ninh-binh-diving">
+      <IconStyle>
+        <color>fff4d442</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/swimming.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="s-ninh-binh-logistics">
       <IconStyle>
         <color>fff4d442</color>
         <scale>1.1</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/airports.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s-ninh-binh-contacts">
+      <IconStyle>
+        <color>fff4d442</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -224,25 +242,6 @@
         <description><![CDATA[<b>Ninh Binh</b> &middot; 71 Van Giang Street, Thanh Binh Ward<br/><i>Approximate location — search the name in Maps</i><br/><br/>Ninh Binh city's main traditional market, spread across a three-story building and open-air stalls, selling household goods, textiles and a fresh-produce section with rice, fish, mountain goat meat and Kim Son rice wine.<br/><b>Why it's here:</b> The everyday market locals actually shop at, as opposed to the tourist-facing night market<br/><a href="https://hanoiexploretravel.com/things-to-do-ninh-binh/rong-market">source 1</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=20.2561711,105.9776166&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 20.2561711, 105.9776166]]></description>
         <Point>
           <coordinates>105.9776166,20.2561711,0</coordinates>
-        </Point>
-      </Placemark>
-    </Folder>
-    <Folder>
-      <name>Logistics</name>
-      <Placemark>
-        <name>Ninh Binh to Hanoi (train and road)</name>
-        <styleUrl>#s-ninh-binh-logistics</styleUrl>
-        <description><![CDATA[<b>Ninh Binh</b> &middot; Regional transfer<br/><br/>Ninh Binh's train station sits centrally in the city; five daily trains run to Hanoi's main station on Le Duan Street in about 2 hours, or a private car takes roughly the same time by road.<br/><b>Why it's here:</b> Fixes the practical transfer time between Ninh Binh and the trip's Hanoi anchor<br/><a href="https://oxalisadventure.com/hanoi-to-ninh-binh-best-transport-options/">source 1</a> &middot; <a href="https://a21tours.com/ninh-binh-city-to-hanoi-transfer">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=20.2421142,105.9746207&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 20.2421142, 105.9746207]]></description>
-        <Point>
-          <coordinates>105.9746207,20.2421142,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Lotus Train - Ninh Binh to Dong Hoi (night train)</name>
-        <styleUrl>#s-ninh-binh-logistics</styleUrl>
-        <description><![CDATA[<b>Ninh Binh</b> &middot; Ninh Binh Railway Station, departure point<br/><br/>A privately refurbished overnight sleeper carriage (2-berth or 4-berth cabins, Vietnam Railways track) departing Ninh Binh around 22:00 and arriving Dong Hoi around 06:00, with onboard wifi, snacks and breakfast.<br/><b>Why it's here:</b> Turns the long road transfer south toward Phong Nha into a night's sleep instead of a lost travel day<br/><a href="https://lotustrain.vn/ninh-binh-to-dong-hoi-lotus-express">source 1</a> &middot; <a href="https://violetexpresstrain.com/ninh-binh-dong-hoi-on-lotus-train-se19.html">source 2</a><br/><a href="https://www.google.com/maps/dir/?api=1&destination=20.2421142,105.9746207&travelmode=driving" style="color:#0f7c5c;font-weight:700">Directions</a><br/>Coords: 20.2421142, 105.9746207]]></description>
-        <Point>
-          <coordinates>105.9746207,20.2421142,0</coordinates>
         </Point>
       </Placemark>
     </Folder>

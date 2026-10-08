@@ -6,10 +6,11 @@ hotels:
   price_high: 68
   price_checked: '2026-08-16'
   area: City center, near Victory Monument
-  what: A modern high-rise hotel tower in the middle of Buon Ma Thuot with a rooftop bar,
-    outdoor pool and its own Draysap restaurant, the tallest hotel building in the city.
-  why: 'Ranked #1 of Buon Ma Thuot''s hotels with the most consistent guest reviews of any
-    property in town'
+  what: A modern high-rise hotel tower in the middle of Buon Ma Thuot with a rooftop
+    bar, outdoor pool and its own Draysap restaurant, the tallest hotel building in
+    the city.
+  why: 'Ranked #1 of Buon Ma Thuot''s hotels with the most consistent guest reviews
+    of any property in town'
   confidence: high
   geocode_query: Muong Thanh Luxury Buon Ma Thuot Hotel, Buon Ma Thuot, Vietnam
   sources:
@@ -17,9 +18,10 @@ hotels:
   - https://www.kayak.com/Buon-Ma-Thuot-Hotels-Muong-Thanh-Luxury-Buon-Ma-Thuot.2774500.ksp
   name_he: מואונג תאן לוקסרי
   area_he: מרכז העיר, ליד אנדרטת הניצחון
-  what_he: מגדל מלון מודרני בלב בואן מה תואט, עם בר גג, בריכה חיצונית ומסעדת דראיסאפ משלו.
-    בניין המלון הגבוה בעיר.
-  why_he: מדורג ראשון מבין מלונות בואן מה תואט, עם ביקורות האורחים העקביות ביותר מכל נכס בעיר
+  what_he: מגדל מלון מודרני בלב בואן מה תואט, עם בר גג, בריכה חיצונית ומסעדת דראיסאפ
+    משלו. בניין המלון הגבוה בעיר.
+  why_he: מדורג ראשון מבין מלונות בואן מה תואט, עם ביקורות האורחים העקביות ביותר מכל
+    נכס בעיר
 - name: Saigon Ban Me Hotel
   tier: 4
   tier_official: false
@@ -27,9 +29,10 @@ hotels:
   price_high: 57
   price_checked: '2026-08-16'
   area: City center, two minutes' walk from the central market
-  what: A mid-rise business hotel with 131 rooms, an outdoor pool and a karaoke lounge, two
-    minutes' walk from Buon Ma Thuot's central market.
-  why: Closest well-reviewed hotel to the market and the coffee-shopping streets around it
+  what: A mid-rise business hotel with 131 rooms, an outdoor pool and a karaoke lounge,
+    two minutes' walk from Buon Ma Thuot's central market.
+  why: Closest well-reviewed hotel to the market and the coffee-shopping streets around
+    it
   confidence: medium
   geocode_query: Saigon Ban Me Hotel, Buon Ma Thuot, Vietnam
   sources:
@@ -37,8 +40,8 @@ hotels:
   - https://www.makemytrip.com/hotels-international/en-us/vietnam/buon_ma_thuot-hotels/saigon_ban_me_hotel-details.html
   name_he: סייגון באן מה
   area_he: מרכז העיר, שתי דקות הליכה מהשוק המרכזי
-  what_he: מלון עסקים בגובה בינוני עם 131 חדרים, בריכה חיצונית וטרקלין קריוקי, שתי דקות הליכה
-    מהשוק המרכזי של בואן מה תואט.
+  what_he: מלון עסקים בגובה בינוני עם 131 חדרים, בריכה חיצונית וטרקלין קריוקי, שתי
+    דקות הליכה מהשוק המרכזי של בואן מה תואט.
   why_he: המלון המדורג היטב הקרוב ביותר לשוק ולרחובות קניית הקפה סביבו
 - name: Dakruco Hotel
   tier: 3
@@ -47,10 +50,10 @@ hotels:
   price_high: 38
   price_checked: '2026-08-16'
   area: City center
-  what: A long-running business hotel in central Buon Ma Thuot, run by the state-owned Dak
-    Lak Rubber company, with an outdoor pool, restaurant and bar.
-  why: The cheapest hotel in the centre with a genuinely high review score rather than an
-    inflated one
+  what: A long-running business hotel in central Buon Ma Thuot, run by the state-owned
+    Dak Lak Rubber company, with an outdoor pool, restaurant and bar.
+  why: The cheapest hotel in the centre with a genuinely high review score rather
+    than an inflated one
   confidence: medium
   geocode_query: Dakruco Hotel, Buon Ma Thuot, Vietnam
   sources:
@@ -62,17 +65,17 @@ hotels:
   location_precision: approximate
   name_he: דאקרוקו
   area_he: מרכז העיר
-  what_he: מלון עסקים ותיק במרכז בואן מה תואט, בניהול חברת הגומי הממשלתית של דאק לאק, עם בריכה
-    חיצונית, מסעדה ובר.
+  what_he: מלון עסקים ותיק במרכז בואן מה תואט, בניהול חברת הגומי הממשלתית של דאק לאק,
+    עם בריכה חיצונית, מסעדה ובר.
   why_he: המלון הזול במרכז עם ציון ביקורות גבוה באמת ולא מנופח
 must_see:
 - name: The World Coffee Museum
   area: Tan Loi Ward, inside Trung Nguyen Coffee Village, ~4km from center
-  what: A museum built in the style of Central Highlands longhouses, holding over 10,000 coffee-related
-    artefacts from around the world, with hands-on tasting rooms rather than glass display
-    cases.
-  why: The signature sight of Vietnam's coffee capital, and the reason most visitors come
-    to Buon Ma Thuot at all
+  what: A museum built in the style of Central Highlands longhouses, holding over
+    10,000 coffee-related artefacts from around the world, with hands-on tasting rooms
+    rather than glass display cases.
+  why: The signature sight of Vietnam's coffee capital, and the reason most visitors
+    come to Buon Ma Thuot at all
   confidence: high
   geocode_query: The World Coffee Museum, Buon Ma Thuot, Vietnam
   sources:
@@ -83,14 +86,18 @@ must_see:
     lng: 108.0445203
   name_he: מוזיאון הקפה העולמי
   area_he: טאן לוי, בתוך כפר הקפה טרונג נגוין, כ-4 קילומטר מהמרכז
-  what_he: מוזיאון בנוי בסגנון בתי האורך של רמות המרכז, ובו למעלה מ-10,000 פריטים הקשורים
-    לקפה מרחבי העולם, עם חדרי טעימה מעשיים ולא ויטרינות זכוכית.
-  why_he: האתר המזוהה של בירת הקפה של ויאטנם, והסיבה שרוב המבקרים מגיעים לבואן מה תואט בכלל
+  what_he: מוזיאון בנוי בסגנון בתי האורך של רמות המרכז, ובו למעלה מ-10,000 פריטים
+    הקשורים לקפה מרחבי העולם, עם חדרי טעימה מעשיים ולא ויטרינות זכוכית.
+  why_he: האתר המזוהה של בירת הקפה של ויאטנם, והסיבה שרוב המבקרים מגיעים לבואן מה
+    תואט בכלל
+  hours: 08:00-17:00 daily
+  hours_he: 08:00-17:00 כל יום
 - name: Ako Dhong Village
   area: Tan Loi Ward, inside the city
-  what: A working Ede ethnic-minority neighbourhood inside the city itself, with more than
-    30 traditional wooden longhouses built on stilts in the shape of boats.
-  why: The only place to see genuine Ede stilt-house architecture without leaving town
+  what: A working Ede ethnic-minority neighbourhood inside the city itself, with more
+    than 30 traditional wooden longhouses built on stilts in the shape of boats.
+  why: The only place to see genuine Ede stilt-house architecture without leaving
+    town
   confidence: high
   geocode_query: Ako Dhong Village, Buon Ma Thuot, Vietnam
   sources:
@@ -101,15 +108,16 @@ must_see:
     lng: 108.0491334
   name_he: הכפר אקו דונג
   area_he: טאן לוי, בתוך העיר
-  what_he: שכונה פעילה של בני המיעוט האתני אדה בתוך העיר עצמה, ובה למעלה מ-30 בתי אורך מסורתיים
-    מעץ, בנויים על כלונסאות בצורת סירות.
+  what_he: שכונה פעילה של בני המיעוט האתני אדה בתוך העיר עצמה, ובה למעלה מ-30 בתי
+    אורך מסורתיים מעץ, בנויים על כלונסאות בצורת סירות.
   why_he: המקום היחיד לראות אדריכלות אדה אותנטית על כלונסאות בלי לצאת מהעיר
 - name: Dray Nur Waterfall
   area: Krong Ana district, ~27km southwest of center
-  what: A 250-metre-wide waterfall dropping more than 30 metres where the Krong Ana and Krong
-    No rivers meet to form the Serepok River, crossed by a suspension bridge over the gorge.
-  why: The most powerful waterfall in the Central Highlands, and a straightforward half-day
-    trip from the city
+  what: A 250-metre-wide waterfall dropping more than 30 metres where the Krong Ana
+    and Krong No rivers meet to form the Serepok River, crossed by a suspension bridge
+    over the gorge.
+  why: The most powerful waterfall in the Central Highlands, and a straightforward
+    half-day trip from the city
   confidence: high
   geocode_query: Dray Nur Waterfall, Buon Ma Thuot, Vietnam
   sources:
@@ -121,16 +129,16 @@ must_see:
   location_precision: approximate
   name_he: מפל דראי נור
   area_he: מחוז קרונג אנה, כ-27 קילומטר מדרום-מערב למרכז
-  what_he: מפל ברוחב 250 מטר שצונח למעלה מ-30 מטר במקום שבו נהרות קרונג אנה וקרונג נו נפגשים
-    ויוצרים את נהר סרפוק, עם גשר תלוי מעל הערוץ.
+  what_he: מפל ברוחב 250 מטר שצונח למעלה מ-30 מטר במקום שבו נהרות קרונג אנה וקרונג
+    נו נפגשים ויוצרים את נהר סרפוק, עם גשר תלוי מעל הערוץ.
   why_he: המפל העוצמתי ביותר ברמות המרכז, וטיול חצי יום פשוט מהעיר
 - name: Yok Don National Park
   area: Buon Don district, ~40km from center
-  what: Vietnam's second-largest national park, a stretch of dry dipterocarp forest along
-    the Serepok River where former riding elephants now forage freely under the watch of their
-    own mahouts.
-  why: Vietnam's first ethical elephant-tourism site, which ended elephant riding here in
-    2018 in favour of observation
+  what: Vietnam's second-largest national park, a stretch of dry dipterocarp forest
+    along the Serepok River where former riding elephants now forage freely under
+    the watch of their own mahouts.
+  why: Vietnam's first ethical elephant-tourism site, which ended elephant riding
+    here in 2018 in favour of observation
   confidence: high
   geocode_query: Yok Don National Park, Dak Lak, Vietnam
   sources:
@@ -138,18 +146,18 @@ must_see:
   - https://www.legendtravelgroup.com/a/ethical-elephant-tour-guide-yok-don-national-park-buon-ma-thuot-dak-lak-eco-tours
   name_he: הפארק הלאומי יוק דון
   area_he: מחוז בואן דון, כ-40 קילומטר מהמרכז
-  what_he: הפארק הלאומי השני בגודלו בוויאטנם, רצועת יער דיפטרוקרפ יבש לאורך נהר סרפוק, שבה
-    פילים שהיו בעבר פילי רכיבה מלקטים מזון בחופשיות תחת עינם של הפָּחָתים שלהם.
-  why_he: אתר תיירות הפילים האתי הראשון בוויאטנם, שהפסיק כאן את רכיבת הפילים ב-2018 לטובת
-    התבוננות
+  what_he: הפארק הלאומי השני בגודלו בוויאטנם, רצועת יער דיפטרוקרפ יבש לאורך נהר סרפוק,
+    שבה פילים שהיו בעבר פילי רכיבה מלקטים מזון בחופשיות תחת עינם של הפָּחָתים שלהם.
+  why_he: אתר תיירות הפילים האתי הראשון בוויאטנם, שהפסיק כאן את רכיבת הפילים ב-2018
+    לטובת התבוננות
 attractions:
 - name: Trung Nguyen Coffee Village
   area: Ly Thai To Street, Tan An Ward, ~3km from center
-  what: A 20,000 sqm compound of replica traditional houses, coffee-roasting displays and
-    cafes built by Vietnam's best-known coffee brand, with the World Coffee Museum inside
-    its grounds.
-  why: A full afternoon of coffee culture in one walkable site, from growing to roasting to
-    cup
+  what: A 20,000 sqm compound of replica traditional houses, coffee-roasting displays
+    and cafes built by Vietnam's best-known coffee brand, with the World Coffee Museum
+    inside its grounds.
+  why: A full afternoon of coffee culture in one walkable site, from growing to roasting
+    to cup
   confidence: high
   geocode_query: Trung Nguyen Coffee Village, Buon Ma Thuot, Vietnam
   sources:
@@ -157,16 +165,18 @@ attractions:
   - https://trungnguyenlegend.com/lang-ca-phe-trung-nguyen/
   name_he: כפר הקפה טרונג נגוין
   area_he: רחוב לי תאי טו, טאן אן, כ-3 קילומטר מהמרכז
-  what_he: מתחם של 20,000 מטר רבוע ובו העתקים של בתים מסורתיים, מיצגי קלייה ובתי קפה, שהקים
-    מותג הקפה המוכר בוויאטנם, ומוזיאון הקפה העולמי בתוך שטחו.
-  why_he: אחר צהריים שלם של תרבות קפה באתר אחד שאפשר להקיף ברגל, מגידול ועד קלייה ועד כוס
+  what_he: מתחם של 20,000 מטר רבוע ובו העתקים של בתים מסורתיים, מיצגי קלייה ובתי קפה,
+    שהקים מותג הקפה המוכר בוויאטנם, ומוזיאון הקפה העולמי בתוך שטחו.
+  why_he: אחר צהריים שלם של תרבות קפה באתר אחד שאפשר להקיף ברגל, מגידול ועד קלייה
+    ועד כוס
 markets:
 - name: Buon Ma Thuot Central Market
   area: City center, near Victory Monument
-  what: The city's main covered market, stalls piled with roasted and green coffee beans,
-    black pepper, cacao, macadamia nuts and honey harvested from the surrounding highland
-    forests.
-  why: The place to buy coffee straight from the source rather than at inflated airport prices
+  what: The city's main covered market, stalls piled with roasted and green coffee
+    beans, black pepper, cacao, macadamia nuts and honey harvested from the surrounding
+    highland forests.
+  why: The place to buy coffee straight from the source rather than at inflated airport
+    prices
   confidence: high
   geocode_query: Cho Trung Tam Buon Ma Thuot, Vietnam
   sources:
@@ -177,18 +187,19 @@ markets:
     lng: 108.042465
   name_he: השוק המרכזי
   area_he: מרכז העיר, ליד אנדרטת הניצחון
-  what_he: השוק המקורה הראשי של העיר, עם דוכנים עמוסים בפולי קפה קלויים וירוקים, פלפל שחור,
-    קקאו, אגוזי מקדמיה ודבש שנאסף מיערות הרמה סביב.
+  what_he: השוק המקורה הראשי של העיר, עם דוכנים עמוסים בפולי קפה קלויים וירוקים, פלפל
+    שחור, קקאו, אגוזי מקדמיה ודבש שנאסף מיערות הרמה סביב.
   why_he: המקום לקנות קפה ישר מהמקור ולא במחירי שדה תעופה מנופחים
 restaurants:
 - name: Soul Specialty Coffee - BMT
   kind: vietnamese
   signal: local_media
   area: City center
-  what: A minimalist specialty-coffee bar roasting its own Buon Ma Thuot robusta and serving
-    cold brew and pour-overs rather than the sweetened iced coffee sold on every corner.
-  why: Placed in the top 5 of the 2025 Vietnam Amazing Cup for Fine Robusta, judged against
-    the country's best roasters
+  what: A minimalist specialty-coffee bar roasting its own Buon Ma Thuot robusta and
+    serving cold brew and pour-overs rather than the sweetened iced coffee sold on
+    every corner.
+  why: Placed in the top 5 of the 2025 Vietnam Amazing Cup for Fine Robusta, judged
+    against the country's best roasters
   confidence: medium
   geocode_query: Soul Specialty Coffee BMT, Buon Ma Thuot, Vietnam
   sources:
@@ -196,18 +207,19 @@ restaurants:
   - https://wanderlog.com/place/details/5809719/soul-fine-robusta-bmt
   name_he: סול ספשלטי קופי
   area_he: מרכז העיר
-  what_he: בר קפה ספיישלטי מינימליסטי שקולה בעצמו רובוסטה של בואן מה תואט ומגיש קולד ברו ופור-אובר,
-    ולא את הקפה הקר והממותק שנמכר בכל פינה.
-  why_he: דורג בחמישייה הפותחת של תחרות Vietnam Amazing Cup 2025 לרובוסטה משובחת, מול הקלייניות
-    הטובות במדינה
+  what_he: בר קפה ספיישלטי מינימליסטי שקולה בעצמו רובוסטה של בואן מה תואט ומגיש קולד
+    ברו ופור-אובר, ולא את הקפה הקר והממותק שנמכר בכל פינה.
+  why_he: דורג בחמישייה הפותחת של תחרות Vietnam Amazing Cup 2025 לרובוסטה משובחת,
+    מול הקלייניות הטובות במדינה
 - name: Ga Nuong Com Lam (30/4)
   kind: vietnamese
   signal: traveler_recommended
   area: 30/4 Pham Van Dong Street, Tan Hoa
-  what: A family-run restaurant grilling marinated chicken over charcoal and serving it with
-    com lam, sticky rice steamed inside a bamboo tube, the classic Central Highlands meal.
-  why: One of the most consistently mentioned spots in the city for this specific highland
-    dish
+  what: A family-run restaurant grilling marinated chicken over charcoal and serving
+    it with com lam, sticky rice steamed inside a bamboo tube, the classic Central
+    Highlands meal.
+  why: One of the most consistently mentioned spots in the city for this specific
+    highland dish
   confidence: medium
   geocode_query: Ga Nuong Com Lam, 30/4 Pham Van Dong, Buon Ma Thuot, Vietnam
   sources:
@@ -215,7 +227,7 @@ restaurants:
   - https://accdaklak.vn/ga-nuong-com-lam-buon-ma-thuot/
   name_he: גא נואונג קום לאם
   area_he: רחוב פאם ואן דונג 30/4, טאן הואה
-  what_he: מסעדה משפחתית שצולה עוף במרינדה על גחלים ומגישה אותו עם קום לאם — אורז דביק שמאודה
-    בתוך קנה במבוק, הארוחה הקלאסית של רמות המרכז.
+  what_he: מסעדה משפחתית שצולה עוף במרינדה על גחלים ומגישה אותו עם קום לאם — אורז
+    דביק שמאודה בתוך קנה במבוק, הארוחה הקלאסית של רמות המרכז.
   why_he: מהמקומות המוזכרים באופן העקבי ביותר בעיר למנת הרמות הספציפית הזו
 hebrew_complete: true

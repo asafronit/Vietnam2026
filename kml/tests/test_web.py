@@ -234,3 +234,45 @@ def test_command_exits_nonzero_and_writes_nothing_on_invalid_record(tmp_path, mo
     captured = capsys.readouterr()
     assert "INVALID" in captured.err
     assert not os.path.exists(out_dir / "poi-data.js")
+
+
+# ---------- hours ----------
+
+HANOI_HOURS_YAML = """
+must_see:
+  - name: Imperial Citadel
+    area: Ba Dinh
+    what: A walled palace precinct used as a fixture for the hours tests.
+    why: Confirms hours and their Hebrew twin reach the page.
+    confidence: high
+    geocode_query: Imperial Citadel, Hanoi, Vietnam
+    sources: [https://example.com/a]
+    hours: "08:00-17:00, closed Monday"
+    hours_he: "08:00-17:00, סגור ביום שני"
+    coords: { lat: 21.0352, lng: 105.8400 }
+  - name: No Hours Lake
+    area: Old Quarter
+    what: A lake with no posted opening times.
+    why: Confirms the key is omitted rather than shipped as null.
+    confidence: high
+    geocode_query: No Hours Lake, Hanoi, Vietnam
+    sources: [https://example.com/b]
+    coords: { lat: 21.0287, lng: 105.8524 }
+"""
+
+
+def _hanoi_recs(data):
+    return {r["name"]: r for r in data["hanoi"]["poi"]["must_see"]}
+
+
+def test_hours_and_hebrew_twin_reach_the_page(tmp_path, monkeypatch):
+    rec = _hanoi_recs(_run_and_load(tmp_path, monkeypatch, HANOI_HOURS_YAML))["Imperial Citadel"]
+    assert rec["hours"] == "08:00-17:00, closed Monday"
+    assert rec["hoursHe"] == "08:00-17:00, סגור ביום שני"
+
+
+def test_record_without_hours_omits_the_keys_entirely(tmp_path, monkeypatch):
+    # Not null: a card that reads "hours: null" is worse than one with no row.
+    rec = _hanoi_recs(_run_and_load(tmp_path, monkeypatch, HANOI_HOURS_YAML))["No Hours Lake"]
+    assert "hours" not in rec
+    assert "hoursHe" not in rec

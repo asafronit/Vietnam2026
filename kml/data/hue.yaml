@@ -6,11 +6,11 @@ hotels:
   price_high: 692
   price_checked: '2026-08-16'
   area: On the Perfume River, close to the Imperial City
-  what: A 122-room art deco resort built around a 1930s French colonial mansion (the former
-    residence of the French Resident Superieure), with 200 metres of frontage on the Perfume
-    River and its own spa.
-  why: Hue's best-reviewed genuine 5-star (9.5/10 from 487 reviews), and a heritage building
-    rather than a new tower
+  what: A 122-room art deco resort built around a 1930s French colonial mansion (the
+    former residence of the French Resident Superieure), with 200 metres of frontage
+    on the Perfume River and its own spa.
+  why: Hue's best-reviewed genuine 5-star (9.5/10 from 487 reviews), and a heritage
+    building rather than a new tower
   confidence: high
   geocode_query: Azerai La Residence Hue, Hue, Vietnam
   sources:
@@ -19,10 +19,10 @@ hotels:
   - https://www.fivestaralliance.com/luxury-hotels/hue/azerai-la-residence-hue
   name_he: אזראי לה רזידנס
   area_he: על נהר הבשמים, סמוך לעיר האסורה
-  what_he: ריזורט אר-דקו של 122 חדרים סביב אחוזה קולוניאלית צרפתית משנות ה-30 — מעונו לשעבר
-    של הנציב הצרפתי — עם 200 מטר חזית על נהר הבשמים וספא משלו.
-  why_he: ה-5 כוכבים האמיתי המדורג ביותר בהואה (9.5 מ-487 ביקורות), ובניין מורשת ולא מגדל
-    חדש
+  what_he: ריזורט אר-דקו של 122 חדרים סביב אחוזה קולוניאלית צרפתית משנות ה-30 — מעונו
+    לשעבר של הנציב הצרפתי — עם 200 מטר חזית על נהר הבשמים וספא משלו.
+  why_he: ה-5 כוכבים האמיתי המדורג ביותר בהואה (9.5 מ-487 ביקורות), ובניין מורשת ולא
+    מגדל חדש
 - name: Meliá Vinpearl Hue
   tier: 5
   tier_official: true
@@ -30,10 +30,10 @@ hotels:
   price_high: 200
   price_checked: '2026-08-16'
   area: City center, near the Perfume River and Truong Tien Bridge
-  what: A high-rise 5-star hotel in the middle of Hue with a full-service spa, indoor pool,
-    gym and sauna, a 10-minute walk from the Perfume River and Truong Tien Bridge.
-  why: The master-spec's own pick for a restored Hue visit, and the highest-reviewed international-chain
-    5-star in the city (9.4/10 from over 3,000 reviews)
+  what: A high-rise 5-star hotel in the middle of Hue with a full-service spa, indoor
+    pool, gym and sauna, a 10-minute walk from the Perfume River and Truong Tien Bridge.
+  why: The master-spec's own pick for a restored Hue visit, and the highest-reviewed
+    international-chain 5-star in the city (9.4/10 from over 3,000 reviews)
   confidence: high
   geocode_query: Melia Vinpearl Hue, Hue, Vietnam
   sources:
@@ -44,10 +44,10 @@ hotels:
     lng: 107.5941414
   name_he: מליה וינפרל
   area_he: מרכז העיר, ליד נהר הבשמים וגשר טרונג טיין
-  what_he: מלון 5 כוכבים במגדל בלב הואה, עם ספא מלא, בריכה מקורה, חדר כושר וסאונה, עשר דקות
-    הליכה מנהר הבשמים ומגשר טרונג טיין.
-  why_he: בחירת המפרט של הפרויקט לביקור בהואה, וה-5 כוכבים של רשת בינלאומית המדורג ביותר בעיר
-    (9.4 מלמעלה מ-3,000 ביקורות)
+  what_he: מלון 5 כוכבים במגדל בלב הואה, עם ספא מלא, בריכה מקורה, חדר כושר וסאונה,
+    עשר דקות הליכה מנהר הבשמים ומגשר טרונג טיין.
+  why_he: בחירת המפרט של הפרויקט לביקור בהואה, וה-5 כוכבים של רשת בינלאומית המדורג
+    ביותר בעיר (9.4 מלמעלה מ-3,000 ביקורות)
 - name: Eldora Hotel
   tier: 4
   tier_official: true
@@ -55,10 +55,10 @@ hotels:
   price_high: 90
   price_checked: '2026-08-16'
   area: City center
-  what: An 81-room boutique hotel with bright, wood-floored rooms in a renaissance-style building
-    in central Hue.
-  why: One of the few hotels in Hue with an unambiguous official 4-star classification rather
-    than a self-declared one, and consistently praised for cleanliness
+  what: An 81-room boutique hotel with bright, wood-floored rooms in a renaissance-style
+    building in central Hue.
+  why: One of the few hotels in Hue with an unambiguous official 4-star classification
+    rather than a self-declared one, and consistently praised for cleanliness
   confidence: medium
   geocode_query: Eldora Hotel, Hue, Vietnam
   sources:
@@ -69,9 +69,10 @@ hotels:
     lng: 107.5945502
   name_he: אלדורה
   area_he: מרכז העיר
-  what_he: מלון בוטיק של 81 חדרים עם חדרים בהירים ורצפות עץ, בבניין בסגנון רנסנס במרכז הואה.
-  why_he: מהמלונות הבודדים בהואה עם סיווג 4 כוכבים רשמי וחד-משמעי ולא מוצהר עצמית, ומשובח
-    דרך קבע על הניקיון
+  what_he: מלון בוטיק של 81 חדרים עם חדרים בהירים ורצפות עץ, בבניין בסגנון רנסנס במרכז
+    הואה.
+  why_he: מהמלונות הבודדים בהואה עם סיווג 4 כוכבים רשמי וחד-משמעי ולא מוצהר עצמית,
+    ומשובח דרך קבע על הניקיון
 - name: Pilgrimage Village Boutique Resort & Spa
   tier: 4
   tier_official: false
@@ -79,10 +80,10 @@ hotels:
   price_high: 250
   price_checked: '2026-08-16'
   area: Outside the city, on a forested hillside en route to the tombs
-  what: A resort built like a Vietnamese hamlet across landscaped, forested grounds south
-    of the city, with multiple pools, an extensive spa and its own restaurants.
-  why: Sources disagree on whether this is a 4-star or 5-star property, but it is master-spec's
-    noted alternative to Meliá Vinpearl for a quieter, greener stay
+  what: A resort built like a Vietnamese hamlet across landscaped, forested grounds
+    south of the city, with multiple pools, an extensive spa and its own restaurants.
+  why: Sources disagree on whether this is a 4-star or 5-star property, but it is
+    master-spec's noted alternative to Meliá Vinpearl for a quieter, greener stay
   confidence: medium
   geocode_query: Pilgrimage Village Boutique Resort and Spa, Hue, Vietnam
   sources:
@@ -90,10 +91,10 @@ hotels:
   - https://www.momondo.com/hotels/hue/Pilgrimage-Village-Boutique-Resort-Spa.mhd120660.ksp
   name_he: פילגרימאז' וילג'
   area_he: מחוץ לעיר, על מדרון מיוער בדרך אל הקברים
-  what_he: ריזורט בנוי ככפר ויאטנמי על שטחים מגוננים ומיוערים מדרום לעיר, עם כמה בריכות, ספא
-    נרחב ומסעדות משלו.
-  why_he: המקורות חלוקים אם מדובר ב-4 או ב-5 כוכבים, אבל זו החלופה שהמפרט מציין למליה וינפרל
-    למי שרוצה שהות שקטה וירוקה יותר
+  what_he: ריזורט בנוי ככפר ויאטנמי על שטחים מגוננים ומיוערים מדרום לעיר, עם כמה בריכות,
+    ספא נרחב ומסעדות משלו.
+  why_he: המקורות חלוקים אם מדובר ב-4 או ב-5 כוכבים, אבל זו החלופה שהמפרט מציין למליה
+    וינפרל למי שרוצה שהות שקטה וירוקה יותר
 - name: Jade Scene Hotel
   tier: 3
   tier_official: true
@@ -101,10 +102,10 @@ hotels:
   price_high: 100
   price_checked: '2026-08-16'
   area: 30/42 Nguyen Cong Tru Street, near the pub street and Perfume River embankment
-  what: A new hotel a short walk from Hue's pub street and the river embankment, with a small
-    rooftop pool overlooking the city and a spa.
-  why: One of the highest-rated hotels of any tier in Hue (9.2/10 from over 3,000 reviews)
-    and an officially assessed 3-star, not a self-rated boutique
+  what: A new hotel a short walk from Hue's pub street and the river embankment, with
+    a small rooftop pool overlooking the city and a spa.
+  why: One of the highest-rated hotels of any tier in Hue (9.2/10 from over 3,000
+    reviews) and an officially assessed 3-star, not a self-rated boutique
   confidence: high
   geocode_query: Jade Scene Hotel, Hue, Vietnam
   sources:
@@ -115,10 +116,10 @@ hotels:
     lng: 107.5968967
   name_he: ג'ייד סין
   area_he: רחוב נגוין קונג טרו 30/42, ליד רחוב הפאבים וטיילת הנהר
-  what_he: מלון חדש במרחק הליכה קצר מרחוב הפאבים של הואה ומטיילת הנהר, עם בריכת גג קטנה שמשקיפה
-    על העיר, וספא.
-  why_he: מהמלונות המדורגים ביותר בהואה בכל דרגה (9.2 מלמעלה מ-3,000 ביקורות), ו-3 כוכבים
-    שנבדקו רשמית ולא בוטיק שדירג את עצמו
+  what_he: מלון חדש במרחק הליכה קצר מרחוב הפאבים של הואה ומטיילת הנהר, עם בריכת גג
+    קטנה שמשקיפה על העיר, וספא.
+  why_he: מהמלונות המדורגים ביותר בהואה בכל דרגה (9.2 מלמעלה מ-3,000 ביקורות), ו-3
+    כוכבים שנבדקו רשמית ולא בוטיק שדירג את עצמו
 - name: Thanh Lich Hue Hotel
   tier: 3
   tier_official: false
@@ -126,10 +127,10 @@ hotels:
   price_high: 54
   price_checked: '2026-08-16'
   area: City center
-  what: A 40-room hotel with air-conditioned rooms, minibars and an indoor pool and sauna,
-    with a rooftop breakfast serving both Asian and Western options.
-  why: A dependable budget-friendly city-center option (9.0/10 from over 900 reviews), though
-    its 'plus' star billing is self-declared
+  what: A 40-room hotel with air-conditioned rooms, minibars and an indoor pool and
+    sauna, with a rooftop breakfast serving both Asian and Western options.
+  why: A dependable budget-friendly city-center option (9.0/10 from over 900 reviews),
+    though its 'plus' star billing is self-declared
   confidence: medium
   geocode_query: Thanh Lich Hue Hotel, Hue, Vietnam
   sources:
@@ -140,18 +141,18 @@ hotels:
     lng: 107.5959428
   name_he: תאן ליק
   area_he: מרכז העיר
-  what_he: מלון של 40 חדרים עם חדרים ממוזגים, מיני-בר, בריכה מקורה וסאונה, וארוחת בוקר על
-    הגג עם אפשרויות אסייתיות ומערביות.
-  why_he: אפשרות אמינה וידידותית לתקציב במרכז העיר (9.0 מלמעלה מ-900 ביקורות), אם כי תוספת
-    הכוכב שלו מוצהרת עצמית
+  what_he: מלון של 40 חדרים עם חדרים ממוזגים, מיני-בר, בריכה מקורה וסאונה, וארוחת
+    בוקר על הגג עם אפשרויות אסייתיות ומערביות.
+  why_he: אפשרות אמינה וידידותית לתקציב במרכז העיר (9.0 מלמעלה מ-900 ביקורות), אם
+    כי תוספת הכוכב שלו מוצהרת עצמית
 must_see:
 - name: Hue Imperial City (The Citadel)
   area: North bank of the Perfume River, city center
-  what: The walled seat of the Nguyen Dynasty from 1802 to 1945, entered through the Ngo Mon
-    Gate past the Nine Holy Cannons and the Nine Dynastic Urns, with the To Mieu royal family
-    temple inside.
-  why: The reason Hue is Vietnam's imperial capital rather than just another river city, and
-    the largest single historical site in the country
+  what: The walled seat of the Nguyen Dynasty from 1802 to 1945, entered through the
+    Ngo Mon Gate past the Nine Holy Cannons and the Nine Dynastic Urns, with the To
+    Mieu royal family temple inside.
+  why: The reason Hue is Vietnam's imperial capital rather than just another river
+    city, and the largest single historical site in the country
   confidence: high
   geocode_query: Hue Imperial City Citadel, Hue, Vietnam
   sources:
@@ -159,17 +160,19 @@ must_see:
   - https://culturephamtravel.com/hue-entrance-fee/
   name_he: העיר האסורה
   area_he: הגדה הצפונית של נהר הבשמים, מרכז העיר
-  what_he: מושבה המבוצר של שושלת נגוין מ-1802 עד 1945. נכנסים דרך שער נגו מון, עוברים את תשעת
-    התותחים הקדושים ואת תשע כדי השושלת, ובפנים מקדש המשפחה טו מייה.
-  why_he: הסיבה שהואה היא הבירה הקיסרית של ויאטנם ולא עוד עיר נהר, והאתר ההיסטורי היחיד הגדול
-    ביותר במדינה
+  what_he: מושבה המבוצר של שושלת נגוין מ-1802 עד 1945. נכנסים דרך שער נגו מון, עוברים
+    את תשעת התותחים הקדושים ואת תשע כדי השושלת, ובפנים מקדש המשפחה טו מייה.
+  why_he: הסיבה שהואה היא הבירה הקיסרית של ויאטנם ולא עוד עיר נהר, והאתר ההיסטורי
+    היחיד הגדול ביותר במדינה
+  hours: 07:00-17:00 in the rainy season; 06:30-17:30 in the dry
+  hours_he: 07:00-17:00 בעונת הגשמים; 06:30-17:30 בעונה היבשה
 - name: Khai Dinh Tomb
   area: Chau Chu Village, ~10km from Hue city
-  what: The last and most ornate of the Nguyen royal tombs, its concrete exterior built in
-    a Gothic-tinged European style but its interior sarcophagus chamber an explosion of colorful
-    ceramic-mosaic murals, reached by 127 stone steps.
-  why: The most visually striking of the seven royal tombs and unlike any other Nguyen monument
-    in Hue
+  what: The last and most ornate of the Nguyen royal tombs, its concrete exterior
+    built in a Gothic-tinged European style but its interior sarcophagus chamber an
+    explosion of colorful ceramic-mosaic murals, reached by 127 stone steps.
+  why: The most visually striking of the seven royal tombs and unlike any other Nguyen
+    monument in Hue
   confidence: high
   geocode_query: Khai Dinh Tomb, Hue, Vietnam
   sources:
@@ -180,14 +183,17 @@ must_see:
     lng: 107.5902801
   name_he: קבר קאי דין
   area_he: כפר צ'או צ'ו, כ-10 קילומטר מהעיר
-  what_he: האחרון והמעוטר ביותר מקברי המלוכה של נגוין. חזיתו מבטון בסגנון אירופי בגוון גותי,
-    אבל אולם הארון שבפנים הוא פיצוץ של ציורי פסיפס קרמי צבעוניים. מגיעים ב-127 מדרגות אבן.
+  what_he: האחרון והמעוטר ביותר מקברי המלוכה של נגוין. חזיתו מבטון בסגנון אירופי בגוון
+    גותי, אבל אולם הארון שבפנים הוא פיצוץ של ציורי פסיפס קרמי צבעוניים. מגיעים ב-127
+    מדרגות אבן.
   why_he: המרשים ביותר חזותית מבין שבעת קברי המלוכה, ושונה מכל מונומנט נגוין אחר בהואה
+  hours: 07:00-17:30 daily
+  hours_he: 07:00-17:30 כל יום
 - name: Thien Mu Pagoda
   area: Ha Khe Hill, north bank of the Perfume River, ~5km from the city
-  what: Hue's oldest religious building, founded in 1601, centred on the seven-storey octagonal
-    Phuoc Duyen tower that is the unofficial symbol of the city, with a 2.5-metre bronze bell
-    inside the main sanctuary.
+  what: Hue's oldest religious building, founded in 1601, centred on the seven-storey
+    octagonal Phuoc Duyen tower that is the unofficial symbol of the city, with a
+    2.5-metre bronze bell inside the main sanctuary.
   why: The single most-photographed landmark on the Perfume River, and over four centuries
     old
   confidence: high
@@ -197,17 +203,20 @@ must_see:
   - https://vietnamdiscovery.com/hue/attractions/thien-mu-pagoda/
   name_he: פגודת תיין מו
   area_he: גבעת הא קה, הגדה הצפונית של נהר הבשמים, כ-5 קילומטר מהעיר
-  what_he: המבנה הדתי העתיק ביותר בהואה, שנוסד ב-1601, סביב מגדל פואוק דוין המתומן בן שבע
-    הקומות שהוא הסמל הלא-רשמי של העיר, ובאולם המרכזי פעמון ברונזה בגובה 2.5 מטר.
+  what_he: המבנה הדתי העתיק ביותר בהואה, שנוסד ב-1601, סביב מגדל פואוק דוין המתומן
+    בן שבע הקומות שהוא הסמל הלא-רשמי של העיר, ובאולם המרכזי פעמון ברונזה בגובה 2.5
+    מטר.
   why_he: האתר המצולם ביותר על נהר הבשמים, ובן למעלה מארבע מאות שנה
+  hours: 07:00-20:00 daily, free
+  hours_he: 07:00-20:00 כל יום, בחינם
 attractions:
 - name: Tu Duc Tomb
   area: Thuy Xuan Village, ~7km from Hue city
-  what: A landscaped royal retreat built around a lake in a pine-forested valley, where Emperor
-    Tu Duc lived, wrote poetry and boated for years before his death, dotted with pavilions
-    and temples rather than a single mausoleum building.
-  why: The gentlest and most park-like of the tombs - built as a living retreat, not just
-    a burial site - and a contrast to Khai Dinh's grandeur
+  what: A landscaped royal retreat built around a lake in a pine-forested valley,
+    where Emperor Tu Duc lived, wrote poetry and boated for years before his death,
+    dotted with pavilions and temples rather than a single mausoleum building.
+  why: The gentlest and most park-like of the tombs - built as a living retreat, not
+    just a burial site - and a contrast to Khai Dinh's grandeur
   confidence: high
   geocode_query: Tu Duc Tomb, Hue, Vietnam
   sources:
@@ -218,17 +227,19 @@ attractions:
     lng: 107.5647017
   name_he: קבר טו דוק
   area_he: כפר תוי שואן, כ-7 קילומטר מהעיר
-  what_he: מקום מפלט מלכותי מעוצב סביב אגם בעמק יערות אורן, שבו הקיסר טו דוק חי, כתב שירה
-    ושייט שנים לפני מותו. פזורים בו ביתנים ומקדשים ולא מבנה מאוזוליאום יחיד.
-  why_he: הרך והפארקי ביותר מבין הקברים — נבנה כמקום מגורים ולא רק כקבורה — וניגוד להדר של
-    קאי דין
+  what_he: מקום מפלט מלכותי מעוצב סביב אגם בעמק יערות אורן, שבו הקיסר טו דוק חי, כתב
+    שירה ושייט שנים לפני מותו. פזורים בו ביתנים ומקדשים ולא מבנה מאוזוליאום יחיד.
+  why_he: הרך והפארקי ביותר מבין הקברים — נבנה כמקום מגורים ולא רק כקבורה — וניגוד
+    להדר של קאי דין
+  hours: 06:30-18:00 daily
+  hours_he: 06:30-18:00 כל יום
 - name: Perfume River dragon boat cruise
   area: Departs from piers along the Perfume River, city center
-  what: An evening cruise on a wooden dragon-prowed boat past Truong Tien and Phu Xuan bridges,
-    typically with a live Ca Hue folk-music performance on board and the option to release
-    a lotus lantern onto the water.
-  why: The classic way to see Hue's bridges and riverbanks lit up at night, and to hear Ca
-    Hue court music in something like its original setting
+  what: An evening cruise on a wooden dragon-prowed boat past Truong Tien and Phu
+    Xuan bridges, typically with a live Ca Hue folk-music performance on board and
+    the option to release a lotus lantern onto the water.
+  why: The classic way to see Hue's bridges and riverbanks lit up at night, and to
+    hear Ca Hue court music in something like its original setting
   confidence: medium
   geocode_query: Perfume River dragon boat pier, Hue, Vietnam
   sources:
@@ -236,18 +247,18 @@ attractions:
   - https://culturephamtravel.com/hue-dragon-boat-trip/
   name_he: שייט סירת דרקון בנהר הבשמים
   area_he: יוצא ממזחים לאורך נהר הבשמים, מרכז העיר
-  what_he: שייט ערב בסירת עץ עם חרטום דרקון על פני גשרי טרונג טיין ופו שואן, בדרך כלל עם מופע
-    חי של מוזיקת קה הואה על הסיפון ואפשרות לשלח פנס לוטוס על המים.
-  why_he: הדרך הקלאסית לראות את גשרי הואה ואת גדות הנהר מוארים בלילה, ולשמוע את מוזיקת החצר
-    קה הואה בקירוב לסביבתה המקורית
+  what_he: שייט ערב בסירת עץ עם חרטום דרקון על פני גשרי טרונג טיין ופו שואן, בדרך
+    כלל עם מופע חי של מוזיקת קה הואה על הסיפון ואפשרות לשלח פנס לוטוס על המים.
+  why_he: הדרך הקלאסית לראות את גשרי הואה ואת גדות הנהר מוארים בלילה, ולשמוע את מוזיקת
+    החצר קה הואה בקירוב לסביבתה המקורית
 markets:
 - name: Dong Ba Market
   area: North bank of the Perfume River, city center
-  what: Hue's biggest market, a three-floor bell-shaped building where the ground floor sells
-    dried seafood and local sauces, the second floor sells crafts like forged knives and ceramics,
-    and the third is devoted to ao dai tailoring.
-  why: Central Vietnam's largest and oldest market, and as much a symbol of Hue's identity
-    as the Citadel
+  what: Hue's biggest market, a three-floor bell-shaped building where the ground
+    floor sells dried seafood and local sauces, the second floor sells crafts like
+    forged knives and ceramics, and the third is devoted to ao dai tailoring.
+  why: Central Vietnam's largest and oldest market, and as much a symbol of Hue's
+    identity as the Citadel
   confidence: high
   geocode_query: Dong Ba Market, Hue, Vietnam
   sources:
@@ -258,16 +269,19 @@ markets:
     lng: 107.5886452
   name_he: שוק דונג בה
   area_he: הגדה הצפונית של נהר הבשמים, מרכז העיר
-  what_he: השוק הגדול בהואה, בניין בן שלוש קומות בצורת פעמון. בקומת הקרקע פירות ים מיובשים
-    ורטבים מקומיים, בשנייה מלאכת יד כמו סכינים מחושלות וקרמיקה, והשלישית מוקדשת לתפירת אאו
-    דאי.
-  why_he: השוק הגדול והוותיק ביותר במרכז ויאטנם, וסמל לזהות של הואה לא פחות מהעיר האסורה
+  what_he: השוק הגדול בהואה, בניין בן שלוש קומות בצורת פעמון. בקומת הקרקע פירות ים
+    מיובשים ורטבים מקומיים, בשנייה מלאכת יד כמו סכינים מחושלות וקרמיקה, והשלישית מוקדשת
+    לתפירת אאו דאי.
+  why_he: השוק הגדול והוותיק ביותר במרכז ויאטנם, וסמל לזהות של הואה לא פחות מהעיר
+    האסורה
 logistics:
 - name: Phu Bai Airport to Hue city center
   area: Airport transfer
-  what: Phu Bai International Airport sits about 15km south of Hue; a taxi or private car
-    to the city center takes 20-30 minutes and costs roughly 250,000-300,000 VND ($10-12).
-  why: Fixes the transfer time for flying in or out of Hue directly, rather than via Da Nang
+  what: Phu Bai International Airport sits about 15km south of Hue; a taxi or private
+    car to the city center takes 20-30 minutes and costs roughly 250,000-300,000 VND
+    ($10-12).
+  why: Fixes the transfer time for flying in or out of Hue directly, rather than via
+    Da Nang
   confidence: high
   geocode_query: Phu Bai International Airport, Hue, Vietnam
   sources:
@@ -278,8 +292,9 @@ logistics:
     lng: 107.7054596
   name_he: משדה התעופה פו באי למרכז הואה
   area_he: הסעת שדה תעופה
-  what_he: שדה התעופה הבינלאומי פו באי נמצא כ-15 קילומטר מדרום להואה. מונית או רכב פרטי למרכז
-    העיר לוקחים 20 עד 30 דקות ועולים בערך 250,000 עד 300,000 דונג, כעשרה עד שנים עשר דולר.
+  what_he: שדה התעופה הבינלאומי פו באי נמצא כ-15 קילומטר מדרום להואה. מונית או רכב
+    פרטי למרכז העיר לוקחים 20 עד 30 דקות ועולים בערך 250,000 עד 300,000 דונג, כעשרה
+    עד שנים עשר דולר.
   why_he: מקבע את זמן ההסעה לטיסה ישירה אל הואה או ממנה, במקום דרך דה נאנג
 street_food:
 - name: Bun Bo Hue Ba Gai
@@ -287,9 +302,10 @@ street_food:
   signal: traveler_recommended
   area: 11A Ha Noi Street, Vinh Ninh
   what: A 24-hour noodle shop serving bun bo Hue, the city's own spicy lemongrass-and-beef
-    broth noodle soup, in a plain no-frills dining room popular with locals at all hours.
-  why: One of the most consistently recommended bun bo Hue spots in the city that actually
-    invented the dish, open around the clock
+    broth noodle soup, in a plain no-frills dining room popular with locals at all
+    hours.
+  why: One of the most consistently recommended bun bo Hue spots in the city that
+    actually invented the dish, open around the clock
   confidence: medium
   geocode_query: Bun Bo Hue Ba Gai, 11A Ha Noi Street, Hue, Vietnam
   sources:
@@ -300,18 +316,19 @@ street_food:
   location_precision: approximate
   name_he: בון בו הואה בה גאי
   area_he: רחוב האנוי 11A, וין נין
-  what_he: חנות אטריות הפתוחה 24 שעות, שמגישה בון בו הואה — מרק האטריות של העיר עצמה, על בסיס
-    למון גראס ובקר — בחדר אוכל פשוט שמקומיים אוהבים בכל שעה.
-  why_he: מהכתובות המומלצות ביותר לבון בו הואה בעיר שהמציאה את המנה, ופתוחה מסביב לשעון
+  what_he: חנות אטריות הפתוחה 24 שעות, שמגישה בון בו הואה — מרק האטריות של העיר עצמה,
+    על בסיס למון גראס ובקר — בחדר אוכל פשוט שמקומיים אוהבים בכל שעה.
+  why_he: מהכתובות המומלצות ביותר לבון בו הואה בעיר שהמציאה את המנה, ופתוחה מסביב
+    לשעון
 - name: Hang Me Me
   kind: vietnamese
   signal: traveler_recommended
   area: 45 Vo Thi Sau Street, Phu Hoi Ward
-  what: A local eatery specializing in banh beo, tiny steamed rice cakes served in individual
-    dishes and topped with dried shrimp and crispy pork skin, alongside banh cuon and banh
-    ram-it.
-  why: One of the go-to addresses in Hue specifically for banh beo, a dish that's hard to
-    find done well outside the city
+  what: A local eatery specializing in banh beo, tiny steamed rice cakes served in
+    individual dishes and topped with dried shrimp and crispy pork skin, alongside
+    banh cuon and banh ram-it.
+  why: One of the go-to addresses in Hue specifically for banh beo, a dish that's
+    hard to find done well outside the city
   confidence: low
   geocode_query: Hang Me Me, 45 Vo Thi Sau Street, Hue, Vietnam
   sources:
@@ -322,18 +339,19 @@ street_food:
   location_precision: approximate
   name_he: האנג מה מה
   area_he: רחוב וו טי סאו 45, פו הוי
-  what_he: מסעדה מקומית שמתמחה בבאן בייאו — עוגיות אורז מאודות זעירות שמוגשות בצלוחיות נפרדות
-    ומעליהן שרימפס מיובש ועור חזיר פריך — לצד באן קואון ובאן ראם-איט.
-  why_he: מהכתובות המובילות בהואה דווקא לבאן בייאו, מנה שקשה למצוא עשויה היטב מחוץ לעיר
+  what_he: מסעדה מקומית שמתמחה בבאן בייאו — עוגיות אורז מאודות זעירות שמוגשות בצלוחיות
+    נפרדות ומעליהן שרימפס מיובש ועור חזיר פריך — לצד באן קואון ובאן ראם-איט.
+  why_he: מהכתובות המובילות בהואה דווקא לבאן בייאו, מנה שקשה למצוא עשויה היטב מחוץ
+    לעיר
 - name: Com Hen Ba Den
   kind: vietnamese
   signal: traveler_recommended
   area: Local, off the main tourist strip
-  what: A local spot serving com hen - cold rice topped with tiny stir-fried river clams,
-    herbs, peanuts and chilli oil - and its noodle-soup cousin bun hen, closing by 11:30am
-    once the day's clams run out.
-  why: Draws a steady stream of locals and Grab drivers rather than tour groups, the usual
-    sign of the real thing in Hue
+  what: A local spot serving com hen - cold rice topped with tiny stir-fried river
+    clams, herbs, peanuts and chilli oil - and its noodle-soup cousin bun hen, closing
+    by 11:30am once the day's clams run out.
+  why: Draws a steady stream of locals and Grab drivers rather than tour groups, the
+    usual sign of the real thing in Hue
   confidence: medium
   geocode_query: Com Hen Ba Den, Hue, Vietnam
   sources:
@@ -341,20 +359,21 @@ street_food:
   - https://www.thetravellingsquid.com/2018/04/03/ba-hoa-for-authentic-vietnamese-food-in-hue/
   name_he: קום הן בה דן
   area_he: מקומי, מחוץ לרצועת התיירים
-  what_he: מקום מקומי שמגיש קום הן — אורז קר ומעליו צדפות נהר זעירות מוקפצות, עשבים, בוטנים
-    ושמן צ'ילי — ואת בן הדוד שלו במרק אטריות, בון הן. נסגר עד 11:30 כשנגמרות צדפות היום.
-  why_he: מושך זרם קבוע של מקומיים ונהגי גראב ולא קבוצות תיירים, וזה הסימן המקובל לדבר האמיתי
-    בהואה
+  what_he: מקום מקומי שמגיש קום הן — אורז קר ומעליו צדפות נהר זעירות מוקפצות, עשבים,
+    בוטנים ושמן צ'ילי — ואת בן הדוד שלו במרק אטריות, בון הן. נסגר עד 11:30 כשנגמרות
+    צדפות היום.
+  why_he: מושך זרם קבוע של מקומיים ונהגי גראב ולא קבוצות תיירים, וזה הסימן המקובל
+    לדבר האמיתי בהואה
 restaurants:
 - name: Lac Thien (Banh Khoai Lac Thien)
   kind: vietnamese
   signal: traveler_recommended
   area: 6 Dinh Tien Hoang Street
-  what: A family-run restaurant grilling banh khoai to order - Hue's crisp turmeric rice-flour
-    pancake, folded over pork, shrimp and bean sprouts and eaten wrapped in rice paper with
-    a thick peanut-sesame dipping sauce.
-  why: Widely cited as Hue's best banh khoai, and the crunchiest version of the dish in the
-    city
+  what: A family-run restaurant grilling banh khoai to order - Hue's crisp turmeric
+    rice-flour pancake, folded over pork, shrimp and bean sprouts and eaten wrapped
+    in rice paper with a thick peanut-sesame dipping sauce.
+  why: Widely cited as Hue's best banh khoai, and the crunchiest version of the dish
+    in the city
   confidence: medium
   geocode_query: Lac Thien Restaurant, 6 Dinh Tien Hoang Street, Hue, Vietnam
   sources:
@@ -365,7 +384,29 @@ restaurants:
   location_precision: approximate
   name_he: לאק תיין
   area_he: רחוב דין טיין הואנג 6
-  what_he: מסעדה משפחתית שצולה באן קואי לפי הזמנה — הפנקייק הפריך של הואה מקמח אורז וכורכום,
-    מקופל על חזיר, שרימפס ונבטים, ונאכל עטוף בנייר אורז עם רוטב בוטנים-שומשום סמיך.
+  what_he: מסעדה משפחתית שצולה באן קואי לפי הזמנה — הפנקייק הפריך של הואה מקמח אורז
+    וכורכום, מקופל על חזיר, שרימפס ונבטים, ונאכל עטוף בנייר אורז עם רוטב בוטנים-שומשום
+    סמיך.
   why_he: מצוטטת דרך קבע כבאן קואי הטוב בהואה, והגרסה הפריכה ביותר של המנה בעיר
 hebrew_complete: true
+spa:
+- name: Moonshine Spa
+  area: 20 Pham Ngu Lao, Phu Hoi ward
+  what: A five-room spa in the hotel strip south of the river, with couples rooms,
+    a jacuzzi and a salt scrub alongside the usual deep tissue, hot stone and Thai
+    menu.
+  why: Hue is two days of walking open-air tombs and a citadel in November rain, and
+    this is the best-reviewed place in town to put the legs back together afterwards
+  confidence: medium
+  geocode_query: Moonshine Spa, Pham Ngu Lao, Hue, Vietnam
+  sources:
+  - https://wanderlog.com/place/details/10381016
+  price_low: 17.0
+  price_unit: per_hour
+  price_checked: '2026-10-08'
+  name_he: מונשיין ספא
+  area_he: 20 פאם נגו לאו, שכונת פו הוי
+  what_he: ספא בן חמישה חדרים ברצועת המלונות שדרומית לנהר, עם חדרים לזוגות, ג׳קוזי
+    ופילינג מלח לצד תפריט הרקמות העמוקות, האבנים החמות והתאילנדי.
+  why_he: הואה היא שני ימים של הליכה בקברים פתוחים ובמצודה תחת גשם נובמבר, וזה המקום
+    עם הביקורות הטובות בעיר להרכיב בו את הרגליים מחדש

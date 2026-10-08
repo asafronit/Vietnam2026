@@ -162,6 +162,8 @@ must_see:
   coords:
     lat: 20.2537827
     lng: 105.9005014
+  hours: 07:00-16:30 from October to December; 06:00-16:45 April to September
+  hours_he: 07:00-16:30 מאוקטובר עד דצמבר; 06:00-16:45 מאפריל עד ספטמבר
 - name: Tam Coc boat ride
   price_low: 9.6
   price_unit: per_person
@@ -187,6 +189,8 @@ must_see:
     lat: 20.2163426
     lng: 105.937457
   location_precision: approximate
+  hours: 08:30-18:30 daily
+  hours_he: 08:30-18:30 כל יום
 - name: Mua Cave viewpoint (Hang Mua)
   price_low: 5.8
   price_unit: per_person
@@ -210,6 +214,8 @@ must_see:
   sources:
   - https://oxalisadventure.com/mua-cave-ninh-binh/
   - https://junglebosstours.com/explorer/tourism-blog/mua-caves-vietnam-travel-guide
+  hours: 06:00-19:00 daily
+  hours_he: 06:00-19:00 כל יום
 attractions:
 - name: Hoa Lu Ancient Capital
   name_he: הבירה העתיקה הואה לו
