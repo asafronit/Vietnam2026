@@ -287,6 +287,8 @@ street_food:
     לתוך באגט פריך לפי הזמנה.
   why_he: הבאן מי שאנתוני בורדיין אמר שהוא אולי הטוב בוויאטנם — ועדיין עם תור שיוצא
     מהדלת שנים אחר כך
+  hours: 06:30-21:30; to 21:00 at weekends
+  hours_he: 06:30-21:30; בסוף השבוע עד 21:00
 - name: Cao Lau Ba Le
   kind: vietnamese
   signal: traveler_recommended
@@ -306,6 +308,8 @@ street_food:
     מיוצרות במים מבאר מקומית מסוימת — מוקפצות עם פרוסות חזיר, קרוטונים וירק במרק קליל.
   why_he: מצוטטת רבות כמגישה את הגרסה הטובה ביותר של מנת האטריות של הוי אן עצמה, שלפי
     המסורת המקומית אי אפשר לשחזר באותנטיות בשום מקום אחר
+  hours: 11:00-21:30; from 08:00 at weekends
+  hours_he: 11:00-21:30; בסוף השבוע מ-08:00
 - name: Phu Hong (Bun Thit Nuong Phu Hong)
   kind: vietnamese
   signal: michelin_bib
@@ -425,6 +429,8 @@ restaurants:
     שרימפס טחון ומתובל, מאודות ומעוצבות כוורד מקופל, ומעליהן שאלוט מטוגן פריך.
   why_he: המנה מגיעה ממתכון משפחתי אחד שמחולק למסעדות ברחבי העיר, והמסעדה הזו היא
     הכתובת המפורסמת ביותר שלו
+  hours: 07:30-20:30 daily
+  hours_he: 07:30-20:30 כל יום
 - name: La Maison 1888
   kind: international
   signal: michelin_star

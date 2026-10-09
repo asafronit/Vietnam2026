@@ -670,6 +670,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_selected",
           "video": null,
+          "hours": "08:00-20:30",
+          "hoursHe": "08:00-20:30",
           "weather": "medium",
           "limiter": "rain"
         },
@@ -698,6 +700,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_bib",
           "video": null,
+          "hours": "06:00-10:00 and 18:00-20:30; closed in between",
+          "hoursHe": "06:00-10:00 ו-18:00-20:30; סגור בינתיים",
           "weather": "medium",
           "limiter": "rain"
         },
@@ -726,6 +730,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_bib",
           "video": null,
+          "hours": "06:30-13:00 and 16:30-00:30",
+          "hoursHe": "06:30-13:00 ו-16:30-00:30",
           "weather": "medium",
           "limiter": "rain"
         },
@@ -754,6 +760,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_bib",
           "video": null,
+          "hours": "11:00-15:00, lunch only",
+          "hoursHe": "11:00-15:00, צהריים בלבד",
           "weather": "medium",
           "limiter": "rain"
         },
@@ -782,6 +790,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_bib",
           "video": null,
+          "hours": "07:00-13:00 and 17:00-21:00",
+          "hoursHe": "07:00-13:00 ו-17:00-21:00",
           "weather": "medium",
           "limiter": "rain"
         },
@@ -810,6 +820,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_bib",
           "video": null,
+          "hours": "08:00-21:00; 08:00-17:30 at weekends",
+          "hoursHe": "08:00-21:00; בסוף השבוע 08:00-17:30",
           "weather": "medium",
           "limiter": "rain"
         },
@@ -839,6 +851,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "07:00-22:00 daily",
+          "hoursHe": "07:00-22:00 כל יום",
           "weather": "medium",
           "limiter": "rain"
         },
@@ -868,6 +882,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "18:00-22:00, evenings only",
+          "hoursHe": "18:00-22:00, ערב בלבד",
           "weather": "medium",
           "limiter": "rain"
         },
@@ -953,6 +969,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_bib",
           "video": null,
+          "hours": "09:00-23:00 daily",
+          "hoursHe": "09:00-23:00 כל יום",
           "weather": "low",
           "limiter": "rain"
         },
@@ -1008,6 +1026,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_bib",
           "video": null,
+          "hours": "07:30-22:00 daily",
+          "hoursHe": "07:30-22:00 כל יום",
           "weather": "low",
           "limiter": "rain"
         },
@@ -1036,6 +1056,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_bib",
           "video": null,
+          "hours": "09:00-22:00; to 22:30 Friday to Sunday",
+          "hoursHe": "09:00-22:00; משישי עד ראשון עד 22:30",
           "weather": "low",
           "limiter": "rain"
         }
@@ -2236,6 +2258,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "traveler_recommended",
           "video": null,
+          "hours": "Closes at 22:00; opening time not published",
+          "hoursHe": "נסגרת ב-22:00; שעת הפתיחה אינה מפורסמת",
           "weather": "low",
           "limiter": "rain"
         }
@@ -3078,6 +3102,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "traveler_recommended",
           "video": null,
+          "hours": "07:00-21:30 daily",
+          "hoursHe": "07:00-21:30 כל יום",
           "weather": "medium",
           "limiter": "rain"
         }
@@ -4139,6 +4165,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "traveler_recommended",
           "video": null,
+          "hours": "24 hours",
+          "hoursHe": "24 שעות",
           "weather": "medium",
           "limiter": "rain"
         },
@@ -4196,6 +4224,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "traveler_recommended",
           "video": null,
+          "hours": "10:00-21:30 daily",
+          "hoursHe": "10:00-21:30 כל יום",
           "weather": "low",
           "limiter": "rain"
         }
@@ -4676,6 +4706,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "traveler_recommended",
           "video": null,
+          "hours": "06:30-21:30; to 21:00 at weekends",
+          "hoursHe": "06:30-21:30; בסוף השבוע עד 21:00",
           "weather": "medium",
           "limiter": "rain"
         },
@@ -4703,6 +4735,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "traveler_recommended",
           "video": null,
+          "hours": "11:00-21:30; from 08:00 at weekends",
+          "hoursHe": "11:00-21:30; בסוף השבוע מ-08:00",
           "weather": "medium",
           "limiter": "rain"
         },
@@ -4845,6 +4879,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "traveler_recommended",
           "video": null,
+          "hours": "07:30-20:30 daily",
+          "hoursHe": "07:30-20:30 כל יום",
           "weather": "low",
           "limiter": "rain"
         },
@@ -5577,6 +5613,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "local_media",
           "video": null,
+          "hours": "07:00-22:00 daily",
+          "hoursHe": "07:00-22:00 כל יום",
           "weather": "low",
           "limiter": "rain"
         },
@@ -6913,6 +6951,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_bib",
           "video": null,
+          "hours": "06:00-18:00",
+          "hoursHe": "06:00-18:00",
           "weather": "medium",
           "limiter": "rain"
         },
@@ -6941,6 +6981,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "traveler_recommended",
           "video": null,
+          "hours": "06:00-22:00 daily",
+          "hoursHe": "06:00-22:00 כל יום",
           "weather": "medium",
           "limiter": "rain"
         },
@@ -6969,6 +7011,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_bib",
           "video": null,
+          "hours": "09:00-21:30 daily",
+          "hoursHe": "09:00-21:30 כל יום",
           "weather": "medium",
           "limiter": "rain"
         },
@@ -7025,6 +7069,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_bib",
           "video": null,
+          "hours": "06:30-20:30 daily",
+          "hoursHe": "06:30-20:30 כל יום",
           "weather": "medium",
           "limiter": "rain"
         }
@@ -7055,6 +7101,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_star",
           "video": null,
+          "hours": "17:00-23:30, closed Monday",
+          "hoursHe": "17:00-23:30, סגור ביום שני",
           "weather": "low",
           "limiter": "rain"
         },
@@ -7111,6 +7159,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_bib",
           "video": null,
+          "hours": "09:00-23:30 daily",
+          "hoursHe": "09:00-23:30 כל יום",
           "weather": "low",
           "limiter": "rain"
         },
@@ -7139,6 +7189,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_bib",
           "video": null,
+          "hours": "10:00-22:00 daily",
+          "hoursHe": "10:00-22:00 כל יום",
           "weather": "low",
           "limiter": "rain"
         },
@@ -7167,6 +7219,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_bib",
           "video": null,
+          "hours": "10:00-14:00 and 16:00-21:00",
+          "hoursHe": "10:00-14:00 ו-16:00-21:00",
           "weather": "low",
           "limiter": "rain"
         }
@@ -7785,6 +7839,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "traveler_recommended",
           "video": null,
+          "hours": "06:00-22:30 daily",
+          "hoursHe": "06:00-22:30 כל יום",
           "weather": "low",
           "limiter": "rain"
         },
@@ -7812,6 +7868,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "traveler_recommended",
           "video": null,
+          "hours": "06:30-22:00 daily",
+          "hoursHe": "06:30-22:00 כל יום",
           "weather": "low",
           "limiter": "rain"
         }
@@ -8149,6 +8207,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "traveler_recommended",
           "video": null,
+          "hours": "11:00-21:30 daily",
+          "hoursHe": "11:00-21:30 כל יום",
           "weather": "low",
           "limiter": "rain"
         },
@@ -8176,6 +8236,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": "traveler_recommended",
           "video": null,
+          "hours": "10:00-23:00 daily",
+          "hoursHe": "10:00-23:00 כל יום",
           "weather": "low",
           "limiter": "rain"
         }

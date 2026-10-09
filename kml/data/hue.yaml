@@ -320,6 +320,8 @@ street_food:
     על בסיס למון גראס ובקר — בחדר אוכל פשוט שמקומיים אוהבים בכל שעה.
   why_he: מהכתובות המומלצות ביותר לבון בו הואה בעיר שהמציאה את המנה, ופתוחה מסביב
     לשעון
+  hours: 24 hours
+  hours_he: 24 שעות
 - name: Hang Me Me
   kind: vietnamese
   signal: traveler_recommended
@@ -388,6 +390,8 @@ restaurants:
     וכורכום, מקופל על חזיר, שרימפס ונבטים, ונאכל עטוף בנייר אורז עם רוטב בוטנים-שומשום
     סמיך.
   why_he: מצוטטת דרך קבע כבאן קואי הטוב בהואה, והגרסה הפריכה ביותר של המנה בעיר
+  hours: 10:00-21:30 daily
+  hours_he: 10:00-21:30 כל יום
 hebrew_complete: true
 spa:
 - name: Moonshine Spa

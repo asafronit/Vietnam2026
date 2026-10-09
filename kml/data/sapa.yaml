@@ -263,6 +263,8 @@ restaurants:
     מבושל עם עשבי ההרים — לצד מנות הרים אחרות.
   why_he: הכתובת המומלצת ביותר בסאפה למנה האזורית הזו, עם קהל מבוסס בטריפאדוויזר ובמדריכים
     המקומיים כאחד
+  hours: Closes at 22:00; opening time not published
+  hours_he: נסגרת ב-22:00; שעת הפתיחה אינה מפורסמת
 hebrew_complete: true
 spa:
 - name: Nuages Spa

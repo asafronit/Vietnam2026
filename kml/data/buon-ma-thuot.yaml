@@ -211,6 +211,8 @@ restaurants:
     ברו ופור-אובר, ולא את הקפה הקר והממותק שנמכר בכל פינה.
   why_he: דורג בחמישייה הפותחת של תחרות Vietnam Amazing Cup 2025 לרובוסטה משובחת,
     מול הקלייניות הטובות במדינה
+  hours: 07:00-22:00 daily
+  hours_he: 07:00-22:00 כל יום
 - name: Ga Nuong Com Lam (30/4)
   kind: vietnamese
   signal: traveler_recommended

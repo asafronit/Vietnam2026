@@ -265,6 +265,8 @@ restaurants:
     זקוף, כך שהבשר מגולגל לתוך נייר אורז עם עשבים וכבושים ליד השולחן.'
   why_he: צוינה שוב ושוב ע"י מטיילים לאחרונה דווקא למנה הזו, המזוהה ביותר עם דלתת
     המקונג
+  hours: 06:00-22:30 daily
+  hours_he: 06:00-22:30 כל יום
 - name: Sao Hom Restaurant
   kind: vietnamese
   signal: traveler_recommended
@@ -287,4 +289,6 @@ restaurants:
     של בישול בית דרום-ויאטנמי.
   why_he: המלצה של מדריך מקומי לארוחת ערב אמיתית לשבת בה, באחד מבנייני האוכל המובחנים
     ביותר בקאן טו
+  hours: 06:30-22:00 daily
+  hours_he: 06:30-22:00 כל יום
 hebrew_complete: true

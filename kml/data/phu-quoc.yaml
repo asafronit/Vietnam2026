@@ -464,6 +464,8 @@ restaurants:
   what_he: מסעדת פירות ים פתוחה שבה בוחרים מהבריכה אל השולחן, עם נוף לים, פופולרית
     לשקיעה ולארוחות ערב.
   why_he: ממסעדות פירות הים המומלצות ביותר באי באופן עקבי, בזכות השילוב של נוף ואיכות
+  hours: 11:00-21:30 daily
+  hours_he: 11:00-21:30 כל יום
 - name: Ra Khoi Seafood Restaurant
   kind: vietnamese
   signal: traveler_recommended
@@ -484,6 +486,8 @@ restaurants:
     עם בריכות בחזית לבחירת הדג, הסרטן או הדיונון.
   why_he: מצוטטת שוב ושוב ע"י מטיילים על מחירי פירות ים אמיתיים ולא מנופחים, בהשוואה
     למסעדות רצועת התיירים לידה
+  hours: 10:00-23:00 daily
+  hours_he: 10:00-23:00 כל יום
 hebrew_complete: true
 spa:
 - name: Phu Quoc Day Spa

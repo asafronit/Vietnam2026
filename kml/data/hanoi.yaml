@@ -602,6 +602,8 @@ street_food:
   why_he: החנות של אובמה, ושווה רק אם זו הנקודה — היא נמצאת בסלקציה של מדריך מישלן
     אך אינה נושאת ביב גורמנד, ומקומיים מדרגים את הרוטב והמרינדה מתחת למה שהיו. בון
     צ'ה טוב יותר נמצא שני רחובות משם
+  hours: 08:00-20:30
+  hours_he: 08:00-20:30
 - name: Pho Gia Truyen (Bat Dan)
   kind: vietnamese
   signal: michelin_bib
@@ -625,6 +627,8 @@ street_food:
   what_he: 'חנות פו ללא כל קישוט: עומדים בתור לדלפק, משלמים מראש ונושאים את הקערה
     לשולחן משותף. בקר בלבד, בשלושה נתחים.'
   why_he: אמת המידה לפו בקר ברובע העתיק, וביב גורמנד. התור בשבע בבוקר הוא הביקורת
+  hours: 06:00-10:00 and 18:00-20:30; closed in between
+  hours_he: 06:00-10:00 ו-18:00-20:30; סגור בינתיים
 - name: Pho Ga Nguyet
   kind: vietnamese
   signal: michelin_bib
@@ -648,6 +652,8 @@ street_food:
   what_he: דלפק פו עוף שמאפשר לבחור נתח — ירך, חזה, או הכול יחד עם ביצה — במרק צלול.
     פתוח עד אחרי חצות.
   why_he: כתובת הפו היחידה ברשימה שעדיין מגישה באחת עשרה בלילה, וזה משנה בערב הנחיתה
+  hours: 06:30-13:00 and 16:30-00:30
+  hours_he: 06:30-13:00 ו-16:30-00:30
 - name: Tuyet Bun Cha 34
   kind: vietnamese
   signal: michelin_bib
@@ -668,6 +674,8 @@ street_food:
     עם קערת מרק לטבילה וצלחת עשבים.
   why_he: מפקחי מישלן ציינו במפורש את הצלייה לפי הזמנה — ההבדל בין בון צ'ה טוב לבון
     צ'ה מחומם
+  hours: 11:00-15:00, lunch only
+  hours_he: 11:00-15:00, צהריים בלבד
 - name: Banh Cuon Gia Truyen Thanh Van (Hang Ga)
   kind: vietnamese
   signal: michelin_bib
@@ -691,6 +699,8 @@ street_food:
   what_he: בלילת אורז מאודה לדפים דקים כנייר לפי הזמנה, על סיר מכוסה בד, מגולגלת סביב
     בשר חזיר טחון ופטריות אוזן-עץ, ונאכלת עם רוטב דגים ובצל מטוגן.
   why_he: מנת בוקר שצריך לראות איך מכינים, וזו הכתובת עם הביב גורמנד ברובע העתיק
+  hours: 07:00-13:00 and 17:00-21:00
+  hours_he: 07:00-13:00 ו-17:00-21:00
 - name: Pho Khoi Hoi
   kind: vietnamese
   signal: michelin_bib
@@ -711,6 +721,8 @@ street_food:
     הביב גורמנד במהדורה האחרונה.
   why_he: פו של מקומיים שהמדריך הגיע אליו רק לאחרונה, ולכן הוא עוד לא עוצב מחדש על
     ידי תנועת תיירים
+  hours: 08:00-21:00; 08:00-17:30 at weekends
+  hours_he: 08:00-21:00; בסוף השבוע 08:00-17:30
 - name: Cafe Giang
   kind: vietnamese
   dish: Egg coffee
@@ -739,6 +751,8 @@ street_food:
     אותו מאז 1946.
   why_he: הגרסה המקורית של המשקה שכל רשימה על האנוי אומרת לא לפספס. הכניסה היא סמטה
     צרה שקל לעבור לידה בלי לשים לב
+  hours: 07:00-22:00 daily
+  hours_he: 07:00-22:00 כל יום
 - name: Bun Thang Ba Duc
   kind: vietnamese
   dish: Bun thang
@@ -767,6 +781,8 @@ street_food:
     הכנות קטנות.
   why_he: בון תאנג היא מנה האנואית שכמעט לא מוצאים במקום אחר, וזו אחת הכתובות הוותיקות
     שלה, 300 מטר מהאגם. פתוח בערך מ-16:00 עד 23:00
+  hours: 18:00-22:00, evenings only
+  hours_he: 18:00-22:00, ערב בלבד
 - name: Pho Cuon Hung Ben
   kind: vietnamese
   dish: Pho cuon
@@ -839,6 +855,8 @@ restaurants:
   what_he: חנות ללא יומרות שבה דג במרינדת כורכום נצלה על כירת גחלים ליד השולחן, ואז
     מסיים במחבת עם שמיר ובצל ירוק ומוגש על אטריות אורז.
   why_he: ביב גורמנד, וכתובת הצ'ה קה שממשיכה להיות המומלצת ביותר ברובע העתיק
+  hours: 09:00-23:00 daily
+  hours_he: 09:00-23:00 כל יום
 - name: Gia
   kind: international
   signal: michelin_star
@@ -888,6 +906,8 @@ restaurants:
     הסגל הדיפלומטי, ומגישה מנות אזוריות כתפריט מלא ולא כהתמחות יחידה.
   why_he: הכתובת היחידה כאן שמתפקדת כארוחת ערב אמיתית עם שולחן ורשימת יינות, ועדיין
     בתמחור ביב גורמנד
+  hours: 07:30-22:00 daily
+  hours_he: 07:30-22:00 כל יום
 - name: Uu Dam Chay
   kind: vietnamese
   signal: michelin_bib
@@ -911,6 +931,8 @@ restaurants:
   what_he: מטבח צמחוני בכמה קומות שבונה מחדש קלאסיקות ויאטנמיות בלי בשר ובלי רוטב
     דגים, ומגיש אותן כתפריט מנות מסודר.
   why_he: הכתובת הצמחונית היחידה בהאנוי עם ביב גורמנד, והמפלט אחרי שבוע עתיר בשר
+  hours: 09:00-22:00; to 22:30 Friday to Sunday
+  hours_he: 09:00-22:00; משישי עד ראשון עד 22:30
 logistics:
 - name: Noi Bai Airport to Old Quarter transfer
   area: Noi Bai International Airport to Hoan Kiem

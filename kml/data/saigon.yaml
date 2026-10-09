@@ -271,6 +271,8 @@ street_food:
   what_he: מסעדת פינה משפחתית, בישיבה בפנים ובחוץ, שמגישה את הגרסה היחידה של בון רייאו
     בעיר שמופיעה בביב גורמנד.
   why_he: ביב גורמנד של מישלן, והנציגה היחידה של המנה הזו ברשימת סייגון של המדריך
+  hours: 06:00-18:00
+  hours_he: 06:00-18:00
 - name: Banh Mi Huynh Hoa
   kind: vietnamese
   signal: traveler_recommended
@@ -295,6 +297,8 @@ street_food:
     נקניק, פטה, חמאה וכבושים.
   why_he: מצוטט רבות כבאן מי העמוס והמומלץ ביותר בעיר, ונבחר לבחירת המטיילים בטקס
     Flavors Awards 2024
+  hours: 06:00-22:00 daily
+  hours_he: 06:00-22:00 כל יום
 - name: Com Tam Ba Ghien
   kind: vietnamese
   signal: michelin_bib
@@ -315,6 +319,8 @@ street_food:
   what_he: חנות אורז שבור שצלע החזיר שלה חורגת מעבר לצלחת, נצלית על גחלים ומוגשת עם
     עור חזיר קצוץ, כיכר ביצה מאודה ורוטב דגים — כל מה שמרכיב קום טאם כהלכה.
   why_he: קום טאם היא מנה של סייגון עצמה ולא יבוא מהאנוי, וזו הכתובת שלה עם הביב גורמנד
+  hours: 09:00-21:30 daily
+  hours_he: 09:00-21:30 כל יום
 - name: Pho Phuong
   kind: vietnamese
   signal: michelin_bib
@@ -358,6 +364,8 @@ street_food:
     עם אטריות עגולות ועבות יותר ומרק חריף בהרבה מפו.
   why_he: הזדמנות לאכול את מנת החתימה של הואה כמו שצריך, גם אם מזג האוויר בהואה עצמה
     לא משתף פעולה
+  hours: 06:30-20:30 daily
+  hours_he: 06:30-20:30 כל יום
 restaurants:
 - name: Anan Saigon
   kind: vietnamese
@@ -383,6 +391,8 @@ restaurants:
     קואונג פרנקלין מעביר מתכוני אוכל רחוב דרך טכניקה של פיין דיינינג צרפתי.
   why_he: כוכב מישלן אחד מאז 2023, והדוגמה הברורה ביותר לסצנת הפיין דיינינג של סייגון
     שנבנתה על אוכל הרחוב שלה עצמה
+  hours: 17:00-23:30, closed Monday
+  hours_he: 17:00-23:30, סגור ביום שני
 - name: La Villa French Restaurant by Thierry Mounon
   kind: international
   signal: michelin_selected
@@ -430,6 +440,8 @@ restaurants:
     בדרך כלל מדלגות עליו — תבשילים, סירי חימר וירק פשוט — בכמה חדרים קטנים ובחצר.
   why_he: ביב גורמנד, והתשובה לשבוע של דלפקי אטריות כשמה שרוצים הוא שולחן, מאוורר
     וארוחת ערב ארוכה
+  hours: 09:00-23:30 daily
+  hours_he: 09:00-23:30 כל יום
 - name: Hum Garden
   kind: vietnamese
   signal: michelin_bib
@@ -454,6 +466,8 @@ restaurants:
     ועשבים — בחצר שקטה הרחק מהתנועה.
   why_he: כתובת הביב גורמנד הצמחונית של סייגון, ואחד מחדרי האוכל הרגועים באמת המעטים
     במחוז 1
+  hours: 10:00-22:00 daily
+  hours_he: 10:00-22:00 כל יום
 - name: Banh Xeo 46A
   kind: vietnamese
   signal: michelin_bib
@@ -476,6 +490,8 @@ restaurants:
   what_he: חנות ותיקה שמוציאה קרפ אורז גדולים בצבע כורכום במילוי חזיר, שרימפס ונבטים,
     שנעטפים ליד השולחן בעלה חרדל ובעשבים.
   why_he: ביב גורמנד, והמנה הדרומית שהכי כיף לאכול עם הידיים
+  hours: 10:00-14:00 and 16:00-21:00
+  hours_he: 10:00-14:00 ו-16:00-21:00
 markets:
 - name: Ben Thanh Market
   area: District 1
