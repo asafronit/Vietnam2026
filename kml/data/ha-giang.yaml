@@ -24,6 +24,7 @@ hotels:
     מקורה לכל העונות, ספא, חדר כושר ובר גג שמשקיף על העיר וההרים סביבה.
   why_he: המלון היחיד במחוז הא ז'יאנג שקיבל 5 כוכבים רשמיים מרשות התיירות הלאומית
     של ויאטנם, ונקודת ההתחלה והסיום הטבעית של הלולאה
+  addr_vi: Đường Trần Phú, Hà Giang, Tuyên Quang
 - name: Yen Bien Luxury Hotel
   tier: 4
   tier_official: true
@@ -45,6 +46,7 @@ hotels:
   what_he: מלון של 125 חדרים עם חלונות גדולים אל העיר או אל ההרים, בריכה חיצונית עונתית
     וחדר כושר. פופולרי כבסיס לפני הלולאה או אחריה.
   why_he: דירוג 4 כוכבים רשמי, עם ציון ביקורות גבוה במיוחד למלון בבירת מחוז
+  addr_vi: 517 Nguyễn Trãi, Hà Giang, Tuyên Quang
 - name: De La Mont Hotel Ha Giang
   tier: 4
   tier_official: true
@@ -68,6 +70,7 @@ hotels:
     יוצאים רוב סיורי הלולאה. חדרים עם מרפסת פרטית, סקיי-בר על הגג ובריכה חיצונית.
   why_he: דירוג 4 כוכבים רשמי במחיר נמוך בהרבה ממלונות שכבת היוקרה, עם ביקורות ראשונות
     חזקות באופן עקבי
+  addr_vi: 426 Nguyễn Trãi, Hà Giang, Tuyên Quang
 - name: Silk River Hotel Ha Giang
   tier: 3
   tier_official: true
@@ -91,6 +94,7 @@ hotels:
     בקרב רוכבי הלולאה שצריכים מקום צמוד לאופנוע להשאיר בו ציוד.
   why_he: דירוג 3 כוכבים רשמי, זול באמת, ומקבל ביקורות טובות באופן עקבי דווקא מרוכבי
     הלולאה
+  addr_vi: Đường Nguyễn Trãi, Hà Giang, Tuyên Quang
 - name: Phuc Lam Hotel
   tier: 3
   tier_official: true
@@ -113,6 +117,8 @@ hotels:
     מרפסת גן ובר.
   why_he: דירוג 3 כוכבים רשמי, והזול מבין מלונות הא ז'יאנג שהמקורות שלהם אמינים, עם
     ציוני ביקורות חזקים לאחרונה
+  addr_vi: Hà Giang, Tuyên Quang
+  addr_vi_partial: true
 must_see:
 - name: Ma Pi Leng Pass
   area: National Road 4C, between Dong Van and Meo Vac

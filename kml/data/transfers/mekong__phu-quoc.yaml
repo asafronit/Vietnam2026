@@ -10,6 +10,8 @@ options:
   operator: Vietnam Airlines (VN8075)
   board:
     name: Can Tho International Airport (VCA)
+    name_vi: "Sân bay quốc tế Cần Thơ"
+    address_vi: "Thới An Đông, Bình Thủy, Cần Thơ"
     address: Thoi An Dong, Binh Thuy, Can Tho
     lat: 10.0829341
     lng: 105.7120894
@@ -48,6 +50,8 @@ options:
   operator: Bus to Ha Tien + Superdong speedboat
   board:
     name: Can Tho Central Bus Station
+    name_vi: "Bến xe Trung tâm Cần Thơ"
+    address_vi: "Đường Trần Hoàng Na, Cái Răng, Cần Thơ"
     address: Tran Hoang Na, Cai Rang, Can Tho
     lat: 10.005344
     lng: 105.7713117
@@ -56,8 +60,8 @@ options:
     address: Bai Vong, Ham Ninh, Phu Quoc
     lat: 10.1498952
     lng: 104.0374008
-  departures: Buses to Ha Tien through the morning; speedboats about 06:10, 10:15 and 13:15 (last boat mid-afternoon)
-  departures_he: "אוטובוסים לחה טיאן לאורך הבוקר; ספינות מהירות בערך ב-06:10, 10:15 ו-13:15 (האחרונה אחר הצהריים)"
+  departures: "Superdong leaves Ha Tien several times between about 06:00 and 13:30 (sources disagree on exact times); the last boat is around 13:15-14:00, so take a bus leaving Can Tho by about 07:00"
+  departures_he: "Superdong יוצאת מחה טיאן כמה פעמים בין 06:00 ל-13:30 בערך (המקורות חלוקים על השעות המדויקות); הספינה האחרונה בסביבות 13:15-14:00, ולכן לקחת אוטובוס שיוצא מקאן טו עד 07:00 בערך"
   duration_min: 390
   duration_max: 480
   price_low: 460000
@@ -85,5 +89,5 @@ options:
   - https://vexere.com/en-US/sleeper-bus-ticket-booking-from-can-tho-to-ha-tien-kien-giang-113t23691.html
   - https://kk2trip.com/en/superdong-phu-quoc-ferry-schedule-ticket-prices-more/
   - https://www.vietnamcoracle.com/phu-quoc-island-ferry-times/
-  checked: '2026-10-07'
-  confidence: medium
+  checked: "2026-10-16"
+  confidence: "medium"

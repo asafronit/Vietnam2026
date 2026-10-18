@@ -1,0 +1,47 @@
+from: hoi-an
+to: saigon
+reverse_ok: true
+note: About 90 minutes by air with over 20 nonstop flights a day. The train takes 17 hours and more.
+note_he: כ-90 דקות בטיסה עם יותר מ-20 טיסות ישירות ביום. הרכבת לוקחת 17 שעות ויותר.
+options:
+- mode: flight
+  operator: Vietnam Airlines, Sun PhuQuoc Airways, Vietravel Airlines
+  board:
+    name: Da Nang International Airport (DAD)
+    name_vi: "Sân bay quốc tế Đà Nẵng"
+    address_vi: "Sân bay quốc tế Đà Nẵng, Đà Nẵng"
+    address: Phan Thanh, Thanh Khe, Da Nang
+    lat: 16.0425792
+    lng: 108.1971613
+  alight:
+    name: Tan Son Nhat Airport, Terminal T3 (domestic)
+    address: Tan Son Nhat, Ho Chi Minh City
+  departures: Over 20 nonstop flights a day each way, from 06:00 to about 22:45
+  departures_he: יותר מ-20 טיסות ישירות ביום בכל כיוון, מ-06:00 עד בערך 22:45
+  duration_min: 90
+  duration_max: 95
+  price_low: 35
+  price_high: 105
+  currency: USD
+  price_unit: per_person
+  book_links:
+  - name: Vietnam Airlines
+    url: https://www.vietnamairlines.com/
+  - name: Sun PhuQuoc Airways
+    url: https://www.sunphuquocairways.com/vn/en
+  - name: Vietravel Airlines
+    url: https://www.vietravelairlines.com/
+  pros:
+  - Frequent and cheap
+  cons:
+  - Add 40-50 minutes from Hoi An to the airport
+  pros_he:
+  - תדיר וזול
+  cons_he:
+  - להוסיף 40-50 דקות מהוי אן לשדה
+  tips: 'Fares as shown for 10/11/2026: Sun PhuQuoc from $35, Vietravel $46-56, Vietnam Airlines $44-105.'
+  tips_he: 'המחירים כפי שהוצגו ל-10/11/2026: Sun PhuQuoc מ-$35, Vietravel $46-56, Vietnam Airlines $44-105.'
+  sources:
+  - https://www.google.com/travel/flights?q=Flights%20from%20DAD%20to%20SGN%20on%202026-11-10&curr=USD
+  checked: '2026-10-18'
+  confidence: high

@@ -67,11 +67,13 @@ const TRANSFERS_DATA = [
         "opLang": "en",
         "board": {
           "name": "Dak Lak bus company yard (route 12 terminus)",
-          "address": "38 Y On, Buon Ma Thuot",
+          "address": "Y On Street, Buon Ma Thuot (Dak Lak bus company yard)",
           "pickupHotel": false,
           "lat": 12.6651646,
           "lng": 108.0357835,
-          "lang": "en"
+          "lang": "en",
+          "nameVi": "Bãi xe buýt Đắk Lắk (bến cuối tuyến 12)",
+          "addressVi": "Đường Y Ơn, Buôn Ma Thuột, Đắk Lắk"
         },
         "alight": {
           "name": "Lak post office stop / Dak Lieng junction, Lien Son",
@@ -109,7 +111,137 @@ const TRANSFERS_DATA = [
           "https://www.laktentedcamp.com/how-to-travel-to-lak/",
           "https://www.travelfish.org/transport/vietnam/central_highlands/dak_lak/buon_ma_thuot/all"
         ],
-        "checked": "2026-10-07",
+        "checked": "2026-10-16",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "from": "buon-ma-thuot",
+    "to": "saigon",
+    "reverseOk": true,
+    "note": "An hour by air twice a day, or 8-9 hours on a sleeper bus down from the highlands.",
+    "noteHe": "שעה בטיסה פעמיים ביום, או 8-9 שעות באוטובוס שינה במורד הרמות.",
+    "options": [
+      {
+        "mode": "flight",
+        "operator": "Vietnam Airlines",
+        "opLang": "en",
+        "board": {
+          "name": "Buon Ma Thuot Airport (BMV)",
+          "address": "Nguyen Luong Bang, Buon Ma Thuot",
+          "pickupHotel": false,
+          "lat": 12.6668723,
+          "lng": 108.1199878,
+          "lang": "en",
+          "nameVi": "Cảng hàng không Buôn Ma Thuột",
+          "addressVi": "Đường Nguyễn Lương Bằng, Buôn Ma Thuột, Đắk Lắk"
+        },
+        "alight": {
+          "name": "Tan Son Nhat Airport, Terminal T3 (domestic)",
+          "address": "Tan Son Nhat, Ho Chi Minh City",
+          "pickupHotel": false,
+          "lat": null,
+          "lng": null,
+          "lang": "en"
+        },
+        "departures": "2 nonstop flights a day; on 10/11/2026: VN1411 07:35, VN1415 19:45",
+        "departuresHe": "2 טיסות ישירות ביום; ב-10/11/2026: VN1411 ב-07:35, VN1415 ב-19:45",
+        "durationMin": 60,
+        "durationMax": 60,
+        "priceLow": 41,
+        "priceHigh": 41,
+        "currency": "USD",
+        "priceUnit": "per_person",
+        "bookLinks": [
+          {
+            "name": "Vietnam Airlines",
+            "url": "https://www.vietnamairlines.com/"
+          }
+        ],
+        "pros": [
+          "One hour instead of a night on the road"
+        ],
+        "prosHe": [
+          "שעה במקום לילה בכביש"
+        ],
+        "cons": [
+          "Only two a day, morning and evening"
+        ],
+        "consHe": [
+          "רק שתיים ביום, בוקר וערב"
+        ],
+        "tips": "Fare as shown for 10/11/2026: $41 on both flights.",
+        "tipsHe": "המחיר כפי שהוצג ל-10/11/2026: $41 בשתי הטיסות.",
+        "sources": [
+          "https://www.google.com/travel/flights?q=Flights%20from%20BMV%20to%20SGN%20on%202026-11-10&curr=USD"
+        ],
+        "checked": "2026-10-18",
+        "confidence": "high"
+      },
+      {
+        "mode": "sleeper_bus",
+        "operator": "FUTA Bus Lines (Phuong Trang) and other sleeper operators",
+        "opLang": "en",
+        "board": {
+          "name": "Buon Ma Thuot Northern Bus Station",
+          "address": "Nguyen Chi Thanh, Tan An, Buon Ma Thuot",
+          "pickupHotel": false,
+          "lat": 12.7007807,
+          "lng": 108.074737,
+          "lang": "en",
+          "nameVi": "Bến xe phía Bắc Buôn Ma Thuột",
+          "addressVi": "Đường Nguyễn Chí Thanh, Tân An, Buôn Ma Thuột, Đắk Lắk"
+        },
+        "alight": {
+          "name": "Mien Dong Bus Station",
+          "address": "Ho Chi Minh City",
+          "pickupHotel": false,
+          "lat": null,
+          "lng": null,
+          "lang": "en"
+        },
+        "departures": "Many departures through the day and night; book a night bus to arrive in the morning",
+        "departuresHe": "יציאות רבות לאורך היום והלילה; להזמין אוטובוס לילה כדי להגיע בבוקר",
+        "durationMin": 480,
+        "durationMax": 540,
+        "priceLow": 11,
+        "priceHigh": 24,
+        "currency": "USD",
+        "priceUnit": "per_person",
+        "bookLinks": [
+          {
+            "name": "FUTA Bus Lines",
+            "url": "https://futabus.vn/"
+          },
+          {
+            "name": "12Go",
+            "url": "https://12go.asia/en/travel/ho-chi-minh/buon-ma-thuot"
+          }
+        ],
+        "pros": [
+          "A quarter of the flight price",
+          "Night bus saves a hotel night"
+        ],
+        "prosHe": [
+          "רבע ממחיר הטיסה",
+          "אוטובוס לילה חוסך לילה במלון"
+        ],
+        "cons": [
+          "8-9 hours",
+          "Mien Dong station is far from District 1"
+        ],
+        "consHe": [
+          "8-9 שעות",
+          "תחנת מיין דונג רחוקה ממחוז 1"
+        ],
+        "tips": "FUTA often runs free shuttles from its town offices to the station; ask when booking.",
+        "tipsHe": "ל-FUTA יש לרוב הסעה חינם מהמשרדים שלה בעיר לתחנה; לשאול בהזמנה.",
+        "sources": [
+          "https://www.redbus.vn/en/bus-tickets/routes/buon-ma-thuot-to-ho-chi-minh",
+          "https://north-vietnam.com/how-to-get-from-ho-chi-minh-city-to-buon-ma-thuot-dak-lak/"
+        ],
+        "checked": "2026-10-18",
         "confidence": "medium"
       }
     ]
@@ -118,8 +250,8 @@ const TRANSFERS_DATA = [
     "from": "da-lat",
     "to": "saigon",
     "reverseOk": true,
-    "note": "About 310 km down from the highlands. A 55-minute flight against 6-8 hours on the road. Only Vietnam Airlines flies the route nonstop, three times a day.",
-    "noteHe": "כ-310 ק\"מ במורד הרמות. טיסה של 55 דקות מול 6-8 שעות בכביש. רק Vietnam Airlines טסה בקו בלי עצירה, שלוש פעמים ביום.",
+    "note": "About 310 km down from the highlands. A 55-minute flight against 6-8 hours on the road. Vietnam Airlines is the only nonstop carrier here once Vietjet is left out (it flies the route too). Lien Khuong airport reopened on 19/08/2026 after runway works.",
+    "noteHe": "כ-310 ק\"מ במורד הרמות. טיסה של 55 דקות מול 6-8 שעות בכביש. אם משאירים בחוץ את Vietjet (שגם היא טסה בקו), Vietnam Airlines היא החברה היחידה עם טיסה ישירה. שדה התעופה ליין קואונג נפתח מחדש ב-19/08/2026 אחרי עבודות במסלול.",
     "options": [
       {
         "mode": "flight",
@@ -131,7 +263,9 @@ const TRANSFERS_DATA = [
           "pickupHotel": false,
           "lat": 11.7504279,
           "lng": 108.3611709,
-          "lang": "en"
+          "lang": "en",
+          "nameVi": "Sân bay quốc tế Liên Khương",
+          "addressVi": "Liên Khương, Lâm Đồng"
         },
         "alight": {
           "name": "Tan Son Nhat Airport, Terminal T3 (domestic)",
@@ -188,7 +322,9 @@ const TRANSFERS_DATA = [
           "pickupHotel": false,
           "lat": 11.9268818,
           "lng": 108.4455138,
-          "lang": "en"
+          "lang": "en",
+          "nameVi": "Bến xe liên tỉnh Đà Lạt",
+          "addressVi": "1 Tô Hiến Thành, Đà Lạt, Lâm Đồng"
         },
         "alight": {
           "name": "Mien Tay Bus Station (Saigon)",
@@ -300,7 +436,9 @@ const TRANSFERS_DATA = [
           "pickupHotel": false,
           "lat": 22.8297615,
           "lng": 104.9878831,
-          "lang": "en"
+          "lang": "en",
+          "nameVi": "Văn phòng nhà xe Bằng Phấn",
+          "addressVi": "100 Trần Phú, Hà Giang, Tuyên Quang"
         },
         "alight": {
           "name": "Sapa centre drop-off",
@@ -359,7 +497,9 @@ const TRANSFERS_DATA = [
           "pickupHotel": false,
           "lat": 22.8187313,
           "lng": 104.9853533,
-          "lang": "en"
+          "lang": "en",
+          "nameVi": "Nhà xe Quang Nghị",
+          "addressVi": "60 Minh Khai, Hà Giang, Tuyên Quang"
         },
         "alight": null,
         "departures": "Check with the operator; morning and evening services run",
@@ -421,11 +561,11 @@ const TRANSFERS_DATA = [
           "lang": "en"
         },
         "alight": null,
-        "departures": "Pickup 11:40-12:15, arrives Ninh Binh 16:00-16:30",
-        "departuresHe": "איסוף 11:40-12:15, הגעה לנין בין 16:00-16:30",
+        "departures": "Pickup about 11:30-12:00, departs 12:00, arrives Ninh Binh around 16:00",
+        "departuresHe": "איסוף בערך 11:30-12:00, יציאה ב-12:00, הגעה לנין בין בסביבות 16:00",
         "durationMin": 210,
         "durationMax": 270,
-        "priceLow": 15,
+        "priceLow": 18,
         "priceHigh": 20,
         "currency": "USD",
         "priceUnit": "per_person",
@@ -455,7 +595,7 @@ const TRANSFERS_DATA = [
           "https://a21tours.com/ticket/halong-to-ninh-binh-limousine-van",
           "https://www.viator.com/tours/Ha-Long-Bay/Shutte-Bus-from-Tuan-Chau-port-Halong-to-Tam-Coc-Ninh-Binh/d22692-102255P26"
         ],
-        "checked": "2026-10-07",
+        "checked": "2026-10-16",
         "confidence": "high"
       },
       {
@@ -476,7 +616,7 @@ const TRANSFERS_DATA = [
         "durationMin": 180,
         "durationMax": 210,
         "priceLow": 75,
-        "priceHigh": 85,
+        "priceHigh": 95,
         "currency": "USD",
         "priceUnit": "per_vehicle",
         "bookLinks": [
@@ -499,14 +639,152 @@ const TRANSFERS_DATA = [
         "consHe": [
           "יותר מההסעה למטייל יחיד"
         ],
-        "tips": "About $75 for a 4-seater and $85 for a 7-seater; a 9-seat limousine van is about $120.",
-        "tipsHe": "בערך $75 לרכב של 4 מקומות ו-$85 לרכב של 7; וואן לימוזינה של 9 מקומות בערך $120.",
+        "tips": "A21 lists $75 for a sedan, $95 for an SUV and $155 for a limousine van.",
+        "tipsHe": "ב-A21 המחיר $75 לסדאן, $95 לרכב שטח ו-$155 לוואן לימוזינה.",
         "sources": [
           "https://vivuhalong.com/en/transfer/halong-to-ninh-binh-private-car-transfer/",
           "https://a21tours.com/ticket/halong-ninh-binh-private-car"
         ],
-        "checked": "2026-10-07",
+        "checked": "2026-10-16",
         "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "from": "hanoi",
+    "to": "buon-ma-thuot",
+    "reverseOk": true,
+    "note": "Two nonstop flights a day into the coffee country of the central highlands.",
+    "noteHe": "שתי טיסות ישירות ביום לארץ הקפה של הרמות המרכזיות.",
+    "options": [
+      {
+        "mode": "flight",
+        "operator": "Vietnam Airlines, Vietravel Airlines",
+        "opLang": "en",
+        "board": {
+          "name": "Noi Bai Airport, Terminal T1 (domestic)",
+          "address": "Vo Nguyen Giap, Noi Bai, Hanoi",
+          "pickupHotel": false,
+          "lat": 21.2145692,
+          "lng": 105.8034987,
+          "lang": "en",
+          "nameVi": "Sân bay Nội Bài - Nhà ga T1 (quốc nội)",
+          "addressVi": "Đường Võ Nguyên Giáp, Nội Bài, Hà Nội"
+        },
+        "alight": {
+          "name": "Buon Ma Thuot Airport (BMV)",
+          "address": "Nguyen Luong Bang, Buon Ma Thuot",
+          "pickupHotel": false,
+          "lat": null,
+          "lng": null,
+          "lang": "en"
+        },
+        "departures": "2 nonstop flights a day; on 10/11/2026: VN1603 07:10, Vietravel 12:45",
+        "departuresHe": "2 טיסות ישירות ביום; ב-10/11/2026: VN1603 ב-07:10, Vietravel ב-12:45",
+        "durationMin": 110,
+        "durationMax": 110,
+        "priceLow": 48,
+        "priceHigh": 59,
+        "currency": "USD",
+        "priceUnit": "per_person",
+        "bookLinks": [
+          {
+            "name": "Vietnam Airlines",
+            "url": "https://www.vietnamairlines.com/"
+          },
+          {
+            "name": "Vietravel Airlines",
+            "url": "https://www.vietravelairlines.com/"
+          }
+        ],
+        "pros": [
+          "Under two hours from Hanoi"
+        ],
+        "prosHe": [
+          "פחות משעתיים מהאנוי"
+        ],
+        "cons": [
+          "Only two a day"
+        ],
+        "consHe": [
+          "רק שתיים ביום"
+        ],
+        "tips": "Fares as shown for 10/11/2026: Vietravel $48, Vietnam Airlines $59. The airport is 15 minutes from the city.",
+        "tipsHe": "המחירים כפי שהוצגו ל-10/11/2026: Vietravel $48, Vietnam Airlines $59. השדה נמצא 15 דקות מהעיר.",
+        "sources": [
+          "https://www.google.com/travel/flights?q=Flights%20from%20HAN%20to%20BMV%20on%202026-11-10&curr=USD"
+        ],
+        "checked": "2026-10-18",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "from": "hanoi",
+    "to": "da-lat",
+    "reverseOk": true,
+    "note": "Straight from the north to the highlands in two hours, three nonstop flights a day.",
+    "noteHe": "מהצפון ישר לרמות בשעתיים, שלוש טיסות ישירות ביום.",
+    "options": [
+      {
+        "mode": "flight",
+        "operator": "Vietnam Airlines, Vietravel Airlines",
+        "opLang": "en",
+        "board": {
+          "name": "Noi Bai Airport, Terminal T1 (domestic)",
+          "address": "Vo Nguyen Giap, Noi Bai, Hanoi",
+          "pickupHotel": false,
+          "lat": 21.2145692,
+          "lng": 105.8034987,
+          "lang": "en",
+          "nameVi": "Sân bay Nội Bài - Nhà ga T1 (quốc nội)",
+          "addressVi": "Đường Võ Nguyên Giáp, Nội Bài, Hà Nội"
+        },
+        "alight": {
+          "name": "Lien Khuong International Airport (DLI)",
+          "address": "Lien Khuong, Hiep Thanh, Lam Dong",
+          "pickupHotel": false,
+          "lat": null,
+          "lng": null,
+          "lang": "en"
+        },
+        "departures": "3 nonstop flights a day; on 10/11/2026: VN1573 06:55, VN1575 12:00, Vietravel 17:40",
+        "departuresHe": "3 טיסות ישירות ביום; ב-10/11/2026: VN1573 ב-06:55, VN1575 ב-12:00, Vietravel ב-17:40",
+        "durationMin": 115,
+        "durationMax": 115,
+        "priceLow": 48,
+        "priceHigh": 99,
+        "currency": "USD",
+        "priceUnit": "per_person",
+        "bookLinks": [
+          {
+            "name": "Vietnam Airlines",
+            "url": "https://www.vietnamairlines.com/"
+          },
+          {
+            "name": "Vietravel Airlines",
+            "url": "https://www.vietravelairlines.com/"
+          }
+        ],
+        "pros": [
+          "Skips the centre entirely, useful for route B"
+        ],
+        "prosHe": [
+          "מדלג על המרכז כולו, שימושי למסלול B"
+        ],
+        "cons": [
+          "Lien Khuong airport is 30-40 minutes from Da Lat"
+        ],
+        "consHe": [
+          "שדה התעופה ליין קואונג נמצא 30-40 דקות מדה לאט"
+        ],
+        "tips": "Fares as shown for 10/11/2026: Vietravel $48, Vietnam Airlines $73-99. Lien Khuong reopened on 19/08/2026 after runway works.",
+        "tipsHe": "המחירים כפי שהוצגו ל-10/11/2026: Vietravel $48, Vietnam Airlines $73-99. ליין קואונג נפתח מחדש ב-19/08/2026 אחרי עבודות במסלול.",
+        "sources": [
+          "https://www.google.com/travel/flights?q=Flights%20from%20HAN%20to%20DLI%20on%202026-11-10&curr=USD"
+        ],
+        "checked": "2026-10-18",
+        "confidence": "high"
       }
     ]
   },
@@ -527,7 +805,9 @@ const TRANSFERS_DATA = [
           "pickupHotel": false,
           "lat": 21.0280235,
           "lng": 105.7784787,
-          "lang": "en"
+          "lang": "en",
+          "nameVi": "Bến xe Mỹ Đình",
+          "addressVi": "20 Phạm Hùng, Nam Từ Liêm, Hà Nội"
         },
         "alight": null,
         "departures": "Night buses 20:00-23:00; a few day departures from 07:00",
@@ -781,7 +1061,9 @@ const TRANSFERS_DATA = [
           "pickupHotel": false,
           "lat": 21.0485414,
           "lng": 105.8789776,
-          "lang": "en"
+          "lang": "en",
+          "nameVi": "Bến xe Gia Lâm",
+          "addressVi": "9 Ngô Gia Khảm, Long Biên, Hà Nội"
         },
         "alight": {
           "name": "Bai Chay Bus Station",
@@ -866,6 +1148,65 @@ const TRANSFERS_DATA = [
         ],
         "checked": "2026-10-07",
         "confidence": "medium"
+      },
+      {
+        "mode": "combo",
+        "operator": "Good Morning Cat Ba (bus to Got Pier + boat)",
+        "opLang": "en",
+        "board": {
+          "name": "Pickup at your Old Quarter hotel",
+          "address": "Hanoi Old Quarter hotels",
+          "pickupHotel": true,
+          "lat": null,
+          "lng": null,
+          "lang": "en"
+        },
+        "alight": {
+          "name": "Cat Ba town",
+          "address": "Cat Ba, Hai Phong",
+          "pickupHotel": false,
+          "lat": null,
+          "lng": null,
+          "lang": "en"
+        },
+        "departures": "Several departures a day from about 07:00 (e.g. 07:30, arriving about 11:30)",
+        "departuresHe": "כמה יציאות ביום מבערך 07:00 (למשל 07:30, הגעה בערך 11:30)",
+        "durationMin": 210,
+        "durationMax": 270,
+        "priceLow": 11,
+        "priceHigh": 17,
+        "currency": "USD",
+        "priceUnit": "per_person",
+        "bookLinks": [
+          {
+            "name": "12Go",
+            "url": "https://12go.asia/en/travel/hanoi/cat-ba"
+          }
+        ],
+        "pros": [
+          "One ticket, bus and boat together",
+          "Cat Ba is the quieter side of the bay, Lan Ha"
+        ],
+        "prosHe": [
+          "כרטיס אחד, אוטובוס וסירה יחד",
+          "קאט בא היא הצד השקט של המפרץ, לאן הא"
+        ],
+        "cons": [
+          "Departure times can move by an hour",
+          "The boat leg is cancelled in storms"
+        ],
+        "consHe": [
+          "שעות היציאה יכולות לזוז בשעה",
+          "קטע הסירה מתבטל בסערה"
+        ],
+        "tips": "Check whether hotel pickup is included in the ticket you buy. Reconfirm the time the evening before.",
+        "tipsHe": "לבדוק אם האיסוף מהמלון כלול בכרטיס שקונים. לאשר שוב את השעה בערב שלפני.",
+        "sources": [
+          "https://north-vietnam.com/how-to-get-from-hanoi-to-cat-ba-island",
+          "https://vietnamdiscovery.com/cat-ba/how-to-get-to-cat-ba-island-from-hanoi/"
+        ],
+        "checked": "2026-10-18",
+        "confidence": "medium"
       }
     ]
   },
@@ -886,7 +1227,9 @@ const TRANSFERS_DATA = [
           "pickupHotel": false,
           "lat": 21.0242336,
           "lng": 105.8410067,
-          "lang": "en"
+          "lang": "en",
+          "nameVi": "Ga Hà Nội",
+          "addressVi": "120 Lê Duẩn, Hà Nội"
         },
         "alight": {
           "name": "Ninh Binh Railway Station",
@@ -896,8 +1239,8 @@ const TRANSFERS_DATA = [
           "lng": 105.9745791,
           "lang": "en"
         },
-        "departures": "About 6 a day, e.g. SE7 06:00, SE9 13:00, SE3 19:20, SE11 21:25, SE1 21:45",
-        "departuresHe": "כ-6 ביום, למשל SE7 06:00, SE9 13:00, SE3 19:20, SE11 21:25, SE1 21:45",
+        "departures": "About 6 a day, e.g. SE7 06:00, SE5 08:00, SE9 13:00, SE3 19:20, SE19 19:45, SE1 21:45",
+        "departuresHe": "כ-6 ביום, למשל SE7 06:00, SE5 08:00, SE9 13:00, SE3 19:20, SE19 19:45, SE1 21:45",
         "durationMin": 130,
         "durationMax": 150,
         "priceLow": 93000,
@@ -930,7 +1273,7 @@ const TRANSFERS_DATA = [
           "https://vexere.com/vn/trains/from-hanoi-to-ninh-binh-ninh-binh.24.534.en",
           "https://north-vietnam.com/how-to-get-from-hanoi-to-ninh-binh/"
         ],
-        "checked": "2026-10-07",
+        "checked": "2026-10-16",
         "confidence": "high"
       },
       {
@@ -1031,6 +1374,81 @@ const TRANSFERS_DATA = [
   },
   {
     "from": "hanoi",
+    "to": "saigon",
+    "reverseOk": true,
+    "note": "The trunk route: over 40 nonstop flights a day, all day and into the night.",
+    "noteHe": "הקו הראשי: יותר מ-40 טיסות ישירות ביום, כל היום ועד הלילה.",
+    "options": [
+      {
+        "mode": "flight",
+        "operator": "Vietnam Airlines, Sun PhuQuoc Airways, Vietravel Airlines",
+        "opLang": "en",
+        "board": {
+          "name": "Noi Bai Airport, Terminal T1 (domestic)",
+          "address": "Vo Nguyen Giap, Noi Bai, Hanoi",
+          "pickupHotel": false,
+          "lat": 21.2145692,
+          "lng": 105.8034987,
+          "lang": "en",
+          "nameVi": "Sân bay Nội Bài - Nhà ga T1 (quốc nội)",
+          "addressVi": "Đường Võ Nguyên Giáp, Nội Bài, Hà Nội"
+        },
+        "alight": {
+          "name": "Tan Son Nhat Airport, Terminal T3 (domestic)",
+          "address": "Tan Son Nhat, Ho Chi Minh City",
+          "pickupHotel": false,
+          "lat": null,
+          "lng": null,
+          "lang": "en"
+        },
+        "departures": "Over 40 nonstop flights a day each way, from 05:00 to about 23:40",
+        "departuresHe": "יותר מ-40 טיסות ישירות ביום בכל כיוון, מ-05:00 עד בערך 23:40",
+        "durationMin": 130,
+        "durationMax": 135,
+        "priceLow": 42,
+        "priceHigh": 85,
+        "currency": "USD",
+        "priceUnit": "per_person",
+        "bookLinks": [
+          {
+            "name": "Vietnam Airlines",
+            "url": "https://www.vietnamairlines.com/"
+          },
+          {
+            "name": "Sun PhuQuoc Airways",
+            "url": "https://www.sunphuquocairways.com/vn/en"
+          },
+          {
+            "name": "Vietravel Airlines",
+            "url": "https://www.vietravelairlines.com/"
+          }
+        ],
+        "pros": [
+          "A flight at any hour",
+          "Late-evening fares are the cheapest"
+        ],
+        "prosHe": [
+          "טיסה בכל שעה",
+          "המחירים בערב המאוחר הם הזולים"
+        ],
+        "cons": [
+          "Tan Son Nhat traffic: allow an hour into District 1 at rush hour"
+        ],
+        "consHe": [
+          "פקקים בטאן סון נהאט: לתכנן שעה עד מחוז 1 בשעות העומס"
+        ],
+        "tips": "Fares as shown for 10/11/2026: from $42 (Vietravel 20:15), most $54-85. Domestic flights use terminal T3 in Saigon.",
+        "tipsHe": "המחירים כפי שהוצגו ל-10/11/2026: מ-$42 (Vietravel ב-20:15), רובם $54-85. הטיסות הפנימיות בסייגון בטרמינל T3.",
+        "sources": [
+          "https://www.google.com/travel/flights?q=Flights%20from%20HAN%20to%20SGN%20on%202026-11-10&curr=USD"
+        ],
+        "checked": "2026-10-18",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "from": "hanoi",
     "to": "sapa",
     "reverseOk": true,
     "note": "About 320 km. Every option reaches Sapa town except the train, which stops at Lao Cai, 38 km below, and needs a bus or car for the last hour. There is no flight - Sapa has no airport (a 2022 groundbreaking, still no investor in 2026).",
@@ -1038,7 +1456,7 @@ const TRANSFERS_DATA = [
     "options": [
       {
         "mode": "combo",
-        "operator": "Vietnam Railways (SP1) + Lao Cai bus 01",
+        "operator": "Vietnam Railways (SP15 / SP3 / SP7) + Lao Cai bus 01",
         "opLang": "en",
         "board": {
           "name": "Hanoi Railway Station (Ga Ha Noi)",
@@ -1046,7 +1464,9 @@ const TRANSFERS_DATA = [
           "pickupHotel": false,
           "lat": 21.0242336,
           "lng": 105.8410067,
-          "lang": "en"
+          "lang": "en",
+          "nameVi": "Ga Hà Nội",
+          "addressVi": "120 Lê Duẩn, Hà Nội"
         },
         "alight": {
           "name": "Lao Cai Railway Station",
@@ -1056,8 +1476,8 @@ const TRANSFERS_DATA = [
           "lng": 103.9783871,
           "lang": "en"
         },
-        "departures": "SP1 21:35, arrives Lao Cai 05:15; bus 01 to Sapa every 20-30 min from about 05:20",
-        "departuresHe": "SP1 21:35, הגעה ללאו קאי 05:15; אוטובוס 01 לסאפה כל 20-30 דקות מבערך 05:20",
+        "departures": "SP15 21:45 (arr. Lao Cai 05:20), SP3 22:00 (05:50), SP7 22:40 (06:27); back SP16 21:25, SP4 21:50. Bus 01 to Sapa every 20-30 min from about 05:20",
+        "departuresHe": "SP15 21:45 (הגעה ללאו קאי 05:20), SP3 22:00 (05:50), SP7 22:40 (06:27); בחזור SP16 21:25, SP4 21:50. אוטובוס 01 לסאפה כל 20-30 דקות מבערך 05:20",
         "durationMin": 520,
         "durationMax": 570,
         "priceLow": 490000,
@@ -1089,15 +1509,16 @@ const TRANSFERS_DATA = [
         "tips": "The fare is a lower soft-sleeper berth. Bus 01 waits outside Lao Cai station; a shared minivan costs 40,000-100,000 VND instead.",
         "tipsHe": "המחיר הוא למיטה תחתונה בתא רך. אוטובוס 01 עומד מחוץ לתחנת לאו קאי; מיניוואן משותף עולה במקומו 40,000-100,000 דונג.",
         "sources": [
+          "https://baolaocai.vn/tuyen-duong-sat-ha-noi-lao-cai-tang-len-3-doi-tau-khach-moi-ngay-them-lua-chon-cho-du-khach-post911633.html",
           "https://www.seat61.com/Vietnam.htm",
           "https://north-vietnam.com/lao-cai-to-sapa-local-bus-taxi/"
         ],
-        "checked": "2026-10-06",
+        "checked": "2026-10-16",
         "confidence": "medium"
       },
       {
         "mode": "sleeper_train",
-        "operator": "Fanxipan Express (private carriage on SP1)",
+        "operator": "Fanxipan Express (private carriage on the night train)",
         "opLang": "en",
         "board": {
           "name": "Hanoi Railway Station, A side (Ga Ha Noi)",
@@ -1105,7 +1526,9 @@ const TRANSFERS_DATA = [
           "pickupHotel": false,
           "lat": 21.0242336,
           "lng": 105.8410067,
-          "lang": "en"
+          "lang": "en",
+          "nameVi": "Ga Hà Nội (ga A)",
+          "addressVi": "120 Lê Duẩn, Hà Nội"
         },
         "alight": {
           "name": "Lao Cai Railway Station",
@@ -1115,8 +1538,8 @@ const TRANSFERS_DATA = [
           "lng": 103.9783871,
           "lang": "en"
         },
-        "departures": "21:35 (on SP1), arrives Lao Cai 05:15",
-        "departuresHe": "21:35 (על SP1), הגעה ללאו קאי 05:15",
+        "departures": "Night trains from 21:45 (SP15, SP3 or SP7 since 10/10/2026); confirm which train carries the carriage when booking",
+        "departuresHe": "רכבות לילה מ-21:45 (SP15, SP3 או SP7 מאז 10/10/2026); לברר בהזמנה לאיזו רכבת מחובר הקרון",
         "durationMin": 460,
         "durationMax": 520,
         "priceLow": 35,
@@ -1143,11 +1566,12 @@ const TRANSFERS_DATA = [
         "tips": "$35-40 is a berth in a shared 4-berth cabin, $65-80 a berth in a 2-berth cabin. Some private carriages (Sapaly, Orient Express) board from the B side on Tran Quy Cap street instead, behind the station; check the ticket.",
         "tipsHe": "$35-40 זה מיטה בתא משותף של ארבע, $65-80 מיטה בתא של שתיים. חלק מהקרונות הפרטיים (Sapaly, Orient Express) עולים דווקא מצד B, ברחוב Tran Quy Cap שמאחורי התחנה; לבדוק בכרטיס.",
         "sources": [
+          "https://baolaocai.vn/tuyen-duong-sat-ha-noi-lao-cai-tang-len-3-doi-tau-khach-moi-ngay-them-lua-chon-cho-du-khach-post911633.html",
           "https://www.seat61.com/Vietnam.htm",
           "https://blog.vexere.com/en/best-sleeper-train-from-hanoi-to-sapa/"
         ],
-        "checked": "2026-10-06",
-        "confidence": "high"
+        "checked": "2026-10-16",
+        "confidence": "medium"
       },
       {
         "mode": "limousine_van",
@@ -1159,7 +1583,9 @@ const TRANSFERS_DATA = [
           "pickupHotel": false,
           "lat": 21.0275697,
           "lng": 105.8581148,
-          "lang": "en"
+          "lang": "en",
+          "nameVi": "Văn phòng Sapa Express",
+          "addressVi": "204 Trần Quang Khải, Hoàn Kiếm, Hà Nội"
         },
         "alight": null,
         "departures": "07:00 (28-seat limousine), 15:00 (15-seat limousine)",
@@ -1211,7 +1637,9 @@ const TRANSFERS_DATA = [
           "pickupHotel": false,
           "lat": 21.0275697,
           "lng": 105.8581148,
-          "lang": "en"
+          "lang": "en",
+          "nameVi": "Văn phòng Sapa Express",
+          "addressVi": "204 Trần Quang Khải, Hoàn Kiếm, Hà Nội"
         },
         "alight": null,
         "departures": "22:00",
@@ -1244,14 +1672,13 @@ const TRANSFERS_DATA = [
           "מגיע בסביבות ארבע לפני הבוקר, לפני הצ'ק-אין",
           "אוטובוס על כביש הררי; מי שישן קל ירגיש את זה"
         ],
-        "tips": "Standard open-bunk sleeper buses on the same road cost 270,000-370,000 VND. Ask the hotel in Sapa about an early check-in or a place to wait.",
-        "tipsHe": "אוטובוסי שינה רגילים, עם דרגשים פתוחים, עולים באותו כביש 270,000-370,000 דונג. כדאי לשאול את המלון בסאפה על צ'ק-אין מוקדם או על מקום לחכות בו.",
+        "tips": "Standard open-bunk sleeper buses on the same road cost 270,000-370,000 VND. There is no hotel pickup on Friday-Sunday nights. Ask the hotel in Sapa about an early check-in or a place to wait.",
+        "tipsHe": "אוטובוסי שינה רגילים, עם דרגשים פתוחים, עולים באותו כביש 270,000-370,000 דונג. בלילות שישי עד ראשון אין איסוף מהמלון. כדאי לשאול את המלון בסאפה על צ'ק-אין מוקדם או על מקום לחכות בו.",
         "sources": [
           "https://a21tours.com/ticket/sapa-express-bus",
-          "https://www.vietnamtourism.com/en/hanoi-to-sapa-in-2026-trains-buses-costs-compared",
-          "https://visit-sapa.com/en/blog/hanoi-sapa-bus-limousine"
+          "https://www.vietnamtourism.com/en/hanoi-to-sapa-in-2026-trains-buses-costs-compared"
         ],
-        "checked": "2026-10-06",
+        "checked": "2026-10-16",
         "confidence": "medium"
       },
       {
@@ -1323,7 +1750,9 @@ const TRANSFERS_DATA = [
           "pickupHotel": false,
           "lat": 16.0425792,
           "lng": 108.1971613,
-          "lang": "en"
+          "lang": "en",
+          "nameVi": "Sân bay quốc tế Đà Nẵng",
+          "addressVi": "Sân bay quốc tế Đà Nẵng, Đà Nẵng"
         },
         "alight": {
           "name": "Buon Ma Thuot Airport (BMV)",
@@ -1333,8 +1762,8 @@ const TRANSFERS_DATA = [
           "lng": 108.1199878,
           "lang": "en"
         },
-        "departures": "VN1911 13:20, arrives 14:25 - Tuesday, Thursday and Saturday",
-        "departuresHe": "VN1911 13:20, נחיתה 14:25 - בימי ג', ה' ו-ש'",
+        "departures": "VN1911 on Tuesday, Thursday and Saturday, around midday (13:20 in the schedule; 13:45-14:50 in October 2026) - confirm the time when booking",
+        "departuresHe": "VN1911 בימי ג', ה' ו-ש', בסביבות הצהריים (13:20 בלוח; 13:45-14:50 באוקטובר 2026) - לאשר את השעה בהזמנה",
         "durationMin": 65,
         "durationMax": 65,
         "priceLow": 48,
@@ -1370,7 +1799,7 @@ const TRANSFERS_DATA = [
           "https://www.vietnamairlines.com/en-vn/flights-from-da-nang-to-buon-ma-thuot",
           "https://www.flightaware.com/live/flight/HVN1911"
         ],
-        "checked": "2026-10-07",
+        "checked": "2026-10-16",
         "confidence": "high"
       },
       {
@@ -1383,7 +1812,9 @@ const TRANSFERS_DATA = [
           "pickupHotel": false,
           "lat": 16.05501,
           "lng": 108.1733575,
-          "lang": "en"
+          "lang": "en",
+          "nameVi": "Bến xe Trung tâm Đà Nẵng",
+          "addressVi": "Bến xe Trung tâm Đà Nẵng, Đà Nẵng"
         },
         "alight": null,
         "departures": "Many buses from about 11:30 to 23:10",
@@ -1426,6 +1857,351 @@ const TRANSFERS_DATA = [
     ]
   },
   {
+    "from": "hoi-an",
+    "to": "da-lat",
+    "reverseOk": true,
+    "note": "One morning flight a day from Da Nang. By road it is 12-14 hours, which is why route B and C plans fly.",
+    "noteHe": "טיסת בוקר אחת ביום מדה נאנג. בכביש זה 12-14 שעות, ולכן מסלולים B ו-C טסים.",
+    "options": [
+      {
+        "mode": "flight",
+        "operator": "Vietnam Airlines",
+        "opLang": "en",
+        "board": {
+          "name": "Da Nang International Airport (DAD)",
+          "address": "Phan Thanh, Thanh Khe, Da Nang",
+          "pickupHotel": false,
+          "lat": 16.0425792,
+          "lng": 108.1971613,
+          "lang": "en",
+          "nameVi": "Sân bay quốc tế Đà Nẵng",
+          "addressVi": "Sân bay quốc tế Đà Nẵng, Đà Nẵng"
+        },
+        "alight": {
+          "name": "Lien Khuong International Airport (DLI)",
+          "address": "Lien Khuong, Hiep Thanh, Lam Dong",
+          "pickupHotel": false,
+          "lat": null,
+          "lng": null,
+          "lang": "en"
+        },
+        "departures": "1 nonstop flight a day: VN1955 06:00, arrives 07:10",
+        "departuresHe": "טיסה ישירה אחת ביום: VN1955 ב-06:00, נוחתת ב-07:10",
+        "durationMin": 70,
+        "durationMax": 70,
+        "priceLow": 56,
+        "priceHigh": 56,
+        "currency": "USD",
+        "priceUnit": "per_person",
+        "bookLinks": [
+          {
+            "name": "Vietnam Airlines",
+            "url": "https://www.vietnamairlines.com/"
+          }
+        ],
+        "pros": [
+          "Saves a full day on the road"
+        ],
+        "prosHe": [
+          "חוסך יום שלם בכביש"
+        ],
+        "cons": [
+          "06:00 departure means leaving Hoi An at about 04:30",
+          "No second flight if it is missed"
+        ],
+        "consHe": [
+          "יציאה ב-06:00 פירושה לצאת מהוי אן בערך ב-04:30",
+          "אין טיסה שנייה אם מפספסים"
+        ],
+        "tips": "Fare as shown for 10/11/2026: $56. The alternative is a connection through Saigon (Da Nang to Saigon, then Saigon to Da Lat).",
+        "tipsHe": "המחיר כפי שהוצג ל-10/11/2026: $56. החלופה היא חיבור דרך סייגון (דה נאנג–סייגון ואז סייגון–דה לאט).",
+        "sources": [
+          "https://www.google.com/travel/flights?q=Flights%20from%20DAD%20to%20DLI%20on%202026-11-10&curr=USD"
+        ],
+        "checked": "2026-10-18",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "from": "hoi-an",
+    "to": "hanoi",
+    "reverseOk": true,
+    "note": "Da Nang to Hanoi is one of the busiest routes in the country: about 20 nonstop flights a day. Hoi An is 40-50 minutes from Da Nang airport.",
+    "noteHe": "דה נאנג–האנוי הוא אחד הקווים העמוסים בארץ: כ-20 טיסות ישירות ביום. הוי אן נמצאת 40-50 דקות משדה התעופה של דה נאנג.",
+    "options": [
+      {
+        "mode": "flight",
+        "operator": "Vietnam Airlines, Sun PhuQuoc Airways, Vietravel Airlines",
+        "opLang": "en",
+        "board": {
+          "name": "Da Nang International Airport (DAD)",
+          "address": "Phan Thanh, Thanh Khe, Da Nang",
+          "pickupHotel": false,
+          "lat": 16.0425792,
+          "lng": 108.1971613,
+          "lang": "en",
+          "nameVi": "Sân bay quốc tế Đà Nẵng",
+          "addressVi": "Sân bay quốc tế Đà Nẵng, Đà Nẵng"
+        },
+        "alight": {
+          "name": "Noi Bai International Airport (HAN)",
+          "address": "Soc Son, Hanoi",
+          "pickupHotel": false,
+          "lat": null,
+          "lng": null,
+          "lang": "en"
+        },
+        "departures": "About 20 nonstop flights a day each way, from about 05:45 to 22:00",
+        "departuresHe": "כ-20 טיסות ישירות ביום בכל כיוון, מבערך 05:45 עד 22:00",
+        "durationMin": 80,
+        "durationMax": 85,
+        "priceLow": 30,
+        "priceHigh": 150,
+        "currency": "USD",
+        "priceUnit": "per_person",
+        "bookLinks": [
+          {
+            "name": "Vietnam Airlines",
+            "url": "https://www.vietnamairlines.com/"
+          },
+          {
+            "name": "Sun PhuQuoc Airways",
+            "url": "https://www.sunphuquocairways.com/vn/en"
+          },
+          {
+            "name": "Vietravel Airlines",
+            "url": "https://www.vietravelairlines.com/"
+          }
+        ],
+        "pros": [
+          "A flight almost every hour",
+          "Cheapest fares from about $30"
+        ],
+        "prosHe": [
+          "טיסה כמעט כל שעה",
+          "המחיר הזול מבערך $30"
+        ],
+        "cons": [
+          "Add 40-50 minutes from Hoi An to the airport"
+        ],
+        "consHe": [
+          "להוסיף 40-50 דקות מהוי אן לשדה"
+        ],
+        "tips": "Fares as shown for 10/11/2026 (Hanoi to Da Nang): Vietravel $30-38, Sun PhuQuoc $40-55, Vietnam Airlines $47-151.",
+        "tipsHe": "המחירים כפי שהוצגו ל-10/11/2026 (האנוי–דה נאנג): Vietravel $30-38, Sun PhuQuoc $40-55, Vietnam Airlines $47-151.",
+        "sources": [
+          "https://www.google.com/travel/flights?q=Flights%20from%20HAN%20to%20DAD%20on%202026-11-10&curr=USD"
+        ],
+        "checked": "2026-10-18",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "from": "hoi-an",
+    "to": "saigon",
+    "reverseOk": true,
+    "note": "About 90 minutes by air with over 20 nonstop flights a day. The train takes 17 hours and more.",
+    "noteHe": "כ-90 דקות בטיסה עם יותר מ-20 טיסות ישירות ביום. הרכבת לוקחת 17 שעות ויותר.",
+    "options": [
+      {
+        "mode": "flight",
+        "operator": "Vietnam Airlines, Sun PhuQuoc Airways, Vietravel Airlines",
+        "opLang": "en",
+        "board": {
+          "name": "Da Nang International Airport (DAD)",
+          "address": "Phan Thanh, Thanh Khe, Da Nang",
+          "pickupHotel": false,
+          "lat": 16.0425792,
+          "lng": 108.1971613,
+          "lang": "en",
+          "nameVi": "Sân bay quốc tế Đà Nẵng",
+          "addressVi": "Sân bay quốc tế Đà Nẵng, Đà Nẵng"
+        },
+        "alight": {
+          "name": "Tan Son Nhat Airport, Terminal T3 (domestic)",
+          "address": "Tan Son Nhat, Ho Chi Minh City",
+          "pickupHotel": false,
+          "lat": null,
+          "lng": null,
+          "lang": "en"
+        },
+        "departures": "Over 20 nonstop flights a day each way, from 06:00 to about 22:45",
+        "departuresHe": "יותר מ-20 טיסות ישירות ביום בכל כיוון, מ-06:00 עד בערך 22:45",
+        "durationMin": 90,
+        "durationMax": 95,
+        "priceLow": 35,
+        "priceHigh": 105,
+        "currency": "USD",
+        "priceUnit": "per_person",
+        "bookLinks": [
+          {
+            "name": "Vietnam Airlines",
+            "url": "https://www.vietnamairlines.com/"
+          },
+          {
+            "name": "Sun PhuQuoc Airways",
+            "url": "https://www.sunphuquocairways.com/vn/en"
+          },
+          {
+            "name": "Vietravel Airlines",
+            "url": "https://www.vietravelairlines.com/"
+          }
+        ],
+        "pros": [
+          "Frequent and cheap"
+        ],
+        "prosHe": [
+          "תדיר וזול"
+        ],
+        "cons": [
+          "Add 40-50 minutes from Hoi An to the airport"
+        ],
+        "consHe": [
+          "להוסיף 40-50 דקות מהוי אן לשדה"
+        ],
+        "tips": "Fares as shown for 10/11/2026: Sun PhuQuoc from $35, Vietravel $46-56, Vietnam Airlines $44-105.",
+        "tipsHe": "המחירים כפי שהוצגו ל-10/11/2026: Sun PhuQuoc מ-$35, Vietravel $46-56, Vietnam Airlines $44-105.",
+        "sources": [
+          "https://www.google.com/travel/flights?q=Flights%20from%20DAD%20to%20SGN%20on%202026-11-10&curr=USD"
+        ],
+        "checked": "2026-10-18",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "from": "hue",
+    "to": "hanoi",
+    "reverseOk": true,
+    "note": "About 80 minutes by air with three flights a day, or 13-15 hours on an overnight train.",
+    "noteHe": "כ-80 דקות בטיסה עם שלוש טיסות ביום, או 13-15 שעות ברכבת לילה.",
+    "options": [
+      {
+        "mode": "flight",
+        "operator": "Vietnam Airlines",
+        "opLang": "en",
+        "board": {
+          "name": "Phu Bai International Airport (HUI)",
+          "address": "Le Trong Tan, Phu Bai, Hue",
+          "pickupHotel": false,
+          "lat": 16.399655,
+          "lng": 107.7054596,
+          "lang": "en",
+          "nameVi": "Sân bay quốc tế Phú Bài",
+          "addressVi": "Đường Lê Trọng Tấn, Phú Bài, Huế"
+        },
+        "alight": {
+          "name": "Noi Bai International Airport (HAN)",
+          "address": "Soc Son, Hanoi",
+          "pickupHotel": false,
+          "lat": null,
+          "lng": null,
+          "lang": "en"
+        },
+        "departures": "3 nonstop flights a day each way; Hanoi to Hue on 10/11/2026: 05:55, 16:30, 20:00",
+        "departuresHe": "3 טיסות ישירות ביום בכל כיוון; מהאנוי להואה ב-10/11/2026: 05:55, 16:30, 20:00",
+        "durationMin": 80,
+        "durationMax": 80,
+        "priceLow": 54,
+        "priceHigh": 97,
+        "currency": "USD",
+        "priceUnit": "per_person",
+        "bookLinks": [
+          {
+            "name": "Vietnam Airlines",
+            "url": "https://www.vietnamairlines.com/"
+          }
+        ],
+        "pros": [
+          "Short flight, airport 25 minutes from the city"
+        ],
+        "prosHe": [
+          "טיסה קצרה, השדה 25 דקות מהעיר"
+        ],
+        "cons": [
+          "Only Vietnam Airlines flies it nonstop"
+        ],
+        "consHe": [
+          "רק Vietnam Airlines טסה בקו ישיר"
+        ],
+        "tips": "Fares as shown for 10/11/2026: $54-97. If Hue has no seat, Da Nang (1.5-2 hours by road) has about 20 flights a day to Hanoi.",
+        "tipsHe": "המחירים כפי שהוצגו ל-10/11/2026: $54-97. אם אין מקום מהואה, מדה נאנג (1.5-2 שעות בכביש) יש כ-20 טיסות ביום להאנוי.",
+        "sources": [
+          "https://www.google.com/travel/flights?q=Flights%20from%20HAN%20to%20HUI%20on%202026-11-10&curr=USD"
+        ],
+        "checked": "2026-10-18",
+        "confidence": "high"
+      },
+      {
+        "mode": "sleeper_train",
+        "operator": "Vietnam Railways (SE4 / SE2 / SE20)",
+        "opLang": "en",
+        "board": {
+          "name": "Hue Railway Station",
+          "address": "2 Bui Thi Xuan, Hue",
+          "pickupHotel": false,
+          "lat": 16.4564476,
+          "lng": 107.5780522,
+          "lang": "en",
+          "nameVi": "Ga Huế",
+          "addressVi": "2 Bùi Thị Xuân, Huế"
+        },
+        "alight": {
+          "name": "Hanoi Railway Station",
+          "address": "120 Le Duan, Hanoi",
+          "pickupHotel": false,
+          "lat": null,
+          "lng": null,
+          "lang": "en"
+        },
+        "departures": "SE4 about 15:10 (arr. about 04:40), SE2 about 16:08 (arr. about 05:45), SE20 about 20:38 (arr. about 11:10); confirm on dsvn.vn",
+        "departuresHe": "SE4 בסביבות 15:10 (הגעה בערך 04:40), SE2 בסביבות 16:08 (הגעה בערך 05:45), SE20 בסביבות 20:38 (הגעה בערך 11:10); לאשר ב-dsvn.vn",
+        "durationMin": 810,
+        "durationMax": 900,
+        "priceLow": 20,
+        "priceHigh": 60,
+        "currency": "USD",
+        "priceUnit": "per_person",
+        "bookLinks": [
+          {
+            "name": "Vietnam Railways",
+            "url": "https://dsvn.vn/"
+          },
+          {
+            "name": "Baolau",
+            "url": "https://www.baolau.com/en/s/Hue/Hanoi/"
+          }
+        ],
+        "pros": [
+          "SE20 leaves late and arrives mid-morning, a full night's sleep",
+          "Station is in the city"
+        ],
+        "prosHe": [
+          "SE20 יוצאת מאוחר ומגיעה באמצע הבוקר, לילה שלם של שינה",
+          "התחנה בתוך העיר"
+        ],
+        "cons": [
+          "13-15 hours",
+          "SE4 arrives before 05:00"
+        ],
+        "consHe": [
+          "13-15 שעות",
+          "SE4 מגיעה לפני 05:00"
+        ],
+        "tips": "In flood season the line through Quang Tri can close for a day or two; check before leaving.",
+        "tipsHe": "בעונת השיטפונות הקו דרך קוואנג טרי יכול להיסגר ליום-יומיים; לבדוק לפני היציאה.",
+        "sources": [
+          "https://www.baolau.com/en/s/Hue/Hanoi/",
+          "https://north-vietnam.com/?p=43595"
+        ],
+        "checked": "2026-10-18",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "from": "hue",
     "to": "hoi-an",
     "reverseOk": true,
@@ -1442,7 +2218,9 @@ const TRANSFERS_DATA = [
           "pickupHotel": false,
           "lat": 16.4659406,
           "lng": 107.5946252,
-          "lang": "en"
+          "lang": "en",
+          "nameVi": "Điểm hẹn A21",
+          "addressVi": "35 Bến Nghé, Huế"
         },
         "alight": null,
         "departures": "07:00, 10:00, 12:00, 14:00, 16:00, 18:00",
@@ -1492,7 +2270,9 @@ const TRANSFERS_DATA = [
           "pickupHotel": false,
           "lat": 16.4564476,
           "lng": 107.5780522,
-          "lang": "en"
+          "lang": "en",
+          "nameVi": "Ga Huế",
+          "addressVi": "2 Bùi Thị Xuân, Huế"
         },
         "alight": {
           "name": "Da Nang Railway Station",
@@ -1555,8 +2335,8 @@ const TRANSFERS_DATA = [
         "departuresHe": "מתי שרוצים; חצי יום עם עצירות",
         "durationMin": 180,
         "durationMax": 300,
-        "priceLow": 55,
-        "priceHigh": 80,
+        "priceLow": 65,
+        "priceHigh": 85,
         "currency": "USD",
         "priceUnit": "per_vehicle",
         "bookLinks": [
@@ -1577,14 +2357,14 @@ const TRANSFERS_DATA = [
         "consHe": [
           "יותר מהוואן לאחד או שניים"
         ],
-        "tips": "About $55-65 for a 4-seat sedan and $65-80 for a 7-seat SUV.",
-        "tipsHe": "בערך $55-65 לסדאן של 4 מקומות ו-$65-80 לרכב שטח של 7.",
+        "tips": "A21 lists $75 for a sedan and $85 for an SUV. In November the pass can be closed or dangerous in fog, heavy rain and landslides; check the day before.",
+        "tipsHe": "ב-A21 המחיר $75 לסדאן ו-$85 לרכב שטח. בנובמבר המעבר יכול להיות סגור או מסוכן בערפל, בגשם כבד ובמפולות; לבדוק יום לפני.",
         "sources": [
           "https://explorevietnam.com.vn/hoi-an/hoi-an-to-hue-by-private-car/",
           "https://a21tours.com/ticket/hoi-an-to-hue-scenic-car",
           "https://vietnamstory.in/hai-van-pass/"
         ],
-        "checked": "2026-10-07",
+        "checked": "2026-10-16",
         "confidence": "medium"
       },
       {
@@ -1605,7 +2385,7 @@ const TRANSFERS_DATA = [
         "durationMin": 360,
         "durationMax": 420,
         "priceLow": 50,
-        "priceHigh": 63,
+        "priceHigh": 65,
         "currency": "USD",
         "priceUnit": "per_person",
         "bookLinks": [
@@ -1751,7 +2531,9 @@ const TRANSFERS_DATA = [
           "pickupHotel": false,
           "lat": 12.410047,
           "lng": 108.1784393,
-          "lang": "en"
+          "lang": "en",
+          "nameVi": "Quốc lộ 27, Liên Sơn",
+          "addressVi": "Quảng trường Lắk, Liên Sơn, Đắk Lắk"
         },
         "alight": {
           "name": "Da Lat Interprovincial Bus Station",
@@ -1815,7 +2597,9 @@ const TRANSFERS_DATA = [
           "pickupHotel": false,
           "lat": 10.0829341,
           "lng": 105.7120894,
-          "lang": "en"
+          "lang": "en",
+          "nameVi": "Sân bay quốc tế Cần Thơ",
+          "addressVi": "Thới An Đông, Bình Thủy, Cần Thơ"
         },
         "alight": {
           "name": "Phu Quoc International Airport (PQC)",
@@ -1872,7 +2656,9 @@ const TRANSFERS_DATA = [
           "pickupHotel": false,
           "lat": 10.005344,
           "lng": 105.7713117,
-          "lang": "en"
+          "lang": "en",
+          "nameVi": "Bến xe Trung tâm Cần Thơ",
+          "addressVi": "Đường Trần Hoàng Na, Cái Răng, Cần Thơ"
         },
         "alight": {
           "name": "Bai Vong pier, Phu Quoc",
@@ -1882,8 +2668,8 @@ const TRANSFERS_DATA = [
           "lng": 104.0374008,
           "lang": "en"
         },
-        "departures": "Buses to Ha Tien through the morning; speedboats about 06:10, 10:15 and 13:15 (last boat mid-afternoon)",
-        "departuresHe": "אוטובוסים לחה טיאן לאורך הבוקר; ספינות מהירות בערך ב-06:10, 10:15 ו-13:15 (האחרונה אחר הצהריים)",
+        "departures": "Superdong leaves Ha Tien several times between about 06:00 and 13:30 (sources disagree on exact times); the last boat is around 13:15-14:00, so take a bus leaving Can Tho by about 07:00",
+        "departuresHe": "Superdong יוצאת מחה טיאן כמה פעמים בין 06:00 ל-13:30 בערך (המקורות חלוקים על השעות המדויקות); הספינה האחרונה בסביבות 13:15-14:00, ולכן לקחת אוטובוס שיוצא מקאן טו עד 07:00 בערך",
         "durationMin": 390,
         "durationMax": 480,
         "priceLow": 460000,
@@ -1919,7 +2705,7 @@ const TRANSFERS_DATA = [
           "https://kk2trip.com/en/superdong-phu-quoc-ferry-schedule-ticket-prices-more/",
           "https://www.vietnamcoracle.com/phu-quoc-island-ferry-times/"
         ],
-        "checked": "2026-10-07",
+        "checked": "2026-10-16",
         "confidence": "medium"
       }
     ]
@@ -1998,7 +2784,9 @@ const TRANSFERS_DATA = [
           "pickupHotel": false,
           "lat": 20.2420352,
           "lng": 105.9745791,
-          "lang": "en"
+          "lang": "en",
+          "nameVi": "Ga Ninh Bình",
+          "addressVi": "1 Hoàng Diệu, Ninh Bình"
         },
         "alight": {
           "name": "Dong Hoi Railway Station",
@@ -2008,8 +2796,8 @@ const TRANSFERS_DATA = [
           "lng": 106.5997285,
           "lang": "en"
         },
-        "departures": "SE19 22:02, arrives Dong Hoi 06:25",
-        "departuresHe": "SE19 22:02, הגעה לדונג הוי 06:25",
+        "departures": "SE19 about 22:00, arrives Dong Hoi about 06:00 (Lotus pages disagree; confirm when booking)",
+        "departuresHe": "SE19 בסביבות 22:00, הגעה לדונג הוי בסביבות 06:00 (דפי לוטוס סותרים; לאשר בהזמנה)",
         "durationMin": 503,
         "durationMax": 600,
         "priceLow": 1950000,
@@ -2042,10 +2830,9 @@ const TRANSFERS_DATA = [
         "tipsHe": "1.95 מיליון דונג זה מיטה בתא של ארבע; בתא VIP של שתיים צריך לקנות את שני הכרטיסים גם לנוסע יחיד. מדונג הוי לפונג נה יש אוטובוס B4 (כ-50,000 דונג, כל שעה), או מונית (450,000-550,000).",
         "sources": [
           "https://lotustrain.vn/ninh-binh-to-dong-hoi-lotus-express",
-          "https://violetexpresstrain.com/ninh-binh-dong-hoi-on-lotus-train-se19.html",
           "https://www.vietnamtourism.com/en/dong-hoi-to-phong-nha-the-complete-transport-guide-for-2026"
         ],
-        "checked": "2026-10-07",
+        "checked": "2026-10-16",
         "confidence": "high"
       },
       {
@@ -2058,7 +2845,9 @@ const TRANSFERS_DATA = [
           "pickupHotel": false,
           "lat": 20.2420352,
           "lng": 105.9745791,
-          "lang": "en"
+          "lang": "en",
+          "nameVi": "Ga Ninh Bình",
+          "addressVi": "1 Hoàng Diệu, Ninh Bình"
         },
         "alight": {
           "name": "Dong Hoi Railway Station",
@@ -2068,8 +2857,8 @@ const TRANSFERS_DATA = [
           "lng": 106.5997285,
           "lang": "en"
         },
-        "departures": "SE3 21:34 (arr. 05:38), SE19 22:02, SE1 23:28 (arr. 07:53)",
-        "departuresHe": "SE3 21:34 (הגעה 05:38), SE19 22:02, SE1 23:28 (הגעה 07:53)",
+        "departures": "SE3 21:34 (arr. 05:38), SE19 about 22:00, SE1 around midnight (arr. about 08:00); confirm on dsvn.vn",
+        "departuresHe": "SE3 21:34 (הגעה 05:38), SE19 בסביבות 22:00, SE1 בסביבות חצות (הגעה בערך 08:00); לאשר ב-dsvn.vn",
         "durationMin": 480,
         "durationMax": 600,
         "priceLow": 340000,
@@ -2102,7 +2891,7 @@ const TRANSFERS_DATA = [
           "https://vexere.com/vn/trains/from-ninh-binh-ninh-binh-to-dong-hoi-quang-binh.534.568.en",
           "https://vietnam-railway.com/train/route/train-from-ninh-binh-to-dong-hoi"
         ],
-        "checked": "2026-10-07",
+        "checked": "2026-10-16",
         "confidence": "medium"
       },
       {
@@ -2151,6 +2940,143 @@ const TRANSFERS_DATA = [
           "https://hoianprivatetaxi.com/car-rentals/ninh-binh-to-phong-nha/"
         ],
         "checked": "2026-10-07",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "from": "phong-nha",
+    "to": "hanoi",
+    "reverseOk": true,
+    "note": "Two flights a day from Dong Hoi, 45-60 minutes by car from Phong Nha, or an overnight train from Dong Hoi station.",
+    "noteHe": "שתי טיסות ביום מדונג הוי, 45-60 דקות ברכב מפונג נה, או רכבת לילה מתחנת דונג הוי.",
+    "options": [
+      {
+        "mode": "flight",
+        "operator": "Vietnam Airlines, Sun PhuQuoc Airways",
+        "opLang": "en",
+        "board": {
+          "name": "Dong Hoi Airport (VDH)",
+          "address": "National Route 1, Dong Hoi",
+          "pickupHotel": false,
+          "lat": 17.5127474,
+          "lng": 106.5931645,
+          "lang": "en",
+          "nameVi": "Sân bay Đồng Hới",
+          "addressVi": "Quốc lộ 1, Đồng Hới, Quảng Trị"
+        },
+        "alight": {
+          "name": "Noi Bai International Airport (HAN)",
+          "address": "Soc Son, Hanoi",
+          "pickupHotel": false,
+          "lat": null,
+          "lng": null,
+          "lang": "en"
+        },
+        "departures": "2 nonstop flights a day; on 20/11/2026: VN1590 10:25, Sun PhuQuoc 16:05. Hanoi to Dong Hoi: 08:40 and 10:20",
+        "departuresHe": "2 טיסות ישירות ביום; ב-20/11/2026: VN1590 ב-10:25, Sun PhuQuoc ב-16:05. מהאנוי לדונג הוי: 08:40 ו-10:20",
+        "durationMin": 65,
+        "durationMax": 70,
+        "priceLow": 30,
+        "priceHigh": 40,
+        "currency": "USD",
+        "priceUnit": "per_person",
+        "bookLinks": [
+          {
+            "name": "Vietnam Airlines",
+            "url": "https://www.vietnamairlines.com/"
+          },
+          {
+            "name": "Sun PhuQuoc Airways",
+            "url": "https://www.sunphuquocairways.com/vn/en"
+          }
+        ],
+        "pros": [
+          "About an hour in the air, $30-40"
+        ],
+        "prosHe": [
+          "כשעה באוויר, $30-40"
+        ],
+        "cons": [
+          "Only two flights a day",
+          "Dong Hoi airport is 45-60 minutes from Phong Nha"
+        ],
+        "consHe": [
+          "רק שתי טיסות ביום",
+          "שדה התעופה בדונג הוי נמצא 45-60 דקות מפונג נה"
+        ],
+        "tips": "Fares as shown for 20/11/2026: Sun PhuQuoc $30, Vietnam Airlines $40. Book a car or Grab from Phong Nha to the airport the day before.",
+        "tipsHe": "המחירים כפי שהוצגו ל-20/11/2026: Sun PhuQuoc $30, Vietnam Airlines $40. להזמין רכב או Grab מפונג נה לשדה יום מראש.",
+        "sources": [
+          "https://www.google.com/travel/flights?q=Flights%20from%20VDH%20to%20HAN%20on%202026-11-20&curr=USD",
+          "https://www.google.com/travel/flights?q=Flights%20from%20HAN%20to%20VDH%20on%202026-11-10&curr=USD"
+        ],
+        "checked": "2026-10-18",
+        "confidence": "high"
+      },
+      {
+        "mode": "sleeper_train",
+        "operator": "Vietnam Railways (SE2 / SE4)",
+        "opLang": "en",
+        "board": {
+          "name": "Dong Hoi Railway Station",
+          "address": "Thuan Ly, Dong Hoi",
+          "pickupHotel": false,
+          "lat": 17.4689199,
+          "lng": 106.5997285,
+          "lang": "en",
+          "nameVi": "Ga Đồng Hới",
+          "addressVi": "Thuận Lý, Đồng Hới, Quảng Trị"
+        },
+        "alight": {
+          "name": "Hanoi Railway Station",
+          "address": "120 Le Duan, Hanoi",
+          "pickupHotel": false,
+          "lat": null,
+          "lng": null,
+          "lang": "en"
+        },
+        "departures": "Evening departures, e.g. SE4 about 18:25 and SE2 about 19:18, arriving in Hanoi early next morning (sources disagree; confirm on dsvn.vn)",
+        "departuresHe": "יציאות בערב, למשל SE4 בסביבות 18:25 ו-SE2 בסביבות 19:18, הגעה להאנוי מוקדם בבוקר (המקורות חלוקים; לאשר ב-dsvn.vn)",
+        "durationMin": 600,
+        "durationMax": 690,
+        "priceLow": 18,
+        "priceHigh": 50,
+        "currency": "USD",
+        "priceUnit": "per_person",
+        "bookLinks": [
+          {
+            "name": "Vietnam Railways",
+            "url": "https://dsvn.vn/"
+          },
+          {
+            "name": "12Go",
+            "url": "https://12go.asia/en/travel/dong-hoi/hanoi"
+          }
+        ],
+        "pros": [
+          "Saves a hotel night",
+          "Leaves from Dong Hoi town, no airport run"
+        ],
+        "prosHe": [
+          "חוסך לילה במלון",
+          "יוצאת מהעיר דונג הוי, בלי נסיעה לשדה"
+        ],
+        "cons": [
+          "10-11 hours",
+          "Times shift between sources and seasons"
+        ],
+        "consHe": [
+          "10-11 שעות",
+          "השעות משתנות בין מקורות ועונות"
+        ],
+        "tips": "Take a 4-berth soft sleeper (the upper end of the price range); 6-berth hard sleepers are the $18 end.",
+        "tipsHe": "לקחת תא שינה רך של 4 דרגשים (הקצה העליון של טווח המחיר); תא קשה של 6 דרגשים הוא הקצה של $18.",
+        "sources": [
+          "https://north-vietnam.com/dong-hoi-to-hanoi-train-bus-schedule-timetable-tickets/",
+          "https://12go.asia/en/train/dong-hoi/hanoi/?z=10260423"
+        ],
+        "checked": "2026-10-18",
         "confidence": "medium"
       }
     ]
@@ -2223,7 +3149,9 @@ const TRANSFERS_DATA = [
           "pickupHotel": false,
           "lat": 17.6113791,
           "lng": 106.3069337,
-          "lang": "en"
+          "lang": "en",
+          "nameVi": "Văn phòng nhà xe Hưng Thành",
+          "addressVi": "Trung tâm Phong Nha, Quảng Trị"
         },
         "alight": {
           "name": "Hoi An drop-off",
@@ -2287,7 +3215,9 @@ const TRANSFERS_DATA = [
           "pickupHotel": false,
           "lat": 17.6113791,
           "lng": 106.3069337,
-          "lang": "en"
+          "lang": "en",
+          "nameVi": "Văn phòng nhà xe Hưng Thành",
+          "addressVi": "Trung tâm Phong Nha, Quảng Trị"
         },
         "alight": {
           "name": "Hue city centre drop-off",
@@ -2344,7 +3274,9 @@ const TRANSFERS_DATA = [
           "pickupHotel": false,
           "lat": 17.4689199,
           "lng": 106.5997285,
-          "lang": "en"
+          "lang": "en",
+          "nameVi": "Ga Đồng Hới",
+          "addressVi": "Thuận Lý, Đồng Hới, Quảng Trị"
         },
         "alight": {
           "name": "Hue Railway Station",
@@ -2442,6 +3374,143 @@ const TRANSFERS_DATA = [
     ]
   },
   {
+    "from": "phu-quoc",
+    "to": "hanoi",
+    "reverseOk": true,
+    "note": "The way back north at the end of the trip: about two hours nonstop, roughly seven flights a day. Prices climb sharply in the last days of November.",
+    "noteHe": "הדרך חזרה צפונה בסוף הטיול: כשעתיים בטיסה ישירה, בערך שבע טיסות ביום. המחירים קופצים בימים האחרונים של נובמבר.",
+    "options": [
+      {
+        "mode": "flight",
+        "operator": "Sun PhuQuoc Airways, Vietnam Airlines",
+        "opLang": "en",
+        "board": {
+          "name": "Phu Quoc International Airport (PQC)",
+          "address": "Duong To, Phu Quoc",
+          "pickupHotel": false,
+          "lat": 10.1727084,
+          "lng": 103.9921531,
+          "lang": "en",
+          "nameVi": "Sân bay quốc tế Phú Quốc",
+          "addressVi": "Dương Tơ, Phú Quốc, An Giang"
+        },
+        "alight": {
+          "name": "Noi Bai International Airport (HAN)",
+          "address": "Soc Son, Hanoi",
+          "pickupHotel": false,
+          "lat": null,
+          "lng": null,
+          "lang": "en"
+        },
+        "departures": "About 7 nonstop flights a day; on 23/11/2026: 08:20, 09:50, 14:05, 17:10, 18:10, 20:00, 21:35. Hanoi to Phu Quoc runs a similar schedule from 05:35",
+        "departuresHe": "בערך 7 טיסות ישירות ביום; ב-23/11/2026: 08:20, 09:50, 14:05, 17:10, 18:10, 20:00, 21:35. מהאנוי לפו קוק לוח דומה, מ-05:35",
+        "durationMin": 125,
+        "durationMax": 135,
+        "priceLow": 45,
+        "priceHigh": 280,
+        "currency": "USD",
+        "priceUnit": "per_person",
+        "bookLinks": [
+          {
+            "name": "Sun PhuQuoc Airways",
+            "url": "https://www.sunphuquocairways.com/vn/en"
+          },
+          {
+            "name": "Vietnam Airlines",
+            "url": "https://www.vietnamairlines.com/"
+          }
+        ],
+        "pros": [
+          "The morning flight lands in Hanoi by 10:25",
+          "Phu Quoc airport is 10-15 minutes from the Long Beach hotels"
+        ],
+        "prosHe": [
+          "טיסת הבוקר נוחתת בהאנוי עד 10:25",
+          "שדה התעופה בפו קוק נמצא 10-15 דקות ממלונות לונג ביץ'"
+        ],
+        "cons": [
+          "Late-November fares reach $150-280 on popular times"
+        ],
+        "consHe": [
+          "בסוף נובמבר המחיר מגיע ל-$150-280 בשעות המבוקשות"
+        ],
+        "tips": "On 23/11/2026 fares ran $72 (Sun PhuQuoc 08:20) to $278; Hanoi to Phu Quoc on 10/11 was $45-109. The flight home leaves Hanoi on 24/11 at 20:00, so the 08:20 from Phu Quoc on the same day still leaves about nine hours; flying on 23/11 is the safer margin. Book this leg early.",
+        "tipsHe": "ב-23/11/2026 המחירים נעו בין $72 (Sun PhuQuoc ב-08:20) ל-$278; מהאנוי לפו קוק ב-10/11 היה $45-109. הטיסה הביתה יוצאת מהאנוי ב-24/11 ב-20:00, כך שגם טיסת 08:20 מפו קוק באותו יום משאירה כתשע שעות; טיסה ב-23/11 היא המרווח הבטוח יותר. כדאי להזמין את הקטע הזה מוקדם.",
+        "sources": [
+          "https://www.google.com/travel/flights?q=Flights%20from%20PQC%20to%20HAN%20on%202026-11-23&curr=USD",
+          "https://www.google.com/travel/flights?q=Flights%20from%20HAN%20to%20PQC%20on%202026-11-10&curr=USD"
+        ],
+        "checked": "2026-10-18",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "from": "phu-quoc",
+    "to": "hoi-an",
+    "reverseOk": true,
+    "note": "Two nonstop flights a day from Phu Quoc to Da Nang, the only direct way between the island and the centre.",
+    "noteHe": "שתי טיסות ישירות ביום מפו קוק לדה נאנג, הדרך הישירה היחידה בין האי למרכז.",
+    "options": [
+      {
+        "mode": "flight",
+        "operator": "Sun PhuQuoc Airways",
+        "opLang": "en",
+        "board": {
+          "name": "Phu Quoc International Airport (PQC)",
+          "address": "Duong To, Phu Quoc",
+          "pickupHotel": false,
+          "lat": 10.1727084,
+          "lng": 103.9921531,
+          "lang": "en",
+          "nameVi": "Sân bay quốc tế Phú Quốc",
+          "addressVi": "Dương Tơ, Phú Quốc, An Giang"
+        },
+        "alight": {
+          "name": "Da Nang International Airport (DAD)",
+          "address": "Phan Thanh, Thanh Khe, Da Nang",
+          "pickupHotel": false,
+          "lat": null,
+          "lng": null,
+          "lang": "en"
+        },
+        "departures": "2 nonstop flights a day; on 10/11/2026: 11:10 and 16:00",
+        "departuresHe": "2 טיסות ישירות ביום; ב-10/11/2026: 11:10 ו-16:00",
+        "durationMin": 105,
+        "durationMax": 105,
+        "priceLow": 48,
+        "priceHigh": 61,
+        "currency": "USD",
+        "priceUnit": "per_person",
+        "bookLinks": [
+          {
+            "name": "Sun PhuQuoc Airways",
+            "url": "https://www.sunphuquocairways.com/vn/en"
+          }
+        ],
+        "pros": [
+          "Under two hours instead of a connection in Saigon"
+        ],
+        "prosHe": [
+          "פחות משעתיים במקום חיבור בסייגון"
+        ],
+        "cons": [
+          "One airline, two flights"
+        ],
+        "consHe": [
+          "חברה אחת, שתי טיסות"
+        ],
+        "tips": "Fares as shown for 10/11/2026: $48-61. Otherwise connect via Saigon (Phu Quoc to Saigon, then Saigon to Da Nang).",
+        "tipsHe": "המחירים כפי שהוצגו ל-10/11/2026: $48-61. אחרת לחבר דרך סייגון (פו קוק–סייגון ואז סייגון–דה נאנג).",
+        "sources": [
+          "https://www.google.com/travel/flights?q=Flights%20from%20PQC%20to%20DAD%20on%202026-11-10&curr=USD"
+        ],
+        "checked": "2026-10-18",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
     "from": "saigon",
     "to": "mekong",
     "reverseOk": true,
@@ -2458,7 +3527,9 @@ const TRANSFERS_DATA = [
           "pickupHotel": false,
           "lat": 10.7401271,
           "lng": 106.6194006,
-          "lang": "en"
+          "lang": "en",
+          "nameVi": "Bến xe Miền Tây",
+          "addressVi": "395 Kinh Dương Vương, An Lạc, TP. Hồ Chí Minh"
         },
         "alight": {
           "name": "Can Tho Central Bus Station",
@@ -2565,7 +3636,9 @@ const TRANSFERS_DATA = [
           "pickupHotel": false,
           "lat": 10.8112056,
           "lng": 106.6535671,
-          "lang": "en"
+          "lang": "en",
+          "nameVi": "Sân bay Tân Sơn Nhất - Nhà ga T3",
+          "addressVi": "Tân Sơn Nhất, TP. Hồ Chí Minh"
         },
         "alight": {
           "name": "Phu Quoc International Airport (PQC)",
@@ -2631,7 +3704,9 @@ const TRANSFERS_DATA = [
           "pickupHotel": false,
           "lat": 10.7401271,
           "lng": 106.6194006,
-          "lang": "en"
+          "lang": "en",
+          "nameVi": "Bến xe Miền Tây",
+          "addressVi": "395 Kinh Dương Vương, An Lạc, TP. Hồ Chí Minh"
         },
         "alight": {
           "name": "Bai Vong pier, Phu Quoc",
@@ -2695,7 +3770,9 @@ const TRANSFERS_DATA = [
           "pickupHotel": false,
           "lat": 22.3352035,
           "lng": 103.8422543,
-          "lang": "en"
+          "lang": "en",
+          "nameVi": "Nhà thờ đá Sa Pa",
+          "addressVi": "Hàm Rồng, Sa Pa, Lào Cai"
         },
         "alight": null,
         "departures": "Morning departure; Halong-to-Sapa runs at about 11:30",
@@ -2752,8 +3829,8 @@ const TRANSFERS_DATA = [
         "departuresHe": "מתי שרוצים, בתיאום בעת ההזמנה",
         "durationMin": 420,
         "durationMax": 480,
-        "priceLow": 160,
-        "priceHigh": 245,
+        "priceLow": 175,
+        "priceHigh": 195,
         "currency": "USD",
         "priceUnit": "per_vehicle",
         "bookLinks": [
@@ -2776,13 +3853,13 @@ const TRANSFERS_DATA = [
         "consHe": [
           "יקר לאחד או שניים"
         ],
-        "tips": "About $160-215 for a 4-seat car and $245 for a 7-seater; a 9-seat limousine van runs close to $390.",
-        "tipsHe": "בערך $160-215 לרכב של 4 מקומות ו-$245 לרכב של 7; וואן לימוזינה של 9 מקומות מתקרב ל-$390.",
+        "tips": "A21 lists $175 for a sedan and $195 for an SUV; a 9-seat limousine van is about $295.",
+        "tipsHe": "ב-A21 המחיר $175 לסדאן ו-$195 לרכב שטח; וואן לימוזינה של 9 מקומות בערך $295.",
         "sources": [
           "https://a21tours.com/ticket/sapa-to-halong-private-car-transfer",
           "https://www.bestpricetravel.com/travel-guide/sapa-to-halong-bay-2287.html"
         ],
-        "checked": "2026-10-07",
+        "checked": "2026-10-16",
         "confidence": "medium"
       }
     ]

@@ -1,15 +1,15 @@
 from: da-lat
 to: saigon
 reverse_ok: true
-note: About 310 km down from the highlands. A 55-minute flight against 6-8 hours on the road. Only Vietnam
-  Airlines flies the route nonstop, three times a day.
-note_he: כ-310 ק"מ במורד הרמות. טיסה של 55 דקות מול 6-8 שעות בכביש. רק Vietnam Airlines טסה בקו בלי עצירה,
-  שלוש פעמים ביום.
+note: "About 310 km down from the highlands. A 55-minute flight against 6-8 hours on the road. Vietnam Airlines is the only nonstop carrier here once Vietjet is left out (it flies the route too). Lien Khuong airport reopened on 19/08/2026 after runway works."
+note_he: "כ-310 ק\"מ במורד הרמות. טיסה של 55 דקות מול 6-8 שעות בכביש. אם משאירים בחוץ את Vietjet (שגם היא טסה בקו), Vietnam Airlines היא החברה היחידה עם טיסה ישירה. שדה התעופה ליין קואונג נפתח מחדש ב-19/08/2026 אחרי עבודות במסלול."
 options:
 - mode: flight
   operator: Vietnam Airlines (VN1381 / VN1383 / VN1387)
   board:
     name: Lien Khuong International Airport (DLI)
+    name_vi: "Sân bay quốc tế Liên Khương"
+    address_vi: "Liên Khương, Lâm Đồng"
     address: Lien Khuong, Hiep Thanh, Lam Dong
     lat: 11.7504279
     lng: 108.3611709
@@ -53,6 +53,8 @@ options:
   op_lang: vi
   board:
     name: Da Lat Interprovincial Bus Station
+    name_vi: "Bến xe liên tỉnh Đà Lạt"
+    address_vi: "1 Tô Hiến Thành, Đà Lạt, Lâm Đồng"
     address: 1 To Hien Thanh, Da Lat
     lat: 11.9268818
     lng: 108.4455138

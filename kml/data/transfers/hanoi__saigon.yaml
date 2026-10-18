@@ -1,0 +1,51 @@
+from: hanoi
+to: saigon
+reverse_ok: true
+note: 'The trunk route: over 40 nonstop flights a day, all day and into the night.'
+note_he: 'הקו הראשי: יותר מ-40 טיסות ישירות ביום, כל היום ועד הלילה.'
+options:
+- mode: flight
+  operator: Vietnam Airlines, Sun PhuQuoc Airways, Vietravel Airlines
+  board:
+    name: Noi Bai Airport, Terminal T1 (domestic)
+    name_vi: "Sân bay Nội Bài - Nhà ga T1 (quốc nội)"
+    address_vi: "Đường Võ Nguyên Giáp, Nội Bài, Hà Nội"
+    address: Vo Nguyen Giap, Noi Bai, Hanoi
+    lat: 21.2145692
+    lng: 105.8034987
+  alight:
+    name: Tan Son Nhat Airport, Terminal T3 (domestic)
+    address: Tan Son Nhat, Ho Chi Minh City
+  departures: Over 40 nonstop flights a day each way, from 05:00 to about 23:40
+  departures_he: יותר מ-40 טיסות ישירות ביום בכל כיוון, מ-05:00 עד בערך 23:40
+  duration_min: 130
+  duration_max: 135
+  price_low: 42
+  price_high: 85
+  currency: USD
+  price_unit: per_person
+  book_links:
+  - name: Vietnam Airlines
+    url: https://www.vietnamairlines.com/
+  - name: Sun PhuQuoc Airways
+    url: https://www.sunphuquocairways.com/vn/en
+  - name: Vietravel Airlines
+    url: https://www.vietravelairlines.com/
+  pros:
+  - A flight at any hour
+  - Late-evening fares are the cheapest
+  cons:
+  - 'Tan Son Nhat traffic: allow an hour into District 1 at rush hour'
+  pros_he:
+  - טיסה בכל שעה
+  - המחירים בערב המאוחר הם הזולים
+  cons_he:
+  - 'פקקים בטאן סון נהאט: לתכנן שעה עד מחוז 1 בשעות העומס'
+  tips: 'Fares as shown for 10/11/2026: from $42 (Vietravel 20:15), most $54-85. Domestic flights use terminal T3
+    in Saigon.'
+  tips_he: 'המחירים כפי שהוצגו ל-10/11/2026: מ-$42 (Vietravel ב-20:15), רובם $54-85. הטיסות הפנימיות בסייגון בטרמינל
+    T3.'
+  sources:
+  - https://www.google.com/travel/flights?q=Flights%20from%20HAN%20to%20SGN%20on%202026-11-10&curr=USD
+  checked: '2026-10-18'
+  confidence: high

@@ -1,0 +1,47 @@
+from: hanoi
+to: da-lat
+reverse_ok: true
+note: Straight from the north to the highlands in two hours, three nonstop flights a day.
+note_he: מהצפון ישר לרמות בשעתיים, שלוש טיסות ישירות ביום.
+options:
+- mode: flight
+  operator: Vietnam Airlines, Vietravel Airlines
+  board:
+    name: Noi Bai Airport, Terminal T1 (domestic)
+    name_vi: "Sân bay Nội Bài - Nhà ga T1 (quốc nội)"
+    address_vi: "Đường Võ Nguyên Giáp, Nội Bài, Hà Nội"
+    address: Vo Nguyen Giap, Noi Bai, Hanoi
+    lat: 21.2145692
+    lng: 105.8034987
+  alight:
+    name: Lien Khuong International Airport (DLI)
+    address: Lien Khuong, Hiep Thanh, Lam Dong
+  departures: '3 nonstop flights a day; on 10/11/2026: VN1573 06:55, VN1575 12:00, Vietravel 17:40'
+  departures_he: '3 טיסות ישירות ביום; ב-10/11/2026: VN1573 ב-06:55, VN1575 ב-12:00, Vietravel ב-17:40'
+  duration_min: 115
+  duration_max: 115
+  price_low: 48
+  price_high: 99
+  currency: USD
+  price_unit: per_person
+  book_links:
+  - name: Vietnam Airlines
+    url: https://www.vietnamairlines.com/
+  - name: Vietravel Airlines
+    url: https://www.vietravelairlines.com/
+  pros:
+  - Skips the centre entirely, useful for route B
+  cons:
+  - Lien Khuong airport is 30-40 minutes from Da Lat
+  pros_he:
+  - מדלג על המרכז כולו, שימושי למסלול B
+  cons_he:
+  - שדה התעופה ליין קואונג נמצא 30-40 דקות מדה לאט
+  tips: 'Fares as shown for 10/11/2026: Vietravel $48, Vietnam Airlines $73-99. Lien Khuong reopened on 19/08/2026
+    after runway works.'
+  tips_he: 'המחירים כפי שהוצגו ל-10/11/2026: Vietravel $48, Vietnam Airlines $73-99. ליין קואונג נפתח מחדש ב-19/08/2026
+    אחרי עבודות במסלול.'
+  sources:
+  - https://www.google.com/travel/flights?q=Flights%20from%20HAN%20to%20DLI%20on%202026-11-10&curr=USD
+  checked: '2026-10-18'
+  confidence: high

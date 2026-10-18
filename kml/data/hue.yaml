@@ -23,6 +23,7 @@ hotels:
     לשעבר של הנציב הצרפתי — עם 200 מטר חזית על נהר הבשמים וספא משלו.
   why_he: ה-5 כוכבים האמיתי המדורג ביותר בהואה (9.5 מ-487 ביקורות), ובניין מורשת ולא
     מגדל חדש
+  addr_vi: 5 Lê Lợi, Huế
 - name: Meliá Vinpearl Hue
   tier: 5
   tier_official: true
@@ -48,6 +49,7 @@ hotels:
     עשר דקות הליכה מנהר הבשמים ומגשר טרונג טיין.
   why_he: בחירת המפרט של הפרויקט לביקור בהואה, וה-5 כוכבים של רשת בינלאומית המדורג
     ביותר בעיר (9.4 מלמעלה מ-3,000 ביקורות)
+  addr_vi: 50A Hùng Vương, Huế
 - name: Eldora Hotel
   tier: 4
   tier_official: true
@@ -73,6 +75,7 @@ hotels:
     הואה.
   why_he: מהמלונות הבודדים בהואה עם סיווג 4 כוכבים רשמי וחד-משמעי ולא מוצהר עצמית,
     ומשובח דרך קבע על הניקיון
+  addr_vi: 60 Bến Nghé, Huế
 - name: Pilgrimage Village Boutique Resort & Spa
   tier: 4
   tier_official: false
@@ -95,6 +98,7 @@ hotels:
     ספא נרחב ומסעדות משלו.
   why_he: המקורות חלוקים אם מדובר ב-4 או ב-5 כוכבים, אבל זו החלופה שהמפרט מציין למליה
     וינפרל למי שרוצה שהות שקטה וירוקה יותר
+  addr_vi: 130 Minh Mạng, Huế
 - name: Jade Scene Hotel
   tier: 3
   tier_official: true
@@ -120,6 +124,7 @@ hotels:
     קטנה שמשקיפה על העיר, וספא.
   why_he: מהמלונות המדורגים ביותר בהואה בכל דרגה (9.2 מלמעלה מ-3,000 ביקורות), ו-3
     כוכבים שנבדקו רשמית ולא בוטיק שדירג את עצמו
+  addr_vi: Kiệt 42 Nguyễn Công Trứ, Huế
 - name: Thanh Lich Hue Hotel
   tier: 3
   tier_official: false
@@ -145,6 +150,7 @@ hotels:
     בוקר על הגג עם אפשרויות אסייתיות ומערביות.
   why_he: אפשרות אמינה וידידותית לתקציב במרכז העיר (9.0 מלמעלה מ-900 ביקורות), אם
     כי תוספת הכוכב שלו מוצהרת עצמית
+  addr_vi: Võ Thị Sáu, Huế
 must_see:
 - name: Hue Imperial City (The Citadel)
   area: North bank of the Perfume River, city center
@@ -152,7 +158,8 @@ must_see:
     Ngo Mon Gate past the Nine Holy Cannons and the Nine Dynastic Urns, with the To
     Mieu royal family temple inside.
   why: The reason Hue is Vietnam's imperial capital rather than just another river
-    city, and the largest single historical site in the country
+    city, and the largest single historical site in the country. Closes when the Perfume
+    River floods - in 2025 on 27-30/10 and again from 3/11
   confidence: high
   geocode_query: Hue Imperial City Citadel, Hue, Vietnam
   sources:
@@ -163,9 +170,10 @@ must_see:
   what_he: מושבה המבוצר של שושלת נגוין מ-1802 עד 1945. נכנסים דרך שער נגו מון, עוברים
     את תשעת התותחים הקדושים ואת תשע כדי השושלת, ובפנים מקדש המשפחה טו מייה.
   why_he: הסיבה שהואה היא הבירה הקיסרית של ויאטנם ולא עוד עיר נהר, והאתר ההיסטורי
-    היחיד הגדול ביותר במדינה
+    היחיד הגדול ביותר במדינה. נסגר כשנהר הבשמים מוצף - ב-2025 ב-27-30/10 ושוב מ-3/11
   hours: 07:00-17:00 in the rainy season; 06:30-17:30 in the dry
   hours_he: 07:00-17:00 בעונת הגשמים; 06:30-17:30 בעונה היבשה
+  limiter: flood
 - name: Khai Dinh Tomb
   area: Chau Chu Village, ~10km from Hue city
   what: The last and most ornate of the Nguyen royal tombs, its concrete exterior
@@ -177,7 +185,6 @@ must_see:
   geocode_query: Khai Dinh Tomb, Hue, Vietnam
   sources:
   - https://vinwonders.com/en/wonderpedia/news/khai-dinh-tomb-things-to-know-about-the-last-imperial-tomb-built-in-hue/
-  - https://www.lonelyplanet.com/vietnam/central-vietnam/hue/attractions/tomb-of-khai-dinh/a/poi-sig/1158037/357875
   coords:
     lat: 16.3989537
     lng: 107.5902801
@@ -239,7 +246,8 @@ attractions:
     Xuan bridges, typically with a live Ca Hue folk-music performance on board and
     the option to release a lotus lantern onto the water.
   why: The classic way to see Hue's bridges and riverbanks lit up at night, and to
-    hear Ca Hue court music in something like its original setting
+    hear Ca Hue court music in something like its original setting. No cruises when
+    the river is in flood
   confidence: medium
   geocode_query: Perfume River dragon boat pier, Hue, Vietnam
   sources:
@@ -250,7 +258,8 @@ attractions:
   what_he: שייט ערב בסירת עץ עם חרטום דרקון על פני גשרי טרונג טיין ופו שואן, בדרך
     כלל עם מופע חי של מוזיקת קה הואה על הסיפון ואפשרות לשלח פנס לוטוס על המים.
   why_he: הדרך הקלאסית לראות את גשרי הואה ואת גדות הנהר מוארים בלילה, ולשמוע את מוזיקת
-    החצר קה הואה בקירוב לסביבתה המקורית
+    החצר קה הואה בקירוב לסביבתה המקורית. אין שייט כשהנהר מוצף
+  limiter: flood
 markets:
 - name: Dong Ba Market
   area: North bank of the Perfume River, city center
@@ -258,7 +267,8 @@ markets:
     floor sells dried seafood and local sauces, the second floor sells crafts like
     forged knives and ceramics, and the third is devoted to ao dai tailoring.
   why: Central Vietnam's largest and oldest market, and as much a symbol of Hue's
-    identity as the Citadel
+    identity as the Citadel. Flooded in the 2025 floods along with most of the old
+    city; check before going in heavy rain
   confidence: high
   geocode_query: Dong Ba Market, Hue, Vietnam
   sources:
@@ -273,7 +283,8 @@ markets:
     מיובשים ורטבים מקומיים, בשנייה מלאכת יד כמו סכינים מחושלות וקרמיקה, והשלישית מוקדשת
     לתפירת אאו דאי.
   why_he: השוק הגדול והוותיק ביותר במרכז ויאטנם, וסמל לזהות של הואה לא פחות מהעיר
-    האסורה
+    האסורה. הוצף בשיטפונות 2025 יחד עם רוב העיר העתיקה; לבדוק לפני שהולכים בגשם כבד
+  limiter: flood
 logistics:
 - name: Phu Bai Airport to Hue city center
   area: Airport transfer
@@ -381,9 +392,8 @@ restaurants:
   sources:
   - https://beebeetravel.com/banh-khoai-lac-thien-hue-local-food/
   coords:
-    lat: 16.4720712
-    lng: 107.5846611
-  location_precision: approximate
+    lat: 16.4687306
+    lng: 107.5851255
   name_he: לאק תיין
   area_he: רחוב דין טיין הואנג 6
   what_he: מסעדה משפחתית שצולה באן קואי לפי הזמנה — הפנקייק הפריך של הואה מקמח אורז
@@ -392,6 +402,7 @@ restaurants:
   why_he: מצוטטת דרך קבע כבאן קואי הטוב בהואה, והגרסה הפריכה ביותר של המנה בעיר
   hours: 10:00-21:30 daily
   hours_he: 10:00-21:30 כל יום
+  coords_manual: true
 hebrew_complete: true
 spa:
 - name: Moonshine Spa

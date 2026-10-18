@@ -21,6 +21,7 @@ hotels:
     מנכסי היוקרה האמיתיים הגדולים בסאפה.
   why_he: 5 כוכבים רשמיים, ונכס היוקרה הגדול המדורג ביותר בסאפה. מתומחר הרבה מתחת
     ל-5 הכוכבים של האנוי וסייגון
+  addr_vi: Đồi Quan 6, Sa Pa, Lào Cai
 - name: Pao's Sapa Leisure Hotel
   tier: 5
   tier_official: true
@@ -49,6 +50,7 @@ hotels:
   why_he: מדורג שלישי מתוך יותר מ-180 מלונות בסאפה בטריפאדוויזר, ואומת באופן עצמאי
     כ-5 כוכבים רשמיים. שימו לב שכמה מבקרים אומרים שאיכות החדר מרגישה קרובה יותר ל-3
     כוכבים במונחים מערביים — כלומר הדירוג נובע מהמיקום ומהמתקנים ולא מרמת הגימור
+  addr_vi: Đường Violet, Sa Pa, Lào Cai
 - name: Pistachio Hotel Sapa
   tier: 4
   tier_official: true
@@ -71,6 +73,8 @@ hotels:
     במבט אל פאנסיפאן ואל עמק מואונג הואה.
   why_he: ה-4 כוכבים הפשוט המדורג ביותר בעיירה, והבחירה לשדרוג במפרט במקום במבו סאפה
     שסומן בבעיות עובש
+  addr_vi: Sa Pa, gần ga cáp treo Fansipan Legend, Lào Cai
+  addr_vi_partial: true
 - name: Aliana Boutique Sapa Hotel & Spa
   tier: 4
   tier_official: false
@@ -95,6 +99,8 @@ hotels:
   why_he: מדורג תשיעי מתוך 188 מלונות בסאפה עם נפח ביקורות גבוה מאוד. חלק מהפלטפורמות
     מעגלות את מיצובו העצמי כ-4.5 כוכבים ל-5, ולכן יש להתייחס למספר הכוכבים כשיווק
     בוטיק ולא כדירוג רשמי
+  addr_vi: Sa Pa, Lào Cai
+  addr_vi_partial: true
 - name: Sapa Centre Hotel
   tier: 3
   tier_official: true
@@ -117,6 +123,7 @@ hotels:
     נקיים ופשוטים ומסעדה ובר במקום.
   why_he: 3 כוכבים רשמיים עם ציון ביקורות גבוה במיוחד (9.4 עד 9.5) ביחס למחיר, והמיקום
     המרכזי ביותר ברשימה הזו
+  addr_vi: 10-12 Cầu Mây, Sa Pa, Lào Cai
 - name: Ladybird Boutique Hotel Sapa
   tier: 3
   tier_official: true
@@ -138,6 +145,7 @@ hotels:
   what_he: מלון קטן ליד גן הפרחים האם רונג, עם בר טרקלין ומרפסת שמש, וחדרים שפונים
     אל תחנת סאפה ואל פאנסיפאן.
   why_he: 3 כוכבים רשמיים עם ביקורות חזקות ועקביות (8.9 עד 9.5) בכמה פלטפורמות הזמנה
+  addr_vi: 4 Thạch Sơn, Sa Pa, Lào Cai
 must_see:
 - name: Fansipan cable car and Muong Hoa mountain train
   limiter: wind
@@ -162,10 +170,10 @@ must_see:
     מתחם פגודות בתחנה העליונה.
   why_he: הדרך הקלה ביותר לעמוד על גג הודו-סין בלי טרק של כמה ימים, והכרטיס המשולב
     כולל את שני המקטעים
-  hours: About 07:30-17:00; the last ascent to the summit is around 15:00, and the
-    schedule shifts with weather
-  hours_he: בסביבות 07:30-17:00; העלייה האחרונה לפסגה סביב 15:00, והלוח משתנה לפי
-    מזג האוויר
+  hours: 'Cable car up: Mon-Thu 08:00-14:30, Fri 08:00-15:30, Sat 07:30-15:30, Sun
+    07:30-14:30; last descent about 16:00-17:00; weather can stop it'
+  hours_he: 'עלייה ברכבל: שני-חמישי 08:00-14:30, שישי 08:00-15:30, שבת 07:30-15:30,
+    ראשון 07:30-14:30; ירידה אחרונה בסביבות 16:00-17:00; מזג האוויר יכול לעצור אותו'
 - name: Cat Cat Village
   area: San Sa Ho commune, about 3km from Sapa town
   what: A Black H'mong village at the entrance to the Muong Hoa Valley, founded in

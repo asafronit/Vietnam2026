@@ -48,6 +48,8 @@ options:
   op_lang: vi
   board:
     name: Hung Thanh bus office, Phong Nha town centre
+    name_vi: "Văn phòng nhà xe Hưng Thành"
+    address_vi: "Trung tâm Phong Nha, Quảng Trị"
     address: Phong Nha town centre, Quang Binh
     lat: 17.6113791
     lng: 106.3069337

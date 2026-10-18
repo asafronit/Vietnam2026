@@ -22,6 +22,7 @@ hotels:
     משלו. בניין המלון הגבוה בעיר.
   why_he: מדורג ראשון מבין מלונות בואן מה תואט, עם ביקורות האורחים העקביות ביותר מכל
     נכס בעיר
+  addr_vi: 81 Nguyễn Tất Thành, Tân An, Buôn Ma Thuột, Đắk Lắk
 - name: Saigon Ban Me Hotel
   tier: 4
   tier_official: false
@@ -43,6 +44,7 @@ hotels:
   what_he: מלון עסקים בגובה בינוני עם 131 חדרים, בריכה חיצונית וטרקלין קריוקי, שתי
     דקות הליכה מהשוק המרכזי של בואן מה תואט.
   why_he: המלון המדורג היטב הקרוב ביותר לשוק ולרחובות קניית הקפה סביבו
+  addr_vi: 1-3 Phan Chu Trinh, Buôn Ma Thuột, Đắk Lắk
 - name: Dakruco Hotel
   tier: 3
   tier_official: false
@@ -68,9 +70,10 @@ hotels:
   what_he: מלון עסקים ותיק במרכז בואן מה תואט, בניהול חברת הגומי הממשלתית של דאק לאק,
     עם בריכה חיצונית, מסעדה ובר.
   why_he: המלון הזול במרכז עם ציון ביקורות גבוה באמת ולא מנופח
+  addr_vi: 30 Nguyễn Chí Thanh, Tân An, Buôn Ma Thuột, Đắk Lắk
 must_see:
 - name: The World Coffee Museum
-  area: Tan Loi Ward, inside Trung Nguyen Coffee Village, ~4km from center
+  area: Nguyen Dinh Chieu Street, Buon Ma Thuot ward, about 1.2 km north of the centre
   what: A museum built in the style of Central Highlands longhouses, holding over
     10,000 coffee-related artefacts from around the world, with hands-on tasting rooms
     rather than glass display cases.
@@ -85,13 +88,13 @@ must_see:
     lat: 12.6908584
     lng: 108.0445203
   name_he: מוזיאון הקפה העולמי
-  area_he: טאן לוי, בתוך כפר הקפה טרונג נגוין, כ-4 קילומטר מהמרכז
+  area_he: רחוב נגוין דין צ'יאו, רובע בואן מה תואט, כ-1.2 קילומטר צפונית למרכז
   what_he: מוזיאון בנוי בסגנון בתי האורך של רמות המרכז, ובו למעלה מ-10,000 פריטים
     הקשורים לקפה מרחבי העולם, עם חדרי טעימה מעשיים ולא ויטרינות זכוכית.
   why_he: האתר המזוהה של בירת הקפה של ויאטנם, והסיבה שרוב המבקרים מגיעים לבואן מה
     תואט בכלל
-  hours: 08:00-17:00 daily
-  hours_he: 08:00-17:00 כל יום
+  hours: About 07:00-17:45 daily (sources vary)
+  hours_he: בערך 07:00-17:45 כל יום (המקורות חלוקים)
 - name: Ako Dhong Village
   area: Tan Loi Ward, inside the city
   what: A working Ede ethnic-minority neighbourhood inside the city itself, with more
@@ -152,10 +155,10 @@ must_see:
     לטובת התבוננות
 attractions:
 - name: Trung Nguyen Coffee Village
-  area: Ly Thai To Street, Tan An Ward, ~3km from center
+  area: 163 Ly Thai To, Buon Ma Thuot ward, about 3 km north-east of the centre
   what: A 20,000 sqm compound of replica traditional houses, coffee-roasting displays
-    and cafes built by Vietnam's best-known coffee brand, with the World Coffee Museum
-    inside its grounds.
+    and cafes built by Vietnam's best-known coffee brand. The World Coffee Museum
+    is a separate site, 2.6 km away.
   why: A full afternoon of coffee culture in one walkable site, from growing to roasting
     to cup
   confidence: high
@@ -164,11 +167,18 @@ attractions:
   - https://www.originvietnam.com/destinations/trung-nguyen-coffee-village/
   - https://trungnguyenlegend.com/lang-ca-phe-trung-nguyen/
   name_he: כפר הקפה טרונג נגוין
-  area_he: רחוב לי תאי טו, טאן אן, כ-3 קילומטר מהמרכז
+  area_he: לי תאי טו 163, רובע בואן מה תואט, כ-3 קילומטר צפון-מזרחית למרכז
   what_he: מתחם של 20,000 מטר רבוע ובו העתקים של בתים מסורתיים, מיצגי קלייה ובתי קפה,
-    שהקים מותג הקפה המוכר בוויאטנם, ומוזיאון הקפה העולמי בתוך שטחו.
+    שהקים מותג הקפה המוכר בוויאטנם. מוזיאון הקפה העולמי הוא אתר נפרד, 2.6 קילומטר
+    משם.
   why_he: אחר צהריים שלם של תרבות קפה באתר אחד שאפשר להקיף ברגל, מגידול ועד קלייה
     ועד כוס
+  hours: 07:00-22:00, free entry
+  hours_he: 07:00-22:00, כניסה חופשית
+  coords:
+    lat: 12.701148
+    lng: 108.061008
+  coords_manual: true
 markets:
 - name: Buon Ma Thuot Central Market
   area: City center, near Victory Monument

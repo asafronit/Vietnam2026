@@ -21,29 +21,32 @@ hotels:
     באבנים מול נוף השדות, ואופניים חופשיים אל העיר.
   why_he: הבחירה המובילה של המפרט להוי אן — מקום שני מתוך למעלה מ-460 מלונות בעיר,
     ודירוג 5 מתוך 5 בטריפאדוויזר מאלפי ביקורות
+  addr_vi: 132 Hùng Vương, Hội An, Đà Nẵng
 - name: Almanity Hoi An Resort & Spa
   tier: 5
   tier_official: false
   price_low: 70
   price_high: 163
   price_checked: '2026-08-16'
-  area: Old Town, on Hai Ba Trung Street
-  what: A 139-room wellness resort inside the Old Town itself, built around a Japanese
-    garden with a koi pond and My Chi Spa, the largest resort spa in Hoi An.
+  area: 326 Ly Thuong Kiet, about 15 minutes' walk north-west of the Old Town
+  what: A 139-room wellness resort about 15 minutes' walk from the Old Town, built
+    around a Japanese garden with a koi pond and My Chi Spa, the largest resort spa
+    in Hoi An.
   why: One of the highest-rated hotels of any tier in Hoi An (9.2/10 from over 2,400
     reviews), though some reviewers rate the actual guest experience closer to a strong
     4-star than a true 5-star
   confidence: medium
-  geocode_query: Almanity Hoi An Resort and Spa, Hoi An, Vietnam
+  geocode_query: Almanity Hoi An, 326 Ly Thuong Kiet, Hoi An, Vietnam
   sources:
   - https://www.tripadvisor.com/Hotel_Review-g298082-d7094399-Reviews-Almanity_Hoi_An_Resort_Spa-Hoi_An_Quang_Nam_Province.html
   - https://www.oyster.com/vietnam/hotels/almanity-hoi-an/
   name_he: אלמניטי
-  area_he: העיר העתיקה, רחוב האי בה צ'ונג
-  what_he: ריזורט בריאות של 139 חדרים בתוך העיר העתיקה עצמה, בנוי סביב גן יפני עם
-    בריכת קוי וספא מיי צ'י — ספא הריזורט הגדול בהוי אן.
+  area_he: לי טואנג קיאט 326, כרבע שעה הליכה צפון-מערבית לעיר העתיקה
+  what_he: ריזורט בריאות של 139 חדרים, כרבע שעה הליכה מהעיר העתיקה, בנוי סביב גן יפני
+    עם בריכת קוי וספא מיי צ'י - ספא הריזורט הגדול בהוי אן.
   why_he: מהמלונות המדורגים ביותר בהוי אן בכל דרגה (9.2 מלמעלה מ-2,400 ביקורות), אם
     כי חלק מהמבקרים מדרגים את החוויה בפועל קרוב יותר ל-4 כוכבים חזק מאשר ל-5 אמיתי
+  addr_vi: 326 Lý Thường Kiệt, Hội An, Đà Nẵng
 - name: Silkotel Hoi An
   tier: 4
   tier_official: true
@@ -69,6 +72,8 @@ hotels:
     מרחובות הנהר של העיר העתיקה.
   why_he: בחירת התמורה למחיר של המפרט להוי אן, מדורג 9.1 מ-1,700 ביקורות בערך בשני
     שלישים ממחיר ה-5 כוכבים בסגנון ריזורט
+  addr_vi: 14 Hùng Vương, Hội An, Đà Nẵng
+  name_vi: Silkotel Hội An
 - name: Lasenta Boutique Hotel Hoian
   tier: 4
   tier_official: true
@@ -95,57 +100,58 @@ hotels:
     אורז פתוחים, והסעה חופשית גם לעיר העתיקה וגם לחוף.
   why_he: הבחירה החלופית של המפרט לבריכת אינסוף עם נוף לשדות אורז, במחיר נמוך מלה
     סייסטה
+  addr_vi: Lý Thường Kiệt, Hội An Đông, Hội An, Đà Nẵng
 - name: Hoian Central Hotel
   tier: 3
   tier_official: true
   price_low: 30
   price_high: 69
   price_checked: '2026-08-16'
-  area: In the heart of Hoi An, steps from the riverside
+  area: 301 Nguyen Duy Hieu, about 5 minutes' walk from the Central Market
   what: A small hotel right in the town center with an outdoor pool and free bicycle
     rental, close enough to the Old Town's riverside streets to walk everywhere.
   why: One of the best-located officially-rated 3-star hotels in town, with ratings
     above many pricier properties
   confidence: medium
-  geocode_query: Hoian Central Hotel, Hoi An, Vietnam
+  geocode_query: 301 Nguyen Duy Hieu, Hoi An, Vietnam
   sources:
   - https://www.tripadvisor.com/Hotel_Review-g298082-d13737482-Reviews-Hoian_Central_Hotel-Hoi_An_Quang_Nam_Province.html
   - https://www.klook.com/hotels/detail/113919-hoian-central-hotel/
   coords:
-    lat: 15.8797503
-    lng: 108.319306
+    lat: 15.87785
+    lng: 108.33464
   name_he: הוי אן סנטרל
-  area_he: בלב הוי אן, צעדים מהנהר
+  area_he: נגוין זוי היאו 301, כחמש דקות הליכה מהשוק המרכזי
   what_he: מלון קטן ממש במרכז העיר עם בריכה חיצונית והשכרת אופניים חופשית, קרוב מספיק
     לרחובות הנהר של העיר העתיקה כדי ללכת לכל מקום.
   why_he: מהמלונות הממוקמים ביותר בעיר עם דירוג 3 כוכבים רשמי, ועם ציונים גבוהים מנכסים
     יקרים ממנו
+  coords_manual: true
+  location_precision: approximate
+  addr_vi: 301 Nguyễn Duy Hiệu, Hội An, Đà Nẵng
 - name: Little Town Villa
   tier: 3
   tier_official: true
   price_low: 25
   price_high: 130
   price_checked: '2026-08-16'
-  area: Near Hoi An Market, 5 minutes' walk from the Japanese Covered Bridge
-  what: A small villa-style property near the town market with a spa, outdoor pool
-    and restaurant, five minutes' walk from the Japanese Covered Bridge.
+  area: 239 Nguyen Duy Hieu, Cam Chau, about 7 minutes' walk to the Central Market
+  what: A small villa-style property with a spa, outdoor pool and restaurant, about
+    1 km east of the town centre.
   why: Rated 5/5 on Tripadvisor from hundreds of reviews despite its official 3-star
     classification - well above its price bracket
   confidence: medium
-  geocode_query: Little Town Villa, Hoi An, Vietnam
+  geocode_query: 239 Nguyen Duy Hieu, Hoi An, Vietnam
   sources:
   - https://www.tripadvisor.com/Hotel_Review-g298082-d12192622-Reviews-Little_Town_Villas-Hoi_An_Quang_Nam_Province.html
   - https://www.booking.com/hotel/vn/little-town-villa.html
-  coords:
-    lat: 15.8826344
-    lng: 108.3244197
-  location_precision: approximate
   name_he: ליטל טאון וילה
-  area_he: ליד שוק הוי אן, 5 דקות הליכה מהגשר היפני
-  what_he: נכס קטן בסגנון וילה ליד שוק העיר, עם ספא, בריכה חיצונית ומסעדה, חמש דקות
-    הליכה מהגשר היפני המקורה.
+  area_he: נגוין זוי היאו 239, קאם צ'או, כשבע דקות הליכה לשוק המרכזי
+  what_he: נכס קטן בסגנון וילה, עם ספא, בריכה חיצונית ומסעדה, כקילומטר מזרחית למרכז
+    העיר.
   why_he: מדורג 5 מתוך 5 בטריפאדוויזר ממאות ביקורות למרות סיווג 3 הכוכבים הרשמי שלו
     — הרבה מעל טווח המחיר
+  addr_vi: 239 Nguyễn Duy Hiệu, Hội An, Đà Nẵng
 must_see:
 - name: Hoi An Ancient Town and Japanese Covered Bridge
   area: Old Town, along the Thu Bon River
@@ -153,7 +159,8 @@ must_see:
     halls and merchant homes dating to the 16th-18th centuries, centred on the 18-metre
     wooden Japanese Covered Bridge that doubles as a small temple.
   why: The reason Hoi An exists on any itinerary - one of Southeast Asia's best-preserved
-    trading ports, UNESCO-listed since 1999
+    trading ports, UNESCO-listed since 1999. Riverside streets flood repeatedly in
+    November - up to 2 m in 2025; check the day's water level
   confidence: high
   geocode_query: Hoi An Ancient Town, Hoi An, Vietnam
   sources:
@@ -168,11 +175,13 @@ must_see:
     ובתי סוחרים מהמאות ה-16 עד ה-18, סביב הגשר היפני המקורה מעץ באורך 18 מטר שמשמש
     גם כמקדש קטן.
   why_he: הסיבה שהוי אן מופיעה בכל מסלול — אחד מנמלי המסחר המשומרים ביותר בדרום מזרח
-    אסיה, ברשימת אונסק"ו מאז 1999
+    אסיה, ברשימת אונסק"ו מאז 1999. רחובות הנהר מוצפים שוב ושוב בנובמבר - עד 2 מטר
+    ב-2025; לבדוק את מפלס המים באותו יום
   hours: Ticket booths 07:30 to about 20:00; the heritage houses and assembly halls
     themselves 08:30-18:00
   hours_he: דלפקי הכרטיסים 07:30 עד סביבות 20:00; הבתים ההיסטוריים ואולמות האספה עצמם
     08:30-18:00
+  limiter: flood
 - name: Ba Na Hills and Golden Bridge
   limiter: wind
   area: Ba Na Mountain, ~45 minutes west of Da Nang
@@ -251,7 +260,7 @@ attractions:
     of a palm forest that locals call Hoi An's green lung, usually including a spinning-boat
     performance and a net-fishing demonstration.
   why: A lighter, closer-to-town alternative to the Mekong Delta basket-boat experience,
-    and popular with families
+    and popular with families. Boats do not run on flood or typhoon days
   confidence: medium
   geocode_query: Cam Thanh Coconut Forest, Hoi An, Vietnam
   sources:
@@ -262,7 +271,8 @@ attractions:
   what_he: סירת סל עגולה מבמבוק שחותרים בה דרך תעלות המים של יער דקלים שהמקומיים קוראים
     לו הריאה הירוקה של הוי אן. בדרך כלל כולל מופע סירה מסתובבת והדגמת דיג ברשת.
   why_he: חלופה קלה וקרובה יותר לעיר לחוויית סירות הסל של דלתת המקונג, ופופולרית במיוחד
-    עם משפחות
+    עם משפחות. הסירות לא יוצאות בימי שיטפון או טייפון
+  limiter: flood
 street_food:
 - name: Banh Mi Phuong
   kind: vietnamese
@@ -338,51 +348,53 @@ street_food:
   kind: vietnamese
   signal: michelin_bib
   dish: My quang sua (turmeric noodles with jellyfish)
-  area: Da Nang
+  area: Da Nang, 59 Le Hong Phong, Hai Chau
   what: A stall serving my quang - central Vietnam's wide turmeric-yellow noodles
     in a shallow pool of broth rather than a soup - in the local jellyfish version,
     with peanuts and a sheet of grilled rice cracker.
   why: My quang is the dish of this province specifically, and the jellyfish version
     barely exists outside Da Nang
   confidence: medium
-  geocode_query: My Quang Sua Hong Van, Da Nang, Vietnam
+  geocode_query: 59 Le Hong Phong, Hai Chau, Da Nang, Vietnam
   sources:
   - https://guide.michelin.com/us/en/da-nang-region/restaurants/bib-gourmand
   - https://www.tripadvisor.com/Restaurants-g298085-Da_Nang.html
   coords:
-    lat: 16.0661233
-    lng: 108.229693
+    lat: 16.064079
+    lng: 108.220627
   name_he: מיי קוואנג הונג ואן
-  area_he: דה נאנג
+  area_he: דה נאנג, לה הונג פונג 59, האי צ'או
   what_he: דוכן שמגיש מיי קוואנג — האטריות הרחבות בצבע כורכום של מרכז ויאטנם, בשלולית
     מרק רדודה ולא כמרק — בגרסת המדוזה המקומית, עם בוטנים וגיליון קרקר אורז צלוי.
   why_he: מיי קוואנג היא המנה של המחוז הזה ספציפית, וגרסת המדוזה כמעט אינה קיימת מחוץ
     לדה נאנג
+  phone: '+84788492977'
+  coords_manual: true
 - name: Banh Beo - Banh Dap
   kind: vietnamese
   signal: michelin_bib
   dish: Banh beo and banh dap (steamed rice cakes, smashed rice paper)
-  area: Da Nang
+  area: Da Nang, 251 Phan Chau Trinh, Hai Chau
   what: A stall built on two central-coast snacks - small steamed rice cakes topped
     with dried shrimp, and a grilled rice cracker sandwiched with a soft wet sheet
     that you smash by hand before dipping.
   why: Banh dap is eaten by breaking it with your palm, which makes it the most fun
     dish on this list and one you will not find at home
   confidence: medium
-  geocode_query: Banh Beo Banh Dap, Da Nang, Vietnam
+  geocode_query: 251 Phan Chau Trinh, Hai Chau, Da Nang, Vietnam
   sources:
   - https://guide.michelin.com/us/en/da-nang-region/restaurants/bib-gourmand
   - https://www.tripadvisor.com/Restaurants-g298085-Da_Nang.html
   coords:
-    lat: 15.8844674
-    lng: 108.3303903
-  location_precision: approximate
+    lat: 16.0598894
+    lng: 108.2194858
   name_he: באן בייאו ובאן דאפ
-  area_he: דה נאנג
+  area_he: דה נאנג, פאן צ'או טרין 251, האי צ'או
   what_he: 'דוכן שבנוי סביב שני חטיפים של חוף המרכז: עוגיות אורז מאודות קטנות ומעליהן
     שרימפס מיובש, וקרקר אורז צלוי שבתוכו גיליון רך ולח, שמנפצים ביד לפני הטבילה.'
   why_he: את הבאן דאפ אוכלים בשבירה בכף היד, מה שהופך אותו למנה הכי כיפית ברשימה הזו
     ולכזו שלא תמצא בבית
+  coords_manual: true
 - name: Co Chu Nho
   kind: vietnamese
   signal: michelin_bib
@@ -447,9 +459,8 @@ restaurants:
   - https://guide.michelin.com/us/en/da-nang-region/da-nang_2984390/restaurant/la-maison-1888
   - https://www.danang.intercontinental.com/a-michelin-star-for-la-maison-1888/
   coords:
-    lat: 15.9040037
-    lng: 108.3326237
-  location_precision: approximate
+    lat: 16.1218937
+    lng: 108.3066406
   name_he: לה מזון 1888
   area_he: אינטרקונטיננטל דה נאנג, חצי האי סון טרה
   what_he: מסעדה צרפתית של פיין דיינינג בתוך שחזור של אחוזה קולוניאלית הודו-סינית
@@ -457,6 +468,7 @@ restaurants:
     ויפניים.
   why_he: המסעדה היחידה עם כוכב מישלן במרכז ויאטנם, בהובלת השף כריסטיאן לה סקווה,
     שהחזיק שלושה כוכבי מישלן בצרפת במשך 23 שנה
+  coords_manual: true
 - name: Thia Go
   kind: vietnamese
   signal: michelin_bib
@@ -508,24 +520,25 @@ restaurants:
   kind: vietnamese
   signal: michelin_bib
   dish: Vegetarian Vietnamese
-  area: Da Nang
+  area: Da Nang, 202 Hoang Dieu
   what: A vegetarian kitchen rebuilding central-Vietnamese dishes without meat or
     fish sauce, from noodle bowls to rice plates.
   why: Bib Gourmand vegetarian, and the fallback in a region whose cooking leans hard
     on fish sauce and pork
   confidence: medium
-  geocode_query: Ngoc Chi Vegetarian, Da Nang, Vietnam
+  geocode_query: 202 Hoang Dieu, Da Nang, Vietnam
   sources:
   - https://guide.michelin.com/us/en/da-nang-region/restaurants/bib-gourmand
   - https://www.tripadvisor.com/Restaurants-g298085-Da_Nang.html
   coords:
-    lat: 16.0650511
-    lng: 108.2227097
+    lat: 16.0620931
+    lng: 108.2174064
   name_he: נגוק צ'י
-  area_he: דה נאנג
+  area_he: דה נאנג, הואנג דיאו 202
   what_he: מטבח צמחוני שבונה מחדש מנות של מרכז ויאטנם בלי בשר ובלי רוטב דגים, מקערות
     אטריות ועד מנות אורז.
   why_he: ביב גורמנד צמחוני, והמפלט באזור שהבישול שלו נשען חזק על רוטב דגים ועל חזיר
+  coords_manual: true
 markets:
 - name: Hoi An Central Market
   area: Tran Phu Street, along the Thu Bon riverbank
@@ -610,9 +623,10 @@ logistics:
 nightlife:
 - name: Hoi An Old Town after dark
   area: Tran Phu, Nguyen Thai Hoc and Bach Dang, along the Hoai River
-  what: At dusk the electric lights in the old town are switched off and the silk
-    lanterns come on. The riverside lanes close to traffic and fill with people walking,
-    eating and floating paper candles on the water.
+  what: At dusk the silk lanterns come on and the riverside lanes close to traffic
+    and fill with people walking, eating and floating paper candles on the water.
+    Only on the 14th night of the lunar month - 22 November 2026 on this trip - are
+    the electric lights switched off.
   why: The town itself is the nightlife here - there is no single venue to book, and
     after 22:00 it quietly empties
   confidence: high
@@ -623,9 +637,9 @@ nightlife:
   - https://www.getyourguide.com/old-town-hoi-an-l228645/nightlife-bars-tc109/
   name_he: העיר העתיקה אחרי החשכה
   area_he: טראן פו, נגוין תאי הוק ובאק דאנג, לאורך נהר הואי
-  what_he: עם רדת הערב מכבים את התאורה החשמלית בעיר העתיקה ומדליקים את פנסי המשי.
-    הסמטאות שעל הנהר נסגרות לתנועה ומתמלאות באנשים שהולכים, אוכלים ומשלחים נרות נייר
-    על המים.
+  what_he: עם רדת הערב נדלקים פנסי המשי, והסמטאות שעל הנהר נסגרות לתנועה ומתמלאות
+    באנשים שהולכים, אוכלים ומשלחים נרות נייר על המים. רק בליל ה-14 בחודש הירחי - בטיול
+    הזה 22 בנובמבר 2026 - מכבים את התאורה החשמלית.
   why_he: העיר עצמה היא חיי הלילה כאן — אין מקום יחיד להזמין, ואחרי עשר בלילה היא
     מתרוקנת בשקט
 - name: Nguyen Hoang Night Market

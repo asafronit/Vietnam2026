@@ -1,0 +1,44 @@
+from: phu-quoc
+to: hoi-an
+reverse_ok: true
+note: Two nonstop flights a day from Phu Quoc to Da Nang, the only direct way between the island and the centre.
+note_he: שתי טיסות ישירות ביום מפו קוק לדה נאנג, הדרך הישירה היחידה בין האי למרכז.
+options:
+- mode: flight
+  operator: Sun PhuQuoc Airways
+  board:
+    name: Phu Quoc International Airport (PQC)
+    name_vi: "Sân bay quốc tế Phú Quốc"
+    address_vi: "Dương Tơ, Phú Quốc, An Giang"
+    address: Duong To, Phu Quoc
+    lat: 10.1727084
+    lng: 103.9921531
+  alight:
+    name: Da Nang International Airport (DAD)
+    address: Phan Thanh, Thanh Khe, Da Nang
+  departures: '2 nonstop flights a day; on 10/11/2026: 11:10 and 16:00'
+  departures_he: '2 טיסות ישירות ביום; ב-10/11/2026: 11:10 ו-16:00'
+  duration_min: 105
+  duration_max: 105
+  price_low: 48
+  price_high: 61
+  currency: USD
+  price_unit: per_person
+  book_links:
+  - name: Sun PhuQuoc Airways
+    url: https://www.sunphuquocairways.com/vn/en
+  pros:
+  - Under two hours instead of a connection in Saigon
+  cons:
+  - One airline, two flights
+  pros_he:
+  - פחות משעתיים במקום חיבור בסייגון
+  cons_he:
+  - חברה אחת, שתי טיסות
+  tips: 'Fares as shown for 10/11/2026: $48-61. Otherwise connect via Saigon (Phu Quoc to Saigon, then Saigon to
+    Da Nang).'
+  tips_he: 'המחירים כפי שהוצגו ל-10/11/2026: $48-61. אחרת לחבר דרך סייגון (פו קוק–סייגון ואז סייגון–דה נאנג).'
+  sources:
+  - https://www.google.com/travel/flights?q=Flights%20from%20PQC%20to%20DAD%20on%202026-11-10&curr=USD
+  checked: '2026-10-18'
+  confidence: medium

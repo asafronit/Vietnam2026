@@ -5,9 +5,10 @@ hotels:
   price_low: 97
   price_high: 200
   price_checked: '2026-08-16'
-  area: Long Beach, Ganh Dau
-  what: A large Marriott-chain beachfront resort on Long Beach with multiple pools,
-    several restaurants and direct sand access.
+  area: Bai Dai, Ganh Dau (north-west), about 45 minutes from the airport
+  what: A large Marriott-chain beachfront resort on Bai Dai in the island's north-west,
+    with multiple pools, several restaurants and direct sand access - despite the
+    name, not on Long Beach.
   why: Officially rated 5-star with an international chain standard, and its entry-level
     rooms stay under the trip's price cap despite the brand
   confidence: high
@@ -19,11 +20,12 @@ hotels:
     lat: 10.3375473
     lng: 103.8498843
   name_he: שרתון לונג ביץ'
-  area_he: לונג ביץ', גאן דאו
-  what_he: ריזורט חוף גדול של רשת מריוט על לונג ביץ', עם כמה בריכות, מסעדות אחדות
-    וגישה ישירה לחול.
+  area_he: באי דאי, גאן דאו (צפון-מערב), כ-45 דקות משדה התעופה
+  what_he: ריזורט חוף גדול של רשת מריוט בבאי דאי שבצפון-מערב האי, עם כמה בריכות, מסעדות
+    אחדות וגישה ישירה לחול - למרות השם, לא על לונג ביץ'.
   why_he: מדורג רשמית 5 כוכבים בסטנדרט של רשת בינלאומית, וחדרי הכניסה שלו נשארים מתחת
     לתקרת המחיר של הטיול למרות המותג
+  addr_vi: Đường tỉnh 975B, Gành Dầu, Phú Quốc, An Giang
 - name: Dusit Princess Moonrise Beach Resort
   tier: 5
   tier_official: false
@@ -48,6 +50,7 @@ hotels:
     והסעה חופשית. מדורג המלון המוביל ברובע שלו לפי ביקורות מטיילים.
   why_he: משווק ומדורג כ-5 כוכבים ע"י הריזורט וע"י מחקר סוכנות עצמאי, אם כי אתר הזמנות
     אחד מתאר אותו כבנוי לתקן 4 כוכבים — ולכן מסומן כאן כהצהרה עצמית
+  addr_vi: Trần Hưng Đạo, Cửa Lấp, Dương Tơ, Phú Quốc, An Giang
 - name: L'Azure Resort and Spa
   tier: 4
   tier_official: true
@@ -73,6 +76,7 @@ hotels:
     בנוי בגובה נמוך ועתיר גינון ולא כמגדל.
   why_he: 4 כוכבים רשמיים עם ציון אורחים 9.4 עד 9.5, וה-4 כוכבים המדורג ביותר באופן
     עקבי במאגר
+  addr_vi: Trần Hưng Đạo, Dương Đông, Phú Quốc, An Giang
 - name: AVS Hotel Phu Quoc
   tier: 4
   tier_official: true
@@ -98,6 +102,7 @@ hotels:
     ספא והסעות לשדה התעופה.
   why_he: 4 כוכבים רשמיים, ומדורג בעשרים המלונות המובילים באי לפי ביקורות אורחים למרות
     מחיר שצמוד לתקציבי
+  addr_vi: Trần Hưng Đạo, Dương Đông, Phú Quốc, An Giang
 - name: Hung Vuong Resort
   tier: 3
   tier_official: true
@@ -119,6 +124,7 @@ hotels:
   what_he: ריזורט קטן עם 3 כוכבים רשמיים, עם בריכה וחדרי גן, הרבה מתחת לטווח המחירים
     של רצועת הריזורטים.
   why_he: 3 כוכבים רשמיים ועם זאת ציוני אורחים אופייניים לדרגה גבוהה בהרבה
+  addr_vi: 1/39 Hẻm 182A Trần Phú, Dương Đông, Phú Quốc, An Giang
 - name: Dao Ngoc Hotel
   tier: 3
   tier_official: true
@@ -141,6 +147,8 @@ hotels:
     משוק הלילה ומחוף דין קאו.
   why_he: 3 כוכבים רשמיים עם המיקום המרכזי ביותר מבין האפשרויות התקציביות, ובמרחק
     הליכה משוק הלילה
+  addr_vi: Dương Đông, gần chợ đêm Dinh Cậu, Phú Quốc, An Giang
+  addr_vi_partial: true
 must_see:
 - name: Hon Thom Cable Car
   limiter: wind
@@ -271,16 +279,16 @@ diving:
     metres maximum, about 25 minutes a dive, age 10 and up, barred for heart, lung
     or blood-pressure conditions and pregnancy.
   why: The only quoted price in this tab, and it sits inside the normal Phu Quoc range
-    of 90 to 130 USD for two fun dives. Two things are still open - the club has not
-    given a phone number or website, and the quote prices a certified diver, not the
-    Discover Scuba slot, so that figure needs asking for. Note also that two agencies
-    already offered An Thoi diving inside their packages, so check you are not buying
-    the same day twice
+    of 90 to 130 USD for two fun dives. John's Tours is a long-running tour agency
+    (office at 143 Tran Hung Dao, Duong Dong; also 0948 222 111 and Zalo) - confirm
+    it runs scuba itself, and ask for the Discover Scuba price. Two agencies already
+    offered An Thoi diving inside their packages, so check you are not buying the
+    same day twice. Do not dive within 18-24 hours of a flight
   confidence: high
   price_low: 110
   price_unit: per_person
   price_checked: '2026-06-30'
-  geocode_query: An Thoi harbour, Phu Quoc, Vietnam
+  geocode_query: John's Tours, 143 Tran Hung Dao, Duong Dong, Phu Quoc, Vietnam
   sources:
   - https://localvietnam.com/phu-quoc/diving-in-phu-quoc/
   name_he: ג'ונס טורס — ההצעה שבתיק
@@ -291,15 +299,17 @@ diving:
     למדריך על הסירה במזומן, בהעברה בנקאית ויאטנמית, או בכרטיס דרך OnePay בתוספת שלושה
     אחוזים. לצולל לא מוסמך הוא מפעיל צלילת היכרות אחד על אחד, עד שישה מטרים, כ-25
     דקות לצלילה, מגיל עשר, ואסור במחלות לב, ריאות או לחץ דם ובהריון.'
-  why_he: 'המחיר הנקוב היחיד בטאב הזה, והוא יושב בתוך הטווח הרגיל בפו קוק של 90 עד
-    130 דולר לשתי צלילות הנאה. שני דברים עדיין פתוחים — המועדון לא נתן טלפון או אתר,
-    וההצעה מתמחרת צולל מוסמך ולא את מקום צלילת ההיכרות, ולכן את המספר ההוא צריך לבקש.
-    לידיעה גם: שתי סוכנויות כבר הציעו צלילה באן תוי בתוך החבילות שלהן, לכן לבדוק שלא
-    קונים את אותו יום פעמיים'
+  why_he: המחיר הנקוב היחיד בטאב הזה, והוא בתוך הטווח הרגיל בפו קוק של 90 עד 130 דולר
+    לשתי צלילות הנאה. ג'ונס טורס היא סוכנות טיולים ותיקה (משרד בטראן הונג דאו 143,
+    דואונג דונג; גם 0948 222 111 וזאלו) - לוודא שהיא מפעילה צלילה בעצמה, ולבקש את
+    מחיר צלילת ההיכרות. שתי סוכנויות כבר הציעו צלילה באן תוי בתוך החבילות שלהן, לכן
+    לבדוק שלא קונים את אותו יום פעמיים. לא לצלול 18-24 שעות לפני טיסה
   coords:
     lat: 10.1942845
     lng: 103.9674837
   location_precision: approximate
+  phone: '+84974990999'
+  email: salemanager.johnstours@phuquoctrip.com
 - name: Hon Thom (Pineapple Island) dive sites
   area: An Thoi archipelago, below the cable car
   what: Two separate sites on the same island. North Pineapple Point reaches about
@@ -401,27 +411,29 @@ markets:
   what: A single-street night market where diners pick live fish, crab or squid from
     tanks to be grilled or steamed to order, alongside stalls selling herring salad,
     banh xeo pancakes and grilled scallops.
-  why: The island's main after-dark food destination since its 2016 merger with the
-    old Dinh Cau market, and the best single stop for trying local seafood specialties
-    in one place
+  why: The island's main after-dark food destination - but the Bach Dang market lease
+    ended on 31/12/2025, trading was suspended after Tet 2026 and a move is being
+    considered. Check that it is running before going; Grand World in Bai Dai has
+    its own night market street
   confidence: high
   geocode_query: Phu Quoc Night Market, Duong Dong, Phu Quoc, Vietnam
   sources:
   - https://www.baconismagic.ca/vietnam/phu-quoc-night-market/
   - https://vinwonders.com/en/wonderpedia/news/phu-quoc-night-market/
   coords:
-    lat: 10.3242259
-    lng: 103.8581673
-  location_precision: approximate
+    lat: 10.2163
+    lng: 103.9606
   name_he: שוק הלילה דין קאו
   area_he: דואונג דונג, רחוב באק דאנג
   what_he: שוק לילה ברחוב אחד שבו הסועדים בוחרים דגים, סרטנים או דיונונים חיים מהבריכות
     כדי שייצלו או יאודו לפי הזמנה, לצד דוכנים שמוכרים סלט הרינג, פנקייק באן שאו וצדפות
     צלויות.
-  why_he: יעד האוכל המרכזי של האי אחרי החשכה מאז המיזוג ב-2016 עם שוק דין קאו הישן,
-    והעצירה היחידה הטובה ביותר לטעום את מיוחדי פירות הים המקומיים במקום אחד
+  why_he: יעד האוכל המרכזי של האי אחרי החשכה - אבל חוזה שוק באק דאנג הסתיים ב-31/12/2025,
+    הפעילות הושעתה אחרי טט 2026 ושוקלים להעביר אותו. לבדוק שהוא פועל לפני שהולכים;
+    ב-Grand World בבאי דאי יש רחוב שוק לילה משלו
   hours: From about 17:00 until midnight, daily
   hours_he: מסביבות 17:00 עד חצות, כל יום
+  coords_manual: true
 logistics:
 - name: Grab and taxi from Phu Quoc International Airport
   area: Phu Quoc International Airport (PQC), about 10 km south of Duong Dong
@@ -450,22 +462,23 @@ restaurants:
   kind: vietnamese
   signal: traveler_recommended
   dish: Fresh seafood, sea view dining
-  area: Duong Dong, 30 Thang 4 Street
+  area: Duong Dong, 66 Tran Hung Dao
   what: An open-air seafood restaurant with tank-to-table dining overlooking the sea,
     popular for sunset and evening meals.
   why: One of the most consistently traveler-recommended seafood restaurants on the
     island for its combination of view and quality
   confidence: medium
-  geocode_query: Xin Chao Seafood Restaurant, Duong Dong, Phu Quoc, Vietnam
+  geocode_query: Xin Chao Seafood, 66 Tran Hung Dao, Phu Quoc, Vietnam
   sources:
   - https://kampatour.com/phu-quoc-restaurants
   name_he: שין צ'או
-  area_he: דואונג דונג, רחוב 30 באפריל
+  area_he: דואונג דונג, טראן הונג דאו 66
   what_he: מסעדת פירות ים פתוחה שבה בוחרים מהבריכה אל השולחן, עם נוף לים, פופולרית
     לשקיעה ולארוחות ערב.
   why_he: ממסעדות פירות הים המומלצות ביותר באי באופן עקבי, בזכות השילוב של נוף ואיכות
   hours: 11:00-21:30 daily
   hours_he: 11:00-21:30 כל יום
+  phone: '+84901283766'
 - name: Ra Khoi Seafood Restaurant
   kind: vietnamese
   signal: traveler_recommended

@@ -1,0 +1,91 @@
+from: hue
+to: hanoi
+reverse_ok: true
+note: About 80 minutes by air with three flights a day, or 13-15 hours on an overnight train.
+note_he: כ-80 דקות בטיסה עם שלוש טיסות ביום, או 13-15 שעות ברכבת לילה.
+options:
+- mode: flight
+  operator: Vietnam Airlines
+  board:
+    name: Phu Bai International Airport (HUI)
+    name_vi: "Sân bay quốc tế Phú Bài"
+    address_vi: "Đường Lê Trọng Tấn, Phú Bài, Huế"
+    address: Le Trong Tan, Phu Bai, Hue
+    lat: 16.399655
+    lng: 107.7054596
+  alight:
+    name: Noi Bai International Airport (HAN)
+    address: Soc Son, Hanoi
+  departures: '3 nonstop flights a day each way; Hanoi to Hue on 10/11/2026: 05:55, 16:30, 20:00'
+  departures_he: '3 טיסות ישירות ביום בכל כיוון; מהאנוי להואה ב-10/11/2026: 05:55, 16:30, 20:00'
+  duration_min: 80
+  duration_max: 80
+  price_low: 54
+  price_high: 97
+  currency: USD
+  price_unit: per_person
+  book_links:
+  - name: Vietnam Airlines
+    url: https://www.vietnamairlines.com/
+  pros:
+  - Short flight, airport 25 minutes from the city
+  cons:
+  - Only Vietnam Airlines flies it nonstop
+  pros_he:
+  - טיסה קצרה, השדה 25 דקות מהעיר
+  cons_he:
+  - רק Vietnam Airlines טסה בקו ישיר
+  tips: 'Fares as shown for 10/11/2026: $54-97. If Hue has no seat, Da Nang (1.5-2 hours by road) has about 20 flights
+    a day to Hanoi.'
+  tips_he: 'המחירים כפי שהוצגו ל-10/11/2026: $54-97. אם אין מקום מהואה, מדה נאנג (1.5-2 שעות בכביש) יש כ-20 טיסות
+    ביום להאנוי.'
+  sources:
+  - https://www.google.com/travel/flights?q=Flights%20from%20HAN%20to%20HUI%20on%202026-11-10&curr=USD
+  checked: '2026-10-18'
+  confidence: high
+- mode: sleeper_train
+  operator: Vietnam Railways (SE4 / SE2 / SE20)
+  board:
+    name: Hue Railway Station
+    name_vi: "Ga Huế"
+    address_vi: "2 Bùi Thị Xuân, Huế"
+    address: 2 Bui Thi Xuan, Hue
+    lat: 16.4564476
+    lng: 107.5780522
+  alight:
+    name: Hanoi Railway Station
+    address: 120 Le Duan, Hanoi
+  departures: SE4 about 15:10 (arr. about 04:40), SE2 about 16:08 (arr. about 05:45), SE20 about 20:38 (arr. about
+    11:10); confirm on dsvn.vn
+  departures_he: SE4 בסביבות 15:10 (הגעה בערך 04:40), SE2 בסביבות 16:08 (הגעה בערך 05:45), SE20 בסביבות 20:38 (הגעה
+    בערך 11:10); לאשר ב-dsvn.vn
+  duration_min: 810
+  duration_max: 900
+  price_low: 20
+  price_high: 60
+  currency: USD
+  price_unit: per_person
+  book_links:
+  - name: Vietnam Railways
+    url: https://dsvn.vn/
+  - name: Baolau
+    url: https://www.baolau.com/en/s/Hue/Hanoi/
+  pros:
+  - SE20 leaves late and arrives mid-morning, a full night's sleep
+  - Station is in the city
+  cons:
+  - 13-15 hours
+  - SE4 arrives before 05:00
+  pros_he:
+  - SE20 יוצאת מאוחר ומגיעה באמצע הבוקר, לילה שלם של שינה
+  - התחנה בתוך העיר
+  cons_he:
+  - 13-15 שעות
+  - SE4 מגיעה לפני 05:00
+  tips: In flood season the line through Quang Tri can close for a day or two; check before leaving.
+  tips_he: בעונת השיטפונות הקו דרך קוואנג טרי יכול להיסגר ליום-יומיים; לבדוק לפני היציאה.
+  sources:
+  - https://www.baolau.com/en/s/Hue/Hanoi/
+  - https://north-vietnam.com/?p=43595
+  checked: '2026-10-18'
+  confidence: medium

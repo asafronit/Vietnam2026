@@ -10,6 +10,8 @@ options:
   operator: A21 Tours
   board:
     name: A21 meeting point (or pickup in central Hue)
+    name_vi: "Điểm hẹn A21"
+    address_vi: "35 Bến Nghé, Huế"
     address: 35 Ben Nghe, Hue
     lat: 16.4659406
     lng: 107.5946252
@@ -45,6 +47,8 @@ options:
   operator: Vietnam Railways (Hue - Da Nang) + Grab to Hoi An
   board:
     name: Hue Railway Station
+    name_vi: "Ga Huế"
+    address_vi: "2 Bùi Thị Xuân, Huế"
     address: 2 Bui Thi Xuan, Hue
     lat: 16.4564476
     lng: 107.5780522
@@ -92,8 +96,8 @@ options:
   departures_he: "מתי שרוצים; חצי יום עם עצירות"
   duration_min: 180
   duration_max: 300
-  price_low: 55
-  price_high: 80
+  price_low: 65
+  price_high: 85
   currency: USD
   price_unit: per_vehicle
   book_links:
@@ -107,13 +111,13 @@ options:
   - מעל מעבר האי ואן, עם עצירות בפסגה, בחוף לאנג קו ובהרי השיש
   cons_he:
   - יותר מהוואן לאחד או שניים
-  tips: About $55-65 for a 4-seat sedan and $65-80 for a 7-seat SUV.
-  tips_he: בערך $55-65 לסדאן של 4 מקומות ו-$65-80 לרכב שטח של 7.
+  tips: "A21 lists $75 for a sedan and $85 for an SUV. In November the pass can be closed or dangerous in fog, heavy rain and landslides; check the day before."
+  tips_he: "ב-A21 המחיר $75 לסדאן ו-$85 לרכב שטח. בנובמבר המעבר יכול להיות סגור או מסוכן בערפל, בגשם כבד ובמפולות; לבדוק יום לפני."
   sources:
   - https://explorevietnam.com.vn/hoi-an/hoi-an-to-hue-by-private-car/
   - https://a21tours.com/ticket/hoi-an-to-hue-scenic-car
   - https://vietnamstory.in/hai-van-pass/
-  checked: '2026-10-07'
+  checked: "2026-10-16"
   confidence: medium
 - mode: combo
   operator: Easy rider (motorbike with a driver; Mr Vu Easy Rider and others)
@@ -126,7 +130,7 @@ options:
   duration_min: 360
   duration_max: 420
   price_low: 50
-  price_high: 63
+  price_high: 65
   currency: USD
   price_unit: per_person
   book_links:

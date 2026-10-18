@@ -25,6 +25,8 @@ hotels:
     נין קייאו ושוק הלילה. נקרא בעבר וינפרל קאן טו לפני המיתוג מחדש תחת מריוט.
   why_he: ה-5 כוכבים היחיד של רשת בינלאומית בדלתת המקונג, ומאושר כמדורג רשמית בכמה
     מקורות עצמאיים
+  addr_vi: 209 Đường 30 Tháng 4, Ninh Kiều, Cần Thơ
+  name_vi: Sheraton Cần Thơ
 - name: Muong Thanh Luxury Can Tho Hotel
   tier: 5
   tier_official: false
@@ -47,6 +49,7 @@ hotels:
     בריכה וחדר כושר שמשקיפים על נהר קאן טו.
   why_he: אפשרות ה-5 כוכבים הזולה ביותר בדלתה, אם כי ביקורות האורחים מציינות שהחדרים
     מרגישים מיושנים ביחס לטענת הכוכבים
+  addr_vi: Khu E1, Cồn Cái Khế, Ninh Kiều, Cần Thơ
 - name: Victoria Can Tho Resort
   tier: 4
   tier_official: true
@@ -73,6 +76,8 @@ hotels:
     שמשקיפה על נהר קאן טו וסיורי סירה יומיים משלו במקונג לאורחים.
   why_he: רשת הריזורטים הקונבנציונלית המוערכת ביותר בדלתה, מדורגת רשמית ומשובחת דרך
     קבע על פני מלונות הכנסים הגדולים בעיר
+  addr_vi: Cái Khế, Ninh Kiều, Cần Thơ
+  name_vi: Victoria Cần Thơ Resort
 - name: Can Tho Ecolodge
   tier: 4
   tier_official: false
@@ -99,6 +104,7 @@ hotels:
     הצגה אחראית של הדלתה סביבו ולא כמגדל מלון רגיל.
   why_he: אפשרות האקו-לודג' הדומה ביותר לריזורט באזור, מדורגת שלישית באכסניות המיוחדות
     של קאן טו עם ביקורות חזקות באופן עקבי
+  addr_vi: Cầu Ba Láng, Cái Răng, Cần Thơ
 - name: Bamboo Eco Village
   tier: 3
   tier_official: true
@@ -123,6 +129,7 @@ hotels:
   what_he: מלון אקולוגי קטן עם 3 כוכבים רשמיים, עם גן, בריכה ואופניים לאורחים, בנוי
     בסביבת מטעים ותעלות ולא במרכז העיר.
   why_he: 3 כוכבים רשמיים עם ביקורות חזקות במיוחד לדרגה, ומשובח שוב ושוב על הגן והבריכה
+  addr_vi: Bông Vang, An Bình, Cần Thơ
 - name: Mekong Silt Ecolodge
   tier: 3
   tier_official: false
@@ -145,6 +152,7 @@ hotels:
     בהובלת הצוות אל חלקים לא שגרתיים של הדלתה.
   why_he: משובח דרך קבע על סיורים מקומיים אמיתיים מחוץ למסלול התיירים, ולא על מעגל
     סירות התעלות הארוז הסטנדרטי
+  addr_vi: Nguyễn Văn Cừ, Mỹ Khánh, Phong Điền, Cần Thơ
 must_see:
 - name: Cai Rang Floating Market
   area: Cai Rang, about 6 km southwest of central Can Tho
@@ -182,7 +190,8 @@ must_see:
     על המים עד 05:00
 attractions:
 - name: My Tho and Ben Tre coconut candy village
-  area: My Tho and Ben Tre provinces, upper Mekong Delta
+  area: My Tho (now Dong Thap province) and Ben Tre (now Vinh Long province), upper
+    Mekong Delta
   what: A river-island circuit reached by motorboat and narrow-canal sampan (a small
     wooden boat rowed by a boatman in a conical hat), stopping at a small workshop
     where coconut milk is hand-cooked and cut into candy while still warm.
@@ -193,16 +202,17 @@ attractions:
   sources:
   - https://viet-go.com/en/attractions/my-tho-ben-tre-mekong-delta-guide
   coords:
-    lat: 10.0163692
-    lng: 105.7379094
+    lat: 10.2361
+    lng: 106.3764
   location_precision: approximate
   name_he: מיי טו ובן טרה, כפר ממתקי הקוקוס
-  area_he: מחוזות מיי טו ובן טרה, צפון דלתת המקונג
+  area_he: מיי טו (היום מחוז דונג טאפ) ובן טרה (היום מחוז וין לונג), צפון דלתת המקונג
   what_he: מעגל איי נהר שמגיעים אליו בסירת מנוע ובסמפן — סירת עץ קטנה שמשייט בה שייט
     בכובע חרוטי — בתעלות צרות, עם עצירה בבית מלאכה קטן שבו חלב קוקוס מבושל ביד ונחתך
     לממתק בעודו חם.
   why_he: החלופה הקלאסית והעדינה יותר לקאן טו לביקור מקונג של יום אחד, והדרך הסטנדרטית
     לראות ייצור ממתקי קוקוס בעבודת יד
+  coords_manual: true
 - name: Vinh Trang Pagoda
   area: My Tho
   what: A 19th-century Buddhist pagoda recognised as a national historical relic,

@@ -11,6 +11,8 @@ options:
   op_lang: vi
   board:
     name: Hung Thanh bus office, Phong Nha town centre
+    name_vi: "Văn phòng nhà xe Hưng Thành"
+    address_vi: "Trung tâm Phong Nha, Quảng Trị"
     address: Phong Nha town centre, Quang Binh
     lat: 17.6113791
     lng: 106.3069337
@@ -51,6 +53,8 @@ options:
   operator: Bus B4 or taxi to Dong Hoi + Vietnam Railways
   board:
     name: Dong Hoi Railway Station
+    name_vi: "Ga Đồng Hới"
+    address_vi: "Thuận Lý, Đồng Hới, Quảng Trị"
     address: Thuan Ly, Dong Hoi
     lat: 17.4689199
     lng: 106.5997285

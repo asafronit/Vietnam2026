@@ -10,6 +10,8 @@ options:
   op_lang: vi
   board:
     name: Bang Phan office
+    name_vi: "Văn phòng nhà xe Bằng Phấn"
+    address_vi: "100 Trần Phú, Hà Giang, Tuyên Quang"
     address: 100 Tran Phu, Ha Giang
     lat: 22.8297615
     lng: 104.9878831
@@ -52,6 +54,8 @@ options:
   op_lang: vi
   board:
     name: Quang Nghi bus office (Nha Xe Quang Nghi)
+    name_vi: "Nhà xe Quang Nghị"
+    address_vi: "60 Minh Khai, Hà Giang, Tuyên Quang"
     address: 60 Minh Khai, Ha Giang
     lat: 22.8187313
     lng: 104.9853533

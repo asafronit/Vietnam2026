@@ -1,0 +1,46 @@
+from: hoi-an
+to: da-lat
+reverse_ok: true
+note: One morning flight a day from Da Nang. By road it is 12-14 hours, which is why route B and C plans fly.
+note_he: טיסת בוקר אחת ביום מדה נאנג. בכביש זה 12-14 שעות, ולכן מסלולים B ו-C טסים.
+options:
+- mode: flight
+  operator: Vietnam Airlines
+  board:
+    name: Da Nang International Airport (DAD)
+    name_vi: "Sân bay quốc tế Đà Nẵng"
+    address_vi: "Sân bay quốc tế Đà Nẵng, Đà Nẵng"
+    address: Phan Thanh, Thanh Khe, Da Nang
+    lat: 16.0425792
+    lng: 108.1971613
+  alight:
+    name: Lien Khuong International Airport (DLI)
+    address: Lien Khuong, Hiep Thanh, Lam Dong
+  departures: '1 nonstop flight a day: VN1955 06:00, arrives 07:10'
+  departures_he: 'טיסה ישירה אחת ביום: VN1955 ב-06:00, נוחתת ב-07:10'
+  duration_min: 70
+  duration_max: 70
+  price_low: 56
+  price_high: 56
+  currency: USD
+  price_unit: per_person
+  book_links:
+  - name: Vietnam Airlines
+    url: https://www.vietnamairlines.com/
+  pros:
+  - Saves a full day on the road
+  cons:
+  - 06:00 departure means leaving Hoi An at about 04:30
+  - No second flight if it is missed
+  pros_he:
+  - חוסך יום שלם בכביש
+  cons_he:
+  - יציאה ב-06:00 פירושה לצאת מהוי אן בערך ב-04:30
+  - אין טיסה שנייה אם מפספסים
+  tips: 'Fare as shown for 10/11/2026: $56. The alternative is a connection through Saigon (Da Nang to Saigon, then
+    Saigon to Da Lat).'
+  tips_he: 'המחיר כפי שהוצג ל-10/11/2026: $56. החלופה היא חיבור דרך סייגון (דה נאנג–סייגון ואז סייגון–דה לאט).'
+  sources:
+  - https://www.google.com/travel/flights?q=Flights%20from%20DAD%20to%20DLI%20on%202026-11-10&curr=USD
+  checked: '2026-10-18'
+  confidence: medium

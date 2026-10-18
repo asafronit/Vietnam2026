@@ -10,6 +10,8 @@ options:
   operator: VIP sleeper buses (Bang Phan, Quang Nghi, Cau Me and others)
   board:
     name: My Dinh Bus Station (Ben xe My Dinh)
+    name_vi: "Bến xe Mỹ Đình"
+    address_vi: "20 Phạm Hùng, Nam Từ Liêm, Hà Nội"
     address: 20 Pham Hung, My Dinh 2, Nam Tu Liem, Hanoi
     lat: 21.0280235
     lng: 105.7784787

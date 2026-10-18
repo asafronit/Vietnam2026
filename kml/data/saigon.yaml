@@ -21,6 +21,7 @@ hotels:
     על קו הרקיע של מחוז 1.
   why_he: ה-5 כוכבים הבוטיקי המדורג ביותר מבין ארבע הצעות הסוכנויות, והקרוב ביותר
     לבן תאן
+  addr_vi: 180-188 Lý Tự Trọng, Bến Thành, Quận 1, TP. Hồ Chí Minh
 - name: Hotel Des Arts Saigon - MGallery
   tier: 5
   tier_official: true
@@ -48,6 +49,7 @@ hotels:
     בריכת אינסוף על הגג וחזית קולוניאלית צרפתית, במרחק הליכה קצר מקתדרלת נוטרדאם.
   why_he: 5 כוכבים של רשת אקור עם דירוג שהוענק רשמית, ומוזכר כחלופה במחקר המלונות
     המאומת של הפרויקט
+  addr_vi: 76-78 Nguyễn Thị Minh Khai, Quận 3, TP. Hồ Chí Minh
 - name: Liberty Central Saigon Riverside
   tier: 4
   tier_official: true
@@ -70,6 +72,7 @@ hotels:
     סנטרל, עם בריכת גג וחדר כושר.
   why_he: דירוג אמין של רשת ביניים בכמחצית ממחיר בחירות ה-5 כוכבים, עם סיווג 4 כוכבים
     עקבי בכל פלטפורמות ההזמנה
+  addr_vi: 17 Tôn Đức Thắng, Bến Nghé, Quận 1, TP. Hồ Chí Minh
 - name: Sky Gem Hotel - Ben Thanh
   tier: 4
   tier_official: false
@@ -92,6 +95,7 @@ hotels:
     עם חדרים נטולי עישון ומרפסת גג.
   why_he: צוין בהצעת סוכנות עצמאית כבחירת ה-4 כוכבים שלה, והמלון הזול במאגר עם דירוג
     עצמי אמיתי של 4 כוכבים
+  addr_vi: 48-50 Thủ Khoa Huân, Bến Thành, Quận 1, TP. Hồ Chí Minh
 - name: Silverland Central Hotel
   tier: 3
   tier_official: true
@@ -118,6 +122,7 @@ hotels:
     חלק מקבוצת המלונות הוותיקה סילברלנד, עם בר גג בשם OMG.
   why_he: מסווג רשמית 3 כוכבים ולא מוצהר עצמית, עם עשור של דירוגי עשירייה פותחת בקטגוריה
     בעיר
+  addr_vi: Đường Nguyễn An Ninh, Bến Thành, Quận 1, TP. Hồ Chí Minh
 - name: Bong Sen Hotel Saigon
   tier: 3
   tier_official: true
@@ -142,6 +147,8 @@ hotels:
   what_he: מלון 3 כוכבים של 120 חדרים ברחוב דונג קוי, רחוב הקניות הראשי של העיר, עם
     שלוש מסעדות וחדר כושר קטן.
   why_he: 3 כוכבים רשמיים באותו רחוב שבו נמצאות בחירות ה-5 כוכבים, בשבריר מהמחיר
+  addr_vi: Đường Đồng Khởi, Quận 1, TP. Hồ Chí Minh
+  name_vi: Khách sạn Bông Sen Sài Gòn
 must_see:
 - name: Reunification Palace
   area: District 1
@@ -325,41 +332,40 @@ street_food:
   kind: vietnamese
   signal: michelin_bib
   dish: Pho bo, southern style
-  area: District 3
+  area: Tan Dinh ward (former Da Kao, District 1), 25 Hoang Sa
   what: A southern pho counter, sweeter and more herb-heavy than the Hanoi version,
     served with the plate of bean sprouts, basil and lime that the north leaves off.
   why: Eating this after Hanoi's pho is the fastest way to taste how far apart the
     two halves of the country actually are
   confidence: medium
-  geocode_query: Pho Phuong, District 3, Ho Chi Minh City, Vietnam
+  geocode_query: Pho Phuong, 25 Hoang Sa, Tan Dinh, Ho Chi Minh City, Vietnam
   sources:
   - https://guide.michelin.com/us/en/ho-chi-minh/restaurants/bib-gourmand
   - https://www.tripadvisor.com/Restaurants-g293925-Ho_Chi_Minh_City.html
-  coords:
-    lat: 10.7747697
-    lng: 106.7007331
   name_he: פו פואונג
-  area_he: מחוז 3
+  area_he: רובע טאן דין (דה קאו לשעבר, מחוז 1), הואנג סה 25
   what_he: דלפק פו דרומי, מתוק יותר ועתיר עשבים יותר מהגרסה של האנוי, שמוגש עם צלחת
     הנבטים, הבזיליקום והליים שהצפון מוותר עליה.
   why_he: לאכול את זה אחרי הפו של האנוי הוא הדרך המהירה ביותר לטעום כמה רחוקים שני
     חצאי המדינה זה מזה
+  hours: 05:00-20:30; Monday 05:00-14:00
+  hours_he: 05:00-20:30; ביום שני 05:00-14:00
 - name: Bun Bo Hue 14B
   kind: vietnamese
   signal: michelin_bib
   dish: Bun bo Hue (spicy beef and lemongrass noodle soup)
-  area: District 1
+  area: Former District 4, 14B Street 46
   what: A shop serving the central-Vietnamese lemongrass-and-chilli beef noodle soup,
     thicker round noodles and a far hotter broth than pho.
   why: A chance to eat Hue's signature dish properly even if the weather in Hue itself
     does not cooperate
   confidence: medium
-  geocode_query: Bun Bo Hue 14B, District 1, Ho Chi Minh City, Vietnam
+  geocode_query: Bun Bo Hue 14B, Duong so 46, Ho Chi Minh City, Vietnam
   sources:
   - https://guide.michelin.com/us/en/ho-chi-minh/restaurants/bib-gourmand
   - https://www.tripadvisor.com/Restaurants-g293925-Ho_Chi_Minh_City.html
   name_he: בון בו הואה 14B
-  area_he: מחוז 1
+  area_he: מחוז 4 לשעבר, רחוב 46 מספר 14B
   what_he: חנות שמגישה את מרק אטריות הבקר של מרכז ויאטנם, על בסיס למון גראס וצ'ילי,
     עם אטריות עגולות ועבות יותר ומרק חריף בהרבה מפו.
   why_he: הזדמנות לאכול את מנת החתימה של הואה כמו שצריך, גם אם מזג האוויר בהואה עצמה
@@ -446,11 +452,11 @@ restaurants:
   kind: vietnamese
   signal: michelin_bib
   dish: Vegetarian Vietnamese
-  area: District 1
+  area: Thao Dien (An Khanh ward), 32 D10 Street
   what: A garden restaurant serving plated vegetarian Vietnamese food - lotus, tofu,
     mushroom and herb dishes - in a quiet courtyard away from the traffic.
-  why: Saigon's Bib Gourmand vegetarian address, and one of the few genuinely calm
-    dining rooms in District 1
+  why: Saigon's Bib Gourmand vegetarian address, and one of the calmest dining rooms
+    in the city, in Thao Dien rather than District 1
   confidence: medium
   geocode_query: Hum Garden, District 1, Ho Chi Minh City, Vietnam
   sources:
@@ -461,11 +467,11 @@ restaurants:
     lng: 106.7441455
   location_precision: approximate
   name_he: האם גארדן
-  area_he: מחוז 1
+  area_he: תאו דיין (רובע אן קאן), רחוב D10 מספר 32
   what_he: מסעדת גן שמגישה אוכל ויאטנמי צמחוני מוגש בצלחות — מנות לוטוס, טופו, פטריות
     ועשבים — בחצר שקטה הרחק מהתנועה.
-  why_he: כתובת הביב גורמנד הצמחונית של סייגון, ואחד מחדרי האוכל הרגועים באמת המעטים
-    במחוז 1
+  why_he: כתובת הביב גורמנד הצמחונית של סייגון, ואחד מחדרי האוכל השקטים בעיר - בתאו
+    דיין, לא במחוז 1
   hours: 10:00-22:00 daily
   hours_he: 10:00-22:00 כל יום
 - name: Banh Xeo 46A
@@ -546,7 +552,7 @@ logistics:
   confidence: high
   geocode_query: Tan Son Nhat International Airport, Ho Chi Minh City, Vietnam
   sources:
-  - https://blog.gettransfer.com/from-ho-chi-minh-city-airport-to-the-city-center-taxi-grab-more/
+  - https://www.vietnamtourism.com/en/tan-son-nhat-airport-to-district-1
   - https://www.grab.com/global/airport-rides/tan-son-nhat-international-airport/
   coords:
     lat: 10.8179793

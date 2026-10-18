@@ -45,6 +45,8 @@ options:
   operator: Public buses (Kumho Viet Thanh and others)
   board:
     name: Gia Lam Bus Station (Ben xe Gia Lam)
+    name_vi: "Bến xe Gia Lâm"
+    address_vi: "9 Ngô Gia Khảm, Long Biên, Hà Nội"
     address: 9 Ngo Gia Kham, Long Bien, Hanoi
     lat: 21.0485414
     lng: 105.8789776
@@ -109,4 +111,43 @@ options:
   sources:
   - https://bhayacruises.com/blog/get-from-hanoi-to-halong-bay/
   checked: '2026-10-07'
+  confidence: medium
+- mode: combo
+  operator: Good Morning Cat Ba (bus to Got Pier + boat)
+  board:
+    name: Pickup at your Old Quarter hotel
+    address: Hanoi Old Quarter hotels
+    pickup_hotel: true
+  alight:
+    name: Cat Ba town
+    address: Cat Ba, Hai Phong
+  departures: Several departures a day from about 07:00 (e.g. 07:30, arriving about 11:30)
+  departures_he: כמה יציאות ביום מבערך 07:00 (למשל 07:30, הגעה בערך 11:30)
+  duration_min: 210
+  duration_max: 270
+  price_low: 11
+  price_high: 17
+  currency: USD
+  price_unit: per_person
+  book_links:
+  - name: 12Go
+    url: https://12go.asia/en/travel/hanoi/cat-ba
+  pros:
+  - One ticket, bus and boat together
+  - Cat Ba is the quieter side of the bay, Lan Ha
+  cons:
+  - Departure times can move by an hour
+  - The boat leg is cancelled in storms
+  pros_he:
+  - כרטיס אחד, אוטובוס וסירה יחד
+  - קאט בא היא הצד השקט של המפרץ, לאן הא
+  cons_he:
+  - שעות היציאה יכולות לזוז בשעה
+  - קטע הסירה מתבטל בסערה
+  tips: Check whether hotel pickup is included in the ticket you buy. Reconfirm the time the evening before.
+  tips_he: לבדוק אם האיסוף מהמלון כלול בכרטיס שקונים. לאשר שוב את השעה בערב שלפני.
+  sources:
+  - https://north-vietnam.com/how-to-get-from-hanoi-to-cat-ba-island
+  - https://vietnamdiscovery.com/cat-ba/how-to-get-to-cat-ba-island-from-hanoi/
+  checked: '2026-10-18'
   confidence: medium

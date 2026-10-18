@@ -1,0 +1,99 @@
+from: phong-nha
+to: hanoi
+reverse_ok: true
+note: Two flights a day from Dong Hoi, 45-60 minutes by car from Phong Nha, or an overnight train from Dong Hoi
+  station.
+note_he: שתי טיסות ביום מדונג הוי, 45-60 דקות ברכב מפונג נה, או רכבת לילה מתחנת דונג הוי.
+options:
+- mode: flight
+  operator: Vietnam Airlines, Sun PhuQuoc Airways
+  board:
+    name: Dong Hoi Airport (VDH)
+    name_vi: "Sân bay Đồng Hới"
+    address_vi: "Quốc lộ 1, Đồng Hới, Quảng Trị"
+    address: National Route 1, Dong Hoi
+    lat: 17.5127474
+    lng: 106.5931645
+  alight:
+    name: Noi Bai International Airport (HAN)
+    address: Soc Son, Hanoi
+  departures: '2 nonstop flights a day; on 20/11/2026: VN1590 10:25, Sun PhuQuoc 16:05. Hanoi to Dong Hoi: 08:40
+    and 10:20'
+  departures_he: '2 טיסות ישירות ביום; ב-20/11/2026: VN1590 ב-10:25, Sun PhuQuoc ב-16:05. מהאנוי לדונג הוי: 08:40
+    ו-10:20'
+  duration_min: 65
+  duration_max: 70
+  price_low: 30
+  price_high: 40
+  currency: USD
+  price_unit: per_person
+  book_links:
+  - name: Vietnam Airlines
+    url: https://www.vietnamairlines.com/
+  - name: Sun PhuQuoc Airways
+    url: https://www.sunphuquocairways.com/vn/en
+  pros:
+  - About an hour in the air, $30-40
+  cons:
+  - Only two flights a day
+  - Dong Hoi airport is 45-60 minutes from Phong Nha
+  pros_he:
+  - כשעה באוויר, $30-40
+  cons_he:
+  - רק שתי טיסות ביום
+  - שדה התעופה בדונג הוי נמצא 45-60 דקות מפונג נה
+  tips: 'Fares as shown for 20/11/2026: Sun PhuQuoc $30, Vietnam Airlines $40. Book a car or Grab from Phong Nha
+    to the airport the day before.'
+  tips_he: 'המחירים כפי שהוצגו ל-20/11/2026: Sun PhuQuoc $30, Vietnam Airlines $40. להזמין רכב או Grab מפונג נה
+    לשדה יום מראש.'
+  sources:
+  - https://www.google.com/travel/flights?q=Flights%20from%20VDH%20to%20HAN%20on%202026-11-20&curr=USD
+  - https://www.google.com/travel/flights?q=Flights%20from%20HAN%20to%20VDH%20on%202026-11-10&curr=USD
+  checked: '2026-10-18'
+  confidence: high
+- mode: sleeper_train
+  operator: Vietnam Railways (SE2 / SE4)
+  board:
+    name: Dong Hoi Railway Station
+    name_vi: "Ga Đồng Hới"
+    address_vi: "Thuận Lý, Đồng Hới, Quảng Trị"
+    address: Thuan Ly, Dong Hoi
+    lat: 17.4689199
+    lng: 106.5997285
+  alight:
+    name: Hanoi Railway Station
+    address: 120 Le Duan, Hanoi
+  departures: Evening departures, e.g. SE4 about 18:25 and SE2 about 19:18, arriving in Hanoi early next morning
+    (sources disagree; confirm on dsvn.vn)
+  departures_he: יציאות בערב, למשל SE4 בסביבות 18:25 ו-SE2 בסביבות 19:18, הגעה להאנוי מוקדם בבוקר (המקורות חלוקים;
+    לאשר ב-dsvn.vn)
+  duration_min: 600
+  duration_max: 690
+  price_low: 18
+  price_high: 50
+  currency: USD
+  price_unit: per_person
+  book_links:
+  - name: Vietnam Railways
+    url: https://dsvn.vn/
+  - name: 12Go
+    url: https://12go.asia/en/travel/dong-hoi/hanoi
+  pros:
+  - Saves a hotel night
+  - Leaves from Dong Hoi town, no airport run
+  cons:
+  - 10-11 hours
+  - Times shift between sources and seasons
+  pros_he:
+  - חוסך לילה במלון
+  - יוצאת מהעיר דונג הוי, בלי נסיעה לשדה
+  cons_he:
+  - 10-11 שעות
+  - השעות משתנות בין מקורות ועונות
+  tips: Take a 4-berth soft sleeper (the upper end of the price range); 6-berth hard sleepers are the $18 end.
+  tips_he: לקחת תא שינה רך של 4 דרגשים (הקצה העליון של טווח המחיר); תא קשה של 6 דרגשים הוא הקצה של $18.
+  sources:
+  - https://north-vietnam.com/dong-hoi-to-hanoi-train-bus-schedule-timetable-tickets/
+  - https://12go.asia/en/train/dong-hoi/hanoi/?z=10260423
+  checked: '2026-10-18'
+  confidence: medium

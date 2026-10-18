@@ -22,6 +22,7 @@ hotels:
   what_he: מלון בוטיק 5 כוכבים במרחק דקות הליכה מאגם הואן קיים, עם בריכה ובר על הגג
     שמשקיפים על קו הגגות של הרובע העתיק.
   why_he: יחס הדירוג-למיקום הטוב ביותר מבין כל המלונות שהופיעו בארבע הצעות הסוכנויות
+  addr_vi: 33 Đường Thành, Hoàn Kiếm, Hà Nội
 - name: GM Premium Hotel
   tier: 5
   tier_official: false
@@ -48,6 +49,7 @@ hotels:
     ולובי שמעוצב כמו בית פרטי ולא כמו רשת.
   why_he: משווק את עצמו כ-5 כוכבים ומתומחר ומדורג ככזה, אבל הדירוג הוא הצהרה עצמית
     ולא הוענק על ידי רשות תיירות
+  addr_vi: 41 Hàng Bông, Hoàn Kiếm, Hà Nội
 - name: Aurora Premium - A Lifestyle Hotel
   tier: 4
   tier_official: true
@@ -71,6 +73,7 @@ hotels:
   what_he: מלון 4 כוכבים ברחוב האנג בה, מאה מטר מתיאטרון בובות המים תאנג לונג, עם
     ספא, סאונה ומרפסת גג. פעל בעבר בשם Delicacy Central.
   why_he: דירוג 4 כוכבים רשמי, ביקורות חזקות באופן עקבי, וכתובת מרכזית ברובע העתיק
+  addr_vi: 61 Hàng Bè, Hoàn Kiếm, Hà Nội
 - name: La Sinfonia del Rey Hotel & Spa
   tier: 4
   tier_official: false
@@ -97,6 +100,7 @@ hotels:
     לאגם בקומות העליונות.
   why_he: מיקום על האגם שאין לו מתחרה. האורחים והשיווק מתארים 5 כוכבים, אבל אתרי צד
     שלישי מציבים אותו על 4 — כלומר הדירוג מקודם עצמית
+  addr_vi: 33-35 Hàng Dầu, Hoàn Kiếm, Hà Nội
 - name: Hanoi Amorita Boutique Hotel & Travel
   tier: 3
   tier_official: true
@@ -119,6 +123,7 @@ hotels:
     מלא ומרפסות אל רחובות הרובע העתיק.
   why_he: דירוג 3 כוכבים רשמי עם ציון ביקורות גבוה במיוחד (9.3 ומעלה) ביחס לטווח המחיר
     שלו
+  addr_vi: 7 Hàng Dầu, Hoàn Kiếm, Hà Nội
 - name: Hanoi La Storia Hotel
   tier: 3
   tier_official: true
@@ -144,6 +149,8 @@ hotels:
   what_he: מלון של 18 חדרים ברחוב שקט ברובע העתיק, ארבע דקות הליכה משוק דונג שואן,
     עם חדרים אטומים לרעש ובחלק מהקטגוריות גם מחשב בחדר.
   why_he: דירוג 3 כוכבים רשמי במחיר תקציבי אמיתי, עם ביקורות חזקות גם אם לא מושלמות
+  addr_vi: Phố cổ, gần phố Hàng Mã, Hoàn Kiếm, Hà Nội
+  addr_vi_partial: true
 must_see:
 - name: Hoan Kiem Lake
   area: Hoan Kiem
@@ -195,7 +202,7 @@ must_see:
   confidence: high
   geocode_query: Hoa Lo Prison Museum, Hanoi, Vietnam
   sources:
-  - https://www.lonelyplanet.com/vietnam/hanoi/attractions/hoa-lo-prison-museum/a/poi-sig/1141862/357880
+  - https://en.wikipedia.org/wiki/H%E1%BB%8Fa_L%C3%B2_Prison
   coords:
     lat: 21.0254222
     lng: 105.8465093
@@ -213,9 +220,8 @@ must_see:
   what: The excavated core of the royal citadel that was Vietnam's seat of power for
     about thirteen centuries, with the Doan Mon gate, the Kinh Thien palace foundations
     and an archaeological dig showing layers from the 7th century onward.
-  why: A UNESCO World Heritage site ten minutes from the Old Quarter. Closed on Mondays,
-    which rules out 26/10 and 23/11; the Friday and Saturday night tour does not fit
-    either Hanoi stay
+  why: A UNESCO World Heritage site ten minutes from the Old Quarter, open every day;
+    the Friday and Saturday night tour needs a Hanoi night on one of those days
   confidence: high
   geocode_query: Imperial Citadel of Thang Long, Hoang Dieu, Ba Dinh, Hanoi, Vietnam
   price_low: 3.8
@@ -232,11 +238,10 @@ must_see:
   what_he: לב המצודה המלכותית שהייתה מרכז השלטון של ויאטנם במשך כשלוש עשרה מאות שנה.
     שער דואן מון, יסודות ארמון קין תיין וחפירה ארכיאולוגית שחושפת שכבות מהמאה השביעית
     ואילך.
-  why_he: אתר מורשת עולמית של אונסק"ו, עשר דקות מהרובע העתיק. סגור בימי שני, ולכן
-    לא ב-26/10 וגם לא ב-23/11. סיור הלילה של שישי ושבת לא נופל על אף אחת משתי השהיות
-    בהאנוי
-  hours: 08:00-17:00, closed Monday
-  hours_he: 08:00-17:00, סגור ביום שני
+  why_he: אתר מורשת עולמית של אונסק"ו, עשר דקות מהרובע העתיק, ופתוח כל יום. סיור הלילה
+    של שישי ושבת דורש לילה בהאנוי באחד מהימים האלה
+  hours: 08:00-17:00 daily
+  hours_he: 08:00-17:00 כל יום
 - name: Ho Chi Minh Mausoleum Complex
   area: Ba Dinh Square
   what: The granite mausoleum holding Ho Chi Minh's embalmed body, facing Ba Dinh
@@ -302,7 +307,9 @@ attractions:
     a day a train passes within arm's reach of the tables and everyone pulls their
     chairs back against the walls.
   why: A genuinely strange, camera-ready five minutes, though access has tightened
-    to a store-led system after past crowd-safety closures
+    to a store-led system after past crowd-safety closures. In February 2026 Hanoi
+    approved cutting trains on this section in principle; check that trains still
+    pass before going
   confidence: medium
   geocode_query: Hanoi Train Street, Phung Hung, Hanoi, Vietnam
   sources:
@@ -312,7 +319,8 @@ attractions:
   what_he: שורת בתי קפה צרים לאורך מסילה פעילה. פעמיים ביום עוברת רכבת במרחק יד מהשולחנות,
     וכולם מושכים את הכיסאות אל הקירות.
   why_he: חמש דקות מוזרות באמת ומצולמות, אם כי הגישה הודקה לשיטה שמנוהלת דרך בתי העסק
-    אחרי סגירות בעבר מטעמי בטיחות קהל
+    אחרי סגירות בעבר מטעמי בטיחות קהל. בפברואר 2026 אישרה האנוי עקרונית לצמצם רכבות
+    בקטע הזה; לבדוק שעדיין עוברות רכבות לפני שהולכים
 - name: Thang Long Water Puppet Theatre
   area: Hoan Kiem, Dinh Tien Hoang street, north shore of the lake
   what: A 50-minute show of wooden puppets performed on a pool of water by puppeteers
@@ -739,7 +747,7 @@ street_food:
   price_unit: per_dish
   price_checked: '2026-10-05'
   sources:
-  - https://cafegiang.vn/about-us/
+  - https://cafegiang.vn/
   - https://en.wikipedia.org/wiki/Egg_coffee
   coords:
     lat: 21.0342713
@@ -861,26 +869,26 @@ restaurants:
   kind: international
   signal: michelin_star
   dish: Tasting menu, modern Vietnamese-French
-  area: Tay Ho (West Lake)
+  area: Dong Da, 61 Van Mieu (opposite the Temple of Literature)
   what: A small tasting-menu restaurant built around a chef's-table kitchen, serving
     a set multi-course menu that reworks Vietnamese ingredients in a modern fine-dining
     format.
-  why: One of Vietnam's first Michelin-starred restaurants (awarded 2025, retained
+  why: One of Vietnam's first Michelin-starred restaurants (awarded 2023, retained
     2026), and Hanoi's clearest high-end tasting-menu option
   confidence: high
-  geocode_query: Gia Restaurant, Tay Ho, Hanoi, Vietnam
+  geocode_query: 61 Van Mieu, Dong Da, Hanoi, Vietnam
   sources:
   - https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-guide-vietnam-2026
   coords:
-    lat: 21.0205027
-    lng: 105.7639271
-  location_precision: approximate
+    lat: 21.0275756
+    lng: 105.8360752
   name_he: ז'יה
-  area_he: טאי הו, האגם המערבי
+  area_he: דונג דה, ואן מייאו 61, מול מקדש הספרות
   what_he: מסעדה קטנה של תפריט טעימות סביב מטבח פתוח, שמגישה תפריט קבוע רב-מנתי ומעבדת
     מחדש חומרי גלם ויאטנמיים בפורמט של פיין דיינינג מודרני.
-  why_he: מהמסעדות הראשונות בוויאטנם שזכו בכוכב מישלן (2025, ונשמר ב-2026), והאפשרות
+  why_he: מהמסעדות הראשונות בוויאטנם שזכו בכוכב מישלין (2023, ונשמר ב-2026), והאפשרות
     הברורה ביותר בהאנוי לתפריט טעימות יוקרתי
+  coords_manual: true
 - name: Luk Lak
   kind: vietnamese
   signal: michelin_bib
@@ -921,7 +929,6 @@ restaurants:
   geocode_query: Uu Dam Chay, Hoan Kiem, Hanoi, Vietnam
   sources:
   - https://guide.michelin.com/en/vn/ha-noi/ha-noi_2974158/restaurants/bib-gourmand
-  - https://happyvietnamtours.com/blogs/news/michelin-guide-vietnam-2024-michelin-star-bib-gourmand
   coords:
     lat: 21.0187719
     lng: 105.84814
@@ -1073,7 +1080,6 @@ contacts:
   whatsapp: '+84947222598'
   sources:
   - https://evisa.gov.vn/
-  - https://lawnet.vn/en/laws/what-is-the-current-list-of-prefixes-of-vietnamese-phone-numbers-of-mobile-network-operators-what-i-134777.html
   name_he: קלי — סיוע בוויזה
   area_he: עובדת מרחוק; רלוונטית לפני היציאה ובהגעה
   what_he: 'איש הקשר שמטפלת בבקשת ה-E-Visa. המספר הוא מספר סלולרי ויאטנמי תקין בטווח

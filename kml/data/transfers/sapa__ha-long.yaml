@@ -10,6 +10,8 @@ options:
   operator: A21 Tours (through van via Hanoi)
   board:
     name: Sapa Stone Church (Our Lady of the Rosary)
+    name_vi: "Nhà thờ đá Sa Pa"
+    address_vi: "Hàm Rồng, Sa Pa, Lào Cai"
     address: Ham Rong, Sapa
     lat: 22.3352035
     lng: 103.8422543
@@ -51,8 +53,8 @@ options:
   departures_he: "מתי שרוצים, בתיאום בעת ההזמנה"
   duration_min: 420
   duration_max: 480
-  price_low: 160
-  price_high: 245
+  price_low: 175
+  price_high: 195
   currency: USD
   price_unit: per_vehicle
   book_links:
@@ -68,11 +70,10 @@ options:
   - אפשר לתזמן לצ'ק-אין של השייט
   cons_he:
   - יקר לאחד או שניים
-  tips: About $160-215 for a 4-seat car and $245 for a 7-seater; a 9-seat limousine van runs close to
-    $390.
-  tips_he: בערך $160-215 לרכב של 4 מקומות ו-$245 לרכב של 7; וואן לימוזינה של 9 מקומות מתקרב ל-$390.
+  tips: "A21 lists $175 for a sedan and $195 for an SUV; a 9-seat limousine van is about $295."
+  tips_he: "ב-A21 המחיר $175 לסדאן ו-$195 לרכב שטח; וואן לימוזינה של 9 מקומות בערך $295."
   sources:
   - https://a21tours.com/ticket/sapa-to-halong-private-car-transfer
   - https://www.bestpricetravel.com/travel-guide/sapa-to-halong-bay-2287.html
-  checked: '2026-10-07'
+  checked: "2026-10-16"
   confidence: medium

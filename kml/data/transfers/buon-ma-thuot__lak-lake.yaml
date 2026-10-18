@@ -47,7 +47,9 @@ options:
   operator: Public bus route 12 (Buon Ma Thuot - Lak)
   board:
     name: Dak Lak bus company yard (route 12 terminus)
-    address: 38 Y On, Buon Ma Thuot
+    name_vi: "Bãi xe buýt Đắk Lắk (bến cuối tuyến 12)"
+    address_vi: "Đường Y Ơn, Buôn Ma Thuột, Đắk Lắk"
+    address: Y On Street, Buon Ma Thuot (Dak Lak bus company yard)
     lat: 12.6651646
     lng: 108.0357835
   alight:
@@ -79,5 +81,5 @@ options:
   - https://blog.vexere.com/xe-buyt-dak-lak/
   - https://www.laktentedcamp.com/how-to-travel-to-lak/
   - https://www.travelfish.org/transport/vietnam/central_highlands/dak_lak/buon_ma_thuot/all
-  checked: '2026-10-07'
+  checked: "2026-10-16"
   confidence: medium

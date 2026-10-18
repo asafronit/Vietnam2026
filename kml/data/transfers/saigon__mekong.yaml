@@ -10,6 +10,8 @@ options:
   operator: Futa (Phuong Trang) and others
   board:
     name: Mien Tay Bus Station
+    name_vi: "Bến xe Miền Tây"
+    address_vi: "395 Kinh Dương Vương, An Lạc, TP. Hồ Chí Minh"
     address: Kinh Duong Vuong, An Lac, Ho Chi Minh City
     lat: 10.7401271
     lng: 106.6194006

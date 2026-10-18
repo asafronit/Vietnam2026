@@ -49,6 +49,8 @@ options:
   operator: Lotus Train (private carriage on SE19)
   board:
     name: Ninh Binh Railway Station
+    name_vi: "Ga Ninh Bình"
+    address_vi: "1 Hoàng Diệu, Ninh Bình"
     address: 1 Hoang Dieu, Ninh Binh
     lat: 20.2420352
     lng: 105.9745791
@@ -57,8 +59,8 @@ options:
     address: Thuan Ly, Dong Hoi
     lat: 17.4689199
     lng: 106.5997285
-  departures: SE19 22:02, arrives Dong Hoi 06:25
-  departures_he: "SE19 22:02, הגעה לדונג הוי 06:25"
+  departures: "SE19 about 22:00, arrives Dong Hoi about 06:00 (Lotus pages disagree; confirm when booking)"
+  departures_he: "SE19 בסביבות 22:00, הגעה לדונג הוי בסביבות 06:00 (דפי לוטוס סותרים; לאשר בהזמנה)"
   duration_min: 503
   duration_max: 600
   price_low: 1950000
@@ -87,14 +89,15 @@ options:
     לנוסע יחיד. מדונג הוי לפונג נה יש אוטובוס B4 (כ-50,000 דונג, כל שעה), או מונית (450,000-550,000).
   sources:
   - https://lotustrain.vn/ninh-binh-to-dong-hoi-lotus-express
-  - https://violetexpresstrain.com/ninh-binh-dong-hoi-on-lotus-train-se19.html
   - https://www.vietnamtourism.com/en/dong-hoi-to-phong-nha-the-complete-transport-guide-for-2026
-  checked: '2026-10-07'
+  checked: "2026-10-16"
   confidence: high
 - mode: sleeper_train
   operator: Vietnam Railways (SE3 / SE19 / SE1)
   board:
     name: Ninh Binh Railway Station
+    name_vi: "Ga Ninh Bình"
+    address_vi: "1 Hoàng Diệu, Ninh Bình"
     address: 1 Hoang Dieu, Ninh Binh
     lat: 20.2420352
     lng: 105.9745791
@@ -103,8 +106,8 @@ options:
     address: Thuan Ly, Dong Hoi
     lat: 17.4689199
     lng: 106.5997285
-  departures: SE3 21:34 (arr. 05:38), SE19 22:02, SE1 23:28 (arr. 07:53)
-  departures_he: "SE3 21:34 (הגעה 05:38), SE19 22:02, SE1 23:28 (הגעה 07:53)"
+  departures: "SE3 21:34 (arr. 05:38), SE19 about 22:00, SE1 around midnight (arr. about 08:00); confirm on dsvn.vn"
+  departures_he: "SE3 21:34 (הגעה 05:38), SE19 בסביבות 22:00, SE1 בסביבות חצות (הגעה בערך 08:00); לאשר ב-dsvn.vn"
   duration_min: 480
   duration_max: 600
   price_low: 340000
@@ -129,7 +132,7 @@ options:
   sources:
   - https://vexere.com/vn/trains/from-ninh-binh-ninh-binh-to-dong-hoi-quang-binh.534.568.en
   - https://vietnam-railway.com/train/route/train-from-ninh-binh-to-dong-hoi
-  checked: '2026-10-07'
+  checked: "2026-10-16"
   confidence: medium
 - mode: private_car
   operator: Private driver (transfer companies)

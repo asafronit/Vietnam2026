@@ -1,0 +1,46 @@
+from: hanoi
+to: buon-ma-thuot
+reverse_ok: true
+note: Two nonstop flights a day into the coffee country of the central highlands.
+note_he: שתי טיסות ישירות ביום לארץ הקפה של הרמות המרכזיות.
+options:
+- mode: flight
+  operator: Vietnam Airlines, Vietravel Airlines
+  board:
+    name: Noi Bai Airport, Terminal T1 (domestic)
+    name_vi: "Sân bay Nội Bài - Nhà ga T1 (quốc nội)"
+    address_vi: "Đường Võ Nguyên Giáp, Nội Bài, Hà Nội"
+    address: Vo Nguyen Giap, Noi Bai, Hanoi
+    lat: 21.2145692
+    lng: 105.8034987
+  alight:
+    name: Buon Ma Thuot Airport (BMV)
+    address: Nguyen Luong Bang, Buon Ma Thuot
+  departures: '2 nonstop flights a day; on 10/11/2026: VN1603 07:10, Vietravel 12:45'
+  departures_he: '2 טיסות ישירות ביום; ב-10/11/2026: VN1603 ב-07:10, Vietravel ב-12:45'
+  duration_min: 110
+  duration_max: 110
+  price_low: 48
+  price_high: 59
+  currency: USD
+  price_unit: per_person
+  book_links:
+  - name: Vietnam Airlines
+    url: https://www.vietnamairlines.com/
+  - name: Vietravel Airlines
+    url: https://www.vietravelairlines.com/
+  pros:
+  - Under two hours from Hanoi
+  cons:
+  - Only two a day
+  pros_he:
+  - פחות משעתיים מהאנוי
+  cons_he:
+  - רק שתיים ביום
+  tips: 'Fares as shown for 10/11/2026: Vietravel $48, Vietnam Airlines $59. The airport is 15 minutes from the
+    city.'
+  tips_he: 'המחירים כפי שהוצגו ל-10/11/2026: Vietravel $48, Vietnam Airlines $59. השדה נמצא 15 דקות מהעיר.'
+  sources:
+  - https://www.google.com/travel/flights?q=Flights%20from%20HAN%20to%20BMV%20on%202026-11-10&curr=USD
+  checked: '2026-10-18'
+  confidence: high

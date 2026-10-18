@@ -10,6 +10,8 @@ options:
   operator: Vietnam Airlines, Sun PhuQuoc Airways, Vietravel Airlines
   board:
     name: Tan Son Nhat Airport, Terminal T3 (domestic)
+    name_vi: "Sân bay Tân Sơn Nhất - Nhà ga T3"
+    address_vi: "Tân Sơn Nhất, TP. Hồ Chí Minh"
     address: Tan Son Nhat, Ho Chi Minh City
     lat: 10.8112056
     lng: 106.6535671
@@ -55,6 +57,8 @@ options:
   operator: Bus to Rach Gia + Superdong speedboat (Phuong Trang, Kumho Samco combo tickets)
   board:
     name: Mien Tay Bus Station
+    name_vi: "Bến xe Miền Tây"
+    address_vi: "395 Kinh Dương Vương, An Lạc, TP. Hồ Chí Minh"
     address: Kinh Duong Vuong, An Lac, Ho Chi Minh City
     lat: 10.7401271
     lng: 106.6194006

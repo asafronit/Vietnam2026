@@ -9,9 +9,11 @@ note_he: כ-320 ק"מ. כל האפשרויות מגיעות עד העיירה ס
   ב-2022, ועד 2026 לא נמצא משקיע).
 options:
 - mode: combo
-  operator: Vietnam Railways (SP1) + Lao Cai bus 01
+  operator: "Vietnam Railways (SP15 / SP3 / SP7) + Lao Cai bus 01"
   board:
     name: Hanoi Railway Station (Ga Ha Noi)
+    name_vi: "Ga Hà Nội"
+    address_vi: "120 Lê Duẩn, Hà Nội"
     address: 120 Le Duan, Van Mieu - Quoc Tu Giam, Hanoi
     lat: 21.0242336
     lng: 105.8410067
@@ -20,8 +22,8 @@ options:
     address: Khanh Yen, Lao Cai
     lat: 22.4922679
     lng: 103.9783871
-  departures: SP1 21:35, arrives Lao Cai 05:15; bus 01 to Sapa every 20-30 min from about 05:20
-  departures_he: "SP1 21:35, הגעה ללאו קאי 05:15; אוטובוס 01 לסאפה כל 20-30 דקות מבערך 05:20"
+  departures: "SP15 21:45 (arr. Lao Cai 05:20), SP3 22:00 (05:50), SP7 22:40 (06:27); back SP16 21:25, SP4 21:50. Bus 01 to Sapa every 20-30 min from about 05:20"
+  departures_he: "SP15 21:45 (הגעה ללאו קאי 05:20), SP3 22:00 (05:50), SP7 22:40 (06:27); בחזור SP16 21:25, SP4 21:50. אוטובוס 01 לסאפה כל 20-30 דקות מבערך 05:20"
   duration_min: 520
   duration_max: 570
   price_low: 490000
@@ -48,14 +50,17 @@ options:
   tips_he: המחיר הוא למיטה תחתונה בתא רך. אוטובוס 01 עומד מחוץ לתחנת לאו קאי; מיניוואן משותף עולה
     במקומו 40,000-100,000 דונג.
   sources:
+  - https://baolaocai.vn/tuyen-duong-sat-ha-noi-lao-cai-tang-len-3-doi-tau-khach-moi-ngay-them-lua-chon-cho-du-khach-post911633.html
   - https://www.seat61.com/Vietnam.htm
   - https://north-vietnam.com/lao-cai-to-sapa-local-bus-taxi/
-  checked: '2026-10-06'
+  checked: "2026-10-16"
   confidence: medium
 - mode: sleeper_train
-  operator: Fanxipan Express (private carriage on SP1)
+  operator: "Fanxipan Express (private carriage on the night train)"
   board:
     name: Hanoi Railway Station, A side (Ga Ha Noi)
+    name_vi: "Ga Hà Nội (ga A)"
+    address_vi: "120 Lê Duẩn, Hà Nội"
     address: 120 Le Duan, Van Mieu - Quoc Tu Giam, Hanoi
     lat: 21.0242336
     lng: 105.8410067
@@ -64,8 +69,8 @@ options:
     address: Khanh Yen, Lao Cai
     lat: 22.4922679
     lng: 103.9783871
-  departures: 21:35 (on SP1), arrives Lao Cai 05:15
-  departures_he: "21:35 (על SP1), הגעה ללאו קאי 05:15"
+  departures: "Night trains from 21:45 (SP15, SP3 or SP7 since 10/10/2026); confirm which train carries the carriage when booking"
+  departures_he: "רכבות לילה מ-21:45 (SP15, SP3 או SP7 מאז 10/10/2026); לברר בהזמנה לאיזו רכבת מחובר הקרון"
   duration_min: 460
   duration_max: 520
   price_low: 35
@@ -90,14 +95,17 @@ options:
   tips_he: $35-40 זה מיטה בתא משותף של ארבע, $65-80 מיטה בתא של שתיים. חלק מהקרונות הפרטיים
     (Sapaly, Orient Express) עולים דווקא מצד B, ברחוב Tran Quy Cap שמאחורי התחנה; לבדוק בכרטיס.
   sources:
+  - https://baolaocai.vn/tuyen-duong-sat-ha-noi-lao-cai-tang-len-3-doi-tau-khach-moi-ngay-them-lua-chon-cho-du-khach-post911633.html
   - https://www.seat61.com/Vietnam.htm
   - https://blog.vexere.com/en/best-sleeper-train-from-hanoi-to-sapa/
-  checked: '2026-10-06'
-  confidence: high
+  checked: "2026-10-16"
+  confidence: "medium"
 - mode: limousine_van
   operator: Sapa Express
   board:
     name: Sapa Express office
+    name_vi: "Văn phòng Sapa Express"
+    address_vi: "204 Trần Quang Khải, Hoàn Kiếm, Hà Nội"
     address: 204 Tran Quang Khai, Hoan Kiem, Hanoi
     lat: 21.0275697
     lng: 105.8581148
@@ -137,6 +145,8 @@ options:
   operator: Sapa Express (VIP cabin bus)
   board:
     name: Sapa Express office
+    name_vi: "Văn phòng Sapa Express"
+    address_vi: "204 Trần Quang Khải, Hoàn Kiếm, Hà Nội"
     address: 204 Tran Quang Khai, Hoan Kiem, Hanoi
     lat: 21.0275697
     lng: 105.8581148
@@ -163,15 +173,12 @@ options:
   cons_he:
   - מגיע בסביבות ארבע לפני הבוקר, לפני הצ'ק-אין
   - אוטובוס על כביש הררי; מי שישן קל ירגיש את זה
-  tips: Standard open-bunk sleeper buses on the same road cost 270,000-370,000 VND. Ask the
-    hotel in Sapa about an early check-in or a place to wait.
-  tips_he: אוטובוסי שינה רגילים, עם דרגשים פתוחים, עולים באותו כביש 270,000-370,000 דונג. כדאי
-    לשאול את המלון בסאפה על צ'ק-אין מוקדם או על מקום לחכות בו.
+  tips: "Standard open-bunk sleeper buses on the same road cost 270,000-370,000 VND. There is no hotel pickup on Friday-Sunday nights. Ask the hotel in Sapa about an early check-in or a place to wait."
+  tips_he: "אוטובוסי שינה רגילים, עם דרגשים פתוחים, עולים באותו כביש 270,000-370,000 דונג. בלילות שישי עד ראשון אין איסוף מהמלון. כדאי לשאול את המלון בסאפה על צ'ק-אין מוקדם או על מקום לחכות בו."
   sources:
   - https://a21tours.com/ticket/sapa-express-bus
   - https://www.vietnamtourism.com/en/hanoi-to-sapa-in-2026-trains-buses-costs-compared
-  - https://visit-sapa.com/en/blog/hanoi-sapa-bus-limousine
-  checked: '2026-10-06'
+  checked: "2026-10-16"
   confidence: medium
 - mode: private_car
   operator: Private driver (via agent or transfer company)

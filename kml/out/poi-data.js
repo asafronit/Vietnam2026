@@ -50,6 +50,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "33 Đường Thành, Hoàn Kiếm, Hà Nội",
           "weather": "low",
           "limiter": "rain"
         },
@@ -81,6 +82,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "41 Hàng Bông, Hoàn Kiếm, Hà Nội",
           "weather": "low",
           "limiter": "rain"
         },
@@ -112,6 +114,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "61 Hàng Bè, Hoàn Kiếm, Hà Nội",
           "weather": "low",
           "limiter": "rain"
         },
@@ -142,6 +145,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "33-35 Hàng Dầu, Hoàn Kiếm, Hà Nội",
           "weather": "low",
           "limiter": "rain"
         },
@@ -172,6 +176,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "7 Hàng Dầu, Hoàn Kiếm, Hà Nội",
           "weather": "low",
           "limiter": "rain"
         },
@@ -202,6 +207,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Phố cổ, gần phố Hàng Mã, Hoàn Kiếm, Hà Nội",
+          "addrViPartial": true,
           "weather": "low",
           "limiter": "rain"
         }
@@ -272,7 +279,7 @@ const POI_DATA = {
           "lng": 105.8465093,
           "approx": false,
           "sources": [
-            "https://www.lonelyplanet.com/vietnam/hanoi/attractions/hoa-lo-prison-museum/a/poi-sig/1141862/357880"
+            "https://en.wikipedia.org/wiki/H%E1%BB%8Fa_L%C3%B2_Prison"
           ],
           "tier": null,
           "nameHe": "מוזיאון כלא הואה לו",
@@ -296,7 +303,7 @@ const POI_DATA = {
           "name": "Imperial Citadel of Thang Long",
           "area": "Ba Dinh, Hoang Dieu street",
           "what": "The excavated core of the royal citadel that was Vietnam's seat of power for about thirteen centuries, with the Doan Mon gate, the Kinh Thien palace foundations and an archaeological dig showing layers from the 7th century onward.",
-          "why": "A UNESCO World Heritage site ten minutes from the Old Quarter. Closed on Mondays, which rules out 26/10 and 23/11; the Friday and Saturday night tour does not fit either Hanoi stay",
+          "why": "A UNESCO World Heritage site ten minutes from the Old Quarter, open every day; the Friday and Saturday night tour needs a Hanoi night on one of those days",
           "lat": 21.0334391,
           "lng": 105.83953,
           "approx": false,
@@ -308,7 +315,7 @@ const POI_DATA = {
           "nameHe": "המצודה הקיסרית של תאנג לונג",
           "areaHe": "בה דין, רחוב הואנג דיאו",
           "whatHe": "לב המצודה המלכותית שהייתה מרכז השלטון של ויאטנם במשך כשלוש עשרה מאות שנה. שער דואן מון, יסודות ארמון קין תיין וחפירה ארכיאולוגית שחושפת שכבות מהמאה השביעית ואילך.",
-          "whyHe": "אתר מורשת עולמית של אונסק\"ו, עשר דקות מהרובע העתיק. סגור בימי שני, ולכן לא ב-26/10 וגם לא ב-23/11. סיור הלילה של שישי ושבת לא נופל על אף אחת משתי השהיות בהאנוי",
+          "whyHe": "אתר מורשת עולמית של אונסק\"ו, עשר דקות מהרובע העתיק, ופתוח כל יום. סיור הלילה של שישי ושבת דורש לילה בהאנוי באחד מהימים האלה",
           "priceUnit": "entry",
           "priceLow": 3.8,
           "priceHigh": null,
@@ -318,8 +325,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "hours": "08:00-17:00, closed Monday",
-          "hoursHe": "08:00-17:00, סגור ביום שני",
+          "hours": "08:00-17:00 daily",
+          "hoursHe": "08:00-17:00 כל יום",
           "weather": "medium",
           "limiter": "rain"
         },
@@ -390,7 +397,7 @@ const POI_DATA = {
           "name": "Hanoi Train Street coffee shops",
           "area": "Old Quarter, Phung Hung / Le Duan",
           "what": "A row of narrow-gauge cafes squeezed along an active railway corridor; twice a day a train passes within arm's reach of the tables and everyone pulls their chairs back against the walls.",
-          "why": "A genuinely strange, camera-ready five minutes, though access has tightened to a store-led system after past crowd-safety closures",
+          "why": "A genuinely strange, camera-ready five minutes, though access has tightened to a store-led system after past crowd-safety closures. In February 2026 Hanoi approved cutting trains on this section in principle; check that trains still pass before going",
           "lat": null,
           "lng": null,
           "approx": false,
@@ -401,7 +408,7 @@ const POI_DATA = {
           "nameHe": "בתי הקפה של רחוב הרכבת",
           "areaHe": "הרובע העתיק, פונג הונג / לה דואן",
           "whatHe": "שורת בתי קפה צרים לאורך מסילה פעילה. פעמיים ביום עוברת רכבת במרחק יד מהשולחנות, וכולם מושכים את הכיסאות אל הקירות.",
-          "whyHe": "חמש דקות מוזרות באמת ומצולמות, אם כי הגישה הודקה לשיטה שמנוהלת דרך בתי העסק אחרי סגירות בעבר מטעמי בטיחות קהל",
+          "whyHe": "חמש דקות מוזרות באמת ומצולמות, אם כי הגישה הודקה לשיטה שמנוהלת דרך בתי העסק אחרי סגירות בעבר מטעמי בטיחות קהל. בפברואר 2026 אישרה האנוי עקרונית לצמצם רכבות בקטע הזה; לבדוק שעדיין עוברות רכבות לפני שהולכים",
           "priceUnit": null,
           "priceLow": null,
           "priceHigh": null,
@@ -834,7 +841,7 @@ const POI_DATA = {
           "lng": 105.8544991,
           "approx": false,
           "sources": [
-            "https://cafegiang.vn/about-us/",
+            "https://cafegiang.vn/",
             "https://en.wikipedia.org/wiki/Egg_coffee"
           ],
           "tier": null,
@@ -976,20 +983,20 @@ const POI_DATA = {
         },
         {
           "name": "Gia",
-          "area": "Tay Ho (West Lake)",
+          "area": "Dong Da, 61 Van Mieu (opposite the Temple of Literature)",
           "what": "A small tasting-menu restaurant built around a chef's-table kitchen, serving a set multi-course menu that reworks Vietnamese ingredients in a modern fine-dining format.",
-          "why": "One of Vietnam's first Michelin-starred restaurants (awarded 2025, retained 2026), and Hanoi's clearest high-end tasting-menu option",
-          "lat": 21.0205027,
-          "lng": 105.7639271,
-          "approx": true,
+          "why": "One of Vietnam's first Michelin-starred restaurants (awarded 2023, retained 2026), and Hanoi's clearest high-end tasting-menu option",
+          "lat": 21.0275756,
+          "lng": 105.8360752,
+          "approx": false,
           "sources": [
             "https://guide.michelin.com/us/en/article/michelin-guide-ceremony/michelin-guide-vietnam-2026"
           ],
           "tier": null,
           "nameHe": "ז'יה",
-          "areaHe": "טאי הו, האגם המערבי",
+          "areaHe": "דונג דה, ואן מייאו 61, מול מקדש הספרות",
           "whatHe": "מסעדה קטנה של תפריט טעימות סביב מטבח פתוח, שמגישה תפריט קבוע רב-מנתי ומעבדת מחדש חומרי גלם ויאטנמיים בפורמט של פיין דיינינג מודרני.",
-          "whyHe": "מהמסעדות הראשונות בוויאטנם שזכו בכוכב מישלן (2025, ונשמר ב-2026), והאפשרות הברורה ביותר בהאנוי לתפריט טעימות יוקרתי",
+          "whyHe": "מהמסעדות הראשונות בוויאטנם שזכו בכוכב מישלין (2023, ונשמר ב-2026), והאפשרות הברורה ביותר בהאנוי לתפריט טעימות יוקרתי",
           "priceUnit": null,
           "priceLow": null,
           "priceHigh": null,
@@ -1040,8 +1047,7 @@ const POI_DATA = {
           "lng": 105.84814,
           "approx": true,
           "sources": [
-            "https://guide.michelin.com/en/vn/ha-noi/ha-noi_2974158/restaurants/bib-gourmand",
-            "https://happyvietnamtours.com/blogs/news/michelin-guide-vietnam-2024-michelin-star-bib-gourmand"
+            "https://guide.michelin.com/en/vn/ha-noi/ha-noi_2974158/restaurants/bib-gourmand"
           ],
           "tier": null,
           "nameHe": "אוו דאם צ'אי",
@@ -1306,8 +1312,7 @@ const POI_DATA = {
           "lng": null,
           "approx": false,
           "sources": [
-            "https://evisa.gov.vn/",
-            "https://lawnet.vn/en/laws/what-is-the-current-list-of-prefixes-of-vietnamese-phone-numbers-of-mobile-network-operators-what-i-134777.html"
+            "https://evisa.gov.vn/"
           ],
           "tier": null,
           "nameHe": "קלי — סיוע בוויזה",
@@ -1468,6 +1473,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Đường Trần Phú, Hà Giang, Tuyên Quang",
           "weather": "low",
           "limiter": "rain"
         },
@@ -1498,6 +1504,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "517 Nguyễn Trãi, Hà Giang, Tuyên Quang",
           "weather": "low",
           "limiter": "rain"
         },
@@ -1528,6 +1535,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "426 Nguyễn Trãi, Hà Giang, Tuyên Quang",
           "weather": "low",
           "limiter": "rain"
         },
@@ -1558,6 +1566,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Đường Nguyễn Trãi, Hà Giang, Tuyên Quang",
           "weather": "low",
           "limiter": "rain"
         },
@@ -1588,6 +1597,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Hà Giang, Tuyên Quang",
+          "addrViPartial": true,
           "weather": "low",
           "limiter": "rain"
         }
@@ -1963,6 +1974,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Đồi Quan 6, Sa Pa, Lào Cai",
           "weather": "low",
           "limiter": "rain"
         },
@@ -1993,6 +2005,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Đường Violet, Sa Pa, Lào Cai",
           "weather": "low",
           "limiter": "rain"
         },
@@ -2023,6 +2036,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Sa Pa, gần ga cáp treo Fansipan Legend, Lào Cai",
+          "addrViPartial": true,
           "weather": "low",
           "limiter": "rain"
         },
@@ -2053,6 +2068,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Sa Pa, Lào Cai",
+          "addrViPartial": true,
           "weather": "low",
           "limiter": "rain"
         },
@@ -2083,6 +2100,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "10-12 Cầu Mây, Sa Pa, Lào Cai",
           "weather": "low",
           "limiter": "rain"
         },
@@ -2113,6 +2131,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "4 Thạch Sơn, Sa Pa, Lào Cai",
           "weather": "low",
           "limiter": "rain"
         }
@@ -2142,8 +2161,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "hours": "About 07:30-17:00; the last ascent to the summit is around 15:00, and the schedule shifts with weather",
-          "hoursHe": "בסביבות 07:30-17:00; העלייה האחרונה לפסגה סביב 15:00, והלוח משתנה לפי מזג האוויר",
+          "hours": "Cable car up: Mon-Thu 08:00-14:30, Fri 08:00-15:30, Sat 07:30-15:30, Sun 07:30-14:30; last descent about 16:00-17:00; weather can stop it",
+          "hoursHe": "עלייה ברכבל: שני-חמישי 08:00-14:30, שישי 08:00-15:30, שבת 07:30-15:30, ראשון 07:30-14:30; ירידה אחרונה בסביבות 16:00-17:00; מזג האוויר יכול לעצור אותו",
           "weather": "medium",
           "limiter": "wind"
         },
@@ -2411,6 +2430,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Cảng Tuần Châu, Hạ Long, Quảng Ninh",
           "weather": "low",
           "limiter": "rain"
         },
@@ -2441,6 +2461,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Cảng Tuần Châu, Hạ Long, Quảng Ninh",
           "weather": "low",
           "limiter": "rain"
         },
@@ -2471,6 +2492,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Bến Gót, Cát Hải, Hải Phòng",
           "weather": "low",
           "limiter": "rain"
         },
@@ -2501,6 +2523,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Cảng Tuần Châu, Hạ Long, Quảng Ninh",
           "weather": "low",
           "limiter": "rain"
         },
@@ -2531,6 +2554,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Thị trấn Cát Bà, Cát Hải, Hải Phòng",
+          "addrViPartial": true,
           "weather": "low",
           "limiter": "rain"
         },
@@ -2561,6 +2586,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Thị trấn Cát Bà, Cát Hải, Hải Phòng",
+          "addrViPartial": true,
           "weather": "low",
           "limiter": "rain"
         }
@@ -2770,6 +2797,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Thôn Đồng Tâm, Cúc Phương, Nho Quan, Ninh Bình",
           "weather": "low",
           "limiter": "rain"
         },
@@ -2800,6 +2828,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Đường Lê Thái Tổ, Hoa Lư, Ninh Bình",
           "weather": "low",
           "limiter": "rain"
         },
@@ -2830,6 +2859,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Khu bảo tồn Vân Long, Gia Vân, Gia Viễn, Ninh Bình",
           "weather": "low",
           "limiter": "rain"
         },
@@ -2860,6 +2890,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Khu du lịch Tam Cốc - Bích Động, Ninh Thắng, Hoa Lư, Ninh Bình",
           "weather": "low",
           "limiter": "rain"
         },
@@ -2890,6 +2921,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Ninh Hải, gần chùa Bích Động, Hoa Lư, Ninh Bình",
+          "addrViPartial": true,
           "weather": "low",
           "limiter": "rain"
         },
@@ -2920,6 +2953,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Thôn Bình Khê, Ninh Nhất, Ninh Bình",
           "weather": "low",
           "limiter": "rain"
         }
@@ -3253,6 +3287,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Sơn Trạch, Phong Nha, Quảng Trị",
+          "addrViPartial": true,
           "weather": "low",
           "limiter": "rain"
         },
@@ -3284,24 +3320,25 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Đường Hồ Chí Minh nhánh Đông, Hưng Trạch, Bố Trạch, Quảng Trị",
           "weather": "low",
           "limiter": "rain"
         },
         {
           "name": "Phong Nha Farmstay",
-          "area": "Cu Nam, ~10km from Phong Nha town",
+          "area": "Cu Nam, about 8 km east of Phong Nha town, off the HCM road",
           "what": "The original farmstay of the area — simple rooms and a pool set among rice fields and grazing buffalo, run by an Australian-Vietnamese family with a restaurant and tour desk on site.",
           "why": "TripAdvisor's #1-ranked property in the national park (1,500+ reviews) and one of the two hotels the project's own agents agreed on.",
-          "lat": 17.5818037,
-          "lng": 106.3087403,
-          "approx": true,
+          "lat": 17.6242297,
+          "lng": 106.3851832,
+          "approx": false,
           "sources": [
             "https://www.tripadvisor.com/Hotel_Review-g4014591-d1930272-Reviews-Phong_Nha_Farmstay-Phong_Nha_Ke_Bang_National_Park_Quang_Binh_Province.html",
             "https://www.booking.com/hotel/vn/phong-nha-farmstay.html"
           ],
           "tier": 3,
           "nameHe": "פארמסטיי",
-          "areaHe": "קו נאם, כ-10 קילומטר מהעיירה פונג ניה",
+          "areaHe": "קו נאם, כשמונה קילומטר מזרחית לעיירה, ליד כביש הו צ'י מין",
           "whatHe": "הפארמסטיי המקורי של האזור — חדרים פשוטים ובריכה בין שדות אורז ותאואים רועים, בניהול משפחה אוסטרלית-ויאטנמית, עם מסעדה ודלפק סיורים במקום.",
           "whyHe": "הנכס המדורג ראשון בטריפאדוויזר בפארק הלאומי עם למעלה מ-1,500 ביקורות, ואחד משני המלונות ששתי הסוכנויות הסכימו עליהם",
           "priceUnit": "per_night",
@@ -3314,6 +3351,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Cự Nẫm, Bố Trạch, Quảng Trị",
+          "addrViPartial": true,
           "weather": "low",
           "limiter": "rain"
         }
@@ -3328,8 +3367,7 @@ const POI_DATA = {
           "lng": null,
           "approx": false,
           "sources": [
-            "https://junglebosstours.com/explorer/tourism-blog/phong-nha-cave-vietnam-tour-guide",
-            "https://www.lonelyplanet.com/vietnam/north-central-vietnam/phong-nha-cave/attractions/phong-nha-cave-boat-trip/a/poi-sig/1390925/357910"
+            "https://junglebosstours.com/explorer/tourism-blog/phong-nha-cave-vietnam-tour-guide"
           ],
           "tier": null,
           "nameHe": "שייט למערת פונג ניה",
@@ -3344,8 +3382,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "hours": "Last boat leaves at 16:30; arrive before 15:00 so the visit is not rushed",
-          "hoursHe": "הסירה האחרונה יוצאת ב-16:30; כדאי להגיע לפני 15:00 כדי לא לרוץ",
+          "hours": "About 08:00-16:00; arrive by 14:00. Boats do not run when the Son River floods (in November, closures of 2-5 days)",
+          "hoursHe": "בערך 08:00-16:00; להגיע עד 14:00. הסירות לא יוצאות כשנהר סון מוצף (בנובמבר, סגירות של 2-5 ימים)",
           "weather": "medium",
           "limiter": "flood"
         },
@@ -3385,7 +3423,7 @@ const POI_DATA = {
           "name": "Son Doong Cave Expedition",
           "area": "Deep in Phong Nha-Ke Bang National Park, multi-day trek from Km37",
           "what": "A 4-day, 3-night expedition into the world's largest cave passage — big enough to hold a Manhattan block, with its own jungle and weather inside two collapsed dolines. Porters carry gear; nights are spent camping on the cave floor.",
-          "why": "The reason Phong Nha is on the caving world's map at all; the single hardest and most expensive booking in the area, so it needs to be flagged early if it's wanted",
+          "why": "The reason Phong Nha is on the caving world's map at all; the single hardest and most expensive booking in the area, so it needs to be flagged early if it's wanted. Not possible on these dates: Oxalis runs it January-August only, and 2027-2028 is already full",
           "lat": null,
           "lng": null,
           "approx": false,
@@ -3397,11 +3435,11 @@ const POI_DATA = {
           "nameHe": "משלחת מערת סון דונג",
           "areaHe": "עמוק בפארק הלאומי, טרק רב-יומי מקילומטר 37",
           "whatHe": "משלחת של ארבעה ימים ושלושה לילות אל מעבר המערה הגדול בעולם — גדול מספיק להכיל בלוק במנהטן, עם ג'ונגל ומזג אוויר משלו בתוך שתי בליעות שקרסו. סבלים נושאים את הציוד, והלילות עוברים במחנה על רצפת המערה.",
-          "whyHe": "הסיבה שפונג ניה נמצאת על מפת עולם המערות בכלל. ההזמנה הקשה והיקרה ביותר באזור, ולכן צריך לסמן אותה מוקדם אם רוצים אותה",
+          "whyHe": "הסיבה שפונג ניה נמצאת על מפת עולם המערות בכלל. ההזמנה הקשה והיקרה ביותר באזור, ולכן צריך לסמן אותה מוקדם אם רוצים אותה. לא אפשרי בתאריכי הטיול: אוקסליס מפעילים אותו רק בינואר-אוגוסט, ו-2027-2028 כבר מלאות",
           "priceUnit": null,
           "priceLow": null,
           "priceHigh": null,
-          "avoid": false,
+          "avoid": true,
           "kind": null,
           "isDish": false,
           "signal": null,
@@ -3413,7 +3451,7 @@ const POI_DATA = {
           "name": "Hang En Cave trek",
           "area": "Phong Nha-Ke Bang National Park, Tu Lan area",
           "what": "A 2-day, 1-night trek to the world's third-largest cave, camping on a sand bank inside the cave beside an underground river, with one of three giant skylights overhead.",
-          "why": "The serious-caving option that doesn't require Son Doong's budget or year-ahead booking; a genuine wilderness camp inside a cave",
+          "why": "The serious-caving option that doesn't require Son Doong's budget or year-ahead booking; a genuine wilderness camp inside a cave. Closed from mid-September to December, so not possible on these dates",
           "lat": null,
           "lng": null,
           "approx": false,
@@ -3424,11 +3462,11 @@ const POI_DATA = {
           "nameHe": "טרק מערת האנג אן",
           "areaHe": "הפארק הלאומי, אזור טו לאן",
           "whatHe": "טרק של יומיים ולילה אחד אל המערה השלישית בגודלה בעולם, עם לינה על גדת חול בתוך המערה לצד נהר תת-קרקעי, מתחת לאחד משלושה צוהרי ענק.",
-          "whyHe": "אפשרות המערות הרצינית שלא דורשת את התקציב של סון דונג ולא הזמנה שנה מראש. מחנה מדברי אמיתי בתוך מערה",
+          "whyHe": "אפשרות המערות הרצינית שלא דורשת את התקציב של סון דונג ולא הזמנה שנה מראש. מחנה מדברי אמיתי בתוך מערה. סגור מאמצע ספטמבר עד דצמבר, ולכן לא אפשרי בתאריכי הטיול",
           "priceUnit": null,
           "priceLow": null,
           "priceHigh": null,
-          "avoid": false,
+          "avoid": true,
           "kind": null,
           "isDish": false,
           "signal": null,
@@ -3440,7 +3478,7 @@ const POI_DATA = {
           "name": "Tu Lan cave system",
           "area": "Tan Hoa commune, ~65km from Phong Nha town",
           "what": "A network of wet caves and jungle valleys explored by wading and swimming through cave lakes between limestone chambers, run as tours from one day up to a 4-5 day expedition.",
-          "why": "The widest range of difficulty of any Phong Nha cave product — a single day of swimming through caves, or several days of genuine jungle expedition, from the same operator",
+          "why": "The widest range of difficulty of any Phong Nha cave product — a single day of swimming through caves, or several days of genuine jungle expedition, from the same operator. The multi-day expedition starts only from mid-November, and the swimming sections depend on the water level",
           "lat": null,
           "lng": null,
           "approx": false,
@@ -3452,7 +3490,7 @@ const POI_DATA = {
           "nameHe": "מערכת המערות טו לאן",
           "areaHe": "טאן הואה, כ-65 קילומטר מהעיירה פונג ניה",
           "whatHe": "רשת של מערות רטובות ועמקי ג'ונגל שחוקרים בהליכה במים ובשחייה דרך אגמי מערה בין אולמות גיר, כסיורים שנמשכים מיום אחד ועד משלחת של ארבעה עד חמישה ימים.",
-          "whyHe": "טווח הקושי הרחב ביותר מכל מוצרי המערות של פונג ניה — יום אחד של שחייה במערות, או כמה ימי משלחת ג'ונגל אמיתית, מאותו מפעיל",
+          "whyHe": "טווח הקושי הרחב ביותר מכל מוצרי המערות של פונג ניה — יום אחד של שחייה במערות, או כמה ימי משלחת ג'ונגל אמיתית, מאותו מפעיל. משלחת הימים מתחילה רק מאמצע נובמבר, וקטעי השחייה תלויים במפלס המים",
           "priceUnit": null,
           "priceLow": null,
           "priceHigh": null,
@@ -3495,7 +3533,7 @@ const POI_DATA = {
           "name": "Dark Cave zipline and mud bath",
           "area": "Chay River, Phong Nha-Ke Bang National Park",
           "what": "A short zipline across the Chay River into a pitch-black cave, followed by a swim to a natural mud pool deep inside, then kayaking back down the river.",
-          "why": "The easiest adrenaline activity in Phong Nha — half a day, no fitness test, and the one every family and backpacker group does",
+          "why": "The easiest adrenaline activity in Phong Nha — half a day, no fitness test, and the one every family and backpacker group does. From mid-September to November the zipline and mud bath run reduced or close; check on the day",
           "lat": 17.5742556,
           "lng": 106.2527864,
           "approx": true,
@@ -3507,7 +3545,7 @@ const POI_DATA = {
           "nameHe": "אומגה ומרחץ בוץ במערה האפלה",
           "areaHe": "נהר צ'אי, הפארק הלאומי",
           "whatHe": "אומגה קצרה מעל נהר צ'אי אל תוך מערה חשוכה לחלוטין, ואז שחייה אל בריכת בוץ טבעית עמוק בפנים, וחזרה בקיאקים במורד הנהר.",
-          "whyHe": "פעילות האדרנלין הקלה ביותר בפונג ניה — חצי יום, בלי מבחן כושר, וזו שכל משפחה וכל קבוצת תרמילאים עושה",
+          "whyHe": "פעילות האדרנלין הקלה ביותר בפונג ניה — חצי יום, בלי מבחן כושר, וזו שכל משפחה וכל קבוצת תרמילאים עושה. מאמצע ספטמבר עד נובמבר האומגה ובריכת הבוץ פועלות בהיקף מצומצם או סגורות; לבדוק באותו יום",
           "priceUnit": null,
           "priceLow": null,
           "priceHigh": null,
@@ -3528,7 +3566,6 @@ const POI_DATA = {
           "lng": 106.3657674,
           "approx": true,
           "sources": [
-            "https://theduckstop.vn/",
             "https://culturephamtravel.com/the-duck-stop/"
           ],
           "tier": null,
@@ -3833,6 +3870,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "5 Lê Lợi, Huế",
           "weather": "low",
           "limiter": "rain"
         },
@@ -3863,6 +3901,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "50A Hùng Vương, Huế",
           "weather": "low",
           "limiter": "rain"
         },
@@ -3893,6 +3932,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "60 Bến Nghé, Huế",
           "weather": "low",
           "limiter": "rain"
         },
@@ -3923,6 +3963,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "130 Minh Mạng, Huế",
           "weather": "low",
           "limiter": "rain"
         },
@@ -3953,6 +3994,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Kiệt 42 Nguyễn Công Trứ, Huế",
           "weather": "low",
           "limiter": "rain"
         },
@@ -3983,6 +4025,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Võ Thị Sáu, Huế",
           "weather": "low",
           "limiter": "rain"
         }
@@ -3992,7 +4035,7 @@ const POI_DATA = {
           "name": "Hue Imperial City (The Citadel)",
           "area": "North bank of the Perfume River, city center",
           "what": "The walled seat of the Nguyen Dynasty from 1802 to 1945, entered through the Ngo Mon Gate past the Nine Holy Cannons and the Nine Dynastic Urns, with the To Mieu royal family temple inside.",
-          "why": "The reason Hue is Vietnam's imperial capital rather than just another river city, and the largest single historical site in the country",
+          "why": "The reason Hue is Vietnam's imperial capital rather than just another river city, and the largest single historical site in the country. Closes when the Perfume River floods - in 2025 on 27-30/10 and again from 3/11",
           "lat": null,
           "lng": null,
           "approx": false,
@@ -4004,7 +4047,7 @@ const POI_DATA = {
           "nameHe": "העיר האסורה",
           "areaHe": "הגדה הצפונית של נהר הבשמים, מרכז העיר",
           "whatHe": "מושבה המבוצר של שושלת נגוין מ-1802 עד 1945. נכנסים דרך שער נגו מון, עוברים את תשעת התותחים הקדושים ואת תשע כדי השושלת, ובפנים מקדש המשפחה טו מייה.",
-          "whyHe": "הסיבה שהואה היא הבירה הקיסרית של ויאטנם ולא עוד עיר נהר, והאתר ההיסטורי היחיד הגדול ביותר במדינה",
+          "whyHe": "הסיבה שהואה היא הבירה הקיסרית של ויאטנם ולא עוד עיר נהר, והאתר ההיסטורי היחיד הגדול ביותר במדינה. נסגר כשנהר הבשמים מוצף - ב-2025 ב-27-30/10 ושוב מ-3/11",
           "priceUnit": null,
           "priceLow": null,
           "priceHigh": null,
@@ -4016,7 +4059,7 @@ const POI_DATA = {
           "hours": "07:00-17:00 in the rainy season; 06:30-17:30 in the dry",
           "hoursHe": "07:00-17:00 בעונת הגשמים; 06:30-17:30 בעונה היבשה",
           "weather": "medium",
-          "limiter": "rain"
+          "limiter": "flood"
         },
         {
           "name": "Khai Dinh Tomb",
@@ -4027,8 +4070,7 @@ const POI_DATA = {
           "lng": 107.5902801,
           "approx": false,
           "sources": [
-            "https://vinwonders.com/en/wonderpedia/news/khai-dinh-tomb-things-to-know-about-the-last-imperial-tomb-built-in-hue/",
-            "https://www.lonelyplanet.com/vietnam/central-vietnam/hue/attractions/tomb-of-khai-dinh/a/poi-sig/1158037/357875"
+            "https://vinwonders.com/en/wonderpedia/news/khai-dinh-tomb-things-to-know-about-the-last-imperial-tomb-built-in-hue/"
           ],
           "tier": null,
           "nameHe": "קבר קאי דין",
@@ -4114,7 +4156,7 @@ const POI_DATA = {
           "name": "Perfume River dragon boat cruise",
           "area": "Departs from piers along the Perfume River, city center",
           "what": "An evening cruise on a wooden dragon-prowed boat past Truong Tien and Phu Xuan bridges, typically with a live Ca Hue folk-music performance on board and the option to release a lotus lantern onto the water.",
-          "why": "The classic way to see Hue's bridges and riverbanks lit up at night, and to hear Ca Hue court music in something like its original setting",
+          "why": "The classic way to see Hue's bridges and riverbanks lit up at night, and to hear Ca Hue court music in something like its original setting. No cruises when the river is in flood",
           "lat": null,
           "lng": null,
           "approx": false,
@@ -4126,7 +4168,7 @@ const POI_DATA = {
           "nameHe": "שייט סירת דרקון בנהר הבשמים",
           "areaHe": "יוצא ממזחים לאורך נהר הבשמים, מרכז העיר",
           "whatHe": "שייט ערב בסירת עץ עם חרטום דרקון על פני גשרי טרונג טיין ופו שואן, בדרך כלל עם מופע חי של מוזיקת קה הואה על הסיפון ואפשרות לשלח פנס לוטוס על המים.",
-          "whyHe": "הדרך הקלאסית לראות את גשרי הואה ואת גדות הנהר מוארים בלילה, ולשמוע את מוזיקת החצר קה הואה בקירוב לסביבתה המקורית",
+          "whyHe": "הדרך הקלאסית לראות את גשרי הואה ואת גדות הנהר מוארים בלילה, ולשמוע את מוזיקת החצר קה הואה בקירוב לסביבתה המקורית. אין שייט כשהנהר מוצף",
           "priceUnit": null,
           "priceLow": null,
           "priceHigh": null,
@@ -4136,7 +4178,7 @@ const POI_DATA = {
           "signal": null,
           "video": null,
           "weather": "high",
-          "limiter": "rain"
+          "limiter": "flood"
         }
       ],
       "food": [],
@@ -4205,9 +4247,9 @@ const POI_DATA = {
           "area": "6 Dinh Tien Hoang Street",
           "what": "A family-run restaurant grilling banh khoai to order - Hue's crisp turmeric rice-flour pancake, folded over pork, shrimp and bean sprouts and eaten wrapped in rice paper with a thick peanut-sesame dipping sauce.",
           "why": "Widely cited as Hue's best banh khoai, and the crunchiest version of the dish in the city",
-          "lat": 16.4720712,
-          "lng": 107.5846611,
-          "approx": true,
+          "lat": 16.4687306,
+          "lng": 107.5851255,
+          "approx": false,
           "sources": [
             "https://beebeetravel.com/banh-khoai-lac-thien-hue-local-food/"
           ],
@@ -4235,7 +4277,7 @@ const POI_DATA = {
           "name": "Dong Ba Market",
           "area": "North bank of the Perfume River, city center",
           "what": "Hue's biggest market, a three-floor bell-shaped building where the ground floor sells dried seafood and local sauces, the second floor sells crafts like forged knives and ceramics, and the third is devoted to ao dai tailoring.",
-          "why": "Central Vietnam's largest and oldest market, and as much a symbol of Hue's identity as the Citadel",
+          "why": "Central Vietnam's largest and oldest market, and as much a symbol of Hue's identity as the Citadel. Flooded in the 2025 floods along with most of the old city; check before going in heavy rain",
           "lat": 16.4724474,
           "lng": 107.5886452,
           "approx": false,
@@ -4247,7 +4289,7 @@ const POI_DATA = {
           "nameHe": "שוק דונג בה",
           "areaHe": "הגדה הצפונית של נהר הבשמים, מרכז העיר",
           "whatHe": "השוק הגדול בהואה, בניין בן שלוש קומות בצורת פעמון. בקומת הקרקע פירות ים מיובשים ורטבים מקומיים, בשנייה מלאכת יד כמו סכינים מחושלות וקרמיקה, והשלישית מוקדשת לתפירת אאו דאי.",
-          "whyHe": "השוק הגדול והוותיק ביותר במרכז ויאטנם, וסמל לזהות של הואה לא פחות מהעיר האסורה",
+          "whyHe": "השוק הגדול והוותיק ביותר במרכז ויאטנם, וסמל לזהות של הואה לא פחות מהעיר האסורה. הוצף בשיטפונות 2025 יחד עם רוב העיר העתיקה; לבדוק לפני שהולכים בגשם כבד",
           "priceUnit": null,
           "priceLow": null,
           "priceHigh": null,
@@ -4257,7 +4299,7 @@ const POI_DATA = {
           "signal": null,
           "video": null,
           "weather": "medium",
-          "limiter": "rain"
+          "limiter": "flood"
         }
       ],
       "nightlife": [],
@@ -4376,13 +4418,14 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "132 Hùng Vương, Hội An, Đà Nẵng",
           "weather": "low",
           "limiter": "rain"
         },
         {
           "name": "Almanity Hoi An Resort & Spa",
-          "area": "Old Town, on Hai Ba Trung Street",
-          "what": "A 139-room wellness resort inside the Old Town itself, built around a Japanese garden with a koi pond and My Chi Spa, the largest resort spa in Hoi An.",
+          "area": "326 Ly Thuong Kiet, about 15 minutes' walk north-west of the Old Town",
+          "what": "A 139-room wellness resort about 15 minutes' walk from the Old Town, built around a Japanese garden with a koi pond and My Chi Spa, the largest resort spa in Hoi An.",
           "why": "One of the highest-rated hotels of any tier in Hoi An (9.2/10 from over 2,400 reviews), though some reviewers rate the actual guest experience closer to a strong 4-star than a true 5-star",
           "lat": null,
           "lng": null,
@@ -4393,8 +4436,8 @@ const POI_DATA = {
           ],
           "tier": 5,
           "nameHe": "אלמניטי",
-          "areaHe": "העיר העתיקה, רחוב האי בה צ'ונג",
-          "whatHe": "ריזורט בריאות של 139 חדרים בתוך העיר העתיקה עצמה, בנוי סביב גן יפני עם בריכת קוי וספא מיי צ'י — ספא הריזורט הגדול בהוי אן.",
+          "areaHe": "לי טואנג קיאט 326, כרבע שעה הליכה צפון-מערבית לעיר העתיקה",
+          "whatHe": "ריזורט בריאות של 139 חדרים, כרבע שעה הליכה מהעיר העתיקה, בנוי סביב גן יפני עם בריכת קוי וספא מיי צ'י - ספא הריזורט הגדול בהוי אן.",
           "whyHe": "מהמלונות המדורגים ביותר בהוי אן בכל דרגה (9.2 מלמעלה מ-2,400 ביקורות), אם כי חלק מהמבקרים מדרגים את החוויה בפועל קרוב יותר ל-4 כוכבים חזק מאשר ל-5 אמיתי",
           "priceUnit": "per_night",
           "tierOfficial": false,
@@ -4406,6 +4449,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "326 Lý Thường Kiệt, Hội An, Đà Nẵng",
           "weather": "low",
           "limiter": "rain"
         },
@@ -4436,6 +4480,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "14 Hùng Vương, Hội An, Đà Nẵng",
+          "nameVi": "Silkotel Hội An",
           "weather": "low",
           "limiter": "rain"
         },
@@ -4466,24 +4512,25 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Lý Thường Kiệt, Hội An Đông, Hội An, Đà Nẵng",
           "weather": "low",
           "limiter": "rain"
         },
         {
           "name": "Hoian Central Hotel",
-          "area": "In the heart of Hoi An, steps from the riverside",
+          "area": "301 Nguyen Duy Hieu, about 5 minutes' walk from the Central Market",
           "what": "A small hotel right in the town center with an outdoor pool and free bicycle rental, close enough to the Old Town's riverside streets to walk everywhere.",
           "why": "One of the best-located officially-rated 3-star hotels in town, with ratings above many pricier properties",
-          "lat": 15.8797503,
-          "lng": 108.319306,
-          "approx": false,
+          "lat": 15.87785,
+          "lng": 108.33464,
+          "approx": true,
           "sources": [
             "https://www.tripadvisor.com/Hotel_Review-g298082-d13737482-Reviews-Hoian_Central_Hotel-Hoi_An_Quang_Nam_Province.html",
             "https://www.klook.com/hotels/detail/113919-hoian-central-hotel/"
           ],
           "tier": 3,
           "nameHe": "הוי אן סנטרל",
-          "areaHe": "בלב הוי אן, צעדים מהנהר",
+          "areaHe": "נגוין זוי היאו 301, כחמש דקות הליכה מהשוק המרכזי",
           "whatHe": "מלון קטן ממש במרכז העיר עם בריכה חיצונית והשכרת אופניים חופשית, קרוב מספיק לרחובות הנהר של העיר העתיקה כדי ללכת לכל מקום.",
           "whyHe": "מהמלונות הממוקמים ביותר בעיר עם דירוג 3 כוכבים רשמי, ועם ציונים גבוהים מנכסים יקרים ממנו",
           "priceUnit": "per_night",
@@ -4496,25 +4543,26 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "301 Nguyễn Duy Hiệu, Hội An, Đà Nẵng",
           "weather": "low",
           "limiter": "rain"
         },
         {
           "name": "Little Town Villa",
-          "area": "Near Hoi An Market, 5 minutes' walk from the Japanese Covered Bridge",
-          "what": "A small villa-style property near the town market with a spa, outdoor pool and restaurant, five minutes' walk from the Japanese Covered Bridge.",
+          "area": "239 Nguyen Duy Hieu, Cam Chau, about 7 minutes' walk to the Central Market",
+          "what": "A small villa-style property with a spa, outdoor pool and restaurant, about 1 km east of the town centre.",
           "why": "Rated 5/5 on Tripadvisor from hundreds of reviews despite its official 3-star classification - well above its price bracket",
-          "lat": 15.8826344,
-          "lng": 108.3244197,
-          "approx": true,
+          "lat": null,
+          "lng": null,
+          "approx": false,
           "sources": [
             "https://www.tripadvisor.com/Hotel_Review-g298082-d12192622-Reviews-Little_Town_Villas-Hoi_An_Quang_Nam_Province.html",
             "https://www.booking.com/hotel/vn/little-town-villa.html"
           ],
           "tier": 3,
           "nameHe": "ליטל טאון וילה",
-          "areaHe": "ליד שוק הוי אן, 5 דקות הליכה מהגשר היפני",
-          "whatHe": "נכס קטן בסגנון וילה ליד שוק העיר, עם ספא, בריכה חיצונית ומסעדה, חמש דקות הליכה מהגשר היפני המקורה.",
+          "areaHe": "נגוין זוי היאו 239, קאם צ'או, כשבע דקות הליכה לשוק המרכזי",
+          "whatHe": "נכס קטן בסגנון וילה, עם ספא, בריכה חיצונית ומסעדה, כקילומטר מזרחית למרכז העיר.",
           "whyHe": "מדורג 5 מתוך 5 בטריפאדוויזר ממאות ביקורות למרות סיווג 3 הכוכבים הרשמי שלו — הרבה מעל טווח המחיר",
           "priceUnit": "per_night",
           "tierOfficial": true,
@@ -4526,6 +4574,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "239 Nguyễn Duy Hiệu, Hội An, Đà Nẵng",
           "weather": "low",
           "limiter": "rain"
         }
@@ -4535,7 +4584,7 @@ const POI_DATA = {
           "name": "Hoi An Ancient Town and Japanese Covered Bridge",
           "area": "Old Town, along the Thu Bon River",
           "what": "A UNESCO-listed trading-port town of yellow-walled shophouses, Chinese assembly halls and merchant homes dating to the 16th-18th centuries, centred on the 18-metre wooden Japanese Covered Bridge that doubles as a small temple.",
-          "why": "The reason Hoi An exists on any itinerary - one of Southeast Asia's best-preserved trading ports, UNESCO-listed since 1999",
+          "why": "The reason Hoi An exists on any itinerary - one of Southeast Asia's best-preserved trading ports, UNESCO-listed since 1999. Riverside streets flood repeatedly in November - up to 2 m in 2025; check the day's water level",
           "lat": 15.8779509,
           "lng": 108.3239898,
           "approx": false,
@@ -4547,7 +4596,7 @@ const POI_DATA = {
           "nameHe": "העיר העתיקה והגשר היפני",
           "areaHe": "העיר העתיקה, לאורך נהר תו בון",
           "whatHe": "עיר נמל מסחר ברשימת אונסק\"ו, של בתי חנות בקירות צהובים, אולמות אספה סיניים ובתי סוחרים מהמאות ה-16 עד ה-18, סביב הגשר היפני המקורה מעץ באורך 18 מטר שמשמש גם כמקדש קטן.",
-          "whyHe": "הסיבה שהוי אן מופיעה בכל מסלול — אחד מנמלי המסחר המשומרים ביותר בדרום מזרח אסיה, ברשימת אונסק\"ו מאז 1999",
+          "whyHe": "הסיבה שהוי אן מופיעה בכל מסלול — אחד מנמלי המסחר המשומרים ביותר בדרום מזרח אסיה, ברשימת אונסק\"ו מאז 1999. רחובות הנהר מוצפים שוב ושוב בנובמבר - עד 2 מטר ב-2025; לבדוק את מפלס המים באותו יום",
           "priceUnit": null,
           "priceLow": null,
           "priceHigh": null,
@@ -4559,7 +4608,7 @@ const POI_DATA = {
           "hours": "Ticket booths 07:30 to about 20:00; the heritage houses and assembly halls themselves 08:30-18:00",
           "hoursHe": "דלפקי הכרטיסים 07:30 עד סביבות 20:00; הבתים ההיסטוריים ואולמות האספה עצמם 08:30-18:00",
           "weather": "medium",
-          "limiter": "rain"
+          "limiter": "flood"
         },
         {
           "name": "Ba Na Hills and Golden Bridge",
@@ -4654,7 +4703,7 @@ const POI_DATA = {
           "name": "Cam Thanh coconut forest basket boat ride",
           "area": "Bay Mau coconut forest, Cam Thanh village, ~5km from Old Town",
           "what": "A round bamboo 'basket boat' (thung chai) paddled through the water canals of a palm forest that locals call Hoi An's green lung, usually including a spinning-boat performance and a net-fishing demonstration.",
-          "why": "A lighter, closer-to-town alternative to the Mekong Delta basket-boat experience, and popular with families",
+          "why": "A lighter, closer-to-town alternative to the Mekong Delta basket-boat experience, and popular with families. Boats do not run on flood or typhoon days",
           "lat": null,
           "lng": null,
           "approx": false,
@@ -4666,7 +4715,7 @@ const POI_DATA = {
           "nameHe": "סירות הסל ביער הקוקוס קאם תאן",
           "areaHe": "יער הקוקוס באי מאו, הכפר קאם תאן, כ-5 קילומטר מהעיר העתיקה",
           "whatHe": "סירת סל עגולה מבמבוק שחותרים בה דרך תעלות המים של יער דקלים שהמקומיים קוראים לו הריאה הירוקה של הוי אן. בדרך כלל כולל מופע סירה מסתובבת והדגמת דיג ברשת.",
-          "whyHe": "חלופה קלה וקרובה יותר לעיר לחוויית סירות הסל של דלתת המקונג, ופופולרית במיוחד עם משפחות",
+          "whyHe": "חלופה קלה וקרובה יותר לעיר לחוויית סירות הסל של דלתת המקונג, ופופולרית במיוחד עם משפחות. הסירות לא יוצאות בימי שיטפון או טייפון",
           "priceUnit": null,
           "priceLow": null,
           "priceHigh": null,
@@ -4676,7 +4725,7 @@ const POI_DATA = {
           "signal": null,
           "video": null,
           "weather": "high",
-          "limiter": "rain"
+          "limiter": "flood"
         }
       ],
       "food": [],
@@ -4770,11 +4819,11 @@ const POI_DATA = {
         },
         {
           "name": "My Quang Sua Hong Van",
-          "area": "Da Nang",
+          "area": "Da Nang, 59 Le Hong Phong, Hai Chau",
           "what": "A stall serving my quang - central Vietnam's wide turmeric-yellow noodles in a shallow pool of broth rather than a soup - in the local jellyfish version, with peanuts and a sheet of grilled rice cracker.",
           "why": "My quang is the dish of this province specifically, and the jellyfish version barely exists outside Da Nang",
-          "lat": 16.0661233,
-          "lng": 108.229693,
+          "lat": 16.064079,
+          "lng": 108.220627,
           "approx": false,
           "sources": [
             "https://guide.michelin.com/us/en/da-nang-region/restaurants/bib-gourmand",
@@ -4782,7 +4831,7 @@ const POI_DATA = {
           ],
           "tier": null,
           "nameHe": "מיי קוואנג הונג ואן",
-          "areaHe": "דה נאנג",
+          "areaHe": "דה נאנג, לה הונג פונג 59, האי צ'או",
           "whatHe": "דוכן שמגיש מיי קוואנג — האטריות הרחבות בצבע כורכום של מרכז ויאטנם, בשלולית מרק רדודה ולא כמרק — בגרסת המדוזה המקומית, עם בוטנים וגיליון קרקר אורז צלוי.",
           "whyHe": "מיי קוואנג היא המנה של המחוז הזה ספציפית, וגרסת המדוזה כמעט אינה קיימת מחוץ לדה נאנג",
           "priceUnit": null,
@@ -4793,24 +4842,25 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_bib",
           "video": null,
+          "phone": "+84788492977",
           "weather": "medium",
           "limiter": "rain"
         },
         {
           "name": "Banh Beo - Banh Dap",
-          "area": "Da Nang",
+          "area": "Da Nang, 251 Phan Chau Trinh, Hai Chau",
           "what": "A stall built on two central-coast snacks - small steamed rice cakes topped with dried shrimp, and a grilled rice cracker sandwiched with a soft wet sheet that you smash by hand before dipping.",
           "why": "Banh dap is eaten by breaking it with your palm, which makes it the most fun dish on this list and one you will not find at home",
-          "lat": 15.8844674,
-          "lng": 108.3303903,
-          "approx": true,
+          "lat": 16.0598894,
+          "lng": 108.2194858,
+          "approx": false,
           "sources": [
             "https://guide.michelin.com/us/en/da-nang-region/restaurants/bib-gourmand",
             "https://www.tripadvisor.com/Restaurants-g298085-Da_Nang.html"
           ],
           "tier": null,
           "nameHe": "באן בייאו ובאן דאפ",
-          "areaHe": "דה נאנג",
+          "areaHe": "דה נאנג, פאן צ'או טרין 251, האי צ'או",
           "whatHe": "דוכן שבנוי סביב שני חטיפים של חוף המרכז: עוגיות אורז מאודות קטנות ומעליהן שרימפס מיובש, וקרקר אורז צלוי שבתוכו גיליון רך ולח, שמנפצים ביד לפני הטבילה.",
           "whyHe": "את הבאן דאפ אוכלים בשבירה בכף היד, מה שהופך אותו למנה הכי כיפית ברשימה הזו ולכזו שלא תמצא בבית",
           "priceUnit": null,
@@ -4889,9 +4939,9 @@ const POI_DATA = {
           "area": "InterContinental Danang Sun Peninsula Resort, Son Tra",
           "what": "A fine-dining French restaurant inside a recreated Indochinese colonial mansion overlooking the sea, serving a five- or eight-course set menu built on Vietnamese, French and Japanese ingredients.",
           "why": "The only Michelin-starred restaurant in Central Vietnam, held by chef Christian Le Squer, who carried three Michelin stars in France for 23 years",
-          "lat": 15.9040037,
-          "lng": 108.3326237,
-          "approx": true,
+          "lat": 16.1218937,
+          "lng": 108.3066406,
+          "approx": false,
           "sources": [
             "https://guide.michelin.com/us/en/da-nang-region/da-nang_2984390/restaurant/la-maison-1888",
             "https://www.danang.intercontinental.com/a-michelin-star-for-la-maison-1888/"
@@ -4970,11 +5020,11 @@ const POI_DATA = {
         },
         {
           "name": "Ngoc Chi",
-          "area": "Da Nang",
+          "area": "Da Nang, 202 Hoang Dieu",
           "what": "A vegetarian kitchen rebuilding central-Vietnamese dishes without meat or fish sauce, from noodle bowls to rice plates.",
           "why": "Bib Gourmand vegetarian, and the fallback in a region whose cooking leans hard on fish sauce and pork",
-          "lat": 16.0650511,
-          "lng": 108.2227097,
+          "lat": 16.0620931,
+          "lng": 108.2174064,
           "approx": false,
           "sources": [
             "https://guide.michelin.com/us/en/da-nang-region/restaurants/bib-gourmand",
@@ -4982,7 +5032,7 @@ const POI_DATA = {
           ],
           "tier": null,
           "nameHe": "נגוק צ'י",
-          "areaHe": "דה נאנג",
+          "areaHe": "דה נאנג, הואנג דיאו 202",
           "whatHe": "מטבח צמחוני שבונה מחדש מנות של מרכז ויאטנם בלי בשר ובלי רוטב דגים, מקערות אטריות ועד מנות אורז.",
           "whyHe": "ביב גורמנד צמחוני, והמפלט באזור שהבישול שלו נשען חזק על רוטב דגים ועל חזיר",
           "priceUnit": null,
@@ -5062,7 +5112,7 @@ const POI_DATA = {
         {
           "name": "Hoi An Old Town after dark",
           "area": "Tran Phu, Nguyen Thai Hoc and Bach Dang, along the Hoai River",
-          "what": "At dusk the electric lights in the old town are switched off and the silk lanterns come on. The riverside lanes close to traffic and fill with people walking, eating and floating paper candles on the water.",
+          "what": "At dusk the silk lanterns come on and the riverside lanes close to traffic and fill with people walking, eating and floating paper candles on the water. Only on the 14th night of the lunar month - 22 November 2026 on this trip - are the electric lights switched off.",
           "why": "The town itself is the nightlife here - there is no single venue to book, and after 22:00 it quietly empties",
           "lat": null,
           "lng": null,
@@ -5074,7 +5124,7 @@ const POI_DATA = {
           "tier": null,
           "nameHe": "העיר העתיקה אחרי החשכה",
           "areaHe": "טראן פו, נגוין תאי הוק ובאק דאנג, לאורך נהר הואי",
-          "whatHe": "עם רדת הערב מכבים את התאורה החשמלית בעיר העתיקה ומדליקים את פנסי המשי. הסמטאות שעל הנהר נסגרות לתנועה ומתמלאות באנשים שהולכים, אוכלים ומשלחים נרות נייר על המים.",
+          "whatHe": "עם רדת הערב נדלקים פנסי המשי, והסמטאות שעל הנהר נסגרות לתנועה ומתמלאות באנשים שהולכים, אוכלים ומשלחים נרות נייר על המים. רק בליל ה-14 בחודש הירחי - בטיול הזה 22 בנובמבר 2026 - מכבים את התאורה החשמלית.",
           "whyHe": "העיר עצמה היא חיי הלילה כאן — אין מקום יחיד להזמין, ואחרי עשר בלילה היא מתרוקנת בשקט",
           "priceUnit": null,
           "priceLow": null,
@@ -5375,6 +5425,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "81 Nguyễn Tất Thành, Tân An, Buôn Ma Thuột, Đắk Lắk",
           "weather": "low",
           "limiter": "rain"
         },
@@ -5405,6 +5456,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "1-3 Phan Chu Trinh, Buôn Ma Thuột, Đắk Lắk",
           "weather": "low",
           "limiter": "rain"
         },
@@ -5435,6 +5487,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "30 Nguyễn Chí Thanh, Tân An, Buôn Ma Thuột, Đắk Lắk",
           "weather": "low",
           "limiter": "rain"
         }
@@ -5442,7 +5495,7 @@ const POI_DATA = {
       "must_see": [
         {
           "name": "The World Coffee Museum",
-          "area": "Tan Loi Ward, inside Trung Nguyen Coffee Village, ~4km from center",
+          "area": "Nguyen Dinh Chieu Street, Buon Ma Thuot ward, about 1.2 km north of the centre",
           "what": "A museum built in the style of Central Highlands longhouses, holding over 10,000 coffee-related artefacts from around the world, with hands-on tasting rooms rather than glass display cases.",
           "why": "The signature sight of Vietnam's coffee capital, and the reason most visitors come to Buon Ma Thuot at all",
           "lat": 12.6908584,
@@ -5454,7 +5507,7 @@ const POI_DATA = {
           ],
           "tier": null,
           "nameHe": "מוזיאון הקפה העולמי",
-          "areaHe": "טאן לוי, בתוך כפר הקפה טרונג נגוין, כ-4 קילומטר מהמרכז",
+          "areaHe": "רחוב נגוין דין צ'יאו, רובע בואן מה תואט, כ-1.2 קילומטר צפונית למרכז",
           "whatHe": "מוזיאון בנוי בסגנון בתי האורך של רמות המרכז, ובו למעלה מ-10,000 פריטים הקשורים לקפה מרחבי העולם, עם חדרי טעימה מעשיים ולא ויטרינות זכוכית.",
           "whyHe": "האתר המזוהה של בירת הקפה של ויאטנם, והסיבה שרוב המבקרים מגיעים לבואן מה תואט בכלל",
           "priceUnit": null,
@@ -5465,8 +5518,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
-          "hours": "08:00-17:00 daily",
-          "hoursHe": "08:00-17:00 כל יום",
+          "hours": "About 07:00-17:45 daily (sources vary)",
+          "hoursHe": "בערך 07:00-17:45 כל יום (המקורות חלוקים)",
           "weather": "medium",
           "limiter": "rain"
         },
@@ -5558,11 +5611,11 @@ const POI_DATA = {
       "attractions": [
         {
           "name": "Trung Nguyen Coffee Village",
-          "area": "Ly Thai To Street, Tan An Ward, ~3km from center",
-          "what": "A 20,000 sqm compound of replica traditional houses, coffee-roasting displays and cafes built by Vietnam's best-known coffee brand, with the World Coffee Museum inside its grounds.",
+          "area": "163 Ly Thai To, Buon Ma Thuot ward, about 3 km north-east of the centre",
+          "what": "A 20,000 sqm compound of replica traditional houses, coffee-roasting displays and cafes built by Vietnam's best-known coffee brand. The World Coffee Museum is a separate site, 2.6 km away.",
           "why": "A full afternoon of coffee culture in one walkable site, from growing to roasting to cup",
-          "lat": null,
-          "lng": null,
+          "lat": 12.701148,
+          "lng": 108.061008,
           "approx": false,
           "sources": [
             "https://www.originvietnam.com/destinations/trung-nguyen-coffee-village/",
@@ -5570,8 +5623,8 @@ const POI_DATA = {
           ],
           "tier": null,
           "nameHe": "כפר הקפה טרונג נגוין",
-          "areaHe": "רחוב לי תאי טו, טאן אן, כ-3 קילומטר מהמרכז",
-          "whatHe": "מתחם של 20,000 מטר רבוע ובו העתקים של בתים מסורתיים, מיצגי קלייה ובתי קפה, שהקים מותג הקפה המוכר בוויאטנם, ומוזיאון הקפה העולמי בתוך שטחו.",
+          "areaHe": "לי תאי טו 163, רובע בואן מה תואט, כ-3 קילומטר צפון-מזרחית למרכז",
+          "whatHe": "מתחם של 20,000 מטר רבוע ובו העתקים של בתים מסורתיים, מיצגי קלייה ובתי קפה, שהקים מותג הקפה המוכר בוויאטנם. מוזיאון הקפה העולמי הוא אתר נפרד, 2.6 קילומטר משם.",
           "whyHe": "אחר צהריים שלם של תרבות קפה באתר אחד שאפשר להקיף ברגל, מגידול ועד קלייה ועד כוס",
           "priceUnit": null,
           "priceLow": null,
@@ -5581,6 +5634,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "hours": "07:00-22:00, free entry",
+          "hoursHe": "07:00-22:00, כניסה חופשית",
           "weather": "high",
           "limiter": "rain"
         }
@@ -5735,6 +5790,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Hồ Lắk, Liên Sơn, Lắk, Đắk Lắk",
+          "addrViPartial": true,
           "weather": "low",
           "limiter": "rain"
         },
@@ -5743,8 +5800,8 @@ const POI_DATA = {
           "area": "Hill above Lak Lake, Lien Son town",
           "what": "The 1951 hunting lodge Emperor Bao Dai built on a hill overlooking Lak Lake, now run as a simple guesthouse with the old dining room serving as a restaurant.",
           "why": "The only accommodation directly on the hill above the lake, inside a genuine former royal building",
-          "lat": 12.4155999,
-          "lng": 108.1816523,
+          "lat": 12.414525,
+          "lng": 108.176927,
           "approx": false,
           "sources": [
             "https://www.tripadvisor.com/Hotel_Review-g670918-d3291911-Reviews-Bao_Dai_Villa-Buon_Ma_Thuot_Dak_Lak_Province.html",
@@ -5765,6 +5822,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Đường Nguyễn Huệ, Liên Sơn, Lắk, Đắk Lắk",
+          "nameVi": "Biệt điện Bảo Đại",
           "weather": "low",
           "limiter": "rain"
         }
@@ -5977,6 +6036,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "2 Trần Phú, Đà Lạt, Lâm Đồng",
           "weather": "low",
           "limiter": "rain"
         },
@@ -6007,6 +6067,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Phạm Hồng Thái, Xuân Hương, Đà Lạt, Lâm Đồng",
           "weather": "low",
           "limiter": "rain"
         },
@@ -6037,6 +6098,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "10 Phan Bội Châu, Xuân Hương, Đà Lạt, Lâm Đồng",
           "weather": "low",
           "limiter": "rain"
         },
@@ -6067,6 +6129,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Khu chức năng 7.9, Hồ Tuyền Lâm, Đà Lạt, Lâm Đồng",
           "weather": "low",
           "limiter": "rain"
         },
@@ -6097,6 +6160,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "4 Nguyễn Thị Minh Khai, Đà Lạt, Lâm Đồng",
           "weather": "low",
           "limiter": "rain"
         },
@@ -6127,6 +6191,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "124 Phạm Ngọc Thạch, Đà Lạt, Lâm Đồng",
           "weather": "low",
           "limiter": "rain"
         }
@@ -6626,6 +6691,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "180-188 Lý Tự Trọng, Bến Thành, Quận 1, TP. Hồ Chí Minh",
           "weather": "low",
           "limiter": "rain"
         },
@@ -6656,6 +6722,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "76-78 Nguyễn Thị Minh Khai, Quận 3, TP. Hồ Chí Minh",
           "weather": "low",
           "limiter": "rain"
         },
@@ -6686,6 +6753,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "17 Tôn Đức Thắng, Bến Nghé, Quận 1, TP. Hồ Chí Minh",
           "weather": "low",
           "limiter": "rain"
         },
@@ -6716,6 +6784,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "48-50 Thủ Khoa Huân, Bến Thành, Quận 1, TP. Hồ Chí Minh",
           "weather": "low",
           "limiter": "rain"
         },
@@ -6746,6 +6815,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Đường Nguyễn An Ninh, Bến Thành, Quận 1, TP. Hồ Chí Minh",
           "weather": "low",
           "limiter": "rain"
         },
@@ -6776,6 +6846,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Đường Đồng Khởi, Quận 1, TP. Hồ Chí Minh",
+          "nameVi": "Khách sạn Bông Sen Sài Gòn",
           "weather": "low",
           "limiter": "rain"
         }
@@ -7018,11 +7090,11 @@ const POI_DATA = {
         },
         {
           "name": "Pho Phuong",
-          "area": "District 3",
+          "area": "Tan Dinh ward (former Da Kao, District 1), 25 Hoang Sa",
           "what": "A southern pho counter, sweeter and more herb-heavy than the Hanoi version, served with the plate of bean sprouts, basil and lime that the north leaves off.",
           "why": "Eating this after Hanoi's pho is the fastest way to taste how far apart the two halves of the country actually are",
-          "lat": 10.7747697,
-          "lng": 106.7007331,
+          "lat": null,
+          "lng": null,
           "approx": false,
           "sources": [
             "https://guide.michelin.com/us/en/ho-chi-minh/restaurants/bib-gourmand",
@@ -7030,7 +7102,7 @@ const POI_DATA = {
           ],
           "tier": null,
           "nameHe": "פו פואונג",
-          "areaHe": "מחוז 3",
+          "areaHe": "רובע טאן דין (דה קאו לשעבר, מחוז 1), הואנג סה 25",
           "whatHe": "דלפק פו דרומי, מתוק יותר ועתיר עשבים יותר מהגרסה של האנוי, שמוגש עם צלחת הנבטים, הבזיליקום והליים שהצפון מוותר עליה.",
           "whyHe": "לאכול את זה אחרי הפו של האנוי הוא הדרך המהירה ביותר לטעום כמה רחוקים שני חצאי המדינה זה מזה",
           "priceUnit": null,
@@ -7041,12 +7113,14 @@ const POI_DATA = {
           "isDish": false,
           "signal": "michelin_bib",
           "video": null,
+          "hours": "05:00-20:30; Monday 05:00-14:00",
+          "hoursHe": "05:00-20:30; ביום שני 05:00-14:00",
           "weather": "medium",
           "limiter": "rain"
         },
         {
           "name": "Bun Bo Hue 14B",
-          "area": "District 1",
+          "area": "Former District 4, 14B Street 46",
           "what": "A shop serving the central-Vietnamese lemongrass-and-chilli beef noodle soup, thicker round noodles and a far hotter broth than pho.",
           "why": "A chance to eat Hue's signature dish properly even if the weather in Hue itself does not cooperate",
           "lat": null,
@@ -7058,7 +7132,7 @@ const POI_DATA = {
           ],
           "tier": null,
           "nameHe": "בון בו הואה 14B",
-          "areaHe": "מחוז 1",
+          "areaHe": "מחוז 4 לשעבר, רחוב 46 מספר 14B",
           "whatHe": "חנות שמגישה את מרק אטריות הבקר של מרכז ויאטנם, על בסיס למון גראס וצ'ילי, עם אטריות עגולות ועבות יותר ומרק חריף בהרבה מפו.",
           "whyHe": "הזדמנות לאכול את מנת החתימה של הואה כמו שצריך, גם אם מזג האוויר בהואה עצמה לא משתף פעולה",
           "priceUnit": null,
@@ -7166,9 +7240,9 @@ const POI_DATA = {
         },
         {
           "name": "Hum Garden",
-          "area": "District 1",
+          "area": "Thao Dien (An Khanh ward), 32 D10 Street",
           "what": "A garden restaurant serving plated vegetarian Vietnamese food - lotus, tofu, mushroom and herb dishes - in a quiet courtyard away from the traffic.",
-          "why": "Saigon's Bib Gourmand vegetarian address, and one of the few genuinely calm dining rooms in District 1",
+          "why": "Saigon's Bib Gourmand vegetarian address, and one of the calmest dining rooms in the city, in Thao Dien rather than District 1",
           "lat": 10.804141,
           "lng": 106.7441455,
           "approx": true,
@@ -7178,9 +7252,9 @@ const POI_DATA = {
           ],
           "tier": null,
           "nameHe": "האם גארדן",
-          "areaHe": "מחוז 1",
+          "areaHe": "תאו דיין (רובע אן קאן), רחוב D10 מספר 32",
           "whatHe": "מסעדת גן שמגישה אוכל ויאטנמי צמחוני מוגש בצלחות — מנות לוטוס, טופו, פטריות ועשבים — בחצר שקטה הרחק מהתנועה.",
-          "whyHe": "כתובת הביב גורמנד הצמחונית של סייגון, ואחד מחדרי האוכל הרגועים באמת המעטים במחוז 1",
+          "whyHe": "כתובת הביב גורמנד הצמחונית של סייגון, ואחד מחדרי האוכל השקטים בעיר - בתאו דיין, לא במחוז 1",
           "priceUnit": null,
           "priceLow": null,
           "priceHigh": null,
@@ -7439,7 +7513,7 @@ const POI_DATA = {
           "lng": 106.6562645,
           "approx": false,
           "sources": [
-            "https://blog.gettransfer.com/from-ho-chi-minh-city-airport-to-the-city-center-taxi-grab-more/",
+            "https://www.vietnamtourism.com/en/tan-son-nhat-airport-to-district-1",
             "https://www.grab.com/global/airport-rides/tan-son-nhat-international-airport/"
           ],
           "tier": null,
@@ -7569,6 +7643,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "209 Đường 30 Tháng 4, Ninh Kiều, Cần Thơ",
+          "nameVi": "Sheraton Cần Thơ",
           "weather": "low",
           "limiter": "rain"
         },
@@ -7599,6 +7675,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Khu E1, Cồn Cái Khế, Ninh Kiều, Cần Thơ",
           "weather": "low",
           "limiter": "rain"
         },
@@ -7629,6 +7706,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Cái Khế, Ninh Kiều, Cần Thơ",
+          "nameVi": "Victoria Cần Thơ Resort",
           "weather": "low",
           "limiter": "rain"
         },
@@ -7659,6 +7738,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Cầu Ba Láng, Cái Răng, Cần Thơ",
           "weather": "low",
           "limiter": "rain"
         },
@@ -7689,6 +7769,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Bông Vang, An Bình, Cần Thơ",
           "weather": "low",
           "limiter": "rain"
         },
@@ -7719,6 +7800,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Nguyễn Văn Cừ, Mỹ Khánh, Phong Điền, Cần Thơ",
           "weather": "low",
           "limiter": "rain"
         }
@@ -7759,18 +7841,18 @@ const POI_DATA = {
       "attractions": [
         {
           "name": "My Tho and Ben Tre coconut candy village",
-          "area": "My Tho and Ben Tre provinces, upper Mekong Delta",
+          "area": "My Tho (now Dong Thap province) and Ben Tre (now Vinh Long province), upper Mekong Delta",
           "what": "A river-island circuit reached by motorboat and narrow-canal sampan (a small wooden boat rowed by a boatman in a conical hat), stopping at a small workshop where coconut milk is hand-cooked and cut into candy while still warm.",
           "why": "The classic, gentler alternative to Can Tho for a single-day Mekong visit, and the standard way to see hand-made coconut candy production",
-          "lat": 10.0163692,
-          "lng": 105.7379094,
+          "lat": 10.2361,
+          "lng": 106.3764,
           "approx": true,
           "sources": [
             "https://viet-go.com/en/attractions/my-tho-ben-tre-mekong-delta-guide"
           ],
           "tier": null,
           "nameHe": "מיי טו ובן טרה, כפר ממתקי הקוקוס",
-          "areaHe": "מחוזות מיי טו ובן טרה, צפון דלתת המקונג",
+          "areaHe": "מיי טו (היום מחוז דונג טאפ) ובן טרה (היום מחוז וין לונג), צפון דלתת המקונג",
           "whatHe": "מעגל איי נהר שמגיעים אליו בסירת מנוע ובסמפן — סירת עץ קטנה שמשייט בה שייט בכובע חרוטי — בתעלות צרות, עם עצירה בבית מלאכה קטן שבו חלב קוקוס מבושל ביד ונחתך לממתק בעודו חם.",
           "whyHe": "החלופה הקלאסית והעדינה יותר לקאן טו לביקור מקונג של יום אחד, והדרך הסטנדרטית לראות ייצור ממתקי קוקוס בעבודת יד",
           "priceUnit": null,
@@ -7937,8 +8019,8 @@ const POI_DATA = {
       "hotels": [
         {
           "name": "Sheraton Phu Quoc Long Beach Resort",
-          "area": "Long Beach, Ganh Dau",
-          "what": "A large Marriott-chain beachfront resort on Long Beach with multiple pools, several restaurants and direct sand access.",
+          "area": "Bai Dai, Ganh Dau (north-west), about 45 minutes from the airport",
+          "what": "A large Marriott-chain beachfront resort on Bai Dai in the island's north-west, with multiple pools, several restaurants and direct sand access - despite the name, not on Long Beach.",
           "why": "Officially rated 5-star with an international chain standard, and its entry-level rooms stay under the trip's price cap despite the brand",
           "lat": 10.3375473,
           "lng": 103.8498843,
@@ -7949,8 +8031,8 @@ const POI_DATA = {
           ],
           "tier": 5,
           "nameHe": "שרתון לונג ביץ'",
-          "areaHe": "לונג ביץ', גאן דאו",
-          "whatHe": "ריזורט חוף גדול של רשת מריוט על לונג ביץ', עם כמה בריכות, מסעדות אחדות וגישה ישירה לחול.",
+          "areaHe": "באי דאי, גאן דאו (צפון-מערב), כ-45 דקות משדה התעופה",
+          "whatHe": "ריזורט חוף גדול של רשת מריוט בבאי דאי שבצפון-מערב האי, עם כמה בריכות, מסעדות אחדות וגישה ישירה לחול - למרות השם, לא על לונג ביץ'.",
           "whyHe": "מדורג רשמית 5 כוכבים בסטנדרט של רשת בינלאומית, וחדרי הכניסה שלו נשארים מתחת לתקרת המחיר של הטיול למרות המותג",
           "priceUnit": "per_night",
           "tierOfficial": true,
@@ -7962,6 +8044,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Đường tỉnh 975B, Gành Dầu, Phú Quốc, An Giang",
           "weather": "low",
           "limiter": "rain"
         },
@@ -7992,6 +8075,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Trần Hưng Đạo, Cửa Lấp, Dương Tơ, Phú Quốc, An Giang",
           "weather": "low",
           "limiter": "rain"
         },
@@ -8022,6 +8106,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Trần Hưng Đạo, Dương Đông, Phú Quốc, An Giang",
           "weather": "low",
           "limiter": "rain"
         },
@@ -8052,6 +8137,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Trần Hưng Đạo, Dương Đông, Phú Quốc, An Giang",
           "weather": "low",
           "limiter": "rain"
         },
@@ -8082,6 +8168,7 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "1/39 Hẻm 182A Trần Phú, Dương Đông, Phú Quốc, An Giang",
           "weather": "low",
           "limiter": "rain"
         },
@@ -8112,6 +8199,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "addrVi": "Dương Đông, gần chợ đêm Dinh Cậu, Phú Quốc, An Giang",
+          "addrViPartial": true,
           "weather": "low",
           "limiter": "rain"
         }
@@ -8185,7 +8274,7 @@ const POI_DATA = {
       "restaurants": [
         {
           "name": "Xin Chao Seafood Restaurant",
-          "area": "Duong Dong, 30 Thang 4 Street",
+          "area": "Duong Dong, 66 Tran Hung Dao",
           "what": "An open-air seafood restaurant with tank-to-table dining overlooking the sea, popular for sunset and evening meals.",
           "why": "One of the most consistently traveler-recommended seafood restaurants on the island for its combination of view and quality",
           "lat": null,
@@ -8196,7 +8285,7 @@ const POI_DATA = {
           ],
           "tier": null,
           "nameHe": "שין צ'או",
-          "areaHe": "דואונג דונג, רחוב 30 באפריל",
+          "areaHe": "דואונג דונג, טראן הונג דאו 66",
           "whatHe": "מסעדת פירות ים פתוחה שבה בוחרים מהבריכה אל השולחן, עם נוף לים, פופולרית לשקיעה ולארוחות ערב.",
           "whyHe": "ממסעדות פירות הים המומלצות ביותר באי באופן עקבי, בזכות השילוב של נוף ואיכות",
           "priceUnit": null,
@@ -8209,6 +8298,7 @@ const POI_DATA = {
           "video": null,
           "hours": "11:00-21:30 daily",
           "hoursHe": "11:00-21:30 כל יום",
+          "phone": "+84901283766",
           "weather": "low",
           "limiter": "rain"
         },
@@ -8247,10 +8337,10 @@ const POI_DATA = {
           "name": "Phu Quoc Night Market (Dinh Cau)",
           "area": "Duong Dong, Bach Dang street",
           "what": "A single-street night market where diners pick live fish, crab or squid from tanks to be grilled or steamed to order, alongside stalls selling herring salad, banh xeo pancakes and grilled scallops.",
-          "why": "The island's main after-dark food destination since its 2016 merger with the old Dinh Cau market, and the best single stop for trying local seafood specialties in one place",
-          "lat": 10.3242259,
-          "lng": 103.8581673,
-          "approx": true,
+          "why": "The island's main after-dark food destination - but the Bach Dang market lease ended on 31/12/2025, trading was suspended after Tet 2026 and a move is being considered. Check that it is running before going; Grand World in Bai Dai has its own night market street",
+          "lat": 10.2163,
+          "lng": 103.9606,
+          "approx": false,
           "sources": [
             "https://www.baconismagic.ca/vietnam/phu-quoc-night-market/",
             "https://vinwonders.com/en/wonderpedia/news/phu-quoc-night-market/"
@@ -8259,7 +8349,7 @@ const POI_DATA = {
           "nameHe": "שוק הלילה דין קאו",
           "areaHe": "דואונג דונג, רחוב באק דאנג",
           "whatHe": "שוק לילה ברחוב אחד שבו הסועדים בוחרים דגים, סרטנים או דיונונים חיים מהבריכות כדי שייצלו או יאודו לפי הזמנה, לצד דוכנים שמוכרים סלט הרינג, פנקייק באן שאו וצדפות צלויות.",
-          "whyHe": "יעד האוכל המרכזי של האי אחרי החשכה מאז המיזוג ב-2016 עם שוק דין קאו הישן, והעצירה היחידה הטובה ביותר לטעום את מיוחדי פירות הים המקומיים במקום אחד",
+          "whyHe": "יעד האוכל המרכזי של האי אחרי החשכה - אבל חוזה שוק באק דאנג הסתיים ב-31/12/2025, הפעילות הושעתה אחרי טט 2026 ושוקלים להעביר אותו. לבדוק שהוא פועל לפני שהולכים; ב-Grand World בבאי דאי יש רחוב שוק לילה משלו",
           "priceUnit": null,
           "priceLow": null,
           "priceHigh": null,
@@ -8483,7 +8573,7 @@ const POI_DATA = {
           "name": "John's Tours - the quote on file",
           "area": "Southern Phu Quoc, An Thoi; hotel pickup included",
           "what": "A direct dive club, not booked through an agency, which sent a detailed written quote - 110 USD per person for two dives of about 45-50 minutes, covering gear, a dive master, hotel pickup and return, water, fruit and lunch on the boat. Soft drinks and beer are extra and served after the dives. Payment is to the guide on the boat in cash, by Vietnamese bank transfer, or by card through OnePay with a 3 percent fee. For an uncertified diver it runs Discover Scuba one-to-one, 6 metres maximum, about 25 minutes a dive, age 10 and up, barred for heart, lung or blood-pressure conditions and pregnancy.",
-          "why": "The only quoted price in this tab, and it sits inside the normal Phu Quoc range of 90 to 130 USD for two fun dives. Two things are still open - the club has not given a phone number or website, and the quote prices a certified diver, not the Discover Scuba slot, so that figure needs asking for. Note also that two agencies already offered An Thoi diving inside their packages, so check you are not buying the same day twice",
+          "why": "The only quoted price in this tab, and it sits inside the normal Phu Quoc range of 90 to 130 USD for two fun dives. John's Tours is a long-running tour agency (office at 143 Tran Hung Dao, Duong Dong; also 0948 222 111 and Zalo) - confirm it runs scuba itself, and ask for the Discover Scuba price. Two agencies already offered An Thoi diving inside their packages, so check you are not buying the same day twice. Do not dive within 18-24 hours of a flight",
           "lat": 10.1942845,
           "lng": 103.9674837,
           "approx": true,
@@ -8494,7 +8584,7 @@ const POI_DATA = {
           "nameHe": "ג'ונס טורס — ההצעה שבתיק",
           "areaHe": "דרום פו קוק, אן תוי; כולל איסוף מהמלון",
           "whatHe": "מועדון צלילה ישיר, לא דרך סוכנות, ששלח הצעה מפורטת בכתב: 110 דולר לאדם לשתי צלילות של כ-45 עד 50 דקות, הכולל ציוד, דייב מאסטר, איסוף והחזרה מהמלון, מים, פירות וארוחת צהריים על הסירה. משקאות קלים ובירה בתוספת ומוגשים אחרי הצלילות. התשלום למדריך על הסירה במזומן, בהעברה בנקאית ויאטנמית, או בכרטיס דרך OnePay בתוספת שלושה אחוזים. לצולל לא מוסמך הוא מפעיל צלילת היכרות אחד על אחד, עד שישה מטרים, כ-25 דקות לצלילה, מגיל עשר, ואסור במחלות לב, ריאות או לחץ דם ובהריון.",
-          "whyHe": "המחיר הנקוב היחיד בטאב הזה, והוא יושב בתוך הטווח הרגיל בפו קוק של 90 עד 130 דולר לשתי צלילות הנאה. שני דברים עדיין פתוחים — המועדון לא נתן טלפון או אתר, וההצעה מתמחרת צולל מוסמך ולא את מקום צלילת ההיכרות, ולכן את המספר ההוא צריך לבקש. לידיעה גם: שתי סוכנויות כבר הציעו צלילה באן תוי בתוך החבילות שלהן, לכן לבדוק שלא קונים את אותו יום פעמיים",
+          "whyHe": "המחיר הנקוב היחיד בטאב הזה, והוא בתוך הטווח הרגיל בפו קוק של 90 עד 130 דולר לשתי צלילות הנאה. ג'ונס טורס היא סוכנות טיולים ותיקה (משרד בטראן הונג דאו 143, דואונג דונג; גם 0948 222 111 וזאלו) - לוודא שהיא מפעילה צלילה בעצמה, ולבקש את מחיר צלילת ההיכרות. שתי סוכנויות כבר הציעו צלילה באן תוי בתוך החבילות שלהן, לכן לבדוק שלא קונים את אותו יום פעמיים. לא לצלול 18-24 שעות לפני טיסה",
           "priceUnit": "per_person",
           "priceLow": 110,
           "priceHigh": null,
@@ -8504,6 +8594,8 @@ const POI_DATA = {
           "isDish": false,
           "signal": null,
           "video": null,
+          "phone": "+84974990999",
+          "email": "salemanager.johnstours@phuquoctrip.com",
           "weather": "high",
           "limiter": "sea"
         },

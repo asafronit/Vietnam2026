@@ -9,6 +9,8 @@ options:
   operator: Vietnam Railways (SE trains)
   board:
     name: Hanoi Railway Station (Ga Ha Noi)
+    name_vi: "Ga Hà Nội"
+    address_vi: "120 Lê Duẩn, Hà Nội"
     address: 120 Le Duan, Van Mieu - Quoc Tu Giam, Hanoi
     lat: 21.0242336
     lng: 105.8410067
@@ -17,8 +19,8 @@ options:
     address: 1 Hoang Dieu, Ninh Binh
     lat: 20.2420352
     lng: 105.9745791
-  departures: About 6 a day, e.g. SE7 06:00, SE9 13:00, SE3 19:20, SE11 21:25, SE1 21:45
-  departures_he: "כ-6 ביום, למשל SE7 06:00, SE9 13:00, SE3 19:20, SE11 21:25, SE1 21:45"
+  departures: "About 6 a day, e.g. SE7 06:00, SE5 08:00, SE9 13:00, SE3 19:20, SE19 19:45, SE1 21:45"
+  departures_he: "כ-6 ביום, למשל SE7 06:00, SE5 08:00, SE9 13:00, SE3 19:20, SE19 19:45, SE1 21:45"
   duration_min: 130
   duration_max: 150
   price_low: 93000
@@ -43,7 +45,7 @@ options:
   sources:
   - https://vexere.com/vn/trains/from-hanoi-to-ninh-binh-ninh-binh.24.534.en
   - https://north-vietnam.com/how-to-get-from-hanoi-to-ninh-binh/
-  checked: '2026-10-07'
+  checked: "2026-10-16"
   confidence: high
 - mode: limousine_van
   operator: Limousine vans (Trang An Limousine, Binh Minh, X.E Vietnam)

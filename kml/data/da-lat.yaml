@@ -21,6 +21,7 @@ hotels:
     נברשות, אמבטיות יצוקות ואח פעילה בכל חדר.
   why_he: המלון הגדול המקורי של דה לאט, וה-5 כוכבים היחיד בה בדרגת מורשת ולא נכס חדש
     שדירג את עצמו
+  addr_vi: 2 Trần Phú, Đà Lạt, Lâm Đồng
 - name: MerPerle Dalat Hotel
   tier: 5
   tier_official: false
@@ -46,6 +47,7 @@ hotels:
     הגולף.
   why_he: ה-5 כוכבים המוצהר-עצמית המדורג ביותר בדה לאט, אם כי כמה אורחים אומרים שהוא
     אינו עומד בסטנדרט של 5 כוכבים אמיתי
+  addr_vi: Phạm Hồng Thái, Xuân Hương, Đà Lạt, Lâm Đồng
 - name: Colline Dalat
   tier: 4
   tier_official: true
@@ -70,6 +72,7 @@ hotels:
   what_he: מלון מודרני של 150 חדרים שבנוי ממש על המדרגות היורדות אל שוק הלילה, עם
     מסעדת גג שמשקיפה על העיר.
   why_he: 4 כוכבים רשמיים ואפס צעדים משוק הלילה. הבחירה המובילה של המפרט לדה לאט
+  addr_vi: 10 Phan Bội Châu, Xuân Hương, Đà Lạt, Lâm Đồng
 - name: Terracotta Hotel & Resort Dalat
   tier: 4
   tier_official: false
@@ -93,6 +96,7 @@ hotels:
   area_he: על שפת אגם, ליד מגרש הגולף
   what_he: מלון ספא על חוף אגם פרטי קטן, עם שתי מסעדות, השכרת אופניים ומגרש גולף צמוד.
   why_he: נכס 4 כוכבים אמיתי על שפת אגם, במחיר קרוב ל-3 כוכבים
+  addr_vi: Khu chức năng 7.9, Hồ Tuyền Lâm, Đà Lạt, Lâm Đồng
 - name: TTC Hotel - Da Lat
   tier: 3
   tier_official: false
@@ -113,6 +117,7 @@ hotels:
   what_he: מלון עסקים פשוט, תשע דקות הליכה מאגם שואן הואונג, עם שתי מסעדות וחדר כושר
     קטן.
   why_he: 3 כוכבים ממותגים ואמינים במרכז, ולא בית הארחה שדירג את עצמו
+  addr_vi: 4 Nguyễn Thị Minh Khai, Đà Lạt, Lâm Đồng
 - name: Le House Dalat
   tier: 3
   tier_official: false
@@ -135,6 +140,7 @@ hotels:
     שמתחלף מדי יום.
   why_he: אפשרות הבוטיק התקציבית המדורגת ביותר בדה לאט, אם כי אין לה דירוג כוכבים
     רשמי
+  addr_vi: 124 Phạm Ngọc Thạch, Đà Lạt, Lâm Đồng
 must_see:
 - name: Crazy House (Hang Nga Guesthouse)
   area: Huynh Thuc Khang Street

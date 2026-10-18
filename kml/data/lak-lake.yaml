@@ -26,6 +26,8 @@ hotels:
     על שפת האגם ומסעדה בבית אורך מעץ על החוף.
   why_he: הבחירה המוסכמת של שתי הצעות סוכנות שנחקרו בנפרד לרגל הזו, והאכסניה האמיתית
     היחידה שיושבת ממש על האגם
+  addr_vi: Hồ Lắk, Liên Sơn, Lắk, Đắk Lắk
+  addr_vi_partial: true
 - name: Bao Dai Villa (Lak Lake)
   tier: 3
   tier_official: false
@@ -38,18 +40,21 @@ hotels:
   why: The only accommodation directly on the hill above the lake, inside a genuine
     former royal building
   confidence: medium
-  geocode_query: 30 Au Co, Lien Son, Lak, Dak Lak, Vietnam
+  geocode_query: Biet dien Bao Dai, Lien Son Lak, Dak Lak, Vietnam
   sources:
   - https://www.tripadvisor.com/Hotel_Review-g670918-d3291911-Reviews-Bao_Dai_Villa-Buon_Ma_Thuot_Dak_Lak_Province.html
   - https://vnexpress.net/biet-dien-bao-dai-ben-ho-lak-4393734.html
   coords:
-    lat: 12.4155999
-    lng: 108.1816523
+    lat: 12.414525
+    lng: 108.176927
   name_he: וילת באו דאי
   area_he: גבעה מעל אגם לאק, העיירה ליין סון
   what_he: בקתת הציד שהקיסר באו דאי בנה ב-1951 על גבעה שמשקיפה על אגם לאק, ומתופעלת
     היום כבית הארחה פשוט, כשחדר האוכל הישן משמש כמסעדה.
   why_he: האכסניה היחידה ממש על הגבעה שמעל האגם, בתוך מבנה מלכותי לשעבר אמיתי
+  coords_manual: true
+  addr_vi: Đường Nguyễn Huệ, Liên Sơn, Lắk, Đắk Lắk
+  name_vi: Biệt điện Bảo Đại
 must_see:
 - name: Lak Lake
   area: Lien Son, Lak district

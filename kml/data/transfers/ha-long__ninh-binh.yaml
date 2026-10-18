@@ -12,11 +12,11 @@ options:
     name: Pickup at your hotel or cruise pier
     address: Bai Chay and Tuan Chau hotels, Tuan Chau harbour
     pickup_hotel: true
-  departures: Pickup 11:40-12:15, arrives Ninh Binh 16:00-16:30
-  departures_he: "איסוף 11:40-12:15, הגעה לנין בין 16:00-16:30"
+  departures: "Pickup about 11:30-12:00, departs 12:00, arrives Ninh Binh around 16:00"
+  departures_he: "איסוף בערך 11:30-12:00, יציאה ב-12:00, הגעה לנין בין בסביבות 16:00"
   duration_min: 210
   duration_max: 270
-  price_low: 15
+  price_low: 18
   price_high: 20
   currency: USD
   price_unit: per_person
@@ -38,7 +38,7 @@ options:
   sources:
   - https://a21tours.com/ticket/halong-to-ninh-binh-limousine-van
   - https://www.viator.com/tours/Ha-Long-Bay/Shutte-Bus-from-Tuan-Chau-port-Halong-to-Tam-Coc-Ninh-Binh/d22692-102255P26
-  checked: '2026-10-07'
+  checked: "2026-10-16"
   confidence: high
 - mode: private_car
   operator: Private driver (transfer companies)
@@ -51,7 +51,7 @@ options:
   duration_min: 180
   duration_max: 210
   price_low: 75
-  price_high: 85
+  price_high: 95
   currency: USD
   price_unit: per_vehicle
   book_links:
@@ -67,10 +67,10 @@ options:
   - בחלוקה לשניים זה בקושי יותר מההסעה
   cons_he:
   - יותר מההסעה למטייל יחיד
-  tips: About $75 for a 4-seater and $85 for a 7-seater; a 9-seat limousine van is about $120.
-  tips_he: בערך $75 לרכב של 4 מקומות ו-$85 לרכב של 7; וואן לימוזינה של 9 מקומות בערך $120.
+  tips: "A21 lists $75 for a sedan, $95 for an SUV and $155 for a limousine van."
+  tips_he: "ב-A21 המחיר $75 לסדאן, $95 לרכב שטח ו-$155 לוואן לימוזינה."
   sources:
   - https://vivuhalong.com/en/transfer/halong-to-ninh-binh-private-car-transfer/
   - https://a21tours.com/ticket/halong-ninh-binh-private-car
-  checked: '2026-10-07'
+  checked: "2026-10-16"
   confidence: medium

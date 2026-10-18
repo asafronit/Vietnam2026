@@ -24,6 +24,7 @@ hotels:
     לים ומעלית, בשייט לילה בין עמודי הגיר של המפרץ.
   why_he: 'בחירת שייט הלילה של המסלול — הצי החדש ביותר במפרץ, והמסלול המפורט ביותר
     מבין ההצעות שהושוו: קיאקים, סדנת בישול בשקיעה ועצירה במערת טרונג טראנג'
+  addr_vi: Cảng Tuần Châu, Hạ Long, Quảng Ninh
 - name: Dora Cruise
   tier: 5
   tier_official: false
@@ -47,6 +48,7 @@ hotels:
     מרפסות עם נוף לים ותפריט ערב קבוע רב-מנתי.
   why_he: בחירת שייט הלילה החלופית, וההצעה הקבועה לשדרוג מספינה קודמת ומדורגת נמוך
     יותר באותה משפחת מפעילים
+  addr_vi: Cảng Tuần Châu, Hạ Long, Quảng Ninh
 - name: Mon Cheri Cruise
   tier: 4
   tier_official: false
@@ -70,6 +72,7 @@ hotels:
     לונג עם קיאקים, דיג דיונונים בלילה וג'קוזי חיצוני.
   why_he: מקבל ביקורות טובות באופן עקבי במסלולי לאן הא, ומתומחר מתחת לשתי אפשרויות
     5 הכוכבים ברמת תא דומה
+  addr_vi: Bến Gót, Cát Hải, Hải Phòng
 - name: La Pandora Cruise
   tier: 4
   tier_official: true
@@ -92,6 +95,7 @@ hotels:
     עם עצירות במערות ובנקודות תצפית.
   why_he: מדורגת 4 כוכבים סטנדרטיים ואמינים לפי הצלבה עצמאית, ולא לפי שיווק הכוכבים
     המנופח שרווח במסלול הזה
+  addr_vi: Cảng Tuần Châu, Hạ Long, Quảng Ninh
 - name: Hoang Giang Hotel
   tier: 3
   tier_official: true
@@ -114,6 +118,8 @@ hotels:
     בה ולמפרץ לאן הא מחוץ ללילות השייט.
   why_he: דירוג 3 כוכבים רשמי, ומופיע באופן עקבי בין האפשרויות האמינות הזולות בקאט
     בה
+  addr_vi: Thị trấn Cát Bà, Cát Hải, Hải Phòng
+  addr_vi_partial: true
 - name: Quang Tung Hotel
   tier: 3
   tier_official: true
@@ -136,6 +142,8 @@ hotels:
     המלון, וחדרים עם מרפסת בחלק מהקטגוריות.
   why_he: מסווג עצמית ומופיע גם באופן עצמאי כ-3 כוכבים, עם רקורד חזק בסידור הסעות
     המשך לאורחים שממשיכים ביבשה
+  addr_vi: Thị trấn Cát Bà, Cát Hải, Hải Phòng
+  addr_vi_partial: true
 must_see:
 - name: Ha Long Bay limestone karsts
   limiter: sea

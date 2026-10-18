@@ -76,6 +76,8 @@ options:
   operator: Buon Ma Thuot - Da Lat buses (Phuc Hai and others) passing Lien Son
   board:
     name: National Highway 27 in Lien Son (by arrangement)
+    name_vi: "Quốc lộ 27, Liên Sơn"
+    address_vi: "Quảng trường Lắk, Liên Sơn, Đắk Lắk"
     address: Lak district square, Lien Son, Lak
     lat: 12.410047
     lng: 108.1784393

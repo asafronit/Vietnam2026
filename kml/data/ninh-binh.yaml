@@ -23,6 +23,7 @@ hotels:
     חמים, ספא, מועדון ילדים וקיאקים ללא תשלום. כ-30 עד 40 דקות מטראנג אן.
   why_he: הריזורט היחיד במחוז שמשתייך לרשת בינלאומית, אם כי האתרים המקומיים חלוקים
     אם מדובר ב-5 כוכבים מלאים או ב-4.5
+  addr_vi: Thôn Đồng Tâm, Cúc Phương, Nho Quan, Ninh Bình
 - name: Ninh Binh Legend Hotel
   tier: 5
   tier_official: true
@@ -48,6 +49,7 @@ hotels:
     מגרשי טניס, סאונה וחדר כושר.
   why_he: אפשרות 5 הכוכבים של מרכז העיר, למי שמעדיף לישון קרוב למסעדות ולתחנת הרכבת
     ולא בין הקארסטים
+  addr_vi: Đường Lê Thái Tổ, Hoa Lư, Ninh Bình
 - name: Emeralda Resort Ninh Binh
   tier: 4
   tier_official: true
@@ -71,6 +73,7 @@ hotels:
     מקורה, סאונה, ג'קוזי וספא. כרבע שעה נסיעה מטראנג אן.
   why_he: מדורג בין קומץ המלונות המובילים במחוז כולו, ואחד הבודדים עם דירוג 4 כוכבים
     שנבדק רשמית ולא הוכרז עצמאית
+  addr_vi: Khu bảo tồn Vân Long, Gia Vân, Gia Viễn, Ninh Bình
 - name: Ninh Binh Hidden Charm Hotel & Resort
   tier: 4
   tier_official: true
@@ -93,6 +96,7 @@ hotels:
     למזח הסירות של טאם קוק.
   why_he: 4 כוכבים רשמיים, והמדורג הגבוה ביותר מבין המלונות בגודלו בנין בין — מקום
     3 מתוך יותר מ-120 בטריפאדוויזר, ולא בוטיק שדירג את עצמו
+  addr_vi: Khu du lịch Tam Cốc - Bích Động, Ninh Thắng, Hoa Lư, Ninh Bình
 - name: Lalita Tam Coc Resort & Spa
   tier: 3
   tier_official: false
@@ -115,6 +119,8 @@ hotels:
     מפגודת ביק דונג אך מחוץ לרצועה התיירותית הסואנת.
   why_he: הבחירה המובילה של מפרט-האב לנין בין (9.2 באגודה מתוך 866 ביקורות), והריזורט
     הממוקם ביותר להגעה רגלית לטאם קוק
+  addr_vi: Ninh Hải, gần chùa Bích Động, Hoa Lư, Ninh Bình
+  addr_vi_partial: true
 - name: An's Eco Garden Resort
   tier: 3
   tier_official: false
@@ -137,6 +143,7 @@ hotels:
     כלונסאות ובאוטובוסים משופצים, בריכת אינסוף ואופניים ללא תשלום.
   why_he: מדורג 9.0 ומעלה גם בטריפאדוויזר וגם בבוקינג מתוך יותר מ-800 ביקורות, והלינה
     היחידה שנמצאת ממש בתוך שמורת טראנג אן ולא בשוליה
+  addr_vi: Thôn Bình Khê, Ninh Nhất, Ninh Bình
 must_see:
 - name: Trang An Scenic Landscape Complex
   price_low: 11.5

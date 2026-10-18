@@ -1,0 +1,53 @@
+from: hoi-an
+to: hanoi
+reverse_ok: true
+note: 'Da Nang to Hanoi is one of the busiest routes in the country: about 20 nonstop flights a day. Hoi An is 40-50
+  minutes from Da Nang airport.'
+note_he: 'דה נאנג–האנוי הוא אחד הקווים העמוסים בארץ: כ-20 טיסות ישירות ביום. הוי אן נמצאת 40-50 דקות משדה התעופה
+  של דה נאנג.'
+options:
+- mode: flight
+  operator: Vietnam Airlines, Sun PhuQuoc Airways, Vietravel Airlines
+  board:
+    name: Da Nang International Airport (DAD)
+    name_vi: "Sân bay quốc tế Đà Nẵng"
+    address_vi: "Sân bay quốc tế Đà Nẵng, Đà Nẵng"
+    address: Phan Thanh, Thanh Khe, Da Nang
+    lat: 16.0425792
+    lng: 108.1971613
+  alight:
+    name: Noi Bai International Airport (HAN)
+    address: Soc Son, Hanoi
+  departures: About 20 nonstop flights a day each way, from about 05:45 to 22:00
+  departures_he: כ-20 טיסות ישירות ביום בכל כיוון, מבערך 05:45 עד 22:00
+  duration_min: 80
+  duration_max: 85
+  price_low: 30
+  price_high: 150
+  currency: USD
+  price_unit: per_person
+  book_links:
+  - name: Vietnam Airlines
+    url: https://www.vietnamairlines.com/
+  - name: Sun PhuQuoc Airways
+    url: https://www.sunphuquocairways.com/vn/en
+  - name: Vietravel Airlines
+    url: https://www.vietravelairlines.com/
+  pros:
+  - A flight almost every hour
+  - Cheapest fares from about $30
+  cons:
+  - Add 40-50 minutes from Hoi An to the airport
+  pros_he:
+  - טיסה כמעט כל שעה
+  - המחיר הזול מבערך $30
+  cons_he:
+  - להוסיף 40-50 דקות מהוי אן לשדה
+  tips: 'Fares as shown for 10/11/2026 (Hanoi to Da Nang): Vietravel $30-38, Sun PhuQuoc $40-55, Vietnam Airlines
+    $47-151.'
+  tips_he: 'המחירים כפי שהוצגו ל-10/11/2026 (האנוי–דה נאנג): Vietravel $30-38, Sun PhuQuoc $40-55, Vietnam Airlines
+    $47-151.'
+  sources:
+  - https://www.google.com/travel/flights?q=Flights%20from%20HAN%20to%20DAD%20on%202026-11-10&curr=USD
+  checked: '2026-10-18'
+  confidence: high

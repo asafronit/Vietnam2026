@@ -25,6 +25,8 @@ hotels:
   why_he: הסיווג הברור ביותר של 4 כוכבים שנמצא ברדיוס 30 הקילומטר של פונג ניה. טריפאדוויזר
     מתאר אותו כ-3 כוכבים בעוד Trip.com ו-Hotel.info מציגים 4 — כלומר הדרגה מוצהרת
     עצמית
+  addr_vi: Sơn Trạch, Phong Nha, Quảng Trị
+  addr_vi_partial: true
 - name: Phong Nha Lake House Resort
   tier: 3
   tier_official: false
@@ -49,13 +51,14 @@ hotels:
     מדרון, עם בריכה, קיאקים ומסעדה שמשקיפה על המים.
   why_he: 'הבחירה המובילה במחקר המאומת של הפרויקט: שתי הצעות סוכנות עצמאיות התכנסו
     אליו, ואגודה נותנת 9.7. קייאק מציג אותו כ-3 כוכבים'
+  addr_vi: Đường Hồ Chí Minh nhánh Đông, Hưng Trạch, Bố Trạch, Quảng Trị
 - name: Phong Nha Farmstay
   tier: 3
   tier_official: false
   price_low: 14
   price_high: 34
   price_checked: '2026-08-16'
-  area: Cu Nam, ~10km from Phong Nha town
+  area: Cu Nam, about 8 km east of Phong Nha town, off the HCM road
   what: The original farmstay of the area — simple rooms and a pool set among rice
     fields and grazing buffalo, run by an Australian-Vietnamese family with a restaurant
     and tour desk on site.
@@ -67,15 +70,17 @@ hotels:
   - https://www.tripadvisor.com/Hotel_Review-g4014591-d1930272-Reviews-Phong_Nha_Farmstay-Phong_Nha_Ke_Bang_National_Park_Quang_Binh_Province.html
   - https://www.booking.com/hotel/vn/phong-nha-farmstay.html
   coords:
-    lat: 17.5818037
-    lng: 106.3087403
-  location_precision: approximate
+    lat: 17.6242297
+    lng: 106.3851832
   name_he: פארמסטיי
-  area_he: קו נאם, כ-10 קילומטר מהעיירה פונג ניה
+  area_he: קו נאם, כשמונה קילומטר מזרחית לעיירה, ליד כביש הו צ'י מין
   what_he: הפארמסטיי המקורי של האזור — חדרים פשוטים ובריכה בין שדות אורז ותאואים רועים,
     בניהול משפחה אוסטרלית-ויאטנמית, עם מסעדה ודלפק סיורים במקום.
   why_he: הנכס המדורג ראשון בטריפאדוויזר בפארק הלאומי עם למעלה מ-1,500 ביקורות, ואחד
     משני המלונות ששתי הסוכנויות הסכימו עליהם
+  coords_manual: true
+  addr_vi: Cự Nẫm, Bố Trạch, Quảng Trị
+  addr_vi_partial: true
 must_see:
 - name: Phong Nha Cave boat trip
   limiter: flood
@@ -89,14 +94,15 @@ must_see:
   geocode_query: Phong Nha Cave boat station, Son Trach, Quang Binh, Vietnam
   sources:
   - https://junglebosstours.com/explorer/tourism-blog/phong-nha-cave-vietnam-tour-guide
-  - https://www.lonelyplanet.com/vietnam/north-central-vietnam/phong-nha-cave/attractions/phong-nha-cave-boat-trip/a/poi-sig/1390925/357910
   name_he: שייט למערת פונג ניה
   area_he: מרכז התיירות של פונג ניה, נהר סון
   what_he: שייט של חצי שעה בסירת עץ במעלה נהר סון אל תוך מערת תצוגה מוארת באורך קילומטר
     וחצי, שנהר תת-קרקעי זורם דרכה. זו המערה שהעיירה כולה קרויה על שמה.
   why_he: חוויית המערה הנגישה ביותר בפארק, והסיבה שפונג ניה קיימת כיעד מלכתחילה
-  hours: Last boat leaves at 16:30; arrive before 15:00 so the visit is not rushed
-  hours_he: הסירה האחרונה יוצאת ב-16:30; כדאי להגיע לפני 15:00 כדי לא לרוץ
+  hours: About 08:00-16:00; arrive by 14:00. Boats do not run when the Son River floods
+    (in November, closures of 2-5 days)
+  hours_he: בערך 08:00-16:00; להגיע עד 14:00. הסירות לא יוצאות כשנהר סון מוצף (בנובמבר,
+    סגירות של 2-5 ימים)
 - name: Paradise Cave
   limiter: flood
   area: Phong Nha-Ke Bang National Park
@@ -129,9 +135,10 @@ attractions:
   what: A 4-day, 3-night expedition into the world's largest cave passage — big enough
     to hold a Manhattan block, with its own jungle and weather inside two collapsed
     dolines. Porters carry gear; nights are spent camping on the cave floor.
-  why: The reason Phong Nha is on the caving world's map at all; the single hardest
-    and most expensive booking in the area, so it needs to be flagged early if it's
-    wanted
+  why: 'The reason Phong Nha is on the caving world''s map at all; the single hardest
+    and most expensive booking in the area, so it needs to be flagged early if it''s
+    wanted. Not possible on these dates: Oxalis runs it January-August only, and 2027-2028
+    is already full'
   confidence: high
   geocode_query: Son Doong Cave, Phong Nha-Ke Bang National Park, Quang Binh, Vietnam
   sources:
@@ -142,8 +149,10 @@ attractions:
   what_he: משלחת של ארבעה ימים ושלושה לילות אל מעבר המערה הגדול בעולם — גדול מספיק
     להכיל בלוק במנהטן, עם ג'ונגל ומזג אוויר משלו בתוך שתי בליעות שקרסו. סבלים נושאים
     את הציוד, והלילות עוברים במחנה על רצפת המערה.
-  why_he: הסיבה שפונג ניה נמצאת על מפת עולם המערות בכלל. ההזמנה הקשה והיקרה ביותר
-    באזור, ולכן צריך לסמן אותה מוקדם אם רוצים אותה
+  why_he: 'הסיבה שפונג ניה נמצאת על מפת עולם המערות בכלל. ההזמנה הקשה והיקרה ביותר
+    באזור, ולכן צריך לסמן אותה מוקדם אם רוצים אותה. לא אפשרי בתאריכי הטיול: אוקסליס
+    מפעילים אותו רק בינואר-אוגוסט, ו-2027-2028 כבר מלאות'
+  avoid: true
 - name: Hang En Cave trek
   limiter: flood
   area: Phong Nha-Ke Bang National Park, Tu Lan area
@@ -151,7 +160,8 @@ attractions:
     bank inside the cave beside an underground river, with one of three giant skylights
     overhead.
   why: The serious-caving option that doesn't require Son Doong's budget or year-ahead
-    booking; a genuine wilderness camp inside a cave
+    booking; a genuine wilderness camp inside a cave. Closed from mid-September to
+    December, so not possible on these dates
   confidence: high
   geocode_query: Hang En Cave, Phong Nha-Ke Bang National Park, Quang Binh, Vietnam
   sources:
@@ -161,7 +171,9 @@ attractions:
   what_he: טרק של יומיים ולילה אחד אל המערה השלישית בגודלה בעולם, עם לינה על גדת חול
     בתוך המערה לצד נהר תת-קרקעי, מתחת לאחד משלושה צוהרי ענק.
   why_he: אפשרות המערות הרצינית שלא דורשת את התקציב של סון דונג ולא הזמנה שנה מראש.
-    מחנה מדברי אמיתי בתוך מערה
+    מחנה מדברי אמיתי בתוך מערה. סגור מאמצע ספטמבר עד דצמבר, ולכן לא אפשרי בתאריכי
+    הטיול
+  avoid: true
 - name: Tu Lan cave system
   limiter: flood
   area: Tan Hoa commune, ~65km from Phong Nha town
@@ -170,7 +182,8 @@ attractions:
     a 4-5 day expedition.
   why: The widest range of difficulty of any Phong Nha cave product — a single day
     of swimming through caves, or several days of genuine jungle expedition, from
-    the same operator
+    the same operator. The multi-day expedition starts only from mid-November, and
+    the swimming sections depend on the water level
   confidence: high
   geocode_query: Tu Lan cave system, Tan Hoa, Minh Hoa, Quang Binh, Vietnam
   sources:
@@ -181,7 +194,8 @@ attractions:
   what_he: רשת של מערות רטובות ועמקי ג'ונגל שחוקרים בהליכה במים ובשחייה דרך אגמי מערה
     בין אולמות גיר, כסיורים שנמשכים מיום אחד ועד משלחת של ארבעה עד חמישה ימים.
   why_he: טווח הקושי הרחב ביותר מכל מוצרי המערות של פונג ניה — יום אחד של שחייה במערות,
-    או כמה ימי משלחת ג'ונגל אמיתית, מאותו מפעיל
+    או כמה ימי משלחת ג'ונגל אמיתית, מאותו מפעיל. משלחת הימים מתחילה רק מאמצע נובמבר,
+    וקטעי השחייה תלויים במפלס המים
 - name: Hang Tien cave day trek
   limiter: flood
   area: Phong Nha-Ke Bang National Park, Tu Lan area
@@ -206,7 +220,8 @@ attractions:
   what: A short zipline across the Chay River into a pitch-black cave, followed by
     a swim to a natural mud pool deep inside, then kayaking back down the river.
   why: The easiest adrenaline activity in Phong Nha — half a day, no fitness test,
-    and the one every family and backpacker group does
+    and the one every family and backpacker group does. From mid-September to November
+    the zipline and mud bath run reduced or close; check on the day
   confidence: high
   geocode_query: Dark Cave Chay River, Phong Nha-Ke Bang National Park, Quang Binh,
     Vietnam
@@ -222,7 +237,8 @@ attractions:
   what_he: אומגה קצרה מעל נהר צ'אי אל תוך מערה חשוכה לחלוטין, ואז שחייה אל בריכת בוץ
     טבעית עמוק בפנים, וחזרה בקיאקים במורד הנהר.
   why_he: פעילות האדרנלין הקלה ביותר בפונג ניה — חצי יום, בלי מבחן כושר, וזו שכל משפחה
-    וכל קבוצת תרמילאים עושה
+    וכל קבוצת תרמילאים עושה. מאמצע ספטמבר עד נובמבר האומגה ובריכת הבוץ פועלות בהיקף
+    מצומצם או סגורות; לבדוק באותו יום
 - name: The Duck Stop
   area: Bong Lai Valley, ~10km from Phong Nha town
   what: A small working duck farm where visitors feed and walk a flock of ducks along
@@ -232,7 +248,6 @@ attractions:
   confidence: medium
   geocode_query: The Duck Stop, Bong Lai Valley, Phong Nha, Quang Binh, Vietnam
   sources:
-  - https://theduckstop.vn/
   - https://culturephamtravel.com/the-duck-stop/
   coords:
     lat: 17.6041976

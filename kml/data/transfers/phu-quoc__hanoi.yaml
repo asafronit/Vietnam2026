@@ -1,0 +1,56 @@
+from: phu-quoc
+to: hanoi
+reverse_ok: true
+note: 'The way back north at the end of the trip: about two hours nonstop, roughly seven flights a day. Prices climb
+  sharply in the last days of November.'
+note_he: 'הדרך חזרה צפונה בסוף הטיול: כשעתיים בטיסה ישירה, בערך שבע טיסות ביום. המחירים קופצים בימים האחרונים של
+  נובמבר.'
+options:
+- mode: flight
+  operator: Sun PhuQuoc Airways, Vietnam Airlines
+  board:
+    name: Phu Quoc International Airport (PQC)
+    name_vi: "Sân bay quốc tế Phú Quốc"
+    address_vi: "Dương Tơ, Phú Quốc, An Giang"
+    address: Duong To, Phu Quoc
+    lat: 10.1727084
+    lng: 103.9921531
+  alight:
+    name: Noi Bai International Airport (HAN)
+    address: Soc Son, Hanoi
+  departures: 'About 7 nonstop flights a day; on 23/11/2026: 08:20, 09:50, 14:05, 17:10, 18:10, 20:00, 21:35. Hanoi
+    to Phu Quoc runs a similar schedule from 05:35'
+  departures_he: 'בערך 7 טיסות ישירות ביום; ב-23/11/2026: 08:20, 09:50, 14:05, 17:10, 18:10, 20:00, 21:35. מהאנוי
+    לפו קוק לוח דומה, מ-05:35'
+  duration_min: 125
+  duration_max: 135
+  price_low: 45
+  price_high: 280
+  currency: USD
+  price_unit: per_person
+  book_links:
+  - name: Sun PhuQuoc Airways
+    url: https://www.sunphuquocairways.com/vn/en
+  - name: Vietnam Airlines
+    url: https://www.vietnamairlines.com/
+  pros:
+  - The morning flight lands in Hanoi by 10:25
+  - Phu Quoc airport is 10-15 minutes from the Long Beach hotels
+  cons:
+  - Late-November fares reach $150-280 on popular times
+  pros_he:
+  - טיסת הבוקר נוחתת בהאנוי עד 10:25
+  - שדה התעופה בפו קוק נמצא 10-15 דקות ממלונות לונג ביץ'
+  cons_he:
+  - בסוף נובמבר המחיר מגיע ל-$150-280 בשעות המבוקשות
+  tips: On 23/11/2026 fares ran $72 (Sun PhuQuoc 08:20) to $278; Hanoi to Phu Quoc on 10/11 was $45-109. The flight
+    home leaves Hanoi on 24/11 at 20:00, so the 08:20 from Phu Quoc on the same day still leaves about nine hours;
+    flying on 23/11 is the safer margin. Book this leg early.
+  tips_he: ב-23/11/2026 המחירים נעו בין $72 (Sun PhuQuoc ב-08:20) ל-$278; מהאנוי לפו קוק ב-10/11 היה $45-109. הטיסה
+    הביתה יוצאת מהאנוי ב-24/11 ב-20:00, כך שגם טיסת 08:20 מפו קוק באותו יום משאירה כתשע שעות; טיסה ב-23/11 היא המרווח
+    הבטוח יותר. כדאי להזמין את הקטע הזה מוקדם.
+  sources:
+  - https://www.google.com/travel/flights?q=Flights%20from%20PQC%20to%20HAN%20on%202026-11-23&curr=USD
+  - https://www.google.com/travel/flights?q=Flights%20from%20HAN%20to%20PQC%20on%202026-11-10&curr=USD
+  checked: '2026-10-18'
+  confidence: high
