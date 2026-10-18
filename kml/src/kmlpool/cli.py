@@ -104,6 +104,10 @@ def cmd_geocode() -> int:
             # in the review queue.
             if is_placeless(rec):
                 continue
+            # A hand-verified pin is the truth; the geocoder would put the
+            # wrong one back on every run (see Record.coords_manual).
+            if rec.coords_manual and rec.lat is not None:
+                continue
             result = geo.resolve(rec, place)
             if result.accepted:
                 rec.lat, rec.lng = result.lat, result.lng
@@ -258,6 +262,13 @@ def _record_to_web_json(rec: Record) -> dict:
     for src, key in ((rec.whatsapp, "whatsapp"), (rec.phone, "phone"), (rec.email, "email")):
         if src:
             data[key] = src
+    # The driver view: shipped only when present, so the page shows the
+    # "show the driver" button only where there is something to show.
+    for src, key in ((rec.addr_vi, "addrVi"), (rec.name_vi, "nameVi")):
+        if src:
+            data[key] = src
+    if rec.addr_vi and rec.addr_vi_partial:
+        data["addrViPartial"] = True
     # Weather sensitivity travels with the record so the page never has to
     # guess it. The per-record override wins; otherwise the category default.
     data["weather"] = rec.weather or WEATHER_SENSITIVITY.get(rec.category, "medium")

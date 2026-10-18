@@ -109,6 +109,20 @@ class Record:
     # Deliberately NOT folded into `kind`, which already means cuisine and is
     # still `vietnamese` for every one of these.
     is_dish: bool = False
+    # A pin verified by hand (against the venue's own address, Michelin, or
+    # OSM) and locked against the geocode stage, which otherwise re-resolves
+    # every record from geocode_query on each run and silently puts a wrong
+    # pin back. Added after the 15/10 audit found 12 pins up to 74km off.
+    coords_manual: bool = False
+    # What the driver is shown (16-01): the address in Vietnamese with full
+    # diacritics, and a Vietnamese name only where it differs from `name`
+    # (most hotel names are Latin brand names that need no second form).
+    addr_vi: str | None = None
+    name_vi: str | None = None
+    # True when addr_vi is only the town (no street was found). Explicit and
+    # not guessed from commas: the traveller must be told the driver sees
+    # just a town name.
+    addr_vi_partial: bool = False
     # Ways to reach a person. `whatsapp` is digits with or without punctuation;
     # the website strips everything but digits for the wa.me URL and renders it
     # as the purple action the link convention reserves for a human contact.

@@ -71,6 +71,11 @@ class Stop:
     # תג vi גורף היה מצווה על קורא מסך עברי להגות משפט אנגלי שלם בפונמות
     # ויאטנמיות. תג en על טוקן ויאטנמי בודד הוא פגיעה קטנה בהרבה.
     lang: str = "en"
+    # What the driver is shown (16-01): the stop's Vietnamese name ("Ga Hà
+    # Nội") and address with full diacritics. Optional; `name`/`address`
+    # stay the Latin text the card shows.
+    name_vi: str | None = None
+    address_vi: str | None = None
 
 
 @dataclass
@@ -152,6 +157,8 @@ def _stop(raw) -> Stop | None:
         lat=raw.get("lat"),
         lng=raw.get("lng"),
         lang=str(raw.get("lang", "en") or "en"),
+        name_vi=raw.get("name_vi") or None,
+        address_vi=raw.get("address_vi") or None,
     )
 
 
@@ -342,7 +349,7 @@ def validate_transfers(transfers: list[Transfer], place_ids: set[str]) -> list[s
 def _stop_to_web_json(stop: Stop | None) -> dict | None:
     if stop is None:
         return None
-    return {
+    data = {
         "name": stop.name,
         "address": stop.address,
         "pickupHotel": stop.pickup_hotel,
@@ -350,6 +357,10 @@ def _stop_to_web_json(stop: Stop | None) -> dict | None:
         "lng": stop.lng,
         "lang": stop.lang,
     }
+    for src, key in ((stop.name_vi, "nameVi"), (stop.address_vi, "addressVi")):
+        if src:
+            data[key] = src
+    return data
 
 
 def _option_to_web_json(opt: TransferOption) -> dict:

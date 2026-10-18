@@ -403,3 +403,25 @@ def test_no_departures_needs_no_hebrew_twin(tmp_path, monkeypatch):
     del opt["departures_he"]
     data = _run_ok(tmp_path, monkeypatch, {"hanoi__sapa.yaml": _transfer(options=[opt])})
     assert data[0]["options"][0]["departuresHe"] is None
+
+
+def test_board_vietnamese_name_and_address_are_exported(tmp_path, monkeypatch):
+    # 16-01: what the driver is shown. Only present keys ship.
+    board = {
+        "name": "Hanoi Railway Station", "address": "120 Le Duan, Hanoi",
+        "lat": 21.024, "lng": 105.841,
+        "name_vi": "Ga Hà Nội", "address_vi": "120 Lê Duẩn, Hà Nội",
+    }
+    data = _run_ok(
+        tmp_path, monkeypatch, {"hanoi__sapa.yaml": _transfer(options=[_option(board=board)])}
+    )
+    b = data[0]["options"][0]["board"]
+    assert b["nameVi"] == "Ga Hà Nội"
+    assert b["addressVi"] == "120 Lê Duẩn, Hà Nội"
+
+
+def test_board_without_vietnamese_fields_omits_them(tmp_path, monkeypatch):
+    data = _run_ok(tmp_path, monkeypatch, {"hanoi__sapa.yaml": _transfer()})
+    b = data[0]["options"][0]["board"]
+    assert "nameVi" not in b
+    assert "addressVi" not in b

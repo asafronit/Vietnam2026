@@ -239,3 +239,84 @@ def test_persist_omits_location_precision_for_exact_hits(tmp_path, monkeypatch):
     entry = saved["must_see"][0]
     assert entry["coords"] == {"lat": 21.03, "lng": 105.84}
     assert "location_precision" not in entry
+
+
+# --- 12-01: a hand-verified pin survives the geocode stage ---------------
+
+_PLACES = """
+places:
+  - { id: hanoi, name: Hanoi, region: north, lat: 21.0285, lng: 105.8522, radius_km: 30 }
+"""
+
+_LOCKED = """
+restaurants:
+- name: Locked Place
+  area: Dong Da, 61 Van Mieu
+  what: A restaurant whose pin was verified by hand.
+  why: Pins the coords_manual lock against the geocoder.
+  confidence: high
+  geocode_query: Wrong Query, Hanoi, Vietnam
+  coords_manual: true
+  coords:
+    lat: 21.029
+    lng: 105.836
+  sources:
+  - https://example.test/a
+- name: Free Place
+  area: Old Quarter
+  what: A restaurant geocoded the normal way.
+  why: Shows the lock does not stop ordinary geocoding.
+  confidence: high
+  geocode_query: Free Place, Hanoi, Vietnam
+  sources:
+  - https://example.test/b
+"""
+
+
+def _geocode_setup(tmp_path, monkeypatch):
+    data = tmp_path / "data"
+    data.mkdir()
+    (data / "places.yaml").write_text(_PLACES, encoding="utf-8")
+    (data / "hanoi.yaml").write_text(_LOCKED, encoding="utf-8")
+    monkeypatch.setattr(cli_module, "DATA_DIR", str(data))
+    monkeypatch.setattr(cli_module, "write_review_queue", lambda *a, **k: None)
+    calls = []
+
+    class FakeResult:
+        accepted = True
+        lat, lng, precision = 21.0, 105.8, "exact"
+
+    class FakeGeocoder:
+        def __init__(self, *_a, **_k):
+            pass
+
+        def resolve(self, rec, place):
+            calls.append(rec.name)
+            return FakeResult()
+
+    monkeypatch.setattr(cli_module, "Geocoder", FakeGeocoder)
+    return data, calls
+
+
+def test_geocode_skips_a_manually_locked_pin(tmp_path, monkeypatch):
+    data, calls = _geocode_setup(tmp_path, monkeypatch)
+    assert cli_module.cmd_geocode() == 0
+    assert "Locked Place" not in calls
+    raw = yaml.safe_load((data / "hanoi.yaml").read_text(encoding="utf-8"))
+    locked = raw["restaurants"][0]
+    assert locked["coords"] == {"lat": 21.029, "lng": 105.836}
+    assert locked["coords_manual"] is True
+
+
+def test_geocode_still_resolves_unlocked_records(tmp_path, monkeypatch):
+    data, calls = _geocode_setup(tmp_path, monkeypatch)
+    cli_module.cmd_geocode()
+    assert calls == ["Free Place"]
+    raw = yaml.safe_load((data / "hanoi.yaml").read_text(encoding="utf-8"))
+    assert raw["restaurants"][1]["coords"] == {"lat": 21.0, "lng": 105.8}
+
+
+def test_coords_manual_is_loaded_into_the_record(tmp_path, monkeypatch):
+    data, _ = _geocode_setup(tmp_path, monkeypatch)
+    recs = load_records(str(data / "hanoi.yaml"))
+    assert recs[0].coords_manual is True and recs[1].coords_manual is False

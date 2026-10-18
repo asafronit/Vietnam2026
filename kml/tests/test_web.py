@@ -276,3 +276,64 @@ def test_record_without_hours_omits_the_keys_entirely(tmp_path, monkeypatch):
     rec = _hanoi_recs(_run_and_load(tmp_path, monkeypatch, HANOI_HOURS_YAML))["No Hours Lake"]
     assert "hours" not in rec
     assert "hoursHe" not in rec
+
+
+# ---------- show the driver (16-01) ----------
+
+# must_see and not hotels: the hotel rules (two sources, tier, price) are not
+# what these tests are about, and the fields are generic to any record.
+HANOI_DRIVER_YAML = """
+must_see:
+  - name: Test Boutique Hotel
+    area: Old Quarter
+    what: A hotel used as a fixture for the driver-view tests.
+    why: Confirms the Vietnamese address reaches the page.
+    confidence: high
+    geocode_query: Test Boutique Hotel, Hanoi, Vietnam
+    sources: [https://example.com/a]
+    addr_vi: "61 Hàng Bè, Hoàn Kiếm, Hà Nội"
+    name_vi: "Khách sạn Thử"
+  - name: Town Only Hotel
+    area: Old Quarter
+    what: A hotel whose address is known only to the town.
+    why: Confirms the partial flag reaches the page.
+    confidence: high
+    geocode_query: Town Only Hotel, Hanoi, Vietnam
+    sources: [https://example.com/c]
+    addr_vi: "Hoàn Kiếm, Hà Nội"
+    addr_vi_partial: true
+    coords: { lat: 21.0300, lng: 105.8500 }
+    coords: { lat: 21.0330, lng: 105.8530 }
+  - name: No Address Hotel
+    area: Old Quarter
+    what: A hotel with no Vietnamese address yet.
+    why: Confirms the keys are omitted rather than shipped as null.
+    confidence: high
+    geocode_query: No Address Hotel, Hanoi, Vietnam
+    sources: [https://example.com/b]
+    coords: { lat: 21.0287, lng: 105.8524 }
+"""
+
+
+def _hanoi_hotels(data):
+    return {r["name"]: r for r in data["hanoi"]["poi"]["must_see"]}
+
+
+def test_vietnamese_name_and_address_reach_the_page(tmp_path, monkeypatch):
+    rec = _hanoi_hotels(_run_and_load(tmp_path, monkeypatch, HANOI_DRIVER_YAML))["Test Boutique Hotel"]
+    assert rec["addrVi"] == "61 Hàng Bè, Hoàn Kiếm, Hà Nội"
+    assert rec["nameVi"] == "Khách sạn Thử"
+
+
+def test_record_without_vietnamese_address_omits_the_keys(tmp_path, monkeypatch):
+    # Not null: the page shows the driver button only when there is something to show.
+    rec = _hanoi_hotels(_run_and_load(tmp_path, monkeypatch, HANOI_DRIVER_YAML))["No Address Hotel"]
+    assert "addrVi" not in rec
+    assert "nameVi" not in rec
+
+
+def test_partial_vietnamese_address_is_flagged(tmp_path, monkeypatch):
+    # The driver sees only the town; the traveller must be told so.
+    recs = _hanoi_hotels(_run_and_load(tmp_path, monkeypatch, HANOI_DRIVER_YAML))
+    assert recs["Town Only Hotel"]["addrViPartial"] is True
+    assert "addrViPartial" not in recs["Test Boutique Hotel"]
