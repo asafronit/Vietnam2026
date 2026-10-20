@@ -40,6 +40,9 @@ def _option(**overrides) -> dict:
         "departures": "07:00, 22:00",
         "departures_he": "07:00, 22:00",
         "op_lang": "en",
+        # 19/10: every sleeper bus states its cabin, so the page can say
+        # whether a double cabin exists (Asaf's rule).
+        "cabin": "single_double",
         "duration_min": 330,
         "duration_max": 360,
         "price_low": 450000,
@@ -58,6 +61,10 @@ def _option(**overrides) -> dict:
         "confidence": "high",
     }
     opt.update(overrides)
+    # cabin belongs to sleeper buses only; a train or flight built from this
+    # fixture drops it unless a test sets it on purpose.
+    if opt["mode"] != "sleeper_bus" and "cabin" not in overrides:
+        del opt["cabin"]
     return opt
 
 
@@ -149,7 +156,7 @@ def test_exported_option_has_exactly_the_contract_keys(tmp_path, monkeypatch):
     """Explicit mapping: a future model field must not leak into the page."""
     data = _run_ok(tmp_path, monkeypatch, {"hanoi__sapa.yaml": _transfer()})
     assert set(data[0]["options"][0]) == {
-        "mode", "operator", "opLang", "board", "alight", "departures", "departuresHe",
+        "mode", "operator", "opLang", "cabin", "board", "alight", "departures", "departuresHe",
         "durationMin", "durationMax", "priceLow", "priceHigh", "currency",
         "priceUnit", "bookLinks", "pros", "prosHe", "cons", "consHe",
         "tips", "tipsHe", "sources", "checked", "confidence",
@@ -252,6 +259,10 @@ INVALID_CASES = {
     # and op_lang is a closed set so the page can trust it as a lang attribute.
     "departures_without_hebrew": (_set("opt.departures_he", _DELETE), "departures_he"),
     "bad_op_lang": (_set("opt.op_lang", "fr"), "op_lang"),
+    # 19/10: a sleeper bus must say what cabin it sells; open berths are not
+    # a value, because buses without private cabins are not listed at all.
+    "sleeper_without_cabin": (_set("opt.cabin", _DELETE), "cabin"),
+    "bad_cabin": (_set("opt.cabin", "open_berth"), "cabin"),
 }
 
 
@@ -425,3 +436,21 @@ def test_board_without_vietnamese_fields_omits_them(tmp_path, monkeypatch):
     b = data[0]["options"][0]["board"]
     assert "nameVi" not in b
     assert "addressVi" not in b
+
+
+def test_cabin_is_exported_for_a_sleeper_bus(tmp_path, monkeypatch):
+    data = _run_ok(tmp_path, monkeypatch, {"hanoi__sapa.yaml": _transfer()})
+    assert data[0]["options"][0]["cabin"] == "single_double"
+
+
+def test_cabin_on_a_non_bus_option_is_invalid(tmp_path, monkeypatch, capsys):
+    opt = _option(mode="sleeper_train", cabin="single")
+    _setup(tmp_path, monkeypatch, {"hanoi__sapa.yaml": _transfer(options=[opt])})
+    assert cmd_web() == 1
+    assert "cabin" in capsys.readouterr().err
+
+
+def test_non_bus_option_exports_cabin_as_null(tmp_path, monkeypatch):
+    opt = _option(mode="sleeper_train")
+    data = _run_ok(tmp_path, monkeypatch, {"hanoi__sapa.yaml": _transfer(options=[opt])})
+    assert data[0]["options"][0]["cabin"] is None

@@ -43,6 +43,10 @@ CONFIDENCE_LEVELS = ("high", "medium", "low")
 # on the page, so a Hebrew screen reader voices "Hung Thanh" with Vietnamese
 # phonemes instead of Hebrew ones. Declared per option, never guessed.
 OP_LANGS = ("vi", "en")
+# What a sleeper bus sells (19/10, Asaf's rule): only buses with private,
+# air-conditioned cabins are listed, and each must say whether a double
+# cabin exists. Open berths are deliberately not a value.
+CABINS = ("single", "double", "single_double")
 
 _ISO_DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
@@ -88,6 +92,7 @@ class TransferOption:
     departures: str = ""
     departures_he: str | None = None
     op_lang: str = "en"
+    cabin: str | None = None
     duration_min: int | None = None
     duration_max: int | None = None
     price_low: float | None = None
@@ -276,6 +281,11 @@ def _validate_option(where: str, opt: TransferOption) -> list[str]:
         errors.append(f"{where}: operator is empty")
     if opt.op_lang not in OP_LANGS:
         errors.append(f"{where}: op_lang must be one of {OP_LANGS}")
+    if opt.mode == "sleeper_bus":
+        if opt.cabin not in CABINS:
+            errors.append(f"{where}: sleeper_bus cabin must be one of {CABINS}")
+    elif opt.cabin is not None:
+        errors.append(f"{where}: cabin applies only to sleeper_bus")
     if opt.confidence not in CONFIDENCE_LEVELS:
         errors.append(f"{where}: confidence must be one of {CONFIDENCE_LEVELS}")
 
@@ -371,6 +381,7 @@ def _option_to_web_json(opt: TransferOption) -> dict:
         "mode": opt.mode,
         "operator": opt.operator,
         "opLang": opt.op_lang,
+        "cabin": opt.cabin,
         "board": _stop_to_web_json(opt.board),
         "alight": _stop_to_web_json(opt.alight),
         "departures": opt.departures,
