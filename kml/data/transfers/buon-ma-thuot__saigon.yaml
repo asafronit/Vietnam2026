@@ -1,8 +1,8 @@
 from: buon-ma-thuot
 to: saigon
 reverse_ok: true
-note: An hour by air twice a day, or 8-9 hours on a sleeper bus down from the highlands.
-note_he: שעה בטיסה פעמיים ביום, או 8-9 שעות באוטובוס שינה במורד הרמות.
+note: "An hour by air, twice a day. The listed bus has single private cabins (curtain, AC); no double cabin could be confirmed."
+note_he: "שעה בטיסה, פעמיים ביום. לאוטובוס המוצג יש תאים פרטיים ליחיד (וילון, מזגן); לא אומת תא זוגי."
 options:
 - mode: flight
   operator: Vietnam Airlines
@@ -41,47 +41,49 @@ options:
   - https://www.google.com/travel/flights?q=Flights%20from%20BMV%20to%20SGN%20on%202026-11-10&curr=USD
   checked: '2026-10-18'
   confidence: high
+
 - mode: sleeper_bus
-  operator: FUTA Bus Lines (Phuong Trang) and other sleeper operators
+  operator: Loan Sang (22-cabin bus)
+  cabin: single
+  op_lang: en
   board:
-    name: Buon Ma Thuot Northern Bus Station
-    name_vi: "Bến xe phía Bắc Buôn Ma Thuột"
-    address_vi: "Đường Nguyễn Chí Thanh, Tân An, Buôn Ma Thuột, Đắk Lắk"
-    address: Nguyen Chi Thanh, Tan An, Buon Ma Thuot
-    lat: 12.7007807
-    lng: 108.074737
+    name: Buon Ma Thuot Southern Bus Station
+    address: Phan Huy Chu, Thanh Nhat, Buon Ma Thuot
+    lat: 12.6461018
+    lng: 108.0168583
+    name_vi: Bến xe phía Nam Buôn Ma Thuột
+    address_vi: Đường Phan Huy Chú, Thành Nhất, Buôn Ma Thuột, Đắk Lắk
   alight:
-    name: Mien Dong Bus Station
+    name: Ho Chi Minh City (operator office)
     address: Ho Chi Minh City
-  departures: Many departures through the day and night; book a night bus to arrive in the morning
-  departures_he: יציאות רבות לאורך היום והלילה; להזמין אוטובוס לילה כדי להגיע בבוקר
+  departures: Three departures a day each way
+  departures_he: שלוש יציאות ביום בכל כיוון
   duration_min: 480
   duration_max: 540
-  price_low: 11
-  price_high: 24
-  currency: USD
+  price_low: 320000
+  price_high: 450000
+  currency: VND
   price_unit: per_person
   book_links:
-  - name: FUTA Bus Lines
-    url: https://futabus.vn/
-  - name: 12Go
-    url: https://12go.asia/en/travel/ho-chi-minh/buon-ma-thuot
+  - name: redBus
+    url: https://www.redbus.vn/en/bus-tickets/routes/buon-ma-thuot-to-ho-chi-minh
   pros:
+  - Fully private cabins with curtain and AC, toilet on board
   - A quarter of the flight price
-  - Night bus saves a hotel night
   cons:
+  - No double cabin confirmed
   - 8-9 hours
-  - Mien Dong station is far from District 1
   pros_he:
+  - תאים פרטיים לגמרי עם וילון ומזגן, שירותים באוטובוס
   - רבע ממחיר הטיסה
-  - אוטובוס לילה חוסך לילה במלון
   cons_he:
+  - לא אומת תא זוגי
   - 8-9 שעות
-  - תחנת מיין דונג רחוקה ממחוז 1
-  tips: FUTA often runs free shuttles from its town offices to the station; ask when booking.
-  tips_he: ל-FUTA יש לרוב הסעה חינם מהמשרדים שלה בעיר לתחנה; לשאול בהזמנה.
+  tips: Single private cabins; no double cabin could be confirmed on this bus. Ask the operator where it boards
+    in town.
+  tips_he: תאים פרטיים ליחיד; לא אומת תא זוגי באוטובוס הזה. לשאול את המפעיל מאיפה הוא יוצא בעיר.
   sources:
-  - https://www.redbus.vn/en/bus-tickets/routes/buon-ma-thuot-to-ho-chi-minh
-  - https://north-vietnam.com/how-to-get-from-ho-chi-minh-city-to-buon-ma-thuot-dak-lak/
-  checked: '2026-10-18'
+  - https://www.redbus.vn/blog/?p=1693
+  - https://www.greensm.com/vn-vi/news/ben-xe-phia-nam-buon-me-thuot
+  checked: '2026-10-19'
   confidence: medium

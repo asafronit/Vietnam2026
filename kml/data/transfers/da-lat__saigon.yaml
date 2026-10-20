@@ -49,46 +49,51 @@ options:
   checked: '2026-10-07'
   confidence: high
 - mode: sleeper_bus
-  operator: Futa (Phuong Trang)
-  op_lang: vi
+  operator: Cabin limousine buses, single rooms or double beds (An Anh, Da Lat Oi, Phong Phu)
+  cabin: single_double
   board:
     name: Da Lat Interprovincial Bus Station
-    name_vi: "Bến xe liên tỉnh Đà Lạt"
-    address_vi: "1 Tô Hiến Thành, Đà Lạt, Lâm Đồng"
     address: 1 To Hien Thanh, Da Lat
     lat: 11.9268818
     lng: 108.4455138
+    name_vi: Bến xe liên tỉnh Đà Lạt
+    address_vi: 1 Tô Hiến Thành, Đà Lạt, Lâm Đồng
   alight:
-    name: Mien Tay Bus Station (Saigon)
-    address: Kinh Duong Vuong, An Lac, Ho Chi Minh City
-    lat: 10.7401271
-    lng: 106.6194006
-  departures: Roughly hourly, 06:00-23:00
-  departures_he: "בערך כל שעה, 06:00-23:00"
-  duration_min: 420
+    name: Ho Chi Minh City (operator office)
+    address: Ho Chi Minh City
+  departures: Several a day including night buses (An Anh from Saigon e.g. 00:04, 07:15, 13:15, 22:30)
+  departures_he: כמה ביום כולל אוטובוסי לילה (An Anh מסייגון למשל 00:04, 07:15, 13:15, 22:30)
+  duration_min: 360
   duration_max: 480
-  price_low: 280000
-  price_high: 350000
+  price_low: 450000
+  price_high: 500000
   currency: VND
   price_unit: per_person
   book_links:
-  - name: Futa Bus
-    url: https://futabus.vn
+  - name: MoMo (Da Lat Oi)
+    url: https://www.momo.vn/ve-xe/xe-da-lat-oi
+  - name: Vexere
+    url: https://vexere.com/
   pros:
-  - Cheap and very frequent, day or night
+  - 22-24 room buses with double beds, curtains and AC
+  - Several operators, so departures through the day and night
   cons:
-  - 7-8 hours, and it ends at Mien Tay station on the far west side of Saigon
+  - Pickup point varies by operator - many use their own office, not the station
   pros_he:
-  - זול ותכוף מאוד, ביום ובלילה
+  - אוטובוסים של 22-24 חדרים עם מיטות זוגיות, וילון ומזגן
+  - כמה מפעילים, ולכן יציאות לאורך היום והלילה
   cons_he:
-  - 7-8 שעות, והוא מסתיים בתחנת מיין טאי בקצה המערבי של סייגון
-  tips: Thanh Buoi runs newer cabin buses on the same road for 300,000-380,000 VND and drops closer to the centre.
-  tips_he: Thanh Buoi מפעילה אוטובוסי תאים חדשים יותר באותו כביש ב-300,000-380,000 דונג, ומורידה קרוב יותר למרכז.
+  - נקודת העלייה משתנה לפי המפעיל - רבים עולים מהמשרד שלהם ולא מהתחנה
+  tips: Book a double bed (giường đôi) for two. Thanh Buoi sells its double rooms to one passenger only, so it is
+    not a couple option. Futa's standard sleepers have open berths, not cabins.
+  tips_he: להזמין מיטה זוגית (giường đôi) לשניים. Thanh Buoi מוכרת את החדרים הזוגיים לנוסע אחד בלבד, ולכן היא לא
+    אפשרות לזוג. באוטובוסי השינה הרגילים של Futa יש דרגשים פתוחים, לא תאים.
   sources:
-  - https://www.vietnamtourism.com/en/getting-to-da-lat-flights-buses-and-the-sleeper-coach-routes
-  - https://www.checkmybus.com/da-lat/ho-chi-minh
-  checked: '2026-10-07'
-  confidence: high
+  - https://vinpearl.com/vi/xe-giuong-doi-di-da-lat
+  - https://www.momo.vn/ve-xe/xe-da-lat-oi
+  - https://mia.vn/cam-nang-du-lich/nha-xe-giuong-doi-di-da-lat-19719
+  checked: '2026-10-19'
+  confidence: medium
 - mode: private_car
   operator: Private driver (A21 Tours and others)
   board:

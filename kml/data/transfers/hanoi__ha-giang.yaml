@@ -7,83 +7,86 @@ note_he: כ-300 ק"מ, בכביש בלבד - בהא זיאנג אין שדה ת�
   ומגיעים לפני הזריחה.
 options:
 - mode: sleeper_bus
-  operator: VIP sleeper buses (Bang Phan, Quang Nghi, Cau Me and others)
+  operator: Bang Phan (single cabins, and the "palace" double-cabin bus)
+  cabin: single_double
   board:
     name: My Dinh Bus Station (Ben xe My Dinh)
-    name_vi: "Bến xe Mỹ Đình"
-    address_vi: "20 Phạm Hùng, Nam Từ Liêm, Hà Nội"
     address: 20 Pham Hung, My Dinh 2, Nam Tu Liem, Hanoi
     lat: 21.0280235
     lng: 105.7784787
-  departures: Night buses 20:00-23:00; a few day departures from 07:00
-  departures_he: "אוטובוסי לילה 20:00-23:00; כמה יציאות יום מ-07:00"
+    name_vi: Bến xe Mỹ Đình
+    address_vi: 20 Phạm Hùng, Nam Từ Liêm, Hà Nội
+  departures: More than a dozen departures a day each way; night buses about 20:00-22:00
+  departures_he: יותר מתריסר יציאות ביום בכל כיוון; אוטובוסי לילה בערך 20:00-22:00
   duration_min: 360
-  duration_max: 480
-  price_low: 200000
-  price_high: 350000
+  duration_max: 420
+  price_low: 550000
+  price_high: 700000
   currency: VND
   price_unit: per_person
   book_links:
+  - name: Bang Phan
+    url: https://xebangphan.vn/
   - name: Vexere
     url: https://vexere.com/en-US/sleeper-bus-ticket-booking-from-hanoi-to-ha-giang-124t1221.html
   pros:
-  - The cheapest way there, and many departures
-  - Sleeps through the trip
+  - Closed double cabins with curtains and AC
+  - The largest operator on the route, frequent departures
   cons:
-  - My Dinh is 30-40 minutes west of the Old Quarter
-  - The early buses land at 3:30-4:30 in the morning
+  - Winding road for the last hours
   pros_he:
-  - הדרך הזולה ביותר, והרבה יציאות
-  - ישנים את הנסיעה
+  - תאים זוגיים סגורים עם וילון ומזגן
+  - המפעיל הגדול בקו, יציאות תכופות
   cons_he:
-  - מיי דין נמצאת 30-40 דקות מערבית לרובע העתיק
-  - האוטובוסים המוקדמים נוחתים ב-3:30-4:30 לפנות בוקר
-  tips: 200,000-280,000 VND bought at the station, 250,000-350,000 through a hotel or agency.
-    Old Quarter pickup can be added for 30,000-50,000 VND. Take a late bus (22:00-23:00) to arrive
-    at a sane hour.
-  tips_he: 200,000-280,000 דונג בקנייה בתחנה, 250,000-350,000 דרך מלון או סוכנות. אפשר להוסיף
-    איסוף מהרובע העתיק ב-30,000-50,000 דונג. כדאי לקחת אוטובוס מאוחר (22:00-23:00) כדי להגיע
-    בשעה סבירה.
+  - דרך מפותלת בשעות האחרונות
+  tips: 'Ask for a double cabin (cabin đôi / phòng đôi) by name when booking: on most buses the double cabins are
+    only on the lower deck and sell out first. Bang Phan also boards at Gia Lam and its office at 156 Tran Quang
+    Khai. Confirm whether the fare is per berth or per cabin.'
+  tips_he: 'לבקש בשם תא זוגי (cabin đôi / phòng đôi) בהזמנה: ברוב האוטובוסים התאים הזוגיים רק בקומה התחתונה ונגמרים
+    ראשונים. Bang Phan עולה גם בג''יה לאם ובמשרד ב-156 Tran Quang Khai. לוודא אם המחיר לדרגש או לתא.'
   sources:
-  - https://looptrails.com/guide/ha-giang-bus-schedule-2026/
-  - https://vexere.com/en-US/sleeper-bus-ticket-booking-from-hanoi-to-ha-giang-124t1221.html
-  checked: '2026-10-07'
-  confidence: high
+  - https://www.momo.vn/ve-xe/xe-bang-phan
+  - https://www.redbus.vn/en/bus-tickets/operators/bang-phan
+  - https://www.vietnamcoracle.com/hanoi-to-ha-giang-sleeper-bus/
+  checked: '2026-10-19'
+  confidence: medium
 - mode: sleeper_bus
-  operator: Cabin sleeper buses (Inter Bus Lines, Ha Giang Express and others)
+  operator: Inter Bus Lines (double-cabin bus)
+  cabin: double
   board:
     name: Pickup at your Old Quarter hotel
     address: Hanoi Old Quarter hotels
     pickup_hotel: true
   departures: Evening departures, typically 20:00-22:00
-  departures_he: "יציאות ערב, בדרך כלל 20:00-22:00"
+  departures_he: יציאות בערב, בדרך כלל 20:00-22:00
   duration_min: 360
   duration_max: 420
-  price_low: 400000
-  price_high: 550000
+  price_low: 600000
+  price_high: 800000
   currency: VND
-  price_unit: per_person
+  price_unit: per_cabin
+  book_links:
+  - name: 12Go
+    url: https://12go.asia/en/travel/hanoi/ha-giang
   pros:
-  - A closed cabin with a curtain instead of an open bunk
-  - Picked up at the hotel, no ride out to My Dinh
+  - Double cabins for two, Old Quarter pickup
+  - One of the operators travellers recommend most
   cons:
-  - About double the open-bunk fare
-  - Still a night on a mountain road
+  - Price for this route not published by the operator
   pros_he:
-  - תא סגור עם וילון במקום דרגש פתוח
-  - איסוף מהמלון, בלי נסיעה למיי דין
+  - תאים זוגיים לשניים, איסוף מהרובע העתיק
+  - מהמפעילים שמטיילים ממליצים עליהם הכי הרבה
   cons_he:
-  - בערך כפול ממחיר הדרגש הפתוח
-  - עדיין לילה על כביש הררי
-  tips: The price is for a shared cabin. Inter Bus Lines and Ha Giang Express are the names travellers
-    recommend most often.
-  tips_he: המחיר הוא לתא משותף. Inter Bus Lines ו-Ha Giang Express הם השמות שמטיילים ממליצים עליהם
-    הכי הרבה.
+  - המחיר בקו הזה לא מפורסם על ידי המפעיל
+  tips: 'Ask for a double cabin (cabin đôi / phòng đôi) by name when booking: on most buses the double cabins are
+    only on the lower deck and sell out first.'
+  tips_he: 'לבקש בשם תא זוגי (cabin đôi / phòng đôi) בהזמנה: ברוב האוטובוסים התאים הזוגיים רק בקומה התחתונה ונגמרים
+    ראשונים.'
   sources:
-  - https://looptrails.com/guide/ha-giang-bus-schedule-2026/
-  - https://www.tripadvisor.in/AttractionProductReview-g293924-d20353990-Ha_Giang_Hanoi_Express_Transfer_Sleeper_Bus_or_Limousine_Bus-Hanoi.html
-  checked: '2026-10-07'
-  confidence: medium
+  - https://www.vietnamdecouverte.com/comment-se-rendre-de-hanoi-a-sapa
+  - https://www.vietnamtourism.com/vi/vietnam-sleeper-bus-guide-2026-honest-tips-routes-what-to-expect
+  checked: '2026-10-19'
+  confidence: low
 - mode: limousine_van
   operator: Limousine vans (several operators)
   board:

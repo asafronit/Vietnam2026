@@ -1,9 +1,8 @@
 from: ha-giang
 to: sapa
 reverse_ok: true
-note: About 6 hours across the mountains, road only. There is a direct van - no need to go back
-  through Hanoi.
-note_he: כשש שעות דרך ההרים, בכביש בלבד. יש וואן ישיר - אין צורך לחזור דרך האנוי.
+note: "About 6 hours across the mountains, road only. There is a direct van - no need to go back through Hanoi. The listed bus has single private cabins (curtain, AC); no double cabins on this route."
+note_he: "כשש שעות דרך ההרים, בכביש בלבד. יש וואן ישיר - אין צורך לחזור דרך האנוי. לאוטובוס המוצג יש תאים פרטיים ליחיד (וילון, מזגן); אין תאים זוגיים בקו הזה."
 options:
 - mode: limousine_van
   operator: Bang Phan
@@ -49,39 +48,48 @@ options:
   - https://www.redbus.vn/en/bus-tickets/routes/ha-giang-to-sa-pa
   checked: '2026-10-07'
   confidence: high
+
 - mode: sleeper_bus
-  operator: Quang Nghi
+  operator: Quang Nghi (single-cabin bus)
+  cabin: single
   op_lang: vi
   board:
     name: Quang Nghi bus office (Nha Xe Quang Nghi)
-    name_vi: "Nhà xe Quang Nghị"
-    address_vi: "60 Minh Khai, Hà Giang, Tuyên Quang"
+    name_vi: Nhà xe Quang Nghị
+    address_vi: 60 Minh Khai, Hà Giang, Tuyên Quang
     address: 60 Minh Khai, Ha Giang
     lat: 22.8187313
     lng: 104.9853533
-  departures: Check with the operator; morning and evening services run
-  departures_he: "לברר מול המפעיל; יש קווים בבוקר ובערב"
+  departures: 07:30, 10:00, 16:00, 19:30
+  departures_he: 07:30, 10:00, 16:00, 19:30
   duration_min: 360
   duration_max: 420
   price_low: 300000
-  price_high: 360000
+  price_high: 300000
   currency: VND
   price_unit: per_person
   book_links:
   - name: redBus
-    url: https://www.redbus.vn/en/bus-tickets/routes/ha-giang-to-sa-pa
+    url: https://www.redbus.vn/en/bus-tickets/operators/quang-nghi
+  - name: 12Go
+    url: https://12go.asia/en/travel/ha-giang/sapa
   pros:
-  - A second operator if the van is full
-  - Lie-flat berths
+  - Private single cabins with curtain and AC
+  - Office to office, four departures a day
   cons:
-  - Timetable is less clear than the van's; confirm a day ahead
+  - No double cabins
+  - Confirm the departure the day before
   pros_he:
-  - מפעיל נוסף אם הוואן מלא
-  - מיטות שנפתחות עד הסוף
+  - תאים פרטיים ליחיד עם וילון ומזגן
+  - ממשרד למשרד, ארבע יציאות ביום
   cons_he:
-  - לוח הזמנים פחות ברור מזה של הוואן; לאשר יום לפני
+  - אין תאים זוגיים
+  - לאשר את היציאה יום לפני
+  tips: Single private cabins with curtain and AC; no double cabins on this bus. Drop-off is at the Quang Nghi office
+    in Sapa.
+  tips_he: תאים פרטיים ליחיד עם וילון ומזגן; אין תאים זוגיים באוטובוס הזה. ההורדה במשרד של Quang Nghi בסאפה.
   sources:
+  - https://www.redbus.vn/en/bus-tickets/operators/quang-nghi
   - https://www.redbus.vn/en/bus-tickets/routes/ha-giang-to-sa-pa
-  - https://fullmoontravelasia.com/bus-ha-giang-to-sapa-730/
-  checked: '2026-10-07'
+  checked: '2026-10-19'
   confidence: medium

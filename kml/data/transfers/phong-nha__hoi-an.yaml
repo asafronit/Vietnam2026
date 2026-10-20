@@ -1,10 +1,8 @@
 from: phong-nha
 to: hoi-an
 reverse_ok: true
-note: About 340-380 km, skipping Hue. No flight on this pair; the nearest airports are Dong Hoi and Da Nang.
-  The private car turns the day into sightseeing along the DMZ and over the Hai Van Pass.
-note_he: כ-340-380 ק"מ, בדילוג על הואה. אין טיסה בזוג הזה; שדות התעופה הקרובים הם דונג הוי ודה נאנג.
-  הרכב הפרטי הופך את היום לסיור לאורך האזור המפורז ומעל מעבר האי ואן.
+note: "About 340-380 km, skipping Hue. No flight on this pair; the nearest airports are Dong Hoi and Da Nang. The private car turns the day into sightseeing along the DMZ and over the Hai Van Pass. The listed bus has single private cabins (curtain, AC); no double cabins on this route."
+note_he: "כ-340-380 ק\"מ, בדילוג על הואה. אין טיסה בזוג הזה; שדות התעופה הקרובים הם דונג הוי ודה נאנג. הרכב הפרטי הופך את היום לסיור לאורך האזור המפורז ומעל מעבר האי ואן. לאוטובוס המוצג יש תאים פרטיים ליחיד (וילון, מזגן); אין תאים זוגיים בקו הזה."
 options:
 - mode: private_car
   operator: Private driver (Culture Pham Travel and others)
@@ -43,44 +41,45 @@ options:
   - https://www.getyourguide.com/en-gb/da-nang-l939/hoi-an-private-car-to-phong-nha-with-sightseeing-stops-t892548/
   checked: '2026-10-07'
   confidence: high
+
 - mode: sleeper_bus
-  operator: Hung Thanh
-  op_lang: vi
+  operator: Hoang Minh Limousine (Cabin 24)
+  cabin: single
+  op_lang: en
   board:
-    name: Hung Thanh bus office, Phong Nha town centre
-    name_vi: "Văn phòng nhà xe Hưng Thành"
-    address_vi: "Trung tâm Phong Nha, Quảng Trị"
-    address: Phong Nha town centre, Quang Binh
+    name: Phong Nha town centre (pickup point shown on the ticket)
+    address: Phong Nha town centre
     lat: 17.6113791
     lng: 106.3069337
-  alight:
-    name: Hoi An drop-off
-    address: 105 Ton Duc Thang, Hoi An
-    lat: 15.8928214
-    lng: 108.3199058
-  departures: 04:00, 09:00
-  departures_he: "04:00, 09:00"
+    name_vi: Trung tâm Phong Nha
+    address_vi: Trung tâm Phong Nha, Quảng Trị
+  departures: Several departures a day; times on 12Go
+  departures_he: כמה יציאות ביום; השעות ב-12Go
   duration_min: 420
-  duration_max: 480
-  price_low: 16
-  price_high: 16
+  duration_max: 600
+  price_low: 12
+  price_high: 14
   currency: USD
   price_unit: per_person
   book_links:
-  - name: Full Moon Travel
-    url: https://fullmoontravelasia.com/bus-phong-nha-to-hoi-an-400/
+  - name: 12Go
+    url: https://12go.asia/en/travel/phong-nha/hoi-an
   pros:
-  - Straight through to Hoi An for a fraction of the car
+  - Private single cabins with curtain and AC
+  - Straight through, no change in Hue
   cons:
-  - 7-8 hours on a bus, no stops to see anything
+  - No double cabins on this route
+  - Riders report 7-10 hours against the 5-7 advertised
   pros_he:
-  - ישר עד הוי אן בשבריר ממחיר הרכב
+  - תאים פרטיים ליחיד עם וילון ומזגן
+  - ישיר, בלי החלפה בהואה
   cons_he:
-  - 7-8 שעות באוטובוס, בלי עצירות לראות משהו
-  tips: Check in at the office 20 minutes early.
-  tips_he: להגיע למשרד 20 דקות מוקדם.
+  - אין תאים זוגיים בקו הזה
+  - נוסעים מדווחים על 7-10 שעות מול 5-7 המפורסמות
+  tips: Single private cabins with curtain and AC; no double cabins on this bus. The price on 12Go is about $13.5.
+  tips_he: תאים פרטיים ליחיד עם וילון ומזגן; אין תאים זוגיים באוטובוס הזה. המחיר ב-12Go בערך $13.5.
   sources:
-  - https://fullmoontravelasia.com/bus-phong-nha-to-hoi-an-400/
-  - https://vexere.com/en-US/sleeper-bus-ticket-booking-from-phong-nha-quang-binh-to-hoi-an-quang-nam-2114261t25221.html
-  checked: '2026-10-07'
-  confidence: high
+  - https://12go.asia/en/travel/phong-nha/hoi-an?z=16187692
+  - https://goasia.cc/en/vietnam/phong-nha-to-hoi-an
+  checked: '2026-10-19'
+  confidence: medium

@@ -1,10 +1,8 @@
 from: hoi-an
 to: buon-ma-thuot
 reverse_ok: true
-note: From the coast up to the highlands. The flight is the practical way - 65 minutes against about 12
-  hours by bus. Only Vietnam Airlines flies Da Nang to Buon Ma Thuot, and not every day.
-note_he: מהחוף אל הרמות. הטיסה היא הדרך המעשית - 65 דקות מול כ-12 שעות באוטובוס. רק Vietnam Airlines
-  טסה מדה נאנג לבואון מה טואוט, ולא כל יום.
+note: "From the coast up to the highlands. The flight is the practical way - 65 minutes against about 12 hours by bus. Only Vietnam Airlines flies Da Nang to Buon Ma Thuot, and not every day. No double-cabin sleeper bus could be confirmed on this route, so none is listed."
+note_he: "מהחוף אל הרמות. הטיסה היא הדרך המעשית - 65 דקות מול כ-12 שעות באוטובוס. רק Vietnam Airlines טסה מדה נאנג לבואון מה טואוט, ולא כל יום. לא נמצא בקו הזה אוטובוס לילה עם תא זוגי מאומת, ולכן הוא לא מופיע."
 options:
 - mode: flight
   operator: Vietnam Airlines (VN1911)
@@ -53,40 +51,3 @@ options:
   - https://www.flightaware.com/live/flight/HVN1911
   checked: "2026-10-16"
   confidence: high
-- mode: sleeper_bus
-  operator: Sleeper and cabin buses (Cao Nguyen Limousine, Hoang Phat and others)
-  board:
-    name: Da Nang Central Bus Station (Ben xe Trung tam Da Nang)
-    name_vi: "Bến xe Trung tâm Đà Nẵng"
-    address_vi: "Bến xe Trung tâm Đà Nẵng, Đà Nẵng"
-    address: Vu Trong Hoang, An Khe, Da Nang
-    lat: 16.05501
-    lng: 108.1733575
-  departures: Many buses from about 11:30 to 23:10
-  departures_he: "הרבה אוטובוסים, מבערך 11:30 עד 23:10"
-  duration_min: 660
-  duration_max: 720
-  price_low: 450000
-  price_high: 500000
-  currency: VND
-  price_unit: per_person
-  book_links:
-  - name: Vexere
-    url: https://vexere.com/en-US/sleeper-bus-ticket-booking-from-da-nang-to-buon-ma-thuot-dak-lak-115t21431.html
-  pros:
-  - Runs every day, many departures
-  cons:
-  - About 12 hours on the road
-  - Leaves from Da Nang, so first get there from Hoi An
-  pros_he:
-  - פועל כל יום, הרבה יציאות
-  cons_he:
-  - בערך 12 שעות על הכביש
-  - יוצא מדה נאנג, כך שקודם צריך להגיע אליה מהוי אן
-  tips: Worth it only on a day the flight does not run. A cabin bus is the comfortable choice for a night this long.
-  tips_he: שווה רק ביום שאין בו טיסה. לנסיעת לילה כל כך ארוכה, אוטובוס תאים הוא הבחירה הנוחה.
-  sources:
-  - https://vexere.com/en-US/sleeper-bus-ticket-booking-from-da-nang-to-buon-ma-thuot-dak-lak-115t21431.html
-  - https://vexere.com/en-US/bus-ticket-booking-from-da-nang-to-buon-ma-thuot-dak-lak-115t21431.html
-  checked: '2026-10-07'
-  confidence: medium

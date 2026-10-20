@@ -142,16 +142,58 @@ options:
   checked: '2026-10-06'
   confidence: high
 - mode: sleeper_bus
-  operator: Sapa Express (VIP cabin bus)
+  operator: Double-cabin buses (Inter Bus Lines, Kadham)
+  cabin: double
+  board:
+    name: Pickup at your Old Quarter hotel
+    address: Hanoi Old Quarter hotels
+    pickup_hotel: true
+  departures: Kadham 07:00 and 22:00 straight to Sapa; Inter Bus Lines evening departures
+  departures_he: Kadham ב-07:00 וב-22:00 ישר לסאפה; Inter Bus Lines יציאות בערב
+  duration_min: 330
+  duration_max: 360
+  price_low: 680000
+  price_high: 720000
+  currency: VND
+  price_unit: per_cabin
+  book_links:
+  - name: 12Go
+    url: https://12go.asia/en/travel/hanoi/sapa
+  - name: Vexere
+    url: https://vexere.com/
+  pros:
+  - Closed two-person cabins with curtains and AC
+  - Kadham runs straight into Sapa, no change in Lao Cai
+  cons:
+  - The night bus reaches Sapa around 04:00-05:00
+  pros_he:
+  - תאים סגורים לשניים עם וילון ומזגן
+  - Kadham נוסע ישר לסאפה, בלי החלפה בלאו קאי
+  cons_he:
+  - אוטובוס הלילה מגיע לסאפה בערך ב-04:00-05:00
+  tips: 'Ask for a double cabin (cabin đôi / phòng đôi) by name when booking: on most buses the double cabins are
+    only on the lower deck and sell out first. Fares are per two-person cabin (about 680,000-720,000 VND). Ask the
+    hotel in Sapa about an early check-in.'
+  tips_he: 'לבקש בשם תא זוגי (cabin đôi / phòng đôi) בהזמנה: ברוב האוטובוסים התאים הזוגיים רק בקומה התחתונה ונגמרים
+    ראשונים. המחיר לתא של שניים (בערך 680,000-720,000 דונג). לשאול את המלון בסאפה על צ''ק-אין מוקדם.'
+  sources:
+  - https://mia.vn/cam-nang-du-lich/xe-cabin-doi-di-sapa-17436
+  - https://tripatini.com/profiles/blogs/xe-kadham-bus-sapa-review-chi-ti-t
+  - https://www.vietnamdecouverte.com/comment-se-rendre-de-hanoi-a-sapa
+  checked: '2026-10-19'
+  confidence: medium
+- mode: sleeper_bus
+  operator: Sapa Express (VIP single-cabin bus)
+  cabin: single
   board:
     name: Sapa Express office
-    name_vi: "Văn phòng Sapa Express"
-    address_vi: "204 Trần Quang Khải, Hoàn Kiếm, Hà Nội"
+    name_vi: Văn phòng Sapa Express
+    address_vi: 204 Trần Quang Khải, Hoàn Kiếm, Hà Nội
     address: 204 Tran Quang Khai, Hoan Kiem, Hanoi
     lat: 21.0275697
     lng: 105.8581148
   departures: '22:00'
-  departures_he: "22:00"
+  departures_he: '22:00'
   duration_min: 330
   duration_max: 360
   price_low: 450000
@@ -173,12 +215,16 @@ options:
   cons_he:
   - מגיע בסביבות ארבע לפני הבוקר, לפני הצ'ק-אין
   - אוטובוס על כביש הררי; מי שישן קל ירגיש את זה
-  tips: "Standard open-bunk sleeper buses on the same road cost 270,000-370,000 VND. There is no hotel pickup on Friday-Sunday nights. Ask the hotel in Sapa about an early check-in or a place to wait."
-  tips_he: "אוטובוסי שינה רגילים, עם דרגשים פתוחים, עולים באותו כביש 270,000-370,000 דונג. בלילות שישי עד ראשון אין איסוף מהמלון. כדאי לשאול את המלון בסאפה על צ'ק-אין מוקדם או על מקום לחכות בו."
+  tips: Single private cabins with curtain and AC, no double cabins on this bus - for a two-person cabin take Inter
+    Bus Lines or Kadham. Standard open-bunk sleeper buses on the same road cost 270,000-370,000 VND. There is no
+    hotel pickup on Friday-Sunday nights. Ask the hotel in Sapa about an early check-in or a place to wait.
+  tips_he: תאים פרטיים ליחיד עם וילון ומזגן, בלי תאים זוגיים באוטובוס הזה - לתא לשניים לקחת את Inter Bus Lines או
+    Kadham. אוטובוסי שינה רגילים, עם דרגשים פתוחים, עולים באותו כביש 270,000-370,000 דונג. בלילות שישי עד ראשון
+    אין איסוף מהמלון. כדאי לשאול את המלון בסאפה על צ'ק-אין מוקדם או על מקום לחכות בו.
   sources:
   - https://a21tours.com/ticket/sapa-express-bus
   - https://www.vietnamtourism.com/en/hanoi-to-sapa-in-2026-trains-buses-costs-compared
-  checked: "2026-10-16"
+  checked: '2026-10-19'
   confidence: medium
 - mode: private_car
   operator: Private driver (via agent or transfer company)

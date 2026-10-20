@@ -1,54 +1,54 @@
 from: phong-nha
 to: hue
 reverse_ok: true
-note: About 210 km, 4 hours. No flight - the two are too close. The train runs from Dong Hoi, 45 km from
-  Phong Nha, so the bus or a car is simpler.
-note_he: כ-210 ק"מ, ארבע שעות. אין טיסה - המקומות קרובים מדי. הרכבת יוצאת מדונג הוי, 45 ק"מ מפונג נה,
-  ולכן אוטובוס או רכב פשוטים יותר.
+note: "About 210 km, 4 hours. No flight - the two are too close. The train runs from Dong Hoi, 45 km from Phong Nha, so a car is simpler. The listed bus has single private cabins (curtain, AC); no double cabins on this route."
+note_he: "כ-210 ק\"מ, ארבע שעות. אין טיסה - המקומות קרובים מדי. הרכבת יוצאת מדונג הוי, 45 ק\"מ מפונג נה, ולכן רכב פשוט יותר. לאוטובוס המוצג יש תאים פרטיים ליחיד (וילון, מזגן); אין תאים זוגיים בקו הזה."
 options:
 - mode: sleeper_bus
-  operator: Hung Thanh
-  op_lang: vi
+  operator: Hoang Minh Limousine (Cabin 24) and HK Buslines (single cabins)
+  cabin: single
+  op_lang: en
   board:
-    name: Hung Thanh bus office, Phong Nha town centre
-    name_vi: "Văn phòng nhà xe Hưng Thành"
-    address_vi: "Trung tâm Phong Nha, Quảng Trị"
-    address: Phong Nha town centre, Quang Binh
+    name: Phong Nha town centre (pickup point shown on the ticket)
+    address: Phong Nha town centre
     lat: 17.6113791
     lng: 106.3069337
-  alight:
-    name: Hue city centre drop-off
-    address: 7 Doi Cung, Hue
-    lat: 16.468691
-    lng: 107.5937098
-  departures: 04:00, 09:00, 19:00
-  departures_he: "04:00, 09:00, 19:00"
+    name_vi: Trung tâm Phong Nha
+    address_vi: Trung tâm Phong Nha, Quảng Trị
+  departures: 'Hoang Minh 08:30 and 10:30; HK Buslines about 01:00, 01:30 and 04:30. Hue to Phong Nha: Hoang Minh
+    00:00, 12:00, 13:00; HK 09:00, 10:00'
+  departures_he: 'Hoang Minh ב-08:30 וב-10:30; HK Buslines בערך 01:00, 01:30 ו-04:30. מהואה לפונג נה: Hoang Minh
+    ב-00:00, 12:00, 13:00; HK ב-09:00, 10:00'
   duration_min: 240
   duration_max: 300
-  price_low: 14
-  price_high: 16
+  price_low: 8
+  price_high: 11
   currency: USD
   price_unit: per_person
   book_links:
-  - name: Full Moon Travel
-    url: https://fullmoontravelasia.com/phong-nha-to-hue-bus-ticket/
+  - name: 12Go
+    url: https://12go.asia/en/travel/phong-nha/hue
   pros:
-  - Three departures a day, straight into central Hue
-  - Cheap
+  - Private single cabins with curtain and AC
+  - Morning departures arrive in Hue by lunchtime
   cons:
-  - The 04:00 bus means a very early start
+  - No double cabins on this route
+  - Night departures arrive in the small hours
   pros_he:
-  - שלוש יציאות ביום, ישר למרכז הואה
-  - זול
+  - תאים פרטיים ליחיד עם וילון ומזגן
+  - יציאות הבוקר מגיעות להואה עד הצהריים
   cons_he:
-  - האוטובוס של 04:00 פירושו השכמה מוקדמת מאוד
-  tips: Be at the office 20 minutes before departure. The 09:00 bus arrives in Hue around lunchtime.
-  tips_he: להגיע למשרד 20 דקות לפני היציאה. האוטובוס של 09:00 מגיע להואה בסביבות הצהריים.
+  - אין תאים זוגיים בקו הזה
+  - יציאות הלילה מגיעות לפנות בוקר
+  tips: 'Single private cabins with curtain and AC; no double cabins on this bus. Fares on 12Go in 2026: Hoang Minh
+    about $10.6-10.7, HK about $8.2-11.'
+  tips_he: 'תאים פרטיים ליחיד עם וילון ומזגן; אין תאים זוגיים באוטובוס הזה. המחירים ב-12Go ב-2026: Hoang Minh בערך
+    $10.6-10.7, HK בערך $8.2-11.'
   sources:
-  - https://fullmoontravelasia.com/phong-nha-to-hue-bus-ticket/
-  - https://www.redbus.vn/en/bus-tickets/routes/phong-nha-to-hue
-  checked: '2026-10-07'
-  confidence: high
+  - https://12go.asia/en/travel/phong-nha/hue?z=16187692
+  - https://www.baolau.com/s/Phong-Nha/Hue
+  checked: '2026-10-19'
+  confidence: medium
 - mode: combo
   operator: Bus B4 or taxi to Dong Hoi + Vietnam Railways
   board:

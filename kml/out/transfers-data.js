@@ -10,6 +10,7 @@ const TRANSFERS_DATA = [
         "mode": "private_car",
         "operator": "Private transfer (arranged by the camp or a driver)",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Pickup at your hotel or the airport",
           "address": "Buon Ma Thuot hotels or Buon Ma Thuot Airport",
@@ -65,6 +66,7 @@ const TRANSFERS_DATA = [
         "mode": "bus",
         "operator": "Public bus route 12 (Buon Ma Thuot - Lak)",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Dak Lak bus company yard (route 12 terminus)",
           "address": "Y On Street, Buon Ma Thuot (Dak Lak bus company yard)",
@@ -120,13 +122,14 @@ const TRANSFERS_DATA = [
     "from": "buon-ma-thuot",
     "to": "saigon",
     "reverseOk": true,
-    "note": "An hour by air twice a day, or 8-9 hours on a sleeper bus down from the highlands.",
-    "noteHe": "שעה בטיסה פעמיים ביום, או 8-9 שעות באוטובוס שינה במורד הרמות.",
+    "note": "An hour by air, twice a day. The listed bus has single private cabins (curtain, AC); no double cabin could be confirmed.",
+    "noteHe": "שעה בטיסה, פעמיים ביום. לאוטובוס המוצג יש תאים פרטיים ליחיד (וילון, מזגן); לא אומת תא זוגי.",
     "options": [
       {
         "mode": "flight",
         "operator": "Vietnam Airlines",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Buon Ma Thuot Airport (BMV)",
           "address": "Nguyen Luong Bang, Buon Ma Thuot",
@@ -181,67 +184,64 @@ const TRANSFERS_DATA = [
       },
       {
         "mode": "sleeper_bus",
-        "operator": "FUTA Bus Lines (Phuong Trang) and other sleeper operators",
+        "operator": "Loan Sang (22-cabin bus)",
         "opLang": "en",
+        "cabin": "single",
         "board": {
-          "name": "Buon Ma Thuot Northern Bus Station",
-          "address": "Nguyen Chi Thanh, Tan An, Buon Ma Thuot",
+          "name": "Buon Ma Thuot Southern Bus Station",
+          "address": "Phan Huy Chu, Thanh Nhat, Buon Ma Thuot",
           "pickupHotel": false,
-          "lat": 12.7007807,
-          "lng": 108.074737,
+          "lat": 12.6461018,
+          "lng": 108.0168583,
           "lang": "en",
-          "nameVi": "Bến xe phía Bắc Buôn Ma Thuột",
-          "addressVi": "Đường Nguyễn Chí Thanh, Tân An, Buôn Ma Thuột, Đắk Lắk"
+          "nameVi": "Bến xe phía Nam Buôn Ma Thuột",
+          "addressVi": "Đường Phan Huy Chú, Thành Nhất, Buôn Ma Thuột, Đắk Lắk"
         },
         "alight": {
-          "name": "Mien Dong Bus Station",
+          "name": "Ho Chi Minh City (operator office)",
           "address": "Ho Chi Minh City",
           "pickupHotel": false,
           "lat": null,
           "lng": null,
           "lang": "en"
         },
-        "departures": "Many departures through the day and night; book a night bus to arrive in the morning",
-        "departuresHe": "יציאות רבות לאורך היום והלילה; להזמין אוטובוס לילה כדי להגיע בבוקר",
+        "departures": "Three departures a day each way",
+        "departuresHe": "שלוש יציאות ביום בכל כיוון",
         "durationMin": 480,
         "durationMax": 540,
-        "priceLow": 11,
-        "priceHigh": 24,
-        "currency": "USD",
+        "priceLow": 320000,
+        "priceHigh": 450000,
+        "currency": "VND",
         "priceUnit": "per_person",
         "bookLinks": [
           {
-            "name": "FUTA Bus Lines",
-            "url": "https://futabus.vn/"
-          },
-          {
-            "name": "12Go",
-            "url": "https://12go.asia/en/travel/ho-chi-minh/buon-ma-thuot"
+            "name": "redBus",
+            "url": "https://www.redbus.vn/en/bus-tickets/routes/buon-ma-thuot-to-ho-chi-minh"
           }
         ],
         "pros": [
-          "A quarter of the flight price",
-          "Night bus saves a hotel night"
+          "Fully private cabins with curtain and AC, toilet on board",
+          "A quarter of the flight price"
         ],
         "prosHe": [
-          "רבע ממחיר הטיסה",
-          "אוטובוס לילה חוסך לילה במלון"
+          "תאים פרטיים לגמרי עם וילון ומזגן, שירותים באוטובוס",
+          "רבע ממחיר הטיסה"
         ],
         "cons": [
-          "8-9 hours",
-          "Mien Dong station is far from District 1"
+          "No double cabin confirmed",
+          "8-9 hours"
         ],
         "consHe": [
-          "8-9 שעות",
-          "תחנת מיין דונג רחוקה ממחוז 1"
+          "לא אומת תא זוגי",
+          "8-9 שעות"
         ],
-        "tips": "FUTA often runs free shuttles from its town offices to the station; ask when booking.",
-        "tipsHe": "ל-FUTA יש לרוב הסעה חינם מהמשרדים שלה בעיר לתחנה; לשאול בהזמנה.",
+        "tips": "Single private cabins; no double cabin could be confirmed on this bus. Ask the operator where it boards in town.",
+        "tipsHe": "תאים פרטיים ליחיד; לא אומת תא זוגי באוטובוס הזה. לשאול את המפעיל מאיפה הוא יוצא בעיר.",
         "sources": [
-          "https://www.redbus.vn/en/bus-tickets/routes/buon-ma-thuot-to-ho-chi-minh",
-          "https://north-vietnam.com/how-to-get-from-ho-chi-minh-city-to-buon-ma-thuot-dak-lak/"
+          "https://www.redbus.vn/blog/?p=1693",
+          "https://www.greensm.com/vn-vi/news/ben-xe-phia-nam-buon-me-thuot"
         ],
-        "checked": "2026-10-18",
+        "checked": "2026-10-19",
         "confidence": "medium"
       }
     ]
@@ -257,6 +257,7 @@ const TRANSFERS_DATA = [
         "mode": "flight",
         "operator": "Vietnam Airlines (VN1381 / VN1383 / VN1387)",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Lien Khuong International Airport (DLI)",
           "address": "Lien Khuong, Hiep Thanh, Lam Dong",
@@ -314,8 +315,9 @@ const TRANSFERS_DATA = [
       },
       {
         "mode": "sleeper_bus",
-        "operator": "Futa (Phuong Trang)",
-        "opLang": "vi",
+        "operator": "Cabin limousine buses, single rooms or double beds (An Anh, Da Lat Oi, Phong Phu)",
+        "opLang": "en",
+        "cabin": "single_double",
         "board": {
           "name": "Da Lat Interprovincial Bus Station",
           "address": "1 To Hien Thanh, Da Lat",
@@ -327,52 +329,60 @@ const TRANSFERS_DATA = [
           "addressVi": "1 Tô Hiến Thành, Đà Lạt, Lâm Đồng"
         },
         "alight": {
-          "name": "Mien Tay Bus Station (Saigon)",
-          "address": "Kinh Duong Vuong, An Lac, Ho Chi Minh City",
+          "name": "Ho Chi Minh City (operator office)",
+          "address": "Ho Chi Minh City",
           "pickupHotel": false,
-          "lat": 10.7401271,
-          "lng": 106.6194006,
+          "lat": null,
+          "lng": null,
           "lang": "en"
         },
-        "departures": "Roughly hourly, 06:00-23:00",
-        "departuresHe": "בערך כל שעה, 06:00-23:00",
-        "durationMin": 420,
+        "departures": "Several a day including night buses (An Anh from Saigon e.g. 00:04, 07:15, 13:15, 22:30)",
+        "departuresHe": "כמה ביום כולל אוטובוסי לילה (An Anh מסייגון למשל 00:04, 07:15, 13:15, 22:30)",
+        "durationMin": 360,
         "durationMax": 480,
-        "priceLow": 280000,
-        "priceHigh": 350000,
+        "priceLow": 450000,
+        "priceHigh": 500000,
         "currency": "VND",
         "priceUnit": "per_person",
         "bookLinks": [
           {
-            "name": "Futa Bus",
-            "url": "https://futabus.vn"
+            "name": "MoMo (Da Lat Oi)",
+            "url": "https://www.momo.vn/ve-xe/xe-da-lat-oi"
+          },
+          {
+            "name": "Vexere",
+            "url": "https://vexere.com/"
           }
         ],
         "pros": [
-          "Cheap and very frequent, day or night"
+          "22-24 room buses with double beds, curtains and AC",
+          "Several operators, so departures through the day and night"
         ],
         "prosHe": [
-          "זול ותכוף מאוד, ביום ובלילה"
+          "אוטובוסים של 22-24 חדרים עם מיטות זוגיות, וילון ומזגן",
+          "כמה מפעילים, ולכן יציאות לאורך היום והלילה"
         ],
         "cons": [
-          "7-8 hours, and it ends at Mien Tay station on the far west side of Saigon"
+          "Pickup point varies by operator - many use their own office, not the station"
         ],
         "consHe": [
-          "7-8 שעות, והוא מסתיים בתחנת מיין טאי בקצה המערבי של סייגון"
+          "נקודת העלייה משתנה לפי המפעיל - רבים עולים מהמשרד שלהם ולא מהתחנה"
         ],
-        "tips": "Thanh Buoi runs newer cabin buses on the same road for 300,000-380,000 VND and drops closer to the centre.",
-        "tipsHe": "Thanh Buoi מפעילה אוטובוסי תאים חדשים יותר באותו כביש ב-300,000-380,000 דונג, ומורידה קרוב יותר למרכז.",
+        "tips": "Book a double bed (giường đôi) for two. Thanh Buoi sells its double rooms to one passenger only, so it is not a couple option. Futa's standard sleepers have open berths, not cabins.",
+        "tipsHe": "להזמין מיטה זוגית (giường đôi) לשניים. Thanh Buoi מוכרת את החדרים הזוגיים לנוסע אחד בלבד, ולכן היא לא אפשרות לזוג. באוטובוסי השינה הרגילים של Futa יש דרגשים פתוחים, לא תאים.",
         "sources": [
-          "https://www.vietnamtourism.com/en/getting-to-da-lat-flights-buses-and-the-sleeper-coach-routes",
-          "https://www.checkmybus.com/da-lat/ho-chi-minh"
+          "https://vinpearl.com/vi/xe-giuong-doi-di-da-lat",
+          "https://www.momo.vn/ve-xe/xe-da-lat-oi",
+          "https://mia.vn/cam-nang-du-lich/nha-xe-giuong-doi-di-da-lat-19719"
         ],
-        "checked": "2026-10-07",
-        "confidence": "high"
+        "checked": "2026-10-19",
+        "confidence": "medium"
       },
       {
         "mode": "private_car",
         "operator": "Private driver (A21 Tours and others)",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Pickup at your hotel",
           "address": "Any hotel in Da Lat",
@@ -423,13 +433,14 @@ const TRANSFERS_DATA = [
     "from": "ha-giang",
     "to": "sapa",
     "reverseOk": true,
-    "note": "About 6 hours across the mountains, road only. There is a direct van - no need to go back through Hanoi.",
-    "noteHe": "כשש שעות דרך ההרים, בכביש בלבד. יש וואן ישיר - אין צורך לחזור דרך האנוי.",
+    "note": "About 6 hours across the mountains, road only. There is a direct van - no need to go back through Hanoi. The listed bus has single private cabins (curtain, AC); no double cabins on this route.",
+    "noteHe": "כשש שעות דרך ההרים, בכביש בלבד. יש וואן ישיר - אין צורך לחזור דרך האנוי. לאוטובוס המוצג יש תאים פרטיים ליחיד (וילון, מזגן); אין תאים זוגיים בקו הזה.",
     "options": [
       {
         "mode": "limousine_van",
         "operator": "Bang Phan",
         "opLang": "vi",
+        "cabin": null,
         "board": {
           "name": "Bang Phan office",
           "address": "100 Tran Phu, Ha Giang",
@@ -489,8 +500,9 @@ const TRANSFERS_DATA = [
       },
       {
         "mode": "sleeper_bus",
-        "operator": "Quang Nghi",
+        "operator": "Quang Nghi (single-cabin bus)",
         "opLang": "vi",
+        "cabin": "single",
         "board": {
           "name": "Quang Nghi bus office (Nha Xe Quang Nghi)",
           "address": "60 Minh Khai, Ha Giang",
@@ -502,41 +514,47 @@ const TRANSFERS_DATA = [
           "addressVi": "60 Minh Khai, Hà Giang, Tuyên Quang"
         },
         "alight": null,
-        "departures": "Check with the operator; morning and evening services run",
-        "departuresHe": "לברר מול המפעיל; יש קווים בבוקר ובערב",
+        "departures": "07:30, 10:00, 16:00, 19:30",
+        "departuresHe": "07:30, 10:00, 16:00, 19:30",
         "durationMin": 360,
         "durationMax": 420,
         "priceLow": 300000,
-        "priceHigh": 360000,
+        "priceHigh": 300000,
         "currency": "VND",
         "priceUnit": "per_person",
         "bookLinks": [
           {
             "name": "redBus",
-            "url": "https://www.redbus.vn/en/bus-tickets/routes/ha-giang-to-sa-pa"
+            "url": "https://www.redbus.vn/en/bus-tickets/operators/quang-nghi"
+          },
+          {
+            "name": "12Go",
+            "url": "https://12go.asia/en/travel/ha-giang/sapa"
           }
         ],
         "pros": [
-          "A second operator if the van is full",
-          "Lie-flat berths"
+          "Private single cabins with curtain and AC",
+          "Office to office, four departures a day"
         ],
         "prosHe": [
-          "מפעיל נוסף אם הוואן מלא",
-          "מיטות שנפתחות עד הסוף"
+          "תאים פרטיים ליחיד עם וילון ומזגן",
+          "ממשרד למשרד, ארבע יציאות ביום"
         ],
         "cons": [
-          "Timetable is less clear than the van's; confirm a day ahead"
+          "No double cabins",
+          "Confirm the departure the day before"
         ],
         "consHe": [
-          "לוח הזמנים פחות ברור מזה של הוואן; לאשר יום לפני"
+          "אין תאים זוגיים",
+          "לאשר את היציאה יום לפני"
         ],
-        "tips": null,
-        "tipsHe": null,
+        "tips": "Single private cabins with curtain and AC; no double cabins on this bus. Drop-off is at the Quang Nghi office in Sapa.",
+        "tipsHe": "תאים פרטיים ליחיד עם וילון ומזגן; אין תאים זוגיים באוטובוס הזה. ההורדה במשרד של Quang Nghi בסאפה.",
         "sources": [
-          "https://www.redbus.vn/en/bus-tickets/routes/ha-giang-to-sa-pa",
-          "https://fullmoontravelasia.com/bus-ha-giang-to-sapa-730/"
+          "https://www.redbus.vn/en/bus-tickets/operators/quang-nghi",
+          "https://www.redbus.vn/en/bus-tickets/routes/ha-giang-to-sa-pa"
         ],
-        "checked": "2026-10-07",
+        "checked": "2026-10-19",
         "confidence": "medium"
       }
     ]
@@ -552,6 +570,7 @@ const TRANSFERS_DATA = [
         "mode": "limousine_van",
         "operator": "Halong-Ninh Binh daily limousine (A21 Tours and others)",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Pickup at your hotel or cruise pier",
           "address": "Bai Chay and Tuan Chau hotels, Tuan Chau harbour",
@@ -602,6 +621,7 @@ const TRANSFERS_DATA = [
         "mode": "private_car",
         "operator": "Private driver (transfer companies)",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Pickup at your hotel or cruise pier",
           "address": "Any hotel or pier in Ha Long",
@@ -661,6 +681,7 @@ const TRANSFERS_DATA = [
         "mode": "flight",
         "operator": "Vietnam Airlines, Vietravel Airlines",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Noi Bai Airport, Terminal T1 (domestic)",
           "address": "Vo Nguyen Giap, Noi Bai, Hanoi",
@@ -730,6 +751,7 @@ const TRANSFERS_DATA = [
         "mode": "flight",
         "operator": "Vietnam Airlines, Vietravel Airlines",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Noi Bai Airport, Terminal T1 (domestic)",
           "address": "Vo Nguyen Giap, Noi Bai, Hanoi",
@@ -797,8 +819,9 @@ const TRANSFERS_DATA = [
     "options": [
       {
         "mode": "sleeper_bus",
-        "operator": "VIP sleeper buses (Bang Phan, Quang Nghi, Cau Me and others)",
+        "operator": "Bang Phan (single cabins, and the \"palace\" double-cabin bus)",
         "opLang": "en",
+        "cabin": "single_double",
         "board": {
           "name": "My Dinh Bus Station (Ben xe My Dinh)",
           "address": "20 Pham Hung, My Dinh 2, Nam Tu Liem, Hanoi",
@@ -810,96 +833,53 @@ const TRANSFERS_DATA = [
           "addressVi": "20 Phạm Hùng, Nam Từ Liêm, Hà Nội"
         },
         "alight": null,
-        "departures": "Night buses 20:00-23:00; a few day departures from 07:00",
-        "departuresHe": "אוטובוסי לילה 20:00-23:00; כמה יציאות יום מ-07:00",
+        "departures": "More than a dozen departures a day each way; night buses about 20:00-22:00",
+        "departuresHe": "יותר מתריסר יציאות ביום בכל כיוון; אוטובוסי לילה בערך 20:00-22:00",
         "durationMin": 360,
-        "durationMax": 480,
-        "priceLow": 200000,
-        "priceHigh": 350000,
+        "durationMax": 420,
+        "priceLow": 550000,
+        "priceHigh": 700000,
         "currency": "VND",
         "priceUnit": "per_person",
         "bookLinks": [
+          {
+            "name": "Bang Phan",
+            "url": "https://xebangphan.vn/"
+          },
           {
             "name": "Vexere",
             "url": "https://vexere.com/en-US/sleeper-bus-ticket-booking-from-hanoi-to-ha-giang-124t1221.html"
           }
         ],
         "pros": [
-          "The cheapest way there, and many departures",
-          "Sleeps through the trip"
+          "Closed double cabins with curtains and AC",
+          "The largest operator on the route, frequent departures"
         ],
         "prosHe": [
-          "הדרך הזולה ביותר, והרבה יציאות",
-          "ישנים את הנסיעה"
+          "תאים זוגיים סגורים עם וילון ומזגן",
+          "המפעיל הגדול בקו, יציאות תכופות"
         ],
         "cons": [
-          "My Dinh is 30-40 minutes west of the Old Quarter",
-          "The early buses land at 3:30-4:30 in the morning"
+          "Winding road for the last hours"
         ],
         "consHe": [
-          "מיי דין נמצאת 30-40 דקות מערבית לרובע העתיק",
-          "האוטובוסים המוקדמים נוחתים ב-3:30-4:30 לפנות בוקר"
+          "דרך מפותלת בשעות האחרונות"
         ],
-        "tips": "200,000-280,000 VND bought at the station, 250,000-350,000 through a hotel or agency. Old Quarter pickup can be added for 30,000-50,000 VND. Take a late bus (22:00-23:00) to arrive at a sane hour.",
-        "tipsHe": "200,000-280,000 דונג בקנייה בתחנה, 250,000-350,000 דרך מלון או סוכנות. אפשר להוסיף איסוף מהרובע העתיק ב-30,000-50,000 דונג. כדאי לקחת אוטובוס מאוחר (22:00-23:00) כדי להגיע בשעה סבירה.",
+        "tips": "Ask for a double cabin (cabin đôi / phòng đôi) by name when booking: on most buses the double cabins are only on the lower deck and sell out first. Bang Phan also boards at Gia Lam and its office at 156 Tran Quang Khai. Confirm whether the fare is per berth or per cabin.",
+        "tipsHe": "לבקש בשם תא זוגי (cabin đôi / phòng đôi) בהזמנה: ברוב האוטובוסים התאים הזוגיים רק בקומה התחתונה ונגמרים ראשונים. Bang Phan עולה גם בג'יה לאם ובמשרד ב-156 Tran Quang Khai. לוודא אם המחיר לדרגש או לתא.",
         "sources": [
-          "https://looptrails.com/guide/ha-giang-bus-schedule-2026/",
-          "https://vexere.com/en-US/sleeper-bus-ticket-booking-from-hanoi-to-ha-giang-124t1221.html"
+          "https://www.momo.vn/ve-xe/xe-bang-phan",
+          "https://www.redbus.vn/en/bus-tickets/operators/bang-phan",
+          "https://www.vietnamcoracle.com/hanoi-to-ha-giang-sleeper-bus/"
         ],
-        "checked": "2026-10-07",
-        "confidence": "high"
-      },
-      {
-        "mode": "sleeper_bus",
-        "operator": "Cabin sleeper buses (Inter Bus Lines, Ha Giang Express and others)",
-        "opLang": "en",
-        "board": {
-          "name": "Pickup at your Old Quarter hotel",
-          "address": "Hanoi Old Quarter hotels",
-          "pickupHotel": true,
-          "lat": null,
-          "lng": null,
-          "lang": "en"
-        },
-        "alight": null,
-        "departures": "Evening departures, typically 20:00-22:00",
-        "departuresHe": "יציאות ערב, בדרך כלל 20:00-22:00",
-        "durationMin": 360,
-        "durationMax": 420,
-        "priceLow": 400000,
-        "priceHigh": 550000,
-        "currency": "VND",
-        "priceUnit": "per_person",
-        "bookLinks": [],
-        "pros": [
-          "A closed cabin with a curtain instead of an open bunk",
-          "Picked up at the hotel, no ride out to My Dinh"
-        ],
-        "prosHe": [
-          "תא סגור עם וילון במקום דרגש פתוח",
-          "איסוף מהמלון, בלי נסיעה למיי דין"
-        ],
-        "cons": [
-          "About double the open-bunk fare",
-          "Still a night on a mountain road"
-        ],
-        "consHe": [
-          "בערך כפול ממחיר הדרגש הפתוח",
-          "עדיין לילה על כביש הררי"
-        ],
-        "tips": "The price is for a shared cabin. Inter Bus Lines and Ha Giang Express are the names travellers recommend most often.",
-        "tipsHe": "המחיר הוא לתא משותף. Inter Bus Lines ו-Ha Giang Express הם השמות שמטיילים ממליצים עליהם הכי הרבה.",
-        "sources": [
-          "https://looptrails.com/guide/ha-giang-bus-schedule-2026/",
-          "https://www.tripadvisor.in/AttractionProductReview-g293924-d20353990-Ha_Giang_Hanoi_Express_Transfer_Sleeper_Bus_or_Limousine_Bus-Hanoi.html"
-        ],
-        "checked": "2026-10-07",
+        "checked": "2026-10-19",
         "confidence": "medium"
       },
       {
         "mode": "limousine_van",
         "operator": "Limousine vans (several operators)",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Pickup at your Old Quarter hotel",
           "address": "Hanoi Old Quarter hotels",
@@ -944,6 +924,7 @@ const TRANSFERS_DATA = [
         "mode": "private_car",
         "operator": "Private driver (transfer companies)",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Pickup at your hotel",
           "address": "Any hotel in Hanoi",
@@ -1003,6 +984,7 @@ const TRANSFERS_DATA = [
         "mode": "limousine_van",
         "operator": "Limousine shuttles (Hoang Phu, Ha Long Travel, Trung Thanh and others)",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Pickup at your Old Quarter hotel",
           "address": "Hanoi Old Quarter hotels",
@@ -1055,6 +1037,7 @@ const TRANSFERS_DATA = [
         "mode": "bus",
         "operator": "Public buses (Kumho Viet Thanh and others)",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Gia Lam Bus Station (Ben xe Gia Lam)",
           "address": "9 Ngo Gia Kham, Long Bien, Hanoi",
@@ -1109,6 +1092,7 @@ const TRANSFERS_DATA = [
         "mode": "private_car",
         "operator": "Private driver (transfer companies)",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Pickup at your hotel",
           "address": "Any hotel in Hanoi",
@@ -1153,6 +1137,7 @@ const TRANSFERS_DATA = [
         "mode": "combo",
         "operator": "Good Morning Cat Ba (bus to Got Pier + boat)",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Pickup at your Old Quarter hotel",
           "address": "Hanoi Old Quarter hotels",
@@ -1221,6 +1206,7 @@ const TRANSFERS_DATA = [
         "mode": "train",
         "operator": "Vietnam Railways (SE trains)",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Hanoi Railway Station (Ga Ha Noi)",
           "address": "120 Le Duan, Van Mieu - Quoc Tu Giam, Hanoi",
@@ -1280,6 +1266,7 @@ const TRANSFERS_DATA = [
         "mode": "limousine_van",
         "operator": "Limousine vans (Trang An Limousine, Binh Minh, X.E Vietnam)",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Pickup at your Old Quarter hotel",
           "address": "Hanoi Old Quarter hotels",
@@ -1330,6 +1317,7 @@ const TRANSFERS_DATA = [
         "mode": "private_car",
         "operator": "Private driver (transfer companies)",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Pickup at your hotel",
           "address": "Any hotel in Hanoi",
@@ -1383,6 +1371,7 @@ const TRANSFERS_DATA = [
         "mode": "flight",
         "operator": "Vietnam Airlines, Sun PhuQuoc Airways, Vietravel Airlines",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Noi Bai Airport, Terminal T1 (domestic)",
           "address": "Vo Nguyen Giap, Noi Bai, Hanoi",
@@ -1458,6 +1447,7 @@ const TRANSFERS_DATA = [
         "mode": "combo",
         "operator": "Vietnam Railways (SP15 / SP3 / SP7) + Lao Cai bus 01",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Hanoi Railway Station (Ga Ha Noi)",
           "address": "120 Le Duan, Van Mieu - Quoc Tu Giam, Hanoi",
@@ -1520,6 +1510,7 @@ const TRANSFERS_DATA = [
         "mode": "sleeper_train",
         "operator": "Fanxipan Express (private carriage on the night train)",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Hanoi Railway Station, A side (Ga Ha Noi)",
           "address": "120 Le Duan, Van Mieu - Quoc Tu Giam, Hanoi",
@@ -1577,6 +1568,7 @@ const TRANSFERS_DATA = [
         "mode": "limousine_van",
         "operator": "Sapa Express",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Sapa Express office",
           "address": "204 Tran Quang Khai, Hoan Kiem, Hanoi",
@@ -1629,8 +1621,65 @@ const TRANSFERS_DATA = [
       },
       {
         "mode": "sleeper_bus",
-        "operator": "Sapa Express (VIP cabin bus)",
+        "operator": "Double-cabin buses (Inter Bus Lines, Kadham)",
         "opLang": "en",
+        "cabin": "double",
+        "board": {
+          "name": "Pickup at your Old Quarter hotel",
+          "address": "Hanoi Old Quarter hotels",
+          "pickupHotel": true,
+          "lat": null,
+          "lng": null,
+          "lang": "en"
+        },
+        "alight": null,
+        "departures": "Kadham 07:00 and 22:00 straight to Sapa; Inter Bus Lines evening departures",
+        "departuresHe": "Kadham ב-07:00 וב-22:00 ישר לסאפה; Inter Bus Lines יציאות בערב",
+        "durationMin": 330,
+        "durationMax": 360,
+        "priceLow": 680000,
+        "priceHigh": 720000,
+        "currency": "VND",
+        "priceUnit": "per_cabin",
+        "bookLinks": [
+          {
+            "name": "12Go",
+            "url": "https://12go.asia/en/travel/hanoi/sapa"
+          },
+          {
+            "name": "Vexere",
+            "url": "https://vexere.com/"
+          }
+        ],
+        "pros": [
+          "Closed two-person cabins with curtains and AC",
+          "Kadham runs straight into Sapa, no change in Lao Cai"
+        ],
+        "prosHe": [
+          "תאים סגורים לשניים עם וילון ומזגן",
+          "Kadham נוסע ישר לסאפה, בלי החלפה בלאו קאי"
+        ],
+        "cons": [
+          "The night bus reaches Sapa around 04:00-05:00"
+        ],
+        "consHe": [
+          "אוטובוס הלילה מגיע לסאפה בערך ב-04:00-05:00"
+        ],
+        "tips": "Ask for a double cabin (cabin đôi / phòng đôi) by name when booking: on most buses the double cabins are only on the lower deck and sell out first. Fares are per two-person cabin (about 680,000-720,000 VND). Ask the hotel in Sapa about an early check-in.",
+        "tipsHe": "לבקש בשם תא זוגי (cabin đôi / phòng đôi) בהזמנה: ברוב האוטובוסים התאים הזוגיים רק בקומה התחתונה ונגמרים ראשונים. המחיר לתא של שניים (בערך 680,000-720,000 דונג). לשאול את המלון בסאפה על צ'ק-אין מוקדם.",
+        "sources": [
+          "https://mia.vn/cam-nang-du-lich/xe-cabin-doi-di-sapa-17436",
+          "https://tripatini.com/profiles/blogs/xe-kadham-bus-sapa-review-chi-ti-t",
+          "https://www.vietnamdecouverte.com/comment-se-rendre-de-hanoi-a-sapa"
+        ],
+        "checked": "2026-10-19",
+        "confidence": "medium"
+      },
+      {
+        "mode": "sleeper_bus",
+        "operator": "Sapa Express (VIP single-cabin bus)",
+        "opLang": "en",
+        "cabin": "single",
         "board": {
           "name": "Sapa Express office",
           "address": "204 Tran Quang Khai, Hoan Kiem, Hanoi",
@@ -1672,19 +1721,20 @@ const TRANSFERS_DATA = [
           "מגיע בסביבות ארבע לפני הבוקר, לפני הצ'ק-אין",
           "אוטובוס על כביש הררי; מי שישן קל ירגיש את זה"
         ],
-        "tips": "Standard open-bunk sleeper buses on the same road cost 270,000-370,000 VND. There is no hotel pickup on Friday-Sunday nights. Ask the hotel in Sapa about an early check-in or a place to wait.",
-        "tipsHe": "אוטובוסי שינה רגילים, עם דרגשים פתוחים, עולים באותו כביש 270,000-370,000 דונג. בלילות שישי עד ראשון אין איסוף מהמלון. כדאי לשאול את המלון בסאפה על צ'ק-אין מוקדם או על מקום לחכות בו.",
+        "tips": "Single private cabins with curtain and AC, no double cabins on this bus - for a two-person cabin take Inter Bus Lines or Kadham. Standard open-bunk sleeper buses on the same road cost 270,000-370,000 VND. There is no hotel pickup on Friday-Sunday nights. Ask the hotel in Sapa about an early check-in or a place to wait.",
+        "tipsHe": "תאים פרטיים ליחיד עם וילון ומזגן, בלי תאים זוגיים באוטובוס הזה - לתא לשניים לקחת את Inter Bus Lines או Kadham. אוטובוסי שינה רגילים, עם דרגשים פתוחים, עולים באותו כביש 270,000-370,000 דונג. בלילות שישי עד ראשון אין איסוף מהמלון. כדאי לשאול את המלון בסאפה על צ'ק-אין מוקדם או על מקום לחכות בו.",
         "sources": [
           "https://a21tours.com/ticket/sapa-express-bus",
           "https://www.vietnamtourism.com/en/hanoi-to-sapa-in-2026-trains-buses-costs-compared"
         ],
-        "checked": "2026-10-16",
+        "checked": "2026-10-19",
         "confidence": "medium"
       },
       {
         "mode": "private_car",
         "operator": "Private driver (via agent or transfer company)",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Pickup at your hotel",
           "address": "Any hotel in Hanoi",
@@ -1737,13 +1787,14 @@ const TRANSFERS_DATA = [
     "from": "hoi-an",
     "to": "buon-ma-thuot",
     "reverseOk": true,
-    "note": "From the coast up to the highlands. The flight is the practical way - 65 minutes against about 12 hours by bus. Only Vietnam Airlines flies Da Nang to Buon Ma Thuot, and not every day.",
-    "noteHe": "מהחוף אל הרמות. הטיסה היא הדרך המעשית - 65 דקות מול כ-12 שעות באוטובוס. רק Vietnam Airlines טסה מדה נאנג לבואון מה טואוט, ולא כל יום.",
+    "note": "From the coast up to the highlands. The flight is the practical way - 65 minutes against about 12 hours by bus. Only Vietnam Airlines flies Da Nang to Buon Ma Thuot, and not every day. No double-cabin sleeper bus could be confirmed on this route, so none is listed.",
+    "noteHe": "מהחוף אל הרמות. הטיסה היא הדרך המעשית - 65 דקות מול כ-12 שעות באוטובוס. רק Vietnam Airlines טסה מדה נאנג לבואון מה טואוט, ולא כל יום. לא נמצא בקו הזה אוטובוס לילה עם תא זוגי מאומת, ולכן הוא לא מופיע.",
     "options": [
       {
         "mode": "flight",
         "operator": "Vietnam Airlines (VN1911)",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Da Nang International Airport (DAD)",
           "address": "Phan Thanh, Thanh Khe, Da Nang",
@@ -1801,58 +1852,6 @@ const TRANSFERS_DATA = [
         ],
         "checked": "2026-10-16",
         "confidence": "high"
-      },
-      {
-        "mode": "sleeper_bus",
-        "operator": "Sleeper and cabin buses (Cao Nguyen Limousine, Hoang Phat and others)",
-        "opLang": "en",
-        "board": {
-          "name": "Da Nang Central Bus Station (Ben xe Trung tam Da Nang)",
-          "address": "Vu Trong Hoang, An Khe, Da Nang",
-          "pickupHotel": false,
-          "lat": 16.05501,
-          "lng": 108.1733575,
-          "lang": "en",
-          "nameVi": "Bến xe Trung tâm Đà Nẵng",
-          "addressVi": "Bến xe Trung tâm Đà Nẵng, Đà Nẵng"
-        },
-        "alight": null,
-        "departures": "Many buses from about 11:30 to 23:10",
-        "departuresHe": "הרבה אוטובוסים, מבערך 11:30 עד 23:10",
-        "durationMin": 660,
-        "durationMax": 720,
-        "priceLow": 450000,
-        "priceHigh": 500000,
-        "currency": "VND",
-        "priceUnit": "per_person",
-        "bookLinks": [
-          {
-            "name": "Vexere",
-            "url": "https://vexere.com/en-US/sleeper-bus-ticket-booking-from-da-nang-to-buon-ma-thuot-dak-lak-115t21431.html"
-          }
-        ],
-        "pros": [
-          "Runs every day, many departures"
-        ],
-        "prosHe": [
-          "פועל כל יום, הרבה יציאות"
-        ],
-        "cons": [
-          "About 12 hours on the road",
-          "Leaves from Da Nang, so first get there from Hoi An"
-        ],
-        "consHe": [
-          "בערך 12 שעות על הכביש",
-          "יוצא מדה נאנג, כך שקודם צריך להגיע אליה מהוי אן"
-        ],
-        "tips": "Worth it only on a day the flight does not run. A cabin bus is the comfortable choice for a night this long.",
-        "tipsHe": "שווה רק ביום שאין בו טיסה. לנסיעת לילה כל כך ארוכה, אוטובוס תאים הוא הבחירה הנוחה.",
-        "sources": [
-          "https://vexere.com/en-US/sleeper-bus-ticket-booking-from-da-nang-to-buon-ma-thuot-dak-lak-115t21431.html",
-          "https://vexere.com/en-US/bus-ticket-booking-from-da-nang-to-buon-ma-thuot-dak-lak-115t21431.html"
-        ],
-        "checked": "2026-10-07",
-        "confidence": "medium"
       }
     ]
   },
@@ -1867,6 +1866,7 @@ const TRANSFERS_DATA = [
         "mode": "flight",
         "operator": "Vietnam Airlines",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Da Nang International Airport (DAD)",
           "address": "Phan Thanh, Thanh Khe, Da Nang",
@@ -1934,6 +1934,7 @@ const TRANSFERS_DATA = [
         "mode": "flight",
         "operator": "Vietnam Airlines, Sun PhuQuoc Airways, Vietravel Airlines",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Da Nang International Airport (DAD)",
           "address": "Phan Thanh, Thanh Khe, Da Nang",
@@ -2009,6 +2010,7 @@ const TRANSFERS_DATA = [
         "mode": "flight",
         "operator": "Vietnam Airlines, Sun PhuQuoc Airways, Vietravel Airlines",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Da Nang International Airport (DAD)",
           "address": "Phan Thanh, Thanh Khe, Da Nang",
@@ -2082,6 +2084,7 @@ const TRANSFERS_DATA = [
         "mode": "flight",
         "operator": "Vietnam Airlines",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Phu Bai International Airport (HUI)",
           "address": "Le Trong Tan, Phu Bai, Hue",
@@ -2138,6 +2141,7 @@ const TRANSFERS_DATA = [
         "mode": "sleeper_train",
         "operator": "Vietnam Railways (SE4 / SE2 / SE20)",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Hue Railway Station",
           "address": "2 Bui Thi Xuan, Hue",
@@ -2212,6 +2216,7 @@ const TRANSFERS_DATA = [
         "mode": "limousine_van",
         "operator": "A21 Tours",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "A21 meeting point (or pickup in central Hue)",
           "address": "35 Ben Nghe, Hue",
@@ -2264,6 +2269,7 @@ const TRANSFERS_DATA = [
         "mode": "combo",
         "operator": "Vietnam Railways (Hue - Da Nang) + Grab to Hoi An",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Hue Railway Station",
           "address": "2 Bui Thi Xuan, Hue",
@@ -2322,6 +2328,7 @@ const TRANSFERS_DATA = [
         "mode": "private_car",
         "operator": "Private driver via the Hai Van Pass (A21 Tours and others)",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Pickup at your hotel",
           "address": "Any hotel in Hue",
@@ -2371,6 +2378,7 @@ const TRANSFERS_DATA = [
         "mode": "combo",
         "operator": "Easy rider (motorbike with a driver; Mr Vu Easy Rider and others)",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Pickup at your hotel",
           "address": "Any hotel in Hue",
@@ -2429,6 +2437,7 @@ const TRANSFERS_DATA = [
         "mode": "combo",
         "operator": "Easy rider (Easy Riders Vietnam and others)",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Pickup at your hotel or camp",
           "address": "Lien Son, Lak",
@@ -2477,6 +2486,7 @@ const TRANSFERS_DATA = [
         "mode": "private_car",
         "operator": "Private driver",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Pickup at your hotel or camp",
           "address": "Lien Son, Lak",
@@ -2525,6 +2535,7 @@ const TRANSFERS_DATA = [
         "mode": "bus",
         "operator": "Buon Ma Thuot - Da Lat buses (Phuc Hai and others) passing Lien Son",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "National Highway 27 in Lien Son (by arrangement)",
           "address": "Lak district square, Lien Son, Lak",
@@ -2591,6 +2602,7 @@ const TRANSFERS_DATA = [
         "mode": "flight",
         "operator": "Vietnam Airlines (VN8075)",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Can Tho International Airport (VCA)",
           "address": "Thoi An Dong, Binh Thuy, Can Tho",
@@ -2650,6 +2662,7 @@ const TRANSFERS_DATA = [
         "mode": "combo",
         "operator": "Bus to Ha Tien + Superdong speedboat",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Can Tho Central Bus Station",
           "address": "Tran Hoang Na, Cai Rang, Can Tho",
@@ -2714,13 +2727,14 @@ const TRANSFERS_DATA = [
     "from": "ninh-binh",
     "to": "phong-nha",
     "reverseOk": true,
-    "note": "About 7 hours overnight. Ninh Binh has no airport; the train stops at Dong Hoi, 45 km from Phong Nha. Flying means going back to Hanoi for a flight to Dong Hoi.",
-    "noteHe": "כשבע שעות בלילה. בנין בין אין שדה תעופה; הרכבת עוצרת בדונג הוי, 45 ק\"מ מפונג נה. טיסה פירושה לחזור להאנוי ולטוס משם לדונג הוי.",
+    "note": "About 7 hours overnight. Ninh Binh has no airport; the train stops at Dong Hoi, 45 km from Phong Nha. Flying means going back to Hanoi for a flight to Dong Hoi. The listed night bus has single private cabins; a double-cabin bus also runs, operator unconfirmed.",
+    "noteHe": "כשבע שעות בלילה. בנין בין אין שדה תעופה; הרכבת עוצרת בדונג הוי, 45 ק\"מ מפונג נה. טיסה פירושה לחזור להאנוי ולטוס משם לדונג הוי. לאוטובוס הלילה המוצג יש תאים פרטיים ליחיד; נוסע גם אוטובוס עם תאים זוגיים, שהמפעיל שלו לא אומת.",
     "options": [
       {
         "mode": "sleeper_bus",
-        "operator": "HK Buslines / B8 Open Bus (VIP cabin bus)",
+        "operator": "HK Buslines / B8 Open Bus (VIP single-cabin bus)",
         "opLang": "en",
+        "cabin": "single",
         "board": {
           "name": "Pickup at your hotel in Tam Coc or Ninh Binh city",
           "address": "Tam Coc centre and Ninh Binh city hotels",
@@ -2765,19 +2779,20 @@ const TRANSFERS_DATA = [
         "consHe": [
           "מגיע בשעות הקטנות של הלילה"
         ],
-        "tips": "$29 is an upper berth, $33 a lower one. Ask the hotel in Phong Nha about an early check-in.",
-        "tipsHe": "$29 זה מיטה עליונה, $33 תחתונה. כדאי לשאול את המלון בפונג נה על צ'ק-אין מוקדם.",
+        "tips": "Single private cabins with curtain and AC; this bus has no double cabins. A double-cabin bus (\"VIP 22 Double Cabin\") also runs the route, but its operator is shown only when booking on 12Go. $29 is an upper berth, $33 a lower one. Ask the hotel in Phong Nha about an early check-in.",
+        "tipsHe": "תאים פרטיים ליחיד עם וילון ומזגן; באוטובוס הזה אין תאים זוגיים. בקו נוסע גם אוטובוס עם תאים זוגיים (\"VIP 22 Double Cabin\"), אבל המפעיל שלו מוצג רק בהזמנה ב-12Go. $29 זה מיטה עליונה, $33 תחתונה. כדאי לשאול את המלון בפונג נה על צ'ק-אין מוקדם.",
         "sources": [
           "https://a21tours.com/ticket/ninh-binh-phong-nha-sleeping-bus",
           "https://vexere.com/en-US/sleeper-bus-ticket-booking-from-ninh-binh-to-phong-nha-quang-binh-142t21142611.html"
         ],
-        "checked": "2026-10-07",
+        "checked": "2026-10-19",
         "confidence": "high"
       },
       {
         "mode": "sleeper_train",
         "operator": "Lotus Train (private carriage on SE19)",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Ninh Binh Railway Station",
           "address": "1 Hoang Dieu, Ninh Binh",
@@ -2839,6 +2854,7 @@ const TRANSFERS_DATA = [
         "mode": "sleeper_train",
         "operator": "Vietnam Railways (SE3 / SE19 / SE1)",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Ninh Binh Railway Station",
           "address": "1 Hoang Dieu, Ninh Binh",
@@ -2898,6 +2914,7 @@ const TRANSFERS_DATA = [
         "mode": "private_car",
         "operator": "Private driver (transfer companies)",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Pickup at your hotel",
           "address": "Any hotel in Ninh Binh or Tam Coc",
@@ -2955,6 +2972,7 @@ const TRANSFERS_DATA = [
         "mode": "flight",
         "operator": "Vietnam Airlines, Sun PhuQuoc Airways",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Dong Hoi Airport (VDH)",
           "address": "National Route 1, Dong Hoi",
@@ -3018,6 +3036,7 @@ const TRANSFERS_DATA = [
         "mode": "sleeper_train",
         "operator": "Vietnam Railways (SE2 / SE4)",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Dong Hoi Railway Station",
           "address": "Thuan Ly, Dong Hoi",
@@ -3085,13 +3104,14 @@ const TRANSFERS_DATA = [
     "from": "phong-nha",
     "to": "hoi-an",
     "reverseOk": true,
-    "note": "About 340-380 km, skipping Hue. No flight on this pair; the nearest airports are Dong Hoi and Da Nang. The private car turns the day into sightseeing along the DMZ and over the Hai Van Pass.",
-    "noteHe": "כ-340-380 ק\"מ, בדילוג על הואה. אין טיסה בזוג הזה; שדות התעופה הקרובים הם דונג הוי ודה נאנג. הרכב הפרטי הופך את היום לסיור לאורך האזור המפורז ומעל מעבר האי ואן.",
+    "note": "About 340-380 km, skipping Hue. No flight on this pair; the nearest airports are Dong Hoi and Da Nang. The private car turns the day into sightseeing along the DMZ and over the Hai Van Pass. The listed bus has single private cabins (curtain, AC); no double cabins on this route.",
+    "noteHe": "כ-340-380 ק\"מ, בדילוג על הואה. אין טיסה בזוג הזה; שדות התעופה הקרובים הם דונג הוי ודה נאנג. הרכב הפרטי הופך את היום לסיור לאורך האזור המפורז ומעל מעבר האי ואן. לאוטובוס המוצג יש תאים פרטיים ליחיד (וילון, מזגן); אין תאים זוגיים בקו הזה.",
     "options": [
       {
         "mode": "private_car",
         "operator": "Private driver (Culture Pham Travel and others)",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Pickup at your hotel",
           "address": "Any hotel in Phong Nha",
@@ -3141,60 +3161,58 @@ const TRANSFERS_DATA = [
       },
       {
         "mode": "sleeper_bus",
-        "operator": "Hung Thanh",
-        "opLang": "vi",
+        "operator": "Hoang Minh Limousine (Cabin 24)",
+        "opLang": "en",
+        "cabin": "single",
         "board": {
-          "name": "Hung Thanh bus office, Phong Nha town centre",
-          "address": "Phong Nha town centre, Quang Binh",
+          "name": "Phong Nha town centre (pickup point shown on the ticket)",
+          "address": "Phong Nha town centre",
           "pickupHotel": false,
           "lat": 17.6113791,
           "lng": 106.3069337,
           "lang": "en",
-          "nameVi": "Văn phòng nhà xe Hưng Thành",
+          "nameVi": "Trung tâm Phong Nha",
           "addressVi": "Trung tâm Phong Nha, Quảng Trị"
         },
-        "alight": {
-          "name": "Hoi An drop-off",
-          "address": "105 Ton Duc Thang, Hoi An",
-          "pickupHotel": false,
-          "lat": 15.8928214,
-          "lng": 108.3199058,
-          "lang": "en"
-        },
-        "departures": "04:00, 09:00",
-        "departuresHe": "04:00, 09:00",
+        "alight": null,
+        "departures": "Several departures a day; times on 12Go",
+        "departuresHe": "כמה יציאות ביום; השעות ב-12Go",
         "durationMin": 420,
-        "durationMax": 480,
-        "priceLow": 16,
-        "priceHigh": 16,
+        "durationMax": 600,
+        "priceLow": 12,
+        "priceHigh": 14,
         "currency": "USD",
         "priceUnit": "per_person",
         "bookLinks": [
           {
-            "name": "Full Moon Travel",
-            "url": "https://fullmoontravelasia.com/bus-phong-nha-to-hoi-an-400/"
+            "name": "12Go",
+            "url": "https://12go.asia/en/travel/phong-nha/hoi-an"
           }
         ],
         "pros": [
-          "Straight through to Hoi An for a fraction of the car"
+          "Private single cabins with curtain and AC",
+          "Straight through, no change in Hue"
         ],
         "prosHe": [
-          "ישר עד הוי אן בשבריר ממחיר הרכב"
+          "תאים פרטיים ליחיד עם וילון ומזגן",
+          "ישיר, בלי החלפה בהואה"
         ],
         "cons": [
-          "7-8 hours on a bus, no stops to see anything"
+          "No double cabins on this route",
+          "Riders report 7-10 hours against the 5-7 advertised"
         ],
         "consHe": [
-          "7-8 שעות באוטובוס, בלי עצירות לראות משהו"
+          "אין תאים זוגיים בקו הזה",
+          "נוסעים מדווחים על 7-10 שעות מול 5-7 המפורסמות"
         ],
-        "tips": "Check in at the office 20 minutes early.",
-        "tipsHe": "להגיע למשרד 20 דקות מוקדם.",
+        "tips": "Single private cabins with curtain and AC; no double cabins on this bus. The price on 12Go is about $13.5.",
+        "tipsHe": "תאים פרטיים ליחיד עם וילון ומזגן; אין תאים זוגיים באוטובוס הזה. המחיר ב-12Go בערך $13.5.",
         "sources": [
-          "https://fullmoontravelasia.com/bus-phong-nha-to-hoi-an-400/",
-          "https://vexere.com/en-US/sleeper-bus-ticket-booking-from-phong-nha-quang-binh-to-hoi-an-quang-nam-2114261t25221.html"
+          "https://12go.asia/en/travel/phong-nha/hoi-an?z=16187692",
+          "https://goasia.cc/en/vietnam/phong-nha-to-hoi-an"
         ],
-        "checked": "2026-10-07",
-        "confidence": "high"
+        "checked": "2026-10-19",
+        "confidence": "medium"
       }
     ]
   },
@@ -3202,72 +3220,69 @@ const TRANSFERS_DATA = [
     "from": "phong-nha",
     "to": "hue",
     "reverseOk": true,
-    "note": "About 210 km, 4 hours. No flight - the two are too close. The train runs from Dong Hoi, 45 km from Phong Nha, so the bus or a car is simpler.",
-    "noteHe": "כ-210 ק\"מ, ארבע שעות. אין טיסה - המקומות קרובים מדי. הרכבת יוצאת מדונג הוי, 45 ק\"מ מפונג נה, ולכן אוטובוס או רכב פשוטים יותר.",
+    "note": "About 210 km, 4 hours. No flight - the two are too close. The train runs from Dong Hoi, 45 km from Phong Nha, so a car is simpler. The listed bus has single private cabins (curtain, AC); no double cabins on this route.",
+    "noteHe": "כ-210 ק\"מ, ארבע שעות. אין טיסה - המקומות קרובים מדי. הרכבת יוצאת מדונג הוי, 45 ק\"מ מפונג נה, ולכן רכב פשוט יותר. לאוטובוס המוצג יש תאים פרטיים ליחיד (וילון, מזגן); אין תאים זוגיים בקו הזה.",
     "options": [
       {
         "mode": "sleeper_bus",
-        "operator": "Hung Thanh",
-        "opLang": "vi",
+        "operator": "Hoang Minh Limousine (Cabin 24) and HK Buslines (single cabins)",
+        "opLang": "en",
+        "cabin": "single",
         "board": {
-          "name": "Hung Thanh bus office, Phong Nha town centre",
-          "address": "Phong Nha town centre, Quang Binh",
+          "name": "Phong Nha town centre (pickup point shown on the ticket)",
+          "address": "Phong Nha town centre",
           "pickupHotel": false,
           "lat": 17.6113791,
           "lng": 106.3069337,
           "lang": "en",
-          "nameVi": "Văn phòng nhà xe Hưng Thành",
+          "nameVi": "Trung tâm Phong Nha",
           "addressVi": "Trung tâm Phong Nha, Quảng Trị"
         },
-        "alight": {
-          "name": "Hue city centre drop-off",
-          "address": "7 Doi Cung, Hue",
-          "pickupHotel": false,
-          "lat": 16.468691,
-          "lng": 107.5937098,
-          "lang": "en"
-        },
-        "departures": "04:00, 09:00, 19:00",
-        "departuresHe": "04:00, 09:00, 19:00",
+        "alight": null,
+        "departures": "Hoang Minh 08:30 and 10:30; HK Buslines about 01:00, 01:30 and 04:30. Hue to Phong Nha: Hoang Minh 00:00, 12:00, 13:00; HK 09:00, 10:00",
+        "departuresHe": "Hoang Minh ב-08:30 וב-10:30; HK Buslines בערך 01:00, 01:30 ו-04:30. מהואה לפונג נה: Hoang Minh ב-00:00, 12:00, 13:00; HK ב-09:00, 10:00",
         "durationMin": 240,
         "durationMax": 300,
-        "priceLow": 14,
-        "priceHigh": 16,
+        "priceLow": 8,
+        "priceHigh": 11,
         "currency": "USD",
         "priceUnit": "per_person",
         "bookLinks": [
           {
-            "name": "Full Moon Travel",
-            "url": "https://fullmoontravelasia.com/phong-nha-to-hue-bus-ticket/"
+            "name": "12Go",
+            "url": "https://12go.asia/en/travel/phong-nha/hue"
           }
         ],
         "pros": [
-          "Three departures a day, straight into central Hue",
-          "Cheap"
+          "Private single cabins with curtain and AC",
+          "Morning departures arrive in Hue by lunchtime"
         ],
         "prosHe": [
-          "שלוש יציאות ביום, ישר למרכז הואה",
-          "זול"
+          "תאים פרטיים ליחיד עם וילון ומזגן",
+          "יציאות הבוקר מגיעות להואה עד הצהריים"
         ],
         "cons": [
-          "The 04:00 bus means a very early start"
+          "No double cabins on this route",
+          "Night departures arrive in the small hours"
         ],
         "consHe": [
-          "האוטובוס של 04:00 פירושו השכמה מוקדמת מאוד"
+          "אין תאים זוגיים בקו הזה",
+          "יציאות הלילה מגיעות לפנות בוקר"
         ],
-        "tips": "Be at the office 20 minutes before departure. The 09:00 bus arrives in Hue around lunchtime.",
-        "tipsHe": "להגיע למשרד 20 דקות לפני היציאה. האוטובוס של 09:00 מגיע להואה בסביבות הצהריים.",
+        "tips": "Single private cabins with curtain and AC; no double cabins on this bus. Fares on 12Go in 2026: Hoang Minh about $10.6-10.7, HK about $8.2-11.",
+        "tipsHe": "תאים פרטיים ליחיד עם וילון ומזגן; אין תאים זוגיים באוטובוס הזה. המחירים ב-12Go ב-2026: Hoang Minh בערך $10.6-10.7, HK בערך $8.2-11.",
         "sources": [
-          "https://fullmoontravelasia.com/phong-nha-to-hue-bus-ticket/",
-          "https://www.redbus.vn/en/bus-tickets/routes/phong-nha-to-hue"
+          "https://12go.asia/en/travel/phong-nha/hue?z=16187692",
+          "https://www.baolau.com/s/Phong-Nha/Hue"
         ],
-        "checked": "2026-10-07",
-        "confidence": "high"
+        "checked": "2026-10-19",
+        "confidence": "medium"
       },
       {
         "mode": "combo",
         "operator": "Bus B4 or taxi to Dong Hoi + Vietnam Railways",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Dong Hoi Railway Station",
           "address": "Thuan Ly, Dong Hoi",
@@ -3325,6 +3340,7 @@ const TRANSFERS_DATA = [
         "mode": "private_car",
         "operator": "Private driver (Phong Nha Locals and others)",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Pickup at your hotel",
           "address": "Any hotel in Phong Nha",
@@ -3384,6 +3400,7 @@ const TRANSFERS_DATA = [
         "mode": "flight",
         "operator": "Sun PhuQuoc Airways, Vietnam Airlines",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Phu Quoc International Airport (PQC)",
           "address": "Duong To, Phu Quoc",
@@ -3456,6 +3473,7 @@ const TRANSFERS_DATA = [
         "mode": "flight",
         "operator": "Sun PhuQuoc Airways",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Phu Quoc International Airport (PQC)",
           "address": "Duong To, Phu Quoc",
@@ -3521,6 +3539,7 @@ const TRANSFERS_DATA = [
         "mode": "bus",
         "operator": "Futa (Phuong Trang) and others",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Mien Tay Bus Station",
           "address": "Kinh Duong Vuong, An Lac, Ho Chi Minh City",
@@ -3579,6 +3598,7 @@ const TRANSFERS_DATA = [
         "mode": "private_car",
         "operator": "Private taxi or driver",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Pickup at your hotel",
           "address": "Any hotel in Ho Chi Minh City",
@@ -3630,6 +3650,7 @@ const TRANSFERS_DATA = [
         "mode": "flight",
         "operator": "Vietnam Airlines, Sun PhuQuoc Airways, Vietravel Airlines",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Tan Son Nhat Airport, Terminal T3 (domestic)",
           "address": "Tan Son Nhat, Ho Chi Minh City",
@@ -3698,6 +3719,7 @@ const TRANSFERS_DATA = [
         "mode": "combo",
         "operator": "Bus to Rach Gia + Superdong speedboat (Phuong Trang, Kumho Samco combo tickets)",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Mien Tay Bus Station",
           "address": "Kinh Duong Vuong, An Lac, Ho Chi Minh City",
@@ -3764,6 +3786,7 @@ const TRANSFERS_DATA = [
         "mode": "limousine_van",
         "operator": "A21 Tours (through van via Hanoi)",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Sapa Stone Church (Our Lady of the Rosary)",
           "address": "Ham Rong, Sapa",
@@ -3816,6 +3839,7 @@ const TRANSFERS_DATA = [
         "mode": "private_car",
         "operator": "Private driver (transfer companies)",
         "opLang": "en",
+        "cabin": null,
         "board": {
           "name": "Pickup at your hotel",
           "address": "Any hotel in Sapa",

@@ -1,13 +1,12 @@
 from: ninh-binh
 to: phong-nha
 reverse_ok: true
-note: About 7 hours overnight. Ninh Binh has no airport; the train stops at Dong Hoi, 45 km from Phong
-  Nha. Flying means going back to Hanoi for a flight to Dong Hoi.
-note_he: כשבע שעות בלילה. בנין בין אין שדה תעופה; הרכבת עוצרת בדונג הוי, 45 ק"מ מפונג נה. טיסה
-  פירושה לחזור להאנוי ולטוס משם לדונג הוי.
+note: "About 7 hours overnight. Ninh Binh has no airport; the train stops at Dong Hoi, 45 km from Phong Nha. Flying means going back to Hanoi for a flight to Dong Hoi. The listed night bus has single private cabins; a double-cabin bus also runs, operator unconfirmed."
+note_he: "כשבע שעות בלילה. בנין בין אין שדה תעופה; הרכבת עוצרת בדונג הוי, 45 ק\"מ מפונג נה. טיסה פירושה לחזור להאנוי ולטוס משם לדונג הוי. לאוטובוס הלילה המוצג יש תאים פרטיים ליחיד; נוסע גם אוטובוס עם תאים זוגיים, שהמפעיל שלו לא אומת."
 options:
 - mode: sleeper_bus
-  operator: HK Buslines / B8 Open Bus (VIP cabin bus)
+  operator: HK Buslines / B8 Open Bus (VIP single-cabin bus)
+  cabin: single
   board:
     name: Pickup at your hotel in Tam Coc or Ninh Binh city
     address: Tam Coc centre and Ninh Binh city hotels
@@ -18,7 +17,7 @@ options:
     lat: 17.6113791
     lng: 106.3069337
   departures: 19:00, 19:30, 20:30, 21:00, 21:30, 23:00 (pickup about an hour earlier)
-  departures_he: "19:00, 19:30, 20:30, 21:00, 21:30, 23:00 (איסוף כשעה קודם)"
+  departures_he: 19:00, 19:30, 20:30, 21:00, 21:30, 23:00 (איסוף כשעה קודם)
   duration_min: 390
   duration_max: 420
   price_low: 29
@@ -38,13 +37,62 @@ options:
   - אוטובוס תאים חדש עם וילונות ומיטות שנפתחות עד הסוף
   cons_he:
   - מגיע בשעות הקטנות של הלילה
-  tips: $29 is an upper berth, $33 a lower one. Ask the hotel in Phong Nha about an early check-in.
-  tips_he: $29 זה מיטה עליונה, $33 תחתונה. כדאי לשאול את המלון בפונג נה על צ'ק-אין מוקדם.
+  tips: Single private cabins with curtain and AC; this bus has no double cabins. A double-cabin bus ("VIP 22 Double
+    Cabin") also runs the route, but its operator is shown only when booking on 12Go. $29 is an upper berth, $33
+    a lower one. Ask the hotel in Phong Nha about an early check-in.
+  tips_he: תאים פרטיים ליחיד עם וילון ומזגן; באוטובוס הזה אין תאים זוגיים. בקו נוסע גם אוטובוס עם תאים זוגיים ("VIP
+    22 Double Cabin"), אבל המפעיל שלו מוצג רק בהזמנה ב-12Go. $29 זה מיטה עליונה, $33 תחתונה. כדאי לשאול את המלון
+    בפונג נה על צ'ק-אין מוקדם.
   sources:
   - https://a21tours.com/ticket/ninh-binh-phong-nha-sleeping-bus
   - https://vexere.com/en-US/sleeper-bus-ticket-booking-from-ninh-binh-to-phong-nha-quang-binh-142t21142611.html
-  checked: '2026-10-07'
+  checked: '2026-10-19'
   confidence: high
+- mode: sleeper_bus
+  operator: VIP 22 double-cabin sleeper (book through 12Go, filter "double cabin")
+  cabin: double
+  board:
+    name: Pickup at your hotel in Tam Coc or Ninh Binh city
+    address: Tam Coc centre and Ninh Binh city hotels
+    pickup_hotel: true
+  alight:
+    name: Phong Nha centre bus stop
+    address: Phong Nha town centre
+    lat: 17.6113791
+    lng: 106.3069337
+  departures: Double-cabin departure about 20:30 (Ninh Binh to Phong Nha) and about 21:30 the other way
+  departures_he: יציאת תא זוגי בסביבות 20:30 (מנין בין לפונג נה) ובסביבות 21:30 בכיוון ההפוך
+  duration_min: 390
+  duration_max: 450
+  price_low: 13
+  price_high: 21
+  currency: USD
+  price_unit: per_person
+  book_links:
+  - name: 12Go
+    url: https://12go.asia/en/travel/ninh-binh/phong-nha
+  - name: Bookaway
+    url: https://www.bookaway.com/vi/bus/ninh-binh/phong-nha-ke-bang-national-park
+  pros:
+  - Double cabin with curtain and AC overnight
+  - Hotel pickup in Tam Coc
+  cons:
+  - Operator name not shown until booking; single-cabin buses run the same route
+  pros_he:
+  - תא זוגי עם וילון ומזגן לילה שלם
+  - איסוף מהמלון בטאם קוק
+  cons_he:
+  - שם המפעיל לא מוצג עד ההזמנה; באותו קו נוסעים גם אוטובוסים עם תאים ליחיד
+  tips: 'Check the seat map says "double cabin" before paying: HK Buslines and Tan Quang Dung on this route sell
+    single cabins. Otherwise take the night train to Dong Hoi, which has 4-berth soft-sleeper compartments.'
+  tips_he: 'לוודא במפת המושבים שכתוב "double cabin" לפני התשלום: HK Buslines ו-Tan Quang Dung בקו הזה מוכרים תאים
+    ליחיד. אחרת לקחת את רכבת הלילה לדונג הוי, שיש בה תאי שינה רכים של 4 דרגשים.'
+  sources:
+  - https://goasia.cc/en/vietnam/ninh-binh-to-phong-nha
+  - https://goasia.cc/en/vietnam/phong-nha-to-ninh-binh
+  - https://12go.asia/en/travel/ninh-binh/phong-nha?z=16187692
+  checked: '2026-10-19'
+  confidence: low
 - mode: sleeper_train
   operator: Lotus Train (private carriage on SE19)
   board:
