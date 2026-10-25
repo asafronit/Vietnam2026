@@ -362,3 +362,11 @@ def test_messenger_must_be_an_m_me_link():
     assert validate_record(hotel(messenger="https://m.me/Peridotgrandhotel")) == []
     assert any("messenger" in e for e in validate_record(hotel(messenger="https://facebook.com/x")))
     assert any("messenger" in e for e in validate_record(hotel(messenger="m.me/x")))
+
+
+def test_a_cruise_package_sits_outside_the_hotel_price_cap():
+    # 25/10: a 2-day/1-night cruise price is per person and includes meals,
+    # activities and bay fees - not a hotel night, so the nightly cap does not apply.
+    assert validate_record(hotel(is_cruise=True, price_low=313.0, price_high=350.0,
+                                 price_unit="per_person")) == []
+    assert any("cap" in e for e in validate_record(hotel(price_low=313.0, price_high=350.0)))

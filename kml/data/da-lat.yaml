@@ -393,6 +393,7 @@ attractions:
   price_unit: per_person
   price_low: 50.0
   price_high: 80.0
+  phone: '+84988055345'
 markets:
 - name: Da Lat Market (Cho Da Lat)
   area: City center, beside Xuan Huong Lake

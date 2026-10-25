@@ -2,9 +2,9 @@ hotels:
 - name: Aqua Luxury Cruise
   tier: 5
   tier_official: false
-  price_low: 170
-  price_high: 400
-  price_checked: '2026-08-16'
+  price_low: 250.0
+  price_high: 320.0
+  price_checked: '2026-10-25'
   area: Ha Long Bay / Lan Ha Bay overnight cruise, departing Tuan Chau
   what: A newly launched (November 2025) 5-deck cruise ship with 32 cabins, balconies,
     sea views and an elevator, sailing an overnight route through the bay's limestone
@@ -18,6 +18,7 @@ hotels:
   - https://www.halongbaycruises.com.vn/tours/aqua-luxury-cruise.html
   - https://www.booking.com/hotel/vn/aqua-luxury-cruise.html
   - https://www.tripadvisor.com/Attraction_Review-g14776299-d33264304-Reviews-Aqua_Luxury_Cruise-Ha_Long_City_H_Long_Bay_Quang_Ninh_Province.html
+  - https://www.expedia.com/Ha-Long-Hotels-Aqua-Luxury-Cruise.h123122112.Hotel-Information
   name_he: אקווה לוקסרי קרוז
   area_he: שייט לילה במפרץ הא לונג ולאן הא, יוצא מטואן צ'או
   what_he: ספינת שייט בת חמישה סיפונים שהושקה בנובמבר 2025, עם 32 תאים, מרפסות, נוף
@@ -26,9 +27,10 @@ hotels:
     מבין ההצעות שהושוו: קיאקים, סדנת בישול בשקיעה ועצירה במערת טרונג טראנג'
   addr_vi: Cảng Tuần Châu, Hạ Long, Quảng Ninh
   loc_note: 'You sleep on the boat in the bay: board at Tuan Chau harbour (about 2.5
-    hours from Hanoi), so the location is the karst scenery itself.'
+    hours from Hanoi), so the location is the karst scenery itself. Price shown is
+    per person for the 2-day / 1-night package.'
   loc_note_he: 'ישנים על הסירה בתוך המפרץ: העלייה בנמל טואן צ''או (כ-2.5 שעות מהאנוי),
-    כך שהמיקום הוא נוף הצוקים עצמו.'
+    כך שהמיקום הוא נוף הצוקים עצמו. המחיר המוצג הוא לאדם, לחבילת יומיים-לילה אחד.'
   pros:
   - Newest ship in the bay (2025), balcony cabins, elevator
   - 'Full itinerary: kayaking, cave, cooking class'
@@ -44,12 +46,16 @@ hotels:
   - האפשרות היקרה ביותר
   - לוח זמנים קבוע; מבוטל בסערה
   is_cruise: true
+  price_unit: per_person
+  phone: '+84973385888'
+  email: dos@aquaoftheseas.com
+  website: https://aqualuxurycruise.com/
 - name: Dora Cruise
   tier: 5
   tier_official: false
-  price_low: 157
-  price_high: 265
-  price_checked: '2026-08-16'
+  price_low: 150.0
+  price_high: 210.0
+  price_checked: '2026-10-25'
   area: Ha Long / Lan Ha Bay overnight cruise
   what: An overnight cruise ship marketed under the product name "Dora Cruise Luxury
     5 Star", with spacious cabins, sea-view balconies and a set multi-course dinner
@@ -61,6 +67,7 @@ hotels:
   sources:
   - https://www.tripadvisor.com/AttractionProductReview-g3737857-d19915585-Dora_Cruise_Luxury_5_Star_in_Halong_Lan_Ha_Bay_2_Days_1_Night-Tuan_Chau_Island_H_.html
   - https://www.torntackies.com/dora-cruise-review/
+  - https://www.halongbaytours.com/cruise/dora-cruise/2-day-1-night.html
   name_he: דורה קרוז
   area_he: שייט לילה במפרץ הא לונג ולאן הא
   what_he: ספינת שייט לילה שמשווקת תחת השם Dora Cruise Luxury 5 Star, עם תאים מרווחים,
@@ -69,8 +76,9 @@ hotels:
     יותר באותה משפחת מפעילים
   addr_vi: Cảng Tuần Châu, Hạ Long, Quảng Ninh
   loc_note: Overnight on the bay from Tuan Chau harbour - you wake up among the karsts,
-    no town nearby.
+    no town nearby. Price shown is per person for the 2-day / 1-night package.
   loc_note_he: לילה על המפרץ מנמל טואן צ'או - מתעוררים בין הצוקים, בלי עיר בסביבה.
+    המחיר המוצג הוא לאדם, לחבילת יומיים-לילה אחד.
   pros:
   - Spacious balcony cabins
   - Multi-course set dinner
@@ -89,12 +97,13 @@ hotels:
   phone: '+842439291555'
   whatsapp: '+84905489888'
   messenger: https://m.me/100090607041878
+  price_unit: per_person
 - name: Mon Cheri Cruise
   tier: 4
   tier_official: false
-  price_low: 175
-  price_high: 230
-  price_checked: '2026-08-16'
+  price_low: 313.0
+  price_high: 350.0
+  price_checked: '2026-10-25'
   area: Lan Ha Bay overnight cruise
   what: A 42-cabin cruise line with two ships, every cabin with a private balcony,
     sailing Lan Ha and Ha Long Bay with kayaking, night squid fishing and an outdoor
@@ -106,6 +115,7 @@ hotels:
   sources:
   - https://www.halongbaycruises.com.vn/tours/mon-cheri-cruise-2-days-1-nights.html
   - https://www.bestpricetravel.com/halong-bay-cruises/mon-cheri-cruise.html
+  - https://monchericruises.com/mon-cheri-cruises-2-days-1-night.html
   name_he: מון שרי קרוז
   area_he: שייט לילה במפרץ לאן הא
   what_he: קו שייט של 42 תאים בשתי ספינות, כל תא עם מרפסת פרטית, שמפליג בלאן הא ובהא
@@ -113,31 +123,38 @@ hotels:
   why_he: מקבל ביקורות טובות באופן עקבי במסלולי לאן הא, ומתומחר מתחת לשתי אפשרויות
     5 הכוכבים ברמת תא דומה
   addr_vi: Bến Gót, Cát Hải, Hải Phòng
-  loc_note: Sails Lan Ha Bay from Got pier near Cat Ba - quieter waters than central
-    Ha Long, but a longer transfer from Hanoi.
-  loc_note_he: שט במפרץ לאן הא מרציף גוט ליד קאט בא - מים שקטים יותר ממרכז הא לונג,
-    אבל העברה ארוכה יותר מהאנוי.
+  loc_note: Boards at Tuan Chau International Terminal (pier 34, about 2.5 hours from
+    Hanoi) and spends the night in Lan Ha Bay, with fewer boats than central Ha Long.
+    Price shown is per person for the 2-day / 1-night package.
+  loc_note_he: עולים בנמל טואן צ'או (רציף 34, כ-2.5 שעות מהאנוי) והלילה עובר במפרץ
+    לאן הא, עם פחות סירות ממרכז הא לונג. המחיר המוצג הוא לאדם, לחבילת יומיים-לילה
+    אחד.
   pros:
   - Every cabin has a balcony
   - Lan Ha Bay - fewer boats
-  - Kayaking, squid fishing, jacuzzi
+  - Kayaking, squid fishing, jacuzzi; entrance fees and 4 meals included
   pros_he:
   - לכל תא יש מרפסת
   - מפרץ לאן הא - פחות סירות
-  - קיאקים, דיג דיונונים, ג'קוזי
+  - קיאקים, דיג דיונונים, ג'קוזי; דמי כניסה ו-4 ארוחות כלולים
   cons:
-  - Longer transfer to Got pier
-  - 4-star standard
+  - Higher price than the other 4-star boat
+  - Hanoi transfer costs extra
   cons_he:
-  - העברה ארוכה יותר לרציף גוט
-  - סטנדרט 4 כוכבים
+  - יקרה מספינת ה-4 כוכבים השנייה
+  - ההסעה מהאנוי בתוספת תשלום
   is_cruise: true
+  price_unit: per_person
+  phone: '+84981678914'
+  whatsapp: '+84981678941'
+  email: info@monchericruises.com
+  website: https://monchericruises.com/reservation.html
 - name: La Pandora Cruise
   tier: 4
   tier_official: true
-  price_low: 116
-  price_high: 200
-  price_checked: '2026-08-16'
+  price_low: 145.0
+  price_high: 175.0
+  price_checked: '2026-10-25'
   area: Ha Long Bay overnight cruise
   what: A 52-metre cruise ship with balcony cabins sailing a standard Ha Long Bay
     overnight route with cave and viewpoint stops.
@@ -148,6 +165,7 @@ hotels:
   sources:
   - https://www.tripadvisor.com/Attraction_Review-g293923-d24105240-Reviews-La_Pandora_cruise-H_Long_Bay_Quang_Ninh_Province.html
   - https://www.agoda.com/la-pandora-cruise/hotel/halong-vn.html
+  - https://www.halongbaytours.com/cruise/la-pandora-cruise/2-day-1-night.html
   name_he: לה פנדורה קרוז
   area_he: שייט לילה במפרץ הא לונג
   what_he: ספינה באורך 52 מטר עם תאי מרפסת, שמפליגה במסלול לילה סטנדרטי במפרץ הא לונג
@@ -156,8 +174,9 @@ hotels:
     המנופח שרווח במסלול הזה
   addr_vi: Cảng Tuần Châu, Hạ Long, Quảng Ninh
   loc_note: Standard Ha Long Bay overnight from Tuan Chau - the classic route with
-    cave and viewpoint stops.
+    cave and viewpoint stops. Price shown is per person for the 2-day / 1-night package.
   loc_note_he: לילה סטנדרטי בהא לונג מטואן צ'או - המסלול הקלאסי עם עצירות במערה ובתצפית.
+    המחיר המוצג הוא לאדם, לחבילת יומיים-לילה אחד.
   pros:
   - Dependable 4-star
   - Balcony cabins
@@ -178,6 +197,7 @@ hotels:
   whatsapp: '+84965426588'
   email: info@lapandoracruises.com
   messenger: https://m.me/lapandoracruises
+  price_unit: per_person
 - name: Hoang Giang Hotel
   tier: 3
   tier_official: true
@@ -318,6 +338,58 @@ hotels:
   - דרך ארוכה מהאנוי (אוטובוס וסירה)
   coords_manual: true
   phone: '+842253887360'
+- name: Capella Cruise
+  tier: 5
+  tier_official: false
+  is_cruise: true
+  price_unit: per_person
+  price_low: 245.0
+  price_high: 380.0
+  price_checked: '2026-10-25'
+  area: Ha Long Bay and Lan Ha Bay overnight cruise, departing Pier 20B, Tuan Chau
+    International Port
+  area_he: שייט לילה במפרץ הא לונג ובמפרץ לאן הא, יוצא מרציף 20B בנמל הבינלאומי טואן
+    צ'או
+  what: A 30-cabin boutique cruise launched in 2020, every cabin with a private balcony
+    and floor-to-ceiling windows; the overnight route crosses into quieter Lan Ha
+    Bay.
+  what_he: שייט בוטיק של 30 תאים שהושק ב-2020, לכל תא מרפסת פרטית וחלונות מהרצפה עד
+    התקרה; מסלול הלילה חוצה אל מפרץ לאן הא השקט יותר.
+  why: Covers both Ha Long and the less crowded Lan Ha Bay in one night, with a 4.4/5
+    traveller score - sent in by the traveller
+  why_he: מכסה בלילה אחד גם את הא לונג וגם את מפרץ לאן הא הפחות עמוס, עם ציון 4.4/5
+    מנוסעים - הומלץ על ידי המטייל
+  confidence: medium
+  geocode_query: Tuan Chau International Port, Ha Long, Vietnam
+  sources:
+  - https://www.capellacruise.com/
+  - https://www.klook.com/activity/27709-halong-bay-lan-ha-luxury-sightseeing-cruise-tour-hanoi/
+  - https://theabroadguide.com/capella-halong-bay-6-star-cruise2d1n-ultimate-lan-ha-bay-journey/
+  name_he: קפלה קרוז
+  addr_vi: Bến 20B, Cảng quốc tế Tuần Châu, Hạ Long, Quảng Ninh
+  phone: '+842473073886'
+  email: info@capellacruise.com
+  website: https://www.capellacruise.com/2-day-1-night-itinerary/
+  recommended_by: capellacruise.com
+  loc_note: 'You sleep on the boat: board at Tuan Chau (about 2.5 hours from Hanoi);
+    the night is spent among the karsts, moving into Lan Ha Bay. Price shown is per
+    person for the 2-day / 1-night package.'
+  loc_note_he: 'ישנים על הסירה: עולים בטואן צ''או (כ-2.5 שעות מהאנוי); הלילה עובר
+    בין הצוקים, עם מעבר למפרץ לאן הא. המחיר המוצג הוא לאדם, לחבילת יומיים-לילה אחד.'
+  pros:
+  - Every cabin has a balcony
+  - Ha Long and quieter Lan Ha Bay in one night
+  - Kayaking, bamboo boat into Dark & Bright Cave, cooking demo
+  pros_he:
+  - לכל תא יש מרפסת
+  - הא לונג ומפרץ לאן הא השקט בלילה אחד
+  - קיאקים, סירת במבוק למערה החשוכה והמוארת, הדגמת בישול
+  cons:
+  - Official price is per cabin for two (from $490); site does not say what is included
+  - Transfer from Hanoi not clearly included - ask
+  cons_he:
+  - המחיר הרשמי לתא לשניים (מ-490$); האתר לא מפרט מה כלול
+  - ההסעה מהאנוי לא ברור שכלולה - לשאול
 must_see:
 - name: Ha Long Bay limestone karsts
   limiter: sea
@@ -392,6 +464,7 @@ attractions:
   price_unit: per_person
   price_low: 70.0
   price_high: 100.0
+  phone: '+84347645000'
 - name: Trung Trang Cave
   limiter: flood
   area: Cat Ba National Park, about 20-30 minutes from the port
@@ -453,7 +526,7 @@ attractions:
     15:00. Weekend (Fri-Sun) costs more. Transport not included
   hours_he: ארוחת ערב ומופע 18:00-20:00, צהריים ומופע 11:15-13:15; מופע ומשקה ב-09:00
     וב-15:00. בסוף השבוע (שישי-ראשון) יקר יותר. התחבורה לא כלולה
-  phone: +84 789 455 888
+  phone: '+84789455888'
   addr_vi: Hang Ngọc Rồng, Khu Điểm Thủy, Cẩm Phả, Quảng Ninh
 restaurants:
 - name: Vien Duong Restaurant

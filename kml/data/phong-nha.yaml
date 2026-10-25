@@ -45,6 +45,7 @@ hotels:
   cons_he:
   - מקום קטן, שירות פשוט
   - הדירוג משתנה בין אתרים (3-4)
+  phone: '+84857788789'
 - name: Phong Nha Lake House Resort
   tier: 3
   tier_official: false
@@ -194,6 +195,8 @@ attractions:
   price_low: 2850.0
   price_high: 3000.0
   price_checked: '2026-10-25'
+  phone: '+84919900357'
+  website: https://oxalisadventure.com/
 - name: Hang En Cave trek
   limiter: flood
   area: Phong Nha-Ke Bang National Park, Tu Lan area
@@ -220,6 +223,8 @@ attractions:
   price_low: 340.0
   price_high: 360.0
   price_checked: '2026-10-25'
+  phone: '+84919900357'
+  website: https://oxalisadventure.com/
 - name: Tu Lan cave system
   limiter: flood
   area: Tan Hoa commune, ~65km from Phong Nha town
@@ -245,6 +250,8 @@ attractions:
   price_unit: per_person
   price_low: 100.0
   price_high: 220.0
+  phone: '+84919900357'
+  website: https://oxalisadventure.com/
 - name: Hang Tien cave day trek
   limiter: flood
   area: Phong Nha-Ke Bang National Park, Tu Lan area
@@ -266,6 +273,8 @@ attractions:
   price_unit: per_person
   price_low: 90.0
   price_high: 120.0
+  phone: '+84919900357'
+  website: https://oxalisadventure.com/
 - name: Dark Cave zipline and mud bath
   limiter: flood
   area: Chay River, Phong Nha-Ke Bang National Park

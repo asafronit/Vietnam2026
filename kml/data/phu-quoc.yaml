@@ -232,6 +232,7 @@ hotels:
     הליכה משוק הלילה
   addr_vi: Dương Đông, gần chợ đêm Dinh Cậu, Phú Quốc, An Giang
   addr_vi_partial: true
+  phone: '+84886562299'
 must_see:
 - name: Hon Thom Cable Car
   limiter: wind
@@ -347,6 +348,9 @@ diving:
   price_unit: per_person
   price_low: 90.0
   price_high: 130.0
+  phone: '+84903551422'
+  website: https://divephuquoc.com/
+  email: phuquoc@vietnamactive.com
 - name: Flipper Diving Club
   area: Duong Dong, Phu Quoc
   what: A PADI centre running smaller groups than the larger outfits, with instructors

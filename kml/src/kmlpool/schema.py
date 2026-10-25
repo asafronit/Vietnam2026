@@ -286,7 +286,8 @@ def validate_record(rec: Record) -> list[str]:
             errors.append(f"{where}: tier must be 5, 4 or 3")
         if rec.price_low is None:
             errors.append(f"{where}: price_low is required")
-        elif rec.price_low > PRICE_CAP_USD:
+        # A cruise package (per person, meals and bay fees in) is not a hotel night.
+        elif rec.price_low > PRICE_CAP_USD and not rec.is_cruise:
             errors.append(
                 f"{where}: price_low {rec.price_low} exceeds the 200 USD cap"
             )

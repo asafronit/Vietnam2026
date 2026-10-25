@@ -40,7 +40,7 @@ hotels:
   cons_he:
   - לא בתוך העיר העתיקה
   - פופולרי - להזמין מוקדם
-  phone: +84 235 3915 915
+  phone: '+842353915915'
   website: https://book-directonline.com/properties/lasiestahoianresort%26spadirect
   email: info@lasiestaresorts.com
   messenger: https://m.me/lasiestahoianresortandspa
@@ -90,7 +90,7 @@ hotels:
   coords:
     lat: 15.8836
     lng: 108.3275049
-  phone: +84 235 3666 888
+  phone: '+842353666888'
   website: https://book-directonline.com/properties/almanityhoianresort&spadirect
   email: reservation@almanityhoian.com
   messenger: https://m.me/almanityhoian
@@ -220,6 +220,7 @@ hotels:
   coords_manual: true
   location_precision: approximate
   addr_vi: 301 Nguyễn Duy Hiệu, Hội An, Đà Nẵng
+  phone: '+84903948777'
 - name: Little Town Villa
   tier: 3
   tier_official: true
@@ -246,6 +247,7 @@ hotels:
   coords:
     lat: 15.8783547
     lng: 108.3373817
+  phone: '+84702646262'
 - name: MAISON De CHINH - Hoi An Boutique Villa
   tier: 3
   tier_official: false
@@ -292,6 +294,8 @@ hotels:
   - רק 3 ביקורות - ציון 10/10 חסר משמעות
   - האופניים בחינם מהסרטון לא מופיעים ב-Booking - לשאול
   coords_manual: true
+  phone: '+84982791708'
+  whatsapp: '+84888777468'
 must_see:
 - name: Hoi An Ancient Town and Japanese Covered Bridge
   area: Old Town, along the Thu Bon River
@@ -356,6 +360,8 @@ must_see:
   price_low: 38.0
   price_high: 50.0
   price_checked: '2026-10-25'
+  phone: '18001000'
+  website: https://sunworld.vn/vi/banahills
 attractions:
 - name: Marble Mountains (Ngu Hanh Son)
   area: Between Da Nang and Hoi An, on the coast road
@@ -433,6 +439,8 @@ attractions:
   price_unit: per_person
   price_low: 6.0
   price_high: 10.0
+  phone: '+84898239383'
+  website: https://coconutboattourhoian.com/en/coconut-boat-tour
 street_food:
 - name: Banh Mi Phuong
   kind: vietnamese
@@ -931,6 +939,7 @@ diving:
   price_unit: per_person
   price_low: 25.0
   price_high: 90.0
+  phone: '+842353910782'
 contacts:
 - name: Hoi An Wanderlust - Mr. Quan
   area: Based in Hoi An; quoted the whole trip

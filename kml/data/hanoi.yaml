@@ -41,7 +41,7 @@ hotels:
   cons_he:
   - רחובות עמוסים, רעש אופנועים
   - חדרים קומפקטיים
-  phone: +84 886 428 888
+  phone: '+84886428888'
   email: info.grand@peridothotels.com
   website: https://reservation.peridotgrandhotel.com/hotel/BeHome?hotel_code=4B7272
   messenger: https://m.me/Peridotgrandhotel
@@ -186,7 +186,7 @@ hotels:
   cons_he:
   - שיווק של 5 כוכבים, רישום של 4
   - חדרים עם נוף לאגם יקרים יותר
-  phone: +84 968 472 388
+  phone: '+84968472388'
   website: https://lasinfoniavietnam.com/delrey/booking/
   messenger: https://m.me/lasinfoniadelreyhotel
 - name: Hanoi Amorita Boutique Hotel & Travel
@@ -212,7 +212,7 @@ hotels:
   why_he: דירוג 3 כוכבים רשמי עם ציון ביקורות גבוה במיוחד (9.3 ומעלה) ביחס לטווח המחיר
     שלו
   addr_vi: 7 Hàng Dầu, Hoàn Kiếm, Hà Nội
-  phone: +84 24 3927 4666
+  phone: '+842439274666'
   website: https://amoritaboutiquehotel.com/
   messenger: https://m.me/Amorita-Boutique-Hotel
 - name: Hanoi La Storia Hotel
@@ -242,7 +242,7 @@ hotels:
   why_he: דירוג 3 כוכבים רשמי במחיר תקציבי אמיתי, עם ביקורות חזקות גם אם לא מושלמות
   addr_vi: Phố cổ, gần phố Hàng Mã, Hoàn Kiếm, Hà Nội
   addr_vi_partial: true
-  phone: +84 24 3719 1374
+  phone: '+842437191374'
   email: info@hanoilastoriahotel.com
 must_see:
 - name: Hoan Kiem Lake
@@ -638,6 +638,8 @@ attractions:
     לבנים. מוכרז ככפר מורשת לאומי ועדיין מאוכלס.
   why_he: הבריחה השקטה ביותר מהעיר ליום שלם, וכמעט בחינם, הכניסה 20,000 דונג. כשעה
     וחצי לכל כיוון ברכב
+  phone: '+84366473532'
+  website: https://langcoduonglam.vn/
 markets:
 - name: Dong Xuan Market
   area: Old Quarter, 600m north of Hoan Kiem Lake
@@ -1172,8 +1174,8 @@ spa:
   price_unit: per_hour
   price_low: 20.0
   price_high: 35.0
-  phone: +84 866 903 499
-  whatsapp: +84 977 903 499
+  phone: '+84866903499'
+  whatsapp: '+84977903499'
 - name: Nap Spa
   area: Old Quarter, Hoan Kiem
   what: A small Old Quarter spa whose foot massage and Vietnamese "nourishing shampoo"

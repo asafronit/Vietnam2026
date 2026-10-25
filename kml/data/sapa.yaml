@@ -439,7 +439,7 @@ attractions:
     lat: 22.3225629
     lng: 103.8665646
   location_precision: approximate
-  phone: +84 862 096 116
+  phone: '+84862096116'
   website: https://www.banmong.vn/alpine-coaster-funfair
 - name: PHANSI viewpoint cafe
   limiter: rain
@@ -462,7 +462,7 @@ attractions:
   price_unit: per_person
   price_low: 2.0
   price_high: 4.0
-  phone: +84 913 885 812
+  phone: '+84913885812'
   addr_vi: Ngõ 66 Violet, Sa Pa, Lào Cai
   coords:
     lat: 22.3314251
@@ -581,3 +581,5 @@ spa:
   price_unit: per_hour
   price_low: 8.0
   price_high: 15.0
+  phone: '+84966577130'
+  messenger: https://m.me/relax.massagesp

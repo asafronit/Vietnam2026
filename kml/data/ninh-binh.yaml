@@ -286,6 +286,7 @@ must_see:
   location_precision: approximate
   hours: 08:30-18:30 daily
   hours_he: 08:30-18:30 כל יום
+  phone: '+84936446336'
 - name: Mua Cave viewpoint (Hang Mua)
   price_low: 5.8
   price_unit: per_person

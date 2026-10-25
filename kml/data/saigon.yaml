@@ -796,6 +796,7 @@ spa:
   price_unit: per_hour
   price_low: 22.0
   price_high: 40.0
+  phone: '+842822200507'
 - name: Noir Spa
   area: District 1
   what: A spa whose therapists are blind, working in dim light or in complete sensory
