@@ -404,6 +404,37 @@ attractions:
   price_unit: entry
   price_low: 2.0
   price_high: 3.0
+- name: Dragon Pearl Cave dinner show (Hang Ngoc Rong)
+  limiter: flood
+  area: Vung Duc cave complex, Diem Thuy area, Cam Pha - about 30-40 minutes by car
+    from Bai Chay
+  what: 'A natural cavern with a 300 m2 stage: a dance, circus and multimedia show
+    (''Searching for the Pearl Mark''), with a set seafood dinner inside the cave.'
+  why: The only dinner-and-show inside a cave in the Ha Long area - an evening plan
+    for the land night before or after a cruise
+  confidence: medium
+  geocode_query: Hang Vung Duc, Cam Pha, Quang Ninh, Vietnam
+  sources:
+  - https://vivuhalong.com/en/dragon-pearl-cave/
+  - https://www.tripadvisor.com/Attraction_Review-g8329127-d34068328-Reviews-Dragon_Pearl_Cave_Hang_Ng_c_R_ng-Cam_Pha_Quang_Ninh_Province.html
+  - https://www.getyourguide.com/ha-long-l119790/dragon-pearl-cave-dining-show-experience-t1157274/
+  name_he: ארוחת ערב ומופע במערת פנינת הדרקון
+  area_he: מתחם המערות ווּנג דוּק, אזור דיאם טוי, קאם פא - כ-30-40 דקות נסיעה מבאי
+    צ'אי
+  what_he: 'מערה טבעית עם במה של 300 מ"ר: מופע מחול, קרקס ומולטימדיה, וארוחת פירות
+    ים קבועה בתוך המערה.'
+  why_he: ארוחת הערב והמופע היחידים בתוך מערה באזור הא לונג - תוכנית ערב ללילה על
+    היבשה לפני השייט או אחריו
+  price_unit: per_person
+  price_low: 25.0
+  price_high: 63.0
+  price_checked: '2026-10-25'
+  hours: Dinner + show 18:00-20:00, lunch + show 11:15-13:15; show + drink 09:00 and
+    15:00. Weekend (Fri-Sun) costs more. Transport not included
+  hours_he: ארוחת ערב ומופע 18:00-20:00, צהריים ומופע 11:15-13:15; מופע ומשקה ב-09:00
+    וב-15:00. בסוף השבוע (שישי-ראשון) יקר יותר. התחבורה לא כלולה
+  phone: +84 789 455 888
+  addr_vi: Hang Ngọc Rồng, Khu Điểm Thủy, Cẩm Phả, Quảng Ninh
 restaurants:
 - name: Vien Duong Restaurant
   kind: vietnamese
