@@ -27,6 +27,24 @@ hotels:
     מקורות עצמאיים
   addr_vi: 209 Đường 30 Tháng 4, Ninh Kiều, Cần Thơ
   name_vi: Sheraton Cần Thơ
+  loc_note: On the Can Tho riverfront near Ninh Kieu Pier and the night market - early
+    boats to Cai Rang floating market leave from right outside.
+  loc_note_he: על טיילת הנהר בקאן טו ליד רציף נין קיאו ושוק הלילה - הסירות המוקדמות
+    לשוק הצף קאי ראנג יוצאות ממש מחוץ למלון.
+  pros:
+  - Only international-chain 5-star in the delta
+  - Walk to the pier and night market
+  - River views from the tower
+  pros_he:
+  - ה-5 כוכבים הבינלאומי היחיד בדלתא
+  - הליכה לרציף ולשוק הלילה
+  - נוף לנהר מהמגדל
+  cons:
+  - Big conference-style hotel
+  - Busy road in front
+  cons_he:
+  - מלון גדול בסגנון כנסים
+  - כביש עמוס בחזית
 - name: Muong Thanh Luxury Can Tho Hotel
   tier: 5
   tier_official: false
@@ -50,6 +68,24 @@ hotels:
   why_he: אפשרות ה-5 כוכבים הזולה ביותר בדלתה, אם כי ביקורות האורחים מציינות שהחדרים
     מרגישים מיושנים ביחס לטענת הכוכבים
   addr_vi: Khu E1, Cồn Cái Khế, Ninh Kiều, Cần Thơ
+  loc_note: On Cai Khe islet across a short bridge from central Ninh Kieu - quiet,
+    river views, a short taxi to the pier.
+  loc_note_he: על האי קאי קה, גשר קצר ממרכז נין קיאו - שקט, נוף לנהר, נסיעה קצרה במונית
+    לרציף.
+  pros:
+  - Cheapest 5-star-branded option
+  - Rooftop bar and pool over the river
+  - Quiet islet
+  pros_he:
+  - האפשרות הזולה ביותר במיתוג 5 כוכבים
+  - בר ובריכה על הגג מעל הנהר
+  - אי שקט
+  cons:
+  - Rooms feel dated
+  - Not walkable to the night market
+  cons_he:
+  - חדרים מיושנים
+  - לא במרחק הליכה לשוק הלילה
 - name: Victoria Can Tho Resort
   tier: 4
   tier_official: true
@@ -78,6 +114,24 @@ hotels:
     קבע על פני מלונות הכנסים הגדולים בעיר
   addr_vi: Cái Khế, Ninh Kiều, Cần Thơ
   name_vi: Victoria Cần Thơ Resort
+  loc_note: Riverside on Cai Khe, a short ride from Ninh Kieu - a colonial resort
+    with its own boats to the floating market.
+  loc_note_he: על הנהר בקאי קה, נסיעה קצרה מנין קיאו - ריזורט קולוניאלי עם סירות משלו
+    לשוק הצף.
+  pros:
+  - Own daily boat trips to the floating market
+  - Riverside pool
+  - Most-praised resort in the delta
+  pros_he:
+  - סירות יומיות משלו לשוק הצף
+  - בריכה על הנהר
+  - הריזורט המשובח ביותר בדלתא
+  cons:
+  - Taxi into town for dinner
+  - Older property
+  cons_he:
+  - מונית לעיר לארוחת ערב
+  - מקום ותיק
 - name: Can Tho Ecolodge
   tier: 4
   tier_official: false
@@ -105,6 +159,24 @@ hotels:
   why_he: אפשרות האקו-לודג' הדומה ביותר לריזורט באזור, מדורגת שלישית באכסניות המיוחדות
     של קאן טו עם ביקורות חזקות באופן עקבי
   addr_vi: Cầu Ba Láng, Cái Răng, Cần Thơ
+  loc_note: Out of town on the Ba Lang River in Cai Rang, close to the floating market
+    but 20 minutes from the city centre.
+  loc_note_he: מחוץ לעיר על נהר בה לאנג בקאי ראנג, קרוב לשוק הצף אבל 20 דקות ממרכז
+    העיר.
+  pros:
+  - Thatched eco-resort on the river
+  - Close to Cai Rang floating market
+  - Pool and garden
+  pros_he:
+  - אקו-ריזורט בבתי קש על הנהר
+  - קרוב לשוק הצף קאי ראנג
+  - בריכה וגן
+  cons:
+  - Far from town and restaurants
+  - Rustic - mosquitoes and humidity
+  cons_he:
+  - רחוק מהעיר ומהמסעדות
+  - כפרי - יתושים ולחות
 - name: Bamboo Eco Village
   tier: 3
   tier_official: true
@@ -188,6 +260,9 @@ must_see:
     water by 05:00
   hours_he: הסירות מתכנסות מ-02:00-03:00 והשוק בשיאו בין 04:00 ל-06:00; כדאי להיות
     על המים עד 05:00
+  price_unit: per_person
+  price_low: 10.0
+  price_high: 20.0
 attractions:
 - name: My Tho and Ben Tre coconut candy village
   area: My Tho (now Dong Thap province) and Ben Tre (now Vinh Long province), upper
@@ -213,6 +288,9 @@ attractions:
   why_he: החלופה הקלאסית והעדינה יותר לקאן טו לביקור מקונג של יום אחד, והדרך הסטנדרטית
     לראות ייצור ממתקי קוקוס בעבודת יד
   coords_manual: true
+  price_unit: per_person
+  price_low: 20.0
+  price_high: 45.0
 - name: Vinh Trang Pagoda
   area: My Tho
   what: A 19th-century Buddhist pagoda recognised as a national historical relic,
@@ -232,6 +310,7 @@ attractions:
   what_he: פגודה בודהיסטית מהמאה ה-19 שמוכרת כשריד היסטורי לאומי, ומשלבת סגנונות אדריכליים
     ויאטנמיים, חמריים וצרפתיים, עם פסל בודהה שוכב גדול בשטחה.
   why_he: המקדש המובחן ביותר אדריכלית בדלתה, שמערבב שלוש מסורות בנייה במתחם אחד
+  price_unit: free
 markets:
 - name: Ninh Kieu Night Market
   area: Ninh Kieu, Phan Boi Chau and Phan Chau Trinh streets

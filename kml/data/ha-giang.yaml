@@ -25,6 +25,24 @@ hotels:
   why_he: המלון היחיד במחוז הא ז'יאנג שקיבל 5 כוכבים רשמיים מרשות התיירות הלאומית
     של ויאטנם, ונקודת ההתחלה והסיום הטבעית של הלולאה
   addr_vi: Đường Trần Phú, Hà Giang, Tuyên Quang
+  loc_note: 'In Ha Giang city on Tran Phu street: the natural night before and after
+    the loop, close to the tour offices and bus companies.'
+  loc_note_he: 'בעיר הא ג''יאנג ברחוב טראן פו: הלילה הטבעי לפני הלולאה ואחריה, קרוב
+    למשרדי הטיולים וחברות האוטובוסים.'
+  pros:
+  - The province's only official 5-star
+  - Indoor pool, spa and rooftop bar
+  - International-brand standard
+  pros_he:
+  - ה-5 כוכבים הרשמי היחיד במחוז
+  - בריכה מקורה, ספא ובר על הגג
+  - סטנדרט של רשת בינלאומית
+  cons:
+  - Pricey for Ha Giang
+  - The city itself is a transit stop, not a sight
+  cons_he:
+  - יקר ביחס להא ג'יאנג
+  - העיר עצמה היא תחנת מעבר, לא אטרקציה
 - name: Yen Bien Luxury Hotel
   tier: 4
   tier_official: true
@@ -47,6 +65,24 @@ hotels:
     וחדר כושר. פופולרי כבסיס לפני הלולאה או אחריה.
   why_he: דירוג 4 כוכבים רשמי, עם ציון ביקורות גבוה במיוחד למלון בבירת מחוז
   addr_vi: 517 Nguyễn Trãi, Hà Giang, Tuyên Quang
+  loc_note: On Nguyen Trai street along the Lo river in the city - walkable to restaurants
+    and a short ride to the loop starting point.
+  loc_note_he: ברחוב נגוין טראי לאורך נהר לו בעיר - מרחק הליכה למסעדות ונסיעה קצרה
+    לנקודת ההתחלה של הלולאה.
+  pros:
+  - Officially 4-star with high review scores
+  - Mountain or city views
+  - Seasonal outdoor pool
+  pros_he:
+  - 4 כוכבים רשמי עם ציונים גבוהים
+  - נוף להרים או לעיר
+  - בריכה חיצונית עונתית
+  cons:
+  - Pool is seasonal - may be closed in November
+  - Plain rooms
+  cons_he:
+  - הבריכה עונתית - ייתכן שסגורה בנובמבר
+  - חדרים פשוטים
 - name: De La Mont Hotel Ha Giang
   tier: 4
   tier_official: true
@@ -71,6 +107,24 @@ hotels:
   why_he: דירוג 4 כוכבים רשמי במחיר נמוך בהרבה ממלונות שכבת היוקרה, עם ביקורות ראשונות
     חזקות באופן עקבי
   addr_vi: 426 Nguyễn Trãi, Hà Giang, Tuyên Quang
+  loc_note: A short walk from the Km 0 milestone where most loop tours start - the
+    easiest place to begin and end the loop.
+  loc_note_he: הליכה קצרה מאבן הדרך Km 0 שממנה יוצאים רוב טיולי הלולאה - המקום הכי
+    נוח להתחיל ולסיים בו את הלולאה.
+  pros:
+  - Next to the loop start
+  - Balcony rooms, rooftop bar and pool
+  - Well under luxury prices
+  pros_he:
+  - ליד נקודת ההתחלה של הלולאה
+  - חדרים עם מרפסת, בר על הגג ובריכה
+  - הרבה מתחת למחירי היוקרה
+  cons:
+  - New hotel - short track record
+  - Main-road traffic noise
+  cons_he:
+  - מלון חדש - מעט היסטוריה
+  - רעש תנועה מהכביש הראשי
 - name: Silk River Hotel Ha Giang
   tier: 3
   tier_official: true
@@ -141,6 +195,7 @@ must_see:
     של מעל 2,000 מטר, נצמד למדרון עם צניחה ישרה של מאות מטרים אל נהר נו קווה הטורקיז
     שמתחת.
   why_he: אחד מארבעת המעברים הגדולים של ויאטנם, והמקטע המצולם ביותר בכל לולאת הא ז'יאנג
+  price_unit: free
 - name: Lung Cu Flag Tower
   area: Lung Cu commune, Dong Van district
   what: A 34.85m octagonal tower on a peak near Vietnam's northernmost point, flying
@@ -152,6 +207,7 @@ must_see:
   geocode_query: Lung Cu Flag Tower, Dong Van, Ha Giang, Vietnam
   sources:
   - https://en.wikipedia.org/wiki/Lung_Cu_Flag_Tower
+  - https://www.vietnamairlines.com/en/plan-book/travel/travel-guide/lung-cu-flag-point
   coords:
     lat: 23.3634614
     lng: 105.3163342
@@ -162,6 +218,10 @@ must_see:
     ומעליו דגל אדום עם כוכב צהוב בשטח 54 מטר רבוע — אחד לכל קבוצה אתנית מוכרת. מגיעים
     אליו בכ-280 עד 800 מדרגות אבן, תלוי היכן חונים.
   why_he: ראש ויאטנם הסמלי, ויעד הסיום המקובל של הרגל הצפונית של הלולאה
+  price_unit: entry
+  price_low: 1.0
+  price_high: 2.0
+  price_checked: '2026-10-25'
 - name: Dong Van Old Quarter
   area: Dong Van town
   what: A cluster of around 40 century-old houses with yellow clay walls, wooden frames
@@ -179,6 +239,7 @@ must_see:
     שנבנו כתחנת מסחר בתקופה הקולוניאלית הצרפתית בגובה 1,000 עד 1,600 מטר בלב רמת הקארסט.
   why_he: עיירת הלינה עם האווירה הטובה ביותר בלולאה, והבסיס לשוק יום ראשון ולטיול
     היום ללונג קו
+  price_unit: free
 attractions:
 - name: Ha Giang Loop (self-drive or easy-rider motorbike route)
   area: Circuit from Ha Giang City through Quan Ba, Yen Minh, Dong Van, Meo Vac
@@ -202,6 +263,9 @@ attractions:
     או כנוסע מאחורי מדריך מקומי.
   why_he: הסיבה שהאזור הזה נמצא במסלול בכלל. מעברי סיכות השיער, עמקי המדרגות וכפרי
     ההמונג נגישים רק כך
+  price_unit: per_person
+  price_low: 120.0
+  price_high: 250.0
 - name: Nho Que River boat trip, Tu San Canyon
   area: Xin Cai / Ta Lang wharf, below Ma Pi Leng Pass
   what: A roughly 30-minute boat ride on the emerald-green Nho Que River, gliding
@@ -218,6 +282,9 @@ attractions:
   what_he: שייט של כחצי שעה על נהר נו קווה הירוק-אזמרגד, מחליק מתחת לקירות הסלע המתנשאים
     של קניון טו סאן. מגיעים בדרך צדדית 5 עד 7 קילומטר אחרי נקודת התצפית של מה פי לנג.
   why_he: מבט מגובה המים על אותו קניון שהכביש משקיף אליו מלמעלה, והפסקה מהרכיבה
+  price_unit: per_person
+  price_low: 6.0
+  price_high: 8.0
 - name: Du Gia village and waterfall
   area: Du Gia commune, about 70km from Ha Giang City
   what: A Tay ethnic village of wooden stilt houses in a rice-field valley, with a
@@ -240,6 +307,9 @@ attractions:
     קו אוטובוס ישיר.
   why_he: המשקל הנגדי השקט של הלולאה מול דונג ואן ומאו ואק — עיקוף איטי וירוק יותר,
     עם מקום לשחות בו
+  price_unit: entry
+  price_low: 0.0
+  price_high: 1.0
 markets:
 - name: Dong Van Sunday Market
   area: Dong Van Old Quarter

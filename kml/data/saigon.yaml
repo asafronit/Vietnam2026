@@ -22,6 +22,24 @@ hotels:
   why_he: ה-5 כוכבים הבוטיקי המדורג ביותר מבין ארבע הצעות הסוכנויות, והקרוב ביותר
     לבן תאן
   addr_vi: 180-188 Lý Tự Trọng, Bến Thành, Quận 1, TP. Hồ Chí Minh
+  loc_note: On Ly Tu Trong, two minutes' walk from Ben Thanh Market, in the middle
+    of District 1's shopping and dining.
+  loc_note_he: ברחוב לי טו טרונג, שתי דקות הליכה משוק בן טאן, באמצע הקניות והמסעדות
+    של מחוז 1.
+  pros:
+  - Rooftop pool over the skyline
+  - Closest to Ben Thanh
+  - Top-rated boutique 5-star
+  pros_he:
+  - בריכה על הגג מעל קו הרקיע
+  - הקרוב ביותר לבן טאן
+  - 5 כוכבים בוטיק המדורג ביותר
+  cons:
+  - Expensive
+  - Busy, loud streets around
+  cons_he:
+  - יקר
+  - רחובות עמוסים ורועשים מסביב
 - name: Hotel Des Arts Saigon - MGallery
   tier: 5
   tier_official: true
@@ -50,6 +68,24 @@ hotels:
   why_he: 5 כוכבים של רשת אקור עם דירוג שהוענק רשמית, ומוזכר כחלופה במחקר המלונות
     המאומת של הפרויקט
   addr_vi: 76-78 Nguyễn Thị Minh Khai, Quận 3, TP. Hồ Chí Minh
+  loc_note: On Nguyen Thi Minh Khai in District 3, a short walk to Notre-Dame Cathedral,
+    the post office and the War Remnants Museum.
+  loc_note_he: ברחוב נגוין טי מין קאי במחוז 3, הליכה קצרה לקתדרלת נוטרדאם, לדואר ולמוזיאון
+    שרידי המלחמה.
+  pros:
+  - Art-deco design, rooftop infinity pool
+  - Accor MGallery standard
+  - Walk to the colonial sights
+  pros_he:
+  - עיצוב ארט דקו, בריכת אינפיניטי על הגג
+  - סטנדרט Accor MGallery
+  - הליכה לאתרים הקולוניאליים
+  cons:
+  - Very expensive at the top end
+  - 10-15 minutes to Ben Thanh
+  cons_he:
+  - יקר מאוד בקצה העליון
+  - 10-15 דקות לבן טאן
 - name: Liberty Central Saigon Riverside
   tier: 4
   tier_official: true
@@ -73,6 +109,24 @@ hotels:
   why_he: דירוג אמין של רשת ביניים בכמחצית ממחיר בחירות ה-5 כוכבים, עם סיווג 4 כוכבים
     עקבי בכל פלטפורמות ההזמנה
   addr_vi: 17 Tôn Đức Thắng, Bến Nghé, Quận 1, TP. Hồ Chí Minh
+  loc_note: On Ton Duc Thang a few blocks from the Saigon River and Nguyen Hue walking
+    street - central and walkable.
+  loc_note_he: ברחוב טון דוק טאנג, כמה רחובות מנהר סייגון ומרחוב ההולכים נגוין הואה
+    - מרכזי ובמרחק הליכה.
+  pros:
+  - Rooftop pool
+  - Half the price of the 5-stars
+  - Near the river and walking street
+  pros_he:
+  - בריכה על הגג
+  - חצי ממחיר ה-5 כוכבים
+  - ליד הנהר ורחוב ההולכים
+  cons:
+  - Mid-scale chain feel
+  - River view costs extra
+  cons_he:
+  - אווירה של רשת בינונית
+  - נוף לנהר בתוספת
 - name: Sky Gem Hotel - Ben Thanh
   tier: 4
   tier_official: false
@@ -96,6 +150,23 @@ hotels:
   why_he: צוין בהצעת סוכנות עצמאית כבחירת ה-4 כוכבים שלה, והמלון הזול במאגר עם דירוג
     עצמי אמיתי של 4 כוכבים
   addr_vi: 48-50 Thủ Khoa Huân, Bến Thành, Quận 1, TP. Hồ Chí Minh
+  loc_note: On Thu Khoa Huan, a few minutes' walk from Ben Thanh Market in central
+    District 1.
+  loc_note_he: ברחוב טו קואה הואן, כמה דקות הליכה משוק בן טאן במרכז מחוז 1.
+  pros:
+  - Cheapest 4-star in the pool
+  - Walk to Ben Thanh
+  - Rooftop terrace
+  pros_he:
+  - ה-4 כוכבים הזול ביותר במאגר
+  - הליכה לבן טאן
+  - מרפסת גג
+  cons:
+  - Self-classified 4-star
+  - Small rooms, no pool
+  cons_he:
+  - 4 כוכבים בסיווג עצמי
+  - חדרים קטנים, אין בריכה
 - name: Silverland Central Hotel
   tier: 3
   tier_official: true
@@ -171,6 +242,9 @@ must_see:
   why_he: המקום הפיזי היחיד שבו סיום מלחמת ויאטנם משומר במקומו, ולא רק מתואר
   hours: 08:00-16:30 daily
   hours_he: 08:00-16:30 כל יום
+  price_unit: entry
+  price_low: 2.0
+  price_high: 3.0
 - name: Notre-Dame Cathedral Basilica of Saigon
   area: District 1
   what: A twin-towered red-brick cathedral built by French colonists in the 1880s
@@ -193,6 +267,7 @@ must_see:
     שני צלבים מצופי זהב הוחזרו למגדלים במרץ 2026.
   why_he: האתר הקולוניאלי המוכר ביותר בעיר — אבל לצפות לבניין עטוף פיגומים ולא לגלויה.
     הכיכר ובניין הדואר המרכזי שלצידה הם הסיבה לעמוד שם
+  price_unit: free
 attractions:
 - name: Cu Chi Tunnels
   area: Cu Chi District, about 1.5 hours from central Saigon
@@ -217,6 +292,9 @@ attractions:
     פיזית אל תוך המלחמה במקום רק לקרוא עליה
   hours: 07:00-17:00 daily
   hours_he: 07:00-17:00 כל יום
+  price_unit: per_person
+  price_low: 5.0
+  price_high: 35.0
 - name: War Remnants Museum
   area: District 3
   what: A three-storey museum housing over 20,000 artifacts, photographs and military
@@ -240,6 +318,9 @@ attractions:
     כמוזיאון המוביל בעיר
   hours: 07:30-17:30 daily
   hours_he: 07:30-17:30 כל יום
+  price_unit: entry
+  price_low: 2.0
+  price_high: 2.0
 street_food:
 - name: Banh Canh Cua Ba Ba
   kind: vietnamese
@@ -350,6 +431,10 @@ street_food:
     חצאי המדינה זה מזה
   hours: 05:00-20:30; Monday 05:00-14:00
   hours_he: 05:00-20:30; ביום שני 05:00-14:00
+  coords:
+    lat: 10.7959661
+    lng: 106.6239021
+  location_precision: approximate
 - name: Bun Bo Hue 14B
   kind: vietnamese
   signal: michelin_bib
@@ -692,6 +777,9 @@ spa:
     הימלאיה ושלג, וטיפולים ברמה של ספא מלון.
   why_he: מדורג ראשון בין הספא של העיר, וכל הצוות עובר דרך בית הספר שלו — ולכן השירות
     עקבי ולא הגרלה
+  price_unit: per_hour
+  price_low: 22.0
+  price_high: 40.0
 - name: Noir Spa
   area: District 1
   what: A spa whose therapists are blind, working in dim light or in complete sensory
@@ -708,3 +796,6 @@ spa:
   what_he: ספא שהמטפלים בו עיוורים, ועובדים באור עמום או בחשכה חושית מלאה, ובסוף תה
     ופאנה קוטה. פרויקט אחות של מסעדת נואר.
   why_he: לא גימיק אלא חוש מגע אחר לגמרי, ומהדברים שנשארים איתך יותר מהעיסוי עצמו
+  price_unit: per_hour
+  price_low: 18.0
+  price_high: 30.0

@@ -23,6 +23,24 @@ hotels:
     שמשקיפים על קו הגגות של הרובע העתיק.
   why_he: יחס הדירוג-למיקום הטוב ביותר מבין כל המלונות שהופיעו בארבע הצעות הסוכנויות
   addr_vi: 33 Đường Thành, Hoàn Kiếm, Hà Nội
+  loc_note: 'On Duong Thanh street at the edge of the Old Quarter: a few minutes''
+    walk to Hoan Kiem Lake, Train Street and the best street food.'
+  loc_note_he: 'ברחוב דואונג טאן בקצה הרובע העתיק: כמה דקות הליכה לאגם הואן קיים,
+    לרחוב הרכבת ולאוכל הרחוב הטוב ביותר.'
+  pros:
+  - Rooftop pool and bar over the Old Quarter
+  - Walk to everything
+  - Best rating-to-location ratio
+  pros_he:
+  - בריכה ובר על הגג מעל הרובע העתיק
+  - הכל במרחק הליכה
+  - יחס הדירוג-למיקום הטוב ביותר
+  cons:
+  - Busy streets, motorbike noise
+  - Compact rooms
+  cons_he:
+  - רחובות עמוסים, רעש אופנועים
+  - חדרים קומפקטיים
 - name: GM Premium Hotel
   tier: 5
   tier_official: false
@@ -50,6 +68,24 @@ hotels:
   why_he: משווק את עצמו כ-5 כוכבים ומתומחר ומדורג ככזה, אבל הדירוג הוא הצהרה עצמית
     ולא הוענק על ידי רשות תיירות
   addr_vi: 41 Hàng Bông, Hoàn Kiếm, Hà Nội
+  loc_note: On Hang Bong in the Old Quarter, a short walk to Hoan Kiem Lake and St
+    Joseph's Cathedral.
+  loc_note_he: ברחוב האנג בונג ברובע העתיק, הליכה קצרה לאגם הואן קיים ולקתדרלת סנט
+    ג'וזף.
+  pros:
+  - Indochine style, residence-like lobby
+  - Rooftop pool and bar
+  - Central and quieter than the bar streets
+  pros_he:
+  - סגנון אינדושין, לובי שמרגיש כמו בית
+  - בריכה ובר על הגג
+  - מרכזי ושקט יותר מרחובות הברים
+  cons:
+  - 5-star is self-declared
+  - Small hotel - limited facilities
+  cons_he:
+  - 5 כוכבים בהצהרה עצמית
+  - מלון קטן - מתקנים מוגבלים
 - name: Aurora Premium - A Lifestyle Hotel
   tier: 4
   tier_official: true
@@ -74,6 +110,24 @@ hotels:
     ספא, סאונה ומרפסת גג. פעל בעבר בשם Delicacy Central.
   why_he: דירוג 4 כוכבים רשמי, ביקורות חזקות באופן עקבי, וכתובת מרכזית ברובע העתיק
   addr_vi: 61 Hàng Bè, Hoàn Kiếm, Hà Nội
+  loc_note: On Hang Be, 100 m from the water puppet theatre and a few minutes from
+    the lake - in the heart of the Old Quarter.
+  loc_note_he: ברחוב האנג בה, 100 מ' מתיאטרון בובות המים וכמה דקות מהאגם - בלב הרובע
+    העתיק.
+  pros:
+  - Officially 4-star
+  - Spa, sauna and rooftop terrace
+  - Very central for the price
+  pros_he:
+  - 4 כוכבים רשמי
+  - ספא, סאונה ומרפסת גג
+  - מרכזי מאוד ביחס למחיר
+  cons:
+  - Street noise
+  - No pool
+  cons_he:
+  - רעש רחוב
+  - אין בריכה
 - name: La Sinfonia del Rey Hotel & Spa
   tier: 4
   tier_official: false
@@ -101,6 +155,24 @@ hotels:
   why_he: מיקום על האגם שאין לו מתחרה. האורחים והשיווק מתארים 5 כוכבים, אבל אתרי צד
     שלישי מציבים אותו על 4 — כלומר הדירוג מקודם עצמית
   addr_vi: 33-35 Hàng Dầu, Hoàn Kiếm, Hà Nội
+  loc_note: Directly across from Hoan Kiem Lake on Hang Dau - step out onto the lake
+    promenade, especially lively on weekend walking-street nights.
+  loc_note_he: ממש מול אגם הואן קיים ברחוב האנג דאו - יוצאים לטיילת האגם, תוססת במיוחד
+    בערבי רחוב ההולכים בסוף השבוע.
+  pros:
+  - Unbeatable lake-front position
+  - Sky bar and lake-view restaurant
+  - Spa
+  pros_he:
+  - מיקום מול האגם שאין לו מתחרה
+  - בר בשמיים ומסעדה עם נוף לאגם
+  - ספא
+  cons:
+  - 5-star marketing, 4-star listings
+  - Lake-view rooms cost more
+  cons_he:
+  - שיווק של 5 כוכבים, רישום של 4
+  - חדרים עם נוף לאגם יקרים יותר
 - name: Hanoi Amorita Boutique Hotel & Travel
   tier: 3
   tier_official: true
@@ -169,6 +241,7 @@ must_see:
   what_he: האגם שבמרכז האנוי העתיקה, עם גשר אדום קטן אל אי ובו מקדש. המקומיים מקיפים
     אותו בהליכה ובהתעמלות עם אור ראשון.
   why_he: העיר מסודרת סביב האגם הזה, וההליכה סביבו לא עולה כלום
+  price_unit: free
 - name: Temple of Literature
   area: Dong Da, Van Mieu street
   what: A walled 2.5-hectare Confucian temple complex founded in 1070, with five courtyards,
@@ -192,6 +265,9 @@ must_see:
     בהאנוי
   hours: 08:00-17:00 (Nov-Mar); 07:30-17:30 Apr-Oct
   hours_he: 08:00-17:00 בחורף; 07:30-17:30 מאפריל עד אוקטובר
+  price_unit: entry
+  price_low: 3.0
+  price_high: 3.0
 - name: Hoa Lo Prison Museum
   area: Hoan Kiem, Hoa Lo street
   what: A preserved wing of a French colonial-era prison built in 1896, nicknamed
@@ -215,6 +291,9 @@ must_see:
     העיר המודרנית
   hours: 08:00-17:00 daily
   hours_he: 08:00-17:00 כל יום
+  price_unit: entry
+  price_low: 2.0
+  price_high: 2.0
 - name: Imperial Citadel of Thang Long
   area: Ba Dinh, Hoang Dieu street
   what: The excavated core of the royal citadel that was Vietnam's seat of power for
@@ -301,6 +380,9 @@ attractions:
     ז'יאנג
   hours: 08:30-17:30, closed Monday
   hours_he: 08:30-17:30, סגור ביום שני
+  price_unit: entry
+  price_low: 2.0
+  price_high: 2.0
 - name: Hanoi Train Street coffee shops
   area: Old Quarter, Phung Hung / Le Duan
   what: A row of narrow-gauge cafes squeezed along an active railway corridor; twice
@@ -321,6 +403,9 @@ attractions:
   why_he: חמש דקות מוזרות באמת ומצולמות, אם כי הגישה הודקה לשיטה שמנוהלת דרך בתי העסק
     אחרי סגירות בעבר מטעמי בטיחות קהל. בפברואר 2026 אישרה האנוי עקרונית לצמצם רכבות
     בקטע הזה; לבדוק שעדיין עוברות רכבות לפני שהולכים
+  price_unit: per_person
+  price_low: 2.0
+  price_high: 3.0
 - name: Thang Long Water Puppet Theatre
   area: Hoan Kiem, Dinh Tien Hoang street, north shore of the lake
   what: A 50-minute show of wooden puppets performed on a pool of water by puppeteers
@@ -1047,6 +1132,9 @@ spa:
     עבודת רקמות עמוקה, וחבילות שמשלבות עיסוי עם חפיפת ראש.
   why_he: הרשת עם הביקורות העקביות ביותר ברובע העתיק, וארבעה סניפים אומרים שתמיד יש
     אחד במרחק הליכה מאיפה שהיום נגמר
+  price_unit: per_hour
+  price_low: 20.0
+  price_high: 35.0
 - name: Nap Spa
   area: Old Quarter, Hoan Kiem
   what: A small Old Quarter spa whose foot massage and Vietnamese "nourishing shampoo"
@@ -1064,6 +1152,9 @@ spa:
     לראש ולקרקפת מקבלים את הביקורות החזקות ביותר ברובע.
   why_he: טיפול חפיפת הראש הוא טקס ויאטנמי שאין לו מקבילה אמיתית בבית, והוא עולה פחות
     מכוס קפה בתל אביב
+  price_unit: per_hour
+  price_low: 18.0
+  price_high: 30.0
 contacts:
 - name: Kelly - visa assistance
   area: Works remotely; relevant before departure and on arrival

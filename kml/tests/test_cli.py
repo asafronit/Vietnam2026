@@ -16,6 +16,12 @@ hotels:
   area: Old Quarter
   what: A hotel used only as a loader fixture.
   why: Pins the loader behaviour, not the research content
+  loc_note: Near the lake.
+  loc_note_he: ליד האגם.
+  pros: [Pool]
+  pros_he: [בריכה]
+  cons: [Small rooms]
+  cons_he: [חדרים קטנים]
   confidence: high
   geocode_query: Example Hotel, Hanoi, Vietnam
   sources:

@@ -23,6 +23,24 @@ hotels:
   why_he: מדורג ראשון מבין מלונות בואן מה תואט, עם ביקורות האורחים העקביות ביותר מכל
     נכס בעיר
   addr_vi: 81 Nguyễn Tất Thành, Tân An, Buôn Ma Thuột, Đắk Lắk
+  loc_note: 'In the middle of town by the Victory Monument roundabout: the cafes,
+    the market and most restaurants are within a 10-15 minute walk.'
+  loc_note_he: 'באמצע העיר ליד כיכר אנדרטת הניצחון: בתי הקפה, השוק ורוב המסעדות במרחק
+    10-15 דקות הליכה.'
+  pros:
+  - Tallest building in town, rooftop bar with a view
+  - Outdoor pool
+  - Most consistent reviews in the city
+  pros_he:
+  - הבניין הגבוה בעיר, בר על הגג עם נוף
+  - בריכה חיצונית
+  - הביקורות הכי עקביות בעיר
+  cons:
+  - Domestic chain - 5-star by local standards, not international
+  - Large and impersonal
+  cons_he:
+  - רשת מקומית - 5 כוכבים בסטנדרט מקומי, לא בינלאומי
+  - גדול ולא אישי
 - name: Saigon Ban Me Hotel
   tier: 4
   tier_official: false
@@ -45,6 +63,24 @@ hotels:
     דקות הליכה מהשוק המרכזי של בואן מה תואט.
   why_he: המלון המדורג היטב הקרוב ביותר לשוק ולרחובות קניית הקפה סביבו
   addr_vi: 1-3 Phan Chu Trinh, Buôn Ma Thuột, Đắk Lắk
+  loc_note: Two minutes' walk from the central market and the coffee-shopping streets
+    around it - the most walkable base in Buon Ma Thuot.
+  loc_note_he: שתי דקות הליכה מהשוק המרכזי ומרחובות הקפה סביבו - הבסיס הכי נוח להליכה
+    בבואון מה תואוט.
+  pros:
+  - Closest well-reviewed hotel to the market
+  - Outdoor pool
+  - Low price
+  pros_he:
+  - המלון המדורג היטב הקרוב ביותר לשוק
+  - בריכה חיצונית
+  - מחיר נמוך
+  cons:
+  - Business-hotel feel, dated in places
+  - Karaoke lounge can be noisy
+  cons_he:
+  - אווירה של מלון עסקים, מיושן בחלקו
+  - טרקלין קריוקי עלול להיות רועש
 - name: Dakruco Hotel
   tier: 3
   tier_official: false
@@ -84,6 +120,7 @@ must_see:
   sources:
   - https://en.wikipedia.org/wiki/The_World_Coffee_Museum
   - https://vietnamtourism.gov.vn/en/post/20640
+  - https://www.vietjetair.com/en/pages/travel-guides-1665635013747/what-to-do-in-buon-ma-thuot-the-most-attractive-locations-1711073073129
   coords:
     lat: 12.6908584
     lng: 108.0445203
@@ -95,6 +132,10 @@ must_see:
     תואט בכלל
   hours: About 07:00-17:45 daily (sources vary)
   hours_he: בערך 07:00-17:45 כל יום (המקורות חלוקים)
+  price_unit: entry
+  price_low: 3.0
+  price_high: 6.0
+  price_checked: '2026-10-25'
 - name: Ako Dhong Village
   area: Tan Loi Ward, inside the city
   what: A working Ede ethnic-minority neighbourhood inside the city itself, with more
@@ -114,6 +155,7 @@ must_see:
   what_he: שכונה פעילה של בני המיעוט האתני אדה בתוך העיר עצמה, ובה למעלה מ-30 בתי
     אורך מסורתיים מעץ, בנויים על כלונסאות בצורת סירות.
   why_he: המקום היחיד לראות אדריכלות אדה אותנטית על כלונסאות בלי לצאת מהעיר
+  price_unit: free
 - name: Dray Nur Waterfall
   area: Krong Ana district, ~27km southwest of center
   what: A 250-metre-wide waterfall dropping more than 30 metres where the Krong Ana
@@ -135,6 +177,9 @@ must_see:
   what_he: מפל ברוחב 250 מטר שצונח למעלה מ-30 מטר במקום שבו נהרות קרונג אנה וקרונג
     נו נפגשים ויוצרים את נהר סרפוק, עם גשר תלוי מעל הערוץ.
   why_he: המפל העוצמתי ביותר ברמות המרכז, וטיול חצי יום פשוט מהעיר
+  price_unit: entry
+  price_low: 2.0
+  price_high: 4.0
 - name: Yok Don National Park
   area: Buon Don district, ~40km from center
   what: Vietnam's second-largest national park, a stretch of dry dipterocarp forest
@@ -153,6 +198,9 @@ must_see:
     שבה פילים שהיו בעבר פילי רכיבה מלקטים מזון בחופשיות תחת עינם של הפָּחָתים שלהם.
   why_he: אתר תיירות הפילים האתי הראשון בוויאטנם, שהפסיק כאן את רכיבת הפילים ב-2018
     לטובת התבוננות
+  price_unit: per_person
+  price_low: 2.0
+  price_high: 40.0
 attractions:
 - name: Trung Nguyen Coffee Village
   area: 163 Ly Thai To, Buon Ma Thuot ward, about 3 km north-east of the centre
@@ -179,6 +227,9 @@ attractions:
     lat: 12.701148
     lng: 108.061008
   coords_manual: true
+  price_unit: entry
+  price_low: 2.0
+  price_high: 4.0
 markets:
 - name: Buon Ma Thuot Central Market
   area: City center, near Victory Monument

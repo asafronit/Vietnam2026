@@ -24,6 +24,24 @@ hotels:
   why_he: ה-5 כוכבים האמיתי המדורג ביותר בהואה (9.5 מ-487 ביקורות), ובניין מורשת ולא
     מגדל חדש
   addr_vi: 5 Lê Lợi, Huế
+  loc_note: On the Perfume River on Le Loi, a pleasant riverside walk to Truong Tien
+    Bridge and a short ride to the Imperial City.
+  loc_note_he: על נהר הבושם ברחוב לה לוי, הליכה נעימה לאורך הנהר לגשר טרונג טיין ונסיעה
+    קצרה לעיר הקיסרית.
+  pros:
+  - 1930s French residence on the river
+  - Hue's best-reviewed true 5-star
+  - Spa and riverside pool
+  pros_he:
+  - בית מושל צרפתי משנות ה-30 על הנהר
+  - ה-5 כוכבים האמיתי המדורג ביותר בהואה
+  - ספא ובריכה על הנהר
+  cons:
+  - Expensive
+  - Riverfront floods in heavy rain
+  cons_he:
+  - יקר
+  - חזית הנהר מוצפת בגשם כבד
 - name: Meliá Vinpearl Hue
   tier: 5
   tier_official: true
@@ -50,6 +68,24 @@ hotels:
   why_he: בחירת המפרט של הפרויקט לביקור בהואה, וה-5 כוכבים של רשת בינלאומית המדורג
     ביותר בעיר (9.4 מלמעלה מ-3,000 ביקורות)
   addr_vi: 50A Hùng Vương, Huế
+  loc_note: A tower in the city centre on Hung Vuong, 10 minutes' walk to the river
+    and Truong Tien Bridge, close to restaurants.
+  loc_note_he: מגדל במרכז העיר ברחוב הונג וואנג, 10 דקות הליכה לנהר ולגשר טרונג טיין,
+    קרוב למסעדות.
+  pros:
+  - International chain, 9.4/10 from 3,000+ reviews
+  - Indoor pool, spa and gym
+  - Views over the city
+  pros_he:
+  - רשת בינלאומית, 9.4/10 מיותר מ-3,000 ביקורות
+  - בריכה מקורה, ספא וחדר כושר
+  - נוף על העיר
+  cons:
+  - Big tower, little local character
+  - 10 minutes from the river
+  cons_he:
+  - מגדל גדול, מעט אופי מקומי
+  - 10 דקות מהנהר
 - name: Eldora Hotel
   tier: 4
   tier_official: true
@@ -76,6 +112,24 @@ hotels:
   why_he: מהמלונות הבודדים בהואה עם סיווג 4 כוכבים רשמי וחד-משמעי ולא מוצהר עצמית,
     ומשובח דרך קבע על הניקיון
   addr_vi: 60 Bến Nghé, Huế
+  loc_note: On Ben Nghe in the centre, south of the river - walk to the Perfume River
+    promenade and the night market area.
+  loc_note_he: ברחוב בן נגה במרכז, דרומית לנהר - הליכה לטיילת נהר הבושם ולאזור שוק
+    הלילה.
+  pros:
+  - Clear official 4-star
+  - Bright wood-floored rooms, very clean
+  - Central and good value
+  pros_he:
+  - 4 כוכבים רשמי וברור
+  - חדרים מוארים עם רצפת עץ, נקיים מאוד
+  - מרכזי ומשתלם
+  cons:
+  - Small pool or none
+  - Fewer facilities than the 5-stars
+  cons_he:
+  - בריכה קטנה או בלי
+  - פחות מתקנים מה-5 כוכבים
 - name: Pilgrimage Village Boutique Resort & Spa
   tier: 4
   tier_official: false
@@ -99,6 +153,24 @@ hotels:
   why_he: המקורות חלוקים אם מדובר ב-4 או ב-5 כוכבים, אבל זו החלופה שהמפרט מציין למליה
     וינפרל למי שרוצה שהות שקטה וירוקה יותר
   addr_vi: 130 Minh Mạng, Huế
+  loc_note: On a forested hillside south of the city on the way to the royal tombs
+    - green and quiet, but taxis to the river and Citadel.
+  loc_note_he: על גבעה מיוערת דרומית לעיר בדרך לקברי המלכים - ירוק ושקט, אבל מוניות
+    לנהר ולמצודה.
+  pros:
+  - Village-style resort with several pools
+  - Extensive spa
+  - Close to the tombs
+  pros_he:
+  - ריזורט בסגנון כפר עם כמה בריכות
+  - ספא נרחב
+  - קרוב לקברי המלכים
+  cons:
+  - 5 km from the centre
+  - Star rating disputed (4 or 5)
+  cons_he:
+  - 5 ק"מ מהמרכז
+  - הדירוג שנוי במחלוקת (4 או 5)
 - name: Jade Scene Hotel
   tier: 3
   tier_official: true
@@ -165,6 +237,7 @@ must_see:
   sources:
   - https://www.tripadvisor.com/Attraction_Review-g293926-d317599-Reviews-Hue_Imperial_City_The_Citadel-Hue_Thua_Thien_Hue_Province.html
   - https://culturephamtravel.com/hue-entrance-fee/
+  - https://vietnamvacation.com.vn/hue-entrance-fee/
   name_he: העיר האסורה
   area_he: הגדה הצפונית של נהר הבשמים, מרכז העיר
   what_he: מושבה המבוצר של שושלת נגוין מ-1802 עד 1945. נכנסים דרך שער נגו מון, עוברים
@@ -174,6 +247,10 @@ must_see:
   hours: 07:00-17:00 in the rainy season; 06:30-17:30 in the dry
   hours_he: 07:00-17:00 בעונת הגשמים; 06:30-17:30 בעונה היבשה
   limiter: flood
+  price_unit: entry
+  price_low: 8.0
+  price_high: 8.0
+  price_checked: '2026-10-25'
 - name: Khai Dinh Tomb
   area: Chau Chu Village, ~10km from Hue city
   what: The last and most ornate of the Nguyen royal tombs, its concrete exterior
@@ -185,6 +262,7 @@ must_see:
   geocode_query: Khai Dinh Tomb, Hue, Vietnam
   sources:
   - https://vinwonders.com/en/wonderpedia/news/khai-dinh-tomb-things-to-know-about-the-last-imperial-tomb-built-in-hue/
+  - https://vietnamvacation.com.vn/hue-entrance-fee/
   coords:
     lat: 16.3989537
     lng: 107.5902801
@@ -196,6 +274,10 @@ must_see:
   why_he: המרשים ביותר חזותית מבין שבעת קברי המלוכה, ושונה מכל מונומנט נגוין אחר בהואה
   hours: 07:00-17:30 daily
   hours_he: 07:00-17:30 כל יום
+  price_unit: entry
+  price_low: 6.0
+  price_high: 6.0
+  price_checked: '2026-10-25'
 - name: Thien Mu Pagoda
   area: Ha Khe Hill, north bank of the Perfume River, ~5km from the city
   what: Hue's oldest religious building, founded in 1601, centred on the seven-storey
@@ -216,6 +298,7 @@ must_see:
   why_he: האתר המצולם ביותר על נהר הבשמים, ובן למעלה מארבע מאות שנה
   hours: 07:00-20:00 daily, free
   hours_he: 07:00-20:00 כל יום, בחינם
+  price_unit: free
 attractions:
 - name: Tu Duc Tomb
   area: Thuy Xuan Village, ~7km from Hue city
@@ -229,6 +312,7 @@ attractions:
   sources:
   - https://centralvietnamguide.com/tu-duc-tomb/
   - https://vinpearl.com/en/tu-duc-tomb-one-of-the-most-appealing-attractions-in-hue-to-visit
+  - https://vietnamvacation.com.vn/hue-entrance-fee/
   coords:
     lat: 16.433089
     lng: 107.5647017
@@ -240,6 +324,10 @@ attractions:
     להדר של קאי דין
   hours: 06:30-18:00 daily
   hours_he: 06:30-18:00 כל יום
+  price_unit: entry
+  price_low: 6.0
+  price_high: 6.0
+  price_checked: '2026-10-25'
 - name: Perfume River dragon boat cruise
   area: Departs from piers along the Perfume River, city center
   what: An evening cruise on a wooden dragon-prowed boat past Truong Tien and Phu
@@ -260,6 +348,9 @@ attractions:
   why_he: הדרך הקלאסית לראות את גשרי הואה ואת גדות הנהר מוארים בלילה, ולשמוע את מוזיקת
     החצר קה הואה בקירוב לסביבתה המקורית. אין שייט כשהנהר מוצף
   limiter: flood
+  price_unit: per_person
+  price_low: 4.0
+  price_high: 20.0
 markets:
 - name: Dong Ba Market
   area: North bank of the Perfume River, city center

@@ -75,6 +75,7 @@ must_see:
   what_he: האגם הטבעי הגדול ביותר של מים מתוקים ברמות המרכז, מוקף שדות אורז ויער,
     וחוצים אותו בסירות חצובות מגזע עץ ולא בסירות מנוע.
   why_he: לב הרגל הזו של המסלול, והסיבה שהתוכנית עוצרת כאן ללינה
+  price_unit: free
 - name: Jun Village (Buon Jun)
   area: South shore of Lak Lake
   what: A M'nong ethnic-minority settlement of wood and rattan stilt houses on the
@@ -91,6 +92,7 @@ must_see:
   what_he: יישוב של בני המיעוט מנונג מבתי כלונסאות מעץ ומקש על החוף הדרומי של האגם,
     שבו התושבים עדיין אורגים ברוקד ודגים מסירות חצובות.
   why_he: כפר המנונג הנגיש ביותר על האגם, והעצירה הסטנדרטית במסלול הרוכבים כאן
+  price_unit: free
 attractions:
 - name: Lak Lake dugout canoe crossing
   area: Boat launch near Jun village / Lak Tented Camp
@@ -109,6 +111,9 @@ attractions:
     או עם דמדומים. מסודרת דרך שייטי הכפר ג'ון או דרך מחנה האוהלים.
   why_he: כך המקומיים באמת נעים על האגם, וחלופה שקטה יותר לרכיבות הפילים שנמכרות בכפר
     לידו
+  price_unit: per_person
+  price_low: 6.0
+  price_high: 15.0
 logistics:
 - name: Getting to Lak Tented Camp
   area: Lien Son, on National Highway 27

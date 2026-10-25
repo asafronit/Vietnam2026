@@ -123,6 +123,19 @@ class Record:
     # not guessed from commas: the traveller must be told the driver sees
     # just a town name.
     addr_vi_partial: bool = False
+    # 25/10, Asaf: every 4-5 star hotel says what its location means to a
+    # traveller, and lists strengths and weaknesses, each with a Hebrew twin.
+    # A hotel Asaf sent in himself (a reel, a friend): who recommended it.
+    # Sits outside MAX_HOTELS_PER_TIER, which caps the curated picks only.
+    recommended_by: str | None = None
+    # An overnight boat (Ha Long). Capped per tier separately from land hotels.
+    is_cruise: bool = False
+    loc_note: str | None = None
+    loc_note_he: str | None = None
+    pros: list[str] = field(default_factory=list)
+    cons: list[str] = field(default_factory=list)
+    pros_he: list[str] = field(default_factory=list)
+    cons_he: list[str] = field(default_factory=list)
     # Ways to reach a person. `whatsapp` is digits with or without punctuation;
     # the website strips everything but digits for the wa.me URL and renders it
     # as the purple action the link convention reserves for a human contact.
@@ -270,6 +283,15 @@ def validate_record(rec: Record) -> list[str]:
             )
         if not rec.price_checked:
             errors.append(f"{where}: price_checked date is required")
+        if rec.tier in (4, 5):
+            if not (rec.loc_note or "").strip() or not (rec.loc_note_he or "").strip():
+                errors.append(f"{where}: 4-5 star hotels need loc_note and loc_note_he")
+            for name in ("pros", "cons"):
+                en, he = getattr(rec, name), getattr(rec, name + "_he")
+                if not en:
+                    errors.append(f"{where}: 4-5 star hotels need {name}")
+                elif len(he) != len(en) or any(not str(h).strip() for h in he):
+                    errors.append(f"{where}: {name}_he must match {name} item for item")
 
     return errors
 
@@ -277,11 +299,13 @@ def validate_record(rec: Record) -> list[str]:
 def validate_hotels(place_id: str, hotels: list[Record]) -> list[str]:
     errors: list[str] = []
     for tier in HOTEL_TIERS:
-        count = sum(1 for h in hotels if h.tier == tier)
-        if count > MAX_HOTELS_PER_TIER:
-            errors.append(
-                f"{place_id}: {count} hotels in tier {tier}, max is {MAX_HOTELS_PER_TIER}"
-            )
+        for cruise, label in ((False, "hotels"), (True, "cruises")):
+            count = sum(1 for h in hotels if h.tier == tier and h.is_cruise == cruise
+                        and not h.recommended_by)
+            if count > MAX_HOTELS_PER_TIER:
+                errors.append(
+                    f"{place_id}: {count} {label} in tier {tier}, max is {MAX_HOTELS_PER_TIER}"
+                )
     return errors
 
 
@@ -345,7 +369,9 @@ def is_web_shippable(rec: Record) -> bool:
     coordinates for the website was inherited from the KML path by accident,
     and it was silently withholding roughly half the researched records from
     the site. Confidence and validity still gate; geocoding no longer does.
+    The one exception is a hotel Asaf sent in himself (25/10): he vouches for
+    it, and the card states its thin review base in its cons.
     """
-    if rec.confidence == "low":
+    if rec.confidence == "low" and not rec.recommended_by:
         return False
     return not validate_record(rec)

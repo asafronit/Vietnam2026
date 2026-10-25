@@ -25,6 +25,25 @@ hotels:
   why_he: 'בחירת שייט הלילה של המסלול — הצי החדש ביותר במפרץ, והמסלול המפורט ביותר
     מבין ההצעות שהושוו: קיאקים, סדנת בישול בשקיעה ועצירה במערת טרונג טראנג'
   addr_vi: Cảng Tuần Châu, Hạ Long, Quảng Ninh
+  loc_note: 'You sleep on the boat in the bay: board at Tuan Chau harbour (about 2.5
+    hours from Hanoi), so the location is the karst scenery itself.'
+  loc_note_he: 'ישנים על הסירה בתוך המפרץ: העלייה בנמל טואן צ''או (כ-2.5 שעות מהאנוי),
+    כך שהמיקום הוא נוף הצוקים עצמו.'
+  pros:
+  - Newest ship in the bay (2025), balcony cabins, elevator
+  - 'Full itinerary: kayaking, cave, cooking class'
+  - Meals included
+  pros_he:
+  - הספינה החדשה במפרץ (2025), תאים עם מרפסת, מעלית
+  - 'תוכנית מלאה: קיאקים, מערה, שיעור בישול'
+  - ארוחות כלולות
+  cons:
+  - Most expensive option
+  - Fixed schedule; cancelled in storms
+  cons_he:
+  - האפשרות היקרה ביותר
+  - לוח זמנים קבוע; מבוטל בסערה
+  is_cruise: true
 - name: Dora Cruise
   tier: 5
   tier_official: false
@@ -49,6 +68,24 @@ hotels:
   why_he: בחירת שייט הלילה החלופית, וההצעה הקבועה לשדרוג מספינה קודמת ומדורגת נמוך
     יותר באותה משפחת מפעילים
   addr_vi: Cảng Tuần Châu, Hạ Long, Quảng Ninh
+  loc_note: Overnight on the bay from Tuan Chau harbour - you wake up among the karsts,
+    no town nearby.
+  loc_note_he: לילה על המפרץ מנמל טואן צ'או - מתעוררים בין הצוקים, בלי עיר בסביבה.
+  pros:
+  - Spacious balcony cabins
+  - Multi-course set dinner
+  - Cheaper than Aqua for a similar standard
+  pros_he:
+  - תאים מרווחים עם מרפסת
+  - ארוחת ערב קבועה במנות
+  - זול מ-Aqua בסטנדרט דומה
+  cons:
+  - '''5-star'' is the product name, not a rating'
+  - Busy Ha Long route
+  cons_he:
+  - '''5 כוכבים'' הוא שם המוצר, לא דירוג'
+  - מסלול הא לונג העמוס
+  is_cruise: true
 - name: Mon Cheri Cruise
   tier: 4
   tier_official: false
@@ -73,6 +110,25 @@ hotels:
   why_he: מקבל ביקורות טובות באופן עקבי במסלולי לאן הא, ומתומחר מתחת לשתי אפשרויות
     5 הכוכבים ברמת תא דומה
   addr_vi: Bến Gót, Cát Hải, Hải Phòng
+  loc_note: Sails Lan Ha Bay from Got pier near Cat Ba - quieter waters than central
+    Ha Long, but a longer transfer from Hanoi.
+  loc_note_he: שט במפרץ לאן הא מרציף גוט ליד קאט בא - מים שקטים יותר ממרכז הא לונג,
+    אבל העברה ארוכה יותר מהאנוי.
+  pros:
+  - Every cabin has a balcony
+  - Lan Ha Bay - fewer boats
+  - Kayaking, squid fishing, jacuzzi
+  pros_he:
+  - לכל תא יש מרפסת
+  - מפרץ לאן הא - פחות סירות
+  - קיאקים, דיג דיונונים, ג'קוזי
+  cons:
+  - Longer transfer to Got pier
+  - 4-star standard
+  cons_he:
+  - העברה ארוכה יותר לרציף גוט
+  - סטנדרט 4 כוכבים
+  is_cruise: true
 - name: La Pandora Cruise
   tier: 4
   tier_official: true
@@ -96,6 +152,24 @@ hotels:
   why_he: מדורגת 4 כוכבים סטנדרטיים ואמינים לפי הצלבה עצמאית, ולא לפי שיווק הכוכבים
     המנופח שרווח במסלול הזה
   addr_vi: Cảng Tuần Châu, Hạ Long, Quảng Ninh
+  loc_note: Standard Ha Long Bay overnight from Tuan Chau - the classic route with
+    cave and viewpoint stops.
+  loc_note_he: לילה סטנדרטי בהא לונג מטואן צ'או - המסלול הקלאסי עם עצירות במערה ובתצפית.
+  pros:
+  - Dependable 4-star
+  - Balcony cabins
+  - Lowest price of the four boats
+  pros_he:
+  - 4 כוכבים אמין
+  - תאים עם מרפסת
+  - המחיר הנמוך מבין ארבע הסירות
+  cons:
+  - Busiest part of the bay
+  - Fewer activities than the newer boats
+  cons_he:
+  - החלק העמוס ביותר של המפרץ
+  - פחות פעילויות מהסירות החדשות
+  is_cruise: true
 - name: Hoang Giang Hotel
   tier: 3
   tier_official: true
@@ -144,6 +218,94 @@ hotels:
     המשך לאורחים שממשיכים ביבשה
   addr_vi: Thị trấn Cát Bà, Cát Hải, Hải Phòng
   addr_vi_partial: true
+- name: Novotel Ha Long Bay
+  tier: 4
+  tier_official: true
+  price_low: 35.0
+  price_high: 110.0
+  price_checked: '2026-10-25'
+  area: Bai Chay seafront, Ha Long city
+  area_he: טיילת באי צ'אי, העיר הא לונג
+  what: A 214-room Accor hotel on the Bai Chay seafront road facing the bay, with
+    an outdoor pool and sea-view rooms.
+  what_he: מלון Accor עם 214 חדרים על כביש החוף של באי צ'אי מול המפרץ, עם בריכה חיצונית
+    וחדרים עם נוף לים.
+  why: A dependable international 4-star on land for the night before or after a cruise,
+    at a fraction of cruise prices
+  why_he: 4 כוכבים בינלאומי ואמין על היבשה ללילה לפני או אחרי שייט, בחלק קטן ממחיר
+    השייט
+  confidence: medium
+  geocode_query: Novotel Ha Long Bay, Ha Long, Vietnam
+  sources:
+  - https://www.travelocity.com/Bai-Chay-Hotels-Novotel-Ha-Long-Bay.h2102731.Hotel-Information
+  - https://www.kayak.com/Ha-Long-Hotels-Novotel-Ha-Long-Bay.304046.ksp
+  coords:
+    lat: 20.9519701
+    lng: 107.0420228
+  addr_vi: Đường Hạ Long, Bãi Cháy, Hạ Long, Quảng Ninh
+  loc_note: On the Bai Chay seafront road facing the bay, 20-30 minutes from Tuan
+    Chau harbour - the classic night before a cruise.
+  loc_note_he: על כביש החוף של באי צ'אי מול המפרץ, 20-30 דקות מנמל טואן צ'או - הלילה
+    הקלאסי לפני שייט.
+  pros:
+  - Sea-view rooms over the bay
+  - Reliable Accor standard
+  - Low price
+  pros_he:
+  - חדרים עם נוף למפרץ
+  - סטנדרט Accor אמין
+  - מחיר נמוך
+  cons:
+  - Bai Chay is a busy resort strip
+  - Older building
+  cons_he:
+  - באי צ'אי היא רצועת נופש עמוסה
+  - בניין ותיק
+  coords_manual: true
+- name: Hotel Perle d'Orient Cat Ba - MGallery
+  tier: 5
+  tier_official: true
+  price_low: 92.0
+  price_high: 235.0
+  price_checked: '2026-10-25'
+  area: Cat Co 3 beach, Cat Ba town
+  area_he: חוף קאט קו 3, העיירה קאט בא
+  what: An Accor MGallery resort above Cat Co 3 beach on Cat Ba island, with an infinity
+    pool facing Lan Ha Bay.
+  what_he: ריזורט Accor MGallery מעל חוף קאט קו 3 באי קאט בא, עם בריכת אינפיניטי מול
+    מפרץ לאן הא.
+  why: The only international 5-star on Cat Ba - the base for Lan Ha Bay day boats
+    without an overnight cruise
+  why_he: ה-5 כוכבים הבינלאומי היחיד בקאט בא - בסיס לשייטי יום במפרץ לאן הא בלי לילה
+    על סירה
+  confidence: medium
+  geocode_query: Hotel Perle d'Orient Cat Ba MGallery, Cat Ba, Vietnam
+  sources:
+  - https://press.accor.com/middle-east-africa-turkey-asia-pacific/?p=12531
+  - https://www.travelocity.com/Hai-Phong-Hotels-Hotel-Perle-DOrient-Cat-Ba-MGallery.h44167516.Hotel-Information
+  coords:
+    lat: 20.7151779
+    lng: 107.0487626
+  addr_vi: Bãi Cát Cò 3, Thị trấn Cát Bà, Cát Hải, Hải Phòng
+  loc_note: Above Cat Co 3 beach a few minutes from Cat Ba town - the base for Lan
+    Ha Bay day boats and kayaking.
+  loc_note_he: מעל חוף קאט קו 3, כמה דקות מהעיירה קאט בא - הבסיס לשייטי יום ולקיאקים
+    במפרץ לאן הא.
+  pros:
+  - Infinity pool over Lan Ha Bay
+  - Only international 5-star on Cat Ba
+  - Beach steps away
+  pros_he:
+  - בריכת אינפיניטי מעל מפרץ לאן הא
+  - ה-5 כוכבים הבינלאומי היחיד בקאט בא
+  - החוף במרחק צעדים
+  cons:
+  - Expensive for Cat Ba
+  - Long trip from Hanoi (bus and boat)
+  cons_he:
+  - יקר ביחס לקאט בא
+  - דרך ארוכה מהאנוי (אוטובוס וסירה)
+  coords_manual: true
 must_see:
 - name: Ha Long Bay limestone karsts
   limiter: sea
@@ -166,6 +328,9 @@ must_see:
     צמחייה ובתוכם מערות. אתר מורשת עולמית של אונסק"ו מאז 1994.
   why_he: הסיבה שהרגל הזו של הטיול קיימת. הכי טוב לראות אותה לאט, מסיפון של ספינת
     לילה
+  price_unit: per_person
+  price_low: 35.0
+  price_high: 70.0
 - name: Cat Ba National Park
   area: Central Cat Ba Island
   what: A national park covering most of Cat Ba Island's interior, protecting tropical
@@ -188,6 +353,9 @@ must_see:
     מאז 2004.
   why_he: המקבילה המיוערת וברת ההליכה לאיים שמגיעים אליהם רק בסירה, וביתו של קוף הלנגור
     של קאט בה שנמצא בסכנת הכחדה חמורה
+  price_unit: entry
+  price_low: 3.0
+  price_high: 4.0
 attractions:
 - name: Deep water soloing, Lan Ha Bay
   limiter: sea
@@ -208,6 +376,9 @@ attractions:
     לים כשהאחיזה אוזלת. בדרך כלל טיול של חצי יום בשילוב קיאקים אל לגונות נסתרות.
   why_he: פעילות ההרפתקה המובחנת ביותר ברגל הזו של הטיול, וייחודית לקו החוף הגירי
     הזה
+  price_unit: per_person
+  price_low: 70.0
+  price_high: 100.0
 - name: Trung Trang Cave
   limiter: flood
   area: Cat Ba National Park, about 20-30 minutes from the port
@@ -230,6 +401,9 @@ attractions:
     וזקיפים שמגיעים אליהם בהליכה קצרה וקלה.
   why_he: עצירת מערה מהירה וללא מאמץ שמשתלבת במסלול השייט לצד הקיאקים, בלי להקדיש
     לה יום שלם
+  price_unit: entry
+  price_low: 2.0
+  price_high: 3.0
 restaurants:
 - name: Vien Duong Restaurant
   kind: vietnamese

@@ -24,6 +24,24 @@ hotels:
   why_he: הריזורט היחיד במחוז שמשתייך לרשת בינלאומית, אם כי האתרים המקומיים חלוקים
     אם מדובר ב-5 כוכבים מלאים או ב-4.5
   addr_vi: Thôn Đồng Tâm, Cúc Phương, Nho Quan, Ninh Bình
+  loc_note: Far out in Nho Quan near Cuc Phuong National Park, 30-40 minutes from
+    Trang An - a destination resort, not a base for walking out.
+  loc_note_he: רחוק בנו קוואן ליד הפארק הלאומי קוק פואנג, 30-40 דקות מטראנג אן - ריזורט
+    שהוא יעד בפני עצמו, לא בסיס ליציאות ברגל.
+  pros:
+  - Hot-mineral infinity pool on the river
+  - Only international chain in the province
+  - Kids' club, free kayaks
+  pros_he:
+  - בריכת אינפיניטי מים מינרליים חמים על הנהר
+  - הרשת הבינלאומית היחידה במחוז
+  - מועדון ילדים, קיאקים חינם
+  cons:
+  - 30-40 minutes from the boat trips
+  - Isolated - eat in the resort
+  cons_he:
+  - 30-40 דקות מהשייטים
+  - מבודד - אוכלים בריזורט
 - name: Ninh Binh Legend Hotel
   tier: 5
   tier_official: true
@@ -50,6 +68,24 @@ hotels:
   why_he: אפשרות 5 הכוכבים של מרכז העיר, למי שמעדיף לישון קרוב למסעדות ולתחנת הרכבת
     ולא בין הקארסטים
   addr_vi: Đường Lê Thái Tổ, Hoa Lư, Ninh Bình
+  loc_note: In Ninh Binh city near the train station - convenient for arriving by
+    train, 15-20 minutes by car to Trang An and Tam Coc.
+  loc_note_he: בעיר נין בין ליד תחנת הרכבת - נוח להגעה ברכבת, 15-20 דקות ברכב לטראנג
+    אן ולטאם קוק.
+  pros:
+  - Close to the station and restaurants
+  - Three pools, tennis, gym
+  - Lower price than resorts
+  pros_he:
+  - קרוב לתחנה ולמסעדות
+  - שלוש בריכות, טניס, חדר כושר
+  - מחיר נמוך מהריזורטים
+  cons:
+  - City setting, no karst view
+  - Big and impersonal
+  cons_he:
+  - סביבה עירונית, בלי נוף צוקים
+  - גדול ולא אישי
 - name: Emeralda Resort Ninh Binh
   tier: 4
   tier_official: true
@@ -74,6 +110,24 @@ hotels:
   why_he: מדורג בין קומץ המלונות המובילים במחוז כולו, ואחד הבודדים עם דירוג 4 כוכבים
     שנבדק רשמית ולא הוכרז עצמאית
   addr_vi: Khu bảo tồn Vân Long, Gia Vân, Gia Viễn, Ninh Bình
+  loc_note: On a private lake in Van Long Nature Reserve, about 15 minutes' drive
+    from Trang An - scenic and quiet, car needed.
+  loc_note_he: על אגם פרטי בשמורת ואן לונג, כ-15 דקות נסיעה מטראנג אן - נופי ושקט,
+    צריך רכב.
+  pros:
+  - Lake and karst setting
+  - Indoor pool, sauna, spa
+  - Officially assessed 4-star
+  pros_he:
+  - אגם וצוקים
+  - בריכה מקורה, סאונה, ספא
+  - 4 כוכבים בדירוג רשמי
+  cons:
+  - Need transport for everything
+  - Price varies a lot by date
+  cons_he:
+  - צריך תחבורה לכל דבר
+  - המחיר משתנה מאוד לפי תאריך
 - name: Ninh Binh Hidden Charm Hotel & Resort
   tier: 4
   tier_official: true
@@ -97,6 +151,24 @@ hotels:
   why_he: 4 כוכבים רשמיים, והמדורג הגבוה ביותר מבין המלונות בגודלו בנין בין — מקום
     3 מתוך יותר מ-120 בטריפאדוויזר, ולא בוטיק שדירג את עצמו
   addr_vi: Khu du lịch Tam Cốc - Bích Động, Ninh Thắng, Hoa Lư, Ninh Bình
+  loc_note: In Tam Coc among rice fields, walking distance to the Tam Coc boat pier
+    and the restaurants of Tam Coc village.
+  loc_note_he: בטאם קוק בין שדות אורז, מרחק הליכה לרציף הסירות של טאם קוק ולמסעדות
+    הכפר.
+  pros:
+  - Walk to the Tam Coc boats
+  - Pool, spa, two restaurants
+  - '#3 of 120+ on Tripadvisor'
+  pros_he:
+  - הליכה לסירות של טאם קוק
+  - בריכה, ספא, שתי מסעדות
+  - מקום 3 מתוך 120+ ב-Tripadvisor
+  cons:
+  - Tam Coc is touristy
+  - Trang An needs a short ride
+  cons_he:
+  - טאם קוק תיירותי
+  - לטראנג אן צריך נסיעה קצרה
 - name: Lalita Tam Coc Resort & Spa
   tier: 3
   tier_official: false
@@ -243,6 +315,9 @@ attractions:
   coords:
     lat: 20.283483
     lng: 105.8995986
+  price_unit: entry
+  price_low: 1.0
+  price_high: 1.0
 - name: Bai Dinh Pagoda
   price_low: 2.3
   price_high: 8.1

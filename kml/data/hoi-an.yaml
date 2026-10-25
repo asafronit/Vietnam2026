@@ -22,6 +22,24 @@ hotels:
   why_he: הבחירה המובילה של המפרט להוי אן — מקום שני מתוך למעלה מ-460 מלונות בעיר,
     ודירוג 5 מתוך 5 בטריפאדוויזר מאלפי ביקורות
   addr_vi: 132 Hùng Vương, Hội An, Đà Nẵng
+  loc_note: On Hung Vuong at the edge of the rice fields, about a 10-minute walk or
+    bike ride to the Old Town - quiet nights, easy access.
+  loc_note_he: ברחוב הונג וואנג בשולי שדות האורז, כ-10 דקות הליכה או רכיבה לעיר העתיקה
+    - לילות שקטים, גישה נוחה.
+  pros:
+  - Infinity pool over rice paddies
+  - Award-winning spa
+  - Free bikes into town
+  pros_he:
+  - בריכת אינפיניטי מעל שדות אורז
+  - ספא עטור פרסים
+  - אופניים חינם לעיר
+  cons:
+  - Not in the Old Town itself
+  - Popular - book early
+  cons_he:
+  - לא בתוך העיר העתיקה
+  - פופולרי - להזמין מוקדם
 - name: Almanity Hoi An Resort & Spa
   tier: 5
   tier_official: false
@@ -47,6 +65,27 @@ hotels:
   why_he: מהמלונות המדורגים ביותר בהוי אן בכל דרגה (9.2 מלמעלה מ-2,400 ביקורות), אם
     כי חלק מהמבקרים מדרגים את החוויה בפועל קרוב יותר ל-4 כוכבים חזק מאשר ל-5 אמיתי
   addr_vi: 326 Lý Thường Kiệt, Hội An, Đà Nẵng
+  loc_note: At 326 Ly Thuong Kiet, about 15 minutes' walk north-west of the Old Town
+    - a garden resort a short ride from the lanterns.
+  loc_note_he: ב-326 לי טואנג קיאט, כ-15 דקות הליכה צפון-מערבית לעיר העתיקה - ריזורט
+    גן במרחק נסיעה קצרה מהפנסים.
+  pros:
+  - Largest resort spa in Hoi An
+  - Japanese garden and koi pond
+  - 9.2/10 from 2,400+ reviews
+  pros_he:
+  - הספא הגדול ביותר בהוי אן
+  - גן יפני ובריכת קוי
+  - 9.2/10 מיותר מ-2,400 ביקורות
+  cons:
+  - 15 minutes' walk to the Old Town
+  - Some rate the experience below the score
+  cons_he:
+  - 15 דקות הליכה לעיר העתיקה
+  - יש מי שמדרג את החוויה נמוך מהציון
+  coords:
+    lat: 15.8836
+    lng: 108.3275049
 - name: Silkotel Hoi An
   tier: 4
   tier_official: true
@@ -74,6 +113,24 @@ hotels:
     שלישים ממחיר ה-5 כוכבים בסגנון ריזורט
   addr_vi: 14 Hùng Vương, Hội An, Đà Nẵng
   name_vi: Silkotel Hội An
+  loc_note: On Hung Vuong, a short walk to the Old Town's riverside streets - the
+    closest of the picks to the lanterns.
+  loc_note_he: ברחוב הונג וואנג, הליכה קצרה לרחובות הנהר של העיר העתיקה - הקרוב ביותר
+    לפנסים מבין המלונות.
+  pros:
+  - Walk to the Old Town
+  - Pool, spa and gym
+  - 9.1/10 at two-thirds of resort prices
+  pros_he:
+  - הליכה לעיר העתיקה
+  - בריכה, ספא וחדר כושר
+  - 9.1/10 בשני שליש ממחיר הריזורטים
+  cons:
+  - City hotel, no rice-field view
+  - Road-side rooms hear traffic
+  cons_he:
+  - מלון עירוני, בלי נוף לשדות
+  - חדרים לכביש שומעים תנועה
 - name: Lasenta Boutique Hotel Hoian
   tier: 4
   tier_official: true
@@ -101,6 +158,24 @@ hotels:
   why_he: הבחירה החלופית של המפרט לבריכת אינסוף עם נוף לשדות אורז, במחיר נמוך מלה
     סייסטה
   addr_vi: Lý Thường Kiệt, Hội An Đông, Hội An, Đà Nẵng
+  loc_note: On the edge of town among rice fields, about 2 km from the Old Town; the
+    free shuttle covers the Old Town and the beach.
+  loc_note_he: בשולי העיר בין שדות אורז, כ-2 ק"מ מהעיר העתיקה; הסעה חינם לעיר העתיקה
+    ולחוף.
+  pros:
+  - Infinity pool and 4th-floor bar over the paddies
+  - Free shuttle to town and beach
+  - Cheaper than La Siesta
+  pros_he:
+  - בריכת אינפיניטי ובר בקומה 4 מעל השדות
+  - הסעה חינם לעיר ולחוף
+  - זול מ-La Siesta
+  cons:
+  - Too far to walk to the Old Town at night
+  - Shuttle times limit you
+  cons_he:
+  - רחוק מדי להליכה לעיר העתיקה בלילה
+  - שעות ההסעה מגבילות
 - name: Hoian Central Hotel
   tier: 3
   tier_official: true
@@ -152,6 +227,55 @@ hotels:
   why_he: מדורג 5 מתוך 5 בטריפאדוויזר ממאות ביקורות למרות סיווג 3 הכוכבים הרשמי שלו
     — הרבה מעל טווח המחיר
   addr_vi: 239 Nguyễn Duy Hiệu, Hội An, Đà Nẵng
+  coords:
+    lat: 15.8783547
+    lng: 108.3373817
+- name: MAISON De CHINH - Hoi An Boutique Villa
+  tier: 3
+  tier_official: false
+  price_low: 27.0
+  price_high: 47.0
+  price_checked: '2026-10-25'
+  area: 163 Nguyen Trai, Cam Chau, between the Old Town and Cua Dai beach
+  what: A small boutique villa with a saltwater outdoor pool, a garden and a sun terrace,
+    among rice fields about 2.6 km from Cua Dai beach.
+  why: Recommended in a TikTok reel for its location between the Old Town and the
+    beach and its low price; only 3 Booking reviews so far
+  confidence: low
+  geocode_query: 163 Nguyen Trai, Hoi An, Vietnam
+  sources:
+  - https://www.booking.com/hotel/vn/maison-de-chinh-boutique-hoi-an.html
+  - TikTok @katerinawinnerr reel, screenshot sent 2026-10-25 (guide-inbox/media/2026-10-25_tiktok-katerinawinnerr-maison-de-chinh)
+  coords:
+    lat: 15.8897504
+    lng: 108.3522056
+  name_he: מזון דה צ'ין
+  area_he: נגוין טראי 163, קאם צ'או, בין העיר העתיקה לחוף קואה דאי
+  what_he: וילת בוטיק קטנה עם בריכת מי-מלח חיצונית, גינה ומרפסת שמש, בין שדות אורז
+    כ-2.6 ק"מ מחוף קואה דאי.
+  why_he: הומלץ בסרטון טיקטוק בזכות המיקום בין העיר העתיקה לחוף והמחיר הנמוך; רק 3
+    ביקורות ב-Booking עד כה
+  addr_vi: 163 Nguyễn Trãi, Cẩm Châu, Hội An, Đà Nẵng
+  recommended_by: TikTok @katerinawinnerr
+  loc_note: In Cam Chau, about 10 minutes by bike to the Old Town and 2.6 km to Cua
+    Dai beach - quiet nights, but not walking distance to the lanterns.
+  loc_note_he: בקאם צ'או, כ-10 דקות באופניים לעיר העתיקה ו-2.6 ק"מ לחוף קואה דאי -
+    לילות שקטים, אבל לא במרחק הליכה מהפנסים.
+  pros:
+  - Lowest price in the station ($27-47 on 12/11)
+  - Saltwater pool and garden
+  - Between town and beach, rice-field view
+  pros_he:
+  - המחיר הנמוך בתחנה: 27-47 דולר ללילה ב-12/11
+  - בריכת מי-מלח וגינה
+  - בין העיר לחוף, נוף לשדות אורז
+  cons:
+  - Only 3 reviews - the 10/10 score means little
+  - Free bikes claimed in the reel are not listed on Booking - ask
+  cons_he:
+  - רק 3 ביקורות - ציון 10/10 חסר משמעות
+  - האופניים בחינם מהסרטון לא מופיעים ב-Booking - לשאול
+  coords_manual: true
 must_see:
 - name: Hoi An Ancient Town and Japanese Covered Bridge
   area: Old Town, along the Thu Bon River
@@ -182,6 +306,9 @@ must_see:
   hours_he: דלפקי הכרטיסים 07:30 עד סביבות 20:00; הבתים ההיסטוריים ואולמות האספה עצמם
     08:30-18:00
   limiter: flood
+  price_unit: entry
+  price_low: 5.0
+  price_high: 5.0
 - name: Ba Na Hills and Golden Bridge
   limiter: wind
   area: Ba Na Mountain, ~45 minutes west of Da Nang
@@ -195,6 +322,7 @@ must_see:
   sources:
   - https://hoiandaytrip.com/ba-na-hills-tickets/
   - https://happytovisit.com/golden-bridge-ba-na-hills-marble-mountain-monkey-mountain/
+  - https://sunparadiseland.com/en/SunParadiseLandDaNang/tin-tuc/ba-na-hills-ticket-prices-2026-cable-car-fares-and-saving-tips-7745
   coords:
     lat: 16.0258471
     lng: 108.0362621
@@ -208,6 +336,10 @@ must_see:
     R6), והאתר המודרני המצולם ביותר במרכז ויאטנם
   hours: 08:00-22:00; last cable car down at 22:00
   hours_he: 08:00-22:00; הרכבל האחרון למטה ב-22:00
+  price_unit: entry
+  price_low: 38.0
+  price_high: 50.0
+  price_checked: '2026-10-25'
 attractions:
 - name: Marble Mountains (Ngu Hanh Son)
   area: Between Da Nang and Hoi An, on the coast road
@@ -233,6 +365,9 @@ attractions:
     ממנה
   hours: 07:00-17:30 daily, lift included
   hours_he: 07:00-17:30 כל יום, כולל המעלית
+  price_unit: entry
+  price_low: 2.0
+  price_high: 3.0
 - name: An Bang Beach surf lesson
   area: An Bang Beach, ~3km east of Old Town
   what: A stretch of sandy beach with gentle, beginner-friendly waves, where expat-run
@@ -254,6 +389,9 @@ attractions:
     זרים משכירים גלשנים ומעבירים שיעורים. עונת הגלישה נמשכת בערך מספטמבר עד מרץ.
   why_he: אפשרות הגלישה האמיתית של הוי אן, ורכיבת אופניים של 20 דקות מהעיר העתיקה
     דרך שדות אורז
+  price_unit: per_person
+  price_low: 25.0
+  price_high: 45.0
 - name: Cam Thanh coconut forest basket boat ride
   area: Bay Mau coconut forest, Cam Thanh village, ~5km from Old Town
   what: A round bamboo 'basket boat' (thung chai) paddled through the water canals
@@ -273,6 +411,9 @@ attractions:
   why_he: חלופה קלה וקרובה יותר לעיר לחוויית סירות הסל של דלתת המקונג, ופופולרית במיוחד
     עם משפחות. הסירות לא יוצאות בימי שיטפון או טייפון
   limiter: flood
+  price_unit: per_person
+  price_low: 6.0
+  price_high: 10.0
 street_food:
 - name: Banh Mi Phuong
   kind: vietnamese
@@ -702,6 +843,9 @@ spa:
     ומוחלים חמים — לצד עיסוי גוף וכפות רגליים רגיל.
   why_he: 4.8 מתוך 5 מלמעלה מאלפיים ביקורות בקלוק, ומדורג ראשון בטריפאדוויזר מאז 2019
     — בסיס ביקורות עמוק בהרבה מכל ספא בהאנוי
+  price_unit: per_hour
+  price_low: 15.0
+  price_high: 30.0
 - name: Ocean Spa Hoi An
   area: Near An Bang Beach
   what: A spa near An Bang beach offering body, foot and herbal treatments away from
@@ -722,6 +866,9 @@ spa:
   what_he: ספא ליד חוף אן באנג שמציע טיפולי גוף, כפות רגליים וצמחים, הרחק מההמון של
     העיר העתיקה.
   why_he: 4.9 מתוך 5 מלמעלה מ-1,300 ביקורות, וקרוב מספיק לחוף כדי לשלב עם שחייה
+  price_unit: per_hour
+  price_low: 12.0
+  price_high: 25.0
 diving:
 - name: Cham Island snorkeling / diving day trip
   area: Cu Lao Cham, ~15-20 minutes by speedboat from Cua Dai
@@ -752,6 +899,9 @@ diving:
     ולכן מפעיל שעדיין מוכר את זה לסוף אוקטובר או לנובמבר מוכר מזג אוויר שאינו יכול
     לספק. צלילת השונית לתאריכים האלה היא אן תוי בדרום פו קוק, שם נובמבר פותח את החלון
     הטוב ביותר
+  price_unit: per_person
+  price_low: 25.0
+  price_high: 90.0
 contacts:
 - name: Hoi An Wanderlust - Mr. Quan
   area: Based in Hoi An; quoted the whole trip

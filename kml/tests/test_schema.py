@@ -19,6 +19,10 @@ def hotel(**over):
         sources=["https://booking.com/a", "https://tripadvisor.com/b"],
         tier=5, tier_official=True, price_low=80.0, price_high=137.0,
         price_checked="2026-08-16", price_unit="per_night",
+        loc_note="Two minutes' walk to Hoan Kiem Lake and the Old Quarter food streets.",
+        loc_note_he="שתי דקות הליכה מאגם הואן קיים ומרחובות האוכל של הרובע העתיק.",
+        pros=["Rooftop pool"], pros_he=["בריכה על הגג"],
+        cons=["Small rooms"], cons_he=["חדרים קטנים"],
     )
     base.update(over)
     return Record(**base)
@@ -294,3 +298,53 @@ def test_ordinary_venue_is_not_placeless():
 
 def test_placeless_record_may_omit_geocode_query():
     assert validate_record(food(is_dish=True, geocode_query="")) == []
+
+
+# ---------- 25/10: 4-5 star hotels explain location, strengths, weaknesses ----------
+
+def test_upscale_hotel_without_location_note_is_rejected():
+    errs = validate_record(hotel(loc_note=None, loc_note_he=None))
+    assert any("loc_note" in e for e in errs)
+
+
+def test_upscale_hotel_without_cons_is_rejected():
+    errs = validate_record(hotel(cons=[], cons_he=[]))
+    assert any("cons" in e for e in errs)
+
+
+def test_hebrew_pros_must_match_english_item_for_item():
+    errs = validate_record(hotel(pros=["Pool", "View"], pros_he=["בריכה"]))
+    assert any("pros_he" in e for e in errs)
+
+
+def test_three_star_hotel_does_not_need_the_breakdown():
+    errs = validate_record(hotel(tier=3, loc_note=None, loc_note_he=None, pros=[], pros_he=[], cons=[], cons_he=[]))
+    assert not any(k in e for e in errs for k in ("loc_note", "pros", "cons"))
+
+
+def test_recommended_hotel_sits_outside_the_tier_cap():
+    # 25/10: a hotel Asaf sent in himself is added on top of the curated two.
+    hotels = [hotel(name=f"H{i}", tier=3) for i in range(2)]
+    hotels.append(hotel(name="Pick", tier=3, recommended_by="TikTok @katerinawinnerr"))
+    assert validate_hotels("hoi-an", hotels) == []
+
+
+def test_recommended_hotel_does_not_hide_a_cap_breach():
+    hotels = [hotel(name=f"H{i}", tier=3) for i in range(3)]
+    hotels.append(hotel(name="Pick", tier=3, recommended_by="TikTok @katerinawinnerr"))
+    assert validate_hotels("hoi-an", hotels) != []
+
+
+def test_cruises_and_land_hotels_have_separate_tier_caps():
+    # Ha Long sleeps on boats; the land hotels for the nights around a cruise
+    # are a different choice and must not be squeezed out by them.
+    boats = [hotel(name=f"B{i}", tier=5, is_cruise=True) for i in range(2)]
+    land = [hotel(name=f"L{i}", tier=5) for i in range(2)]
+    assert validate_hotels("ha-long", boats + land) == []
+    assert validate_hotels("ha-long", boats + land + [hotel(name="B9", tier=5, is_cruise=True)]) != []
+
+
+def test_a_hotel_asaf_sent_in_ships_to_the_web_even_at_low_confidence():
+    from kmlpool.schema import is_web_shippable
+    assert not is_web_shippable(hotel(confidence="low"))
+    assert is_web_shippable(hotel(confidence="low", recommended_by="TikTok @k"))

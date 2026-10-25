@@ -26,6 +26,24 @@ hotels:
   why_he: מדורג רשמית 5 כוכבים בסטנדרט של רשת בינלאומית, וחדרי הכניסה שלו נשארים מתחת
     לתקרת המחיר של הטיול למרות המותג
   addr_vi: Đường tỉnh 975B, Gành Dầu, Phú Quốc, An Giang
+  loc_note: Despite the name it is on Bai Dai in the far north-west, about 45 minutes
+    from the airport and far from Duong Dong's night market.
+  loc_note_he: למרות השם הוא בבאי דאי בצפון-מערב הרחוק, כ-45 דקות משדה התעופה ורחוק
+    משוק הלילה של דואונג דונג.
+  pros:
+  - Beachfront on a quiet beach
+  - International-chain 5-star
+  - Several pools and restaurants
+  pros_he:
+  - על החוף בחוף שקט
+  - 5 כוכבים של רשת בינלאומית
+  - כמה בריכות ומסעדות
+  cons:
+  - Isolated - 45 minutes from town
+  - Not on Long Beach
+  cons_he:
+  - מבודד - 45 דקות מהעיר
+  - לא בלונג ביץ'
 - name: Dusit Princess Moonrise Beach Resort
   tier: 5
   tier_official: false
@@ -51,6 +69,24 @@ hotels:
   why_he: משווק ומדורג כ-5 כוכבים ע"י הריזורט וע"י מחקר סוכנות עצמאי, אם כי אתר הזמנות
     אחד מתאר אותו כבנוי לתקן 4 כוכבים — ולכן מסומן כאן כהצהרה עצמית
   addr_vi: Trần Hưng Đạo, Cửa Lấp, Dương Tơ, Phú Quốc, An Giang
+  loc_note: In Cua Lap, three minutes' walk to Long Beach and about 10-15 minutes
+    by car to Duong Dong town and the night market.
+  loc_note_he: בקואה לאפ, שלוש דקות הליכה ללונג ביץ' וכ-10-15 דקות ברכב לעיר דואונג
+    דונג ולשוק הלילה.
+  pros:
+  - Close to Long Beach
+  - Pool, kids' club, free shuttle
+  - Top-rated hotel in its ward
+  pros_he:
+  - קרוב ללונג ביץ'
+  - בריכה, מועדון ילדים, הסעה חינם
+  - המלון המדורג ביותר באזורו
+  cons:
+  - Not directly on the sand
+  - Star rating 4 or 5 depending on source
+  cons_he:
+  - לא ישירות על החול
+  - דירוג 4 או 5 לפי המקור
 - name: L'Azure Resort and Spa
   tier: 4
   tier_official: true
@@ -77,6 +113,24 @@ hotels:
   why_he: 4 כוכבים רשמיים עם ציון אורחים 9.4 עד 9.5, וה-4 כוכבים המדורג ביותר באופן
     עקבי במאגר
   addr_vi: Trần Hưng Đạo, Dương Đông, Phú Quốc, An Giang
+  loc_note: In Duong Dong on its own small beach - walkable or a short ride to the
+    night market and town restaurants.
+  loc_note_he: בדואונג דונג על חוף קטן משלו - הליכה או נסיעה קצרה לשוק הלילה ולמסעדות
+    העיר.
+  pros:
+  - Private beach
+  - 9.4-9.5 guest score
+  - Low-rise garden design
+  pros_he:
+  - חוף פרטי
+  - ציון אורחים 9.4-9.5
+  - עיצוב נמוך עם גנים
+  cons:
+  - Small resort, limited dining
+  - Rustic style is not for everyone
+  cons_he:
+  - ריזורט קטן, מעט אפשרויות אוכל
+  - הסגנון הכפרי לא מתאים לכולם
 - name: AVS Hotel Phu Quoc
   tier: 4
   tier_official: true
@@ -103,6 +157,23 @@ hotels:
   why_he: 4 כוכבים רשמיים, ומדורג בעשרים המלונות המובילים באי לפי ביקורות אורחים למרות
     מחיר שצמוד לתקציבי
   addr_vi: Trần Hưng Đạo, Dương Đông, Phú Quốc, An Giang
+  loc_note: In Duong Dong, 100 m from the beach and close to the night market - the
+    most convenient base for eating out.
+  loc_note_he: בדואונג דונג, 100 מ' מהחוף וקרוב לשוק הלילה - הבסיס הכי נוח לאכול בחוץ.
+  pros:
+  - 100 m from the beach
+  - Near the night market
+  - Low price for an official 4-star
+  pros_he:
+  - 100 מ' מהחוף
+  - קרוב לשוק הלילה
+  - מחיר נמוך ל-4 כוכבים רשמי
+  cons:
+  - Town hotel, not a resort
+  - Street noise
+  cons_he:
+  - מלון עירוני, לא ריזורט
+  - רעש רחוב
 - name: Hung Vuong Resort
   tier: 3
   tier_official: true
@@ -163,6 +234,7 @@ must_see:
   sources:
   - https://blog.premierresidencesphuquoc.com/hon-thom-cable-car/
   - https://www.vietjetair.com/en/news/travel-guides-1665635013747/hon-thom-phu-quoc-cable-car-review-the-worlds-longest-sea-crossing-cable-car-1768878737803
+  - https://visitphuquoc.com.vn/en/sun-world-hon-thom-2026-ticket-update-ride-the-worlds-longest-cable-car-what-to-play-for-a-blast-8467
   coords:
     lat: 9.9920077
     lng: 104.0124425
@@ -174,6 +246,10 @@ must_see:
     לפארק סאן וורלד שבהון תום
   hours: 09:00-17:00, with the cars stopped between 12:00 and 13:00
   hours_he: 09:00-17:00, והקרונות עוצרים בין 12:00 ל-13:00
+  price_unit: entry
+  price_low: 27.0
+  price_high: 33.0
+  price_checked: '2026-10-25'
 diving:
 - name: An Thoi archipelago - the dive area
   area: Southern Phu Quoc, reached from An Thoi town
@@ -202,6 +278,9 @@ diving:
   why_he: המקום היחיד במסלול הזה שבו צלילה באמת עובדת בסוף נובמבר. העונה נמשכת מנובמבר
     עד אפריל, הראות מגיעה ל-15 עד 20 מטר מסוף נובמבר, והמונסון הצפון-מזרחי שסוגר את
     הצפון והמזרח של האי משאיר את הדרום רגוע
+  price_unit: per_person
+  price_low: 75.0
+  price_high: 110.0
 - name: Rainbow Divers fun dive, An Thoi archipelago
   area: An Thoi, southern Phu Quoc
   what: A twin-deck dive boat trip from Vietnam's longest-established PADI dive centre
@@ -228,6 +307,9 @@ diving:
     מדויק — עונת אן תוי נמשכת מנובמבר עד אפריל, הראות מגיעה ל-15 עד 20 מטר מסוף נובמבר,
     והאתרים הדרומיים בעומק ממוצע של כשמונה מטרים — הרבה בתוך גבול 18 המטרים של Open
     Water
+  price_unit: per_person
+  price_low: 85.0
+  price_high: 115.0
 - name: Discover Scuba Diving for beginners
   area: An Thoi archipelago, southern Phu Quoc
   what: A no-certification-required introduction to scuba, run one-on-one with an
@@ -248,6 +330,9 @@ diving:
     ותרגול מיומנויות במים רדודים.
   why_he: האפשרות למטייל הלא-מוסמך לצלול לצד הצולל המוסמך באותה יציאה, במקום להישאר
     לשנורקל
+  price_unit: per_person
+  price_low: 90.0
+  price_high: 130.0
 - name: Flipper Diving Club
   area: Duong Dong, Phu Quoc
   what: A PADI centre running smaller groups than the larger outfits, with instructors
@@ -268,6 +353,9 @@ diving:
     בדואונג דונג.
   why_he: החלופה למפעילה הגדולה של האי, וזו שמבקרים פונים אליה כשרוצים סירה קטנה ולא
     מלאה. יותר ביקורות מכל מרכז צלילה אחר כאן, מה שהופך את הדירוג למשמעותי
+  price_unit: per_person
+  price_low: 75.0
+  price_high: 105.0
 - name: John's Tours - the quote on file
   area: Southern Phu Quoc, An Thoi; hotel pickup included
   what: A direct dive club, not booked through an agency, which sent a detailed written
@@ -307,7 +395,6 @@ diving:
   coords:
     lat: 10.1942845
     lng: 103.9674837
-  location_precision: approximate
   phone: '+84974990999'
   email: salemanager.johnstours@phuquoctrip.com
 - name: Hon Thom (Pineapple Island) dive sites
@@ -336,6 +423,9 @@ diving:
   coords:
     lat: 9.9920077
     lng: 104.0124425
+  price_unit: per_person
+  price_low: 75.0
+  price_high: 110.0
 - name: Hon Roi (Roi Island) dive sites
   area: An Thoi archipelago, between the shore and an offshore pearl farm
   what: Roi East sits in the channel between the island shore and a pearl farm, with
@@ -357,6 +447,9 @@ diving:
   why_he: האתר הנכון לצלילה ראשונה בחיים. עשרה מטרים מקסימום, מים מוגנים וחיים קטנים
     להסתכל עליהם מקרוב — וזה בדיוק מה שמקום של צלילת היכרות שתקרתה שישה מטרים באמת
     צריך, ולא עומק שאינו יכול להשתמש בו
+  price_unit: per_person
+  price_low: 75.0
+  price_high: 110.0
 - name: Hon Dua (Coco Island) and the porcelain wreck
   area: An Thoi archipelago, the island closest to An Thoi town
   what: The nearest island to An Thoi town, which makes it the shortest boat ride
@@ -380,6 +473,9 @@ diving:
     lat: 9.996007
     lng: 104.0104165
   location_precision: approximate
+  price_unit: per_person
+  price_low: 75.0
+  price_high: 110.0
 attractions:
 - name: Vinpearl Safari Phu Quoc
   area: Bai Dai, northwest Phu Quoc
@@ -405,6 +501,9 @@ attractions:
   why_he: פארק החי הגדול במדינה, ואפשרות ליום שלם שאינה דורשת חוף או סירה
   hours: 09:00-16:00 daily
   hours_he: 09:00-16:00 כל יום
+  price_unit: entry
+  price_low: 25.0
+  price_high: 30.0
 markets:
 - name: Phu Quoc Night Market (Dinh Cau)
   area: Duong Dong, Bach Dang street

@@ -22,6 +22,24 @@ hotels:
   why_he: 5 כוכבים רשמיים, ונכס היוקרה הגדול המדורג ביותר בסאפה. מתומחר הרבה מתחת
     ל-5 הכוכבים של האנוי וסייגון
   addr_vi: Đồi Quan 6, Sa Pa, Lào Cai
+  loc_note: On the hillside above Sun Plaza, about 1.5 km from the town centre - close
+    to the Fansipan train, a short walk downhill to town.
+  loc_note_he: על הגבעה מעל Sun Plaza, כ-1.5 ק"מ ממרכז העיירה - קרוב לרכבת לפנסיפן,
+    הליכה קצרה במורד לעיירה.
+  pros:
+  - Official 5-star, indoor pool and spa
+  - Large quiet resort
+  - Far cheaper than city 5-stars
+  pros_he:
+  - 5 כוכבים רשמי, בריכה מקורה וספא
+  - ריזורט גדול ושקט
+  - זול בהרבה מ-5 כוכבים בערים
+  cons:
+  - Uphill walk back from town
+  - Mist can hide the view in November
+  cons_he:
+  - עלייה בחזרה מהעיירה
+  - ערפל עלול להסתיר את הנוף בנובמבר
 - name: Pao's Sapa Leisure Hotel
   tier: 5
   tier_official: true
@@ -51,6 +69,24 @@ hotels:
     כ-5 כוכבים רשמיים. שימו לב שכמה מבקרים אומרים שאיכות החדר מרגישה קרובה יותר ל-3
     כוכבים במונחים מערביים — כלומר הדירוג נובע מהמיקום ומהמתקנים ולא מרמת הגימור
   addr_vi: Đường Violet, Sa Pa, Lào Cai
+  loc_note: On Violet street on the hillside, overlooking the Muong Hoa valley and
+    Fansipan, a short walk to the town centre.
+  loc_note_he: ברחוב ויולט על הגבעה, משקיף על עמק מואנג הואה ועל פנסיפן, הליכה קצרה
+    למרכז העיירה.
+  pros:
+  - Valley and Fansipan views
+  - 'Official 5-star, #3 in Sapa'
+  - Big terraces
+  pros_he:
+  - נוף לעמק ולפנסיפן
+  - 5 כוכבים רשמי, מקום 3 בסאפה
+  - מרפסות גדולות
+  cons:
+  - Rooms feel closer to 4-star
+  - 223 rooms - busy
+  cons_he:
+  - החדרים מרגישים כמו 4 כוכבים
+  - 223 חדרים - עמוס
 - name: Pistachio Hotel Sapa
   tier: 4
   tier_official: true
@@ -75,6 +111,23 @@ hotels:
     שסומן בבעיות עובש
   addr_vi: Sa Pa, gần ga cáp treo Fansipan Legend, Lào Cai
   addr_vi_partial: true
+  loc_note: Next to the Fansipan Legend cable-car station area in town, with the town
+    centre a short walk away.
+  loc_note_he: ליד אזור תחנת הרכבל Fansipan Legend בעיירה, ומרכז העיירה בהליכה קצרה.
+  pros:
+  - Sapa's highest rooftop infinity pool
+  - Fansipan and valley views
+  - Best-reviewed plain 4-star
+  pros_he:
+  - בריכת האינפיניטי הגבוהה בסאפה
+  - נוף לפנסיפן ולעמק
+  - ה-4 כוכבים המדורג ביותר
+  cons:
+  - Pool is seasonal - may be closed in November
+  - Pricier than most 4-stars
+  cons_he:
+  - הבריכה עונתית - ייתכן שסגורה בנובמבר
+  - יקר מרוב ה-4 כוכבים
 - name: Aliana Boutique Sapa Hotel & Spa
   tier: 4
   tier_official: false
@@ -101,6 +154,22 @@ hotels:
     בוטיק ולא כדירוג רשמי
   addr_vi: Sa Pa, Lào Cai
   addr_vi_partial: true
+  loc_note: In Sapa town, walkable to the stone church, the market and the restaurants.
+  loc_note_he: בעיירת סאפה, במרחק הליכה מכנסיית האבן, מהשוק ומהמסעדות.
+  pros:
+  - Heated pool and spa
+  - Mountain-view rooms
+  - '#9 of 188, many reviews'
+  pros_he:
+  - בריכה מחוממת וספא
+  - חדרים עם נוף להרים
+  - מקום 9 מתוך 188, הרבה ביקורות
+  cons:
+  - Star rating inflated on some sites
+  - Town-centre noise
+  cons_he:
+  - הדירוג מנופח בחלק מהאתרים
+  - רעש ממרכז העיירה
 - name: Sapa Centre Hotel
   tier: 3
   tier_official: true
@@ -159,6 +228,7 @@ must_see:
   geocode_query: Fansipan Legend Cable Car station, Sapa, Vietnam
   sources:
   - https://junglebosstours.com/explorer/tourism-blog/fansipan-mountain-sapa
+  - https://www.trvlogue.com/en/fansipan-cable-car-sapa-tickets
   coords:
     lat: 22.3218699
     lng: 103.7995338
@@ -174,6 +244,10 @@ must_see:
     07:30-14:30; last descent about 16:00-17:00; weather can stop it'
   hours_he: 'עלייה ברכבל: שני-חמישי 08:00-14:30, שישי 08:00-15:30, שבת 07:30-15:30,
     ראשון 07:30-14:30; ירידה אחרונה בסביבות 16:00-17:00; מזג האוויר יכול לעצור אותו'
+  price_unit: per_person
+  price_low: 33.0
+  price_high: 41.0
+  price_checked: '2026-10-25'
 - name: Cat Cat Village
   area: San Sa Ho commune, about 3km from Sapa town
   what: A Black H'mong village at the entrance to the Muong Hoa Valley, founded in
@@ -193,6 +267,9 @@ must_see:
   what_he: כפר של המונג השחורים בכניסה לעמק מואונג הואה, שנוסד באמצע המאה ה-19, ובו
     שלושה נחלים שנפגשים במפל קאט קאט ושני גשרי שרשרת להולכי רגל שחוצים אותו.
   why_he: כפר המיעוטים הנגיש ביותר מהעיירה סאפה, ואפשר להקיף אותו ברגל בחצי יום
+  price_unit: entry
+  price_low: 6.0
+  price_high: 6.0
 - name: Sapa Stone Church and Sun Plaza
   area: Central Sapa town
   what: A Roman-Gothic stone church built in 1926-1935 at the foot of Ham Rong mountain,
@@ -209,6 +286,7 @@ must_see:
   what_he: כנסיית אבן בסגנון רומי-גותי שנבנתה בין 1926 ל-1935 למרגלות הר האם רונג,
     ופונה אל הכיכר המרוצפת שמתפקדת כמרכז החברתי של העיירה ונקודת המוצא של רכבת ההרים.
   why_he: המרכז המילולי של העיירה סאפה, ונקודת העוגן של שוק הלילה של שבת
+  price_unit: free
 attractions:
 - name: Black H'mong village trek, Muong Hoa Valley
   area: Muong Hoa Valley, villages south of Sapa town (Lao Chai, Ta Van)
@@ -227,6 +305,9 @@ attractions:
     ודאו בעמק שמתחת לסאפה, בדרך כלל בהובלת מדריכה מקומית מבנות המונג או הדאו.
   why_he: הדרך המהותית ביותר לראות את נוף המדרגות ולפגוש משפחות מקומיות, ולא רק לצלם
     את העמק מנקודת תצפית
+  price_unit: per_person
+  price_low: 15.0
+  price_high: 35.0
 markets:
 - name: Sapa Love Market
   area: Central square, in front of Sapa Stone Church
@@ -315,3 +396,6 @@ spa:
     של בני הדאו האדום, במחירי רחוב ולא במחירי מלון.
   why_he: הדרך הזולה להגיע לאותו אמבט צמחי, והביקורות מציינות ידיים חזקות באמת לרקמות
     עמוקות — וזה מה ששוקיים כואבות צריכות
+  price_unit: per_hour
+  price_low: 8.0
+  price_high: 15.0

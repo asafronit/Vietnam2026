@@ -27,6 +27,8 @@ def rec(category="food", name="Bun Cha", conf="high", lat=21.0, lng=105.8):
         r.tier, r.tier_official = 5, True
         r.price_low, r.price_high, r.price_checked = 80.0, 137.0, "2026-08-16"
         r.price_unit = "per_night"
+        r.loc_note, r.loc_note_he = "Near the lake.", "ליד האגם."
+        r.pros, r.pros_he, r.cons, r.cons_he = ["Pool"], ["בריכה"], ["Small rooms"], ["חדרים קטנים"]
     return r
 
 

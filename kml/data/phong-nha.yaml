@@ -27,6 +27,24 @@ hotels:
     עצמית
   addr_vi: Sơn Trạch, Phong Nha, Quảng Trị
   addr_vi_partial: true
+  loc_note: In the paddies about 2 km from Phong Nha town and the national park visitor
+    centre - quiet, with a short ride to the cave boats.
+  loc_note_he: בין שדות האורז כ-2 ק"מ מהעיירה פונג נה וממרכז המבקרים של הפארק - שקט,
+    נסיעה קצרה לסירות למערות.
+  pros:
+  - Karst mountain views
+  - Outdoor pool
+  - Close to the visitor centre
+  pros_he:
+  - נוף להרי הצוקים
+  - בריכה חיצונית
+  - קרוב למרכז המבקרים
+  cons:
+  - Small property, simple service
+  - Star rating varies by site (3-4)
+  cons_he:
+  - מקום קטן, שירות פשוט
+  - הדירוג משתנה בין אתרים (3-4)
 - name: Phong Nha Lake House Resort
   tier: 3
   tier_official: false
@@ -94,6 +112,7 @@ must_see:
   geocode_query: Phong Nha Cave boat station, Son Trach, Quang Binh, Vietnam
   sources:
   - https://junglebosstours.com/explorer/tourism-blog/phong-nha-cave-vietnam-tour-guide
+  - https://www.vietnamtourism.com/en/phong-nha-ke-bang-national-park-tickets-complete-2026-price-guide-and-cave-selection
   name_he: שייט למערת פונג ניה
   area_he: מרכז התיירות של פונג ניה, נהר סון
   what_he: שייט של חצי שעה בסירת עץ במעלה נהר סון אל תוך מערת תצוגה מוארת באורך קילומטר
@@ -103,6 +122,10 @@ must_see:
     (in November, closures of 2-5 days)
   hours_he: בערך 08:00-16:00; להגיע עד 14:00. הסירות לא יוצאות כשנהר סון מוצף (בנובמבר,
     סגירות של 2-5 ימים)
+  price_unit: per_person
+  price_low: 6.0
+  price_high: 9.0
+  price_checked: '2026-10-25'
 - name: Paradise Cave
   limiter: flood
   area: Phong Nha-Ke Bang National Park
@@ -116,6 +139,7 @@ must_see:
   sources:
   - https://www.vietnamtourism.com/en/phong-nha-ke-bang-national-park-tickets-complete-2026-price-guide-and-cave-selection-2
   - https://oxalisadventure.com/paradise-cave-in-phong-nha/
+  - https://www.vietnamtourism.com/en/phong-nha-ke-bang-national-park-tickets-complete-2026-price-guide-and-cave-selection
   coords:
     lat: 17.5192008
     lng: 106.223045
@@ -128,6 +152,10 @@ must_see:
     הזמנה מראש
   hours: 07:30-16:30, last entry 16:30
   hours_he: 07:30-16:30, כניסה אחרונה ב-16:30
+  price_unit: entry
+  price_low: 10.0
+  price_high: 11.0
+  price_checked: '2026-10-25'
 attractions:
 - name: Son Doong Cave Expedition
   limiter: flood
@@ -144,6 +172,7 @@ attractions:
   sources:
   - https://oxalisadventure.com/tour/son-doong-cave-expedition-4d3n/
   - https://sondoongcave.info/exploration/how-to-get-to-son-doong-cave/
+  - https://www.vietnamtourism.com/en/son-doong-cave-the-complete-guide-to-the-world-s-largest-cave
   name_he: משלחת מערת סון דונג
   area_he: עמוק בפארק הלאומי, טרק רב-יומי מקילומטר 37
   what_he: משלחת של ארבעה ימים ושלושה לילות אל מעבר המערה הגדול בעולם — גדול מספיק
@@ -153,6 +182,10 @@ attractions:
     באזור, ולכן צריך לסמן אותה מוקדם אם רוצים אותה. לא אפשרי בתאריכי הטיול: אוקסליס
     מפעילים אותו רק בינואר-אוגוסט, ו-2027-2028 כבר מלאות'
   avoid: true
+  price_unit: per_person
+  price_low: 2850.0
+  price_high: 3000.0
+  price_checked: '2026-10-25'
 - name: Hang En Cave trek
   limiter: flood
   area: Phong Nha-Ke Bang National Park, Tu Lan area
@@ -166,6 +199,7 @@ attractions:
   geocode_query: Hang En Cave, Phong Nha-Ke Bang National Park, Quang Binh, Vietnam
   sources:
   - https://oxalisadventure.com/tour/hang-en-adventure-cave-camp/
+  - https://www.vietnamtourism.com/en/son-doong-cave-the-complete-guide-to-the-world-s-largest-cave
   name_he: טרק מערת האנג אן
   area_he: הפארק הלאומי, אזור טו לאן
   what_he: טרק של יומיים ולילה אחד אל המערה השלישית בגודלה בעולם, עם לינה על גדת חול
@@ -174,6 +208,10 @@ attractions:
     מחנה מדברי אמיתי בתוך מערה. סגור מאמצע ספטמבר עד דצמבר, ולכן לא אפשרי בתאריכי
     הטיול
   avoid: true
+  price_unit: per_person
+  price_low: 340.0
+  price_high: 360.0
+  price_checked: '2026-10-25'
 - name: Tu Lan cave system
   limiter: flood
   area: Tan Hoa commune, ~65km from Phong Nha town
@@ -196,6 +234,9 @@ attractions:
   why_he: טווח הקושי הרחב ביותר מכל מוצרי המערות של פונג ניה — יום אחד של שחייה במערות,
     או כמה ימי משלחת ג'ונגל אמיתית, מאותו מפעיל. משלחת הימים מתחילה רק מאמצע נובמבר,
     וקטעי השחייה תלויים במפלס המים
+  price_unit: per_person
+  price_low: 100.0
+  price_high: 220.0
 - name: Hang Tien cave day trek
   limiter: flood
   area: Phong Nha-Ke Bang National Park, Tu Lan area
@@ -214,6 +255,9 @@ attractions:
     בלי המחויבות הרב-יומית של טו לאן או האנג אן.
   why_he: האפשרות האמצעית בין מערת מסלול-עץ למשלחת רב-יומית. סומנה במחקר המאומת של
     הפרויקט למי שרוצה טרק אמיתי בלי הלילות הנוספים
+  price_unit: per_person
+  price_low: 90.0
+  price_high: 120.0
 - name: Dark Cave zipline and mud bath
   limiter: flood
   area: Chay River, Phong Nha-Ke Bang National Park
@@ -239,6 +283,9 @@ attractions:
   why_he: פעילות האדרנלין הקלה ביותר בפונג ניה — חצי יום, בלי מבחן כושר, וזו שכל משפחה
     וכל קבוצת תרמילאים עושה. מאמצע ספטמבר עד נובמבר האומגה ובריכת הבוץ פועלות בהיקף
     מצומצם או סגורות; לבדוק באותו יום
+  price_unit: entry
+  price_low: 17.0
+  price_high: 20.0
 - name: The Duck Stop
   area: Bong Lai Valley, ~10km from Phong Nha town
   what: A small working duck farm where visitors feed and walk a flock of ducks along
@@ -259,6 +306,9 @@ attractions:
     שדות האורז, כולל רכיבה על תאו ומשקה.
   why_he: האטרקציה המדורגת ראשונה בפונג ניה בטריפאדוויזר, והדבר הקל והנעים ביותר לעשות
     ביום מנוחה בין מערות
+  price_unit: per_person
+  price_low: 4.0
+  price_high: 6.0
 - name: Pub with Cold Beer
   area: Bong Lai Valley, near the Rao Con River
   what: A rustic family farm-bar down a country lane where you pick a live chicken
@@ -279,6 +329,9 @@ attractions:
     הזמנה ונאכלת בערסלים ליד הנהר.
   why_he: העצירה המוכרת ביותר בלולאת האופנועים של עמק בונג לאי, וארוחה מקומית אמיתית
     שאינה מבוימת
+  price_unit: per_person
+  price_low: 3.0
+  price_high: 8.0
 markets:
 - name: Son Trach Market
   area: Son Trach (Phong Nha town centre), by the Phong Nha-Ke Bang tourist centre

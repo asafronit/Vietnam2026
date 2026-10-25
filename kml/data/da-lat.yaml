@@ -22,6 +22,24 @@ hotels:
   why_he: המלון הגדול המקורי של דה לאט, וה-5 כוכבים היחיד בה בדרגת מורשת ולא נכס חדש
     שדירג את עצמו
   addr_vi: 2 Trần Phú, Đà Lạt, Lâm Đồng
+  loc_note: On the hill above Xuan Huong Lake, a short walk to the lake promenade
+    and about 15 minutes on foot to the market and night market.
+  loc_note_he: על הגבעה מעל אגם שואן הואנג, הליכה קצרה לטיילת ותוך כ-15 דקות ברגל
+    לשוק ולשוק הלילה.
+  pros:
+  - 1922 colonial grand hotel with fireplaces in every room
+  - Lake views and gardens
+  - Genuine heritage 5-star
+  pros_he:
+  - מלון קולוניאלי מפואר מ-1922 עם אח בכל חדר
+  - נוף לאגם וגנים
+  - 5 כוכבים מורשת אמיתי
+  cons:
+  - Expensive for Da Lat
+  - Old building - no pool
+  cons_he:
+  - יקר ביחס לדה לאט
+  - בניין ישן - בלי בריכה
 - name: MerPerle Dalat Hotel
   tier: 5
   tier_official: false
@@ -48,6 +66,24 @@ hotels:
   why_he: ה-5 כוכבים המוצהר-עצמית המדורג ביותר בדה לאט, אם כי כמה אורחים אומרים שהוא
     אינו עומד בסטנדרט של 5 כוכבים אמיתי
   addr_vi: Phạm Hồng Thái, Xuân Hương, Đà Lạt, Lâm Đồng
+  loc_note: 'On the edge of downtown by the golf course: a 10-15 minute walk to Xuan
+    Huong Lake, a short taxi to the market.'
+  loc_note_he: 'בשולי מרכז העיר ליד מגרש הגולף: 10-15 דקות הליכה לאגם שואן הואנג,
+    נסיעה קצרה לשוק.'
+  pros:
+  - Indoor pool and spa - welcome in Da Lat's cool evenings
+  - Large modern rooms
+  - Good price for the facilities
+  pros_he:
+  - בריכה מקורה וספא - נעים בערבים הקרירים של דה לאט
+  - חדרים גדולים ומודרניים
+  - מחיר טוב ביחס למתקנים
+  cons:
+  - Self-declared 5-star; guests say it falls short
+  - Big, busy with groups
+  cons_he:
+  - 5 כוכבים בהצהרה עצמית; אורחים אומרים שהוא לא עומד בזה
+  - גדול ועמוס בקבוצות
 - name: Colline Dalat
   tier: 4
   tier_official: true
@@ -73,6 +109,24 @@ hotels:
     מסעדת גג שמשקיפה על העיר.
   why_he: 4 כוכבים רשמיים ואפס צעדים משוק הלילה. הבחירה המובילה של המפרט לדה לאט
   addr_vi: 10 Phan Bội Châu, Xuân Hương, Đà Lạt, Lâm Đồng
+  loc_note: 'Built onto the steps down to the night market: you walk out straight
+    into Da Lat''s evening food scene, and the lake is 5 minutes away.'
+  loc_note_he: 'בנוי על המדרגות שיורדות לשוק הלילה: יוצאים ישר לסצנת האוכל הערבית
+    של דה לאט, והאגם במרחק 5 דקות.'
+  pros:
+  - Zero steps from the night market
+  - Rooftop restaurant over the town
+  - Officially rated 4-star
+  pros_he:
+  - צמוד לשוק הלילה
+  - מסעדה על הגג מעל העיר
+  - 4 כוכבים בדירוג רשמי
+  cons:
+  - Busy, noisy area at night
+  - No pool
+  cons_he:
+  - אזור עמוס ורועש בלילה
+  - אין בריכה
 - name: Terracotta Hotel & Resort Dalat
   tier: 4
   tier_official: false
@@ -97,6 +151,24 @@ hotels:
   what_he: מלון ספא על חוף אגם פרטי קטן, עם שתי מסעדות, השכרת אופניים ומגרש גולף צמוד.
   why_he: נכס 4 כוכבים אמיתי על שפת אגם, במחיר קרוב ל-3 כוכבים
   addr_vi: Khu chức năng 7.9, Hồ Tuyền Lâm, Đà Lạt, Lâm Đồng
+  loc_note: 'Out of town on Tuyen Lam Lake, about 6 km from the centre: quiet and
+    green, but every meal or sight in town means a taxi.'
+  loc_note_he: 'מחוץ לעיר על אגם טוין לאם, כ-6 ק"מ מהמרכז: שקט וירוק, אבל כל ארוחה
+    או אתר בעיר דורשים מונית.'
+  pros:
+  - Lakeside resort setting
+  - Close to 3-star prices
+  - Bikes and golf next door
+  pros_he:
+  - סביבת ריזורט על האגם
+  - מחירים קרובים ל-3 כוכבים
+  - אופניים וגולף בסמוך
+  cons:
+  - 6 km from the centre
+  - Little to walk to in the evening
+  cons_he:
+  - 6 ק"מ מהמרכז
+  - כמעט אין לאן ללכת ברגל בערב
 - name: TTC Hotel - Da Lat
   tier: 3
   tier_official: false
@@ -164,6 +236,9 @@ must_see:
   why_he: לא דומה לשום דבר אחר שנבנה בוויאטנם, ובמרחק הליכה ממרכז העיר
   hours: 08:30-19:00 daily
   hours_he: 08:30-19:00 כל יום
+  price_unit: entry
+  price_low: 4.0
+  price_high: 5.0
 - name: Langbiang Mountain
   area: Lac Duong, ~12km north of the city
   what: A 2,167m twin-peaked mountain reached by a bumpy 4.5km jeep track from its
@@ -182,6 +257,9 @@ must_see:
   what_he: הר דו-פסגתי בגובה 2,167 מטר, שמגיעים אליו במסלול ג'יפים משובש באורך 4.5
     קילומטר מהבסיס, ומהפסגה נשקף נוף פנורמי על יערות האורן והעמקים של דה לאט.
   why_he: נקודת התצפית הטובה ביותר על כל רמת דה לאט, וטיול חצי יום קל
+  price_unit: per_person
+  price_low: 2.0
+  price_high: 7.0
 - name: Xuan Huong Lake
   area: City center
   what: A 40-hectare artificial lake built by French colonists in 1919 at the centre
@@ -201,6 +279,7 @@ must_see:
   what_he: אגם מלאכותי בשטח 40 הקטאר שבנו המתיישבים הצרפתים ב-1919 במרכז דה לאט, מוקף
     שביל הליכה, עצי אורן ומגרש הגולף הישן.
   why_he: דה לאט מסודרת סביב האגם הזה בדיוק כפי שהאנוי מסודרת סביב הואן קיים
+  price_unit: free
 attractions:
 - name: Datanla Waterfall Canyoning
   area: 7km south of the city
@@ -222,6 +301,9 @@ attractions:
   what_he: 'ירידה מודרכת דרך ערוץ מפל דאטנלה ממחנה בסיס שליד המפל: גלישה בחבלים במורד
     צוקים ומפל בגובה 30 מטר, אומגה, מגלשת מים ונקיק סלע צר שמכונה מכונת הכביסה.'
   why_he: טענת ספורט ההרפתקה האמיתית של דה לאט, ואחת ממעט פעילויות קניונינג בכל ויאטנם
+  price_unit: per_person
+  price_low: 55.0
+  price_high: 80.0
 - name: Datanla Alpine Coaster
   area: Datanla Waterfall, 7km south of the city
   what: A 2,400-metre gravity toboggan track through pine forest down toward the waterfall,
@@ -239,6 +321,9 @@ attractions:
     יד כך שכל רוכב שולט במהירות שלו.
   why_he: רכבת ההרים האלפינית הארוכה באסיה, ואפשרות אדרנלין עדינה יותר מהקניונינג
     שלידה
+  price_unit: per_person
+  price_low: 6.0
+  price_high: 10.0
 - name: Tuyen Lam Lake SUP/Kayak and Clay Tunnel
   area: Tuyen Lam Lake, south of the city
   what: A paddle by kayak or stand-up paddleboard across Tuyen Lam Lake's pine-fringed
@@ -259,6 +344,9 @@ attractions:
   what_he: חתירה בקיאק או על סאפ על פני מימי אגם טוין לאם המוקפים אורנים, בדרך כלל
     בשילוב עצירה במנהרת החימר — פיסול חימר פתוח שעוברים דרכו ברגל, ליד מנזר טרוק לאם.
   why_he: המקבילה השקטה ונטולת הצפיפות לשוק הלילה. טבע ואמנות עממית ביציאה אחת
+  price_unit: per_person
+  price_low: 30.0
+  price_high: 50.0
 - name: Easy Rider day tour from Da Lat
   area: City-wide, starts downtown
   what: A full day riding pillion on a local guide's motorbike through Da Lat's flower
@@ -278,6 +366,9 @@ attractions:
     אליהן.
   why_he: ההמלצה המוסכמת של שתי הצעות הסוכנות שחקרו את הרגל הזו, והדרך הסטנדרטית לראות
     את דה לאט הכפרית
+  price_unit: per_person
+  price_low: 50.0
+  price_high: 80.0
 markets:
 - name: Da Lat Market (Cho Da Lat)
   area: City center, beside Xuan Huong Lake
@@ -417,6 +508,9 @@ spa:
     ולא של חלון ראווה.
   why_he: דה לאט היא התחנה שבה נוחתים הקניונינג ויום האופנועים, וזה המקום היחיד בעיר
     שמקבל ביקורות עקביות כספא אמיתי ולא כשפשוף רגליים זריז
+  price_unit: per_hour
+  price_low: 20.0
+  price_high: 40.0
 nightlife:
 - name: Maze Bar (100 Roofs Cafe)
   area: Da Lat city centre, among the shop-houses

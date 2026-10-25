@@ -72,6 +72,12 @@ hotels:
     area: Old Quarter
     what: A hotel used only as a fixture for the web export tests.
     why: Confirms camelCase field mapping and the approximate flag.
+    loc_note: Five minutes' walk to the lake.
+    loc_note_he: חמש דקות הליכה לאגם.
+    pros: [Quiet lane]
+    pros_he: [סמטה שקטה]
+    cons: [No pool]
+    cons_he: [אין בריכה]
     confidence: high
     geocode_query: Approx Hotel, Hanoi, Vietnam
     sources:
@@ -337,3 +343,22 @@ def test_partial_vietnamese_address_is_flagged(tmp_path, monkeypatch):
     recs = _hanoi_hotels(_run_and_load(tmp_path, monkeypatch, HANOI_DRIVER_YAML))
     assert recs["Town Only Hotel"]["addrViPartial"] is True
     assert "addrViPartial" not in recs["Test Boutique Hotel"]
+
+
+def test_hotel_location_pros_and_cons_reach_the_page(tmp_path, monkeypatch):
+    data = _run_and_load(tmp_path, monkeypatch)
+    rec = {r["name"]: r for r in data["hanoi"]["poi"]["hotels"]}["Approx Hotel"]
+    assert rec["locNote"] == "Five minutes' walk to the lake."
+    assert rec["locNoteHe"] == "חמש דקות הליכה לאגם."
+    assert rec["pros"] == ["Quiet lane"] and rec["prosHe"] == ["סמטה שקטה"]
+    assert rec["cons"] == ["No pool"] and rec["consHe"] == ["אין בריכה"]
+
+
+def test_recommended_by_reaches_the_page_only_when_set(tmp_path, monkeypatch):
+    from kmlpool.cli import _record_to_web_json
+    from kmlpool.schema import Record
+    base = dict(name="X", category="hotels", area="a", what="w" * 30, why="y" * 20,
+                confidence="low", geocode_query="q", sources=["a", "b"], tier=3)
+    assert "recommendedBy" not in _record_to_web_json(Record(**base))
+    pick = _record_to_web_json(Record(**base, recommended_by="TikTok @k"))
+    assert pick["recommendedBy"] == "TikTok @k"

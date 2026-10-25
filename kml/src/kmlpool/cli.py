@@ -269,6 +269,15 @@ def _record_to_web_json(rec: Record) -> dict:
             data[key] = src
     if rec.addr_vi and rec.addr_vi_partial:
         data["addrViPartial"] = True
+    # Hotel location note, strengths and weaknesses: shipped when present.
+    if rec.recommended_by:
+        data["recommendedBy"] = rec.recommended_by
+    for src, key in ((rec.loc_note, "locNote"), (rec.loc_note_he, "locNoteHe")):
+        if src:
+            data[key] = src
+    for src, key in ((rec.pros, "pros"), (rec.pros_he, "prosHe"), (rec.cons, "cons"), (rec.cons_he, "consHe")):
+        if src:
+            data[key] = list(src)
     # Weather sensitivity travels with the record so the page never has to
     # guess it. The per-record override wins; otherwise the category default.
     data["weather"] = rec.weather or WEATHER_SENSITIVITY.get(rec.category, "medium")
