@@ -43,6 +43,7 @@ hotels:
   phone: +84 235 3915 915
   website: https://book-directonline.com/properties/lasiestahoianresort%26spadirect
   email: info@lasiestaresorts.com
+  messenger: https://m.me/lasiestahoianresortandspa
 - name: Almanity Hoi An Resort & Spa
   tier: 5
   tier_official: false
@@ -92,6 +93,7 @@ hotels:
   phone: +84 235 3666 888
   website: https://book-directonline.com/properties/almanityhoianresort&spadirect
   email: reservation@almanityhoian.com
+  messenger: https://m.me/almanityhoian
 - name: Silkotel Hoi An
   tier: 4
   tier_official: true
@@ -140,6 +142,7 @@ hotels:
   phone: '+842353963399'
   website: https://silkotelhoian.com/
   email: info@silkotelhoian.com
+  messenger: https://m.me/Silkotelhoian
 - name: Lasenta Boutique Hotel Hoian
   tier: 4
   tier_official: true
@@ -188,6 +191,7 @@ hotels:
   phone: '+842353933552'
   website: https://lasentahotel.com/
   email: info@lasentahotel.com
+  messenger: https://m.me/lasentahotel
 - name: Hoian Central Hotel
   tier: 3
   tier_official: true
@@ -865,6 +869,7 @@ spa:
   website: https://herbalspa.vn/en/hoi-an
   whatsapp: '+84796813888'
   email: herbalspaanthuong@gmail.com
+  messenger: https://m.me/herbalspahoian
 - name: Ocean Spa Hoi An
   area: Near An Bang Beach
   what: A spa near An Bang beach offering body, foot and herbal treatments away from
@@ -892,6 +897,7 @@ spa:
   website: https://www.oceanspahoian.com/
   whatsapp: '+84935558220'
   email: oceanspahoian@gmail.com
+  messenger: https://m.me/oceanspahoian
 diving:
 - name: Cham Island snorkeling / diving day trip
   area: Cu Lao Cham, ~15-20 minutes by speedboat from Cua Dai

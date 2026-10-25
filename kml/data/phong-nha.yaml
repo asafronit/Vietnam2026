@@ -73,6 +73,7 @@ hotels:
   phone: '+842323675999'
   website: https://phongnhalakehouse.com/
   email: sales@phongnhalakehouse.com
+  messenger: https://m.me/phongnhalakehouse
 - name: Phong Nha Farmstay
   tier: 3
   tier_official: false
@@ -104,6 +105,7 @@ hotels:
   addr_vi_partial: true
   phone: '+84917910055'
   website: https://phongnhafarmstay.com/
+  messenger: https://m.me/thephongnhafarmstay
 must_see:
 - name: Phong Nha Cave boat trip
   limiter: flood

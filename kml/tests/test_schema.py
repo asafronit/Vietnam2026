@@ -355,3 +355,10 @@ def test_website_must_be_https():
     assert validate_record(hotel(website="https://www.peridotgrandhotel.com/")) == []
     assert any("website" in e for e in validate_record(hotel(website="http://x.com")))
     assert any("website" in e for e in validate_record(hotel(website="peridot.com")))
+
+
+def test_messenger_must_be_an_m_me_link():
+    # 25/10: Messenger as a third way to message a place, after WhatsApp.
+    assert validate_record(hotel(messenger="https://m.me/Peridotgrandhotel")) == []
+    assert any("messenger" in e for e in validate_record(hotel(messenger="https://facebook.com/x")))
+    assert any("messenger" in e for e in validate_record(hotel(messenger="m.me/x")))

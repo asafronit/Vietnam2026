@@ -139,6 +139,7 @@ hotels:
   website: https://www.victoriahotels.asia/en/victoria-can-tho-resort/
   whatsapp: '+84906309338'
   email: resa.cantho@victoriahotels.asia
+  messenger: https://m.me/victoriahotelsresorts
 - name: Can Tho Ecolodge
   tier: 4
   tier_official: false
@@ -187,6 +188,7 @@ hotels:
   phone: '+84336983239'
   whatsapp: '+84989158587'
   email: booking@cantho.ecolodge.asia
+  messenger: https://m.me/Can-Tho-Ecolodge-425215064526825
 - name: Bamboo Eco Village
   tier: 3
   tier_official: true
@@ -242,6 +244,7 @@ hotels:
   website: https://mekongsiltecolodge.com.vn/
   whatsapp: '+84946997679'
   email: sm@mekongsiltecolodge.com.vn
+  messenger: https://m.me/Mekong-SILT-Ecolodge-101227192153484
 must_see:
 - name: Cai Rang Floating Market
   area: Cai Rang, about 6 km southwest of central Can Tho
@@ -329,6 +332,7 @@ attractions:
   why_he: המקדש המובחן ביותר אדריכלית בדלתה, שמערבב שלוש מסורות בנייה במתחם אחד
   price_unit: free
   phone: '+842733873427'
+  messenger: https://m.me/chuavinhtrangofficial
 markets:
 - name: Ninh Kieu Night Market
   area: Ninh Kieu, Phan Boi Chau and Phan Chau Trinh streets

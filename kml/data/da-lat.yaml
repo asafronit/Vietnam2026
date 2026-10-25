@@ -90,6 +90,7 @@ hotels:
   phone: '+842633553789'
   website: https://merperle.vn/vi/properties/merperle-dalat-hotel
   email: sales@merperle.vn
+  messenger: https://m.me/Merperledalathotel
 - name: Colline Dalat
   tier: 4
   tier_official: true
@@ -135,6 +136,7 @@ hotels:
   - אין בריכה
   phone: '+842633665588'
   email: info@hotelcolline.com
+  messenger: https://m.me/HotelColline
 - name: Terracotta Hotel & Resort Dalat
   tier: 4
   tier_official: false
@@ -180,6 +182,7 @@ hotels:
   phone: '+842633883838'
   website: https://dalat.terracottaresort.com/
   email: reservations@terracottaresort.com
+  messenger: https://m.me/Terracotta-Hotel-Resort-Dalat-297474890462407
 - name: TTC Hotel - Da Lat
   tier: 3
   tier_official: false
@@ -226,6 +229,7 @@ hotels:
     רשמי
   addr_vi: 124 Phạm Ngọc Thạch, Đà Lạt, Lâm Đồng
   phone: '+84345201295'
+  messenger: https://m.me/61550290622942
 must_see:
 - name: Crazy House (Hang Nga Guesthouse)
   area: Huynh Thuc Khang Street
@@ -255,6 +259,7 @@ must_see:
   phone: '+842633822070'
   whatsapp: '+84886445481'
   email: reservation@crazyhouse.vn
+  messenger: https://m.me/CrazyHouseDalatVietnam
 - name: Langbiang Mountain
   area: Lac Duong, ~12km north of the city
   what: A 2,167m twin-peaked mountain reached by a bumpy 4.5km jeep track from its
@@ -533,6 +538,7 @@ spa:
   phone: '+84362489189'
   website: https://charmspadalat.com/
   email: charmspa.dl@gmail.com
+  messenger: https://m.me/CharmSpadalat
 nightlife:
 - name: Maze Bar (100 Roofs Cafe)
   area: Da Lat city centre, among the shop-houses

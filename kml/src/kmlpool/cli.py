@@ -259,7 +259,7 @@ def _record_to_web_json(rec: Record) -> dict:
     # Contact routes ship only when present. The page renders whatsapp as the
     # purple action the link convention reserves for reaching a person; the
     # other two are plain tel: and mailto: links.
-    for src, key in ((rec.whatsapp, "whatsapp"), (rec.phone, "phone"), (rec.email, "email"), (rec.website, "website")):
+    for src, key in ((rec.whatsapp, "whatsapp"), (rec.phone, "phone"), (rec.email, "email"), (rec.website, "website"), (rec.messenger, "messenger")):
         if src:
             data[key] = src
     # The driver view: shipped only when present, so the page shows the

@@ -226,6 +226,7 @@ hotels:
   name_vi: Khách sạn Bông Sen Sài Gòn
   phone: '+842838291516'
   email: ss.ta@bongsencorporation.com
+  messenger: https://m.me/bongsenhotelsaigon
 must_see:
 - name: Reunification Palace
   area: District 1
@@ -254,6 +255,7 @@ must_see:
   phone: '+842838223652'
   website: https://www.dinhdoclap.gov.vn/
   email: dinhdoclap@dinhdoclap.gov.vn
+  messenger: https://m.me/Servicedinhdoclap
 - name: Notre-Dame Cathedral Basilica of Saigon
   area: District 1
   what: A twin-towered red-brick cathedral built by French colonists in the 1880s
@@ -306,6 +308,7 @@ attractions:
   price_low: 5.0
   price_high: 35.0
   phone: '+842837948830'
+  messenger: https://m.me/diadaocuchi2017
 - name: War Remnants Museum
   area: District 3
   what: A three-storey museum housing over 20,000 artifacts, photographs and military

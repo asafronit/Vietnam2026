@@ -88,6 +88,7 @@ hotels:
   is_cruise: true
   phone: '+842439291555'
   whatsapp: '+84905489888'
+  messenger: https://m.me/100090607041878
 - name: Mon Cheri Cruise
   tier: 4
   tier_official: false
@@ -176,6 +177,7 @@ hotels:
   website: https://lapandoracruises.com/
   whatsapp: '+84965426588'
   email: info@lapandoracruises.com
+  messenger: https://m.me/lapandoracruises
 - name: Hoang Giang Hotel
   tier: 3
   tier_official: true

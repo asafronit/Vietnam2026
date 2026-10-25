@@ -371,3 +371,12 @@ def test_website_reaches_the_page_only_when_set():
                 confidence="medium", geocode_query="q", sources=["a"])
     assert "website" not in _record_to_web_json(Record(**base))
     assert _record_to_web_json(Record(**base, website="https://x.vn/"))["website"] == "https://x.vn/"
+
+
+def test_messenger_reaches_the_page_only_when_set():
+    from kmlpool.cli import _record_to_web_json
+    from kmlpool.schema import Record
+    base = dict(name="X", category="attractions", area="a", what="w" * 30, why="y" * 20,
+                confidence="medium", geocode_query="q", sources=["a"])
+    assert "messenger" not in _record_to_web_json(Record(**base))
+    assert _record_to_web_json(Record(**base, messenger="https://m.me/x"))["messenger"] == "https://m.me/x"

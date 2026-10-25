@@ -45,6 +45,7 @@ hotels:
   phone: '+842343837475'
   website: https://azerai.com/resorts/azerai-la-residence-hue
   email: reservations.kegabay@azerai.com
+  messenger: https://m.me/azerailaresidencehue
 - name: Meliá Vinpearl Hue
   tier: 5
   tier_official: true
@@ -178,6 +179,7 @@ hotels:
   - 5 ק"מ מהמרכז
   - הדירוג שנוי במחלוקת (4 או 5)
   phone: '+842343885461'
+  messenger: https://m.me/100083345500374
 - name: Jade Scene Hotel
   tier: 3
   tier_official: true
@@ -205,6 +207,7 @@ hotels:
     כוכבים שנבדקו רשמית ולא בוטיק שדירג את עצמו
   addr_vi: Kiệt 42 Nguyễn Công Trứ, Huế
   phone: '+84935353117'
+  messenger: https://m.me/JadeSceneHotel
 - name: Thanh Lich Hue Hotel
   tier: 3
   tier_official: false
@@ -233,6 +236,7 @@ hotels:
   addr_vi: Võ Thị Sáu, Huế
   phone: '+842343877877'
   email: info@eleganthotel.com.vn
+  messenger: https://m.me/thanhlichhotel
 must_see:
 - name: Hue Imperial City (The Citadel)
   area: North bank of the Perfume River, city center

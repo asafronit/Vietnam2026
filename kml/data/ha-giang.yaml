@@ -130,6 +130,7 @@ hotels:
   - רעש תנועה מהכביש הראשי
   phone: '+84888316668'
   email: info@delamonthotel.com
+  messenger: https://m.me/delamonthotel
 - name: Silk River Hotel Ha Giang
   tier: 3
   tier_official: true
@@ -158,6 +159,7 @@ hotels:
   website: https://silkriverhotel.com/
   whatsapp: '+84889775678'
   email: silkriverhotelhagiang@gmail.com
+  messenger: https://m.me/SilkRiverHotel
 - name: Phuc Lam Hotel
   tier: 3
   tier_official: true
@@ -250,6 +252,7 @@ must_see:
   why_he: עיירת הלינה עם האווירה הטובה ביותר בלולאה, והבסיס לשוק יום ראשון ולטיול
     היום ללונג קו
   price_unit: free
+  messenger: https://m.me/phocodongvan.hagiang
 attractions:
 - name: Ha Giang Loop (self-drive or easy-rider motorbike route)
   area: Circuit from Ha Giang City through Quan Ba, Yen Minh, Dong Van, Meo Vac

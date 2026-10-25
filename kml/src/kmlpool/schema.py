@@ -144,6 +144,8 @@ class Record:
     email: str | None = None
     # 25/10: the place's own site; for a hotel, where to book direct.
     website: str | None = None
+    # 25/10: a Facebook Messenger chat link (https://m.me/<page>).
+    messenger: str | None = None
     # דריסה ידנית של רגישות מזג האוויר, כשברירת המחדל של הקטגוריה שגויה
     # (מערה בקטגוריית attractions, שוק מקורה בקטגוריית markets).
     weather: str | None = None
@@ -263,6 +265,8 @@ def validate_record(rec: Record) -> list[str]:
 
     if rec.website is not None and not re.match(r"^https://[^\s/]+\.[^\s/]+", rec.website):
         errors.append(f"{where}: website must be an https:// URL")
+    if rec.messenger is not None and not re.match(r"^https://m\.me/[A-Za-z0-9._-]+/?$", rec.messenger):
+        errors.append(f"{where}: messenger must be an https://m.me/<page> link")
 
     if rec.video is not None:
         if not rec.video.startswith("https://") or not any(

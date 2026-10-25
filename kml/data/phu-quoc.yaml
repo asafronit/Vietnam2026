@@ -92,6 +92,7 @@ hotels:
   phone: '+842976266688'
   website: https://www.dusit.com/dusitprincess-moonrisebeachresort/
   email: dppq@dusit.com
+  messenger: https://m.me/dusitprincesspq
 - name: L'Azure Resort and Spa
   tier: 4
   tier_official: true
@@ -137,6 +138,7 @@ hotels:
   - ריזורט קטן, מעט אפשרויות אוכל
   - הסגנון הכפרי לא מתאים לכולם
   phone: '+842973994499'
+  messenger: https://m.me/lazureresortphuquoc
 - name: AVS Hotel Phu Quoc
   tier: 4
   tier_official: true
@@ -182,6 +184,7 @@ hotels:
   - רעש רחוב
   phone: '+841900998875'
   website: https://www.avshotelphuquoc.com/
+  messenger: https://m.me/AVShotelPhuQuoc
 - name: Hung Vuong Resort
   tier: 3
   tier_official: true
@@ -369,6 +372,7 @@ diving:
   price_high: 105.0
   phone: '+84939402872'
   whatsapp: '+84869124043'
+  messenger: https://m.me/flipper.diving
 - name: John's Tours - the quote on file
   area: Southern Phu Quoc, An Thoi; hotel pickup included
   what: A direct dive club, not booked through an agency, which sent a detailed written
@@ -519,6 +523,7 @@ attractions:
   price_high: 30.0
   phone: '+841900232328'
   website: https://vinwonders.com/en/vinpearl-safari-phu-quoc/
+  messenger: https://m.me/VinWondersOfficial
 markets:
 - name: Phu Quoc Night Market (Dinh Cau)
   area: Duong Dong, Bach Dang street
@@ -644,6 +649,7 @@ spa:
   website: https://spaphuquoc.com/
   whatsapp: '+84705800686'
   email: phuquocdayspa@gmail.com
+  messenger: https://m.me/spaphuquoc
 - name: Cocobox Spa
   area: Central Duong Dong
   what: A central Duong Dong spa doing Swedish, Thai, deep tissue and hot stone work,

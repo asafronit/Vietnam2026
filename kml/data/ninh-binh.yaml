@@ -89,6 +89,7 @@ hotels:
   - סביבה עירונית, בלי נוף צוקים
   - גדול ולא אישי
   phone: '+842293899880'
+  messenger: https://m.me/ninhbinhlegendhotel
 - name: Emeralda Resort Ninh Binh
   tier: 4
   tier_official: true
@@ -132,6 +133,7 @@ hotels:
   - צריך תחבורה לכל דבר
   - המחיר משתנה מאוד לפי תאריך
   phone: '+842293658333'
+  messenger: https://m.me/EmeraldaResortNinhbinh
 - name: Ninh Binh Hidden Charm Hotel & Resort
   tier: 4
   tier_official: true
@@ -175,6 +177,7 @@ hotels:
   - לטראנג אן צריך נסיעה קצרה
   phone: '+842293888555'
   email: info@hiddencharmresort.com
+  messenger: https://m.me/NinhBinh.HiddenCharm.Hotel.Resort
 - name: Lalita Tam Coc Resort & Spa
   tier: 3
   tier_official: false
@@ -202,6 +205,7 @@ hotels:
   phone: '+842293626888'
   website: https://lalitatamcocresort.com/
   email: info@lalitahotel.com
+  messenger: https://m.me/lalita.ninhbinh
 - name: An's Eco Garden Resort
   tier: 3
   tier_official: false
@@ -357,6 +361,7 @@ attractions:
   location_precision: approximate
   phone: '+84913899135'
   website: https://chuabaidinhninhbinh.com/
+  messenger: https://m.me/chuabaidinh35
 markets:
 - name: Cho Rong (Rong Market)
   area: 71 Van Giang Street, Thanh Binh Ward

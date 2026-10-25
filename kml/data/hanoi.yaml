@@ -44,6 +44,7 @@ hotels:
   phone: +84 886 428 888
   email: info.grand@peridothotels.com
   website: https://reservation.peridotgrandhotel.com/hotel/BeHome?hotel_code=4B7272
+  messenger: https://m.me/Peridotgrandhotel
 - name: GM Premium Hotel
   tier: 5
   tier_official: false
@@ -93,6 +94,7 @@ hotels:
   website: https://gmpremiumhotel.com/
   whatsapp: '+84345639904'
   email: booking@gmpremiumhotel.com
+  messenger: https://m.me/GMPremiumHotelHanoi
 - name: Aurora Premium - A Lifestyle Hotel
   tier: 4
   tier_official: true
@@ -186,6 +188,7 @@ hotels:
   - חדרים עם נוף לאגם יקרים יותר
   phone: +84 968 472 388
   website: https://lasinfoniavietnam.com/delrey/booking/
+  messenger: https://m.me/lasinfoniadelreyhotel
 - name: Hanoi Amorita Boutique Hotel & Travel
   tier: 3
   tier_official: true
@@ -211,6 +214,7 @@ hotels:
   addr_vi: 7 Hàng Dầu, Hoàn Kiếm, Hà Nội
   phone: +84 24 3927 4666
   website: https://amoritaboutiquehotel.com/
+  messenger: https://m.me/Amorita-Boutique-Hotel
 - name: Hanoi La Storia Hotel
   tier: 3
   tier_official: true
@@ -287,6 +291,7 @@ must_see:
   price_high: 3.0
   phone: '+842438452917'
   email: tthdvhkhvmqtg_svhtt@hanoi.gov.vn
+  messenger: https://m.me/vanmieuqtg
 - name: Hoa Lo Prison Museum
   area: Hoan Kiem, Hoa Lo street
   what: A preserved wing of a French colonial-era prison built in 1896, nicknamed
@@ -517,6 +522,7 @@ attractions:
     נמוכים ושותים תה לימון
   website: https://giaoxuchinhtoahanoi.org/
   email: chinhtoahn@gmail.com
+  messenger: https://m.me/gxchinhtoa.hanoi
 - name: Long Bien Bridge
   area: Between the Old Quarter and Long Bien, over the Red River
   what: A 1.7km steel cantilever bridge finished by the French in 1903, bombed repeatedly

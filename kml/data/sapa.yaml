@@ -43,6 +43,7 @@ hotels:
   phone: '+842143788555'
   website: https://silkpathhotel.com/
   whatsapp: '+84948585222'
+  messenger: https://m.me/silkpathhotelsresorts
 - name: Pao's Sapa Leisure Hotel
   tier: 5
   tier_official: true
@@ -92,6 +93,7 @@ hotels:
   - 223 חדרים - עמוס
   phone: '+842146253999'
   email: rsvn@paoshotel.com
+  messenger: https://m.me/paoshotel
 - name: Pistachio Hotel Sapa
   tier: 4
   tier_official: true
@@ -135,6 +137,7 @@ hotels:
   - יקר מרוב ה-4 כוכבים
   phone: '+842143566666'
   email: rsv@pistachiohotel.com
+  messenger: https://m.me/pistachiohotelsapa
 - name: Aliana Boutique Sapa Hotel & Spa
   tier: 4
   tier_official: false
@@ -181,6 +184,7 @@ hotels:
   website: https://alianaboutiquesapa.com/
   whatsapp: '+84383685335'
   email: info@alianaboutiquesapa.com
+  messenger: https://m.me/alianaboutiquesapa
 - name: Sapa Centre Hotel
   tier: 3
   tier_official: true
