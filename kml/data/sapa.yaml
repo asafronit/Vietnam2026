@@ -308,6 +308,143 @@ attractions:
   price_unit: per_person
   price_low: 15.0
   price_high: 35.0
+- name: Silver Waterfall (Thac Bac)
+  limiter: rain
+  area: O Quy Ho road (QL4D), about 12 km west of Sapa town
+  what: A roughly 200 m waterfall dropping beside the O Quy Ho road, with stepped
+    paths and a small bridge across it, a short climb from the car park.
+  why: An easy, quick stop on the road to O Quy Ho - pairs with Love Waterfall and
+    the glass bridge on the same half day
+  confidence: medium
+  geocode_query: Thác Bạc, Sa Pa, Lào Cai, Vietnam
+  sources:
+  - https://jackfruitadventure.com/guide-to-visit-sapa-waterfalls/
+  - Sapa Nomad reel '3 days in Sapa', screenshots sent 2026-10-25 (guide-inbox/media/2026-10-25_fb-sapanomad-3-days)
+  name_he: מפל הכסף (טאק באק)
+  area_he: כביש או קוי הו (QL4D), כ-12 ק"מ מערבית לעיירת סאפה
+  what_he: מפל של כ-200 מטר שנופל לצד כביש או קוי הו, עם שבילי מדרגות וגשר קטן מעליו,
+    עלייה קצרה מהחניה.
+  why_he: עצירה קלה ומהירה בדרך לאו קוי הו - משתלבת עם מפל האהבה וגשר הזכוכית באותו
+    חצי יום
+  price_unit: entry
+  price_low: 1.0
+  price_high: 1.0
+  addr_vi: Thác Bạc, Quốc lộ 4D, Sa Pa, Lào Cai
+  coords:
+    lat: 22.3632406
+    lng: 103.7768287
+- name: Love Waterfall (Thac Tinh Yeu)
+  limiter: rain
+  area: Tram Ton, Hoang Lien National Park, on the O Quy Ho road about 15 km from
+    Sapa
+  what: A forest waterfall reached by a 1.5-2 km walk each way along a stream and
+    stepping stones inside Hoang Lien National Park.
+  why: The greenest walk near Sapa without a full trek - about 1.5-2 hours return,
+    open 07:00-18:00
+  confidence: medium
+  geocode_query: Thác Tình Yêu, Sa Pa, Lào Cai, Vietnam
+  sources:
+  - https://jackfruitadventure.com/guide-to-visit-sapa-waterfalls/
+  - https://sunparadiseland.com/SunParadiseLandSaPa/tin-tuc/love-waterfall-sapa-discover-the-legendary-symbol-2025-13151
+  - Sapa Nomad reel '3 days in Sapa', screenshots sent 2026-10-25 (guide-inbox/media/2026-10-25_fb-sapanomad-3-days)
+  name_he: מפל האהבה (טאק טין יאו)
+  area_he: טראם טון, הפארק הלאומי הואנג לין, על כביש או קוי הו כ-15 ק"מ מסאפה
+  what_he: מפל ביער שמגיעים אליו בהליכה של 1.5-2 ק"מ לכל כיוון לאורך נחל ועל אבני
+    מדרך, בתוך הפארק הלאומי הואנג לין.
+  why_he: ההליכה הירוקה ביותר ליד סאפה בלי טרק מלא - כשעה וחצי-שעתיים הלוך ושוב, פתוח
+    07:00-18:00
+  hours: 07:00-18:00 daily
+  hours_he: 07:00-18:00 כל יום
+  price_unit: entry
+  price_low: 3.0
+  price_high: 3.0
+  addr_vi: Thác Tình Yêu, Trạm Tôn, Sa Pa, Lào Cai
+  coords:
+    lat: 22.3473362
+    lng: 103.7724285
+  location_precision: approximate
+- name: Rong May Glass Bridge and giant swing
+  limiter: wind
+  area: O Quy Ho pass, about 18-20 km from Sapa town
+  what: A glass skywalk over the O Quy Ho pass, reached by a glass elevator up the
+    cliff, with a giant cliff swing and a zipline as paid extras.
+  why: The most dramatic view of the Hoang Lien range from a road you can drive -
+    but cloud often hides it in November, so go only on a clear day
+  confidence: medium
+  geocode_query: Cầu kính Rồng Mây, Sa Pa, Lào Cai, Vietnam
+  sources:
+  - https://saigoneer.com/vietnam-travel/17850-vietnam-s-latest-tourist-attraction-is-a-glass-bridge-and-elevator-near-sapa
+  - https://www.vietjetair.com/en/news/travel-guides-1665635013747/experiencing-and-admiring-the-stunning-scenery-from-the-rong-may-glass-bridge-1762940477415
+  - Sapa Nomad reel '3 days in Sapa', screenshots sent 2026-10-25 (guide-inbox/media/2026-10-25_fb-sapanomad-3-days)
+  name_he: גשר הזכוכית רונג מאי והנדנדה הענקית
+  area_he: מעבר או קוי הו, כ-18-20 ק"מ מעיירת סאפה
+  what_he: מסלול זכוכית מעל מעבר או קוי הו, שעולים אליו במעלית זכוכית על הצוק, עם
+    נדנדת צוק ענקית ואומגה בתוספת תשלום.
+  why_he: הנוף הדרמטי ביותר על רכס הואנג לין מכביש שאפשר לנסוע בו - אבל בנובמבר עננים
+    מסתירים אותו לעתים קרובות, אז רק ביום בהיר
+  price_unit: entry
+  price_low: 16.0
+  price_high: 21.0
+  addr_vi: Cầu kính Rồng Mây, Đèo Ô Quy Hồ, Lào Cai
+  coords:
+    lat: 22.3711032
+    lng: 103.7624731
+  location_precision: approximate
+- name: Sapa Alpine Coaster (Mong Village)
+  limiter: rain
+  area: Ban Mong, near Cat Cat, a free shuttle from Sapa town every 30 minutes
+  what: A German-built (Wiegand) mountain coaster over 1 km long - 250 m pulled up,
+    825 m downhill on rails through the forest, with your own brake.
+  why: A fun hour that combines with Cat Cat Village on the same afternoon; closes
+    in bad weather
+  confidence: medium
+  geocode_query: Bản Mòng, Sa Pa, Lào Cai, Vietnam
+  sources:
+  - https://mia.vn/cam-nang-du-lich/alpine-coaster-o-ban-mong-sapa-20813
+  - https://www.waug.com/en/activities/139811
+  - Sapa Nomad reel '3 days in Sapa', screenshots sent 2026-10-25 (guide-inbox/media/2026-10-25_fb-sapanomad-3-days)
+  name_he: מגלשת ההרים של סאפה (כפר מונג)
+  area_he: באן מונג, ליד קאט קאט, הסעה חינם מעיירת סאפה כל 30 דקות
+  what_he: מגלשת הרים בבנייה גרמנית (Wiegand) באורך של יותר מק"מ - 250 מ' משיכה למעלה
+    ו-825 מ' ירידה על מסילה דרך היער, עם בלם בשליטתך.
+  why_he: שעה כיפית שמשתלבת עם הכפר קאט קאט באותו אחר-צהריים; נסגרת במזג אוויר גרוע
+  hours: Daily, roughly 09:00-18:00 (last entry 17:00); closes in bad weather
+  hours_he: כל יום, בערך 09:00-18:00 (כניסה אחרונה 17:00); נסגר במזג אוויר גרוע
+  price_unit: per_person
+  price_low: 8.0
+  price_high: 14.0
+  addr_vi: Bản Mòng, Sa Pa, Lào Cai
+  coords:
+    lat: 22.3225629
+    lng: 103.8665646
+  location_precision: approximate
+- name: PHANSI viewpoint cafe
+  limiter: rain
+  area: Lane 66 Violet street, about 10 minutes from the town centre
+  what: A glamping site and cafe on a ridge above Sapa with a 360-degree view over
+    the Muong Hoa valley rice terraces, with drinks and an outdoor BBQ.
+  why: A sunset spot ten minutes from the centre; entry has been free, you pay for
+    drinks
+  confidence: medium
+  geocode_query: Violet, Sa Pa, Lào Cai, Vietnam
+  sources:
+  - https://www.tiktok.com/@phansi91/video/7524595436057857298
+  - https://nghiencamtrai.com/phansi/
+  - Sapa Nomad reel '3 days in Sapa', screenshots sent 2026-10-25 (guide-inbox/media/2026-10-25_fb-sapanomad-3-days)
+  name_he: פאנסי - בית קפה ונקודת תצפית
+  area_he: סמטה 66 ברחוב ויולט, כ-10 דקות ממרכז העיירה
+  what_he: אתר גלמפינג ובית קפה על רכס מעל סאפה עם נוף של 360 מעלות על טרסות האורז
+    בעמק מואנג הואה, עם משקאות וברביקיו בחוץ.
+  why_he: נקודת שקיעה עשר דקות מהמרכז; הכניסה הייתה חינם, משלמים על המשקאות
+  price_unit: per_person
+  price_low: 2.0
+  price_high: 4.0
+  phone: +84 913 885 812
+  addr_vi: Ngõ 66 Violet, Sa Pa, Lào Cai
+  coords:
+    lat: 22.3314251
+    lng: 103.8430643
+  location_precision: approximate
 markets:
 - name: Sapa Love Market
   area: Central square, in front of Sapa Stone Church
@@ -328,6 +465,28 @@ markets:
     תיירותי מבוים ולא במסורת המקורית.
   why_he: שווה לראות בדיוק כמו שהוא — פיסת תרבות מקומית חיה שעוצבה מחדש כמופע שבועי,
     ולא המנהג העממי שהשם עדיין מבטיח
+- name: Sapa Night Market
+  limiter: rain
+  area: N1 street, central Sapa town, about 10-15 minutes' walk from the Stone Church
+  what: A weekend evening market of local snacks, dried buffalo meat and sausages,
+    grilled skewers and H'mong textiles, in the grounds of the provincial tourism
+    centre.
+  why: The evening food stop in Sapa town - only Friday to Sunday
+  confidence: medium
+  geocode_query: Chợ đêm Sa Pa, Lào Cai, Vietnam
+  sources:
+  - https://sunparadiseland.com/en/SunParadiseLandSaPa/tin-tuc/sa-pa-night-market-culinary-experience-entertainment-and-culture-2026-11403
+  - https://localvietnam.com/blog/sapa-night-market/
+  - Sapa Nomad reel '3 days in Sapa', screenshots sent 2026-10-25 (guide-inbox/media/2026-10-25_fb-sapanomad-3-days)
+  name_he: שוק הלילה של סאפה
+  area_he: רחוב N1, מרכז עיירת סאפה, כ-10-15 דקות הליכה מכנסיית האבן
+  what_he: שוק ערב של סוף שבוע עם חטיפים מקומיים, בשר תאו מיובש ונקניקים, שיפודים
+    על האש ואריגי המונג, בשטח מרכז התיירות של המחוז.
+  why_he: עצירת האוכל של הערב בעיירה - רק שישי עד ראשון
+  hours: Fri-Sun, about 16:00-22:00
+  hours_he: שישי-ראשון, בערך 16:00-22:00
+  price_unit: free
+  addr_vi: Đường N1, Sa Pa, Lào Cai
 restaurants:
 - name: Thang Co A Quynh
   kind: vietnamese
