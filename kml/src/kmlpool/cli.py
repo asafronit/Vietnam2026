@@ -283,8 +283,18 @@ def _record_to_web_json(rec: Record) -> dict:
     data["weather"] = rec.weather or WEATHER_SENSITIVITY.get(rec.category, "medium")
     # מה מגביל את הפעילות. גם זה נוסע עם הרשומה, מאותו טעם: הדף לא
     # צריך לנחש, ומקור האמת אחד.
-    data["limiter"] = rec.limiter or LIMITER_OF_CATEGORY.get(rec.category, "rain")
+    data["limiter"] = rec.limiter or ("wind" if rec.is_cruise else LIMITER_OF_CATEGORY.get(rec.category, "rain"))
     return data
+
+
+# Page groups are categories, plus one: overnight cruises are hotels in the
+# data (a tier, a nightly price, the same checks) but their own tab on the page,
+# because among land hotels nobody finds them (Asaf, 25/10).
+WEB_GROUPS = tuple(CATEGORIES) + ("cruises",)
+
+
+def _web_group(rec) -> str:
+    return "cruises" if rec.is_cruise else rec.category
 
 
 def cmd_web() -> int:
@@ -298,15 +308,15 @@ def cmd_web() -> int:
 
     data: dict = {}
     for index, place in enumerate(places, start=1):
-        poi: dict[str, list] = {category: [] for category in CATEGORIES}
+        poi: dict[str, list] = {group: [] for group in WEB_GROUPS}
         for rec in records.get(place.id, []):
             # The web pool ships records the KML cannot: a card without
             # coordinates still carries its name, description and reason,
             # and links out to a maps search instead of a pin.
             if not is_web_shippable(rec):
                 continue
-            poi[rec.category].append(_record_to_web_json(rec))
-        counts = {category: len(poi[category]) for category in CATEGORIES}
+            poi[_web_group(rec)].append(_record_to_web_json(rec))
+        counts = {group: len(poi[group]) for group in WEB_GROUPS}
         data[place.id] = {
             "id": place.id,
             "name": place.name,

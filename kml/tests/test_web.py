@@ -380,3 +380,16 @@ def test_messenger_reaches_the_page_only_when_set():
                 confidence="medium", geocode_query="q", sources=["a"])
     assert "messenger" not in _record_to_web_json(Record(**base))
     assert _record_to_web_json(Record(**base, messenger="https://m.me/x"))["messenger"] == "https://m.me/x"
+
+
+def test_a_cruise_gets_its_own_group_on_the_page():
+    # 25/10: Asaf could not find the cruises among the hotels; on the page they
+    # are their own tab, and a storm (wind) is what cancels them.
+    from kmlpool.cli import _web_group, _record_to_web_json
+    from kmlpool.schema import Record
+    base = dict(name="X", category="hotels", area="a", what="w" * 30, why="y" * 20,
+                confidence="medium", geocode_query="q", sources=["a", "b"], tier=5)
+    assert _web_group(Record(**base)) == "hotels"
+    boat = Record(**base, is_cruise=True)
+    assert _web_group(boat) == "cruises"
+    assert _record_to_web_json(boat)["limiter"] == "wind"
