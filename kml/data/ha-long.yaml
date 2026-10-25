@@ -410,8 +410,11 @@ attractions:
     from Bai Chay
   what: 'A natural cavern with a 300 m2 stage: a dance, circus and multimedia show
     (''Searching for the Pearl Mark''), with a set seafood dinner inside the cave.'
-  why: The only dinner-and-show inside a cave in the Ha Long area - an evening plan
-    for the land night before or after a cruise
+  why: 'Relevant only with a night on land in Ha Long (Bai Chay) before or after a
+    cruise: a 30-40 minute taxi each way, back by about 21:00. Not on a cruise night
+    - the boat serves dinner and does not come back to shore - not from Cat Ba (ferry
+    plus two hours by road) and not as a day trip from Hanoi (3 hours each way). The
+    15:00 show-plus-drink also works as a rainy-afternoon fallback'
   confidence: medium
   geocode_query: Hang Vung Duc, Cam Pha, Quang Ninh, Vietnam
   sources:
@@ -423,8 +426,11 @@ attractions:
     צ'אי
   what_he: 'מערה טבעית עם במה של 300 מ"ר: מופע מחול, קרקס ומולטימדיה, וארוחת פירות
     ים קבועה בתוך המערה.'
-  why_he: ארוחת הערב והמופע היחידים בתוך מערה באזור הא לונג - תוכנית ערב ללילה על
-    היבשה לפני השייט או אחריו
+  why_he: 'רלוונטי רק אם ישנים לילה על היבשה בהא לונג (באי צ''אי) לפני השייט או אחריו:
+    30-40 דקות במונית לכל כיוון, וחוזרים בערך ב-21:00. לא בלילה של שייט - הסירה מגישה
+    ארוחת ערב ולא חוזרת לחוף - לא מקאט בא (מעבורת ועוד כשעתיים בכביש), ולא כטיול יום
+    מהאנוי (3 שעות לכל כיוון). המופע עם המשקה ב-15:00 מתאים גם כתוכנית גיבוי לאחר-צהריים
+    גשום'
   price_unit: per_person
   price_low: 25.0
   price_high: 63.0
