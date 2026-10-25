@@ -362,3 +362,12 @@ def test_recommended_by_reaches_the_page_only_when_set(tmp_path, monkeypatch):
     assert "recommendedBy" not in _record_to_web_json(Record(**base))
     pick = _record_to_web_json(Record(**base, recommended_by="TikTok @k"))
     assert pick["recommendedBy"] == "TikTok @k"
+
+
+def test_website_reaches_the_page_only_when_set():
+    from kmlpool.cli import _record_to_web_json
+    from kmlpool.schema import Record
+    base = dict(name="X", category="attractions", area="a", what="w" * 30, why="y" * 20,
+                confidence="medium", geocode_query="q", sources=["a"])
+    assert "website" not in _record_to_web_json(Record(**base))
+    assert _record_to_web_json(Record(**base, website="https://x.vn/"))["website"] == "https://x.vn/"

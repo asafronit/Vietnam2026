@@ -348,3 +348,10 @@ def test_a_hotel_asaf_sent_in_ships_to_the_web_even_at_low_confidence():
     from kmlpool.schema import is_web_shippable
     assert not is_web_shippable(hotel(confidence="low"))
     assert is_web_shippable(hotel(confidence="low", recommended_by="TikTok @k"))
+
+
+def test_website_must_be_https():
+    # 25/10: the official site, and for a hotel the direct-booking link.
+    assert validate_record(hotel(website="https://www.peridotgrandhotel.com/")) == []
+    assert any("website" in e for e in validate_record(hotel(website="http://x.com")))
+    assert any("website" in e for e in validate_record(hotel(website="peridot.com")))

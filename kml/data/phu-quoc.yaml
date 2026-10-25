@@ -44,6 +44,8 @@ hotels:
   cons_he:
   - מבודד - 45 דקות מהעיר
   - לא בלונג ביץ'
+  phone: '+842973619999'
+  website: https://www.marriott.com/en-us/hotels/pqcsr-sheraton-phu-quoc-long-beach-resort/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0
 - name: Dusit Princess Moonrise Beach Resort
   tier: 5
   tier_official: false
@@ -87,6 +89,9 @@ hotels:
   cons_he:
   - לא ישירות על החול
   - דירוג 4 או 5 לפי המקור
+  phone: '+842976266688'
+  website: https://www.dusit.com/dusitprincess-moonrisebeachresort/
+  email: dppq@dusit.com
 - name: L'Azure Resort and Spa
   tier: 4
   tier_official: true
@@ -131,6 +136,7 @@ hotels:
   cons_he:
   - ריזורט קטן, מעט אפשרויות אוכל
   - הסגנון הכפרי לא מתאים לכולם
+  phone: '+842973994499'
 - name: AVS Hotel Phu Quoc
   tier: 4
   tier_official: true
@@ -174,6 +180,8 @@ hotels:
   cons_he:
   - מלון עירוני, לא ריזורט
   - רעש רחוב
+  phone: '+841900998875'
+  website: https://www.avshotelphuquoc.com/
 - name: Hung Vuong Resort
   tier: 3
   tier_official: true
@@ -196,6 +204,7 @@ hotels:
     של רצועת הריזורטים.
   why_he: 3 כוכבים רשמיים ועם זאת ציוני אורחים אופייניים לדרגה גבוהה בהרבה
   addr_vi: 1/39 Hẻm 182A Trần Phú, Dương Đông, Phú Quốc, An Giang
+  phone: '+84945785777'
 - name: Dao Ngoc Hotel
   tier: 3
   tier_official: true
@@ -250,6 +259,8 @@ must_see:
   price_low: 27.0
   price_high: 33.0
   price_checked: '2026-10-25'
+  website: https://booking.sunworld.vn/vi/catalog?land=SunParadiseLandPhuQuoc&park=HTI&date=2026-07-10&flexibleDate=1&adultQuantity=1&childQuantity=0&seniorQuantity=0&click_id=6a5fcde404f042dd8d197eb2b4bbf2a4&aff_network=SF&campaign_id=10&at_pub_id=ADS000000467
+  email: booking@sunworld.vn
 diving:
 - name: An Thoi archipelago - the dive area
   area: Southern Phu Quoc, reached from An Thoi town
@@ -356,6 +367,8 @@ diving:
   price_unit: per_person
   price_low: 75.0
   price_high: 105.0
+  phone: '+84939402872'
+  whatsapp: '+84869124043'
 - name: John's Tours - the quote on file
   area: Southern Phu Quoc, An Thoi; hotel pickup included
   what: A direct dive club, not booked through an agency, which sent a detailed written
@@ -504,6 +517,8 @@ attractions:
   price_unit: entry
   price_low: 25.0
   price_high: 30.0
+  phone: '+841900232328'
+  website: https://vinwonders.com/en/vinpearl-safari-phu-quoc/
 markets:
 - name: Phu Quoc Night Market (Dinh Cau)
   area: Duong Dong, Bach Dang street
@@ -625,6 +640,10 @@ spa:
   coords:
     lat: 10.2001711
     lng: 103.9646577
+  phone: '+84705800686'
+  website: https://spaphuquoc.com/
+  whatsapp: '+84705800686'
+  email: phuquocdayspa@gmail.com
 - name: Cocobox Spa
   area: Central Duong Dong
   what: A central Duong Dong spa doing Swedish, Thai, deep tissue and hot stone work,

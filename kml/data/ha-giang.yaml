@@ -43,6 +43,8 @@ hotels:
   cons_he:
   - יקר ביחס להא ג'יאנג
   - העיר עצמה היא תחנת מעבר, לא אטרקציה
+  phone: '+842193846666'
+  website: https://www.marriott.com/en-us/hotels/hanhp-four-points-ha-giang/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0
 - name: Yen Bien Luxury Hotel
   tier: 4
   tier_official: true
@@ -83,6 +85,7 @@ hotels:
   cons_he:
   - הבריכה עונתית - ייתכן שסגורה בנובמבר
   - חדרים פשוטים
+  phone: '+842193899999'
 - name: De La Mont Hotel Ha Giang
   tier: 4
   tier_official: true
@@ -125,6 +128,8 @@ hotels:
   cons_he:
   - מלון חדש - מעט היסטוריה
   - רעש תנועה מהכביש הראשי
+  phone: '+84888316668'
+  email: info@delamonthotel.com
 - name: Silk River Hotel Ha Giang
   tier: 3
   tier_official: true
@@ -149,6 +154,10 @@ hotels:
   why_he: דירוג 3 כוכבים רשמי, זול באמת, ומקבל ביקורות טובות באופן עקבי דווקא מרוכבי
     הלולאה
   addr_vi: Đường Nguyễn Trãi, Hà Giang, Tuyên Quang
+  phone: '+84889775678'
+  website: https://silkriverhotel.com/
+  whatsapp: '+84889775678'
+  email: silkriverhotelhagiang@gmail.com
 - name: Phuc Lam Hotel
   tier: 3
   tier_official: true
@@ -173,6 +182,7 @@ hotels:
     ציוני ביקורות חזקים לאחרונה
   addr_vi: Hà Giang, Tuyên Quang
   addr_vi_partial: true
+  phone: '+84989751818'
 must_see:
 - name: Ma Pi Leng Pass
   area: National Road 4C, between Dong Van and Meo Vac

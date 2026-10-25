@@ -40,6 +40,9 @@ hotels:
   cons_he:
   - יקר ביחס לדה לאט
   - בניין ישן - בלי בריכה
+  phone: '+842633825444'
+  website: https://www.dalatpalacehotel.com/
+  email: palace.reservations@royaldl.com
 - name: MerPerle Dalat Hotel
   tier: 5
   tier_official: false
@@ -84,6 +87,9 @@ hotels:
   cons_he:
   - 5 כוכבים בהצהרה עצמית; אורחים אומרים שהוא לא עומד בזה
   - גדול ועמוס בקבוצות
+  phone: '+842633553789'
+  website: https://merperle.vn/vi/properties/merperle-dalat-hotel
+  email: sales@merperle.vn
 - name: Colline Dalat
   tier: 4
   tier_official: true
@@ -127,6 +133,8 @@ hotels:
   cons_he:
   - אזור עמוס ורועש בלילה
   - אין בריכה
+  phone: '+842633665588'
+  email: info@hotelcolline.com
 - name: Terracotta Hotel & Resort Dalat
   tier: 4
   tier_official: false
@@ -169,6 +177,9 @@ hotels:
   cons_he:
   - 6 ק"מ מהמרכז
   - כמעט אין לאן ללכת ברגל בערב
+  phone: '+842633883838'
+  website: https://dalat.terracottaresort.com/
+  email: reservations@terracottaresort.com
 - name: TTC Hotel - Da Lat
   tier: 3
   tier_official: false
@@ -190,6 +201,7 @@ hotels:
     קטן.
   why_he: 3 כוכבים ממותגים ואמינים במרכז, ולא בית הארחה שדירג את עצמו
   addr_vi: 4 Nguyễn Thị Minh Khai, Đà Lạt, Lâm Đồng
+  phone: '+842633826042'
 - name: Le House Dalat
   tier: 3
   tier_official: false
@@ -213,6 +225,7 @@ hotels:
   why_he: אפשרות הבוטיק התקציבית המדורגת ביותר בדה לאט, אם כי אין לה דירוג כוכבים
     רשמי
   addr_vi: 124 Phạm Ngọc Thạch, Đà Lạt, Lâm Đồng
+  phone: '+84345201295'
 must_see:
 - name: Crazy House (Hang Nga Guesthouse)
   area: Huynh Thuc Khang Street
@@ -239,6 +252,9 @@ must_see:
   price_unit: entry
   price_low: 4.0
   price_high: 5.0
+  phone: '+842633822070'
+  whatsapp: '+84886445481'
+  email: reservation@crazyhouse.vn
 - name: Langbiang Mountain
   area: Lac Duong, ~12km north of the city
   what: A 2,167m twin-peaked mountain reached by a bumpy 4.5km jeep track from its
@@ -304,6 +320,8 @@ attractions:
   price_unit: per_person
   price_low: 55.0
   price_high: 80.0
+  phone: '+84981166068'
+  website: https://dalattourist.com.vn/
 - name: Datanla Alpine Coaster
   area: Datanla Waterfall, 7km south of the city
   what: A 2,400-metre gravity toboggan track through pine forest down toward the waterfall,
@@ -324,6 +342,7 @@ attractions:
   price_unit: per_person
   price_low: 6.0
   price_high: 10.0
+  phone: '+84981166068'
 - name: Tuyen Lam Lake SUP/Kayak and Clay Tunnel
   area: Tuyen Lam Lake, south of the city
   what: A paddle by kayak or stand-up paddleboard across Tuyen Lam Lake's pine-fringed
@@ -511,6 +530,9 @@ spa:
   price_unit: per_hour
   price_low: 20.0
   price_high: 40.0
+  phone: '+84362489189'
+  website: https://charmspadalat.com/
+  email: charmspa.dl@gmail.com
 nightlife:
 - name: Maze Bar (100 Roofs Cafe)
   area: Da Lat city centre, among the shop-houses

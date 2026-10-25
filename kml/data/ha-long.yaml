@@ -86,6 +86,8 @@ hotels:
   - '''5 כוכבים'' הוא שם המוצר, לא דירוג'
   - מסלול הא לונג העמוס
   is_cruise: true
+  phone: '+842439291555'
+  whatsapp: '+84905489888'
 - name: Mon Cheri Cruise
   tier: 4
   tier_official: false
@@ -170,6 +172,10 @@ hotels:
   - החלק העמוס ביותר של המפרץ
   - פחות פעילויות מהסירות החדשות
   is_cruise: true
+  phone: '+84965426588'
+  website: https://lapandoracruises.com/
+  whatsapp: '+84965426588'
+  email: info@lapandoracruises.com
 - name: Hoang Giang Hotel
   tier: 3
   tier_official: true
@@ -194,6 +200,7 @@ hotels:
     בה
   addr_vi: Thị trấn Cát Bà, Cát Hải, Hải Phòng
   addr_vi_partial: true
+  phone: '+84849601196'
 - name: Quang Tung Hotel
   tier: 3
   tier_official: true
@@ -262,6 +269,8 @@ hotels:
   - באי צ'אי היא רצועת נופש עמוסה
   - בניין ותיק
   coords_manual: true
+  phone: '+842033848108'
+  website: https://all.accor.com/lien_externe.svlt?goto=fiche_hotel&code_hotel=6185&merchantid=seo-maps-VN-6185&sourceid=aw-cen
 - name: Hotel Perle d'Orient Cat Ba - MGallery
   tier: 5
   tier_official: true
@@ -306,6 +315,7 @@ hotels:
   - יקר ביחס לקאט בא
   - דרך ארוכה מהאנוי (אוטובוס וסירה)
   coords_manual: true
+  phone: '+842253887360'
 must_see:
 - name: Ha Long Bay limestone karsts
   limiter: sea
@@ -356,6 +366,7 @@ must_see:
   price_unit: entry
   price_low: 3.0
   price_high: 4.0
+  phone: '+84987632282'
 attractions:
 - name: Deep water soloing, Lan Ha Bay
   limiter: sea
@@ -404,6 +415,7 @@ attractions:
   price_unit: entry
   price_low: 2.0
   price_high: 3.0
+  phone: '+84336575596'
 - name: Dragon Pearl Cave dinner show (Hang Ngoc Rong)
   limiter: flood
   area: Vung Duc cave complex, Diem Thuy area, Cam Pha - about 30-40 minutes by car

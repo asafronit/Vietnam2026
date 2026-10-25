@@ -70,6 +70,9 @@ hotels:
   why_he: 'הבחירה המובילה במחקר המאומת של הפרויקט: שתי הצעות סוכנות עצמאיות התכנסו
     אליו, ואגודה נותנת 9.7. קייאק מציג אותו כ-3 כוכבים'
   addr_vi: Đường Hồ Chí Minh nhánh Đông, Hưng Trạch, Bố Trạch, Quảng Trị
+  phone: '+842323675999'
+  website: https://phongnhalakehouse.com/
+  email: sales@phongnhalakehouse.com
 - name: Phong Nha Farmstay
   tier: 3
   tier_official: false
@@ -99,6 +102,8 @@ hotels:
   coords_manual: true
   addr_vi: Cự Nẫm, Bố Trạch, Quảng Trị
   addr_vi_partial: true
+  phone: '+84917910055'
+  website: https://phongnhafarmstay.com/
 must_see:
 - name: Phong Nha Cave boat trip
   limiter: flood
@@ -126,6 +131,7 @@ must_see:
   price_low: 6.0
   price_high: 9.0
   price_checked: '2026-10-25'
+  phone: '+84839428594'
 - name: Paradise Cave
   limiter: flood
   area: Phong Nha-Ke Bang National Park
@@ -309,6 +315,7 @@ attractions:
   price_unit: per_person
   price_low: 4.0
   price_high: 6.0
+  phone: '+84382906262'
 - name: Pub with Cold Beer
   area: Bong Lai Valley, near the Rao Con River
   what: A rustic family farm-bar down a country lane where you pick a live chicken
@@ -332,6 +339,7 @@ attractions:
   price_unit: per_person
   price_low: 3.0
   price_high: 8.0
+  phone: '+84397428778'
 markets:
 - name: Son Trach Market
   area: Son Trach (Phong Nha town centre), by the Phong Nha-Ke Bang tourist centre

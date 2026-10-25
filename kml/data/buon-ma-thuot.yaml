@@ -41,6 +41,9 @@ hotels:
   cons_he:
   - רשת מקומית - 5 כוכבים בסטנדרט מקומי, לא בינלאומי
   - גדול ולא אישי
+  phone: '+842623961555'
+  website: https://booking.muongthanh.com/khach-san-muong-thanh-luxury-buon-ma-thuot
+  email: info@muongthanh.vn
 - name: Saigon Ban Me Hotel
   tier: 4
   tier_official: false
@@ -81,6 +84,9 @@ hotels:
   cons_he:
   - אווירה של מלון עסקים, מיושן בחלקו
   - טרקלין קריוקי עלול להיות רועש
+  phone: '+842623685666'
+  website: https://saigonbanmehotel.com.vn/
+  email: info@saigonbanmehotel.com.vn
 - name: Dakruco Hotel
   tier: 3
   tier_official: false
@@ -107,6 +113,7 @@ hotels:
     עם בריכה חיצונית, מסעדה ובר.
   why_he: המלון הזול במרכז עם ציון ביקורות גבוה באמת ולא מנופח
   addr_vi: 30 Nguyễn Chí Thanh, Tân An, Buôn Ma Thuột, Đắk Lắk
+  phone: '+842623970888'
 must_see:
 - name: The World Coffee Museum
   area: Nguyen Dinh Chieu Street, Buon Ma Thuot ward, about 1.2 km north of the centre
@@ -136,6 +143,8 @@ must_see:
   price_low: 3.0
   price_high: 6.0
   price_checked: '2026-10-25'
+  phone: '+84899355368'
+  website: https://baotangthegioicaphe.com/
 - name: Ako Dhong Village
   area: Tan Loi Ward, inside the city
   what: A working Ede ethnic-minority neighbourhood inside the city itself, with more
@@ -201,6 +210,8 @@ must_see:
   price_unit: per_person
   price_low: 2.0
   price_high: 40.0
+  phone: '+84966335399'
+  website: https://tour.yokdonnationalpark.vn/
 attractions:
 - name: Trung Nguyen Coffee Village
   area: 163 Ly Thai To, Buon Ma Thuot ward, about 3 km north-east of the centre
@@ -230,6 +241,8 @@ attractions:
   price_unit: entry
   price_low: 2.0
   price_high: 4.0
+  phone: '+84918749000'
+  website: https://trungnguyenlegend.com/lang-ca-phe-trung-nguyen/
 markets:
 - name: Buon Ma Thuot Central Market
   area: City center, near Victory Monument

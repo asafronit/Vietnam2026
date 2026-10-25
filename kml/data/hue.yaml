@@ -42,6 +42,9 @@ hotels:
   cons_he:
   - יקר
   - חזית הנהר מוצפת בגשם כבד
+  phone: '+842343837475'
+  website: https://azerai.com/resorts/azerai-la-residence-hue
+  email: reservations.kegabay@azerai.com
 - name: Meliá Vinpearl Hue
   tier: 5
   tier_official: true
@@ -86,6 +89,8 @@ hotels:
   cons_he:
   - מגדל גדול, מעט אופי מקומי
   - 10 דקות מהנהר
+  phone: '+842343688666'
+  website: https://www.melia.com/en/hotels/vietnam/hue-city/melia-vinpearl-hue
 - name: Eldora Hotel
   tier: 4
   tier_official: true
@@ -130,6 +135,7 @@ hotels:
   cons_he:
   - בריכה קטנה או בלי
   - פחות מתקנים מה-5 כוכבים
+  phone: '+842343866666'
 - name: Pilgrimage Village Boutique Resort & Spa
   tier: 4
   tier_official: false
@@ -171,6 +177,7 @@ hotels:
   cons_he:
   - 5 ק"מ מהמרכז
   - הדירוג שנוי במחלוקת (4 או 5)
+  phone: '+842343885461'
 - name: Jade Scene Hotel
   tier: 3
   tier_official: true
@@ -197,6 +204,7 @@ hotels:
   why_he: מהמלונות המדורגים ביותר בהואה בכל דרגה (9.2 מלמעלה מ-3,000 ביקורות), ו-3
     כוכבים שנבדקו רשמית ולא בוטיק שדירג את עצמו
   addr_vi: Kiệt 42 Nguyễn Công Trứ, Huế
+  phone: '+84935353117'
 - name: Thanh Lich Hue Hotel
   tier: 3
   tier_official: false
@@ -223,6 +231,8 @@ hotels:
   why_he: אפשרות אמינה וידידותית לתקציב במרכז העיר (9.0 מלמעלה מ-900 ביקורות), אם
     כי תוספת הכוכב שלו מוצהרת עצמית
   addr_vi: Võ Thị Sáu, Huế
+  phone: '+842343877877'
+  email: info@eleganthotel.com.vn
 must_see:
 - name: Hue Imperial City (The Citadel)
   area: North bank of the Perfume River, city center
@@ -251,6 +261,7 @@ must_see:
   price_low: 8.0
   price_high: 8.0
   price_checked: '2026-10-25'
+  phone: '+842343523237'
 - name: Khai Dinh Tomb
   area: Chau Chu Village, ~10km from Hue city
   what: The last and most ornate of the Nguyen royal tombs, its concrete exterior

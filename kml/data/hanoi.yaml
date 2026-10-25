@@ -41,6 +41,9 @@ hotels:
   cons_he:
   - רחובות עמוסים, רעש אופנועים
   - חדרים קומפקטיים
+  phone: +84 886 428 888
+  email: info.grand@peridothotels.com
+  website: https://reservation.peridotgrandhotel.com/hotel/BeHome?hotel_code=4B7272
 - name: GM Premium Hotel
   tier: 5
   tier_official: false
@@ -86,6 +89,10 @@ hotels:
   cons_he:
   - 5 כוכבים בהצהרה עצמית
   - מלון קטן - מתקנים מוגבלים
+  phone: '+842438316868'
+  website: https://gmpremiumhotel.com/
+  whatsapp: '+84345639904'
+  email: booking@gmpremiumhotel.com
 - name: Aurora Premium - A Lifestyle Hotel
   tier: 4
   tier_official: true
@@ -128,6 +135,10 @@ hotels:
   cons_he:
   - רעש רחוב
   - אין בריכה
+  phone: '+842439362345'
+  website: https://aurorahotels.vn/premium-hangbe
+  whatsapp: '+84964920581'
+  email: info.premium@aurorahotels.vn
 - name: La Sinfonia del Rey Hotel & Spa
   tier: 4
   tier_official: false
@@ -173,6 +184,8 @@ hotels:
   cons_he:
   - שיווק של 5 כוכבים, רישום של 4
   - חדרים עם נוף לאגם יקרים יותר
+  phone: +84 968 472 388
+  website: https://lasinfoniavietnam.com/delrey/booking/
 - name: Hanoi Amorita Boutique Hotel & Travel
   tier: 3
   tier_official: true
@@ -196,6 +209,8 @@ hotels:
   why_he: דירוג 3 כוכבים רשמי עם ציון ביקורות גבוה במיוחד (9.3 ומעלה) ביחס לטווח המחיר
     שלו
   addr_vi: 7 Hàng Dầu, Hoàn Kiếm, Hà Nội
+  phone: +84 24 3927 4666
+  website: https://amoritaboutiquehotel.com/
 - name: Hanoi La Storia Hotel
   tier: 3
   tier_official: true
@@ -223,6 +238,8 @@ hotels:
   why_he: דירוג 3 כוכבים רשמי במחיר תקציבי אמיתי, עם ביקורות חזקות גם אם לא מושלמות
   addr_vi: Phố cổ, gần phố Hàng Mã, Hoàn Kiếm, Hà Nội
   addr_vi_partial: true
+  phone: +84 24 3719 1374
+  email: info@hanoilastoriahotel.com
 must_see:
 - name: Hoan Kiem Lake
   area: Hoan Kiem
@@ -268,6 +285,8 @@ must_see:
   price_unit: entry
   price_low: 3.0
   price_high: 3.0
+  phone: '+842438452917'
+  email: tthdvhkhvmqtg_svhtt@hanoi.gov.vn
 - name: Hoa Lo Prison Museum
   area: Hoan Kiem, Hoa Lo street
   what: A preserved wing of a French colonial-era prison built in 1896, nicknamed
@@ -294,6 +313,8 @@ must_see:
   price_unit: entry
   price_low: 2.0
   price_high: 2.0
+  phone: '+84825112668'
+  website: https://hoalo.vn/
 - name: Imperial Citadel of Thang Long
   area: Ba Dinh, Hoang Dieu street
   what: The excavated core of the royal citadel that was Vietnam's seat of power for
@@ -321,6 +342,8 @@ must_see:
     של שישי ושבת דורש לילה בהאנוי באחד מהימים האלה
   hours: 08:00-17:00 daily
   hours_he: 08:00-17:00 כל יום
+  phone: '+842437345427'
+  website: https://hoangthanhthanglong.vn/
 - name: Ho Chi Minh Mausoleum Complex
   area: Ba Dinh Square
   what: The granite mausoleum holding Ho Chi Minh's embalmed body, facing Ba Dinh
@@ -357,6 +380,7 @@ must_see:
   hours_he: 08:00-11:00 (בשבת עד 11:30), סגור בימים שני ושישי. המאוזוליאום עצמו סגור
     לשיפוץ עד 2 בנובמבר 2026 ונפתח ב-3 בנובמבר; הכיכר, בית העמודים ופגודת העמוד האחד
     פתוחים
+  website: https://www.bqllang.gov.vn/
 attractions:
 - name: Vietnam Museum of Ethnology
   area: Cau Giay, about 8km from the Old Quarter
@@ -383,6 +407,7 @@ attractions:
   price_unit: entry
   price_low: 2.0
   price_high: 2.0
+  phone: '+842437562193'
 - name: Hanoi Train Street coffee shops
   area: Old Quarter, Phung Hung / Le Duan
   what: A row of narrow-gauge cafes squeezed along an active railway corridor; twice
@@ -436,6 +461,8 @@ attractions:
     התוכנית הטבעית לערב גשום. ההופעות של הערב נמכרות יומיים-שלושה מראש
   hours: Shows at 16:10, 17:20 and 18:30; about 50 minutes, no interval
   hours_he: הצגות ב-16:10, ב-17:20 וב-18:30; כ-50 דקות, בלי הפסקה
+  phone: '+842438249494'
+  website: https://thanglongwaterpuppet.com/
 - name: Vietnamese Women's Museum
   area: Hoan Kiem, 36 Ly Thuong Kiet
   what: Four floors on the role of women in Vietnamese family life, work, war and
@@ -463,6 +490,8 @@ attractions:
     מאגם הואן קיים
   hours: 08:00-17:00 daily
   hours_he: 08:00-17:00 כל יום
+  phone: '+842439365973'
+  website: https://baotangphunu.org.vn/
 - name: St. Joseph's Cathedral
   area: Hoan Kiem, Nha Chung street
   what: A neo-Gothic cathedral completed in 1886, modelled on Notre-Dame de Paris,
@@ -486,6 +515,8 @@ attractions:
     מעל כיכר קטנה מוקפת בתי קפה.
   why_he: הכניסה חינם, חמש דקות מהאגם, ובכיכר שמולה תושבי העיר יושבים בערב על שרפרפים
     נמוכים ושותים תה לימון
+  website: https://giaoxuchinhtoahanoi.org/
+  email: chinhtoahn@gmail.com
 - name: Long Bien Bridge
   area: Between the Old Quarter and Long Bien, over the Red River
   what: A 1.7km steel cantilever bridge finished by the French in 1903, bombed repeatedly
@@ -1135,6 +1166,8 @@ spa:
   price_unit: per_hour
   price_low: 20.0
   price_high: 35.0
+  phone: +84 866 903 499
+  whatsapp: +84 977 903 499
 - name: Nap Spa
   area: Old Quarter, Hoan Kiem
   what: A small Old Quarter spa whose foot massage and Vietnamese "nourishing shampoo"
@@ -1155,6 +1188,8 @@ spa:
   price_unit: per_hour
   price_low: 18.0
   price_high: 30.0
+  phone: '+84837800796'
+  website: https://www.fresha.com/book-now/nap-spa-bmae0o6c/all-offer?share=true&pId=1469438
 contacts:
 - name: Kelly - visa assistance
   area: Works remotely; relevant before departure and on arrival

@@ -42,6 +42,8 @@ hotels:
   cons_he:
   - 30-40 דקות מהשייטים
   - מבודד - אוכלים בריזורט
+  phone: '+84932786777'
+  email: sales@vedanaresort.com
 - name: Ninh Binh Legend Hotel
   tier: 5
   tier_official: true
@@ -86,6 +88,7 @@ hotels:
   cons_he:
   - סביבה עירונית, בלי נוף צוקים
   - גדול ולא אישי
+  phone: '+842293899880'
 - name: Emeralda Resort Ninh Binh
   tier: 4
   tier_official: true
@@ -128,6 +131,7 @@ hotels:
   cons_he:
   - צריך תחבורה לכל דבר
   - המחיר משתנה מאוד לפי תאריך
+  phone: '+842293658333'
 - name: Ninh Binh Hidden Charm Hotel & Resort
   tier: 4
   tier_official: true
@@ -169,6 +173,8 @@ hotels:
   cons_he:
   - טאם קוק תיירותי
   - לטראנג אן צריך נסיעה קצרה
+  phone: '+842293888555'
+  email: info@hiddencharmresort.com
 - name: Lalita Tam Coc Resort & Spa
   tier: 3
   tier_official: false
@@ -193,6 +199,9 @@ hotels:
     הממוקם ביותר להגעה רגלית לטאם קוק
   addr_vi: Ninh Hải, gần chùa Bích Động, Hoa Lư, Ninh Bình
   addr_vi_partial: true
+  phone: '+842293626888'
+  website: https://lalitatamcocresort.com/
+  email: info@lalitahotel.com
 - name: An's Eco Garden Resort
   tier: 3
   tier_official: false
@@ -216,6 +225,8 @@ hotels:
   why_he: מדורג 9.0 ומעלה גם בטריפאדוויזר וגם בבוקינג מתוך יותר מ-800 ביקורות, והלינה
     היחידה שנמצאת ממש בתוך שמורת טראנג אן ולא בשוליה
   addr_vi: Thôn Bình Khê, Ninh Nhất, Ninh Bình
+  phone: '+84867699981'
+  website: https://anecogarden.com/
 must_see:
 - name: Trang An Scenic Landscape Complex
   price_low: 11.5
@@ -243,6 +254,7 @@ must_see:
     lng: 105.9005014
   hours: 07:00-16:30 from October to December; 06:00-16:45 April to September
   hours_he: 07:00-16:30 מאוקטובר עד דצמבר; 06:00-16:45 מאפריל עד ספטמבר
+  phone: '+842293891326'
 - name: Tam Coc boat ride
   price_low: 9.6
   price_unit: per_person
@@ -343,6 +355,8 @@ attractions:
     lat: 20.2752292
     lng: 105.8654697
   location_precision: approximate
+  phone: '+84913899135'
+  website: https://chuabaidinhninhbinh.com/
 markets:
 - name: Cho Rong (Rong Market)
   area: 71 Van Giang Street, Thanh Binh Ward

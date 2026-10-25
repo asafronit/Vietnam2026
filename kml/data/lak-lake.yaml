@@ -28,6 +28,8 @@ hotels:
     היחידה שיושבת ממש על האגם
   addr_vi: Hồ Lắk, Liên Sơn, Lắk, Đắk Lắk
   addr_vi_partial: true
+  phone: '+842626255552'
+  website: https://www.laktentedcamp.com/
 - name: Bao Dai Villa (Lak Lake)
   tier: 3
   tier_official: false

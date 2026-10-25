@@ -40,6 +40,7 @@ hotels:
   cons_he:
   - יקר
   - רחובות עמוסים ורועשים מסביב
+  phone: '+842835354461'
 - name: Hotel Des Arts Saigon - MGallery
   tier: 5
   tier_official: true
@@ -86,6 +87,8 @@ hotels:
   cons_he:
   - יקר מאוד בקצה העליון
   - 10-15 דקות לבן טאן
+  phone: '+842839898888'
+  email: h9231@accor.com
 - name: Liberty Central Saigon Riverside
   tier: 4
   tier_official: true
@@ -194,6 +197,7 @@ hotels:
   why_he: מסווג רשמית 3 כוכבים ולא מוצהר עצמית, עם עשור של דירוגי עשירייה פותחת בקטגוריה
     בעיר
   addr_vi: Đường Nguyễn An Ninh, Bến Thành, Quận 1, TP. Hồ Chí Minh
+  phone: '+842838272740'
 - name: Bong Sen Hotel Saigon
   tier: 3
   tier_official: true
@@ -220,6 +224,8 @@ hotels:
   why_he: 3 כוכבים רשמיים באותו רחוב שבו נמצאות בחירות ה-5 כוכבים, בשבריר מהמחיר
   addr_vi: Đường Đồng Khởi, Quận 1, TP. Hồ Chí Minh
   name_vi: Khách sạn Bông Sen Sài Gòn
+  phone: '+842838291516'
+  email: ss.ta@bongsencorporation.com
 must_see:
 - name: Reunification Palace
   area: District 1
@@ -245,6 +251,9 @@ must_see:
   price_unit: entry
   price_low: 2.0
   price_high: 3.0
+  phone: '+842838223652'
+  website: https://www.dinhdoclap.gov.vn/
+  email: dinhdoclap@dinhdoclap.gov.vn
 - name: Notre-Dame Cathedral Basilica of Saigon
   area: District 1
   what: A twin-towered red-brick cathedral built by French colonists in the 1880s
@@ -268,6 +277,7 @@ must_see:
   why_he: האתר הקולוניאלי המוכר ביותר בעיר — אבל לצפות לבניין עטוף פיגומים ולא לגלויה.
     הכיכר ובניין הדואר המרכזי שלצידה הם הסיבה לעמוד שם
   price_unit: free
+  phone: '+84823721439'
 attractions:
 - name: Cu Chi Tunnels
   area: Cu Chi District, about 1.5 hours from central Saigon
@@ -295,6 +305,7 @@ attractions:
   price_unit: per_person
   price_low: 5.0
   price_high: 35.0
+  phone: '+842837948830'
 - name: War Remnants Museum
   area: District 3
   what: A three-storey museum housing over 20,000 artifacts, photographs and military
@@ -321,6 +332,8 @@ attractions:
   price_unit: entry
   price_low: 2.0
   price_high: 2.0
+  phone: '+842839305587'
+  website: https://baotangchungtichchientranh.vn/
 street_food:
 - name: Banh Canh Cua Ba Ba
   kind: vietnamese
@@ -799,3 +812,4 @@ spa:
   price_unit: per_hour
   price_low: 18.0
   price_high: 30.0
+  phone: '+84702507725'

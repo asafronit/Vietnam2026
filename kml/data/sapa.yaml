@@ -40,6 +40,9 @@ hotels:
   cons_he:
   - עלייה בחזרה מהעיירה
   - ערפל עלול להסתיר את הנוף בנובמבר
+  phone: '+842143788555'
+  website: https://silkpathhotel.com/
+  whatsapp: '+84948585222'
 - name: Pao's Sapa Leisure Hotel
   tier: 5
   tier_official: true
@@ -87,6 +90,8 @@ hotels:
   cons_he:
   - החדרים מרגישים כמו 4 כוכבים
   - 223 חדרים - עמוס
+  phone: '+842146253999'
+  email: rsvn@paoshotel.com
 - name: Pistachio Hotel Sapa
   tier: 4
   tier_official: true
@@ -128,6 +133,8 @@ hotels:
   cons_he:
   - הבריכה עונתית - ייתכן שסגורה בנובמבר
   - יקר מרוב ה-4 כוכבים
+  phone: '+842143566666'
+  email: rsv@pistachiohotel.com
 - name: Aliana Boutique Sapa Hotel & Spa
   tier: 4
   tier_official: false
@@ -170,6 +177,10 @@ hotels:
   cons_he:
   - הדירוג מנופח בחלק מהאתרים
   - רעש ממרכז העיירה
+  phone: '+842143772268'
+  website: https://alianaboutiquesapa.com/
+  whatsapp: '+84383685335'
+  email: info@alianaboutiquesapa.com
 - name: Sapa Centre Hotel
   tier: 3
   tier_official: true
@@ -193,6 +204,7 @@ hotels:
   why_he: 3 כוכבים רשמיים עם ציון ביקורות גבוה במיוחד (9.4 עד 9.5) ביחס למחיר, והמיקום
     המרכזי ביותר ברשימה הזו
   addr_vi: 10-12 Cầu Mây, Sa Pa, Lào Cai
+  phone: '+84862556299'
 - name: Ladybird Boutique Hotel Sapa
   tier: 3
   tier_official: true
@@ -215,6 +227,7 @@ hotels:
     אל תחנת סאפה ואל פאנסיפאן.
   why_he: 3 כוכבים רשמיים עם ביקורות חזקות ועקביות (8.9 עד 9.5) בכמה פלטפורמות הזמנה
   addr_vi: 4 Thạch Sơn, Sa Pa, Lào Cai
+  phone: '+84973723345'
 must_see:
 - name: Fansipan cable car and Muong Hoa mountain train
   limiter: wind
@@ -248,6 +261,8 @@ must_see:
   price_low: 33.0
   price_high: 41.0
   price_checked: '2026-10-25'
+  website: https://booking.sunworld.vn/vi/catalog?land=SunParadiseLandSaPa&park=FSS&flexibleDate=1&adultQuantity=1&childQuantity=0&seniorQuantity=0&click_id=dc21917a9c694c1db7bb9b028ae0f27d&aff_network=SF&campaign_id=12&at_pub_id=828
+  email: booking@sunworld.vn
 - name: Cat Cat Village
   area: San Sa Ho commune, about 3km from Sapa town
   what: A Black H'mong village at the entrance to the Muong Hoa Valley, founded in
@@ -287,6 +302,7 @@ must_see:
     ופונה אל הכיכר המרוצפת שמתפקדת כמרכז החברתי של העיירה ונקודת המוצא של רכבת ההרים.
   why_he: המרכז המילולי של העיירה סאפה, ונקודת העוגן של שוק הלילה של שבת
   price_unit: free
+  website: https://www.nhathodasapa.com/
 attractions:
 - name: Black H'mong village trek, Muong Hoa Valley
   area: Muong Hoa Valley, villages south of Sapa town (Lao Chai, Ta Van)
@@ -390,6 +406,7 @@ attractions:
     lat: 22.3711032
     lng: 103.7624731
   location_precision: approximate
+  phone: '+84386679610'
 - name: Sapa Alpine Coaster (Mong Village)
   limiter: rain
   area: Ban Mong, near Cat Cat, a free shuttle from Sapa town every 30 minutes
@@ -418,6 +435,8 @@ attractions:
     lat: 22.3225629
     lng: 103.8665646
   location_precision: approximate
+  phone: +84 862 096 116
+  website: https://www.banmong.vn/alpine-coaster-funfair
 - name: PHANSI viewpoint cafe
   limiter: rain
   area: Lane 66 Violet street, about 10 minutes from the town centre

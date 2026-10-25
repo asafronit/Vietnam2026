@@ -45,6 +45,8 @@ hotels:
   cons_he:
   - מלון גדול בסגנון כנסים
   - כביש עמוס בחזית
+  phone: '+842923761888'
+  website: https://www.marriott.com/en-us/hotels/vcasi-sheraton-can-tho/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0
 - name: Muong Thanh Luxury Can Tho Hotel
   tier: 5
   tier_official: false
@@ -86,6 +88,7 @@ hotels:
   cons_he:
   - חדרים מיושנים
   - לא במרחק הליכה לשוק הלילה
+  phone: '+842923688888'
 - name: Victoria Can Tho Resort
   tier: 4
   tier_official: true
@@ -132,6 +135,10 @@ hotels:
   cons_he:
   - מונית לעיר לארוחת ערב
   - מקום ותיק
+  phone: '+842923810111'
+  website: https://www.victoriahotels.asia/en/victoria-can-tho-resort/
+  whatsapp: '+84906309338'
+  email: resa.cantho@victoriahotels.asia
 - name: Can Tho Ecolodge
   tier: 4
   tier_official: false
@@ -177,6 +184,9 @@ hotels:
   cons_he:
   - רחוק מהעיר ומהמסעדות
   - כפרי - יתושים ולחות
+  phone: '+84336983239'
+  whatsapp: '+84989158587'
+  email: booking@cantho.ecolodge.asia
 - name: Bamboo Eco Village
   tier: 3
   tier_official: true
@@ -202,6 +212,9 @@ hotels:
     בסביבת מטעים ותעלות ולא במרכז העיר.
   why_he: 3 כוכבים רשמיים עם ביקורות חזקות במיוחד לדרגה, ומשובח שוב ושוב על הגן והבריכה
   addr_vi: Bông Vang, An Bình, Cần Thơ
+  phone: '+84903937546'
+  website: https://bambooecovillage.com/
+  email: contact@bambooecovillage.com
 - name: Mekong Silt Ecolodge
   tier: 3
   tier_official: false
@@ -225,6 +238,10 @@ hotels:
   why_he: משובח דרך קבע על סיורים מקומיים אמיתיים מחוץ למסלול התיירים, ולא על מעגל
     סירות התעלות הארוז הסטנדרטי
   addr_vi: Nguyễn Văn Cừ, Mỹ Khánh, Phong Điền, Cần Thơ
+  phone: '+84946997679'
+  website: https://mekongsiltecolodge.com.vn/
+  whatsapp: '+84946997679'
+  email: sm@mekongsiltecolodge.com.vn
 must_see:
 - name: Cai Rang Floating Market
   area: Cai Rang, about 6 km southwest of central Can Tho
@@ -311,6 +328,7 @@ attractions:
     ויאטנמיים, חמריים וצרפתיים, עם פסל בודהה שוכב גדול בשטחה.
   why_he: המקדש המובחן ביותר אדריכלית בדלתה, שמערבב שלוש מסורות בנייה במתחם אחד
   price_unit: free
+  phone: '+842733873427'
 markets:
 - name: Ninh Kieu Night Market
   area: Ninh Kieu, Phan Boi Chau and Phan Chau Trinh streets

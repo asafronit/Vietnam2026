@@ -40,6 +40,9 @@ hotels:
   cons_he:
   - לא בתוך העיר העתיקה
   - פופולרי - להזמין מוקדם
+  phone: +84 235 3915 915
+  website: https://book-directonline.com/properties/lasiestahoianresort%26spadirect
+  email: info@lasiestaresorts.com
 - name: Almanity Hoi An Resort & Spa
   tier: 5
   tier_official: false
@@ -86,6 +89,9 @@ hotels:
   coords:
     lat: 15.8836
     lng: 108.3275049
+  phone: +84 235 3666 888
+  website: https://book-directonline.com/properties/almanityhoianresort&spadirect
+  email: reservation@almanityhoian.com
 - name: Silkotel Hoi An
   tier: 4
   tier_official: true
@@ -131,6 +137,9 @@ hotels:
   cons_he:
   - מלון עירוני, בלי נוף לשדות
   - חדרים לכביש שומעים תנועה
+  phone: '+842353963399'
+  website: https://silkotelhoian.com/
+  email: info@silkotelhoian.com
 - name: Lasenta Boutique Hotel Hoian
   tier: 4
   tier_official: true
@@ -176,6 +185,9 @@ hotels:
   cons_he:
   - רחוק מדי להליכה לעיר העתיקה בלילה
   - שעות ההסעה מגבילות
+  phone: '+842353933552'
+  website: https://lasentahotel.com/
+  email: info@lasentahotel.com
 - name: Hoian Central Hotel
   tier: 3
   tier_official: true
@@ -368,6 +380,9 @@ attractions:
   price_unit: entry
   price_low: 2.0
   price_high: 3.0
+  phone: '+842363961114'
+  website: https://nguhanhson.org/
+  email: danhthangnhs@gmail.com
 - name: An Bang Beach surf lesson
   area: An Bang Beach, ~3km east of Old Town
   what: A stretch of sandy beach with gentle, beginner-friendly waves, where expat-run
@@ -846,6 +861,10 @@ spa:
   price_unit: per_hour
   price_low: 15.0
   price_high: 30.0
+  phone: '+84796813888'
+  website: https://herbalspa.vn/en/hoi-an
+  whatsapp: '+84796813888'
+  email: herbalspaanthuong@gmail.com
 - name: Ocean Spa Hoi An
   area: Near An Bang Beach
   what: A spa near An Bang beach offering body, foot and herbal treatments away from
@@ -869,6 +888,10 @@ spa:
   price_unit: per_hour
   price_low: 12.0
   price_high: 25.0
+  phone: '+84935558220'
+  website: https://www.oceanspahoian.com/
+  whatsapp: '+84935558220'
+  email: oceanspahoian@gmail.com
 diving:
 - name: Cham Island snorkeling / diving day trip
   area: Cu Lao Cham, ~15-20 minutes by speedboat from Cua Dai
